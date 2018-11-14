@@ -3,7 +3,7 @@
 <node TEXT="Vue" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1540806433920" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -268,7 +268,7 @@
 </node>
 <node TEXT="&#x6e32;&#x67d3;&#x5217;&#x8868;" ID="ID_379455606" CREATED="1540864279076" MODIFIED="1540864287919">
 <node TEXT="v-for" ID="ID_187802026" CREATED="1540864288196" MODIFIED="1540864291079"/>
-<node ID="ID_793645783" CREATED="1540864500928" MODIFIED="1540864500928"><richcontent TYPE="NODE">
+<node ID="ID_793645783" CREATED="1540864500928" MODIFIED="1542101139765"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -278,6 +278,7 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;div </font></span><span style="color: #bababa"><font color="#bababa">id=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;app-4&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">    &lt;p </span></font><span style="color: #bababa"><font color="#bababa">v-for=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;todo in todos&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>{{ <span style="color: #bababa"><font color="#bababa">todo</font></span>.<span style="color: #bababa"><font color="#bababa">text </font></span>}}<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/p&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&lt;/div&gt;<br/></span><span style="color: #e8bf6a"><br/></span><span style="color: #e8bf6a">&lt;script&gt;<br/></span><span style="color: #e8bf6a">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>app4 = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Vue({<br/>        <span style="color: #9876aa"><font color="#9876aa">el</font></span>: <span style="color: #6a8759"><font color="#6a8759">'#app-4'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #9876aa"><font color="#9876aa">data</font></span>: {<br/>            <span style="color: #9876aa"><font color="#9876aa">todos</font></span>: [<br/>                {<span style="color: #9876aa"><font color="#9876aa">text</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23398;&#20064;</font></span><span style="color: #6a8759"><font color="#6a8759"> JavaScript'</font></span>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                </span></font>{<span style="color: #9876aa"><font color="#9876aa">text</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23398;&#20064;</font></span><span style="color: #6a8759"><font color="#6a8759"> Vue'</font></span>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                </span></font>{<span style="color: #9876aa"><font color="#9876aa">text</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#25972;&#20010;&#39033;&#30446;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span>}<br/>            ]<br/>        }<br/>    })</pre>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="&#x65b0;&#x52a0;&#x5165;&#x5217;&#x8868;&#x7684;&#x5143;&#x7d20;&#x4e5f;&#x80fd;&#x5b9e;&#x65f6;&#x6e32;&#x67d3;" ID="ID_1383293179" CREATED="1540864574172" MODIFIED="1540864599878">
@@ -391,6 +392,7 @@
 <node TEXT="// &#x8bbe;&#x7f6e;&#x5c5e;&#x6027;&#x4e5f;&#x4f1a;&#x5f71;&#x54cd;&#x5230;&#x539f;&#x59cb;&#x6570;&#x636e;&#xa;vm.a = 2&#xa;data.a // =&gt; 2&#xa;&#xa;// &#x2026;&#x2026;&#x53cd;&#x4e4b;&#x4ea6;&#x7136;&#xa;data.a = 3&#xa;vm.a // =&gt; 3" ID="ID_959262252" CREATED="1540868911356" MODIFIED="1540868912921"/>
 </node>
 <node TEXT="&#x540e;&#x671f;&#x624d;&#x6dfb;&#x52a0;&#x7684;&#x5c5e;&#x6027;" ID="ID_71533249" CREATED="1540868993873" MODIFIED="1540869029607">
+<node TEXT="&#x5f53;&#x5b9e;&#x4f8b;&#x521b;&#x5efa;&#x65f6;,data &#x4e2d;&#x5b58;&#x5728;&#x7684;&#x5c5e;&#x6027;&#x624d;&#x662f;&#x54cd;&#x5e94;&#x5f0f;&#x7684;" ID="ID_354710519" CREATED="1542102641711" MODIFIED="1542102712481"/>
 <node TEXT=" &#x6dfb;&#x52a0;&#x4e00;&#x4e2a;&#x65b0;&#x7684;&#x5c5e;&#x6027;&#x4e0d;&#x4f1a;&#x89e6;&#x53d1;&#x4efb;&#x4f55;&#x89c6;&#x56fe;&#x7684;&#x66f4;&#x65b0;" ID="ID_149418010" CREATED="1540869040733" MODIFIED="1540869049671"/>
 <node TEXT="&#x7ed9;&#x672a;&#x4f7f;&#x7528;&#x5c5e;&#x6027;&#x6dfb;&#x52a0;&#x521d;&#x59cb;&#x503c;,&#x5982;0" ID="ID_482216622" CREATED="1540869065187" MODIFIED="1540869097579"/>
 </node>
@@ -511,20 +513,7 @@
 <node TEXT="&#x4f7f;&#x7528; v-bind &#x6307;&#x4ee4;" ID="ID_1472293760" CREATED="1540871566578" MODIFIED="1540871574767"/>
 </node>
 <node TEXT="JavaSccript&#x8868;&#x8fbe;&#x5f0f;" ID="ID_1340882731" CREATED="1540879919031" MODIFIED="1540879929897">
-<node ID="ID_1172298084" CREATED="1540880034883" MODIFIED="1540880034883"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#27599;&#20010;&#32465;&#23450;&#21482;&#33021;&#21253;&#21547;&#21333;&#20010;&#34920;&#36798;&#24335;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
+<node TEXT="&#x6bcf;&#x4e2a;&#x7ed1;&#x5b9a;&#x53ea;&#x80fd;&#x5305;&#x542b;&#x5355;&#x4e2a;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_1172298084" CREATED="1540880034883" MODIFIED="1542103826761"/>
 </node>
 </node>
 <node TEXT="&#x6307;&#x4ee4;" ID="ID_543926444" CREATED="1540871498514" MODIFIED="1540880094716">
