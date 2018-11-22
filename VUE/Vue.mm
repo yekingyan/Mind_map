@@ -1210,6 +1210,9 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="&#x7ed3;&#x679c;" ID="ID_1803457390" CREATED="1542790379338" MODIFIED="1542790381499">
+<node TEXT="Parent-0-Foo&#xa;Parent-1-Bar" ID="ID_504234262" CREATED="1542790382019" MODIFIED="1542790426091"/>
+</node>
 </node>
 <node TEXT="&#x7528; of &#x66ff;&#x4ee3; in" ID="ID_683060568" CREATED="1540890683233" MODIFIED="1540890691014">
 <node TEXT="of &#x662f;&#x6700;&#x63a5;&#x8fd1; JavaScript &#x8fed;&#x4ee3;&#x5668;&#x7684;&#x8bed;&#x6cd5;" ID="ID_13837186" CREATED="1540890691576" MODIFIED="1540890700026"/>
@@ -1242,6 +1245,9 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="&#x7ed3;&#x679c;" ID="ID_1151852137" CREATED="1542790586018" MODIFIED="1542790590585">
+<node TEXT="John&#xa;Doe&#xa;30" ID="ID_428539726" CREATED="1542790592370" MODIFIED="1542790671641"/>
+</node>
 </node>
 <node TEXT=" &#x63d0;&#x4f9b;&#x7b2c;&#x4e8c;&#x4e2a;&#x7684;&#x53c2;&#x6570;&#x4e3a;&#x952e;&#x540d;" ID="ID_1679874341" CREATED="1540890881687" MODIFIED="1540890883882">
 <node ID="ID_317053558" CREATED="1540890974360" MODIFIED="1540890974360"><richcontent TYPE="NODE">
@@ -1273,8 +1279,11 @@
 </node>
 </node>
 <node TEXT="key" ID="ID_1835009660" CREATED="1540891036624" MODIFIED="1540891038312">
+<node TEXT="&#x4f5c;&#x7528;" ID="ID_157919273" CREATED="1542791151330" MODIFIED="1542791153413">
+<node TEXT=" &#x8ddf;&#x8e2a;&#x6bcf;&#x4e2a;&#x8282;&#x70b9;&#x7684;&#x8eab;&#x4efd;&#xff0c;&#x4ece;&#x800c;&#x91cd;&#x7528;&#x548c;&#x91cd;&#x65b0;&#x6392;&#x5e8f;&#x73b0;&#x6709;&#x5143;&#x7d20;" ID="ID_1047005643" CREATED="1542791153938" MODIFIED="1542791156383"/>
+</node>
 <node TEXT="  &#x7528; v-for &#x6b63;&#x5728;&#x66f4;&#x65b0;&#x5df2;&#x6e32;&#x67d3;&#x8fc7;&#x7684;&#x5143;&#x7d20;&#x5217;&#x8868;&#x65f6;&#xff0c;&#xa;&#x5b83;&#x9ed8;&#x8ba4;&#x7528;&#x201c;&#x5c31;&#x5730;&#x590d;&#x7528;&#x201d;&#x7b56;&#x7565;" ID="ID_817559582" CREATED="1540891194829" MODIFIED="1540891207139"/>
-<node TEXT="&#x4e0d;&#x7528;key &#x9002;&#x7528;" ID="ID_1721229598" CREATED="1540891258374" MODIFIED="1540891263560">
+<node TEXT="&#x5982;&#x679c;&#x4e0d;&#x7528;key&#xff0c;&#x53ea;&#x9002;&#x7528;&#x4e8e;" ID="ID_1721229598" CREATED="1540891258374" MODIFIED="1542791118607">
 <node TEXT="&#x4e0d;&#x4f9d;&#x8d56;&#x5b50;&#x7ec4;&#x4ef6;&#x72b6;&#x6001;" ID="ID_1083805068" CREATED="1540891268485" MODIFIED="1540891271249"/>
 <node TEXT=" &#x4e34;&#x65f6; DOM &#x72b6;&#x6001; (&#x4f8b;&#x5982;&#xff1a;&#x8868;&#x5355;&#x8f93;&#x5165;&#x503c;) &#x7684;&#x5217;&#x8868;&#x6e32;&#x67d3;&#x8f93;&#x51fa;" ID="ID_1915527670" CREATED="1540891277779" MODIFIED="1540891279139"/>
 </node>
@@ -1291,6 +1300,7 @@
 </html>
 </richcontent>
 </node>
+<node TEXT=" &#x5b83;&#x7684;&#x5de5;&#x4f5c;&#x65b9;&#x5f0f;&#x7c7b;&#x4f3c;&#x4e8e;&#x4e00;&#x4e2a;&#x5c5e;&#x6027;&#xff0c;&#x6240;&#x4ee5;&#x4f60;&#x9700;&#x8981;&#x7528; v-bind &#x6765;&#x7ed1;&#x5b9a;&#x52a8;&#x6001;&#x503c;" ID="ID_33731737" CREATED="1542791175339" MODIFIED="1542791178104"/>
 </node>
 </node>
 <node TEXT="&#x6570;&#x7ec4;&#x66f4;&#x65b0;&#x68c0;&#x6d4b;" ID="ID_1645807772" CREATED="1540891352498" MODIFIED="1540891358653">

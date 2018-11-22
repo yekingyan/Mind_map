@@ -7,18 +7,30 @@ import os
 shell_command = "./auto_git.sh"
 
 # 定时运行点
-timing = 10
+timing = 20
+
+
+def log(*args, **kwargs):
+    """
+    写入log.txt文件，带有输出时间
+    """
+    format = '%Y%m%d-%H:%M:%S'
+    value = time.localtime(int(time.time()))
+    dt = time.strftime(format, value)
+    print("log:", dt, *args, **kwargs)
+    with open('log.txt', 'a', encoding='utf-8') as f:
+        print(dt, *args, file=f, **kwargs)
 
 
 def shell(command):
     run_command = os.popen(command).read()
-    print(run_command)
+    log(run_command)
 
 
 def main():
     shell(shell_command)
     global timer
-    timer = threading.Timer(5, main)
+    timer = threading.Timer(86400, main)
     timer.start()
 
 
@@ -38,13 +50,15 @@ def is_right_time():
     """
     检测时间是否到点了
     """
-    if running_time(timing):
-        main()
-    else:
-        print(f"not a good time ---> 等待 {timing} 点")
-        global timer_check_time
-        timer_check_time = threading.Timer(5, is_right_time)
+    global timer_check_time
+    timer_check_time = threading.Timer(5, is_right_time)
+    # print('当前线程数为{}'.format(threading.activeCount()))
+    if running_time(timing) is not True:
+        log(f"not a good time ---> 等待 {timing} 点")
         timer_check_time.start()
+    else:
+        timer_check_time.cancel()
+        main() 
 
 
 if __name__ == '__main__':
