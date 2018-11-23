@@ -1,2 +1,5 @@
 .idea
 log.txt
+.idea/*
+VUE/vueJS/.idea
+VUE/vueJS/.idea/*

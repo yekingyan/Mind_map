@@ -1,8 +1,7 @@
-<template v-if="loginType === 'username'">
-    <label>Username</label>
-    <input placeholder="Enter your username">
-</template>
-<template v-else>
-    <label>Email</label>
-    <input placeholder="Enter your email address">
-</template>
+<script>
+
+    vm.userProfile = Object.assign({}, vm.userProfile, {
+        age: 27,
+        favoriteColor: 'Vue Green'
+    })
+</script>
