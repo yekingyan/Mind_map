@@ -2,6 +2,11 @@
 
     vm.userProfile = Object.assign({}, vm.userProfile, {
         age: 27,
-        favoriteColor: 'Vue Green'
+        favoriteColor: 'Vue Green',
+
+    })
+    Vue.component('blog-post', {
+        props: ['title'],
+        template: '<h3>{{ title }}</h3>',
     })
 </script>
