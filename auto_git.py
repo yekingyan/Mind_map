@@ -51,7 +51,7 @@ def is_right_time():
     检测时间是否到点了
     """
     global timer_check_time
-    timer_check_time = threading.Timer(5, is_right_time)
+    timer_check_time = threading.Timer(60, is_right_time)
     # print('当前线程数为{}'.format(threading.activeCount()))
     if running_time(timing) is not True:
         log(f"not a good time ---> 等待 {timing} 点")
@@ -60,7 +60,12 @@ def is_right_time():
         timer_check_time.cancel()
         main() 
 
+def del_log():
+    if os.path.exists('log.txt'):
+        os.remove('log.txt')
+
 
 if __name__ == '__main__':
     # main()
+    del_log()
     is_right_time()
