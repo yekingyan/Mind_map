@@ -10,3 +10,20 @@
         template: '<h3>{{ title }}</h3>',
     })
 </script>
+
+<script>
+    function deRepeate(arr) {
+        return [...new Set(arr)]
+    }
+
+    // ES6
+    function unique(arr) {
+        const seen = new Map()
+        return arr.filter((a) => !seen.has(a) && seen.set(a, 1))
+    }
+
+    // or
+    function unique(arr) {
+        return Array.from(new Set(arr))
+    }
+</script>

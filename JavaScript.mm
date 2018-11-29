@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="117" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="118" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x6761;&#x4ef6;(&#x4e09;&#x5143;)&#x8fd0;&#x7b97;&#x7b26;" FOLDED="true" POSITION="right" ID="ID_1533474054" CREATED="1541639502335" MODIFIED="1541640532405">
 <edge COLOR="#7c0000"/>
@@ -346,7 +346,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 11.3pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>obj = { <span style="color: #9876aa"><font color="#9876aa">a</font></span>: <span style="color: #6897bb"><font color="#6897bb">1 </font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>copy = Object.<span style="color: #ffc66d"><font color="#ffc66d">assign</font></span>({}<span style="color: #cc7832"><font color="#cc7832">, </font></span>obj)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(copy)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// { a: 1 }</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -363,7 +362,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 11.3pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>obj1 = { <span style="color: #9876aa"><font color="#9876aa">a</font></span>: <span style="color: #6897bb"><font color="#6897bb">0 </font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">b</font></span>: { <span style="color: #9876aa"><font color="#9876aa">c</font></span>: <span style="color: #6897bb"><font color="#6897bb">0</font></span>}}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>let </b></span></font>obj2 = Object.<span style="color: #ffc66d"><font color="#ffc66d">assign</font></span>({}<span style="color: #cc7832"><font color="#cc7832">, </font></span>obj1)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(JSON.<span style="color: #ffc66d"><font color="#ffc66d">stringify</font></span>(obj2))<span style="color: #cc7832"><font color="#cc7832">; <br/></font></span><span style="color: #808080"><font color="#808080">// { a: 0, b: { c: 0}}<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>obj2.<span style="color: #9876aa"><font color="#9876aa">b</font></span>.<span style="color: #9876aa"><font color="#9876aa">c </font></span>= <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(JSON.<span style="color: #ffc66d"><font color="#ffc66d">stringify</font></span>(obj1))<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #808080"><font color="#808080">// { a: 1, b: { c: 3}}<br/></font></span><font color="#808080"><span style="color: #808080">  </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(JSON.<span style="color: #ffc66d"><font color="#ffc66d">stringify</font></span>(obj2))<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #808080"><font color="#808080">// { a: 2, b: { c: 3}}</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -380,7 +378,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 11.3pt"><span style="color: #808080"><font color="#808080">// Deep Clone<br/></font></span><font color="#808080"><span style="color: #808080">  </span></font><span style="color: #9876aa"><font color="#9876aa">obj1 </font></span>= { <span style="color: #9876aa"><font color="#9876aa">a</font></span>: <span style="color: #6897bb"><font color="#6897bb">0 </font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">b</font></span>: { <span style="color: #9876aa"><font color="#9876aa">c</font></span>: <span style="color: #6897bb"><font color="#6897bb">0</font></span>}}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span><span style="color: #cc7832; font-weight: bold"><b>let </b></span></font>obj3 = JSON.<span style="color: #ffc66d"><font color="#ffc66d">parse</font></span>(JSON.<span style="color: #ffc66d"><font color="#ffc66d">stringify</font></span>(<span style="color: #9876aa"><font color="#9876aa">obj1</font></span>))<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #9876aa"><font color="#9876aa">obj1</font></span>.<span style="color: #9876aa"><font color="#9876aa">a </font></span>= <span style="color: #6897bb"><font color="#6897bb">4</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #9876aa"><font color="#9876aa">obj1</font></span>.<span style="color: #9876aa"><font color="#9876aa">b</font></span>.<span style="color: #9876aa"><font color="#9876aa">c </font></span>= <span style="color: #6897bb"><font color="#6897bb">4</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(JSON.<span style="color: #ffc66d"><font color="#ffc66d">stringify</font></span>(obj3))<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// { a: 0, b: { c: 0}}<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -397,7 +394,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 11.3pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>o1 = { <span style="color: #9876aa"><font color="#9876aa">a</font></span>: <span style="color: #6897bb"><font color="#6897bb">1 </font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>o2 = { <span style="color: #9876aa"><font color="#9876aa">b</font></span>: <span style="color: #6897bb"><font color="#6897bb">2 </font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>o3 = { <span style="color: #9876aa"><font color="#9876aa">c</font></span>: <span style="color: #6897bb"><font color="#6897bb">3 </font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>obj = Object.<span style="color: #ffc66d"><font color="#ffc66d">assign</font></span>(o1<span style="color: #cc7832"><font color="#cc7832">, </font></span>o2<span style="color: #cc7832"><font color="#cc7832">, </font></span>o3)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(obj)<span style="color: #cc7832"><font color="#cc7832">; <br/></font></span><span style="color: #808080"><font color="#808080">// { a: 1, b: 2, c: 3 }<br/></font></span>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(o1)<span style="color: #cc7832"><font color="#cc7832">;  <br/></font></span><span style="color: #808080"><font color="#808080">// { a: 1, b: 2, c: 3 }, </font></span><span style="color: #808080; font-family: AR PL UKai CN"><font color="#808080" face="AR PL UKai CN">&#27880;&#24847;&#30446;&#26631;&#23545;&#35937;&#33258;&#36523;&#20063;&#20250;&#25913;&#21464;&#12290;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -412,10 +408,70 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 11.3pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>o1 = { <span style="color: #9876aa"><font color="#9876aa">a</font></span>: <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">b</font></span>: <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">c</font></span>: <span style="color: #6897bb"><font color="#6897bb">1 </font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>o2 = { <span style="color: #9876aa"><font color="#9876aa">b</font></span>: <span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">c</font></span>: <span style="color: #6897bb"><font color="#6897bb">2 </font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>o3 = { <span style="color: #9876aa"><font color="#9876aa">c</font></span>: <span style="color: #6897bb"><font color="#6897bb">3 </font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>obj = Object.<span style="color: #ffc66d"><font color="#ffc66d">assign</font></span>({}<span style="color: #cc7832"><font color="#cc7832">, </font></span>o1<span style="color: #cc7832"><font color="#cc7832">, </font></span>o2<span style="color: #cc7832"><font color="#cc7832">, </font></span>o3)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(obj)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// { a: 1, b: 2, c: 3 }</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x5c5e;&#x6027;&#x88ab;&#x540e;&#x7eed;&#x53c2;&#x6570;&#x4e2d;&#x5177;&#x6709;&#x76f8;&#x540c;&#x5c5e;&#x6027;&#x7684;&#x5176;&#x4ed6;&#x5bf9;&#x8c61;&#x8986;&#x76d6;" ID="ID_556233485" CREATED="1541758701290" MODIFIED="1541758702672"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x6570;&#x7ec4;&#x53bb;&#x91cd;" POSITION="right" ID="ID_115874455" CREATED="1543477742703" MODIFIED="1543477752740">
+<edge COLOR="#007c00"/>
+<node TEXT=" &#x7528;set &#x53bb;&#x91cd;&#x6570;&#x7ec4;" ID="ID_1668055622" CREATED="1543477753521" MODIFIED="1543477766641">
+<node ID="ID_1260203114" CREATED="1543479324822" MODIFIED="1543479324822"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">unique</font></span>(arr) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>Array.<span style="color: #ffc66d"><font color="#ffc66d">from</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Set(arr))<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_226795178" CREATED="1543479336023" MODIFIED="1543479336023"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">deRepeate</font></span>(arr) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>[...new Set(arr)]<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7528;Map &#x53bb;&#x91cd;&#x6570;&#x7ec4;" ID="ID_1608572996" CREATED="1543479279510" MODIFIED="1543485993935">
+<node ID="ID_1814132369" CREATED="1543479342382" MODIFIED="1543479342382"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">unique</font></span>(arr) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>const </b></font></span>seen = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Map()<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">filter</font></span>((a) =&gt; !seen.<span style="color: #ffc66d"><font color="#ffc66d">has</font></span>(a) &amp;&amp; seen.<span style="color: #ffc66d"><font color="#ffc66d">set</font></span>(a<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span>))<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="reduce" ID="ID_1984173116" CREATED="1543479286599" MODIFIED="1543479383893">
+<node ID="ID_1508109007" CREATED="1543479302535" MODIFIED="1543479302535"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">uniteUnique</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>const </b></font></span>list = [].<span style="color: #ffc66d"><font color="#ffc66d">concat</font></span>(...arguments)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>return </b></span></font>list.<span style="color: #ffc66d"><font color="#ffc66d">reduce</font></span>((oldlist<span style="color: #cc7832"><font color="#cc7832">, </font></span>nowitem) =&gt; oldlist.<span style="color: #ffc66d"><font color="#ffc66d">includes</font></span>(nowitem) ? oldlist : [...oldlist<span style="color: #cc7832"><font color="#cc7832">, </font></span>nowitem]<span style="color: #cc7832"><font color="#cc7832">, </font></span>[])<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
