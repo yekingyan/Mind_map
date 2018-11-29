@@ -12,18 +12,18 @@
 </script>
 
 <script>
-    function deRepeate(arr) {
-        return [...new Set(arr)]
-    }
+    function distinct(a, b) {
+        let arr = a.concat(b)
+        let result = []
+        let obj = {}
 
-    // ES6
-    function unique(arr) {
-        const seen = new Map()
-        return arr.filter((a) => !seen.has(a) && seen.set(a, 1))
-    }
+        for (let i of arr) {
+            if (!obj[i]) {
+                result.push(i)
+                obj[i] = 1
+            }
+        }
 
-    // or
-    function unique(arr) {
-        return Array.from(new Set(arr))
+        return result
     }
 </script>

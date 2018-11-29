@@ -427,7 +427,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">unique</font></span>(arr) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>Array.<span style="color: #ffc66d"><font color="#ffc66d">from</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Set(arr))<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_226795178" CREATED="1543479336023" MODIFIED="1543479336023"><richcontent TYPE="NODE">
@@ -440,7 +439,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">deRepeate</font></span>(arr) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>[...new Set(arr)]<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -455,7 +453,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">unique</font></span>(arr) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>const </b></font></span>seen = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Map()<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">filter</font></span>((a) =&gt; !seen.<span style="color: #ffc66d"><font color="#ffc66d">has</font></span>(a) &amp;&amp; seen.<span style="color: #ffc66d"><font color="#ffc66d">set</font></span>(a<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span>))<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -468,6 +465,22 @@
   </head>
   <body>
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">uniteUnique</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>const </b></font></span>list = [].<span style="color: #ffc66d"><font color="#ffc66d">concat</font></span>(...arguments)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>return </b></span></font>list.<span style="color: #ffc66d"><font color="#ffc66d">reduce</font></span>((oldlist<span style="color: #cc7832"><font color="#cc7832">, </font></span>nowitem) =&gt; oldlist.<span style="color: #ffc66d"><font color="#ffc66d">includes</font></span>(nowitem) ? oldlist : [...oldlist<span style="color: #cc7832"><font color="#cc7832">, </font></span>nowitem]<span style="color: #cc7832"><font color="#cc7832">, </font></span>[])<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" for...of + Object" ID="ID_1879437147" CREATED="1543486590647" MODIFIED="1543486592570">
+<node TEXT=" &#x9996;&#x5148;&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x7a7a;&#x5bf9;&#x8c61;&#xff0c;&#x7136;&#x540e;&#x7528; for &#x5faa;&#x73af;&#x904d;&#x5386;" ID="ID_1711261096" CREATED="1543486599661" MODIFIED="1543486601122"/>
+<node TEXT=" &#x5229;&#x7528;&#x5bf9;&#x8c61;&#x7684;&#x5c5e;&#x6027;&#x4e0d;&#x4f1a;&#x91cd;&#x590d;&#x8fd9;&#x4e00;&#x7279;&#x6027;&#xff0c;&#x6821;&#x9a8c;&#x6570;&#x7ec4;&#x5143;&#x7d20;&#x662f;&#x5426;&#x91cd;&#x590d;" ID="ID_1748278835" CREATED="1543486605535" MODIFIED="1543486607792"/>
+<node ID="ID_323776272" CREATED="1543486626770" MODIFIED="1543486626770"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">distinct</font></span>(a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>arr = a.<span style="color: #ffc66d"><font color="#ffc66d">concat</font></span>(b)<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>result = []<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>obj = {}<br/><br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for </b></font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>i <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>of </b></font></span>arr) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(!obj[i]) {<br/>            result.<span style="color: #ffc66d"><font color="#ffc66d">push</font></span>(i)<br/>            obj[i] = <span style="color: #6897bb"><font color="#6897bb">1<br/></font></span><font color="#6897bb"><span style="color: #6897bb">        </span></font>}<br/>    }<br/><br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>result<br/>}</pre>
   </body>
 </html>
 
