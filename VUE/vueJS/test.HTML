@@ -1,14 +1,30 @@
+<custom-input
+        v-bind:value="searchText"
+        v-on:input="searchText = $event"
+></custom-input>
+
 <script>
 
-    vm.userProfile = Object.assign({}, vm.userProfile, {
-        age: 27,
-        favoriteColor: 'Vue Green',
+    new Vue({
+        el: '#blog-posts-events-demo',
+        data: {
+            posts: [/* ... */],
+            postFontSize: 1
+        }
+    })
 
+    Vue.component('custom-input', {
+        props: ['value'],
+        template: `
+    <input
+      v-bind:value="value"
+      v-on:input="$emit('input', $event.target.value)"
+    >
+  `
     })
-    Vue.component('blog-post', {
-        props: ['title'],
-        template: '<h3>{{ title }}</h3>',
-    })
+
+
+
 </script>
 
 <script>
