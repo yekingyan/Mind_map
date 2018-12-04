@@ -3,27 +3,16 @@
         v-on:input="searchText = $event"
 ></custom-input>
 
-<script>
 
+<script>
     new Vue({
-        el: '#blog-posts-events-demo',
-        data: {
-            posts: [/* ... */],
-            postFontSize: 1
+        props: ['size'],
+        computed: {
+            normalizedSize: function () {
+                return this.size.trim().toLowerCase()
+            }
         }
     })
-
-    Vue.component('custom-input', {
-        props: ['value'],
-        template: `
-    <input
-      v-bind:value="value"
-      v-on:input="$emit('input', $event.target.value)"
-    >
-  `
-    })
-
-
 
 </script>
 
