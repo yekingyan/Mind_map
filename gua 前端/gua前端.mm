@@ -3,7 +3,7 @@
 <node TEXT="gua&#x524d;&#x7aef;" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1543146691025" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="94" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="95" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="4" OBJECT="java.lang.Long|4" POSITION="right" ID="ID_411565606" CREATED="1543146731657" MODIFIED="1543146737225">
 <edge COLOR="#00ff00"/>
@@ -457,7 +457,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>user = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id-input-username'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -475,7 +474,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>userValue = user.<span style="color: #ffc66d"><font color="#ffc66d">getAttribute</font></span>(<span style="color: #6a8759"><font color="#6a8759">'value'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -490,7 +488,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>user = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id-input-username'</font></span>)<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>userValue = user.<span style="color: #ffc66d"><font color="#ffc66d">getAttribute</font></span>(<span style="color: #6a8759"><font color="#6a8759">'value'</font></span>)<br/>user.<span style="color: #ffc66d"><font color="#ffc66d">setAttribute</font></span>(<span style="color: #6a8759"><font color="#6a8759">'value'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'&#26032;&#30340;&#29992;&#25143;&#21517;'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="user.setAttribute(&apos;value&apos;, &apos;&#x65b0;&#x7684;&#x7528;&#x6237;&#x540d;&apos;)" ID="ID_1518703063" CREATED="1544021772585" MODIFIED="1544021800347"/>
@@ -507,7 +504,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(user.<span style="color: #ffc66d"><font color="#ffc66d">hasAttribute</font></span>())</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -522,7 +518,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(user.<span style="color: #ffc66d"><font color="#ffc66d">hasAttribute</font></span>(<span style="color: #6a8759"><font color="#6a8759">'value'</font></span>))</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -538,7 +533,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">user.<span style="color: #ffc66d"><font color="#ffc66d">removeAttribute</font></span>(<span style="color: #6a8759"><font color="#6a8759">'value'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -553,7 +547,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>attributes = user.attributes</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x53ea;&#x6709;&#x5c5e;&#x6027;&#x6ca1;&#x6709;&#x5c5e;&#x6027;&#x503c;" ID="ID_1372712945" CREATED="1544023171131" MODIFIED="1544023185381"/>
@@ -573,7 +566,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>button = document.<span style="color: #ffc66d"><font color="#ffc66d">createElement</font></span>(<span style="color: #6a8759"><font color="#6a8759">'button'</font></span>)<br/><span style="color: #808080"><font color="#808080">// &#35774;&#32622;&#23646;&#24615;&#65292;&#21542;&#21017;&#26032;&#21019;&#24314;&#30340;&#25353;&#38062;&#26159;&#31354;&#30340; &#21017;&lt;button&gt;&lt;/button&gt;<br/></font></span>button.innerHTML = <span style="color: #6a8759"><font color="#6a8759">'&#27880;&#20876;&#29992;&#25143;'<br/></font></span><span style="color: #808080"><font color="#808080">// &#35774;&#32622;&#23646;&#24615;&#20043;&#21518;&#65292;&lt;button&gt;&#27880;&#20876;&#29992;&#25143;&lt;/button&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -590,7 +582,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080">// appendChild &#32473;&#19968;&#20010;&#20803;&#32032;&#28155;&#21152;&#23376;&#20803;&#32032;<br/></font></span><font color="#808080"><span style="color: #808080">// button &#26159;&#21018;&#21019;&#24314;&#22909;&#30340;&#25353;&#38062;<br/></span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>form = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'.login-form'</font></span>)<br/>form.<span style="color: #ffc66d"><font color="#ffc66d">appendChild</font></span>(button)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -605,7 +596,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">form.<span style="color: #ffc66d"><font color="#ffc66d">insertAdjacentElement</font></span>(<span style="color: #6a8759"><font color="#6a8759">'beforebegin'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'&lt;a href=&quot;#&quot;&gt;&#38142;&#25509;&lt;/a&gt;'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -622,7 +612,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080">//form &#26159; pwd &#26159;&#29238;&#33410;&#28857;<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>pwd = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id-input-password'</font></span>)<br/>form.<span style="color: #ffc66d"><font color="#ffc66d">removeChild</font></span>(pwd)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_290874113" CREATED="1544024038491" MODIFIED="1544024075468"><richcontent TYPE="NODE">
@@ -635,7 +624,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>pwd = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id-input-password'</font></span>)<br/>pwd.parentElement.<span style="color: #ffc66d"><font color="#ffc66d">removeChild</font></span>(pwd)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -649,10 +637,133 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>pwd = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id-input-password'</font></span>)<br/>pwd.<span style="color: #ffc66d"><font color="#ffc66d">remove</font></span>()</pre>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;" ID="ID_733506631" CREATED="1544103273652" MODIFIED="1544103365072">
+<node TEXT="&#x4e8b;&#x4ef6;&#x662f;&#x7528;&#x6765;&#x5904;&#x7406;&#x54cd;&#x5e94;&#x7684;&#x4e00;&#x4e2a;&#x673a;&#x5236;" ID="ID_813107356" CREATED="1544103365805" MODIFIED="1544103386738"/>
+<node TEXT="even" ID="ID_125952126" CREATED="1544103798811" MODIFIED="1544103801445">
+<node TEXT="&#x6d4f;&#x89c8;&#x5668;&#x4f1a;&#x7ed9;&#x4e8b;&#x4ef6;&#x54cd;&#x5e94;&#x51fd;&#x6570;&#x4f20;&#x9012;&#x4e00;&#x4e2a;&#x53c2;&#x6570;&#xff0c;&#x5b83;&#x4ee3;&#x8868;&#x4e8b;&#x4ef6;&#x672c;&#x8eab;&#x3002;&#x4e00;&#x822c;&#x8d77;&#x540d;&#x4e3a;&quot;even&quot;" ID="ID_804305967" CREATED="1544103706963" MODIFIED="1544103757573"/>
+</node>
+<node TEXT="event.tatger" ID="ID_1374069740" CREATED="1544103762995" MODIFIED="1544103774621">
+<node TEXT="&#x7528;event.tatge&#x53d6;&#x51fa;&#x54cd;&#x5e94;&#x4e8b;&#x4ef6;&#x7684;&#x5143;&#x7d20;" ID="ID_1179937029" CREATED="1544103774923" MODIFIED="1544103787909"/>
+</node>
+<node TEXT="&#x591a;&#x4e2a;button&#x7684;&#x76d1;&#x542c;" ID="ID_1075420513" CREATED="1544103828667" MODIFIED="1544103839077">
+<node TEXT="&#x83b7;&#x53d6;" ID="ID_1602119297" CREATED="1544103839787" MODIFIED="1544103843790">
+<node ID="ID_467293473" CREATED="1544104702469" MODIFIED="1544104702469"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080">// &#36873;&#25321;&#22810;&#20010;button<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>buttons = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelectorAll</font></span>(<span style="color: #6a8759"><font color="#6a8759">'.radio-button'</font></span>)</pre>
+  </body>
+</html>
 
 </richcontent>
 </node>
 </node>
+<node TEXT="&#x76d1;&#x542c;" ID="ID_1001714790" CREATED="1544104705351" MODIFIED="1544104712649">
+<node TEXT="&#x4f8b;&#x5b50;&#x4e2d;&#x7684;active class &#xff0c;&#x7c7b;&#x4f3c;&#x7f51;&#x9875;&#x4e2d;&#x5b9a;&#x4f4d;&#x51fa;&#x5f53;&#x524d;&#x70b9;&#x51fb;&#x7684;&#x5143;&#x7d20;" ID="ID_1741368029" CREATED="1544104736046" MODIFIED="1544104794049"/>
+<node ID="ID_850584244" CREATED="1544104734415" MODIFIED="1544104734415"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for</b></font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>i = <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i &lt; buttons.length<span style="color: #cc7832"><font color="#cc7832">; </font></span>i++) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>button = buttons[i]<br/>    button.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function </b></span></font>(event) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>self = event.target<br/><br/>        <span style="color: #808080"><font color="#808080">// clearActive &#26159;&#33258;&#23450;&#20041;&#30340;<br/></font></span><font color="#808080"><span style="color: #808080">        // &#30446;&#30340;&#26159;&#21024;&#38500;&#20854;&#23427;&#20803;&#32032;&#30340;active class<br/></span><span style="color: #808080">        </span></font><span style="color: #ffc66d"><font color="#ffc66d">clearActive</font></span>()<br/>        <span style="color: #808080"><font color="#808080">// classList.add &#21487;&#20197;&#22686;&#21152;&#19968;&#20010;class<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>self.classList.<span style="color: #ffc66d"><font color="#ffc66d">add</font></span>(<span style="color: #6a8759"><font color="#6a8759">'active'</font></span>)<br/>    })<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="classList" ID="ID_328230840" CREATED="1544104416008" MODIFIED="1544104438013">
+<node TEXT="&#x7528;&#x4e8e;&#x64cd;&#x4f5c;class&#x7684; api" ID="ID_684459452" CREATED="1544104474879" MODIFIED="1544104483586"/>
+<node TEXT="self.classList" ID="ID_1001380904" CREATED="1544104448255" MODIFIED="1544104544843">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_90031914" MIDDLE_LABEL="&#x7b49;&#x540c;&#x4e8e;" STARTINCLINATION="80;0;" ENDINCLINATION="80;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="self.getAttribute(&apos;class&apos;)" ID="ID_90031914" CREATED="1544104515431" MODIFIED="1544104535442"/>
+<node TEXT="&#x83b7;&#x53d6;&#x5143;&#x7d20;&#x7684;&#x6240;&#x6709;class" ID="ID_1377728422" CREATED="1544104438296" MODIFIED="1544104447162"/>
+</node>
+<node TEXT="&#x5b9a;&#x4e49;&#x4e00;&#x4e2a;&#x51fd;&#x6570;&#xff0c;&#x9009;&#x53d6;&#x5177;&#x6709;class &#x4e3a;active&#x7684;&#x5143;&#x7d20;&#xff0c;&#x5e76;&#x79fb;&#x9664;&#x8fd9;&#x4eba;class" ID="ID_852671963" CREATED="1544104353184" MODIFIED="1544104405739">
+<node ID="ID_499758342" CREATED="1544104413467" MODIFIED="1544104413467"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">clearActive </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var  </b></font></span>active = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'.active'</font></span>)<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(active != <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>null</b></font></span>) {<br/>        active.classList.<span style="color: #ffc66d"><font color="#ffc66d">remove</font></span>(<span style="color: #6a8759"><font color="#6a8759">'active'</font></span>)<br/>    }<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="7" OBJECT="java.lang.Long|7" POSITION="right" ID="ID_659031782" CREATED="1544105314733" MODIFIED="1544105316392">
+<edge COLOR="#00007c"/>
+<node TEXT="&#x9ad8;&#x9636;&#x51fd;&#x6570;" ID="ID_196068054" CREATED="1544106162034" MODIFIED="1544106168237">
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_1531017720" CREATED="1544106168544" MODIFIED="1544106177515">
+<node TEXT="&#x51fd;&#x6570;&#x53ef;&#x4ee5;&#x4f5c;&#x4e3a;&#x53c2;&#x6570;&#x4f20;&#x9012;" ID="ID_1038956138" CREATED="1544106177800" MODIFIED="1544106189428"/>
+</node>
+<node TEXT="String()&#x51fd;&#x6570;&#x4f5c;&#x4e3a;log &#x7684;&#x53c2;&#x6570;" ID="ID_1149119895" CREATED="1544106310488" MODIFIED="1544106332274">
+<node ID="ID_1289860393" CREATED="1544106283392" MODIFIED="1544106283392"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'string'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>String(<span style="color: #6897bb"><font color="#6897bb">3.14</font></span>))</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6570;&#x7ec4;&#x5904;&#x7406;&#x5668;" ID="ID_1846608632" CREATED="1544106711413" MODIFIED="1544106864505">
+<node ID="ID_1900001016" CREATED="1544107225502" MODIFIED="1544107225502"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">process </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(array<span style="color: #cc7832"><font color="#cc7832">, </font></span>processor) {<br/>    <span style="color: #808080"><font color="#808080">/*<br/></font></span><font color="#808080"><span style="color: #808080">    array &#26159;&#19968;&#20010;&#25968;&#32452;<br/></span><span style="color: #808080">    processor &#26159;&#19968;&#20010;&#20989;&#25968;<br/></span><span style="color: #808080">    array &#30340;&#27599;&#20010;&#20803;&#32032;&#34987; processor &#22788;&#29702;&#65292;&#36820;&#22238;&#19968;&#20010;&#26032;&#30340;&#25968;&#32452;<br/></span><span style="color: #808080">    */<br/></span><span style="color: #808080">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>l = []<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for </b></font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>i = <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i &lt; array.<span style="color: #9876aa"><font color="#9876aa">length</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i++) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>a = array[i]<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>element = processor(a)<br/>        <span style="color: #808080"><font color="#808080">// &#21482;&#28155;&#21152;&#19981;&#20026;&#31354;&#30340;&#20803;&#32032;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if</b></font></span>(element) {<br/>            l.<span style="color: #ffc66d"><font color="#ffc66d">push</font></span>(element)<br/>        }<br/>    }<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>l<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x51fd;&#x6570;&#x53ea;&#x9700;&#x8981;&#x5199;&#x4e00;&#x6b21;&#xff0c; &#x6839;&#x636e;&#x5177;&#x4f53;&#x60c5;&#x51b5;&#x6539;&#x53d8;&#x4f20;&#x5165;&#x7684;&#x53c2;&#x6570;" ID="ID_692282687" CREATED="1544106714357" MODIFIED="1544106790223"/>
+<node ID="ID_1352534081" CREATED="1544109313976" MODIFIED="1544109313976"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">array.<span style="color: #ffc66d"><font color="#ffc66d">map</font></span>(processor)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5bf9;&#x8c61;&#x5904;&#x7406;&#x5668;" ID="ID_92821305" CREATED="1544108833820" MODIFIED="1544108839535"/>
+</node>
+<node TEXT="&#x533f;&#x540d;&#x51fd;&#x6570;" ID="ID_1122653502" CREATED="1544108881628" MODIFIED="1544108891239">
+<node TEXT="fuction(){}" ID="ID_1375992431" CREATED="1544108892939" MODIFIED="1544108905086"/>
+</node>
+<node TEXT="setInterval(func, time)" ID="ID_525053120" CREATED="1544110754675" MODIFIED="1544110821709">
+<node TEXT="&#x591a;&#x5c11;&#x6beb;&#x79d2;&#x5faa;&#x73af;&#x6267;&#x884c;func()&#x51fd;&#x6570;" ID="ID_1734383169" CREATED="1544110773050" MODIFIED="1544110814589"/>
 </node>
 </node>
 </node>
