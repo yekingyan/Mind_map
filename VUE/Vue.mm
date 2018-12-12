@@ -3,7 +3,7 @@
 <node TEXT="Vue" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1540806433920" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="117" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="121" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT=" &#x7b80;&#x4ecb;" POSITION="right" ID="ID_1585289433" CREATED="1540808752490" MODIFIED="1540808765301">
 <edge COLOR="#00ffff"/>
@@ -3070,7 +3070,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">Vue.<span style="color: #9876aa"><font color="#9876aa">component</font></span>(<span style="color: #6a8759"><font color="#6a8759">'my-component-name'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>{<br/>  <span style="color: #808080"><font color="#808080">// ... &#36873;&#39033; ...<br/></font></span>})</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3094,7 +3093,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>ComponentA = { <span style="color: #808080"><font color="#808080">/* ... */</font></span>}<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>ComponentB = { <span style="color: #808080"><font color="#808080">/* ... */</font></span>}<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>ComponentC = { <span style="color: #808080"><font color="#808080">/* ... */</font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3109,7 +3107,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Vue({<br/>    <span style="color: #9876aa"><font color="#9876aa">el</font></span>: <span style="color: #6a8759"><font color="#6a8759">'#app'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">components</font></span>: {<br/>        <span style="color: #6a8759"><font color="#6a8759">'component-a'</font></span>: ComponentA<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #6a8759"><font color="#6a8759">'component-b'</font></span>: ComponentB<br/>    }<br/>})</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="components &#x5bf9;&#x8c61;&#x4e2d;&#x5c5e;&#x6027;&#x540d;&#x662f;&#x81ea;&#x5b9a;&#x4e49;&#x5143;&#x7d20;&#x7684;&#x540d;&#x5b57;" ID="ID_873560606" CREATED="1543911228300" MODIFIED="1543911249560"/>
@@ -3129,7 +3126,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>ComponentA = { <span style="color: #808080"><font color="#808080">/* ... */</font></span>}<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>ComponentB = {<br/>    <span style="color: #9876aa"><font color="#9876aa">components</font></span>: {<br/>        <span style="color: #6a8759"><font color="#6a8759">'component-a'</font></span>: ComponentA<br/>    }<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080">// ...<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x5982;&#x679c;&#x901a;&#x8fc7; Babel &#x548c; webpack &#x4f7f;&#x7528; ES2015 &#x6a21;&#x5757;" ID="ID_1360937239" CREATED="1543911620770" MODIFIED="1543911625143">
@@ -3143,7 +3139,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>ComponentA <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'./ComponentA.vue'<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>export default </b></font></span>{<br/>    <span style="color: #9876aa"><font color="#9876aa">components</font></span>: {<br/>        ComponentA<br/>    }<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080">// ...<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3166,7 +3161,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">// &#22312;ComponentB &#20013;<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>ComponentA <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'./ComponentA'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>ComponentC <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'./ComponentC'<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>export default </b></font></span>{<br/>  <span style="color: #9876aa"><font color="#9876aa">components</font></span>: {<br/>    ComponentA<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>ComponentC<br/>  }<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #808080"><font color="#808080">// ...<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3187,16 +3181,15 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>Vue <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'vue'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>upperFirst <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'lodash/upperFirst'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>camelCase <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'lodash/camelCase'<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>const </b></font></span>requireComponent = require.<span style="color: #9876aa"><font color="#9876aa">context</font></span>(<br/>    <span style="color: #808080"><font color="#808080">// &#20854;&#32452;&#20214;&#30446;&#24405;&#30340;&#30456;&#23545;&#36335;&#24452;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #6a8759"><font color="#6a8759">'./components'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080">// &#26159;&#21542;&#26597;&#35810;&#20854;&#23376;&#30446;&#24405;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>false</b></font></span><font color="#cc7832"><span style="color: #cc7832">,<br/></span><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080">// &#21305;&#37197;&#22522;&#30784;&#32452;&#20214;&#25991;&#20214;&#21517;&#30340;&#27491;&#21017;&#34920;&#36798;&#24335;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #6a8759"><font color="#6a8759">/Base[A-Z]\w+\.(vue|js)$/<br/></font></span>)<br/><br/>requireComponent.<span style="color: #ffc66d"><font color="#ffc66d">keys</font></span>().<span style="color: #ffc66d"><font color="#ffc66d">forEach</font></span>(fileName =&gt; {<br/>    <span style="color: #808080"><font color="#808080">// &#33719;&#21462;&#32452;&#20214;&#37197;&#32622;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>const </b></font></span>componentConfig = requireComponent(fileName)<br/><br/>    <span style="color: #808080"><font color="#808080">// &#33719;&#21462;&#32452;&#20214;&#30340; PascalCase &#21629;&#21517;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>const </b></font></span>componentName = upperFirst(<br/>        camelCase(<br/>            <span style="color: #808080"><font color="#808080">// &#21093;&#21435;&#25991;&#20214;&#21517;&#24320;&#22836;&#30340; `./` &#21644;&#32467;&#23614;&#30340;&#25193;&#23637;&#21517;<br/></font></span><font color="#808080"><span style="color: #808080">            </span></font>fileName.<span style="color: #ffc66d"><font color="#ffc66d">replace</font></span>(<span style="color: #6a8759"><font color="#6a8759">/^\.\/(.*)\.\w+$/</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'$1'</font></span>)<br/>        )<br/>    )<br/><br/>    <span style="color: #808080"><font color="#808080">// &#20840;&#23616;&#27880;&#20876;&#32452;&#20214;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>Vue.<span style="color: #9876aa"><font color="#9876aa">component</font></span>(<br/>        componentName<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #808080"><font color="#808080">// &#22914;&#26524;&#36825;&#20010;&#32452;&#20214;&#36873;&#39033;&#26159;&#36890;&#36807; `export default` &#23548;&#20986;&#30340;&#65292;<br/></font></span><font color="#808080"><span style="color: #808080">        // &#37027;&#20040;&#23601;&#20250;&#20248;&#20808;&#20351;&#29992; `.default`&#65292;<br/></span><span style="color: #808080">        // &#21542;&#21017;&#22238;&#36864;&#21040;&#20351;&#29992;&#27169;&#22359;&#30340;&#26681;&#12290;<br/></span><span style="color: #808080">        </span></font>componentConfig.<span style="color: #9876aa"><font color="#9876aa">default </font></span>|| componentConfig<br/>    )<br/>})</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="Prop" POSITION="right" ID="ID_125800083" CREATED="1543914031835" MODIFIED="1543914038727">
+<node TEXT="Prop" FOLDED="true" POSITION="right" ID="ID_125800083" CREATED="1543914031835" MODIFIED="1543914038727">
 <edge COLOR="#00007c"/>
-<node TEXT="Prop&#x7684;&#x5927;&#x5c0f;&#x5199;" ID="ID_1419174613" CREATED="1543914039068" MODIFIED="1543914047520">
+<node TEXT="Prop&#x7684;&#x547d;&#x540d;&#x53ca;&#x5927;&#x5c0f;&#x5199;" ID="ID_1419174613" CREATED="1543914039068" MODIFIED="1544515973896">
 <node TEXT="&#x4e0e;&#x7ec4;&#x4ef6;&#x7684;&#x547d;&#x540d;&#x683c;&#x5f0f;&#x7c7b;&#x4f3c;" ID="ID_1875065925" CREATED="1543914054955" MODIFIED="1543914072160"/>
 <node TEXT=" HTML &#x4e2d;&#x7684;&#x7279;&#x6027;&#x540d;&#x662f;&#x5927;&#x5c0f;&#x5199;&#x4e0d;&#x654f;&#x611f;&#x7684;&#xff0c;&#x6240;&#x4ee5;&#x6d4f;&#x89c8;&#x5668;&#x4f1a;&#x628a;&#x6240;&#x6709;&#x5927;&#x5199;&#x5b57;&#x7b26;&#x89e3;&#x91ca;&#x4e3a;&#x5c0f;&#x5199;&#x5b57;&#x7b26;" ID="ID_819255372" CREATED="1543914072532" MODIFIED="1543914074823"/>
 <node TEXT="&#x6700;&#x597d;&#x53ea;&#x4f7f;&#x7528; kebab-case (&#x77ed;&#x6a2a;&#x7ebf;&#x5206;&#x9694;&#x547d;&#x540d;) &#x547d;&#x540d;" ID="ID_900094125" CREATED="1543914094092" MODIFIED="1543914108463"/>
@@ -3214,7 +3207,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: [<br/>    <span style="color: #6a8759"><font color="#6a8759">'title'</font></span><span style="color: #cc7832"><font color="#cc7832">, <br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'likes'</font></span><span style="color: #cc7832"><font color="#cc7832">, <br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'isPublished'</font></span><span style="color: #cc7832"><font color="#cc7832">, <br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'commentIds'</font></span><span style="color: #cc7832"><font color="#cc7832">, <br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'author'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span>]</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3231,7 +3223,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: {<br/>    <span style="color: #9876aa"><font color="#9876aa">title</font></span>: String<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">likes</font></span>: Number<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">isPublished</font></span>: Boolean<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">commentIds</font></span>: Array<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">author</font></span>: Object<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4f5c;&#x7528;" ID="ID_1733648044" CREATED="1543914571324" MODIFIED="1543914574177">
@@ -3253,7 +3244,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #bababa"><font color="#bababa">title=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;My journey with Vue&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3268,7 +3258,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#21160;&#24577;&#36171;&#20104;&#19968;&#20010;&#21464;&#37327;&#30340;&#20540; --&gt;<br/></font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:title=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;post.title&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1727241768" CREATED="1543914772847" MODIFIED="1543914772847"><richcontent TYPE="NODE">
@@ -3281,7 +3270,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#21160;&#24577;&#36171;&#20104;&#19968;&#20010;&#22797;&#26434;&#34920;&#36798;&#24335;&#30340;&#20540; --&gt;<br/></font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:title=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;post.title + ' by ' + post.author.name&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3297,7 +3285,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#21363;&#20415; `42` &#26159;&#38745;&#24577;&#30340;&#65292;&#25105;&#20204;&#20173;&#28982;&#38656;&#35201; `v-bind` &#26469;&#21578;&#35785; Vue --&gt;<br/></font></span><font color="#808080"><span style="color: #808080">&lt;!-- &#36825;&#26159;&#19968;&#20010; JavaScript &#34920;&#36798;&#24335;&#32780;&#19981;&#26159;&#19968;&#20010;&#23383;&#31526;&#20018;&#12290;--&gt;<br/></span></font><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:likes=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;42&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_390804354" CREATED="1543915051601" MODIFIED="1543915051601"><richcontent TYPE="NODE">
@@ -3310,7 +3297,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#29992;&#19968;&#20010;&#21464;&#37327;&#36827;&#34892;&#21160;&#24577;&#36171;&#20540;&#12290;--&gt;<br/></font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:likes=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;post.likes&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3325,7 +3311,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#21253;&#21547;&#35813; prop &#27809;&#26377;&#20540;&#30340;&#24773;&#20917;&#22312;&#20869;&#65292;&#37117;&#24847;&#21619;&#30528; `true`&#12290;--&gt;<br/></font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #bababa"><font color="#bababa">is-published</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_504997553" CREATED="1543915182651" MODIFIED="1543915182651"><richcontent TYPE="NODE">
@@ -3338,7 +3323,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#21363;&#20415; `false` &#26159;&#38745;&#24577;&#30340;&#65292;&#25105;&#20204;&#20173;&#28982;&#38656;&#35201; `v-bind` &#26469;&#21578;&#35785; Vue --&gt;<br/></font></span><font color="#808080"><span style="color: #808080">&lt;!-- &#36825;&#26159;&#19968;&#20010; JavaScript &#34920;&#36798;&#24335;&#32780;&#19981;&#26159;&#19968;&#20010;&#23383;&#31526;&#20018;&#12290;--&gt;<br/></span></font><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:is-published=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;false&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_691898191" CREATED="1543915188224" MODIFIED="1543915188224"><richcontent TYPE="NODE">
@@ -3351,7 +3335,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#29992;&#19968;&#20010;&#21464;&#37327;&#36827;&#34892;&#21160;&#24577;&#36171;&#20540;&#12290;--&gt;<br/></font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:is-published=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;post.isPublished&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3366,7 +3349,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#21363;&#20415;&#25968;&#32452;&#26159;&#38745;&#24577;&#30340;&#65292;&#25105;&#20204;&#20173;&#28982;&#38656;&#35201; `v-bind` &#26469;&#21578;&#35785; Vue --&gt;<br/></font></span><font color="#808080"><span style="color: #808080">&lt;!-- &#36825;&#26159;&#19968;&#20010; JavaScript &#34920;&#36798;&#24335;&#32780;&#19981;&#26159;&#19968;&#20010;&#23383;&#31526;&#20018;&#12290;--&gt;<br/></span></font><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:comment-ids=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;[234, 266, 273]&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_580785407" CREATED="1543915223569" MODIFIED="1543915223569"><richcontent TYPE="NODE">
@@ -3379,7 +3361,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#29992;&#19968;&#20010;&#21464;&#37327;&#36827;&#34892;&#21160;&#24577;&#36171;&#20540;&#12290;--&gt;<br/></font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:comment-ids=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;post.commentIds&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3394,7 +3375,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#21363;&#20415;&#23545;&#35937;&#26159;&#38745;&#24577;&#30340;&#65292;&#25105;&#20204;&#20173;&#28982;&#38656;&#35201; `v-bind` &#26469;&#21578;&#35785; Vue --&gt;<br/></font></span><font color="#808080"><span style="color: #808080">&lt;!-- &#36825;&#26159;&#19968;&#20010; JavaScript &#34920;&#36798;&#24335;&#32780;&#19981;&#26159;&#19968;&#20010;&#23383;&#31526;&#20018;&#12290;--&gt;<br/></span></font><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:author=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;{ name: 'Veronica', company: 'Veridian Dynamics' }&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;<br/></font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_408527009" CREATED="1543915264906" MODIFIED="1543915264906"><richcontent TYPE="NODE">
@@ -3407,13 +3387,12 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#29992;&#19968;&#20010;&#21464;&#37327;&#36827;&#34892;&#21160;&#24577;&#36171;&#20540;&#12290;--&gt;<br/></font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:author=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;post.author&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT=" &#x4f20;&#x5165;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x6240;&#x6709;&#x5c5e;&#x6027;&#x7ed9; prop" ID="ID_602473761" CREATED="1543915273546" MODIFIED="1543915279176">
 <node TEXT="&#x4f7f;&#x7528;&#x4e0d;&#x5e26;&#x53c2;&#x6570;&#x7684; v-bind &#x53d6;&#x4ee3; v-bind:prop-name" ID="ID_567630008" CREATED="1543915351928" MODIFIED="1543915379209"/>
-<node ID="ID_1749081865" CREATED="1543915401875" MODIFIED="1543915401875"><richcontent TYPE="NODE">
+<node ID="ID_1749081865" CREATED="1543915401875" MODIFIED="1544516388846"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3426,7 +3405,7 @@
 
 </richcontent>
 </node>
-<node ID="ID_395212510" CREATED="1543915421739" MODIFIED="1543915486188"><richcontent TYPE="NODE">
+<node ID="ID_395212510" CREATED="1543915421739" MODIFIED="1544516405058"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3436,7 +3415,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post </font></span><span style="color: #bababa"><font color="#bababa">v-bind=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;post&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_955160195" MIDDLE_LABEL="&#x7b49;&#x4ef7;&#x4e8e;" STARTINCLINATION="76;0;" ENDINCLINATION="76;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
@@ -3450,7 +3428,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;blog-post<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">        </span></font><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:id=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;post.id&quot;<br/></font></span><font color="#a5c261"><span style="color: #a5c261">        </span></font><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:title=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;post.title&quot;<br/></font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/blog-post&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3483,7 +3460,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: [<span style="color: #6a8759"><font color="#6a8759">'initialCounter'</font></span>]<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">data</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>{<br/>        <span style="color: #9876aa"><font color="#9876aa">counter</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.initialCounter<br/>    }<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3499,7 +3475,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: [<span style="color: #6a8759"><font color="#6a8759">'size'</font></span>]<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><span style="color: #9876aa"><font color="#9876aa">computed</font></span>: {<br/>    <span style="color: #ffc66d"><font color="#ffc66d">normalizedSize</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">size</font></span>.<span style="color: #ffc66d"><font color="#ffc66d">trim</font></span>().<span style="color: #ffc66d"><font color="#ffc66d">toLowerCase</font></span>()<br/>    }<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3508,7 +3483,316 @@
 </node>
 </node>
 </node>
-<node TEXT="Prop&#x9a8c;&#x8bc1;" ID="ID_391828393" CREATED="1543916747581" MODIFIED="1543916754105"/>
+<node TEXT="Prop&#x9a8c;&#x8bc1;" ID="ID_391828393" CREATED="1543916747581" MODIFIED="1543916754105">
+<node TEXT=" &#x53ef;&#x4ee5;&#x4e3a;&#x7ec4;&#x4ef6;&#x7684; prop &#x6307;&#x5b9a;&#x9a8c;&#x8bc1;&#x8981;&#x6c42;" ID="ID_451952853" CREATED="1544514737964" MODIFIED="1544514742152">
+<node TEXT="type" ID="ID_1192079067" CREATED="1544514762827" MODIFIED="1544514765324">
+<node TEXT="String" ID="ID_1754849199" CREATED="1544514765683" MODIFIED="1544514771088"/>
+<node TEXT="Number" ID="ID_1748896661" CREATED="1544514771491" MODIFIED="1544514774153"/>
+<node TEXT="Boolean" ID="ID_1497725354" CREATED="1544514774491" MODIFIED="1544514778463"/>
+<node TEXT="Array" ID="ID_936549842" CREATED="1544514779083" MODIFIED="1544514781192"/>
+<node TEXT="Object" ID="ID_396329298" CREATED="1544514781843" MODIFIED="1544514786392"/>
+<node TEXT="Date" ID="ID_1507363260" CREATED="1544514786691" MODIFIED="1544514788536"/>
+<node TEXT="Function" ID="ID_1079208948" CREATED="1544514789155" MODIFIED="1544514793400"/>
+<node ID="ID_696980465" CREATED="1544517134718" MODIFIED="1544517134718"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: {<br/>    <span style="color: #808080"><font color="#808080">// &#22522;&#30784;&#30340;&#31867;&#22411;&#26816;&#26597; (`null` &#21305;&#37197;&#20219;&#20309;&#31867;&#22411;)<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #9876aa"><font color="#9876aa">propA</font></span>: Number<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080">// &#22810;&#20010;&#21487;&#33021;&#30340;&#31867;&#22411;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #9876aa"><font color="#9876aa">propB</font></span>: [String<span style="color: #cc7832"><font color="#cc7832">, </font></span>Number]<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="required" ID="ID_855413844" CREATED="1544514818003" MODIFIED="1544514828856">
+<node TEXT="required: true" ID="ID_1242878589" CREATED="1544514829658" MODIFIED="1544514840189"/>
+</node>
+<node TEXT="default" ID="ID_1815467354" CREATED="1544515070924" MODIFIED="1544515075784">
+<node TEXT="&#x5e26;&#x6709;&#x9ed8;&#x8ba4;&#x503c;&#x7684;&#x6570;&#x5b57;" ID="ID_1728946160" CREATED="1544515121557" MODIFIED="1544515124564"/>
+<node TEXT=" &#x5e26;&#x6709;&#x9ed8;&#x8ba4;&#x503c;&#x7684;&#x5bf9;&#x8c61;" ID="ID_1709504693" CREATED="1544515107349" MODIFIED="1544515111589"/>
+<node ID="ID_655424308" CREATED="1544517247707" MODIFIED="1544517247707"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: {<br/>    <span style="color: #808080"><font color="#808080">// &#24102;&#26377;&#40664;&#35748;&#20540;&#30340;&#25968;&#23383;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #9876aa"><font color="#9876aa">propD</font></span>: {<br/>        <span style="color: #9876aa"><font color="#9876aa">type</font></span>: Number<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #9876aa; font-weight: bold"><font color="#9876aa"><b>default</b></font></span>: <span style="color: #6897bb"><font color="#6897bb">100<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080">// &#24102;&#26377;&#40664;&#35748;&#20540;&#30340;&#23545;&#35937;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #9876aa"><font color="#9876aa">propE</font></span>: {<br/>        <span style="color: #9876aa"><font color="#9876aa">type</font></span>: Object<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #808080"><font color="#808080">// &#23545;&#35937;&#25110;&#25968;&#32452;&#40664;&#35748;&#20540;&#24517;&#39035;&#20174;&#19968;&#20010;&#24037;&#21378;&#20989;&#25968;&#33719;&#21462;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #ffc66d; font-weight: bold"><font color="#ffc66d"><b>default</b></font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>            <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>{<span style="color: #9876aa"><font color="#9876aa">message</font></span>: <span style="color: #6a8759"><font color="#6a8759">'hello'</font></span>}<br/>        }<br/>    }<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" validator" ID="ID_1665159105" CREATED="1544515144523" MODIFIED="1544515149621">
+<node TEXT=" &#x81ea;&#x5b9a;&#x4e49;&#x9a8c;&#x8bc1;&#x51fd;&#x6570;" ID="ID_318643720" CREATED="1544515150220" MODIFIED="1544515152021"/>
+<node ID="ID_75350571" CREATED="1544517328261" MODIFIED="1544517328261"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: {<br/>    <span style="color: #808080"><font color="#808080">// &#33258;&#23450;&#20041;&#39564;&#35777;&#20989;&#25968;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #9876aa"><font color="#9876aa">propF</font></span>: {<br/>        <span style="color: #ffc66d"><font color="#ffc66d">validator</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(value) {<br/>            <span style="color: #808080"><font color="#808080">// &#36825;&#20010;&#20540;&#24517;&#39035;&#21305;&#37197;&#19979;&#21015;&#23383;&#31526;&#20018;&#20013;&#30340;&#19968;&#20010;<br/></font></span><font color="#808080"><span style="color: #808080">            </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>[<span style="color: #6a8759"><font color="#6a8759">'success'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'warning'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'danger'</font></span>].<span style="color: #ffc66d"><font color="#ffc66d">indexOf</font></span>(value) !== -<span style="color: #6897bb"><font color="#6897bb">1<br/></font></span><font color="#6897bb"><span style="color: #6897bb">        </span></font>}<br/>    }<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x81ea;&#x5b9a;&#x4e49;&#x4e8b;&#x4ef6; pass" FOLDED="true" POSITION="right" ID="ID_1845467678" CREATED="1544517835498" MODIFIED="1544519974546">
+<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_cancel"/>
+<edge COLOR="#007c00"/>
+<node TEXT="&#x4e8b;&#x4ef6;&#x540d;" ID="ID_1543291345" CREATED="1544517848130" MODIFIED="1544517851599">
+<node TEXT=" &#x4e0d;&#x540c;&#x4e8e;&#x7ec4;&#x4ef6;&#x548c; prop&#xff0c;&#x4e8b;&#x4ef6;&#x540d;&#x4e0d;&#x5b58;&#x5728;&#x4efb;&#x4f55;&#x81ea;&#x52a8;&#x5316;&#x7684;&#x5927;&#x5c0f;&#x5199;&#x8f6c;&#x6362;" ID="ID_1283094858" CREATED="1544517902211" MODIFIED="1544517903556"/>
+<node TEXT=" &#x89e6;&#x53d1;&#x7684;&#x4e8b;&#x4ef6;&#x540d;&#x9700;&#x8981;&#x5b8c;&#x5168;&#x5339;&#x914d;&#x76d1;&#x542c;&#x8fd9;&#x4e2a;&#x4e8b;&#x4ef6;&#x6240;&#x7528;&#x7684;&#x540d;&#x79f0;" ID="ID_1764030809" CREATED="1544517913147" MODIFIED="1544517914811"/>
+<node TEXT=" &#x4e8b;&#x4ef6;&#x76d1;&#x542c;&#x5668;&#x5728; DOM &#x6a21;&#x677f;&#x4e2d;&#x4f1a;&#x88ab;&#x81ea;&#x52a8;&#x8f6c;&#x6362;&#x4e3a;&#x5168;&#x5c0f;&#x5199; (&#x56e0;&#x4e3a; HTML &#x662f;&#x5927;&#x5c0f;&#x5199;&#x4e0d;&#x654f;&#x611f;&#x7684;)" ID="ID_571685298" CREATED="1544518021778" MODIFIED="1544518023779"/>
+<node TEXT=" &#x63a8;&#x8350;&#x59cb;&#x7ec8;&#x4f7f;&#x7528; kebab-case &#x7684;&#x4e8b;&#x4ef6;&#x540d;" ID="ID_1121287351" CREATED="1544518034290" MODIFIED="1544518037156"/>
+</node>
+<node TEXT=" &#x81ea;&#x5b9a;&#x4e49;&#x7ec4;&#x4ef6;&#x7684; v-model" ID="ID_1827078979" CREATED="1544518051034" MODIFIED="1544518052764">
+<node TEXT="&#x4e00;&#x4e2a;&#x7ec4;&#x4ef6;&#x4e0a;&#x7684; v-model &#x9ed8;&#x8ba4;&#x4f1a;&#x5229;&#x7528;&#x540d;&#x4e3a; value &#x7684; prop &#x548c;&#x540d;&#x4e3a; input &#x7684;&#x4e8b;&#x4ef6;" ID="ID_1356118182" CREATED="1544518257122" MODIFIED="1544518262132"/>
+<node TEXT=" &#x50cf;&#x5355;&#x9009;&#x6846;&#x3001;&#x590d;&#x9009;&#x6846;&#x7b49;&#x7c7b;&#x578b;&#x7684;&#x8f93;&#x5165;&#x63a7;&#x4ef6;&#x53ef;&#x80fd;&#x4f1a;&#x5c06; value &#x7279;&#x6027;&#x7528;&#x4e8e;&#x4e0d;&#x540c;&#x7684;&#x76ee;&#x7684;" ID="ID_1463107930" CREATED="1544518549402" MODIFIED="1544518551156"/>
+<node TEXT=" model &#x9009;&#x9879;&#x53ef;&#x4ee5;&#x7528;&#x6765;&#x907f;&#x514d;value&#x8fd9;&#x6837;&#x7684;&#x51b2;&#x7a81;" ID="ID_1851891047" CREATED="1544518575826" MODIFIED="1544518588230">
+<node ID="ID_53968577" CREATED="1544518624977" MODIFIED="1544518624977"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">  Vue.<span style="color: #9876aa"><font color="#9876aa">component</font></span>(<span style="color: #6a8759"><font color="#6a8759">'base-checkbox'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>{<br/>      <span style="color: #9876aa"><font color="#9876aa">model</font></span>: {<br/>          <span style="color: #9876aa"><font color="#9876aa">prop</font></span>: <span style="color: #6a8759"><font color="#6a8759">'checked'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">          </span></font><span style="color: #9876aa"><font color="#9876aa">event</font></span>: <span style="color: #6a8759"><font color="#6a8759">'change'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">      </span></font>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">      </span></font><span style="color: #9876aa"><font color="#9876aa">props</font></span>: {<br/>          <span style="color: #9876aa"><font color="#9876aa">checked</font></span>: Boolean<br/>      }<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">      </span></font><span style="color: #9876aa"><font color="#9876aa">template</font></span>: <span style="color: #6a8759"><font color="#6a8759">`<br/></font></span><font color="#6a8759"><span style="color: #6a8759">  &lt;input<br/></span><span style="color: #6a8759">    type=&quot;checkbox&quot;<br/></span><span style="color: #6a8759">    </span></font><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #6a8759"><font color="#6a8759">:checked=&quot;checked&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font><span style="color: #9876aa"><font color="#9876aa">v-on</font></span><span style="color: #6a8759"><font color="#6a8759">:change=&quot;$emit('change', $event.target.checked)&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">  &gt;<br/></span><span style="color: #6a8759">`<br/></span><span style="color: #6a8759">  </span></font>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_601255239" CREATED="1544518685697" MODIFIED="1544518685697"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;base-checkbox </font></span><span style="color: #bababa"><font color="#bababa">v-model=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;lovingVue&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/base-checkbox&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x8fc7;&#x7a0b;" ID="ID_330577734" CREATED="1544518698194" MODIFIED="1544518705263">
+<node ID="ID_1680195639" CREATED="1544518707595" MODIFIED="1544518707595"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.8em; background-color: rgb(248, 248, 248); color: rgb(233, 105, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.8em" color="rgb(233, 105, 0)">lovingVue</font></code><span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(52, 73, 94); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#30340;&#20540;&#23558;&#20250;&#20256;&#20837;&#36825;&#20010;&#21517;&#20026;</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.8em; background-color: rgb(248, 248, 248); color: rgb(233, 105, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.8em" color="rgb(233, 105, 0)">checked</font></code><span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(52, 73, 94); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#30340; prop</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1528976600" CREATED="1544518728998" MODIFIED="1544518728998"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(52, 73, 94); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#21516;&#26102;&#24403;</font></span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.8em; background-color: rgb(248, 248, 248); color: rgb(233, 105, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.8em" color="rgb(233, 105, 0)">&lt;base-checkbox&gt;</font></code><span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(52, 73, 94); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#35302;&#21457;&#19968;&#20010;</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.8em; background-color: rgb(248, 248, 248); color: rgb(233, 105, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.8em" color="rgb(233, 105, 0)">change</font></code><span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(52, 73, 94); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#20107;&#20214;&#24182;&#38468;&#24102;&#19968;&#20010;&#26032;&#30340;&#20540;&#30340;&#26102;&#20505;&#65292;&#36825;&#20010;</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.8em; background-color: rgb(248, 248, 248); color: rgb(233, 105, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.8em" color="rgb(233, 105, 0)">lovingVue</font></code><span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(52, 73, 94); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#30340;&#23646;&#24615;&#23558;&#20250;&#34987;&#26356;&#26032;</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6ce8;&#x610f;" ID="ID_263787903" CREATED="1544518751458" MODIFIED="1544518754160">
+<node ID="ID_1729358866" CREATED="1544518755067" MODIFIED="1544518759246"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(52, 73, 94); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none"><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#20173;&#28982;&#38656;&#35201;&#22312;&#32452;&#20214;&#30340;</font></span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.8em; background-color: rgb(239, 239, 239); color: rgb(233, 105, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.8em" color="rgb(233, 105, 0)">props</font></code><span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(52, 73, 94); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none">&#36873;&#39033;&#37324;&#22768;&#26126;</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.8em; background-color: rgb(239, 239, 239); color: rgb(233, 105, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.8em" color="rgb(233, 105, 0)">checked</font></code><span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(52, 73, 94)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(52, 73, 94); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none">&#36825;&#20010; prop</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x5c06;&#x539f;&#x751f;&#x4e8b;&#x4ef6;&#x7ed1;&#x5b9a;&#x5230;&#x7ec4;&#x4ef6;" ID="ID_1511245918" CREATED="1544518859226" MODIFIED="1544518871566">
+<node TEXT=" &#x7528; v-on &#x7684; .native &#x4fee;&#x9970;&#x7b26;" ID="ID_1362469291" CREATED="1544518899467" MODIFIED="1544518900563">
+<node ID="ID_773466776" CREATED="1544518910486" MODIFIED="1544518910486"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;base-input </font></span><span style="color: #9876aa"><font color="#9876aa">v-on</font></span><span style="color: #bababa"><font color="#bababa">:focus.native=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;onFocus&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/base-input&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x7f3a;&#x70b9;" ID="ID_646801367" CREATED="1544519152746" MODIFIED="1544519158150">
+<node TEXT="&#x76d1;&#x542c;&#x4e00;&#x4e2a;&#x7c7b;&#x4f3c; &lt;input&gt; &#x7684;&#x975e;&#x5e38;&#x7279;&#x5b9a;&#x7684;&#x5143;&#x7d20;&#x65f6;&#x53ef;&#x80fd;&#x5931;&#x8d25;" ID="ID_1698531847" CREATED="1544519158314" MODIFIED="1544519197206"/>
+<node TEXT=" &#x6bd4;&#x5982;&#x4e0a;&#x8ff0; &lt;base-input&gt; &#x7ec4;&#x4ef6;&#x53ef;&#x80fd;&#x505a;&#x4e86;&#x5982;&#x4e0b;&#x91cd;&#x6784;" ID="ID_1454329846" CREATED="1544519340523" MODIFIED="1544519342070">
+<node TEXT="&#x6839;&#x5143;&#x7d20;&#x7531;&lt;input&gt; &#x53d8;&#x4e3a; &lt;label&gt;" ID="ID_363122914" CREATED="1544519342387" MODIFIED="1544519362142"/>
+<node ID="ID_796771679" CREATED="1544519381831" MODIFIED="1544519381831"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;label&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">  </span></font>{{ label }}<br/>  <span style="color: #e8bf6a"><font color="#e8bf6a">&lt;input<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">    </span></font><span style="color: #bababa"><font color="#bababa">v-bind=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;$attrs&quot;<br/></font></span><font color="#a5c261"><span style="color: #a5c261">    </span></font><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:value=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;value&quot;<br/></font></span><font color="#a5c261"><span style="color: #a5c261">    </span></font><span style="color: #9876aa"><font color="#9876aa">v-on</font></span><span style="color: #bababa"><font color="#bababa">:input=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;$emit('input', $event.target.value)&quot;<br/></font></span><font color="#a5c261"><span style="color: #a5c261">  </span></font><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&lt;/label</span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x7236;&#x7ea7;&#x7684; .native &#x76d1;&#x542c;&#x5668;&#x5c06;&#x9759;&#x9ed8;&#x5931;&#x8d25;" ID="ID_1117996891" CREATED="1544519398418" MODIFIED="1544519399660"/>
+<node TEXT=" &#x5b83;&#x4e0d;&#x4f1a;&#x4ea7;&#x751f;&#x4efb;&#x4f55;&#x62a5;&#x9519;&#xff0c;&#x4f46;&#x662f; onFocus &#x5904;&#x7406;&#x51fd;&#x6570;&#x4e0d;&#x4f1a;&#x5982;&#x4f60;&#x9884;&#x671f;&#x5730;&#x88ab;&#x8c03;&#x7528;" ID="ID_804524866" CREATED="1544519421802" MODIFIED="1544519423074"/>
+</node>
+<node TEXT="&#x89e3;&#x51b3;&#x65b9;&#x6cd5;" ID="ID_698581593" CREATED="1544519494482" MODIFIED="1544519501023">
+<node TEXT=" &#x7528;$listeners &#x5c5e;&#x6027;&#xff0c;&#x5b83;&#x662f;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#xff0c;&#xa;&#x91cc;&#x9762;&#x5305;&#x542b;&#x4e86;&#x4f5c;&#x7528;&#x5728;&#x8fd9;&#x4e2a;&#x7ec4;&#x4ef6;&#x4e0a;&#x7684;&#x6240;&#x6709;&#x76d1;&#x542c;&#x5668;" ID="ID_1185998283" CREATED="1544519513954" MODIFIED="1544519527123"/>
+</node>
+</node>
+<node TEXT=" $listeners &#x5c5e;&#x6027;" ID="ID_1648149702" CREATED="1544519538562" MODIFIED="1544519540619">
+<node TEXT=" Vue &#x63d0;&#x4f9b;&#x4e86;&#x4e00;&#x4e2a; $listeners &#x5c5e;&#x6027;&#xff0c;&#x5b83;&#x662f;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#xff0c;&#x91cc;&#x9762;&#x5305;&#x542b;&#x4e86;&#x4f5c;&#x7528;&#x5728;&#x8fd9;&#x4e2a;&#x7ec4;&#x4ef6;&#x4e0a;&#x7684;&#x6240;&#x6709;&#x76d1;&#x542c;&#x5668;" ID="ID_730692280" CREATED="1544519547882" MODIFIED="1544519548883"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x63d2;&#x69fd;" POSITION="right" ID="ID_1353703414" CREATED="1544520164618" MODIFIED="1544520209177">
+<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_cancel"/>
+<edge COLOR="#7c007c"/>
+</node>
+<node TEXT="&#x52a8;&#x6001;&#x7ec4;&#x4ef6; &#x4e0e; &#x5f02;&#x6b65;&#x7ec4;&#x4ef6;" POSITION="right" ID="ID_520001325" CREATED="1544520211250" MODIFIED="1544520235145">
+<edge COLOR="#007c7c"/>
+<node TEXT=" &#x5728;&#x52a8;&#x6001;&#x7ec4;&#x4ef6;&#x4e0a;&#x4f7f;&#x7528; keep-alive" ID="ID_1969603607" CREATED="1544520249250" MODIFIED="1544520250355">
+<node TEXT=" &#x591a;&#x6807;&#x7b7e;&#x7684;&#x754c;&#x9762;&#x4e2d;&#x4f7f;&#x7528; is &#x7279;&#x6027;&#x6765;&#x5207;&#x6362;&#x4e0d;&#x540c;&#x7684;&#x7ec4;&#x4ef6;" ID="ID_1779572499" CREATED="1544520281570" MODIFIED="1544520284220">
+<node ID="ID_626424701" CREATED="1544520302045" MODIFIED="1544520302045"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;component </font></span><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:is=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;currentTabComponent&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/component&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_1121625495" CREATED="1544520406415" MODIFIED="1544520411539">
+<hook URI="Vue_files/png_5041805760641586564.png" SIZE="0.850593" NAME="ExternalObject"/>
+</node>
+<node TEXT=" &#x5207;&#x6362;&#x65b0;&#x6807;&#x7b7e;&#x7684;&#x65f6;&#x5019;&#xff0c;Vue &#x90fd;&#x521b;&#x5efa;&#x4e86;&#x4e00;&#x4e2a;&#x65b0;&#x7684; currentTabComponent &#x5b9e;&#x4f8b;" ID="ID_1848387852" CREATED="1544520721241" MODIFIED="1544520724139"/>
+</node>
+<node TEXT=" &#x7528;&#x4e00;&#x4e2a; &lt;keep-alive&gt; &#x5143;&#x7d20;&#x5c06;&#x5176;&#x52a8;&#x6001;&#x7ec4;&#x4ef6;&#x5305;&#x88f9;&#x8d77;&#x6765;" ID="ID_785113794" CREATED="1544520770058" MODIFIED="1544520771090">
+<node ID="ID_409921632" CREATED="1544520758540" MODIFIED="1544520758540"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">&lt;!-- &#22833;&#27963;&#30340;&#32452;&#20214;&#23558;&#20250;&#34987;&#32531;&#23384;&#65281;--&gt;<br/></font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;keep-alive&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">  &lt;component </span></font><span style="color: #9876aa"><font color="#9876aa">v-bind</font></span><span style="color: #bababa"><font color="#bababa">:is=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;currentTabComponent&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/component&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&lt;/keep-alive&gt;</span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x907f;&#x514d;&#x53cd;&#x590d;&#x91cd;&#x6e32;&#x67d3;&#x5bfc;&#x81f4;&#x7684;&#x6027;&#x80fd;&#x95ee;&#x9898;" ID="ID_1138030449" CREATED="1544520863770" MODIFIED="1544520865411"/>
+</node>
+</node>
+<node TEXT="&#x5f02;&#x6b65;&#x7ec4;&#x4ef6;" ID="ID_1877345821" CREATED="1544520870241" MODIFIED="1544521097721">
+<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node TEXT="&#x53ef;&#x590d;&#x7528;&#x6027; &#x4e0e; &#x7ec4;&#x5408;" POSITION="right" ID="ID_1346465653" CREATED="1544521537145" MODIFIED="1544521545278">
+<edge COLOR="#7c7c00"/>
+<node TEXT="&#x6df7;&#x5165;" ID="ID_1256152496" CREATED="1544521545970" MODIFIED="1544521561617">
+<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="&#x81ea;&#x5b9a;&#x4e49;&#x6307;&#x4ee4;" ID="ID_1101871174" CREATED="1544521551809" MODIFIED="1544521559443">
+<node TEXT="&#x7b80;&#x4ecb;" ID="ID_922443066" CREATED="1544521964281" MODIFIED="1544521970694">
+<node TEXT="&#x5bf9;&#x666e;&#x901a;DOM&#x5143;&#x7d20;&#x8fdb;&#x884c;&#x5e95;&#x5c42;&#x64cd;&#x4f5c;" ID="ID_166253667" CREATED="1544521671994" MODIFIED="1544521693701"/>
+<node TEXT="&#x6ce8;&#x610f;&#xff0c;&#x5728; Vue2.0 &#x4e2d;&#xff0c;&#x4ee3;&#x7801;&#x590d;&#x7528;&#x548c;&#x62bd;&#x8c61;&#x7684;&#x4e3b;&#x8981;&#x5f62;&#x5f0f;&#x662f;&#x7ec4;&#x4ef6;" ID="ID_110846270" CREATED="1544521694706" MODIFIED="1544521703611"/>
+</node>
+<node TEXT="&#x81ea;&#x5b9a;&#x4e49;&#x6307;&#x4ee4; &#x5b9e;&#x73b0;&#x5f53;&#x9875;&#x9762;&#x52a0;&#x8f7d;&#x65f6;&#xff0c;&#x8be5;&#x5143;&#x7d20;&#x5c06;&#x83b7;&#x5f97;&#x7126;&#x70b9;" ID="ID_755915446" CREATED="1544521774058" MODIFIED="1544521800855">
+<node TEXT="&#x5168;&#x5c40;" ID="ID_287293124" CREATED="1544521864223" MODIFIED="1544521867446">
+<node ID="ID_260265129" CREATED="1544521828367" MODIFIED="1544521828367"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">// &#27880;&#20876;&#19968;&#20010;&#20840;&#23616;&#33258;&#23450;&#20041;&#25351;&#20196; `v-focus`<br/></font></span>Vue.directive(<span style="color: #6a8759"><font color="#6a8759">'focus'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>{<br/>    <span style="color: #808080"><font color="#808080">// &#24403;&#34987;&#32465;&#23450;&#30340;&#20803;&#32032;&#25554;&#20837;&#21040; DOM &#20013;&#26102;&#8230;&#8230;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">inserted</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(el) {<br/>        <span style="color: #808080"><font color="#808080">// &#32858;&#28966;&#20803;&#32032;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>el.<span style="color: #ffc66d"><font color="#ffc66d">focus</font></span>()<br/>    }<br/>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5c40;&#x90e8;&#x6307;&#x4ee4;" ID="ID_1239298604" CREATED="1544521871058" MODIFIED="1544521878014">
+<node TEXT=" &#x7ec4;&#x4ef6;&#x4e2d;&#x4e5f;&#x63a5;&#x53d7;&#x4e00;&#x4e2a; directives &#x7684;&#x9009;&#x9879;" ID="ID_588349167" CREATED="1544521901466" MODIFIED="1544521902811"/>
+<node ID="ID_1392390758" CREATED="1544521931609" MODIFIED="1544521931609"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #9876aa"><font color="#9876aa">directives</font></span>: {<br/>    <span style="color: #9876aa"><font color="#9876aa">focus</font></span>: {<br/>        <span style="color: #808080"><font color="#808080">// &#25351;&#20196;&#30340;&#23450;&#20041;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #ffc66d"><font color="#ffc66d">inserted</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(el) {<br/>            el.<span style="color: #ffc66d"><font color="#ffc66d">focus</font></span>()<br/>        }<br/>    }<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x81ea;&#x5b9a;&#x4e49;&#x6307;&#x4ee4;&#x7684;&#x94a9;&#x5b50;&#x51fd;&#x6570;" ID="ID_930290762" CREATED="1544521978370" MODIFIED="1544522000864">
+<node TEXT=" bind" ID="ID_308766935" CREATED="1544522008705" MODIFIED="1544522013482">
+<node TEXT=" &#x53ea;&#x8c03;&#x7528;&#x4e00;&#x6b21;&#xff0c;&#x6307;&#x4ee4;&#x7b2c;&#x4e00;&#x6b21;&#x7ed1;&#x5b9a;&#x5230;&#x5143;&#x7d20;&#x65f6;&#x8c03;&#x7528;" ID="ID_34610957" CREATED="1544522020681" MODIFIED="1544522021811"/>
+<node TEXT=" &#x5728;&#x8fd9;&#x91cc;&#x53ef;&#x4ee5;&#x8fdb;&#x884c;&#x4e00;&#x6b21;&#x6027;&#x7684;&#x521d;&#x59cb;&#x5316;&#x8bbe;&#x7f6e;" ID="ID_1647851992" CREATED="1544522028250" MODIFIED="1544522029570"/>
+</node>
+<node TEXT=" inserted" ID="ID_877697324" CREATED="1544522036177" MODIFIED="1544522037978">
+<node TEXT=" &#x88ab;&#x7ed1;&#x5b9a;&#x5143;&#x7d20;&#x63d2;&#x5165;&#x7236;&#x8282;&#x70b9;&#x65f6;&#x8c03;&#x7528;" ID="ID_674821091" CREATED="1544522045225" MODIFIED="1544522046763"/>
+<node TEXT=" (&#x4ec5;&#x4fdd;&#x8bc1;&#x7236;&#x8282;&#x70b9;&#x5b58;&#x5728;&#xff0c;&#x4f46;&#x4e0d;&#x4e00;&#x5b9a;&#x5df2;&#x88ab;&#x63d2;&#x5165;&#x6587;&#x6863;&#x4e2d;)" ID="ID_794846769" CREATED="1544522057537" MODIFIED="1544522059242"/>
+</node>
+<node TEXT=" update" ID="ID_1326520053" CREATED="1544522065850" MODIFIED="1544522067178"/>
+<node TEXT=" componentUpdated" ID="ID_447616756" CREATED="1544522091769" MODIFIED="1544522093426">
+<node TEXT=" &#x6307;&#x4ee4;&#x6240;&#x5728;&#x7ec4;&#x4ef6;&#x7684; VNode &#x53ca;&#x5176;&#x5b50; VNode &#x5168;&#x90e8;&#x66f4;&#x65b0;&#x540e;&#x8c03;&#x7528;" ID="ID_838989680" CREATED="1544522103650" MODIFIED="1544522104834"/>
+</node>
+<node TEXT=" unbind" ID="ID_1022007498" CREATED="1544522111489" MODIFIED="1544522112747">
+<node TEXT=" &#x53ea;&#x8c03;&#x7528;&#x4e00;&#x6b21;&#xff0c;&#x6307;&#x4ee4;&#x4e0e;&#x5143;&#x7d20;&#x89e3;&#x7ed1;&#x65f6;&#x8c03;&#x7528;" ID="ID_202807311" CREATED="1544522116650" MODIFIED="1544522117547"/>
+</node>
+</node>
+<node TEXT=" &#x94a9;&#x5b50;&#x51fd;&#x6570;&#x53c2;&#x6570;" ID="ID_1766457142" CREATED="1544522127633" MODIFIED="1544522129360"/>
+</node>
 </node>
 </node>
 </map>
