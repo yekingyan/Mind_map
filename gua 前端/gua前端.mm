@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="96" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="98" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="4" OBJECT="java.lang.Long|4" POSITION="right" ID="ID_411565606" CREATED="1543146731657" MODIFIED="1543146737225">
 <edge COLOR="#00ff00"/>
@@ -838,7 +838,7 @@
 </node>
 </node>
 <node TEXT="&#x65f6;&#x95f4;" ID="ID_458580714" CREATED="1544286435448" MODIFIED="1544286442459">
-<node ID="ID_1981952800" CREATED="1544287897641" MODIFIED="1544287897641"><richcontent TYPE="NODE">
+<node ID="ID_1981952800" CREATED="1544287897641" MODIFIED="1544449020894" MAX_WIDTH="126.74094088281959 pt" MIN_WIDTH="126.74094088281959 pt"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -848,7 +848,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080">// &#24120;&#29992;&#29992;&#27861;&#22914;&#19979;<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>d = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Date()<br/>d.<span style="color: #ffc66d"><font color="#ffc66d">getFullYear</font></span>()<br/><span style="color: #808080"><font color="#808080">// &#24180;&#20221;, 2016<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>d.<span style="color: #ffc66d"><font color="#ffc66d">getMonth</font></span>()<br/><span style="color: #808080"><font color="#808080">// &#26376;&#20221;, 0-11<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>d.<span style="color: #ffc66d"><font color="#ffc66d">getDate</font></span>()<br/><span style="color: #808080"><font color="#808080">// &#26085;&#26399;, 1-31<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>d.<span style="color: #ffc66d"><font color="#ffc66d">getHours</font></span>()<br/><span style="color: #808080"><font color="#808080">// &#23567;&#26102;, 0-23<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>d.<span style="color: #ffc66d"><font color="#ffc66d">getMinutes</font></span>()<br/><span style="color: #808080"><font color="#808080">// &#20998;&#38047;, 0-59<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>d.<span style="color: #ffc66d"><font color="#ffc66d">getSeconds</font></span>()<br/><span style="color: #808080"><font color="#808080">// &#31186;&#25968;, 0-59<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>d.<span style="color: #ffc66d"><font color="#ffc66d">getMilliseconds</font></span>()<br/><span style="color: #808080"><font color="#808080">// &#27627;&#31186;, 0-999<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>d.<span style="color: #ffc66d"><font color="#ffc66d">getDay</font></span>()<br/><span style="color: #808080"><font color="#808080">// &#26143;&#26399;&#20960;, 0-6</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1951074508" CREATED="1544288513892" MODIFIED="1544288513892"><richcontent TYPE="NODE">
 
@@ -860,7 +859,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">currentTime </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>d = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Date()<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>month = d.<span style="color: #ffc66d"><font color="#ffc66d">getMonth</font></span>()<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>date = d.<span style="color: #ffc66d"><font color="#ffc66d">getDate</font></span>()<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>year = d.<span style="color: #ffc66d"><font color="#ffc66d">getFullYear</font></span>()<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>hour = d.<span style="color: #ffc66d"><font color="#ffc66d">getHours</font></span>()<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>minutes = d.<span style="color: #ffc66d"><font color="#ffc66d">getMinutes</font></span>()<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>seconds = d.<span style="color: #ffc66d"><font color="#ffc66d">getSeconds</font></span>()<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>time = <span style="color: #6a8759"><font color="#6a8759">`</font></span>${year}${month}${date}<span style="color: #6a8759"><font color="#6a8759">-</font></span>${hour}<span style="color: #6a8759"><font color="#6a8759">:</font></span>${minutes}<span style="color: #6a8759"><font color="#6a8759">:</font></span>${seconds}<span style="color: #6a8759"><font color="#6a8759">`<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>time<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -888,10 +886,66 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>content.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'keydown'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function </b></span></font>(event) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>target = event.target<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>( event.key === <span style="color: #6a8759"><font color="#6a8759">'Enter' </font></span>) {<br/>        <span style="color: #808080"><font color="#808080">// blur &#22833;&#21435;&#28966;&#28857;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>target.<span style="color: #ffc66d"><font color="#ffc66d">blur</font></span>()<br/>        <span style="color: #808080"><font color="#808080">// &#38459;&#27490;&#20107;&#20214;&#30340;&#40664;&#35748;&#34892;&#20026;&#21457;&#29983;&#65292;&#21363;&#35753;&#22238;&#36710;&#19981;&#36215;&#20316;&#29992;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>event.<span style="color: #ffc66d"><font color="#ffc66d">preventDefault</font></span>()<br/>        <span style="color: #808080"><font color="#808080">// &#26356;&#26032;&#25968;&#25454;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>localStorage[<span style="color: #6a8759"><font color="#6a8759">'contentEditable'</font></span>] =  target.innerHTML<br/>    }<br/>})</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="&#x9009;&#x62e9;&#x4e8b;&#x4ef6;&#x5192;&#x6ce1;&#x6216;&#x9009;&#x62e9;&#x4e8b;&#x4ef6;&#x6355;&#x83b7;" POSITION="right" ID="ID_308245905" CREATED="1544967340209" MODIFIED="1544970977659">
+<edge COLOR="#007c7c"/>
+<node TEXT="&#x9ed8;&#x8ba4;&#x4e8b;&#x4ef6;&#x7684;&#x4f20;&#x9012;&#x65b9;&#x5f0f;&#x662f;&#x5192;&#x6ce1;" ID="ID_1881439728" CREATED="1544969392315" MODIFIED="1544969432471">
+<node ID="ID_1890487468" CREATED="1544969369328" MODIFIED="1544969369328"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;div </font></span><span style="color: #bababa"><font color="#bababa">id=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;id1&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">    &lt;div </span></font><span style="color: #bababa"><font color="#bababa">id=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;id2&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">        &lt;button </span></font><span style="color: #bababa"><font color="#bababa">id=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;id3&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>id3 &#25353;&#32445;<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/button&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">    &lt;/div&gt;<br/></span><span style="color: #e8bf6a">&lt;/div&gt;</span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_752929870" CREATED="1544969375873" MODIFIED="1544969375873"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id1 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id1'</font></span>)<br/>id1.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click id1'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>})<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id2 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id2'</font></span>)<br/>id2.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click id2'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>})<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id3 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id3'</font></span>)<br/>id3.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click id3'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="click" ID="ID_809616575" CREATED="1544969449355" MODIFIED="1544969456150">
+<node TEXT="click id3&#xa;click id2&#xa;click id1" ID="ID_1741196021" CREATED="1544969456787" MODIFIED="1544969476134"/>
+</node>
+</node>
+<node TEXT="&#x901a;&#x8fc7;&#x4fee;&#x6539;useCapture &#x4e3a;ture&#x5b9e;&#x73b0;&#x4e8b;&#x4ef6;&#x6355;&#x83b7;" ID="ID_60697910" CREATED="1544969479980" MODIFIED="1544969560494">
+<node TEXT="addEventListener &#x7684;&#x7b2c;&#x4e09;&#x4e2a;&#x53c2;&#x6570;" ID="ID_1798427817" CREATED="1544969560955" MODIFIED="1544969583086"/>
+<node ID="ID_3623453" CREATED="1544969665019" MODIFIED="1544969665019"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"> <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id1 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id1'</font></span>)<br/>id1.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'capture click id1'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>}<span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>true</b></span></font>)<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id2 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id2'</font></span>)<br/>id2.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'capture click id2'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>}<span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>true</b></span></font>)<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id3 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id3'</font></span>)<br/>id3.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'capture click id3'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>}<span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>true</b></span></font>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="click" ID="ID_1270063165" CREATED="1544969449355" MODIFIED="1544969456150">
+<node TEXT="capture click id1&#xa;capture click id2&#xa;capture click id3" ID="ID_1355730539" CREATED="1544969456787" MODIFIED="1544969695957"/>
+</node>
+</node>
+</node>
+<node TEXT="11" OBJECT="java.lang.Long|11" POSITION="right" ID="ID_254208665" CREATED="1544452305595" MODIFIED="1544970981563">
+<edge COLOR="#7c007c"/>
+<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;" ID="ID_430400591" CREATED="1544970982812" MODIFIED="1544970988225"/>
 </node>
 </node>
 </map>
