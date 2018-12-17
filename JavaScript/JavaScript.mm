@@ -1,9 +1,9 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="JavaScript" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537115312201" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -155,7 +155,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;head&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">  &lt;script&gt;<br/></span><span style="color: #e8bf6a">    </span></font>alert(<span style="color: #6a8759"><font color="#6a8759">'Hello, world'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/script&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&lt;/head&gt;</span></font></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -171,7 +170,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;head&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">  &lt;script </span></font><span style="color: #bababa"><font color="#bababa">src=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;/static/js/abc.js&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/script&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">&lt;/head&gt;</span></font></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -213,7 +211,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt">    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(<span style="color: #6897bb"><font color="#6897bb">2 </font></span>&gt; <span style="color: #6897bb"><font color="#6897bb">1</font></span>) {<br/>    <span style="color: #9876aa"><font color="#9876aa">x </font></span>= <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">y </font></span>= <span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">z </font></span>= <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x8bed;&#x53e5;&#x5757;&#x53ef;&#x4ee5;&#x5d4c;&#x5957;" ID="ID_1797998844" CREATED="1537116030796" MODIFIED="1537116138486">
@@ -252,7 +249,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt">NaN === NaN<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// false</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -268,7 +264,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #ffc66d"><font color="#ffc66d">isNaN</font></span>(NaN)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// true</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -286,7 +281,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #6897bb"><font color="#6897bb">123</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#25972;&#25968;</font></span><span style="color: #808080"><font color="#808080">123<br/></font></span><span style="color: #6897bb"><font color="#6897bb">0.456</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#28014;&#28857;&#25968;</font></span><span style="color: #808080"><font color="#808080">0.456<br/></font></span><span style="color: #6897bb"><font color="#6897bb">1.2345e3</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#31185;&#23398;&#35745;&#25968;&#27861;&#34920;&#31034;</font></span><span style="color: #808080"><font color="#808080">1.2345x1000</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#65292;&#31561;&#21516;&#20110;</font></span><span style="color: #808080"><font color="#808080">1234.5<br/></font></span>-<span style="color: #6897bb"><font color="#6897bb">99</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36127;&#25968;<br/></font></span>NaN<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// NaN</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#34920;&#31034;</font></span><span style="color: #808080"><font color="#808080">Not a Number</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#65292;&#24403;&#26080;&#27861;&#35745;&#31639;&#32467;&#26524;&#26102;&#29992;</font></span><span style="color: #808080"><font color="#808080">NaN</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#34920;&#31034;<br/></font></span>Infinity<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// Infinity</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#34920;&#31034;&#26080;&#38480;&#22823;&#65292;&#24403;&#25968;&#20540;&#36229;&#36807;&#20102;</font></span><span style="color: #808080"><font color="#808080">JavaScript</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#30340;</font></span><span style="color: #808080"><font color="#808080">Number</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#25152;&#33021;&#34920;&#31034;&#30340;&#26368;&#22823;&#20540;&#26102;&#65292;&#23601;&#34920;&#31034;&#20026;</font></span><span style="color: #808080"><font color="#808080">Infinity</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -307,7 +301,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #6897bb"><font color="#6897bb">1 </font></span>+ <span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 3<br/></font></span>(<span style="color: #6897bb"><font color="#6897bb">1 </font></span>+ <span style="color: #6897bb"><font color="#6897bb">2</font></span>) * <span style="color: #6897bb"><font color="#6897bb">5 </font></span>/ <span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 7.5<br/></font></span><span style="color: #6897bb"><font color="#6897bb">2 </font></span>/ <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// Infinity<br/></font></span><span style="color: #6897bb"><font color="#6897bb">0 </font></span>/ <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// NaN</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -322,7 +315,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #6897bb"><font color="#6897bb">10 </font></span>% <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 1<br/></font></span><span style="color: #6897bb"><font color="#6897bb">10.5 </font></span>% <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 1.5</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -343,7 +335,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #6897bb"><font color="#6897bb">2 </font></span>&gt; <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36825;&#26159;&#19968;&#20010;</font></span><span style="color: #808080"><font color="#808080">true</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20540;<br/></font></span><span style="color: #6897bb"><font color="#6897bb">2 </font></span>&gt;= <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36825;&#26159;&#19968;&#20010;</font></span><span style="color: #808080"><font color="#808080">false</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20540;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -386,7 +377,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #6897bb"><font color="#6897bb">1 </font></span>/ <span style="color: #6897bb"><font color="#6897bb">3 </font></span>=== (<span style="color: #6897bb"><font color="#6897bb">1 </font></span>- <span style="color: #6897bb"><font color="#6897bb">2 </font></span>/ <span style="color: #6897bb"><font color="#6897bb">3</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// false</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -402,7 +392,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt">Math.<span style="color: #ffc66d"><font color="#ffc66d">abs</font></span>(<span style="color: #6897bb"><font color="#6897bb">1 </font></span>/ <span style="color: #6897bb"><font color="#6897bb">3 </font></span>- (<span style="color: #6897bb"><font color="#6897bb">1 </font></span>- <span style="color: #6897bb"><font color="#6897bb">2 </font></span>/ <span style="color: #6897bb"><font color="#6897bb">3</font></span>)) &lt; <span style="color: #6897bb"><font color="#6897bb">0.0000001</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// true</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -439,7 +428,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt">[<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3.14</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Hello'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>null</b></span><span style="color: #cc7832">, </span><span style="color: #cc7832; font-weight: bold"><b>true</b></span></font>]<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -471,7 +459,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Array(<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21019;&#24314;&#20102;&#25968;&#32452;</font></span><span style="color: #808080"><font color="#808080">[1, 2, 3]</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -572,7 +559,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>name = <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>age = <span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>message = <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#20320;&#22909;</font></span><span style="color: #6a8759"><font color="#6a8759">, ' </font></span>+ name + <span style="color: #6a8759"><font color="#6a8759">', </font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#20320;&#20170;&#24180;</font></span><span style="color: #6a8759"><font color="#6a8759">' </font></span>+ age + <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23681;&#20102;</font></span><span style="color: #6a8759"><font color="#6a8759">!'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(message)<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -588,7 +574,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>name = <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>age = <span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>message = <span style="color: #6a8759"><font color="#6a8759">`</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#20320;&#22909;</font></span><span style="color: #6a8759"><font color="#6a8759">, </font></span>${name}<span style="color: #6a8759"><font color="#6a8759">, </font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#20320;&#20170;&#24180;</font></span>${age}<span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23681;&#20102;</font></span><span style="color: #6a8759"><font color="#6a8759">!`</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(message)<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -606,7 +591,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>s = <span style="color: #6a8759"><font color="#6a8759">'Hello, world!'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>s.length<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 13</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -623,7 +607,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>s = <span style="color: #6a8759"><font color="#6a8759">'Hello, world!'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font>s[<span style="color: #6897bb"><font color="#6897bb">0</font></span>]<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'H'<br/></font></span>s[<span style="color: #6897bb"><font color="#6897bb">6</font></span>]<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ' '<br/></font></span>s[<span style="color: #6897bb"><font color="#6897bb">7</font></span>]<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'w'<br/></font></span>s[<span style="color: #6897bb"><font color="#6897bb">12</font></span>]<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// '!'<br/></font></span>s[<span style="color: #6897bb"><font color="#6897bb">13</font></span>]<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// undefined </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36229;&#20986;&#33539;&#22260;&#30340;&#32034;&#24341;&#19981;&#20250;&#25253;&#38169;&#65292;&#20294;&#19968;&#24459;&#36820;&#22238;</font></span><span style="color: #808080"><font color="#808080">undefined</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -638,7 +621,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>s = <span style="color: #6a8759"><font color="#6a8759">'Test'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>s[<span style="color: #6897bb"><font color="#6897bb">0</font></span>] = <span style="color: #6a8759"><font color="#6a8759">'X'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(s)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// s</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20173;&#28982;&#20026;</font></span><span style="color: #808080"><font color="#808080">'Test'</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -655,7 +637,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>str = <span style="color: #6a8759"><font color="#6a8759">'abc'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>upper = str.<span style="color: #ffc66d"><font color="#ffc66d">toUpperCase</font></span>()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(upper)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">//ABC</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -673,7 +654,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>s = <span style="color: #6a8759"><font color="#6a8759">'hello, world'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>s.<span style="color: #ffc66d"><font color="#ffc66d">indexOf</font></span>(<span style="color: #6a8759"><font color="#6a8759">'world'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36820;&#22238;</font></span><span style="color: #808080"><font color="#808080">7<br/></font></span>s.<span style="color: #ffc66d"><font color="#ffc66d">indexOf</font></span>(<span style="color: #6a8759"><font color="#6a8759">'World'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#27809;&#26377;&#25214;&#21040;&#25351;&#23450;&#30340;&#23376;&#20018;&#65292;&#36820;&#22238;</font></span><span style="color: #808080"><font color="#808080">-1</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -690,7 +670,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>s = <span style="color: #6a8759"><font color="#6a8759">'hello, world'<br/></font></span>s.<span style="color: #ffc66d"><font color="#ffc66d">substring</font></span>(<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20174;&#32034;&#24341;</font></span><span style="color: #808080"><font color="#808080">0</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#24320;&#22987;&#21040;</font></span><span style="color: #808080"><font color="#808080">5</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#65288;&#19981;&#21253;&#25324;</font></span><span style="color: #808080"><font color="#808080">5</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#65289;&#65292;&#36820;&#22238;</font></span><span style="color: #808080"><font color="#808080">'hello'<br/></font></span>s.<span style="color: #ffc66d"><font color="#ffc66d">substring</font></span>(<span style="color: #6897bb"><font color="#6897bb">7</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20174;&#32034;&#24341;</font></span><span style="color: #808080"><font color="#808080">7</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#24320;&#22987;&#21040;&#32467;&#26463;&#65292;&#36820;&#22238;</font></span><span style="color: #808080"><font color="#808080">'world'</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -763,7 +742,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #9876aa"><font color="#9876aa">arr </font></span>= [<span style="color: #6a8759"><font color="#6a8759">'a'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'b'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #9876aa"><font color="#9876aa">arr</font></span>[<span style="color: #6897bb"><font color="#6897bb">0</font></span>] <span style="color: #808080"><font color="#808080">// 'a'</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -779,7 +757,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.length<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 3</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -795,7 +772,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.length = <span style="color: #6897bb"><font color="#6897bb">6</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// arr</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21464;&#20026;</font></span><span style="color: #808080"><font color="#808080">[1, 2, 3, undefined, undefined, undefined]</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -810,7 +786,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #9876aa"><font color="#9876aa">arr </font></span>= [<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #9876aa"><font color="#9876aa">arr</font></span>.length = <span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #9876aa"><font color="#9876aa">arr</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// arr</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21464;&#20026;</font></span><span style="color: #808080"><font color="#808080">[1, 2]</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -828,7 +803,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'C'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr[<span style="color: #6897bb"><font color="#6897bb">1</font></span>] = <span style="color: #6897bb"><font color="#6897bb">99</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// arr</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#29616;&#22312;&#21464;&#20026;</font></span><span style="color: #808080"><font color="#808080">['A', 99, 'C']</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -844,7 +818,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr[<span style="color: #6897bb"><font color="#6897bb">5</font></span>] = <span style="color: #6a8759"><font color="#6a8759">'x'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// arr</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21464;&#20026;</font></span><span style="color: #808080"><font color="#808080">[1, 2, 3, undefined, undefined, 'x']</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -865,7 +838,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [[<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>]<span style="color: #cc7832"><font color="#cc7832">, </font></span>[<span style="color: #6897bb"><font color="#6897bb">400</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">500</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">600</font></span>]<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'-'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -879,7 +851,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x53d6;&#x503c;&#x7c7b;&#x4f3c;python" ID="ID_562516673" CREATED="1537155342936" MODIFIED="1537155357818"/>
@@ -897,7 +868,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">indexOf</font></span>(<span style="color: #6897bb"><font color="#6897bb">2</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">//1</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -914,7 +884,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'C'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'D'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'E'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'F'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'G'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">slice</font></span>(<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20174;&#32034;&#24341;</font></span><span style="color: #808080"><font color="#808080">0</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#24320;&#22987;&#65292;&#21040;&#32034;&#24341;</font></span><span style="color: #808080"><font color="#808080">3</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#32467;&#26463;&#65292;&#20294;&#19981;&#21253;&#25324;&#32034;&#24341;</font></span><span style="color: #808080"><font color="#808080">3: ['A', 'B', 'C']<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">slice</font></span>(<span style="color: #6897bb"><font color="#6897bb">3</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20174;&#32034;&#24341;</font></span><span style="color: #808080"><font color="#808080">3</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#24320;&#22987;&#21040;&#32467;&#26463;</font></span><span style="color: #808080"><font color="#808080">: ['D', 'E', 'F', 'G']</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x53c2;&#x6570;" ID="ID_476189350" CREATED="1537153759290" MODIFIED="1537153769691">
@@ -943,7 +912,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">push</font></span>(<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36820;&#22238;</font></span><span style="color: #808080"><font color="#808080">Array</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#26032;&#30340;&#38271;&#24230;</font></span><span style="color: #808080"><font color="#808080">: 4<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// [1, 2, 'A', 'B']</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -959,7 +927,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span>]<br/>arr.<span style="color: #ffc66d"><font color="#ffc66d">pop</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// pop()</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36820;&#22238;</font></span><span style="color: #808080"><font color="#808080">'B'<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// [1, 2, 'A']</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -976,7 +943,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">unshift</font></span>(<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36820;&#22238;</font></span><span style="color: #808080"><font color="#808080">Array</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#26032;&#30340;&#38271;&#24230;</font></span><span style="color: #808080"><font color="#808080">: 4<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ['A', 'B', 1, 2]</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -993,7 +959,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">shift</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'A'<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ['B', 1, 2]</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1012,7 +977,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'B'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'C'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'A'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">sort</font></span>()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ['A', 'B', 'C']</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1028,7 +992,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'one'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'two'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'three'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">reverse</font></span>()<span style="color: #cc7832"><font color="#cc7832">; <br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ['three', 'two', 'one']</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1046,7 +1009,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr.splice(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ['Google', 'Facebook']<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ['Microsoft', 'Apple', 'Oracle']</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1063,7 +1025,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'Microsoft'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Apple'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Yahoo'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'AOL'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Excite'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Oracle'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20174;&#32034;&#24341;</font></span><span style="color: #808080"><font color="#808080">2</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#24320;&#22987;&#21024;&#38500;</font></span><span style="color: #808080"><font color="#808080">3</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20010;&#20803;&#32032;</font></span><span style="color: #808080"><font color="#808080">,</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#28982;&#21518;&#20877;&#28155;&#21152;&#20004;&#20010;&#20803;&#32032;</font></span><span style="color: #808080"><font color="#808080">:<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">splice</font></span>(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Google'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Facebook'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36820;&#22238;&#21024;&#38500;&#30340;&#20803;&#32032;</font></span><span style="color: #808080"><font color="#808080"> ['Yahoo', 'AOL', 'Excite']<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ['Microsoft', 'Apple', 'Google', 'Facebook', 'Oracle']</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1079,7 +1040,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'Microsoft'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Apple'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><span style="color: #6a8759"><font color="#6a8759">'Oracle'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">splice</font></span>(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Google'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Facebook'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36820;&#22238;</font></span><span style="color: #808080"><font color="#808080">[],</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#22240;&#20026;&#27809;&#26377;&#21024;&#38500;&#20219;&#20309;&#20803;&#32032;<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ['Microsoft', 'Apple', 'Google', 'Facebook', 'Oracle']</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1096,7 +1056,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'C'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>added = arr.<span style="color: #ffc66d"><font color="#ffc66d">concat</font></span>([<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>])<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>added<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ['A', 'B', 'C', 1, 2, 3]<br/></font></span>arr<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ['A', 'B', 'C']</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -1113,7 +1072,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1856402879" CREATED="1537154972848" MODIFIED="1537155019774"><richcontent TYPE="NODE">
@@ -1126,7 +1084,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'C'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">concat</font></span>(<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>[<span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span>])<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ['A', 'B', 'C', 1, 2, 3, 4]</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -1143,7 +1100,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1159,7 +1115,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'C'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">join</font></span>(<span style="color: #6a8759"><font color="#6a8759">'-'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'A-B-C-1-2-3'</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1202,7 +1157,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>xiaohong = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#32418;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'middle-school'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'No.1 Middle School'<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="xiaohong[&apos;name&apos;]" ID="ID_1131888682" CREATED="1537373882486" MODIFIED="1537373888119"/>
@@ -1224,7 +1178,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_993732488" CREATED="1537374122279" MODIFIED="1537374122279"><richcontent TYPE="NODE">
 
@@ -1240,7 +1193,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1078105776" CREATED="1537374122279" MODIFIED="1537374122279"><richcontent TYPE="NODE">
@@ -1257,7 +1209,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1300955577" CREATED="1537374122279" MODIFIED="1537374122279"><richcontent TYPE="NODE">
@@ -1272,7 +1223,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1290,7 +1240,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>xiaoming = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>xiaoming.<span style="color: #9876aa"><font color="#9876aa">fuck </font></span><span style="color: #808080"><font color="#808080">//undefined<br/></font></span><font color="#808080"><span style="color: #808080">// </span></font><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#28155;&#21152;&#23646;&#24615;        <br/></font></span>xiaoming.<span style="color: #9876aa"><font color="#9876aa">fuck </font></span>= <span style="color: #6a8759"><font color="#6a8759">'fufuck'<br/></font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21024;&#38500;&#23646;&#24615;<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>delete </b></font></span>xiaoming.<span style="color: #9876aa"><font color="#9876aa">fuck</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1306,7 +1255,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>xiaoming = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">birth</font></span>: <span style="color: #6897bb"><font color="#6897bb">1990</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">school</font></span>: <span style="color: #6a8759"><font color="#6a8759">'No.1 Middle School'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">height</font></span>: <span style="color: #6897bb"><font color="#6897bb">1.70</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">weight</font></span>: <span style="color: #6897bb"><font color="#6897bb">65</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">score</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>null<br/></b></font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #6a8759"><font color="#6a8759">'name' </font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>in </b></font></span>xiaoming<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// true<br/></font></span><span style="color: #6a8759"><font color="#6a8759">'grade' </font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>in </b></font></span>xiaoming<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// false</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x7ee7;&#x627f;&#x5f97;&#x6765;&#x7684;&#x5c5e;&#x6027;" ID="ID_596982634" CREATED="1537374621986" MODIFIED="1537374655427">
@@ -1326,7 +1274,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>xiaoming = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>xiaoming.<span style="color: #ffc66d"><font color="#ffc66d">hasOwnProperty</font></span>(<span style="color: #6a8759"><font color="#6a8759">'name'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// true<br/></font></span>xiaoming.<span style="color: #ffc66d"><font color="#ffc66d">hasOwnProperty</font></span>(<span style="color: #6a8759"><font color="#6a8759">'toString'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// false</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1342,7 +1289,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>xy = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;xieying&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">age</font></span>: <span style="color: #6897bb"><font color="#6897bb">22</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">telephone</font></span>: <span style="color: #6897bb"><font color="#6897bb">18888888888</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">job</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;unknown&quot;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="key" ID="ID_1995679521" CREATED="1537375355862" MODIFIED="1537375357895">
@@ -1356,7 +1302,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for </b></font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>key <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>in </b></font></span>zbw) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(key)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/>name<br/>age<br/>telephone<br/>job</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1371,7 +1316,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for </b></font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>key <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>in </b></font></span>zbw) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(xy.<span style="color: #9876aa"><font color="#9876aa">key</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1390,7 +1334,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>age = <span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>if </b></span></font>(age &gt;= <span style="color: #6897bb"><font color="#6897bb">18</font></span>) { <span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#22914;&#26524;</font></span><span style="color: #808080"><font color="#808080">age &gt;= 18</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20026;</font></span><span style="color: #808080"><font color="#808080">true</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#65292;&#21017;&#25191;&#34892;</font></span><span style="color: #808080"><font color="#808080">if</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#35821;&#21477;&#22359;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'adult'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else </b></font></span>{ <span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21542;&#21017;&#25191;&#34892;</font></span><span style="color: #808080"><font color="#808080">else</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#35821;&#21477;&#22359;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'teenager'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6ce8;&#x610f;" ID="ID_288255565" CREATED="1537375816555" MODIFIED="1537375819004">
@@ -1411,7 +1354,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>age = <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>if </b></span></font>(age &gt;= <span style="color: #6897bb"><font color="#6897bb">18</font></span>) {<br/>    <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'adult'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else </b></font></span>{<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(age &gt;= <span style="color: #6897bb"><font color="#6897bb">6</font></span>) {<br/>        <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'teenager'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else </b></font></span>{<br/>        <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'kid'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1426,7 +1368,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>age = <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>if </b></span></font>(age &gt;= <span style="color: #6897bb"><font color="#6897bb">18</font></span>) {<br/>    <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'adult'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else if </b></font></span>(age &gt;= <span style="color: #6897bb"><font color="#6897bb">6</font></span>) {<br/>    <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'teenager'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else </b></font></span>{<br/>    <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'kid'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1447,7 +1388,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x = <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>i<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>for </b></span></font>(i=<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i&lt;=<span style="color: #6897bb"><font color="#6897bb">10000</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i++) {<br/>    x = x + i<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/>x<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 50005000</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x63a7;&#x5236;&#x6761;&#x4ef6;" ID="ID_482008825" CREATED="1537376894141" MODIFIED="1537376895384">
@@ -1475,7 +1415,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x = <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>for </b></span></font>(<span style="color: #cc7832"><font color="#cc7832">;;</font></span>) { <span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23558;&#26080;&#38480;&#24490;&#29615;&#19979;&#21435;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(x &gt; <span style="color: #6897bb"><font color="#6897bb">100</font></span>) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>break</b></font></span><font color="#cc7832"><span style="color: #cc7832">; </span></font><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36890;&#36807;</font></span><span style="color: #808080"><font color="#808080">if</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21028;&#26029;&#26469;&#36864;&#20986;&#24490;&#29615;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">    </span></font>}<br/>    x ++<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1491,7 +1430,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'Apple'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Google'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Microsoft'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>i<span style="color: #cc7832"><font color="#cc7832">, </font></span>x<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>for </b></span></font>(i=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i&lt;arr.length<span style="color: #cc7832"><font color="#cc7832">; </font></span>i++) {<br/>    x = arr[i]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(x)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1507,7 +1445,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>o = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'Jack'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">age</font></span>: <span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">city</font></span>: <span style="color: #6a8759"><font color="#6a8759">'Beijing'<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>for </b></span></font>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>key <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>in </b></font></span>o) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(key)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'name', 'age', 'city'<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1522,7 +1459,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>o = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'Jack'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">age</font></span>: <span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">city</font></span>: <span style="color: #6a8759"><font color="#6a8759">'Beijing'<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>for </b></span></font>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>key <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>in </b></font></span>o) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(o.<span style="color: #ffc66d"><font color="#ffc66d">hasOwnProperty</font></span>(key)) {<br/>        console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(key)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'name', 'age', 'city'<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>}<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1538,7 +1474,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>a = [<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'C'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>for </b></span></font>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>i <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>in </b></font></span>a) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(i)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// '0', '1', '2'<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(a[i])<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'A', 'B', 'C'<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1557,7 +1492,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x = <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>n = <span style="color: #6897bb"><font color="#6897bb">99</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>while </b></span></font>(n &gt; <span style="color: #6897bb"><font color="#6897bb">0</font></span>) {<br/>    x = x + n<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>n = n - <span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/>x<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 2500</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1598,7 +1532,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>m = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Map([<br/>    [<span style="color: #6a8759"><font color="#6a8759">'Michael'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">95</font></span>]<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>[<span style="color: #6a8759"><font color="#6a8759">'Bob'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">75</font></span>]<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>[<span style="color: #6a8759"><font color="#6a8759">'Tracy'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">85</font></span>]<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span>])<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>m.<span style="color: #ffc66d"><font color="#ffc66d">get</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Michael'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 95</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1614,7 +1547,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>m = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Map()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#31354;</font></span><span style="color: #808080"><font color="#808080">Map<br/></font></span>m.<span style="color: #ffc66d"><font color="#ffc66d">set</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">67</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#28155;&#21152;&#26032;&#30340;</font></span><span style="color: #808080"><font color="#808080">key-value<br/></font></span>m.<span style="color: #ffc66d"><font color="#ffc66d">set</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Bob'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">59</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>m.<span style="color: #ffc66d"><font color="#ffc66d">has</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#26159;&#21542;&#23384;&#22312;</font></span><span style="color: #808080"><font color="#808080">key 'Adam': true<br/></font></span>m.<span style="color: #ffc66d"><font color="#ffc66d">get</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 67<br/></font></span>m.<span style="color: #ffc66d"><font color="#ffc66d">delete</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21024;&#38500;</font></span><span style="color: #808080"><font color="#808080">key 'Adam'<br/></font></span>m.<span style="color: #ffc66d"><font color="#ffc66d">get</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// undefined<br/></font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_827506042" CREATED="1537436534313" MODIFIED="1537436833162"><richcontent TYPE="NODE">
@@ -1627,7 +1559,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>m = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Map([[<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><span style="color: #6897bb"><font color="#6897bb">67</font></span>]])<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>m.<span style="color: #ffc66d"><font color="#ffc66d">has</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1238424761" CREATED="1537436630463" MODIFIED="1537436630463"><richcontent TYPE="NODE">
@@ -1640,7 +1571,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>m = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Map([[<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><span style="color: #6897bb"><font color="#6897bb">67</font></span>]])<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>m.<span style="color: #ffc66d"><font color="#ffc66d">get</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;</font></span><span style="color: #808080"><font color="#808080">//67</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_366148957" CREATED="1537436703048" MODIFIED="1537436703048"><richcontent TYPE="NODE">
@@ -1653,7 +1583,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>m = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Map([[<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><span style="color: #6897bb"><font color="#6897bb">67</font></span>]])<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>m.<span style="color: #ffc66d"><font color="#ffc66d">delete</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;</font></span><span style="color: #808080"><font color="#808080">//67<br/></font></span>m.<span style="color: #ffc66d"><font color="#ffc66d">get</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Adam'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">//undefined</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1692,7 +1621,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>s = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Set([<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'3'</font></span>])<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>s<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// Set {1, 2, 3, &quot;3&quot;}</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1816,7 +1744,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>a = [<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'C'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>a.<span style="color: #ffc66d"><font color="#ffc66d">forEach</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(element<span style="color: #cc7832"><font color="#cc7832">, </font></span>index<span style="color: #cc7832"><font color="#cc7832">, </font></span>array) {<br/>    <span style="color: #808080"><font color="#808080">// element: </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#25351;&#21521;&#24403;&#21069;&#20803;&#32032;&#30340;&#20540;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">    </span></font><span style="color: #808080"><font color="#808080">// index: </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#25351;&#21521;&#24403;&#21069;&#32034;&#24341;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">    </span></font><span style="color: #808080"><font color="#808080">// array: </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#25351;&#21521;</font></span><span style="color: #808080"><font color="#808080">Array</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23545;&#35937;&#26412;&#36523;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">    </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(element + <span style="color: #6a8759"><font color="#6a8759">', index = ' </font></span>+ index)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>})<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span></pre>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_336711122" CREATED="1537380131678" MODIFIED="1537380131678"><richcontent TYPE="NODE">
 
@@ -1876,7 +1803,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1900,7 +1826,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x4e00;&#x65e6;&#x6267;&#x884c;&#x5230;return&#x65f6;&#xff0c;&#x51fd;&#x6570;&#x5c31;&#x6267;&#x884c;&#x5b8c;&#x6bd5;&#xff0c;&#x5e76;&#x5c06;&#x7ed3;&#x679c;&#x8fd4;&#x56de;" ID="ID_816596264" CREATED="1537457366743" MODIFIED="1537457390823"/>
 <node TEXT="&#x6ca1;&#x6709;return &#x5219;&#x7ed3;&#x679c;&#x4e3a;undefined" ID="ID_65167104" CREATED="1537457368509" MODIFIED="1537457382407"/>
@@ -1920,7 +1845,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_262708685" CREATED="1537542267858" MODIFIED="1537542267858"><richcontent TYPE="NODE">
@@ -1935,7 +1859,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1616676194" CREATED="1537542267860" MODIFIED="1537542267860"><richcontent TYPE="NODE">
@@ -1950,7 +1873,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1533814120" CREATED="1537542267862" MODIFIED="1537542267862"><richcontent TYPE="NODE">
@@ -1965,7 +1887,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1980,7 +1901,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">abs</font></span>(x) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(x &gt;= <span style="color: #6897bb"><font color="#6897bb">0</font></span>) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>x<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else </b></font></span>{<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>-x<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1995,7 +1915,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">abs </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(x) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(x &gt;= <span style="color: #6897bb"><font color="#6897bb">0</font></span>) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>x<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else </b></font></span>{<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>-x<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 <node TEXT=" function (x) { ... }&#x662f;&#x4e00;&#x4e2a;&#x533f;&#x540d;&#x51fd;&#x6570;&#xff0c;&#x5b83;&#x6ca1;&#x6709;&#x51fd;&#x6570;&#x540d;" ID="ID_1968913944" CREATED="1537457698300" MODIFIED="1537457699604"/>
 <node TEXT=" &#x8fd9;&#x4e2a;&#x533f;&#x540d;&#x51fd;&#x6570;&#x8d4b;&#x503c;&#x7ed9;&#x4e86;&#x53d8;&#x91cf;abs" ID="ID_1749095399" CREATED="1537457704499" MODIFIED="1537457712558"/>
@@ -2020,7 +1939,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">abs </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(x) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(x &gt;= <span style="color: #6897bb"><font color="#6897bb">0</font></span>) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>x<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else </b></font></span>{<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>-x<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1317121767" CREATED="1537458047802" MODIFIED="1537458113550"><richcontent TYPE="NODE">
@@ -2033,7 +1951,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">abs</font></span>(x) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>typeof </b></font></span>x !== <span style="color: #6a8759"><font color="#6a8759">'number'</font></span>) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>throw </b></font></span><span style="color: #6a8759"><font color="#6a8759">'Not a number'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(x &gt;= <span style="color: #6897bb"><font color="#6897bb">0</font></span>) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>x<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else </b></font></span>{<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>-x<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2052,7 +1969,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x5e76;&#x4e14;&#x6c38;&#x8fdc;&#x6307;&#x5411;&#x5f53;&#x524d;&#x51fd;&#x6570;&#x7684;&#x8c03;&#x7528;&#x8005;&#x4f20;&#x5165;&#x7684;&#x6240;&#x6709;&#x53c2;&#x6570;" ID="ID_432908461" CREATED="1537458160408" MODIFIED="1537458161788">
@@ -2069,7 +1985,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">obj </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for </b></font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>i <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>of </b></font></span>arguments){<br/>        console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(i)<br/>    }<br/>}<br/><span style="color: #ffc66d"><font color="#ffc66d">obj</font></span>(<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>) <span style="color: #808080"><font color="#808080">//1 \n 2 \n 3</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2085,7 +2000,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">abs</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(arguments.length === <span style="color: #6897bb"><font color="#6897bb">0</font></span>) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span><span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x = arguments[<span style="color: #6897bb"><font color="#6897bb">0</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>return </b></span></font>x &gt;= <span style="color: #6897bb"><font color="#6897bb">0 </font></span>? x : -x<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/><br/><span style="color: #ffc66d"><font color="#ffc66d">abs</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 0<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">abs</font></span>(<span style="color: #6897bb"><font color="#6897bb">10</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 10<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">abs</font></span>(-<span style="color: #6897bb"><font color="#6897bb">9</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 9</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2100,7 +2014,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>(x) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'x = ' </font></span>+ x)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 10<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for </b></font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>i=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i&lt;arguments.length<span style="color: #cc7832"><font color="#cc7832">; </font></span>i++) {<br/>        console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'arg ' </font></span>+ i + <span style="color: #6a8759"><font color="#6a8759">' = ' </font></span>+ arguments[i])<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 10, 20, 30<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>}<br/>}<br/><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>(<span style="color: #6897bb"><font color="#6897bb">10</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">30</font></span>)<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" x = 10&#xa;arg 0 = 10&#xa;arg 1 = 20&#xa;arg 2 = 30" ID="ID_1702652381" CREATED="1537458476383" MODIFIED="1537458478161"/>
@@ -2115,7 +2028,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">obj </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(arguments.length)<br/>}<br/><span style="color: #ffc66d"><font color="#ffc66d">obj</font></span>(<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>) <span style="color: #808080"><font color="#808080">//3</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -2129,7 +2041,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x8981;&#x628a;&#x4e2d;&#x95f4;&#x7684;&#x53c2;&#x6570;b&#x53d8;&#x4e3a;&#x201c;&#x53ef;&#x9009;&#x201d;&#x53c2;&#x6570;&#xff0c;&#xa;&#x5c31;&#x53ea;&#x80fd;&#x901a;&#x8fc7;arguments&#x5224;&#x65ad;&#xff0c;&#xa;&#x7136;&#x540e;&#x91cd;&#x65b0;&#x8c03;&#x6574;&#x53c2;&#x6570;&#x5e76;&#x8d4b;&#x503c;&#x3002;" ID="ID_1489458975" CREATED="1537458599203" MODIFIED="1537458616655"/>
 <node ID="ID_716034110" CREATED="1537458582923" MODIFIED="1537543264116"><richcontent TYPE="NODE">
@@ -2142,7 +2053,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">// foo(a[, b], c)<br/></font></span><font color="#808080"><span style="color: #808080">// </span></font><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#25509;&#25910;</font></span><span style="color: #808080"><font color="#808080">2~3</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20010;&#21442;&#25968;&#65292;</font></span><span style="color: #808080"><font color="#808080">b</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#26159;&#21487;&#36873;&#21442;&#25968;&#65292;&#22914;&#26524;&#21482;&#20256;</font></span><span style="color: #808080"><font color="#808080">2</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20010;&#21442;&#25968;&#65292;</font></span><span style="color: #808080"><font color="#808080">b</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#40664;&#35748;&#20026;</font></span><span style="color: #808080"><font color="#808080">null</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#65306;<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>(a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b<span style="color: #cc7832"><font color="#cc7832">, </font></span>c) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(arguments.length === <span style="color: #6897bb"><font color="#6897bb">2</font></span>) {<br/>        <span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23454;&#38469;&#25343;&#21040;&#30340;&#21442;&#25968;&#26159;</font></span><span style="color: #808080"><font color="#808080">a</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21644;</font></span><span style="color: #808080"><font color="#808080">b</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#65292;</font></span><span style="color: #808080"><font color="#808080">c</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20026;</font></span><span style="color: #808080"><font color="#808080">undefined<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>c = b<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#25226;</font></span><span style="color: #808080"><font color="#808080">b</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36171;&#32473;</font></span><span style="color: #808080"><font color="#808080">c<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>b = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>null</b></font></span><font color="#cc7832"><span style="color: #cc7832">; </span></font><span style="color: #808080"><font color="#808080">// b</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21464;&#20026;&#40664;&#35748;&#20540;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">    </span></font>}<br/>    <span style="color: #808080"><font color="#808080">// ...<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2166,7 +2076,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>(a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>i<span style="color: #cc7832"><font color="#cc7832">, </font></span>rest = []<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>if </b></span></font>(arguments.length &gt; <span style="color: #6897bb"><font color="#6897bb">2</font></span>) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for </b></font></span>(i = <span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i&lt;arguments.length<span style="color: #cc7832"><font color="#cc7832">; </font></span>i++) {<br/>            rest.<span style="color: #ffc66d"><font color="#ffc66d">push</font></span>(arguments[i])<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font>}<br/>    }<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'a = ' </font></span>+ a)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'b = ' </font></span>+ b)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(rest)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>} </pre>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="foo(1,2,3,4,5)&#xa;a = 1&#xa;b = 2&#xa;[3, 4, 5]" ID="ID_1886224541" CREATED="1537543661583" MODIFIED="1537543705471"/>
 </node>
@@ -2182,7 +2091,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>(a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b<span style="color: #cc7832"><font color="#cc7832">, </font></span>...rest) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'a = ' </font></span>+ a)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'b = ' </font></span>+ b)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(rest)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2198,7 +2106,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">sum</font></span>(...rest) {<br/>   <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x = <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span><span style="color: #cc7832; font-weight: bold"><b>for </b></span></font>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>i <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>of </b></font></span>rest){<br/>      x = x+i<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/>   <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>x<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2213,7 +2120,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">area_of_circle</font></span>(r<span style="color: #cc7832"><font color="#cc7832">, </font></span>pi) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(arguments.length === <span style="color: #6897bb"><font color="#6897bb">1</font></span>) {<br/>        pi = <span style="color: #6897bb"><font color="#6897bb">3.14<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font>}<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x = r * r * pi<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>return </b></span></font>x<br/><br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2231,7 +2137,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>{ <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'foo' </font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/><br/><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// { name: 'foo' }</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2247,7 +2152,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return<br/></b></font></span><font color="#cc7832"><b><span style="color: #cc7832; font-weight: bold">        </span></b></font>{ name: <span style="color: #6a8759"><font color="#6a8759">'foo' </font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/><br/><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// undefined</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2262,7 +2166,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>{ <span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36825;&#37324;&#19981;&#20250;&#33258;&#21160;&#21152;&#20998;&#21495;&#65292;&#22240;&#20026;</font></span><span style="color: #808080"><font color="#808080">{</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#34920;&#31034;&#35821;&#21477;&#23578;&#26410;&#32467;&#26463;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">        </span></font><span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'foo'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2291,7 +2194,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x = <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>function </b></span></font><span style="color: #ffc66d"><font color="#ffc66d">bar</font></span>() {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>y = x + <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// bar</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21487;&#20197;&#35775;&#38382;</font></span><span style="color: #808080"><font color="#808080">foo</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#30340;&#21464;&#37327;</font></span><span style="color: #808080"><font color="#808080">x!<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>}<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>z = y + <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// ReferenceError! foo</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#19981;&#21487;&#20197;&#35775;&#38382;</font></span><span style="color: #808080"><font color="#808080">bar</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#30340;&#21464;&#37327;</font></span><span style="color: #808080"><font color="#808080">y!<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2307,7 +2209,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x = <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>function </b></span></font><span style="color: #ffc66d"><font color="#ffc66d">bar</font></span>() {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x = <span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'x in bar() = ' </font></span>+ x)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'A'<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>}<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'x in foo() = ' </font></span>+ x)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 1<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">bar</font></span>()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" x in foo() = 1&#xa;x in bar() = A" ID="ID_10522675" CREATED="1537460311452" MODIFIED="1537460312918"/>
@@ -2325,7 +2226,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #6a8759"><font color="#6a8759">'use strict'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function </b></span></font><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x = <span style="color: #6a8759"><font color="#6a8759">'Hello, ' </font></span>+ y<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(x)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>y = <span style="color: #6a8759"><font color="#6a8759">'Bob'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/><br/><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">//Hello, undefined</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="y&#x53d8;&#x91cf;&#x5148;&#x7528;&#xff0c;&#x540e;&#x5b9a;&#x4e49;" ID="ID_1750156370" CREATED="1537460497523" MODIFIED="1537460683404">
 <node TEXT="&#x5982;&#x679c;&#x5728;python&#x4e2d;&#xff0c;&#x62a5;&#x9519;" ID="ID_1765397081" CREATED="1537460521067" MODIFIED="1537460532852"/>
@@ -2342,7 +2242,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>y<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#25552;&#21319;&#21464;&#37327;</font></span><span style="color: #808080"><font color="#808080">y</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#30340;&#30003;&#26126;&#65292;&#27492;&#26102;</font></span><span style="color: #808080"><font color="#808080">y</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20026;</font></span><span style="color: #808080"><font color="#808080">undefined<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x = <span style="color: #6a8759"><font color="#6a8759">'Hello, ' </font></span>+ y<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(x)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>y = <span style="color: #6a8759"><font color="#6a8759">'Bob'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -2356,7 +2255,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2373,7 +2271,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var<br/></b></font></span><font color="#cc7832"><b><span style="color: #cc7832; font-weight: bold">        </span></b></font>x = <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #808080"><font color="#808080">// x</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21021;&#22987;&#21270;&#20026;</font></span><span style="color: #808080"><font color="#808080">1<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>y = x + <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #808080"><font color="#808080">// y</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21021;&#22987;&#21270;&#20026;</font></span><span style="color: #808080"><font color="#808080">2<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>z<span style="color: #cc7832"><font color="#cc7832">, </font></span>i<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// z</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21644;</font></span><span style="color: #808080"><font color="#808080">i</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20026;</font></span><span style="color: #808080"><font color="#808080">undefined<br/></font></span><font color="#808080"><span style="color: #808080">    // </span></font><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20854;&#20182;&#35821;&#21477;</font></span><span style="color: #808080"><font color="#808080">:<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for </b></font></span>(i=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i&lt;<span style="color: #6897bb"><font color="#6897bb">100</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i++) {<br/>        ...<br/>    }<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2400,7 +2297,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #6a8759"><font color="#6a8759">'use strict'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>course = <span style="color: #6a8759"><font color="#6a8759">'Learn JavaScript'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(course)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'Learn JavaScript'<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(window.course)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'Learn JavaScript' </font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2416,7 +2312,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #6a8759"><font color="#6a8759">'use strict'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function </b></span></font><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>() {<br/>    <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'foo'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/><br/><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#30452;&#25509;&#35843;&#29992;</font></span><span style="color: #808080"><font color="#808080">foo()<br/></font></span>window.<span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36890;&#36807;</font></span><span style="color: #808080"><font color="#808080">window.foo()</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#35843;&#29992;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2435,7 +2330,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21807;&#19968;&#30340;&#20840;&#23616;&#21464;&#37327;</font></span><span style="color: #808080"><font color="#808080">MYAPP:<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>MYAPP = {}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20854;&#20182;&#21464;&#37327;</font></span><span style="color: #808080"><font color="#808080">:<br/></font></span>MYAPP.<span style="color: #9876aa"><font color="#9876aa">name </font></span>= <span style="color: #6a8759"><font color="#6a8759">'myapp'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>MYAPP.<span style="color: #9876aa"><font color="#9876aa">version </font></span>= <span style="color: #6897bb"><font color="#6897bb">1.0</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20854;&#20182;&#20989;&#25968;</font></span><span style="color: #808080"><font color="#808080">:<br/></font></span>MYAPP.<span style="color: #ffc66d"><font color="#ffc66d">foo </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span><span style="color: #6a8759"><font color="#6a8759">'foo'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2452,7 +2346,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for </b></font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>i=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i&lt;<span style="color: #6897bb"><font color="#6897bb">100</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i++) {<br/>        <span style="color: #808080"><font color="#808080">//<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>}<br/>    i += <span style="color: #6897bb"><font color="#6897bb">100</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20173;&#28982;&#21487;&#20197;&#24341;&#29992;&#21464;&#37327;</font></span><span style="color: #808080"><font color="#808080">i<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2469,7 +2362,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>sum = <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>for </b></span></font>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>i=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i&lt;<span style="color: #6897bb"><font color="#6897bb">100</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i++) {<br/>        sum += i<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>    <span style="color: #808080"><font color="#808080">// SyntaxError:<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #9876aa"><font color="#9876aa">i </font></span>+= <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2492,7 +2384,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>const </b></font></span>PI = <span style="color: #6897bb"><font color="#6897bb">3.14</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>PI = <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#26576;&#20123;&#27983;&#35272;&#22120;&#19981;&#25253;&#38169;&#65292;&#20294;&#26159;&#26080;&#25928;&#26524;&#65281;<br/></font></span>PI<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 3.14</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2510,7 +2401,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>array = [<span style="color: #6a8759"><font color="#6a8759">'hello'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'JavaScript'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'ES6'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>x = array[<span style="color: #6897bb"><font color="#6897bb">0</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>y = array[<span style="color: #6897bb"><font color="#6897bb">1</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>z = array[<span style="color: #6897bb"><font color="#6897bb">2</font></span>]<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2525,7 +2415,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#22914;&#26524;&#27983;&#35272;&#22120;&#25903;&#25345;&#35299;&#26500;&#36171;&#20540;&#23601;&#19981;&#20250;&#25253;&#38169;</font></span><span style="color: #808080"><font color="#808080">:<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>[x<span style="color: #cc7832"><font color="#cc7832">, </font></span>y<span style="color: #cc7832"><font color="#cc7832">, </font></span>z] = [<span style="color: #6a8759"><font color="#6a8759">'hello'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'JavaScript'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'ES6'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6570;&#x7ec4;&#x5d4c;&#x5957;" ID="ID_1885867502" CREATED="1537461984682" MODIFIED="1537461995004">
@@ -2539,7 +2428,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>[x<span style="color: #cc7832"><font color="#cc7832">, </font></span>[y<span style="color: #cc7832"><font color="#cc7832">, </font></span>z]] = [<span style="color: #6a8759"><font color="#6a8759">'hello'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>[<span style="color: #6a8759"><font color="#6a8759">'JavaScript'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'ES6'</font></span>]]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>x<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'hello'<br/></font></span>y<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'JavaScript'<br/></font></span>z<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'ES6'</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2554,7 +2442,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#24573;&#30053;&#21069;&#20004;&#20010;&#20803;&#32032;&#65292;&#21482;&#23545;</font></span><span style="color: #808080"><font color="#808080">z</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36171;&#20540;&#31532;&#19977;&#20010;&#20803;&#32032;<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>[<span style="color: #cc7832"><font color="#cc7832">, , </font></span>z] = [<span style="color: #6a8759"><font color="#6a8759">'hello'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'JavaScript'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'ES6'</font></span>]<span style="color: #cc7832"><font color="#cc7832">; <br/></font></span>z<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'ES6'</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2570,7 +2457,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>person = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">age</font></span>: <span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">gender</font></span>: <span style="color: #6a8759"><font color="#6a8759">'male'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">passport</font></span>: <span style="color: #6a8759"><font color="#6a8759">'G-12345678'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">school</font></span>: <span style="color: #6a8759"><font color="#6a8759">'No.4 middle school'<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>{name<span style="color: #cc7832"><font color="#cc7832">, </font></span>age<span style="color: #cc7832"><font color="#cc7832">, </font></span>passport} = person<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2587,7 +2473,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>person = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">age</font></span>: <span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">gender</font></span>: <span style="color: #6a8759"><font color="#6a8759">'male'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">passport</font></span>: <span style="color: #6a8759"><font color="#6a8759">'G-12345678'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">school</font></span>: <span style="color: #6a8759"><font color="#6a8759">'No.4 middle school'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">address</font></span>: {<br/>        <span style="color: #9876aa"><font color="#9876aa">city</font></span>: <span style="color: #6a8759"><font color="#6a8759">'Beijing'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #9876aa"><font color="#9876aa">street</font></span>: <span style="color: #6a8759"><font color="#6a8759">'No.1 Road'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #9876aa"><font color="#9876aa">zipcode</font></span>: <span style="color: #6a8759"><font color="#6a8759">'100001'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font>}<br/>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>{<span style="color: #9876aa"><font color="#9876aa">name</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>address: {city<span style="color: #cc7832"><font color="#cc7832">, </font></span>zip}} = person<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #9876aa"><font color="#9876aa">name</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// '</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #808080"><font color="#808080">'<br/></font></span><span style="color: #9876aa"><font color="#9876aa">city</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'Beijing'<br/></font></span>zip<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// undefined, </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#22240;&#20026;&#23646;&#24615;&#21517;&#26159;</font></span><span style="color: #808080"><font color="#808080">zipcode</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#32780;&#19981;&#26159;</font></span><span style="color: #808080"><font color="#808080">zip<br/></font></span><font color="#808080"><span style="color: #808080">// </span></font><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#27880;&#24847;</font></span><span style="color: #808080"><font color="#808080">: address</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#19981;&#26159;&#21464;&#37327;&#65292;&#32780;&#26159;&#20026;&#20102;&#35753;</font></span><span style="color: #808080"><font color="#808080">city</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21644;</font></span><span style="color: #808080"><font color="#808080">zip</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#33719;&#24471;&#23884;&#22871;&#30340;</font></span><span style="color: #808080"><font color="#808080">address</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23545;&#35937;&#30340;&#23646;&#24615;</font></span><span style="color: #808080"><font color="#808080">:<br/></font></span>address<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// Uncaught ReferenceError: address is not defined</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2602,7 +2487,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>person = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">age</font></span>: <span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">gender</font></span>: <span style="color: #6a8759"><font color="#6a8759">'male'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">passport</font></span>: <span style="color: #6a8759"><font color="#6a8759">'G-12345678'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">school</font></span>: <span style="color: #6a8759"><font color="#6a8759">'No.4 middle school'<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#25226;</font></span><span style="color: #808080"><font color="#808080">passport</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23646;&#24615;&#36171;&#20540;&#32473;&#21464;&#37327;</font></span><span style="color: #808080"><font color="#808080">id:<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>{name<span style="color: #cc7832"><font color="#cc7832">, </font></span>passport:id} = person<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #9876aa"><font color="#9876aa">name</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// '</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #808080"><font color="#808080">'<br/></font></span><span style="color: #9876aa"><font color="#9876aa">id</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'G-12345678'<br/></font></span><font color="#808080"><span style="color: #808080">// </span></font><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#27880;&#24847;</font></span><span style="color: #808080"><font color="#808080">: passport</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#19981;&#26159;&#21464;&#37327;&#65292;&#32780;&#26159;&#20026;&#20102;&#35753;&#21464;&#37327;</font></span><span style="color: #808080"><font color="#808080">id</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#33719;&#24471;</font></span><span style="color: #808080"><font color="#808080">passport</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23646;&#24615;</font></span><span style="color: #808080"><font color="#808080">:<br/></font></span>passport<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// Uncaught ReferenceError: passport is not defined</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2618,7 +2502,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>person = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">age</font></span>: <span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">gender</font></span>: <span style="color: #6a8759"><font color="#6a8759">'male'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">passport</font></span>: <span style="color: #6a8759"><font color="#6a8759">'G-12345678'<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#22914;&#26524;</font></span><span style="color: #808080"><font color="#808080">person</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23545;&#35937;&#27809;&#26377;</font></span><span style="color: #808080"><font color="#808080">single</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23646;&#24615;&#65292;&#40664;&#35748;&#36171;&#20540;&#20026;</font></span><span style="color: #808080"><font color="#808080">true:<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>{name<span style="color: #cc7832"><font color="#cc7832">, </font></span>single=<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>true</b></font></span>} = person<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #9876aa"><font color="#9876aa">name</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// '</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #808080"><font color="#808080">'<br/></font></span>single<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// true</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2634,7 +2517,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#22768;&#26126;&#21464;&#37327;</font></span><span style="color: #808080"><font color="#808080">:<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x<span style="color: #cc7832"><font color="#cc7832">, </font></span>y<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#35299;&#26500;&#36171;&#20540;</font></span><span style="color: #808080"><font color="#808080">:<br/></font></span>{x<span style="color: #cc7832"><font color="#cc7832">, </font></span>y} = { <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">x</font></span>: <span style="color: #6897bb"><font color="#6897bb">100</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">y</font></span>: <span style="color: #6897bb"><font color="#6897bb">200</font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#35821;&#27861;&#38169;&#35823;</font></span><span style="color: #808080"><font color="#808080">: Uncaught SyntaxError: Unexpected token =</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="JavaScript&#x5f15;&#x64ce;&#x628a;{&#x5f00;&#x5934;&#x7684;&#x8bed;&#x53e5;&#x5f53;&#x4f5c;&#x4e86;&#x5757;&#x5904;&#x7406;&#xff0c;&#x4e8e;&#x662f;=&#x4e0d;&#x518d;&#x5408;&#x6cd5;" ID="ID_28271645" CREATED="1537462396999" MODIFIED="1537462405266"/>
@@ -2650,7 +2532,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x<span style="color: #cc7832"><font color="#cc7832">, </font></span>y<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>({x<span style="color: #cc7832"><font color="#cc7832">, </font></span>y} = { <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">x</font></span>: <span style="color: #6897bb"><font color="#6897bb">100</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">y</font></span>: <span style="color: #6897bb"><font color="#6897bb">200</font></span>})<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2666,7 +2547,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>x=<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>y=<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>[x<span style="color: #cc7832"><font color="#cc7832">, </font></span>y] = [y<span style="color: #cc7832"><font color="#cc7832">, </font></span>x]</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2681,7 +2561,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>{hostname:domain<span style="color: #cc7832"><font color="#cc7832">, </font></span>pathname:path} = location<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2698,7 +2577,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">//</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#30452;&#25509;&#25226;&#23545;&#35937;&#30340;&#23646;&#24615;&#32465;&#23450;&#21040;&#21464;&#37327;&#20013;<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">buildDate</font></span>({year<span style="color: #cc7832"><font color="#cc7832">, </font></span>month<span style="color: #cc7832"><font color="#cc7832">, </font></span>day<span style="color: #cc7832"><font color="#cc7832">, </font></span>hour=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>minute=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>second=<span style="color: #6897bb"><font color="#6897bb">0</font></span>}) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return new </b></font></span>Date(year + <span style="color: #6a8759"><font color="#6a8759">'-' </font></span>+ month + <span style="color: #6a8759"><font color="#6a8759">'-' </font></span>+ day + <span style="color: #6a8759"><font color="#6a8759">' ' </font></span>+ hour + <span style="color: #6a8759"><font color="#6a8759">':' </font></span>+ minute + <span style="color: #6a8759"><font color="#6a8759">':' </font></span>+ second)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/><br/><span style="color: #808080"><font color="#808080">//</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20256;&#20837;&#30340;&#23545;&#35937;&#21482;&#38656;&#35201;</font></span><span style="color: #808080"><font color="#808080">year</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#12289;</font></span><span style="color: #808080"><font color="#808080">month</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21644;</font></span><span style="color: #808080"><font color="#808080">day</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#36825;&#19977;&#20010;&#23646;&#24615;<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">buildDate</font></span>({ <span style="color: #9876aa"><font color="#9876aa">year</font></span>: <span style="color: #6897bb"><font color="#6897bb">2017</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">month</font></span>: <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">day</font></span>: <span style="color: #6897bb"><font color="#6897bb">1 </font></span>})<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #808080"><font color="#808080">// Sun Jan 01 2017 00:00:00 GMT+0800 (CST)<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">//</span></font><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20063;&#21487;&#20197;&#20256;&#20837;</font></span><span style="color: #808080"><font color="#808080">hour</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#12289;</font></span><span style="color: #808080"><font color="#808080">minute</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21644;</font></span><span style="color: #808080"><font color="#808080">second</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#23646;&#24615;&#65306;<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">buildDate</font></span>({ <span style="color: #9876aa"><font color="#9876aa">year</font></span>: <span style="color: #6897bb"><font color="#6897bb">2017</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">month</font></span>: <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">day</font></span>: <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">hour</font></span>: <span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">minute</font></span>: <span style="color: #6897bb"><font color="#6897bb">15 </font></span>})<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #808080"><font color="#808080">// Sun Jan 01 2017 20:15:00 GMT+0800 (CST)</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2721,7 +2599,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>xiaoming = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">birth</font></span>: <span style="color: #6897bb"><font color="#6897bb">1990</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">age</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>y = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Date().<span style="color: #ffc66d"><font color="#ffc66d">getFullYear</font></span>()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span><span style="color: #cc7832; font-weight: bold"><b>return </b></span></font>y - <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">birth</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font>xiaoming.<span style="color: #ffc66d"><font color="#ffc66d">age</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// function xiaoming.age()<br/></font></span>xiaoming.<span style="color: #ffc66d"><font color="#ffc66d">age</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20170;&#24180;&#35843;&#29992;&#26159;</font></span><span style="color: #808080"><font color="#808080">25,</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#26126;&#24180;&#35843;&#29992;&#23601;&#21464;&#25104;</font></span><span style="color: #808080"><font color="#808080">26</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20102;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2736,7 +2613,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">getAge</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>y = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Date().<span style="color: #ffc66d"><font color="#ffc66d">getFullYear</font></span>()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>return </b></span></font>y - <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">birth</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>xiaoming = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">birth</font></span>: <span style="color: #6897bb"><font color="#6897bb">1990</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">age</font></span>: <span style="color: #ffc66d"><font color="#ffc66d">getAge<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font>xiaoming.<span style="color: #ffc66d"><font color="#ffc66d">age</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 25, </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#27491;&#24120;&#32467;&#26524;<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">getAge</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// NaN</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5728;&#x5bf9;&#x8c61;&#x5185;&#xff0c;&#x6307;&#x5411;&#x8be5;&#x5bf9;&#x8c61;" ID="ID_798469722" CREATED="1537463090909" MODIFIED="1537463120461">
@@ -2756,7 +2632,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt">xiaoming.age()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">//25<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>fn = xiaoming.age<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20808;&#25343;&#21040;</font></span><span style="color: #808080"><font color="#808080">xiaoming</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#30340;</font></span><span style="color: #808080"><font color="#808080">age</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20989;&#25968;<br/></font></span>fn()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// NaN</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="strict&#x4e0b;&#xff0c;fn()&#x4e3a;&#xa;Uncaught TypeError: Cannot read property &apos;birth&apos; of undefined" ID="ID_811953129" CREATED="1537463395682" MODIFIED="1537463425076"/>
@@ -2774,7 +2649,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #6a8759"><font color="#6a8759">'use strict'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>xiaoming = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">birth</font></span>: <span style="color: #6897bb"><font color="#6897bb">1990</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">age</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">getAgeFromBirth</font></span>() {<br/>            <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>y = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Date().<span style="color: #ffc66d"><font color="#ffc66d">getFullYear</font></span>()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">            </span><span style="color: #cc7832; font-weight: bold"><b>return </b></span></font>y - <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">birth</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font>}<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">getAgeFromBirth</font></span>()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font>xiaoming.<span style="color: #ffc66d"><font color="#ffc66d">age</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// Uncaught TypeError: Cannot read property 'birth' of undefined</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x539f;&#x56e0;" ID="ID_405453592" CREATED="1537463696672" MODIFIED="1537463701506">
@@ -2797,7 +2671,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #6a8759"><font color="#6a8759">'use strict'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>xiaoming = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">birth</font></span>: <span style="color: #6897bb"><font color="#6897bb">1990</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">age</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>that = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span><font color="#cc7832"><span style="color: #cc7832">; </span></font><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#22312;&#26041;&#27861;&#20869;&#37096;&#19968;&#24320;&#22987;&#23601;&#25429;&#33719;</font></span><span style="color: #808080"><font color="#808080">this<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">getAgeFromBirth</font></span>() {<br/>            <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>y = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Date().<span style="color: #ffc66d"><font color="#ffc66d">getFullYear</font></span>()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">            </span><span style="color: #cc7832; font-weight: bold"><b>return </b></span></font>y - that.<span style="color: #9876aa"><font color="#9876aa">birth</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#29992;</font></span><span style="color: #808080"><font color="#808080">that</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#32780;&#19981;&#26159;</font></span><span style="color: #808080"><font color="#808080">this<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>}<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">getAgeFromBirth</font></span>()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font>xiaoming.<span style="color: #ffc66d"><font color="#ffc66d">age</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 25</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2815,7 +2688,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">getAge</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>y = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Date().<span style="color: #ffc66d"><font color="#ffc66d">getFullYear</font></span>()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>return </b></span></font>y - <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">birth</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>xiaoming = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#23567;&#26126;</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">birth</font></span>: <span style="color: #6897bb"><font color="#6897bb">1990</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">age</font></span>: <span style="color: #ffc66d"><font color="#ffc66d">getAge<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font>xiaoming.<span style="color: #ffc66d"><font color="#ffc66d">age</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 25<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">getAge</font></span>.<span style="color: #ffc66d"><font color="#ffc66d">apply</font></span>(xiaoming<span style="color: #cc7832"><font color="#cc7832">, </font></span>[])<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 25, this</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#25351;&#21521;</font></span><span style="color: #808080"><font color="#808080">xiaoming, </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21442;&#25968;&#20026;&#31354;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2837,7 +2709,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt">Math.<span style="color: #ffc66d"><font color="#ffc66d">max</font></span>.<span style="color: #ffc66d"><font color="#ffc66d">apply</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>null</b></font></span><font color="#cc7832"><span style="color: #cc7832">, </span></font>[<span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span>])<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 5</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2852,7 +2723,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt">Math.<span style="color: #ffc66d"><font color="#ffc66d">max</font></span>.<span style="color: #ffc66d"><font color="#ffc66d">call</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>null</b></font></span><font color="#cc7832"><span style="color: #cc7832">, </span></font><span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 5</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2869,6 +2739,136 @@
   </head>
   <body>
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #6a8759"><font color="#6a8759">'use strict'</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>count = <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>oldParseInt = <span style="color: #ffc66d"><font color="#ffc66d">parseInt</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20445;&#23384;&#21407;&#20989;&#25968;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><br/></span></font>window.<span style="color: #ffc66d"><font color="#ffc66d">parseInt </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>    count += <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>return </b></span></font>oldParseInt.<span style="color: #ffc66d"><font color="#ffc66d">apply</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>null</b></font></span><font color="#cc7832"><span style="color: #cc7832">, </span></font>arguments)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#35843;&#29992;&#21407;&#20989;&#25968;<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x9ad8;&#x9636;&#x51fd;&#x6570;" ID="ID_439100397" CREATED="1545034799619" MODIFIED="1545034803956">
+<node TEXT="&#x5b9a;&#x4e49;" ID="ID_1787263948" CREATED="1545036428919" MODIFIED="1545036430810">
+<node TEXT=" &#x4e00;&#x4e2a;&#x51fd;&#x6570;&#x63a5;&#x6536;&#x53e6;&#x4e00;&#x4e2a;&#x51fd;&#x6570;&#x4f5c;&#x4e3a;&#x53c2;&#x6570;&#xff0c;&#x8fd9;&#x79cd;&#x51fd;&#x6570;&#x5c31;&#x79f0;&#x4e4b;&#x4e3a;&#x9ad8;&#x9636;&#x51fd;&#x6570;" ID="ID_1480499312" CREATED="1545036417702" MODIFIED="1545036426319"/>
+<node TEXT="&#x4e00;&#x4e2a;&#x7b80;&#x5355;&#x7684;&#x9ad8;&#x9636;&#x51fd;&#x6570;" ID="ID_722631578" CREATED="1545036481951" MODIFIED="1545036491914">
+<node ID="ID_1988847366" CREATED="1545036493443" MODIFIED="1545036493443"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">add</font></span>(x<span style="color: #cc7832"><font color="#cc7832">, </font></span>y<span style="color: #cc7832"><font color="#cc7832">, </font></span>f) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>f(x) + f(y)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="map()" ID="ID_1876409031" CREATED="1545037089422" MODIFIED="1545037093185">
+<node ID="ID_578850358" CREATED="1545037355696" MODIFIED="1545037355696"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">6</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">7</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">8</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">9</font></span>]<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">pow</font></span>(x) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>x * x<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>results = arr.<span style="color: #ffc66d"><font color="#ffc66d">map</font></span>(<span style="color: #ffc66d"><font color="#ffc66d">pow</font></span>)<br/>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(results) <span style="color: #808080"><font color="#808080">//[1, 4, 9, 16, 25, 36, 49, 64, 81]</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="map()&#x4f20;&#x5165;&#x7684;&#x53c2;&#x6570;&#x662f;pow&#xff0c;&#x5373;&#x51fd;&#x6570;&#x5bf9;&#x8c61;&#x672c;&#x8eab;" ID="ID_375959367" CREATED="1545037093829" MODIFIED="1545037375350"/>
+<node TEXT=" map()&#x4f5c;&#x4e3a;&#x9ad8;&#x9636;&#x51fd;&#x6570;&#xff0c;&#x4e8b;&#x5b9e;&#x4e0a;&#x5b83;&#x628a;&#x8fd0;&#x7b97;&#x89c4;&#x5219;&#x62bd;&#x8c61;&#x4e86;" ID="ID_1788303288" CREATED="1545037415149" MODIFIED="1545037417722"/>
+<node TEXT="&#x5982;&#x679c;&#x7528;&#x5faa;&#x73af;&#x5b9e;&#x73b0;&#x7684;&#x8bdd;&#x4e0d;&#x76f4;&#x89c2;" ID="ID_186250297" CREATED="1545037419253" MODIFIED="1545037453334"/>
+</node>
+<node TEXT=" reduce()" ID="ID_1800580035" CREATED="1545037654734" MODIFIED="1545039221930">
+<node TEXT=" reduce()&#x628a;&#x7ed3;&#x679c;&#x7ee7;&#x7eed;&#x548c;&#x5e8f;&#x5217;&#x7684;&#x4e0b;&#x4e00;&#x4e2a;&#x5143;&#x7d20;&#x505a;&#x7d2f;&#x79ef;&#x8ba1;&#x7b97;" ID="ID_1381424161" CREATED="1545039771108" MODIFIED="1545039772958">
+<node ID="ID_1411696448" CREATED="1545039793788" MODIFIED="1545039793788"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">[x1<span style="color: #cc7832"><font color="#cc7832">, </font></span>x2<span style="color: #cc7832"><font color="#cc7832">, </font></span>x3<span style="color: #cc7832"><font color="#cc7832">, </font></span>x4].reduce(f) = f(f(f(x1<span style="color: #cc7832"><font color="#cc7832">, </font></span>x2)<span style="color: #cc7832"><font color="#cc7832">, </font></span>x3)<span style="color: #cc7832"><font color="#cc7832">, </font></span>x4)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1885134323" CREATED="1545039827382" MODIFIED="1545039827382"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">7</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">9</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>arr.<span style="color: #ffc66d"><font color="#ffc66d">reduce</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(x<span style="color: #cc7832"><font color="#cc7832">, </font></span>y) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>x + y<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>})<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 25</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="filter()" ID="ID_1383496203" CREATED="1545040509460" MODIFIED="1545040628190">
+<node TEXT="filter() &#x7528;&#x4e8e;&#x628a;Array&#x7684;&#x67d0;&#x4e9b;&#x5143;&#x7d20;&#x8fc7;&#x6ee4;&#x6389;&#xff0c;&#x7136;&#x540e;&#x8fd4;&#x56de;&#x5269;&#x4e0b;&#x7684;&#x5143;&#x7d20;" ID="ID_309807925" CREATED="1545040614332" MODIFIED="1545040624886"/>
+<node TEXT=" filter()&#x628a;&#x4f20;&#x5165;&#x7684;&#x51fd;&#x6570;&#x4f9d;&#x6b21;&#x4f5c;&#x7528;&#x4e8e;&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#xff0c;&#x7136;&#x540e;&#x6839;&#x636e;&#x8fd4;&#x56de;&#x503c;&#x662f;true&#x8fd8;&#x662f;false&#x51b3;&#x5b9a;&#x4fdd;&#x7559;&#x8fd8;&#x662f;&#x4e22;&#x5f03;&#x8be5;&#x5143;&#x7d20;" ID="ID_1642703116" CREATED="1545040642452" MODIFIED="1545040643863"/>
+<node TEXT="&#x5229;&#x7528;filter&#x9009;&#x51fa;&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x6240;&#x6709;&#x5947;&#x6570;" ID="ID_1684092179" CREATED="1545041037502" MODIFIED="1545041061182">
+<node ID="ID_1632035398" CREATED="1545040684769" MODIFIED="1545040684769"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">6</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">9</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">10</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">15</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>r = arr.<span style="color: #ffc66d"><font color="#ffc66d">filter</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(x) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>x % <span style="color: #6897bb"><font color="#6897bb">2 </font></span>!== <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>})<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>r<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// [1, 5, 9, 15]</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="filter() &#x7684;&#x56de;&#x8c03;&#x51fd;&#x6570;" ID="ID_1661349511" CREATED="1545040775228" MODIFIED="1545040790296">
+<node TEXT="&#x9ed8;&#x8ba4;&#x7684;&#x4e09;&#x4e2a;&#x53c2;&#x6570;" ID="ID_13780353" CREATED="1545040791140" MODIFIED="1545043079717"/>
+<node ID="ID_1096689655" CREATED="1545040812471" MODIFIED="1545040812471"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'C'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>r = arr.<span style="color: #ffc66d"><font color="#ffc66d">filter</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(element<span style="color: #cc7832"><font color="#cc7832">, </font></span>index<span style="color: #cc7832"><font color="#cc7832">, </font></span>self) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(element)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// &#20381;&#27425;&#25171;&#21360;'A', 'B', 'C'<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(index)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// &#20381;&#27425;&#25171;&#21360;0, 1, 2<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(self)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// self&#23601;&#26159;&#21464;&#37327;arr<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return true</b></font></span><font color="#cc7832"><span style="color: #cc7832">;<br/></span></font>})<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x5229;&#x7528;filter&#x53bb;&#x9664;Array&#x7684;&#x91cd;&#x590d;&#x5143;&#x7d20;" ID="ID_149368224" CREATED="1545040952876" MODIFIED="1545040960102">
+<node ID="ID_14450115" CREATED="1545040982421" MODIFIED="1545040982421"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'apple'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'strawberry'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'banana'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'pear'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'apple'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'orange'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'orange'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'strawberry'</font></span>]</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_17314301" CREATED="1545041016148" MODIFIED="1545041016148"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>r = arr.<span style="color: #ffc66d"><font color="#ffc66d">filter</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(element<span style="color: #cc7832"><font color="#cc7832">, </font></span>index<span style="color: #cc7832"><font color="#cc7832">, </font></span>self) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>self.<span style="color: #ffc66d"><font color="#ffc66d">indexOf</font></span>(element) === index<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>})<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
 
