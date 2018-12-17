@@ -3,7 +3,7 @@
 <node TEXT="gua&#x524d;&#x7aef;" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1543146691025" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -903,7 +903,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;div </font></span><span style="color: #bababa"><font color="#bababa">id=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;id1&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">    &lt;div </span></font><span style="color: #bababa"><font color="#bababa">id=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;id2&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">        &lt;button </span></font><span style="color: #bababa"><font color="#bababa">id=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;id3&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>id3 &#25353;&#32445;<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/button&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">    &lt;/div&gt;<br/></span><span style="color: #e8bf6a">&lt;/div&gt;</span></font></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_752929870" CREATED="1544969375873" MODIFIED="1544969375873"><richcontent TYPE="NODE">
@@ -916,7 +915,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id1 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id1'</font></span>)<br/>id1.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click id1'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>})<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id2 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id2'</font></span>)<br/>id2.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click id2'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>})<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id3 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id3'</font></span>)<br/>id3.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click id3'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>})</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="click" ID="ID_809616575" CREATED="1544969449355" MODIFIED="1544969456150">
@@ -935,7 +933,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"> <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id1 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id1'</font></span>)<br/>id1.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'capture click id1'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>}<span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>true</b></span></font>)<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id2 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id2'</font></span>)<br/>id2.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'capture click id2'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>}<span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>true</b></span></font>)<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>id3 = document.<span style="color: #ffc66d"><font color="#ffc66d">querySelector</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id3'</font></span>)<br/>id3.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(event) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'capture click id3'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>event)<br/>}<span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>true</b></span></font>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="click" ID="ID_1270063165" CREATED="1544969449355" MODIFIED="1544969456150">
@@ -945,7 +942,72 @@
 </node>
 <node TEXT="11" OBJECT="java.lang.Long|11" POSITION="right" ID="ID_254208665" CREATED="1544452305595" MODIFIED="1544970981563">
 <edge COLOR="#7c007c"/>
-<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;" ID="ID_430400591" CREATED="1544970982812" MODIFIED="1544970988225"/>
+<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;" ID="ID_430400591" CREATED="1544970982812" MODIFIED="1544970988225">
+<node TEXT="&#x7c7b;" ID="ID_57991717" CREATED="1545054908596" MODIFIED="1545054912516">
+<node ID="ID_480466395" CREATED="1545055072805" MODIFIED="1545055072805"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">Student </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(name<span style="color: #cc7832"><font color="#cc7832">, </font></span>height) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name </font></span>= name<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">height </font></span>= height<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5b9e;&#x4f8b;" ID="ID_168790560" CREATED="1545055210092" MODIFIED="1545055214324">
+<node ID="ID_1250436523" CREATED="1545055215131" MODIFIED="1545055215131"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>a = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">Student</font></span>(<span style="color: #6a8759"><font color="#6a8759">'eg'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">170</font></span>)<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>b = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">Student</font></span>(<span style="color: #6a8759"><font color="#6a8759">'easy g'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">165</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7ed9;&#x7c7b;&#x589e;&#x52a0;&#x65b9;&#x6cd5;&#xff08;&#x51fd;&#x6570;&#xff09;" ID="ID_1013004925" CREATED="1545055339826" MODIFIED="1545055355056">
+<node TEXT="&#x589e;&#x52a0;&#x540e;&#x7684;&#x65b9;&#x6cd5;&#x53ef;&#x4ee5;&#x5728;&#x5b9e;&#x4f8b;&#x4e2d;&#x8c03;&#x7528;" ID="ID_966148659" CREATED="1545055361770" MODIFIED="1545055502598"/>
+<node TEXT="&#x5728;&#x521b;&#x5efa;&#x7c7b;&#x7684;&#x65f6;&#x5019;&#x5b9a;&#x4e49;&#x65b9;&#x6cd5;" ID="ID_573755818" CREATED="1545056489044" MODIFIED="1545056509463">
+<node ID="ID_148909680" CREATED="1545056599104" MODIFIED="1545056599104"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">Student </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(name<span style="color: #cc7832"><font color="#cc7832">, </font></span>height) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name </font></span>= name<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">height </font></span>= height<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #ffc66d"><font color="#ffc66d">sayHello </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>        console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">`hello, I'm </font></span>${<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name</font></span>}<span style="color: #6a8759"><font color="#6a8759">`</font></span>)<br/>    }<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="prototype" ID="ID_443991364" CREATED="1545055356820" MODIFIED="1545055361199">
+<node TEXT="&#x4e00;&#x4e2a;&#x7c7b;&#x4e0d;&#x4e00;&#x5b9a;&#x5728;&#x521b;&#x5efa;&#x65f6;&#x5c31;&#x62e5;&#x6709;&#x8fd9;&#x4e2a;&#x65b9;&#x6cd5;&#xff0c;&#x53ef;&#x4ee5;&#x540e;&#x671f;&#x901a;&#x8fc7;prototype&#x52a0;&#x5165;&#x65b9;&#x6cd5;" ID="ID_1487090087" CREATED="1545055770156" MODIFIED="1545055825535"/>
+<node ID="ID_1406314826" CREATED="1545055483604" MODIFIED="1545055483604"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #ffc66d"><font color="#ffc66d">Student</font></span>.prototype.<span style="color: #ffc66d"><font color="#ffc66d">sayHello </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">`hello, I'm </font></span>${<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name</font></span>}<span style="color: #6a8759"><font color="#6a8759">`</font></span>)<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
