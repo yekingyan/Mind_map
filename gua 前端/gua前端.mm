@@ -3,7 +3,7 @@
 <node TEXT="gua&#x524d;&#x7aef;" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1543146691025" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="99" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="100" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="4" OBJECT="java.lang.Long|4" POSITION="right" ID="ID_411565606" CREATED="1543146731657" MODIFIED="1543146737225">
 <edge COLOR="#00ff00"/>
@@ -666,7 +666,7 @@
 </node>
 <node TEXT="&#x76d1;&#x542c;" ID="ID_1001714790" CREATED="1544104705351" MODIFIED="1544104712649">
 <node TEXT="&#x4f8b;&#x5b50;&#x4e2d;&#x7684;active class &#xff0c;&#x7c7b;&#x4f3c;&#x7f51;&#x9875;&#x4e2d;&#x5b9a;&#x4f4d;&#x51fa;&#x5f53;&#x524d;&#x70b9;&#x51fb;&#x7684;&#x5143;&#x7d20;" ID="ID_1741368029" CREATED="1544104736046" MODIFIED="1544104794049"/>
-<node ID="ID_850584244" CREATED="1544104734415" MODIFIED="1544104734415"><richcontent TYPE="NODE">
+<node ID="ID_850584244" CREATED="1544104734415" MODIFIED="1545232933361"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -676,6 +676,7 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for</b></font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>i = <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span>i &lt; buttons.length<span style="color: #cc7832"><font color="#cc7832">; </font></span>i++) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>button = buttons[i]<br/>    button.<span style="color: #ffc66d"><font color="#ffc66d">addEventListener</font></span>(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function </b></span></font>(event) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>self = event.target<br/><br/>        <span style="color: #808080"><font color="#808080">// clearActive &#26159;&#33258;&#23450;&#20041;&#30340;<br/></font></span><font color="#808080"><span style="color: #808080">        // &#30446;&#30340;&#26159;&#21024;&#38500;&#20854;&#23427;&#20803;&#32032;&#30340;active class<br/></span><span style="color: #808080">        </span></font><span style="color: #ffc66d"><font color="#ffc66d">clearActive</font></span>()<br/>        <span style="color: #808080"><font color="#808080">// classList.add &#21487;&#20197;&#22686;&#21152;&#19968;&#20010;class<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>self.classList.<span style="color: #ffc66d"><font color="#ffc66d">add</font></span>(<span style="color: #6a8759"><font color="#6a8759">'active'</font></span>)<br/>    })<br/>}</pre>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -1017,7 +1018,6 @@
     <span style="color: rgb(0, 0, 0); font-family: PingFangSC-Regular, Verdana, Arial, &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;, &#x5b8b;&#x4f53;; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(253, 252, 248); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="PingFangSC-Regular, Verdana, Arial, &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;, &#x5b8b;&#x4f53;" size="14px">&#21487;&#25226;&#23383;&#31526;&#20018;&#20316;&#20026; URI &#32452;&#20214;&#36827;&#34892;&#32534;&#30721;</font></span>
   </body>
 </html>
-
 </richcontent>
 <node TEXT=" encodeURIComponent() &#x51fd;&#x6570;" ID="ID_1849994122" CREATED="1545148116878" MODIFIED="1545148119096"/>
 <node ID="ID_1637174260" CREATED="1545148696446" MODIFIED="1545148696446"><richcontent TYPE="NODE">
@@ -1030,7 +1030,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>str = <span style="color: #ffc66d"><font color="#ffc66d">encodeURIComponent</font></span>(<span style="color: #6a8759"><font color="#6a8759">'&#20320;&#22909;'</font></span>)<br/><span style="color: #808080"><font color="#808080">// &quot;%E4%BD%A0%E5%A5%BD&quot;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1749199553" CREATED="1545148778486" MODIFIED="1545148778486"><richcontent TYPE="NODE">
@@ -1043,7 +1042,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>str = <span style="color: #ffc66d"><font color="#ffc66d">encodeURIComponent</font></span>(<span style="color: #6a8759"><font color="#6a8759">'&lt;&gt;.*?'</font></span>)<br/><span style="color: #808080"><font color="#808080">// &quot;%3C%3E.*%3F&quot;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1058,13 +1056,205 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>str = <span style="color: #ffc66d"><font color="#ffc66d">decodeURIComponent</font></span>(<span style="color: #6a8759"><font color="#6a8759">&quot;%E4%BD%A0%E5%A5%BD&quot;</font></span>)<br/><span style="color: #808080"><font color="#808080">// &quot;&#20320;&#22909;&quot;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="base64" ID="ID_325931041" CREATED="1545148947279" MODIFIED="1545148951742">
 <node TEXT="&#x53ef;&#x4ee5;&#x628a;&#x4efb;&#x610f;&#x7c7b;&#x578b;&#x6570;&#x636e;&#x8f6c;&#x4e3a;&#x53ef;&#x89c1;&#x7684;&#x7f16;&#x7801;" ID="ID_495234079" CREATED="1545148953568" MODIFIED="1545149094397"/>
 <node TEXT="&#x524d;&#x7aef;&#x5e38;&#x7528;&#x4e8e;&#x8f6c;&#x6362;&#x56fe;&#x7247;&#xff0c;&#x76f4;&#x63a5;&#x7528;&#x4e8e;css" ID="ID_1726758894" CREATED="1545149094936" MODIFIED="1545149121835"/>
+</node>
+</node>
+<node TEXT="13" OBJECT="java.lang.Long|13" POSITION="right" ID="ID_268877542" CREATED="1545226442481" MODIFIED="1545226445456">
+<edge COLOR="#ff0000"/>
+<node TEXT="jQuery" ID="ID_798393874" CREATED="1545226446911" MODIFIED="1545226453228">
+<node TEXT="find()" ID="ID_651887230" CREATED="1545226454367" MODIFIED="1545226732529">
+<node TEXT=" find() &#x65b9;&#x6cd5;&#x83b7;&#x5f97;&#x5f53;&#x524d;&#x5143;&#x7d20;&#x96c6;&#x5408;&#x4e2d;&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#x7684;&#x540e;&#x4ee3;" ID="ID_1269948940" CREATED="1545226669352" MODIFIED="1545226721370"/>
+<node TEXT=" &#x540e;&#x4ee3;&#x662f;&#x5b50;&#x3001;&#x5b59;&#x3001;&#x66fe;&#x5b59;&#xff0c;&#x4f9d;&#x6b64;&#x7c7b;&#x63a8;" ID="ID_285639417" CREATED="1545226714320" MODIFIED="1545226717295"/>
+<node ID="ID_735318476" CREATED="1545226634193" MODIFIED="1545226634193"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>form = $(<span style="color: #6a8759"><font color="#6a8759">'.</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">form</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span>)<br/>form.<span style="color: #ffc66d"><font color="#ffc66d">find</font></span>(<span style="color: #6a8759"><font color="#6a8759">'#id-input-add'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="siblings()" ID="ID_876911626" CREATED="1545226739008" MODIFIED="1545226846907">
+<node ID="ID_538583621" CREATED="1545226823261" MODIFIED="1545226823261"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(0, 0, 0); font-family: PingFangSC-Regular, Verdana, Arial, &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;, &#x5b8b;&#x4f53;; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(253, 252, 248); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="PingFangSC-Regular, Verdana, Arial, &#x5fae;&#x8f6f;&#x96c5;&#x9ed1;, &#x5b8b;&#x4f53;" size="14px">&#33719;&#24471;&#21305;&#37197;&#38598;&#21512;&#20013;&#27599;&#20010;&#20803;&#32032;&#30340;&#21516;&#32990;</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" .siblings(selector)" ID="ID_1208469775" CREATED="1545226831504" MODIFIED="1545226832818"/>
+</node>
+<node TEXT="closest()" ID="ID_453784401" CREATED="1545226840568" MODIFIED="1545227144234">
+<node TEXT=".closest(selector)" ID="ID_55520505" CREATED="1545227203552" MODIFIED="1545227206361"/>
+<node TEXT=" &#x83b7;&#x5f97;&#x5339;&#x914d;&#x9009;&#x62e9;&#x5668;&#x7684;&#x7b2c;&#x4e00;&#x4e2a;&#x7956;&#x5148;&#x5143;&#x7d20;" ID="ID_1200744547" CREATED="1545227214648" MODIFIED="1545227216105"/>
+</node>
+<node TEXT="dom&#x5bf9;&#x8c61;&#x8f6c;&#x4e3a;jQuery&#x5bf9;&#x8c61;" ID="ID_1438377150" CREATED="1545226920640" MODIFIED="1545226937884">
+<node TEXT="event.target &#x662f;DOM &#x5bf9;&#x8c61;" ID="ID_1187408587" CREATED="1545226942928" MODIFIED="1545227028885"/>
+<node ID="ID_107283980" CREATED="1545227007670" MODIFIED="1545227007670"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">$(<span style="color: #6a8759"><font color="#6a8759">'delete-button'</font></span>).on(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function </b></span></font>(event) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>button = event.<span style="color: #9876aa"><font color="#9876aa">target<br/></font></span>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x8f6c;&#x6210;jQuery &#x5bf9;&#x8c61;&#xff0c;&#x7528;$()&#x51fd;&#x6570;" ID="ID_1025192013" CREATED="1545227033024" MODIFIED="1545227085651"/>
+<node ID="ID_464421842" CREATED="1545227128302" MODIFIED="1545227128302"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">$(<span style="color: #6a8759"><font color="#6a8759">'delete-button'</font></span>).on(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function </b></span></font>(event) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>button = $(event.<span style="color: #9876aa"><font color="#9876aa">target</font></span>)<br/>    button.<span style="color: #ffc66d"><font color="#ffc66d">closest</font></span>(<span style="color: #6a8759"><font color="#6a8759">'.todo-cell'</font></span>).<span style="color: #ffc66d"><font color="#ffc66d">remove</font></span>()<br/>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="jQuery &#x7684;&#x4e8b;&#x4ef6;&#x59d4;&#x6258;&#x65b9;&#x5f0f;" ID="ID_1828271168" CREATED="1545227472480" MODIFIED="1545227485371">
+<node ID="ID_159362471" CREATED="1545227957097" MODIFIED="1545227957097"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;div </font></span><span style="color: #bababa"><font color="#bababa">class=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;todo-cell&quot; </font></span><span style="color: #bababa"><font color="#bababa">data-id=</font></span><span style="color: #a5c261"><font color="#a5c261">'101'</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">    &lt;span&gt;&lt;h1&gt;</span></font>world<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/h1&gt;&lt;/span&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">    &lt;div </span></font><span style="color: #bababa"><font color="#bababa">class=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;&quot; </font></span><span style="color: #bababa"><font color="#bababa">id=</font></span><span style="color: #a5c261"><font color="#a5c261">'id-div-todo'</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">        &lt;button </span></font><span style="color: #bababa"><font color="#bababa">class=</font></span><span style="color: #a5c261"><font color="#a5c261">'delete-button' </font></span><span style="color: #bababa"><font color="#bababa">type=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;button&quot; </font></span><span style="color: #bababa"><font color="#bababa">name=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;button&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>delete<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/button&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">    &lt;/div&gt;<br/></span><span style="color: #e8bf6a">&lt;/div&gt;</span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1873363662" CREATED="1545227722392" MODIFIED="1545227722392"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080">// &#20107;&#20214;&#22996;&#25176;&#21024;&#38500;&#26032;&#21152;&#20837;&#30340;HTML&#20803;&#32032;<br/></font></span><font color="#808080"><span style="color: #808080">// &#31532;&#20108;&#20010;&#21442;&#25968;'.delete-button'&#26159;&#21709;&#24212;&#30340;&#23545;&#35937;<br/></span></font>$(<span style="color: #6a8759"><font color="#6a8759">'#id-div-todo'</font></span>).on(<span style="color: #6a8759"><font color="#6a8759">'click'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'.delete-button'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function </b></span></font>(event) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>button = $(event.<span style="color: #9876aa"><font color="#9876aa">target</font></span>)<br/>    button.<span style="color: #ffc66d"><font color="#ffc66d">closest</font></span>(<span style="color: #6a8759"><font color="#6a8759">'.todo-cell'</font></span>).<span style="color: #ffc66d"><font color="#ffc66d">remove</font></span>()<br/>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="toggleClass()" ID="ID_542374991" CREATED="1545230982893" MODIFIED="1545230991832">
+<node TEXT="&#x5bf9;&#x5143;&#x7d20;&#x6dfb;&#x52a0;&#x6216;&#x79fb;&#x9664;class" ID="ID_637032177" CREATED="1545231853701" MODIFIED="1545231871657"/>
+<node TEXT="$(selector).toggleClass(class,switch)" ID="ID_1720615943" CREATED="1545230993252" MODIFIED="1545231784593"/>
+<node TEXT=" switch&#xff0c;&#x53ef;&#x9009;&#xff0c;boolean&#x3002;&#x89c4;&#x5b9a;&#x53ea;&#x6dfb;&#x52a0;&#x6216;&#x53ea;&#x5220;&#x9664;" ID="ID_1033356262" CREATED="1545231793469" MODIFIED="1545231829703"/>
+</node>
+<node TEXT="&#x5f80;&#x6807;&#x7b7e;&#x5b58;&#x653e;&#x81ea;&#x5b9a;&#x4e49;&#x6570;&#x636e;&#x5e76;&#x83b7;&#x53d6;" ID="ID_646277307" CREATED="1545232405686" MODIFIED="1545232424258">
+<node TEXT="data-* &#x5f62;&#x5f0f;" ID="ID_857134883" CREATED="1545232424757" MODIFIED="1545232470336">
+<node ID="ID_303834195" CREATED="1545232466084" MODIFIED="1545232466084"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;div </font></span><span style="color: #bababa"><font color="#bababa">class=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;todo-cell&quot; </font></span><span style="color: #bababa"><font color="#bababa">data-id=</font></span><span style="color: #a5c261"><font color="#a5c261">'101'</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/div&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x83b7;&#x53d6;" ID="ID_1712538923" CREATED="1545232473629" MODIFIED="1545232475450">
+<node TEXT="dom api" ID="ID_1851283633" CREATED="1545232596295" MODIFIED="1545232599779">
+<node ID="ID_1344980511" CREATED="1545232555339" MODIFIED="1545232555339"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>domDiv = $(<span style="color: #6a8759"><font color="#6a8759">'.</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">todo-cell</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span>)[<span style="color: #6897bb"><font color="#6897bb">0</font></span>]<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>val = domDiv.dataset.id <span style="color: #808080"><font color="#808080">// 101</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="jQuery api" ID="ID_1988771560" CREATED="1545232602214" MODIFIED="1545232609952">
+<node ID="ID_838830098" CREATED="1545232652979" MODIFIED="1545232652979"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>jqDiv = ($(<span style="color: #6a8759"><font color="#6a8759">'.</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">todo-cell</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span>)[<span style="color: #6897bb"><font color="#6897bb">0</font></span>])<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>val = jqDiv.<span style="color: #ffc66d"><font color="#ffc66d">data</font></span>(<span style="color: #6a8759"><font color="#6a8759">'id'</font></span>) <span style="color: #808080"><font color="#808080">// 101</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;" ID="ID_520242248" CREATED="1545232885614" MODIFIED="1545232899209">
+<node TEXT="on" ID="ID_487681994" CREATED="1545232899534" MODIFIED="1545232900937">
+<node TEXT="&#x76f8;&#x5f53;&#x4e8e; addEventListener" ID="ID_1192940645" CREATED="1545232901566" MODIFIED="1545232919562"/>
+</node>
+<node TEXT="change" ID="ID_101455561" CREATED="1545232944614" MODIFIED="1545232949473">
+<node TEXT="&#x9009;&#x62e9;&#x6846;" ID="ID_598167034" CREATED="1545233009990" MODIFIED="1545233023707"/>
+<node TEXT="&#x5728;input&#x6587;&#x672c;&#x6846;&#xff0c;&#x4f1a;&#x5728;&#x5931;&#x7126;&#x65f6;&#x624d;&#x89e6;&#x53d1;" ID="ID_1942640029" CREATED="1545233024014" MODIFIED="1545233070817"/>
+</node>
+<node TEXT="keydown" ID="ID_1002415656" CREATED="1545232950782" MODIFIED="1545232970705">
+<node TEXT="&#x4e00;&#x822c;&#x7528;&#x4e8e;input &#x8f93;&#x5165;&#x6846; &#x6355;&#x6349;&#x8f93;&#x5165;&#x503c;" ID="ID_166391950" CREATED="1545232971054" MODIFIED="1545233006081"/>
+</node>
+</node>
+<node TEXT="&#x6570;&#x7ec4;&#x64cd;&#x4f5c;" ID="ID_936174879" CREATED="1545233101887" MODIFIED="1545233105923">
+<node TEXT="each" ID="ID_1466893001" CREATED="1545233194126" MODIFIED="1545233197456">
+<node TEXT="each &#x53ef;&#x4ee3;&#x66ff; for&#x5faa;&#x73af;&#x53bb;&#x904d;&#x5386;&#x6570;&#x7ec4;" ID="ID_1088308489" CREATED="1545233281463" MODIFIED="1545233307873"/>
+<node TEXT="&#x5bf9;&#x6bcf;&#x4e2a;&#x5143;&#x7d20;&#x8c03;&#x7528;&#x51fd;&#x6570;&#xff0c;&#x53c2;&#x6570;&#x662f;index &#x4e0e; element" ID="ID_1549892082" CREATED="1545233197679" MODIFIED="1545233219417"/>
+<node ID="ID_1428319636" CREATED="1545233269460" MODIFIED="1545233269460"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">$(<span style="color: #6a8759"><font color="#6a8759">'.</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">todo-cell</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span>).each(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(index<span style="color: #cc7832"><font color="#cc7832">, </font></span>element) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(index<span style="color: #cc7832"><font color="#cc7832">, </font></span>element)<br/>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="map" ID="ID_1907856379" CREATED="1545233312415" MODIFIED="1545233314170">
+<node TEXT="&#x5bf9;&#x6bcf;&#x4e2a;&#x6570;&#x7ec4;&#x4e2d;&#x7684;&#x5143;&#x7d20;&#x8c03;&#x7528;&#x51fd;&#x6570;&#xff0c;&#x8fd4;&#x56de;&#x503c;&#x7ec4;&#x6210;&#x65b0;&#x7684;&#x6570;&#x7ec4;" ID="ID_151801222" CREATED="1545233354766" MODIFIED="1545233384113"/>
+<node TEXT="newArr = $.map(func, array)" ID="ID_1940920167" CREATED="1545233389759" MODIFIED="1545233508713"/>
+</node>
+<node TEXT="grep" ID="ID_1109823631" CREATED="1545233525319" MODIFIED="1545233537969">
+<node TEXT="&#x76f8;&#x5f53;&#x4e8e; filter" ID="ID_221684408" CREATED="1545233566287" MODIFIED="1545233574642"/>
+<node TEXT="return &#x5e03;&#x5c14;&#x503c;&#xff0c;&#x6839;&#x636e;&#x5e03;&#x5c14;&#x503c;&#x7b5b;&#x9009;" ID="ID_1708444349" CREATED="1545233624767" MODIFIED="1545233681925"/>
+</node>
+</node>
 </node>
 </node>
 </node>
