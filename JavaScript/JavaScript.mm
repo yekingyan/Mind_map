@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="87" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="88" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x5feb;&#x901f;&#x5165;&#x95e8;" POSITION="right" ID="ID_946750774" CREATED="1537115349264" MODIFIED="1537115363209">
 <edge COLOR="#007c00"/>
@@ -3244,9 +3244,28 @@
 </node>
 <node TEXT="&#x6807;&#x51c6;&#x5bf9;&#x8c61;" POSITION="right" ID="ID_1138145152" CREATED="1545296313294" MODIFIED="1545296316867">
 <edge COLOR="#007c7c"/>
-<node TEXT="&#x6ce8;&#x610f;&#x70b9;" ID="ID_307767749" CREATED="1545297576126" MODIFIED="1545297579998">
+<node TEXT="&#x5305;&#x88c5;&#x5bf9;&#x8c61;&#x6ce8;&#x610f;&#x70b9;" ID="ID_672809073" CREATED="1545356289641" MODIFIED="1545356298681">
+<node TEXT=" &#x5305;&#x88c5;&#x5bf9;&#x8c61;&#x7528;new&#x521b;&#x5efa;" ID="ID_1923809698" CREATED="1545356319098" MODIFIED="1545356323235"/>
 <node TEXT=" &#x4e0d;&#x8981;&#x4f7f;&#x7528;new Number()&#x3001;new Boolean()&#x3001;new String()&#x521b;&#x5efa;&#x5305;&#x88c5;&#x5bf9;&#x8c61;" ID="ID_85489384" CREATED="1545296537125" MODIFIED="1545296538991"/>
+<node TEXT=" &#x5305;&#x88c5;&#x5bf9;&#x8c61;&#x770b;&#x4e0a;&#x53bb;&#x548c;&#x539f;&#x6765;&#x7684;&#x503c;&#x4e00;&#x6a21;&#x4e00;&#x6837;&#xff0c;&#x663e;&#x793a;&#x51fa;&#x6765;&#x4e5f;&#x662f;&#x4e00;&#x6a21;&#x4e00;&#x6837;&#xff0c;&#x4f46;&#x4ed6;&#x4eec;&#x7684;&#x7c7b;&#x578b;&#x5df2;&#x7ecf;&#x53d8;&#x4e3a;object&#x4e86;" ID="ID_1867633663" CREATED="1545356074538" MODIFIED="1545356077979"/>
+<node ID="ID_91803946" CREATED="1545356271188" MODIFIED="1545356271188"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>typeof new </b></font></span>Number(<span style="color: #6897bb"><font color="#6897bb">123</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'object'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Number(<span style="color: #6897bb"><font color="#6897bb">123</font></span>) === <span style="color: #6897bb"><font color="#6897bb">123</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// false<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>typeof new </b></font></span>Boolean(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>true</b></font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'object'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Boolean(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>true</b></font></span>) === <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>true</b></font></span><font color="#cc7832"><span style="color: #cc7832">; </span></font><span style="color: #808080"><font color="#808080">// false<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>typeof new </b></font></span>String(<span style="color: #6a8759"><font color="#6a8759">'str'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// 'object'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>String(<span style="color: #6a8759"><font color="#6a8759">'str'</font></span>) === <span style="color: #6a8759"><font color="#6a8759">'str'</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// false</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6ce8;&#x610f;&#x70b9;" ID="ID_307767749" CREATED="1545297576126" MODIFIED="1545297579998">
+<node TEXT="&#x903b;&#x8f91;&#x5224;&#x65ad;&#x7684;&#x6ce8;&#x610f;&#x70b9;" ID="ID_740898272" CREATED="1545356409769" MODIFIED="1545356419623">
 <node TEXT=" &#x901a;&#x5e38;&#x4e0d;&#x5fc5;&#x628a;&#x4efb;&#x610f;&#x7c7b;&#x578b;&#x8f6c;&#x6362;&#x4e3a;boolean&#x518d;&#x5224;&#x65ad;&#xff0c;&#x56e0;&#x4e3a;&#x53ef;&#x4ee5;&#x76f4;&#x63a5;&#x5199;if (myVar) {...}" ID="ID_45201921" CREATED="1545296996261" MODIFIED="1545296997751"/>
+</node>
 <node TEXT=" &#x5224;&#x65ad;Array&#x8981;&#x4f7f;&#x7528;Array.isArray(arr)" ID="ID_362232718" CREATED="1545297015837" MODIFIED="1545297024295"/>
 <node TEXT="&#x5224;&#x65ad;null&#x8bf7;&#x4f7f;&#x7528;myVar === null" ID="ID_1763600633" CREATED="1545297026278" MODIFIED="1545297151167"/>
 </node>
@@ -3333,7 +3352,7 @@
 </node>
 </node>
 <node TEXT="json" ID="ID_506798117" CREATED="1545300523580" MODIFIED="1545300525657">
-<node TEXT="&#x52a0;&#x4e0a;&#x7f29;&#x8fdb;&#x8f93;&#x51fa;" ID="ID_711925717" CREATED="1545300526357" MODIFIED="1545300543266">
+<node TEXT="&#x5e8f;&#x5217;&#x5316;&#xff0c;&#x52a0;&#x4e0a;&#x7f29;&#x8fdb;&#x8f93;&#x51fa;" ID="ID_711925717" CREATED="1545300526357" MODIFIED="1545362855537">
 <node TEXT="JSON.stringify&#x7b2c;&#x4e09;&#x4e2a;&#x53c2;&#x6570;&#x4e3a;&#x7f29;&#x8fdb;" ID="ID_1846484743" CREATED="1545300553565" MODIFIED="1545300604693"/>
 <node TEXT="JSON.stringify(xiaoming, null, &apos;  &apos;);" ID="ID_1426618288" CREATED="1545300581157" MODIFIED="1545300586989"/>
 </node>
@@ -3375,6 +3394,43 @@
 </node>
 </node>
 </node>
+</node>
+<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;" POSITION="right" ID="ID_1224267202" CREATED="1545363642999" MODIFIED="1545363646398">
+<edge COLOR="#7c7c00"/>
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_514845313" CREATED="1545364552632" MODIFIED="1545364558728">
+<node TEXT=" JavaScript&#x4e0d;&#x533a;&#x5206;&#x7c7b;&#x548c;&#x5b9e;&#x4f8b;&#x7684;&#x6982;&#x5ff5;&#xff0c;&#x800c;&#x662f;&#x901a;&#x8fc7;&#x539f;&#x578b;&#xff08;prototype&#xff09;&#x6765;&#x5b9e;&#x73b0;&#x9762;&#x5411;&#x5bf9;&#x8c61;&#x7f16;&#x7a0b;" ID="ID_45586100" CREATED="1545363726070" MODIFIED="1545363727608">
+<node ID="ID_908515217" CREATED="1545364471962" MODIFIED="1545364471962"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>Student = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'Robot'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa"><font color="#9876aa">height</font></span>: <span style="color: #6897bb"><font color="#6897bb">1.2</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">run</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>        console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name </font></span>+ <span style="color: #6a8759"><font color="#6a8759">' is running...'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span><span style="color: #cc7832; font-weight: bold"><b>var </b></span></font>xiaoming = {<br/>    <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'&#23567;&#26126;'<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font>xiaoming.<span style="color: #9876aa"><font color="#9876aa">__proto__ </font></span>= Student<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x6240;&#x6709;&#x5bf9;&#x8c61;&#x90fd;&#x662f;&#x5b9e;&#x4f8b;&#xff0c;&#x6240;&#x8c13;&#x7ee7;&#x627f;&#x5173;&#x7cfb;&#x4e0d;&#x8fc7;&#x662f;&#x628a;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x539f;&#x578b;&#x6307;&#x5411;&#x53e6;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x800c;&#x5df2;" ID="ID_626813019" CREATED="1545363769936" MODIFIED="1545363772201">
+<node ID="ID_913489097" CREATED="1545364503608" MODIFIED="1545364503608"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>Bird = {<br/>    <span style="color: #ffc66d"><font color="#ffc66d">fly</font></span>: <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>        console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name </font></span>+ <span style="color: #6a8759"><font color="#6a8759">' is flying...'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font>xiaoming.<span style="color: #9876aa"><font color="#9876aa">__proto__ </font></span>= Bird<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x4e0d;&#x8981;&#x76f4;&#x63a5;&#x7528;obj.__proto__&#x53bb;&#x6539;&#x53d8;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x539f;&#x578b;" ID="ID_232173642" CREATED="1545364523790" MODIFIED="1545364525720"/>
+</node>
+</node>
+<node TEXT="&#x521b;&#x5efa;&#x5bf9;&#x8c61;" ID="ID_744561002" CREATED="1545364565223" MODIFIED="1545364568623"/>
 </node>
 </node>
 </map>

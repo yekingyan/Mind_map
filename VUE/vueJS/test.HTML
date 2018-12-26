@@ -17,18 +17,11 @@
 </script>
 
 <script>
-    function distinct(a, b) {
-        let arr = a.concat(b)
-        let result = []
-        let obj = {}
-
-        for (let i of arr) {
-            if (!obj[i]) {
-                result.push(i)
-                obj[i] = 1
-            }
+    var Bird = {
+        fly: function () {
+            console.log(this.name + ' is flying...');
         }
+    };
 
-        return result
-    }
+    xiaoming.__proto__ = Bird;
 </script>
