@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="101" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="102" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="4" OBJECT="java.lang.Long|4" POSITION="right" ID="ID_411565606" CREATED="1543146731657" MODIFIED="1543146737225">
 <edge COLOR="#00ff00"/>
@@ -1260,7 +1260,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">alert </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(title<span style="color: #cc7832"><font color="#cc7832">, </font></span>message) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>t = <span style="color: #6a8759"><font color="#6a8759">`<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        &lt;div class=&quot;modal-container&quot;&gt;<br/></span><span style="color: #6a8759">        &lt;!--modal-mask &#29992;&#20110;&#25377;&#20303;&#39029;&#38754;--&gt;<br/></span><span style="color: #6a8759">            &lt;div class=&quot;modal-mask&quot;&gt;&lt;/div&gt;<br/></span><span style="color: #6a8759">            &lt;!--&#20027;&#20307;--&gt;<br/></span><span style="color: #6a8759">            &lt;div class=&quot;modal-alert vertical-center&quot;&gt;<br/></span><span style="color: #6a8759">                &lt;div class=&quot;modal-title&quot;&gt;<br/></span><span style="color: #6a8759">                    </span></font>${ title }<span style="color: #6a8759"><font color="#6a8759"><br/></font></span><font color="#6a8759"><span style="color: #6a8759">                &lt;/div&gt;<br/></span><span style="color: #6a8759">                &lt;div class=&quot;modal-message&quot;&gt;<br/></span><span style="color: #6a8759">                    </span></font>${ message }<span style="color: #6a8759"><font color="#6a8759"><br/></font></span><font color="#6a8759"><span style="color: #6a8759">                &lt;/div&gt;<br/></span><span style="color: #6a8759">                &lt;div class=&quot;modal-control&quot;&gt;<br/></span><span style="color: #6a8759">                    &lt;button name=&quot;button&quot; class=&quot;modal-button&quot;&gt;ok&lt;/button&gt;<br/></span><span style="color: #6a8759">                &lt;/div&gt;<br/></span><span style="color: #6a8759">            &lt;/div&gt;<br/></span><span style="color: #6a8759">        &lt;/div&gt;<br/></span><span style="color: #6a8759">    `<br/></span><span style="color: #6a8759">    </span></font>$(<span style="color: #6a8759"><font color="#6a8759">'body'</font></span>).<span style="color: #ffc66d"><font color="#ffc66d">append</font></span>(t)<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_90769035" CREATED="1545658838320" MODIFIED="1545658842316">
@@ -1279,7 +1278,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">.<span style="color: #e8bf6a"><font color="#e8bf6a">modal-mask </font></span>{<br/>    <span style="color: #bababa"><font color="#bababa">position</font></span>: <span style="color: #a5c261"><font color="#a5c261">fixed</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">top</font></span>: <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #a5c261"><font color="#a5c261">px</font></span><span style="color: #cc7832"><font color="#cc7832">;          </font></span><span style="color: #808080"><font color="#808080">/*&#39640;&#30001;&#38646;&#24320;&#22987;*/<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #bababa"><font color="#bababa">left</font></span>: <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #a5c261"><font color="#a5c261">px</font></span><span style="color: #cc7832"><font color="#cc7832">;         </font></span><span style="color: #808080"><font color="#808080">/*&#24038;&#30001;&#38646;&#24320;&#22987;*/<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #bababa"><font color="#bababa">width</font></span>: <span style="color: #6897bb"><font color="#6897bb">100</font></span>%<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">height</font></span>: <span style="color: #6897bb"><font color="#6897bb">100</font></span>%<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">background</font></span>: <span style="color: #a5c261"><font color="#a5c261">black</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">opacity</font></span>: <span style="color: #6897bb"><font color="#6897bb">0.5</font></span><span style="color: #cc7832"><font color="#cc7832">;      </font></span><span style="color: #808080"><font color="#808080">/*&#19981;&#36879;&#26126;&#24230;*/<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1294,7 +1292,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080">/* &#22402;&#30452;&#23621;&#20013; */<br/></font></span>.<span style="color: #e8bf6a"><font color="#e8bf6a">vertical-center </font></span>{<br/>    <span style="color: #bababa"><font color="#bababa">position</font></span>: <span style="color: #a5c261"><font color="#a5c261">relative</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">top</font></span>: <span style="color: #6897bb"><font color="#6897bb">50</font></span>%<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">transform</font></span>: <span style="color: #e8bf6a"><font color="#e8bf6a">translateY</font></span>(-<span style="color: #6897bb"><font color="#6897bb">50</font></span>%)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1309,10 +1306,32 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">.<span style="color: #e8bf6a"><font color="#e8bf6a">modal-container </font></span>{<br/>    <span style="color: #bababa"><font color="#bababa">position</font></span>: <span style="color: #a5c261"><font color="#a5c261">fixed</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">top</font></span>: <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #a5c261"><font color="#a5c261">px</font></span><span style="color: #cc7832"><font color="#cc7832">;          </font></span><span style="color: #808080"><font color="#808080">/*&#39640;&#30001;&#38646;&#24320;&#22987;*/<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #bababa"><font color="#bababa">left</font></span>: <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #a5c261"><font color="#a5c261">px</font></span><span style="color: #cc7832"><font color="#cc7832">;         </font></span><span style="color: #808080"><font color="#808080">/*&#24038;&#30001;&#38646;&#24320;&#22987;*/<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #bababa"><font color="#bababa">width</font></span>: <span style="color: #6897bb"><font color="#6897bb">100</font></span>%<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">height</font></span>: <span style="color: #6897bb"><font color="#6897bb">100</font></span>%<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/>.<span style="color: #e8bf6a"><font color="#e8bf6a">modal-mask </font></span>{<br/>    <span style="color: #bababa"><font color="#bababa">position</font></span>: <span style="color: #a5c261"><font color="#a5c261">fixed</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">top</font></span>: <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #a5c261"><font color="#a5c261">px</font></span><span style="color: #cc7832"><font color="#cc7832">;          </font></span><span style="color: #808080"><font color="#808080">/*&#39640;&#30001;&#38646;&#24320;&#22987;*/<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #bababa"><font color="#bababa">left</font></span>: <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #a5c261"><font color="#a5c261">px</font></span><span style="color: #cc7832"><font color="#cc7832">;         </font></span><span style="color: #808080"><font color="#808080">/*&#24038;&#30001;&#38646;&#24320;&#22987;*/<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #bababa"><font color="#bababa">width</font></span>: <span style="color: #6897bb"><font color="#6897bb">100</font></span>%<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">height</font></span>: <span style="color: #6897bb"><font color="#6897bb">100</font></span>%<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">background</font></span>: <span style="color: #a5c261"><font color="#a5c261">black</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #bababa"><font color="#bababa">opacity</font></span>: <span style="color: #6897bb"><font color="#6897bb">0.5</font></span><span style="color: #cc7832"><font color="#cc7832">;      </font></span><span style="color: #808080"><font color="#808080">/*&#19981;&#36879;&#26126;&#24230;*/<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="16" OBJECT="java.lang.Long|16" POSITION="right" ID="ID_465273468" CREATED="1545837788488" MODIFIED="1545837789358">
+<edge COLOR="#00ff00"/>
+<node TEXT="    display" ID="ID_1486901675" CREATED="1545920946784" MODIFIED="1545920954895">
+<node TEXT="block" ID="ID_1515992932" CREATED="1545920955142" MODIFIED="1545920957108"/>
+<node TEXT="inline" ID="ID_4496403" CREATED="1545920963646" MODIFIED="1545920965977"/>
+<node TEXT="inline-block" ID="ID_1135999638" CREATED="1545920957343" MODIFIED="1545920963362"/>
+</node>
+<node TEXT="position" ID="ID_667284793" CREATED="1545920969214" MODIFIED="1545920972305">
+<node TEXT="fixed" ID="ID_763951283" CREATED="1545920974734" MODIFIED="1545920979490">
+<node TEXT="" ID="ID_1732586632" CREATED="1545921940351" MODIFIED="1545921940351"/>
+</node>
+<node TEXT="absolute" ID="ID_1195624151" CREATED="1545920979742" MODIFIED="1545920987905">
+<node TEXT="&#x627e;&#x5230;&#x4e00;&#x4e2a;&#x4e3a;relative&#x7684;&#x7236;&#x8282;&#x70b9;&#x8fdb;&#x884c;&#x5b9a;&#x4f4d;" ID="ID_83420511" CREATED="1545921753846" MODIFIED="1545921786596"/>
+</node>
+<node TEXT="relative" ID="ID_259220362" CREATED="1545920988326" MODIFIED="1545920993073">
+<node TEXT="&#x76f8;&#x5bf9;&#x4e8e;&#x81ea;&#x5df1;&#x7684;&#x521d;&#x59cb;&#x4f4d;&#x7f6e;" ID="ID_67808482" CREATED="1545921752295" MODIFIED="1545922051473"/>
+</node>
+<node TEXT="static" ID="ID_1964634779" CREATED="1545920993494" MODIFIED="1545920995929">
+<node TEXT=" &#x9ed8;&#x8ba4;&#x503c;&#x3002;&#x6ca1;&#x6709;&#x5b9a;&#x4f4d;" ID="ID_269050606" CREATED="1545922058929" MODIFIED="1545922060977"/>
+<node TEXT="&#x4e0d;&#x80fd;&#x8bbe;&#x7f6e;top left right bottom" ID="ID_122874053" CREATED="1545921541967" MODIFIED="1545921559990"/>
 </node>
 </node>
 </node>
