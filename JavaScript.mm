@@ -1,9 +1,9 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="JavaScript" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1541639499447" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,9 +133,9 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="118" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="119" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="&#x6761;&#x4ef6;(&#x4e09;&#x5143;)&#x8fd0;&#x7b97;&#x7b26;" FOLDED="true" POSITION="right" ID="ID_1533474054" CREATED="1541639502335" MODIFIED="1541640532405">
+<node TEXT="&#x6761;&#x4ef6;(&#x4e09;&#x5143;)&#x8fd0;&#x7b97;&#x7b26;" POSITION="right" ID="ID_1533474054" CREATED="1541639502335" MODIFIED="1541640532405">
 <edge COLOR="#7c0000"/>
 <node TEXT="&#x7279;&#x6027;" ID="ID_1528961137" CREATED="1541640575667" MODIFIED="1541640577433">
 <node TEXT="&#x4e09;&#x5143;&#x8fd0;&#x7b97;&#x7b26;&#x662f; JavaScript &#x4ec5;&#x6709;&#x7684;" ID="ID_188132897" CREATED="1541640539857" MODIFIED="1541640573544"/>
@@ -483,9 +483,83 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: DejaVu Sans Mono; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">distinct</font></span>(a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>arr = a.<span style="color: #ffc66d"><font color="#ffc66d">concat</font></span>(b)<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>result = []<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>obj = {}<br/><br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>for </b></font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>i <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>of </b></font></span>arr) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(!obj[i]) {<br/>            result.<span style="color: #ffc66d"><font color="#ffc66d">push</font></span>(i)<br/>            obj[i] = <span style="color: #6897bb"><font color="#6897bb">1<br/></font></span><font color="#6897bb"><span style="color: #6897bb">        </span></font>}<br/>    }<br/><br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>result<br/>}</pre>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT=" &#x5224;&#x65ad;&#x6570;&#x7ec4;&#x4e2d;&#x662f;&#x5426;&#x5b58;&#x5728;&#x67d0;&#x4e2a;&#x503c;" POSITION="right" ID="ID_1590902482" CREATED="1545874154684" MODIFIED="1545874157879">
+<edge COLOR="#7c007c"/>
+<node TEXT=" array.indexOf()" ID="ID_341910412" CREATED="1545874167604" MODIFIED="1545874181685">
+<node TEXT="&#x5224;&#x65ad;&#x6570;&#x7ec4;&#x4e2d;&#x662f;&#x5426;&#x5b58;&#x5728;&#x67d0;&#x4e2a;&#x503c;&#xff0c;&#xa;&#x5982;&#x679c;&#x5b58;&#x5728;&#x8fd4;&#x56de;&#x6570;&#x7ec4;&#x5143;&#x7d20;&#x7684;&#x4e0b;&#x6807;&#xff0c;&#x5426;&#x5219;&#x8fd4;&#x56de;-1" ID="ID_1440490945" CREATED="1545874281079" MODIFIED="1545874291817"/>
+<node ID="ID_1972185498" CREATED="1545874462697" MODIFIED="1545895243211"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>arr = [<span style="color: #6a8759"><font color="#6a8759">'something'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'anything'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'nothing'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'anything'</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>let </b></span></font>index = arr.<span style="color: #ffc66d"><font color="#ffc66d">indexOf</font></span>(<span style="color: #6a8759"><font color="#6a8759">'nothing'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #808080"><font color="#808080">// &#32467;&#26524;&#65306;2</font></span></pre>
+  </body>
+</html>
 
 </richcontent>
 </node>
+</node>
+<node TEXT="array.includes()" ID="ID_285027869" CREATED="1545874502136" MODIFIED="1545874511066">
+<node TEXT=" &#x5224;&#x65ad;&#x4e00;&#x4e2a;&#x6570;&#x7ec4;&#x662f;&#x5426;&#x5305;&#x542b;&#x4e00;&#x4e2a;&#x6307;&#x5b9a;&#x7684;&#x503c;&#xff0c;&#xa;&#x5982;&#x679c;&#x5b58;&#x5728;&#x8fd4;&#x56de; true&#xff0c;&#x5426;&#x5219;&#x8fd4;&#x56de;false&#x3002;" ID="ID_1267598156" CREATED="1545874614753" MODIFIED="1545874620057"/>
+<node ID="ID_1850335105" CREATED="1545874643537" MODIFIED="1545895281379"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>numbers = [<span style="color: #6897bb"><font color="#6897bb">12</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">8</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">130</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">44</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>let </b></span></font>result = numbers.<span style="color: #ffc66d"><font color="#ffc66d">includes</font></span>(<span style="color: #6897bb"><font color="#6897bb">8</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #808080"><font color="#808080">// &#32467;&#26524;&#65306; true<br/></font></span>result = numbers.<span style="color: #ffc66d"><font color="#ffc66d">includes</font></span>(<span style="color: #6897bb"><font color="#6897bb">118</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #808080"><font color="#808080">// &#32467;&#26524;&#65306; false</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="  array.find()" ID="ID_352272215" CREATED="1545874740152" MODIFIED="1545874743466">
+<node TEXT=" &#x8fd4;&#x56de;&#x6570;&#x7ec4;&#x4e2d;&#x6ee1;&#x8db3;&#x6761;&#x4ef6;&#x7684;&#x7b2c;&#x4e00;&#x4e2a;&#x5143;&#x7d20;&#x7684;&#x503c;&#xff0c;&#xa;&#x5982;&#x679c;&#x6ca1;&#x6709;&#xff0c;&#x8fd4;&#x56de;undefined" ID="ID_1932805686" CREATED="1545874752481" MODIFIED="1545874758186"/>
+<node TEXT="&#x5143;&#x7d20;&#x662f;&#x666e;&#x901a;&#x5b57;&#x9762;&#x503c;" ID="ID_555049971" CREATED="1545874807648" MODIFIED="1545874862452">
+<node ID="ID_708190245" CREATED="1545874855737" MODIFIED="1545874855737"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>numbers = [<span style="color: #6897bb"><font color="#6897bb">12</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">8</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">130</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">44</font></span>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>let </b></span></font>result = numbers.<span style="color: #ffc66d"><font color="#ffc66d">find</font></span>(item =&gt; {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>item &gt; <span style="color: #6897bb"><font color="#6897bb">8</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>})<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #808080"><font color="#808080">// &#32467;&#26524;&#65306; 12</font></span></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5143;&#x7d20;&#x662f;&#x5bf9;&#x8c61;" ID="ID_1091540576" CREATED="1545874862657" MODIFIED="1545874867731">
+<node ID="ID_666439820" CREATED="1545874939627" MODIFIED="1545874939627"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>items = [<br/>    {<span style="color: #9876aa"><font color="#9876aa">id</font></span>: <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'something'</font></span>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>{<span style="color: #9876aa"><font color="#9876aa">id</font></span>: <span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'anything'</font></span>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>{<span style="color: #9876aa"><font color="#9876aa">id</font></span>: <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'nothing'</font></span>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>{<span style="color: #9876aa"><font color="#9876aa">id</font></span>: <span style="color: #6897bb"><font color="#6897bb">4</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'anything'</font></span>}<br/>]<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>let </b></span></font>item = items.<span style="color: #ffc66d"><font color="#ffc66d">find</font></span>(item =&gt; {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>item.<span style="color: #9876aa"><font color="#9876aa">id </font></span>=== <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>})<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #808080"><font color="#808080">//  &#32467;&#26524;&#65306; Object { id: 3, name: &quot;nothing&quot; }</font></span></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="array.findIndex()" ID="ID_668617470" CREATED="1545874958929" MODIFIED="1545874980972">
+<node TEXT="&#x4e0e;  array.find()&#x7528;&#x6cd5;&#x4e00;&#x6837;" ID="ID_270011972" CREATED="1545875327224" MODIFIED="1545875344499"/>
+<node TEXT="&#x8fd4;&#x56de;&#x6570;&#x7ec4;&#x4e2d;&#x6ee1;&#x8db3;&#x6761;&#x4ef6;&#x7684;&#x7b2c;&#x4e00;&#x4e2a;&#x5143;&#x7d20;&#x7684;&#x7d22;&#x5f15;&#xff08;&#x4e0b;&#x6807;&#xff09;,&#xa;&#x5982;&#x679c;&#x6ca1;&#x6709;&#x627e;&#x5230;&#xff0c;&#x8fd4;&#x56de;-1" ID="ID_437375075" CREATED="1545875344801" MODIFIED="1545875360089"/>
+</node>
+<node TEXT="find() &#x4e0e; filter() &#x7684;&#x533a;&#x522b;" ID="ID_1922206071" CREATED="1545874759873" MODIFIED="1545874778396">
+<node TEXT=" find &#x548c; filter &#x90fd;&#x662f;&#x4e0d;&#x6539;&#x53d8;&#x539f;&#x6570;&#x7ec4;&#x7684;&#x65b9;&#x6cd5;" ID="ID_509706921" CREATED="1545875381680" MODIFIED="1545875383241"/>
+<node TEXT=" &#x4f46;&#x662f;find&#x53ea;&#x67e5;&#x51fa;&#x7b2c;&#x4e00;&#x4e2a;&#x7b26;&#x5408;&#x6761;&#x4ef6;&#x7684;&#x7ed3;&#x679c;&#x50cf;&#x4f8b;&#x5b50;&#x91cc;&#x662f;&#x76f4;&#x63a5;&#x8fd4;&#x56de;&#x4e86;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x800c;&#x4e0d;&#x662f;&#x6570;&#x7ec4;&#xff01;" ID="ID_596748434" CREATED="1545875393113" MODIFIED="1545875395194"/>
+<node TEXT=" filter&#x8fd4;&#x56de;&#x5168;&#x90e8;&#x7ed3;&#x679c;&#x4ecd;&#x7136;&#x662f;&#x6570;&#x7ec4;" ID="ID_1593308528" CREATED="1545875404280" MODIFIED="1545875406121"/>
 </node>
 </node>
 </node>

@@ -1,3 +1,4 @@
+<script src="../../../tools/javascript/Array.js"></script>
 <custom-input
         v-bind:value="searchText"
         v-on:input="searchText = $event"
@@ -5,23 +6,17 @@
 
 
 <script>
-    function convert(key, value) {
-        if (typeof value === 'string') {
-            return value.toUpperCase();
+    function Student(name) {
+        this.name = name;
+        this.hello = function () {
+            alert('Hello, ' + this.name + '!');
         }
-        return value;
     }
-
-    JSON.stringify(xiaoming, convert, '  ')
-
+    var xiaoming = new Student('小明');
+    xiaoming.name; // '小明'
+    xiaoming.hello(); // Hello, 小明!
 </script>
 
 <script>
-    var Bird = {
-        fly: function () {
-            console.log(this.name + ' is flying...');
-        }
-    };
 
-    xiaoming.__proto__ = Bird;
 </script>
