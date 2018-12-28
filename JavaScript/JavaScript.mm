@@ -3,7 +3,7 @@
 <node TEXT="JavaScript" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537115312201" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="88" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="89" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x5feb;&#x901f;&#x5165;&#x95e8;" POSITION="right" ID="ID_946750774" CREATED="1537115349264" MODIFIED="1537115363209">
 <edge COLOR="#007c00"/>
@@ -3447,7 +3447,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">Student</font></span>(name) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name </font></span>= name<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>this</b></span></font>.<span style="color: #ffc66d"><font color="#ffc66d">hello </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>        <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Hello, ' </font></span>+ <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name </font></span>+ <span style="color: #6a8759"><font color="#6a8759">'!'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" this&#x6307;&#x5411;&#x65b0;&#x521b;&#x5efa;&#x7684;&#x5bf9;&#x8c61;&#xff0c;&#x5e76;&#x9ed8;&#x8ba4;&#x8fd4;&#x56de;this" ID="ID_201913076" CREATED="1545904331225" MODIFIED="1545904333986"/>
@@ -3463,7 +3462,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>xiaoming = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">Student</font></span>(<span style="color: #6a8759"><font color="#6a8759">'&#23567;&#26126;'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>xiaoming.<span style="color: #9876aa"><font color="#9876aa">name</font></span><span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// '&#23567;&#26126;'<br/></font></span>xiaoming.<span style="color: #ffc66d"><font color="#ffc66d">hello</font></span>()<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// Hello, &#23567;&#26126;!</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3474,7 +3472,193 @@
 <node TEXT="&#x539f;&#x578b;&#x7ee7;&#x627f;" ID="ID_251029266" CREATED="1545905235848" MODIFIED="1545905425758">
 <node TEXT="&#x592a;&#x590d;&#x6742;&#xff0c;&#x7528;es6&#x7684;class&#x53ef;&#x5b9e;&#x73b0;&#x7ee7;&#x627f;" ID="ID_1107591982" CREATED="1545909033731" MODIFIED="1545909060698"/>
 </node>
-<node TEXT="class&#x7ee7;&#x627f;" ID="ID_474801102" CREATED="1545909061856" MODIFIED="1545909072815"/>
+<node TEXT="class&#x7ee7;&#x627f;" ID="ID_474801102" CREATED="1545909061856" MODIFIED="1545960889366" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="class&#x5b9a;&#x4e49;&#x7c7b;" ID="ID_1005420108" CREATED="1545960932352" MODIFIED="1545960947222">
+<node TEXT="lass&#x5173;&#x952e;&#x5b57;&#x6765;&#x7f16;&#x5199;Student" ID="ID_1897575483" CREATED="1545960522058" MODIFIED="1545960567293"/>
+<node ID="ID_874211212" CREATED="1545960599211" MODIFIED="1545960599211"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>class </b></font></span>Student {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>constructor</b></font></span>(name) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name </font></span>= name<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/><br/>    <span style="color: #ffc66d"><font color="#ffc66d">hello</font></span>() {<br/>        <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Hello, ' </font></span>+ <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name </font></span>+ <span style="color: #6a8759"><font color="#6a8759">'!'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x6784;&#x9020;&#x51fd;&#x6570;constructor" ID="ID_1140401815" CREATED="1545960671416" MODIFIED="1545960673721"/>
+<node TEXT="&#x7528;new&#x65b0;&#x5efa;&#x5b9e;&#x4f8b;,&#x4e0e;&#x7528;function &#x5efa;&#x7684;&#x7c7b;&#x5b9e;&#x73b0;&#x5b9e;&#x4f8b;&#x4e00;&#x6837;" ID="ID_1187337635" CREATED="1545960832032" MODIFIED="1545960907469"/>
+</node>
+<node TEXT="&#x7ee7;&#x627f;" ID="ID_773497780" CREATED="1545960948192" MODIFIED="1545960966768">
+<node ID="ID_861404202" CREATED="1545962388073" MODIFIED="1545962388073"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>class </b></font></span>PrimaryStudent <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>extends </b></font></span>Student {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>constructor</b></font></span>(name<span style="color: #cc7832"><font color="#cc7832">, </font></span>grade) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>super</b></font></span>(name)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// &#35760;&#24471;&#29992;super&#35843;&#29992;&#29238;&#31867;&#30340;&#26500;&#36896;&#26041;&#27861;!<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">grade </font></span>= grade<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/><br/>    <span style="color: #ffc66d"><font color="#ffc66d">myGrade</font></span>() {<br/>        <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'I am at grade ' </font></span>+ <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">grade</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x6d4f;&#x89c8;&#x5668;" POSITION="right" ID="ID_1643602004" CREATED="1545962791960" MODIFIED="1545962798712">
+<edge COLOR="#ff0000"/>
+<node TEXT="&#x6d4f;&#x89c8;&#x5668;&#x5bf9;&#x8c61;" ID="ID_1499342036" CREATED="1545962799104" MODIFIED="1545962807679">
+<node TEXT="window" ID="ID_1814303040" CREATED="1545962810545" MODIFIED="1545962814342">
+<node TEXT="&#x5185;&#x90e8;&#x5bbd;&#x9ad8;" ID="ID_489068769" CREATED="1545962891208" MODIFIED="1545962899159">
+<node TEXT="innerWidth" ID="ID_663234609" CREATED="1545962901104" MODIFIED="1545962912647"/>
+<node TEXT="innerHeight" ID="ID_762967710" CREATED="1545962913545" MODIFIED="1545962919741"/>
+<node TEXT=" &#x5185;&#x90e8;&#x5bbd;&#x9ad8;&#x662f;&#x6307;&#x9664;&#x53bb;&#x83dc;&#x5355;&#x680f;&#x3001;&#x5de5;&#x5177;&#x680f;&#x3001;&#x8fb9;&#x6846;&#x7b49;&#x5360;&#x4f4d;&#x5143;&#x7d20;&#x540e;&#xff0c;&#x7528;&#x4e8e;&#x663e;&#x793a;&#x7f51;&#x9875;&#x7684;&#x51c0;&#x5bbd;&#x9ad8;" ID="ID_1062240044" CREATED="1545962932240" MODIFIED="1545962936025"/>
+</node>
+<node TEXT=" &#x6d4f;&#x89c8;&#x5668;&#x7a97;&#x53e3;&#x7684;&#x6574;&#x4e2a;&#x5bbd;&#x9ad8;" ID="ID_542296501" CREATED="1545962958528" MODIFIED="1545962959873">
+<node TEXT="outerWidth" ID="ID_949055019" CREATED="1545962965744" MODIFIED="1545962972208"/>
+<node TEXT="outerHeight" ID="ID_963201148" CREATED="1545962973224" MODIFIED="1545962982273"/>
+</node>
+</node>
+<node TEXT=" navigator" ID="ID_1472740110" CREATED="1545962995048" MODIFIED="1545962997209">
+<node TEXT=" appName" ID="ID_259997408" CREATED="1545963121976" MODIFIED="1545963126833">
+<node TEXT=" &#x6d4f;&#x89c8;&#x5668;&#x540d;&#x79f0;" ID="ID_764395723" CREATED="1545963151536" MODIFIED="1545963155793"/>
+</node>
+<node TEXT=" appVersion" ID="ID_355438580" CREATED="1545963127941" MODIFIED="1545963131666">
+<node TEXT=" &#x6d4f;&#x89c8;&#x5668;&#x7248;&#x672c;" ID="ID_1535140289" CREATED="1545963156648" MODIFIED="1545963157713"/>
+</node>
+<node TEXT=" language" ID="ID_691430238" CREATED="1545963132681" MODIFIED="1545963136345">
+<node TEXT=" &#x6d4f;&#x89c8;&#x5668;&#x8bbe;&#x7f6e;&#x7684;&#x8bed;&#x8a00;" ID="ID_1256004955" CREATED="1545963162720" MODIFIED="1545963164608"/>
+</node>
+<node TEXT=" platform" ID="ID_571560991" CREATED="1545963137360" MODIFIED="1545963141041">
+<node TEXT=" &#x64cd;&#x4f5c;&#x7cfb;&#x7edf;&#x7c7b;&#x578b;" ID="ID_870494660" CREATED="1545963169000" MODIFIED="1545963169938"/>
+</node>
+<node TEXT=" userAgent" ID="ID_608243773" CREATED="1545963141976" MODIFIED="1545963144682">
+<node TEXT=" &#x6d4f;&#x89c8;&#x5668;&#x8bbe;&#x5b9a;&#x7684;User-Agent&#x5b57;&#x7b26;&#x4e32;" ID="ID_756006262" CREATED="1545963174608" MODIFIED="1545963175841"/>
+</node>
+</node>
+<node TEXT="&#x5224;&#x65ad;&#x4e0d;&#x540c;&#x6d4f;&#x89c8;&#x5668;&#x5e94;&#x8be5;&#x77ed;&#x8def;&#x8fd0;&#x7b97;&#x7b26;||&#x8ba1;&#x7b97;&#xff0c;&#x800c;&#x4e0d;&#x662f;&#x7528;if" ID="ID_415119797" CREATED="1545963297689" MODIFIED="1545963356979"/>
+<node TEXT=" screen" ID="ID_1859153867" CREATED="1545963365303" MODIFIED="1545963366945">
+<node TEXT=" width" ID="ID_1141339552" CREATED="1545963395599" MODIFIED="1545963396786">
+<node TEXT=" &#x5c4f;&#x5e55;&#x5bbd;&#x5ea6;&#xff0c;&#x4ee5;&#x50cf;&#x7d20;&#x4e3a;&#x5355;&#x4f4d;" ID="ID_155637231" CREATED="1545963412471" MODIFIED="1545963413481"/>
+</node>
+<node TEXT=" height" ID="ID_649563470" CREATED="1545963400600" MODIFIED="1545963402232">
+<node TEXT=" &#x5c4f;&#x5e55;&#x9ad8;&#x5ea6;&#xff0c;&#x4ee5;&#x50cf;&#x7d20;&#x4e3a;&#x5355;&#x4f4d;" ID="ID_1158480500" CREATED="1545963418656" MODIFIED="1545963419504"/>
+</node>
+<node TEXT=" colorDepth" ID="ID_683577055" CREATED="1545963406448" MODIFIED="1545963407617">
+<node TEXT=" &#x8fd4;&#x56de;&#x989c;&#x8272;&#x4f4d;&#x6570;&#xff0c;&#x5982;8&#x3001;16&#x3001;24" ID="ID_1861614868" CREATED="1545963425048" MODIFIED="1545963426136"/>
+</node>
+</node>
+<node TEXT=" location" ID="ID_757772532" CREATED="1545963447065" MODIFIED="1545963456234">
+<node TEXT=" href" ID="ID_298868757" CREATED="1545964055656" MODIFIED="1545964056737">
+<node TEXT="&#x5b8c;&#x6574;&#x7684;URL" ID="ID_977914657" CREATED="1545964068124" MODIFIED="1545964071096"/>
+<node TEXT=" http://www.example.com:8080/path/index.html?a=1&amp;b=2#TOP" ID="ID_333598198" CREATED="1545964075944" MODIFIED="1545964078090"/>
+</node>
+<node TEXT=" protocol" ID="ID_941407165" CREATED="1545964086080" MODIFIED="1545964087329">
+<node TEXT=" &apos;http&apos;" ID="ID_1551369756" CREATED="1545964091112" MODIFIED="1545964092026"/>
+</node>
+<node TEXT=" host" ID="ID_935263866" CREATED="1545964095928" MODIFIED="1545964097154">
+<node TEXT=" &apos;www.example.com&apos;" ID="ID_1346532895" CREATED="1545964102064" MODIFIED="1545964105377"/>
+</node>
+<node TEXT=" port" ID="ID_1530783598" CREATED="1545964106759" MODIFIED="1545964107906">
+<node TEXT=" &apos;8080&apos;" ID="ID_537291844" CREATED="1545964111568" MODIFIED="1545964112562"/>
+</node>
+<node TEXT=" pathname" ID="ID_257536009" CREATED="1545964116911" MODIFIED="1545964122105">
+<node TEXT=" &apos;/path/index.html&apos;" ID="ID_6066910" CREATED="1545964122608" MODIFIED="1545964123545"/>
+</node>
+<node TEXT=" search" ID="ID_1663591621" CREATED="1545964128159" MODIFIED="1545964135168">
+<node TEXT=" &apos;?a=1&amp;b=2&apos;" ID="ID_975454541" CREATED="1545964135576" MODIFIED="1545964136729"/>
+</node>
+<node TEXT=" hash" ID="ID_640402349" CREATED="1545964143056" MODIFIED="1545964144650">
+<node TEXT=" &apos;TOP&apos;" ID="ID_114496466" CREATED="1545964147776" MODIFIED="1545964148698"/>
+</node>
+<node TEXT="reload()" ID="ID_600202632" CREATED="1545964282800" MODIFIED="1545964289689">
+<node TEXT=" &#x91cd;&#x65b0;&#x52a0;&#x8f7d;&#x5f53;&#x524d;&#x9875;&#x9762;" ID="ID_1607393823" CREATED="1545964296960" MODIFIED="1545964299041"/>
+</node>
+<node TEXT=" assign()" ID="ID_1089515093" CREATED="1545964280047" MODIFIED="1545964281602">
+<node TEXT=" &#x52a0;&#x8f7d;&#x4e00;&#x4e2a;&#x65b0;&#x9875;&#x9762;" ID="ID_1359784437" CREATED="1545964310288" MODIFIED="1545964314738"/>
+<node TEXT="// &#x8df3;&#x8f6c;&#x5230;&#x9996;&#x9875;&#xa; location.assign(&apos;/&apos;)" ID="ID_1494479128" CREATED="1545964316048" MODIFIED="1545964334589"/>
+</node>
+</node>
+</node>
+<node TEXT="AJAX" ID="ID_564270717" CREATED="1545966981385" MODIFIED="1545966988867">
+<node TEXT="&#x540c;&#x6e90;&#x7b56;&#x7565;" ID="ID_639148944" CREATED="1545966989088" MODIFIED="1545967014009">
+<node TEXT="avaScript&#x5728;&#x53d1;&#x9001;AJAX&#x8bf7;&#x6c42;&#x65f6;&#xff0c;URL&#x7684;&#x57df;&#x540d;&#x5fc5;&#x987b;&#x548c;&#x5f53;&#x524d;&#x9875;&#x9762;&#x5b8c;&#x5168;&#x4e00;&#x81f4;" ID="ID_1522355918" CREATED="1545967016120" MODIFIED="1545967027506"/>
+<node TEXT=" &#x57df;&#x540d;&#x8981;&#x76f8;&#x540c;" ID="ID_1045351411" CREATED="1545967043873" MODIFIED="1545967045330">
+<node TEXT=" www.example.com&#x548c;example.com&#x4e0d;&#x540c;" ID="ID_1500157438" CREATED="1545967050024" MODIFIED="1545967050906"/>
+</node>
+<node TEXT=" &#x534f;&#x8bae;&#x8981;&#x76f8;&#x540c;" ID="ID_734213246" CREATED="1545967055688" MODIFIED="1545967060001">
+<node TEXT=" http&#x548c;https&#x4e0d;&#x540c;" ID="ID_694369223" CREATED="1545967060336" MODIFIED="1545967061194"/>
+</node>
+<node TEXT=" &#x7aef;&#x53e3;&#x53f7;&#x8981;&#x76f8;&#x540c;" ID="ID_318225414" CREATED="1545967068401" MODIFIED="1545967069785"/>
+</node>
+<node TEXT="&#x8de8;&#x57df;&#x65b9;&#x6cd5;" ID="ID_1697281653" CREATED="1545967090153" MODIFIED="1545967098480">
+<node TEXT=" &#x901a;&#x8fc7;Flash&#x63d2;&#x4ef6;&#x53d1;&#x9001;HTTP&#x8bf7;&#x6c42;" ID="ID_677686078" CREATED="1545967107288" MODIFIED="1545967108673">
+<node TEXT=" &#x8fd9;&#x79cd;&#x65b9;&#x5f0f;&#x53ef;&#x4ee5;&#x7ed5;&#x8fc7;&#x6d4f;&#x89c8;&#x5668;&#x7684;&#x5b89;&#x5168;&#x9650;&#x5236;" ID="ID_1014773629" CREATED="1545967129625" MODIFIED="1545967140057"/>
+<node TEXT=" &#x5fc5;&#x987b;&#x5b89;&#x88c5;Flash&#xff0c;&#x5e76;&#x4e14;&#x8ddf;Flash&#x4ea4;&#x4e92;" ID="ID_227820366" CREATED="1545967119313" MODIFIED="1545967120257"/>
+<node TEXT=" Flash&#x7528;&#x8d77;&#x6765;&#x9ebb;&#x70e6;&#xff0c;&#x800c;&#x4e14;&#x73b0;&#x5728;&#x7528;&#x5f97;&#x4e5f;&#x8d8a;&#x6765;&#x8d8a;&#x5c11;&#x4e86;" ID="ID_68074077" CREATED="1545967141537" MODIFIED="1545967142834"/>
+</node>
+<node TEXT=" &#x5728;&#x540c;&#x6e90;&#x57df;&#x540d;&#x4e0b;&#x67b6;&#x8bbe;&#x4e00;&#x4e2a;&#x4ee3;&#x7406;&#x670d;&#x52a1;&#x5668;&#x6765;&#x8f6c;&#x53d1;" ID="ID_1846326205" CREATED="1545967185064" MODIFIED="1545967187338">
+<node TEXT=" &apos;/proxy?url=http://www.sina.com.cn&apos;" ID="ID_1008292746" CREATED="1545967196144" MODIFIED="1545967197169"/>
+</node>
+<node TEXT=" JSONP" ID="ID_1731646444" CREATED="1545967213601" MODIFIED="1545967214905">
+<node TEXT=" &#x53ea;&#x80fd;&#x7528;GET&#x8bf7;&#x6c42;" ID="ID_1915833019" CREATED="1545967222120" MODIFIED="1545967223170"/>
+<node TEXT=" &#x5e76;&#x4e14;&#x8981;&#x6c42;&#x8fd4;&#x56de;JavaScript" ID="ID_642134041" CREATED="1545967227744" MODIFIED="1545967228898"/>
+<node TEXT=" &#x5229;&#x7528;&#x4e86;&#x6d4f;&#x89c8;&#x5668;&#x5141;&#x8bb8;&#x8de8;&#x57df;&#x5f15;&#x7528;JavaScript&#x8d44;&#x6e90;" ID="ID_1455761374" CREATED="1545967236569" MODIFIED="1545967237946"/>
+</node>
+<node TEXT=" CORS" ID="ID_1747750230" CREATED="1545967332457" MODIFIED="1545967334393">
+<node TEXT=" Cross-Origin Resource Sharing &#xff08;HTML5&#xff09;" ID="ID_1746733523" CREATED="1545967354944" MODIFIED="1545967361261"/>
+<node TEXT="" ID="ID_1716969374" CREATED="1545967390675" MODIFIED="1545967396714">
+<hook URI="JavaScript_files/png_3914730661021776271.png" SIZE="0.81084347" NAME="ExternalObject"/>
+</node>
+<node TEXT=" &#x53ea;&#x8981;&#x54cd;&#x5e94;&#x5934;Access-Control-Allow-Origin&#x4e3a;http://my.com&#xff0c;&#x6216;&#x8005;&#x662f;*&#xff0c;&#x672c;&#x6b21;&#x8bf7;&#x6c42;&#x5c31;&#x53ef;&#x4ee5;&#x6210;&#x529f;" ID="ID_531413688" CREATED="1545968081880" MODIFIED="1545968083498"/>
+<node TEXT=" &#x8de8;&#x57df;&#x80fd;&#x5426;&#x6210;&#x529f;&#xff0c;&#x53d6;&#x51b3;&#x4e8e;&#x5bf9;&#x65b9;&#x670d;&#x52a1;&#x5668;&#x662f;&#x5426;&#x613f;&#x610f;&#x7ed9;&#x4f60;&#x8bbe;&#x7f6e;&#x4e00;&#x4e2a;&#x6b63;&#x786e;&#x7684;Access-Control-Allow-Origin" ID="ID_1126014131" CREATED="1545968097088" MODIFIED="1545968098610"/>
+</node>
+</node>
+<node TEXT="&#x8bf7;&#x6c42;" ID="ID_1829092581" CREATED="1545984851752" MODIFIED="1545984853459">
+<node TEXT="&#x5728;&#x53d1;&#x9001;AJAX&#x8bf7;&#x6c42;&#x4e4b;&#x524d;&#xff0c;&#x6d4f;&#x89c8;&#x5668;&#x4f1a;&#x5148;&#x53d1;&#x9001;&#x4e00;&#x4e2a;OPTIONS&#x8bf7;&#x6c42;&#xff08;&#x79f0;&#x4e3a;preflighted&#x8bf7;&#x6c42;&#xff09;&#x5230;&#x8fd9;&#x4e2a;URL&#x4e0a;" ID="ID_1599935650" CREATED="1545984855784" MODIFIED="1545984866937">
+<node TEXT=" OPTIONS /path/to/resource HTTP/1.1&#xa;Host: bar.com&#xa;Origin: http://my.com&#xa;Access-Control-Request-Method: POST" ID="ID_1180258897" CREATED="1545984878121" MODIFIED="1545984879858"/>
+</node>
+<node TEXT=" &#x670d;&#x52a1;&#x5668;&#x5fc5;&#x987b;&#x54cd;&#x5e94;&#x5e76;&#x660e;&#x786e;&#x6307;&#x51fa;&#x5141;&#x8bb8;&#x7684;Method" ID="ID_1986639161" CREATED="1545984888056" MODIFIED="1545984889369">
+<node TEXT=" HTTP/1.1 200 OK&#xa;Access-Control-Allow-Origin: http://my.com&#xa;Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS&#xa;Access-Control-Max-Age: 86400" ID="ID_1389149987" CREATED="1545984894376" MODIFIED="1545984896082"/>
+</node>
+<node TEXT="  &#x6d4f;&#x89c8;&#x5668;&#x786e;&#x8ba4;&#x670d;&#x52a1;&#x5668;&#x54cd;&#x5e94;&#x7684;Access-Control-Allow-Methods&#x5934;&#x786e;&#x5b9e;&#x5305;&#x542b;&#x5c06;&#x8981;&#x53d1;&#x9001;&#x7684;AJAX&#x8bf7;&#x6c42;&#x7684;Method&#xff0c;&#x624d;&#x4f1a;&#x7ee7;&#x7eed;&#x53d1;&#x9001;AJAX&#xff0c;&#x5426;&#x5219;&#xff0c;&#x629b;&#x51fa;&#x4e00;&#x4e2a;&#x9519;&#x8bef;" ID="ID_416772501" CREATED="1545984913784" MODIFIED="1545984915305"/>
+</node>
+</node>
+<node TEXT="Promise &#x5bf9;&#x8c61;" ID="ID_88501947" CREATED="1545985715865" MODIFIED="1545985723083">
+<node TEXT="" ID="ID_1451539643" CREATED="1545985770491" MODIFIED="1545985775521">
+<hook URI="JavaScript_files/png_8847790676855897596.png" SIZE="0.8444414" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_1899686721" CREATED="1545986082680" MODIFIED="1545986082680"/>
+<node ID="ID_59460863" CREATED="1545986085074" MODIFIED="1545986085074"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">test</font></span>(resolve<span style="color: #cc7832"><font color="#cc7832">, </font></span>reject) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>num = Math.<span style="color: #ffc66d"><font color="#ffc66d">random</font></span>() * <span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">setTimeout</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(num &lt; <span style="color: #6897bb"><font color="#6897bb">1</font></span>) {<br/>            console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'call resolve()...'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">            </span></font>resolve(<span style="color: #6a8759"><font color="#6a8759">'200 OK'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else </b></font></span>{<br/>            console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'call reject()...'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">            </span></font>reject(<span style="color: #6a8759"><font color="#6a8759">'timeout in ' </font></span>+ num + <span style="color: #6a8759"><font color="#6a8759">' seconds.'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font>}<br/>    }<span style="color: #cc7832"><font color="#cc7832">, </font></span>num * <span style="color: #6897bb"><font color="#6897bb">1000</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_924310553" CREATED="1545986131897" MODIFIED="1545986131897"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Promise(<span style="color: #ffc66d"><font color="#ffc66d">test</font></span>).<span style="color: #ffc66d"><font color="#ffc66d">then</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(result) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'&#25104;&#21151;&#65306;' </font></span>+ result)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}).<span style="color: #ffc66d"><font color="#ffc66d">catch</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(reason) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'&#22833;&#36133;&#65306;' </font></span>+ reason)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>})<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>
