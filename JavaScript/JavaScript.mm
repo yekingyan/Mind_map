@@ -3,7 +3,7 @@
 <node TEXT="JavaScript" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537115312201" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -3379,8 +3379,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;" POSITION="right" ID="ID_1224267202" CREATED="1545363642999" MODIFIED="1545897523679">
-<icon BUILTIN="idea"/>
+<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;" POSITION="right" ID="ID_1224267202" CREATED="1545363642999" MODIFIED="1546076871165">
 <edge COLOR="#7c7c00"/>
 <node TEXT="&#x6982;&#x5ff5;" ID="ID_514845313" CREATED="1545364552632" MODIFIED="1545364558728">
 <node TEXT=" JavaScript&#x4e0d;&#x533a;&#x5206;&#x7c7b;&#x548c;&#x5b9e;&#x4f8b;&#x7684;&#x6982;&#x5ff5;&#xff0c;&#x800c;&#x662f;&#x901a;&#x8fc7;&#x539f;&#x578b;&#xff08;prototype&#xff09;&#x6765;&#x5b9e;&#x73b0;&#x9762;&#x5411;&#x5bf9;&#x8c61;&#x7f16;&#x7a0b;" ID="ID_45586100" CREATED="1545363726070" MODIFIED="1545363727608">
@@ -3413,15 +3412,8 @@
 <node TEXT=" &#x4e0d;&#x8981;&#x76f4;&#x63a5;&#x7528;obj.__proto__&#x53bb;&#x6539;&#x53d8;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x539f;&#x578b;" ID="ID_232173642" CREATED="1545364523790" MODIFIED="1545364525720"/>
 </node>
 </node>
-<node TEXT="&#x521b;&#x5efa;&#x5bf9;&#x8c61;" ID="ID_744561002" CREATED="1545364565223" MODIFIED="1545364568623">
+<node TEXT="&#x521b;&#x5efa;&#x5bf9;&#x8c61;&#x3001;&#x8bbf;&#x95ee;&#x5bf9;&#x8c61;&#x3001;&#x539f;&#x578b;&#x94fe;" ID="ID_744561002" CREATED="1545364565223" MODIFIED="1546068977661">
 <node TEXT=" JavaScript&#x5bf9;&#x6bcf;&#x4e2a;&#x521b;&#x5efa;&#x7684;&#x5bf9;&#x8c61;&#x90fd;&#x4f1a;&#x8bbe;&#x7f6e;&#x4e00;&#x4e2a;&#x539f;&#x578b;&#xff0c;&#x6307;&#x5411;&#x5b83;&#x7684;&#x539f;&#x578b;&#x5bf9;&#x8c61;" ID="ID_1195755601" CREATED="1545903590031" MODIFIED="1545903592324">
-<node TEXT="&#x8bbf;&#x95ee;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x5c5e;&#x6027;" ID="ID_551944856" CREATED="1545903595121" MODIFIED="1545903605596">
-<node TEXT=" &#x5728;&#x5f53;&#x524d;&#x5bf9;&#x8c61;&#x4e0a;&#x67e5;&#x627e;&#x8be5;&#x5c5e;&#x6027;" ID="ID_1373412908" CREATED="1545903635281" MODIFIED="1545903636560"/>
-<node TEXT=" &#x6ca1;&#x6709;&#x627e;&#x5230;&#xff0c;&#x5c31;&#x5230;&#x5176;&#x539f;&#x578b;&#x5bf9;&#x8c61;&#x4e0a;&#x627e;" ID="ID_9692693" CREATED="1545903643056" MODIFIED="1545903646537"/>
-<node TEXT=" &#x6ca1;&#x6709;&#x627e;&#x5230;&#xff0c;&#x5c31;&#x4e00;&#x76f4;&#x4e0a;&#x6eaf;&#x5230;Object.prototype&#x5bf9;&#x8c61;&#x91cc;&#x627e;" ID="ID_375280679" CREATED="1545903652993" MODIFIED="1545903661256"/>
-<node TEXT=" &#x6ca1;&#x6709;&#x627e;&#x5230;&#xff0c;&#x5c31;&#x53ea;&#x80fd;&#x8fd4;&#x56de;undefined" ID="ID_19565356" CREATED="1545903667032" MODIFIED="1545903668345"/>
-</node>
-</node>
 <node TEXT=" &#x521b;&#x5efa;&#x4e00;&#x4e2a;Array&#x5bf9;&#x8c61;" ID="ID_1363493022" CREATED="1545904005265" MODIFIED="1545904007426">
 <node TEXT=" &#x539f;&#x578b;&#x94fe;" ID="ID_421593477" CREATED="1545903694744" MODIFIED="1545903696730">
 <node TEXT=" arr ----&gt; Array.prototype ----&gt; Object.prototype ----&gt; null" ID="ID_1794509491" CREATED="1545903706320" MODIFIED="1545903707394"/>
@@ -3433,6 +3425,13 @@
 <node TEXT=" foo ----&gt; Function.prototype ----&gt; Object.prototype ----&gt; null" ID="ID_1321200339" CREATED="1545904049728" MODIFIED="1545904050585"/>
 </node>
 <node TEXT=" Function.prototype&#x5b9a;&#x4e49;&#x4e86;apply()&#x7b49;&#x65b9;&#x6cd5;&#xff0c;&#x56e0;&#x6b64;&#xff0c;&#x6240;&#x6709;&#x51fd;&#x6570;&#x90fd;&#x53ef;&#x4ee5;&#x8c03;&#x7528;apply()&#x65b9;&#x6cd5;" ID="ID_770630020" CREATED="1545904060416" MODIFIED="1545904062041"/>
+</node>
+</node>
+<node TEXT="&#x8bbf;&#x95ee;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x5c5e;&#x6027;" ID="ID_551944856" CREATED="1545903595121" MODIFIED="1545903605596">
+<node TEXT=" &#x5728;&#x5f53;&#x524d;&#x5bf9;&#x8c61;&#x4e0a;&#x67e5;&#x627e;&#x8be5;&#x5c5e;&#x6027;" ID="ID_1373412908" CREATED="1545903635281" MODIFIED="1545903636560"/>
+<node TEXT=" &#x6ca1;&#x6709;&#x627e;&#x5230;&#xff0c;&#x5c31;&#x5230;&#x5176;&#x539f;&#x578b;&#x5bf9;&#x8c61;&#x4e0a;&#x627e;" ID="ID_9692693" CREATED="1545903643056" MODIFIED="1545903646537"/>
+<node TEXT=" &#x6ca1;&#x6709;&#x627e;&#x5230;&#xff0c;&#x5c31;&#x4e00;&#x76f4;&#x4e0a;&#x6eaf;&#x5230;Object.prototype&#x5bf9;&#x8c61;&#x91cc;&#x627e;" ID="ID_375280679" CREATED="1545903652993" MODIFIED="1545903661256"/>
+<node TEXT=" &#x6ca1;&#x6709;&#x627e;&#x5230;&#xff0c;&#x5c31;&#x53ea;&#x80fd;&#x8fd4;&#x56de;undefined" ID="ID_19565356" CREATED="1545903667032" MODIFIED="1545903668345"/>
 </node>
 <node TEXT=" &#x5982;&#x679c;&#x539f;&#x578b;&#x94fe;&#x5f88;&#x957f;&#xff0c;&#x90a3;&#x4e48;&#x8bbf;&#x95ee;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x5c5e;&#x6027;&#x5c31;&#x4f1a;&#x56e0;&#x4e3a;&#x82b1;&#x66f4;&#x591a;&#x7684;&#x65f6;&#x95f4;&#x67e5;&#x627e;&#x800c;&#x53d8;&#x5f97;&#x66f4;&#x6162;&#xff0c;&#x56e0;&#x6b64;&#x8981;&#x6ce8;&#x610f;&#x4e0d;&#x8981;&#x628a;&#x539f;&#x578b;&#x94fe;&#x641e;&#x5f97;&#x592a;&#x957f;" ID="ID_53883079" CREATED="1545904085472" MODIFIED="1545904087339"/>
 </node>
@@ -3474,7 +3473,7 @@
 </node>
 <node TEXT="class&#x7ee7;&#x627f;" ID="ID_474801102" CREATED="1545909061856" MODIFIED="1545960889366" VGAP_QUANTITY="6.8999999999999995 pt">
 <node TEXT="class&#x5b9a;&#x4e49;&#x7c7b;" ID="ID_1005420108" CREATED="1545960932352" MODIFIED="1545960947222">
-<node TEXT="lass&#x5173;&#x952e;&#x5b57;&#x6765;&#x7f16;&#x5199;Student" ID="ID_1897575483" CREATED="1545960522058" MODIFIED="1545960567293"/>
+<node TEXT="class&#x5173;&#x952e;&#x5b57;&#x6765;&#x7f16;&#x5199;Student" ID="ID_1897575483" CREATED="1545960522058" MODIFIED="1546069169501"/>
 <node ID="ID_874211212" CREATED="1545960599211" MODIFIED="1545960599211"><richcontent TYPE="NODE">
 
 <html>
@@ -3485,7 +3484,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>class </b></font></span>Student {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>constructor</b></font></span>(name) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name </font></span>= name<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/><br/>    <span style="color: #ffc66d"><font color="#ffc66d">hello</font></span>() {<br/>        <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Hello, ' </font></span>+ <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">name </font></span>+ <span style="color: #6a8759"><font color="#6a8759">'!'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x6784;&#x9020;&#x51fd;&#x6570;constructor" ID="ID_1140401815" CREATED="1545960671416" MODIFIED="1545960673721"/>
@@ -3502,7 +3500,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>class </b></font></span>PrimaryStudent <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>extends </b></font></span>Student {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>constructor</b></font></span>(name<span style="color: #cc7832"><font color="#cc7832">, </font></span>grade) {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>super</b></font></span>(name)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// &#35760;&#24471;&#29992;super&#35843;&#29992;&#29238;&#31867;&#30340;&#26500;&#36896;&#26041;&#27861;!<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">grade </font></span>= grade<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/><br/>    <span style="color: #ffc66d"><font color="#ffc66d">myGrade</font></span>() {<br/>        <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'I am at grade ' </font></span>+ <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">grade</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3593,6 +3590,18 @@
 <node TEXT=" http&#x548c;https&#x4e0d;&#x540c;" ID="ID_694369223" CREATED="1545967060336" MODIFIED="1545967061194"/>
 </node>
 <node TEXT=" &#x7aef;&#x53e3;&#x53f7;&#x8981;&#x76f8;&#x540c;" ID="ID_318225414" CREATED="1545967068401" MODIFIED="1545967069785"/>
+<node TEXT="" ID="ID_672857258" CREATED="1546076352502" MODIFIED="1546076352502">
+<node TEXT="&#xff08;1&#xff09; Cookie&#x3001;LocalStorage &#x548c; IndexDB &#x65e0;&#x6cd5;&#x8bfb;&#x53d6;&#x3002;&#xa;&#xff08;2&#xff09; DOM &#x65e0;&#x6cd5;&#x83b7;&#x5f97;&#x3002;&#xa;&#xff08;3&#xff09; AJAX &#x8bf7;&#x6c42;&#x4e0d;&#x80fd;&#x53d1;&#x9001;&#x3002;" ID="ID_573327446" CREATED="1546076357072" MODIFIED="1546076380035"/>
+</node>
+</node>
+<node TEXT="&#x8bf7;&#x6c42;" ID="ID_1829092581" CREATED="1545984851752" MODIFIED="1545984853459">
+<node TEXT="&#x5728;&#x53d1;&#x9001;AJAX&#x8bf7;&#x6c42;&#x4e4b;&#x524d;&#xff0c;&#x6d4f;&#x89c8;&#x5668;&#x4f1a;&#x5148;&#x53d1;&#x9001;&#x4e00;&#x4e2a;OPTIONS&#x8bf7;&#x6c42;&#xff08;&#x79f0;&#x4e3a;preflighted&#x8bf7;&#x6c42;&#xff09;&#x5230;&#x8fd9;&#x4e2a;URL&#x4e0a;" ID="ID_1599935650" CREATED="1545984855784" MODIFIED="1545984866937">
+<node TEXT=" OPTIONS /path/to/resource HTTP/1.1&#xa;Host: bar.com&#xa;Origin: http://my.com&#xa;Access-Control-Request-Method: POST" ID="ID_1180258897" CREATED="1545984878121" MODIFIED="1545984879858"/>
+</node>
+<node TEXT=" &#x670d;&#x52a1;&#x5668;&#x5fc5;&#x987b;&#x54cd;&#x5e94;&#x5e76;&#x660e;&#x786e;&#x6307;&#x51fa;&#x5141;&#x8bb8;&#x7684;Method" ID="ID_1986639161" CREATED="1545984888056" MODIFIED="1545984889369">
+<node TEXT=" HTTP/1.1 200 OK&#xa;Access-Control-Allow-Origin: http://my.com&#xa;Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS&#xa;Access-Control-Max-Age: 86400" ID="ID_1389149987" CREATED="1545984894376" MODIFIED="1545984896082"/>
+</node>
+<node TEXT="  &#x6d4f;&#x89c8;&#x5668;&#x786e;&#x8ba4;&#x670d;&#x52a1;&#x5668;&#x54cd;&#x5e94;&#x7684;Access-Control-Allow-Methods&#x5934;&#x786e;&#x5b9e;&#x5305;&#x542b;&#x5c06;&#x8981;&#x53d1;&#x9001;&#x7684;AJAX&#x8bf7;&#x6c42;&#x7684;Method&#xff0c;&#x624d;&#x4f1a;&#x7ee7;&#x7eed;&#x53d1;&#x9001;AJAX&#xff0c;&#x5426;&#x5219;&#xff0c;&#x629b;&#x51fa;&#x4e00;&#x4e2a;&#x9519;&#x8bef;" ID="ID_416772501" CREATED="1545984913784" MODIFIED="1545984915305"/>
 </node>
 <node TEXT="&#x8de8;&#x57df;&#x65b9;&#x6cd5;" ID="ID_1697281653" CREATED="1545967090153" MODIFIED="1545967098480">
 <node TEXT=" &#x901a;&#x8fc7;Flash&#x63d2;&#x4ef6;&#x53d1;&#x9001;HTTP&#x8bf7;&#x6c42;" ID="ID_677686078" CREATED="1545967107288" MODIFIED="1545967108673">
@@ -3617,21 +3626,12 @@
 <node TEXT=" &#x8de8;&#x57df;&#x80fd;&#x5426;&#x6210;&#x529f;&#xff0c;&#x53d6;&#x51b3;&#x4e8e;&#x5bf9;&#x65b9;&#x670d;&#x52a1;&#x5668;&#x662f;&#x5426;&#x613f;&#x610f;&#x7ed9;&#x4f60;&#x8bbe;&#x7f6e;&#x4e00;&#x4e2a;&#x6b63;&#x786e;&#x7684;Access-Control-Allow-Origin" ID="ID_1126014131" CREATED="1545968097088" MODIFIED="1545968098610"/>
 </node>
 </node>
-<node TEXT="&#x8bf7;&#x6c42;" ID="ID_1829092581" CREATED="1545984851752" MODIFIED="1545984853459">
-<node TEXT="&#x5728;&#x53d1;&#x9001;AJAX&#x8bf7;&#x6c42;&#x4e4b;&#x524d;&#xff0c;&#x6d4f;&#x89c8;&#x5668;&#x4f1a;&#x5148;&#x53d1;&#x9001;&#x4e00;&#x4e2a;OPTIONS&#x8bf7;&#x6c42;&#xff08;&#x79f0;&#x4e3a;preflighted&#x8bf7;&#x6c42;&#xff09;&#x5230;&#x8fd9;&#x4e2a;URL&#x4e0a;" ID="ID_1599935650" CREATED="1545984855784" MODIFIED="1545984866937">
-<node TEXT=" OPTIONS /path/to/resource HTTP/1.1&#xa;Host: bar.com&#xa;Origin: http://my.com&#xa;Access-Control-Request-Method: POST" ID="ID_1180258897" CREATED="1545984878121" MODIFIED="1545984879858"/>
 </node>
-<node TEXT=" &#x670d;&#x52a1;&#x5668;&#x5fc5;&#x987b;&#x54cd;&#x5e94;&#x5e76;&#x660e;&#x786e;&#x6307;&#x51fa;&#x5141;&#x8bb8;&#x7684;Method" ID="ID_1986639161" CREATED="1545984888056" MODIFIED="1545984889369">
-<node TEXT=" HTTP/1.1 200 OK&#xa;Access-Control-Allow-Origin: http://my.com&#xa;Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS&#xa;Access-Control-Max-Age: 86400" ID="ID_1389149987" CREATED="1545984894376" MODIFIED="1545984896082"/>
-</node>
-<node TEXT="  &#x6d4f;&#x89c8;&#x5668;&#x786e;&#x8ba4;&#x670d;&#x52a1;&#x5668;&#x54cd;&#x5e94;&#x7684;Access-Control-Allow-Methods&#x5934;&#x786e;&#x5b9e;&#x5305;&#x542b;&#x5c06;&#x8981;&#x53d1;&#x9001;&#x7684;AJAX&#x8bf7;&#x6c42;&#x7684;Method&#xff0c;&#x624d;&#x4f1a;&#x7ee7;&#x7eed;&#x53d1;&#x9001;AJAX&#xff0c;&#x5426;&#x5219;&#xff0c;&#x629b;&#x51fa;&#x4e00;&#x4e2a;&#x9519;&#x8bef;" ID="ID_416772501" CREATED="1545984913784" MODIFIED="1545984915305"/>
-</node>
-</node>
-<node TEXT="Promise &#x5bf9;&#x8c61;" ID="ID_88501947" CREATED="1545985715865" MODIFIED="1545985723083">
+<node TEXT="Promise &#x5bf9;&#x8c61;" ID="ID_88501947" CREATED="1545985715865" MODIFIED="1546076877898">
+<icon BUILTIN="messagebox_warning"/>
 <node TEXT="" ID="ID_1451539643" CREATED="1545985770491" MODIFIED="1545985775521">
 <hook URI="JavaScript_files/png_8847790676855897596.png" SIZE="0.8444414" NAME="ExternalObject"/>
 </node>
-<node TEXT="" ID="ID_1899686721" CREATED="1545986082680" MODIFIED="1545986082680"/>
 <node ID="ID_59460863" CREATED="1545986085074" MODIFIED="1545986085074"><richcontent TYPE="NODE">
 
 <html>
@@ -3642,7 +3642,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">test</font></span>(resolve<span style="color: #cc7832"><font color="#cc7832">, </font></span>reject) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>num = Math.<span style="color: #ffc66d"><font color="#ffc66d">random</font></span>() * <span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #ffc66d"><font color="#ffc66d">setTimeout</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>() {<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(num &lt; <span style="color: #6897bb"><font color="#6897bb">1</font></span>) {<br/>            console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'call resolve()...'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">            </span></font>resolve(<span style="color: #6a8759"><font color="#6a8759">'200 OK'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else </b></font></span>{<br/>            console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'call reject()...'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">            </span></font>reject(<span style="color: #6a8759"><font color="#6a8759">'timeout in ' </font></span>+ num + <span style="color: #6a8759"><font color="#6a8759">' seconds.'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font>}<br/>    }<span style="color: #cc7832"><font color="#cc7832">, </font></span>num * <span style="color: #6897bb"><font color="#6897bb">1000</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_924310553" CREATED="1545986131897" MODIFIED="1545986131897"><richcontent TYPE="NODE">
@@ -3655,7 +3654,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Promise(<span style="color: #ffc66d"><font color="#ffc66d">test</font></span>).<span style="color: #ffc66d"><font color="#ffc66d">then</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(result) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'&#25104;&#21151;&#65306;' </font></span>+ result)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}).<span style="color: #ffc66d"><font color="#ffc66d">catch</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(reason) {<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'&#22833;&#36133;&#65306;' </font></span>+ reason)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>})<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
