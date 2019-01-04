@@ -3,7 +3,7 @@
 <node TEXT="Vue-dadi" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1545923075600" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="94" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="95" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x521d;&#x59cb;&#x5316;" POSITION="right" ID="ID_1107097771" CREATED="1545923177136" MODIFIED="1545923180562">
 <edge COLOR="#00ffff"/>
@@ -191,6 +191,36 @@
 </node>
 <node TEXT="vue-cli&#x9879;&#x76ee;&#x7ed3;&#x6784;" POSITION="right" ID="ID_1581444271" CREATED="1546012604890" MODIFIED="1546012617099">
 <edge COLOR="#7c0000"/>
+</node>
+<node TEXT="vue &#x83b7;&#x53d6; dom &#x8282;&#x70b9;" POSITION="right" ID="ID_84760906" CREATED="1546611264910" MODIFIED="1546611658094" VGAP_QUANTITY="6.8999999999999995 pt">
+<edge COLOR="#00007c"/>
+<node TEXT="&#x901a;&#x8fc7;ref &#x5c5e;&#x6027;&#x83b7;&#x53d6; dom &#x8282;&#x70b9;" ID="ID_454447060" CREATED="1546611272859" MODIFIED="1546611674043"/>
+<node ID="ID_1732449334" CREATED="1546611555960" MODIFIED="1546611555960"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;input </font></span><span style="color: #bababa"><font color="#bababa">type=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;text&quot; </font></span><span style="color: #bababa"><font color="#bababa">ref=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;userId&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_928922209" CREATED="1546611569876" MODIFIED="1546611569876"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #9876aa"><font color="#9876aa">methods</font></span>: {<br/>  <span style="color: #ffc66d"><font color="#ffc66d">getMsg</font></span>() {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>domNode = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">$ref</font></span>.userId<br/>    console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(domNode.<span style="color: #9876aa"><font color="#9876aa">value</font></span>)<br/>  }<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </map>
