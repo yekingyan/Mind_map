@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="101" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="102" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x521d;&#x59cb;&#x5316;" POSITION="right" ID="ID_1107097771" CREATED="1545923177136" MODIFIED="1545923180562">
 <edge COLOR="#00ffff"/>
@@ -519,6 +519,36 @@
 </node>
 <node TEXT="&#x975e;&#x7236;&#x5b50;&#x7ec4;&#x4ef6;&#x4f20;&#x503c;" POSITION="right" ID="ID_19691967" CREATED="1546874234124" MODIFIED="1546874243398">
 <edge COLOR="#0000ff"/>
+</node>
+<node TEXT="&#x5ba1;&#x6838;&#x4e2d;&#x7f13;&#x5b58;" POSITION="right" ID="ID_237511895" CREATED="1546876714287" MODIFIED="1546876732940">
+<edge COLOR="#00ff00"/>
+<node TEXT="&#x4e24;&#x4e2a;&#x63a5;&#x53e3;" ID="ID_1999317668" CREATED="1546876744559" MODIFIED="1546876748433">
+<node TEXT="post" ID="ID_1579974230" CREATED="1546876748839" MODIFIED="1546876751032">
+<node TEXT="&#x5728;&#x5ba1;&#x6838;&#x8be6;&#x8bf7;&#x4e2d;" ID="ID_784540918" CREATED="1546876733103" MODIFIED="1546876762362"/>
+<node TEXT="&#x5f53;&#x524d;&#x9875;&#x7684;&#x7c7b;&#x578b;&#xff0c;&#x5982;&#x5546;&#x54c1;&#x3001;&#x4f1a;&#x5458;&#x3001;&#x8d44;&#x8baf;" ID="ID_635499851" CREATED="1546876762744" MODIFIED="1546876800785"/>
+<node TEXT="&#x5f53;&#x524d;&#x5ba1;&#x6838;&#x8be6;&#x60c5;&#x9875;&#x7684;id" ID="ID_150514233" CREATED="1546876801407" MODIFIED="1546876817177"/>
+<node TEXT="{&#xa;    type: &apos;product&apos;,&#xa;    id: &apos;124&apos;,&#xa;}" ID="ID_874655798" CREATED="1546876817959" MODIFIED="1546876866259"/>
+</node>
+<node TEXT="get" ID="ID_690131169" CREATED="1546876870784" MODIFIED="1546876872398">
+<node TEXT="&#x6240;&#x6709;&#x5728;&#x7f13;&#x5b58;&#x4e2d;&#x7684;&#x6570;&#x636e;" ID="ID_595511599" CREATED="1546876872615" MODIFIED="1546876896266"/>
+<node TEXT="&#x9875;&#x9762;&#x4e2d;&#x7684;type === &#x8bf7;&#x6c42;&#x6570;&#x636e;&#x7684;type&#xa;row.id === &#x8bf7;&#x6c42;&#x6570;&#x636e;&#x7684;id" ID="ID_1446786864" CREATED="1546876897152" MODIFIED="1546876942842">
+<node TEXT="&lt;button disable&gt;&#x5ba1;&#x6838;&#x4e2d;&lt;/button&gt;" ID="ID_467286443" CREATED="1546876968302" MODIFIED="1546877009244"/>
+<node TEXT="disable button" ID="ID_180440426" CREATED="1546876944350" MODIFIED="1546876952145"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x540e;&#x7aef;" ID="ID_453033361" CREATED="1546877015054" MODIFIED="1546877024777">
+<node TEXT="&#x4e00;&#x4e2a;url" ID="ID_1189976223" CREATED="1546877025055" MODIFIED="1546877029121">
+<node TEXT="&#x7f13;&#x5b58;&#x7684;hash" ID="ID_1668696862" CREATED="1546877275854" MODIFIED="1546877289588">
+<node TEXT="{&#xa;    &apos;product&apos;: [&#xa;      {&apos;id&apos;:124, &apos;time&apos;: time.time() },&#xa;      {&apos;id&apos;:125, &apos;time&apos;: time.time() },&#xa;     ]&#xa;    &apos;person&apos;: [&#xa;      {&apos;id&apos;:3, &apos;time&apos;: time.time() },&#xa;      {&apos;id&apos;:5, &apos;time&apos;: time.time() },&#xa;     ]&#xa;}" ID="ID_1442304291" CREATED="1546876817959" MODIFIED="1546877355968"/>
+</node>
+<node TEXT="new_cache =  [i for i in cache[request.get(&apos;type&apos;)] if time.time() - i.time &lt;= 300]" ID="ID_20524636" CREATED="1546877294110" MODIFIED="1546877523594"/>
+<node TEXT="cache[request.get(&apos;type&apos;)] = new_cache" ID="ID_1506175767" CREATED="1546877525206" MODIFIED="1546877566616"/>
+<node TEXT="return json(new_cache)" ID="ID_966969095" CREATED="1546877567230" MODIFIED="1546877602503"/>
+</node>
+</node>
+<node TEXT="&#x6ca1;&#x6709;&#x6301;&#x4e45;&#x5316;&#x6570;&#x636e;&#xff0c;&#x670d;&#x52a1;&#x6302;&#x4e86;&#x4f1a;&#x88ab;&#x6e05;&#x7a7a;" ID="ID_791995628" CREATED="1546877609645" MODIFIED="1546877642607"/>
+<node TEXT="&#x7ed3;&#x6784;&#xff0c;&#x600e;&#x4e48;&#x653e;&#xff1f;" ID="ID_1658371867" CREATED="1546877642901" MODIFIED="1546877657943"/>
 </node>
 </node>
 </map>
