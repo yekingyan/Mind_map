@@ -3,7 +3,7 @@
 <node TEXT="Vue-dadi" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1545923075600" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="99" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="101" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x521d;&#x59cb;&#x5316;" POSITION="right" ID="ID_1107097771" CREATED="1545923177136" MODIFIED="1545923180562">
 <edge COLOR="#00ffff"/>
@@ -262,7 +262,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;style </font></span><span style="color: #bababa"><font color="#bababa">lang=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;scss&quot; </font></span><span style="color: #bababa"><font color="#bababa">scoped</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">  </span></font><span style="color: #cc7832"><font color="#cc7832">h2 </font></span>{<br/>    <span style="color: #bababa"><font color="#bababa">color</font></span>:<span style="color: #a5c261"><font color="#a5c261">red</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font>}<br/><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/style&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -277,7 +276,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;style </font></span><span style="color: #bababa"><font color="#bababa">lang=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;scss&quot; </font></span><span style="color: #bababa"><font color="#bababa">scoped</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;<br/></font></span><font color="#e8bf6a"><span style="color: #e8bf6a">  #id-home</span></font>{<br/>    <span style="color: #cc7832"><font color="#cc7832">h2 </font></span>{<br/>    <span style="color: #bababa"><font color="#bababa">color</font></span>:<span style="color: #a5c261"><font color="#a5c261">red</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>  }<br/><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/style&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -348,6 +346,179 @@
 <node TEXT="fetch-jsonp" ID="ID_1787004748" CREATED="1546763687659" MODIFIED="1546763692291">
 <node TEXT="&#x548c;axios&#x5dee;&#x4e0d;&#x591a;" ID="ID_981755545" CREATED="1546770739653" MODIFIED="1546770747944"/>
 </node>
+</node>
+<node TEXT="&#x7236;&#x5b50;&#x7ec4;&#x4ef6;&#x4f20;&#x503c;" POSITION="right" ID="ID_463338733" CREATED="1546867658916" MODIFIED="1546867685931">
+<edge COLOR="#ff0000"/>
+<node TEXT="&#x7236;&#x7ec4;&#x4ef6;&#x7ed9;&#x5b50;&#x7ec4;&#x4ef6;&#x4f20;&#x503c;" ID="ID_1740964958" CREATED="1546867746888" MODIFIED="1546867764958">
+<node TEXT="1&#x3001;&#x7236;&#x7ec4;&#x4ef6;&#x8c03;&#x7528;&#x5b50;&#x7ec4;&#x4ef6;&#x7ed1;&#x5b9a;&#x52a8;&#x6001;&#x5c5e;&#x6027;" ID="ID_1976430243" CREATED="1546867765976" MODIFIED="1546868525024">
+<node ID="ID_1940341438" CREATED="1546868547824" MODIFIED="1546868547824"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;v-header </font></span><span style="color: #bababa"><font color="#bababa">:someAttr=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #9876aa"><font color="#9876aa">homeData</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/v-header&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="someAtrr&#x4e0d;&#x80fd;&#x5199;&#x6210; some-atrr &#x7684;&#x5f62;&#x5f0f;" ID="ID_455909710" CREATED="1546868552462" MODIFIED="1546868582779"/>
+</node>
+<node TEXT="2&#x3001;&#x5728;&#x5b50;&#x7ec4;&#x4ef6;&#x4e2d;&#x901a;&#x8fc7;props&#x63a5;&#x6536;&#x5c5e;&#x6027;" ID="ID_841581201" CREATED="1546868706598" MODIFIED="1546868750184">
+<node ID="ID_1249263749" CREATED="1546868800539" MODIFIED="1546868800539"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #ffc66d"><font color="#ffc66d">data </font></span>() {<br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>{<br/>    <span style="color: #9876aa"><font color="#9876aa">msg</font></span>: <span style="color: #6a8759"><font color="#6a8759">'header'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">  </span></font>}<br/>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><span style="color: #9876aa"><font color="#9876aa">props</font></span>: [<span style="color: #6a8759"><font color="#6a8759">'someAttr'</font></span>]<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="someAttr &#x4e0e; data &#x4e2d;&#x7684;msg &#x7684;&#x4f7f;&#x7528;&#x65b9;&#x5f0f;&#x4e00;&#x6837;" ID="ID_1849539940" CREATED="1546868804118" MODIFIED="1546868833647"/>
+</node>
+<node TEXT="&#x4f20;&#x51fd;&#x6570;&#x65b9;&#x6cd5;&#x4e0e;&#x4f20;&#x503c;&#x540c;&#x7406;" ID="ID_584557262" CREATED="1546868992062" MODIFIED="1546869035193"/>
+</node>
+<node TEXT="&#x5b50;&#x7ec4;&#x4ef6;&#x901a;&#x8fc7;props&#x83b7;&#x53d6;&#x7236;&#x7ec4;&#x4ef6;&#x7684;&#x6240;&#x6709;&#x6570;&#x636e;&#x4e0e;&#x65b9;&#x6cd5;" ID="ID_112910195" CREATED="1546869136549" MODIFIED="1546874193599">
+<node TEXT="&#x628a;&#x7236;&#x7ec4;&#x4ef6;this&#x5373;&#x6574;&#x4e2a;&#x5b9e;&#x4f8b;&#x4f20;&#x7ed9;&#x5b50;&#x7ec4;&#x4ef6;" ID="ID_1498919027" CREATED="1546869151013" MODIFIED="1546869933864">
+<node TEXT="&#x7ed1;&#x5b9a;&#x52a8;&#x6001;&#x5c5e;&#x6027;&#x4e3a;home" ID="ID_1006804483" CREATED="1546869377220" MODIFIED="1546869387751"/>
+<node ID="ID_482307999" CREATED="1546869316124" MODIFIED="1546869316124"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;v-header </font></span><span style="color: #bababa"><font color="#bababa">:home=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span>this<span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/v-header&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5b50;&#x7ec4;&#x4ef6;&#x63a5;&#x6536;&#x4f20;&#x8fc7;&#x6765;&#x7684;home &#x5c5e;&#x6027;&#xa;&#x5373; &#x7236;&#x7ec4;&#x4ef6;&#x7684; this" ID="ID_1948425641" CREATED="1546869326772" MODIFIED="1546869419271">
+<node ID="ID_826787479" CREATED="1546869331154" MODIFIED="1546869331154"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: [<span style="color: #6a8759"><font color="#6a8759">'home'</font></span>]<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5728;html&#x4e2d;" ID="ID_1718862655" CREATED="1546869866132" MODIFIED="1546869870637">
+<node ID="ID_1339332524" CREATED="1546869697249" MODIFIED="1546869697249"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">{{ home.<span style="color: #9876aa"><font color="#9876aa">homeData </font></span>}}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5728;method&#x4e2d;" ID="ID_1155616623" CREATED="1546869731916" MODIFIED="1546869878606">
+<node ID="ID_327248542" CREATED="1546869730737" MODIFIED="1546869730737"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;button </font></span><span style="color: #bababa"><font color="#bababa">@click=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #ffc66d"><font color="#ffc66d">logHome</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>&#26597;&#30475;home&#20013;&#30340;homeData<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/button&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_968771846" CREATED="1546869744114" MODIFIED="1546869744114"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #ffc66d"><font color="#ffc66d">logHome </font></span>() {<br/>  <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.home.<span style="color: #9876aa"><font color="#9876aa">homeData</font></span>)<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6b64;&#x65f6;&#x5b50;&#x7ec4;&#x4ef6;&#x53ef;&#x4f7f;&#x7528;&#x6240;&#x6709;&#x7236;&#x7ec4;&#x4ef6;&#x7684;&#x65b9;&#x6cd5;&#x4e0e;&#x6570;&#x636e;" ID="ID_695137398" CREATED="1546869427012" MODIFIED="1546869456039"/>
+</node>
+</node>
+<node TEXT="&#x9a8c;&#x8bc1;&#x7236;&#x7ec4;&#x4ef6;&#x4f20;&#x6765;&#x7684;&#x503c;" ID="ID_91351665" CREATED="1546873284183" MODIFIED="1546873299616">
+<node TEXT="props&#x7531;&#x6570;&#x7ec4;&#x53d8;&#x4e3a;&#x5b57;&#x5178;" ID="ID_324624423" CREATED="1546873300342" MODIFIED="1546873317055"/>
+<node ID="ID_477256098" CREATED="1546873353466" MODIFIED="1546873353466"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: {<span style="color: #6a8759"><font color="#6a8759">'home'</font></span>: String}<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_929847041" CREATED="1546873434355" MODIFIED="1546873434355"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: {<br/>  <span style="color: #6a8759"><font color="#6a8759">'home'</font></span>: {<br/>    <span style="color: #9876aa"><font color="#9876aa">type</font></span>: String<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa; font-weight: bold"><font color="#9876aa"><b>default</b></font></span>: <span style="color: #6a8759"><font color="#6a8759">'abc'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">  </span></font>}}<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7236;&#x7ec4;&#x4ef6;&#x4e3b;&#x52a8;&#x83b7;&#x53d6;&#x5b50;&#x7ec4;&#x4ef6;&#x7684;&#x6570;&#x636e;&#x4e0e;&#x65b9;&#x6cd5;" ID="ID_1585819715" CREATED="1546873480981" MODIFIED="1546873582345">
+<node TEXT="1&#x3001;&#x5728;&#x7236;&#x7ec4;&#x4ef6;&#x8c03;&#x7528;&#x5b50;&#x7ec4;&#x4ef6;&#x7684;&#x65f6;&#x5019;&#x5b9a;&#x4e49;&#x4e00;&#x4e2a;ref" ID="ID_1000559977" CREATED="1546873704020" MODIFIED="1546873868623">
+<node ID="ID_1576907883" CREATED="1546873841297" MODIFIED="1546873841297"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;v-header </font></span><span style="color: #bababa"><font color="#bababa">ref=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;header&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/v-header&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="2&#x3001;&#x5728;&#x7236;&#x7ec4;&#x4ef6;&#x4e2d;&#x8c03;&#x7528;" ID="ID_324425172" CREATED="1546873846948" MODIFIED="1546873878887">
+<node TEXT="this.$refs.header.&#x5c5e;&#x6027;" ID="ID_729292174" CREATED="1546873879109" MODIFIED="1546873891351"/>
+<node TEXT="this.$refs.header.&#x65b9;&#x6cd5;" ID="ID_820078435" CREATED="1546873891813" MODIFIED="1546873899783"/>
+</node>
+<node TEXT="this.$refs.header&#x4e3a;&#x5b50;&#x7ec4;&#x4ef6;&#x7684;DOM&#x8282;&#x70b9;" ID="ID_402971763" CREATED="1546873939956" MODIFIED="1546873958934"/>
+</node>
+<node TEXT="&#x5b50;&#x7ec4;&#x4ef6;&#x4e3b;&#x52a8;&#x83b7;&#x53d6;&#x7236;&#x7ec4;&#x4ef6;&#x7684;&#x6570;&#x636e;&#x4e0e;&#x65b9;&#x6cd5;" ID="ID_554439083" CREATED="1546873996660" MODIFIED="1546874014670">
+<node TEXT="this.$parent.&#x65b9;&#x6cd5;" ID="ID_1127748132" CREATED="1546874110861" MODIFIED="1546874123606"/>
+<node TEXT="this.$parent.&#x6570;&#x636e;" ID="ID_893699778" CREATED="1546874144988" MODIFIED="1546874153035"/>
+</node>
+</node>
+<node TEXT="&#x975e;&#x7236;&#x5b50;&#x7ec4;&#x4ef6;&#x4f20;&#x503c;" POSITION="right" ID="ID_19691967" CREATED="1546874234124" MODIFIED="1546874243398">
+<edge COLOR="#0000ff"/>
 </node>
 </node>
 </map>
