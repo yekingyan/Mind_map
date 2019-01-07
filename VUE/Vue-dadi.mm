@@ -3,7 +3,7 @@
 <node TEXT="Vue-dadi" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1545923075600" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -361,7 +361,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;v-header </font></span><span style="color: #bababa"><font color="#bababa">:someAttr=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #9876aa"><font color="#9876aa">homeData</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/v-header&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="someAtrr&#x4e0d;&#x80fd;&#x5199;&#x6210; some-atrr &#x7684;&#x5f62;&#x5f0f;" ID="ID_455909710" CREATED="1546868552462" MODIFIED="1546868582779"/>
@@ -377,7 +376,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #ffc66d"><font color="#ffc66d">data </font></span>() {<br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>return </b></font></span>{<br/>    <span style="color: #9876aa"><font color="#9876aa">msg</font></span>: <span style="color: #6a8759"><font color="#6a8759">'header'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">  </span></font>}<br/>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><span style="color: #9876aa"><font color="#9876aa">props</font></span>: [<span style="color: #6a8759"><font color="#6a8759">'someAttr'</font></span>]<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="someAttr &#x4e0e; data &#x4e2d;&#x7684;msg &#x7684;&#x4f7f;&#x7528;&#x65b9;&#x5f0f;&#x4e00;&#x6837;" ID="ID_1849539940" CREATED="1546868804118" MODIFIED="1546868833647"/>
@@ -397,7 +395,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;v-header </font></span><span style="color: #bababa"><font color="#bababa">:home=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span>this<span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/v-header&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -412,7 +409,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: [<span style="color: #6a8759"><font color="#6a8759">'home'</font></span>]<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5728;html&#x4e2d;" ID="ID_1718862655" CREATED="1546869866132" MODIFIED="1546869870637">
@@ -426,7 +422,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">{{ home.<span style="color: #9876aa"><font color="#9876aa">homeData </font></span>}}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -441,7 +436,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;button </font></span><span style="color: #bababa"><font color="#bababa">@click=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #ffc66d"><font color="#ffc66d">logHome</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>&#26597;&#30475;home&#20013;&#30340;homeData<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/button&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_968771846" CREATED="1546869744114" MODIFIED="1546869744114"><richcontent TYPE="NODE">
@@ -454,7 +448,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #ffc66d"><font color="#ffc66d">logHome </font></span>() {<br/>  <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.home.<span style="color: #9876aa"><font color="#9876aa">homeData</font></span>)<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -473,7 +466,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: {<span style="color: #6a8759"><font color="#6a8759">'home'</font></span>: String}<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_929847041" CREATED="1546873434355" MODIFIED="1546873434355"><richcontent TYPE="NODE">
@@ -486,7 +478,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #9876aa"><font color="#9876aa">props</font></span>: {<br/>  <span style="color: #6a8759"><font color="#6a8759">'home'</font></span>: {<br/>    <span style="color: #9876aa"><font color="#9876aa">type</font></span>: String<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #9876aa; font-weight: bold"><font color="#9876aa"><b>default</b></font></span>: <span style="color: #6a8759"><font color="#6a8759">'abc'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">  </span></font>}}<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -502,7 +493,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;v-header </font></span><span style="color: #bababa"><font color="#bababa">ref=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;header&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;&lt;/v-header&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -549,6 +539,7 @@
 </node>
 <node TEXT="&#x6ca1;&#x6709;&#x6301;&#x4e45;&#x5316;&#x6570;&#x636e;&#xff0c;&#x670d;&#x52a1;&#x6302;&#x4e86;&#x4f1a;&#x88ab;&#x6e05;&#x7a7a;" ID="ID_791995628" CREATED="1546877609645" MODIFIED="1546877642607"/>
 <node TEXT="&#x7ed3;&#x6784;&#xff0c;&#x600e;&#x4e48;&#x653e;&#xff1f;" ID="ID_1658371867" CREATED="1546877642901" MODIFIED="1546877657943"/>
+<node TEXT="&#x8981;&#x4f20;userId" ID="ID_1814323960" CREATED="1546878323809" MODIFIED="1546878338636"/>
 </node>
 </node>
 </map>
