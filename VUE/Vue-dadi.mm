@@ -3,7 +3,7 @@
 <node TEXT="Vue-dadi" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1545923075600" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="102" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="103" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x521d;&#x59cb;&#x5316;" POSITION="right" ID="ID_1107097771" CREATED="1545923177136" MODIFIED="1545923180562">
 <edge COLOR="#00ffff"/>
@@ -507,10 +507,7 @@
 <node TEXT="this.$parent.&#x6570;&#x636e;" ID="ID_893699778" CREATED="1546874144988" MODIFIED="1546874153035"/>
 </node>
 </node>
-<node TEXT="&#x975e;&#x7236;&#x5b50;&#x7ec4;&#x4ef6;&#x4f20;&#x503c;" POSITION="right" ID="ID_19691967" CREATED="1546874234124" MODIFIED="1546874243398">
-<edge COLOR="#0000ff"/>
-</node>
-<node TEXT="&#x5ba1;&#x6838;&#x4e2d;&#x7f13;&#x5b58;" POSITION="right" ID="ID_237511895" CREATED="1546876714287" MODIFIED="1546876732940">
+<node TEXT="&#x5ba1;&#x6838;&#x4e2d;&#x7f13;&#x5b58;" FOLDED="true" POSITION="right" ID="ID_237511895" CREATED="1546876714287" MODIFIED="1546876732940">
 <edge COLOR="#00ff00"/>
 <node TEXT="&#x4e24;&#x4e2a;&#x63a5;&#x53e3;" ID="ID_1999317668" CREATED="1546876744559" MODIFIED="1546876748433">
 <node TEXT="post" ID="ID_1579974230" CREATED="1546876748839" MODIFIED="1546876751032">
@@ -540,6 +537,215 @@
 <node TEXT="&#x6ca1;&#x6709;&#x6301;&#x4e45;&#x5316;&#x6570;&#x636e;&#xff0c;&#x670d;&#x52a1;&#x6302;&#x4e86;&#x4f1a;&#x88ab;&#x6e05;&#x7a7a;" ID="ID_791995628" CREATED="1546877609645" MODIFIED="1546877642607"/>
 <node TEXT="&#x7ed3;&#x6784;&#xff0c;&#x600e;&#x4e48;&#x653e;&#xff1f;" ID="ID_1658371867" CREATED="1546877642901" MODIFIED="1546877657943"/>
 <node TEXT="&#x8981;&#x4f20;userId" ID="ID_1814323960" CREATED="1546878323809" MODIFIED="1546878338636"/>
+</node>
+<node TEXT="&#x975e;&#x7236;&#x5b50;&#x7ec4;&#x4ef6;&#x4f20;&#x503c;" POSITION="right" ID="ID_19691967" CREATED="1546874234124" MODIFIED="1546874243398">
+<edge COLOR="#0000ff"/>
+<node TEXT="&#x65b0;&#x5efa;VueEvent.js&#x6587;&#x4ef6;" ID="ID_349555393" CREATED="1546955249969" MODIFIED="1546955273881">
+<node ID="ID_223808330" CREATED="1546955265925" MODIFIED="1546955271569"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080">/* VueEvent.js*/<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">// &#24341;&#29992;vue<br/></span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>Vue <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'vue'<br/></font></span><span style="color: #808080"><font color="#808080">// &#23454;&#20363;&#21270;vue<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>vueEvent = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Vue()<br/><span style="color: #808080"><font color="#808080">// &#26292;&#38706;&#23454;&#20363;&#21270;&#30340;vue<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>export default </b></font></span>vueEvent<br/></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Home&#x7ec4;&#x4ef6;&#x53d1;&#x9001;&#x6570;&#x636e;&#x7ed9;News&#x7ec4;&#x4ef6;" ID="ID_491474187" CREATED="1546955283598" MODIFIED="1546955310361">
+<node ID="ID_1472793181" CREATED="1546955332805" MODIFIED="1546955332805"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;button </font></span><span style="color: #bababa"><font color="#bababa">@click=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #ffc66d"><font color="#ffc66d">emitNews</font></span>()<span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>&#32473;News&#24191;&#25773;<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/button&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1348826008" CREATED="1546955353484" MODIFIED="1546955353484"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>vueEvent <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'../model/VueEvent'</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1253275589" CREATED="1546955338245" MODIFIED="1546955338245"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #ffc66d"><font color="#ffc66d">emitNews </font></span>() {<br/>  vueEvent.<span style="color: #ffc66d"><font color="#ffc66d">$emit</font></span>(<span style="color: #6a8759"><font color="#6a8759">'to-news'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>this</b></span></font>.<span style="color: #9876aa"><font color="#9876aa">msg</font></span>)<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="News&#x7ec4;&#x4ef6;&#x63a5;&#x6536;Home&#x7ec4;&#x4ef6;&#x7684;&#x6d88;&#x606f;" ID="ID_546248533" CREATED="1546955340502" MODIFIED="1546955376584">
+<node ID="ID_1252506016" CREATED="1546955391164" MODIFIED="1546955391164"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>vueEvent <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'../model/VueEvent'</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_706758384" CREATED="1546955402867" MODIFIED="1546955402867"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #ffc66d"><font color="#ffc66d">mounted </font></span>() {<br/>  vueEvent.<span style="color: #ffc66d"><font color="#ffc66d">$on</font></span>(<span style="color: #6a8759"><font color="#6a8759">'to-news'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>(data) =&gt; { <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">homeMsg </font></span>= data })<br/>}<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x8def;&#x7531;" POSITION="right" ID="ID_1406327871" CREATED="1546955705878" MODIFIED="1546955708312">
+<edge COLOR="#ff00ff"/>
+<node TEXT="&#x52a8;&#x6001;&#x7684;&#x5f80;&#x6839;&#x6302;&#x8f7d;&#x6240;&#x9700;&#x7684;&#x7ec4;&#x4ef6;" ID="ID_829228660" CREATED="1546955711942" MODIFIED="1546955775904"/>
+<node TEXT="vue-router" ID="ID_1791315525" CREATED="1546955809333" MODIFIED="1546955814823">
+<node TEXT="&#x521d;&#x59cb;&#x5316;" ID="ID_1185650739" CREATED="1546959852334" MODIFIED="1546959856097">
+<node TEXT="&#x5b89;&#x88c5;" ID="ID_1165421583" CREATED="1546955815525" MODIFIED="1546955817441">
+<node TEXT="npm install vue-router --save" ID="ID_450528057" CREATED="1546955817654" MODIFIED="1546955828992"/>
+</node>
+<node TEXT="main.js &#x5f15;&#x5165; &#x5e76; use" ID="ID_1805605519" CREATED="1546956665628" MODIFIED="1546956677073">
+<node ID="ID_50890070" CREATED="1546957637167" MODIFIED="1546957637167"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>VueRouter <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'vue-router'<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span></font>Vue.<span style="color: #ffc66d"><font color="#ffc66d">use</font></span>(VueRouter)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x914d;&#x7f6e;&#x8def;&#x7531;" ID="ID_792115941" CREATED="1546957405973" MODIFIED="1546957412783">
+<node TEXT="&#x521b;&#x5efa;&#x7ec4;&#x4ef6; &#x5f15;&#x5165;&#x7ec4;&#x4ef6;" ID="ID_121262056" CREATED="1546957439203" MODIFIED="1546957446334"/>
+<node TEXT="&#x5b9a;&#x4e49;&#x8def;&#x7531;" ID="ID_1682867359" CREATED="1546957446547" MODIFIED="1546957453334"/>
+<node TEXT="&#x5b9e;&#x4f8b;&#x5316;VueRouter" ID="ID_1138859432" CREATED="1546957454187" MODIFIED="1546957464638"/>
+<node ID="ID_571166189" CREATED="1546958294562" MODIFIED="1546958294562"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080">/* router/index.js */<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>Vue <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'vue'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>Router <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'vue-router'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>HelloWorld <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'@/components/HelloWorld'<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span></font>Vue.<span style="color: #ffc66d"><font color="#ffc66d">use</font></span>(Router)<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>export default new </b></font></span>Router({<br/>  <span style="color: #9876aa"><font color="#9876aa">routes</font></span>: [<br/>    {<br/>      <span style="color: #9876aa"><font color="#9876aa">path</font></span>: <span style="color: #6a8759"><font color="#6a8759">'/'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">      </span></font><span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'HelloWorld'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">      </span></font><span style="color: #9876aa"><font color="#9876aa">component</font></span>: HelloWorld<br/>    }<br/>  ]<br/>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6302;&#x8f7d;&#x8def;&#x7531;" ID="ID_306397296" CREATED="1546957496194" MODIFIED="1546958237869">
+<node TEXT=" &#x628a;index.js &#x7684;&#x5b9e;&#x4f8b;&#x5316;&#x8def;&#x7531; &#x5f15;&#x5165; main.js" ID="ID_1655544861" CREATED="1546958260434" MODIFIED="1546958336420"/>
+<node ID="ID_1192972625" CREATED="1546958350910" MODIFIED="1546958357435"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Vue({<br/>  <span style="color: #9876aa"><font color="#9876aa">el</font></span>: <span style="color: #6a8759"><font color="#6a8759">'#app'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font>router<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #9876aa"><font color="#9876aa">components</font></span>: { App }<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #9876aa"><font color="#9876aa">template</font></span>: <span style="color: #6a8759"><font color="#6a8759">'&lt;App/&gt;'<br/></font></span>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x8def;&#x7531;&#x51fa;&#x53e3;" ID="ID_649745688" CREATED="1546959503599" MODIFIED="1546959513723">
+<node TEXT="&#x5728;app.vue&#x4e2d;" ID="ID_1375755659" CREATED="1546959514311" MODIFIED="1546959520306">
+<node ID="ID_15256314" CREATED="1546959530355" MODIFIED="1546959530355"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;router-view&gt;&lt;/router-view&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x8df3;&#x8f6c;&#x8def;&#x7531;" ID="ID_22055049" CREATED="1546959870294" MODIFIED="1546959881746">
+<node TEXT="router-link" ID="ID_1027690222" CREATED="1546960093109" MODIFIED="1546960098056"/>
+<node ID="ID_1453340189" CREATED="1546960084275" MODIFIED="1546960084275"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;router-link </font></span><span style="color: #bababa"><font color="#bababa">to=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;/home&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>Home<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/router-link&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_991785267" CREATED="1546960090657" MODIFIED="1546960090657"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;router-link </font></span><span style="color: #bababa"><font color="#bababa">to=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;/news&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>&#26032;&#38395;<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/router-link&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x9ed8;&#x8ba4;&#x8df3;&#x8f6c;&#x8def;&#x7531;" ID="ID_476332865" CREATED="1546960192525" MODIFIED="1546960203959">
+<node ID="ID_1660687928" CREATED="1546960213610" MODIFIED="1546960213610"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">{<br/>  <span style="color: #9876aa"><font color="#9876aa">path</font></span>: <span style="color: #6a8759"><font color="#6a8759">'*'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #9876aa"><font color="#9876aa">redirect</font></span>: <span style="color: #6a8759"><font color="#6a8759">'/news'<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x627e;&#x4e0d;&#x5230;&#x8def;&#x7531;&#x65f6;&#x9ed8;&#x8ba4;&#x8df3;&#x8f6c;&#x5230; /news" ID="ID_744153805" CREATED="1546960217109" MODIFIED="1546960243279"/>
+</node>
+</node>
 </node>
 </node>
 </map>
