@@ -3,7 +3,7 @@
 <node TEXT="Vue-dadi" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1545923075600" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -551,7 +551,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080">/* VueEvent.js*/<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">// &#24341;&#29992;vue<br/></span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>Vue <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'vue'<br/></font></span><span style="color: #808080"><font color="#808080">// &#23454;&#20363;&#21270;vue<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>vueEvent = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Vue()<br/><span style="color: #808080"><font color="#808080">// &#26292;&#38706;&#23454;&#20363;&#21270;&#30340;vue<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>export default </b></font></span>vueEvent<br/></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -566,7 +565,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;button </font></span><span style="color: #bababa"><font color="#bababa">@click=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #ffc66d"><font color="#ffc66d">emitNews</font></span>()<span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>&#32473;News&#24191;&#25773;<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/button&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1348826008" CREATED="1546955353484" MODIFIED="1546955353484"><richcontent TYPE="NODE">
@@ -579,7 +577,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>vueEvent <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'../model/VueEvent'</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1253275589" CREATED="1546955338245" MODIFIED="1546955338245"><richcontent TYPE="NODE">
@@ -592,7 +589,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #ffc66d"><font color="#ffc66d">emitNews </font></span>() {<br/>  vueEvent.<span style="color: #ffc66d"><font color="#ffc66d">$emit</font></span>(<span style="color: #6a8759"><font color="#6a8759">'to-news'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>this</b></span></font>.<span style="color: #9876aa"><font color="#9876aa">msg</font></span>)<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -607,7 +603,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>vueEvent <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'../model/VueEvent'</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_706758384" CREATED="1546955402867" MODIFIED="1546955402867"><richcontent TYPE="NODE">
@@ -620,7 +615,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #ffc66d"><font color="#ffc66d">mounted </font></span>() {<br/>  vueEvent.<span style="color: #ffc66d"><font color="#ffc66d">$on</font></span>(<span style="color: #6a8759"><font color="#6a8759">'to-news'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>(data) =&gt; { <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">homeMsg </font></span>= data })<br/>}<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -644,7 +638,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>VueRouter <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'vue-router'<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span></font>Vue.<span style="color: #ffc66d"><font color="#ffc66d">use</font></span>(VueRouter)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -662,7 +655,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080">/* router/index.js */<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>Vue <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'vue'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>Router <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'vue-router'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>import </b></font></span>HelloWorld <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>from </b></font></span><span style="color: #6a8759"><font color="#6a8759">'@/components/HelloWorld'<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span></font>Vue.<span style="color: #ffc66d"><font color="#ffc66d">use</font></span>(Router)<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>export default new </b></font></span>Router({<br/>  <span style="color: #9876aa"><font color="#9876aa">routes</font></span>: [<br/>    {<br/>      <span style="color: #9876aa"><font color="#9876aa">path</font></span>: <span style="color: #6a8759"><font color="#6a8759">'/'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">      </span></font><span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'HelloWorld'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">      </span></font><span style="color: #9876aa"><font color="#9876aa">component</font></span>: HelloWorld<br/>    }<br/>  ]<br/>})</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -678,7 +670,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Vue({<br/>  <span style="color: #9876aa"><font color="#9876aa">el</font></span>: <span style="color: #6a8759"><font color="#6a8759">'#app'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font>router<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #9876aa"><font color="#9876aa">components</font></span>: { App }<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #9876aa"><font color="#9876aa">template</font></span>: <span style="color: #6a8759"><font color="#6a8759">'&lt;App/&gt;'<br/></font></span>})</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -694,7 +685,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;router-view&gt;&lt;/router-view&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -712,7 +702,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;router-link </font></span><span style="color: #bababa"><font color="#bababa">to=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;/home&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>Home<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/router-link&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_991785267" CREATED="1546960090657" MODIFIED="1546960090657"><richcontent TYPE="NODE">
@@ -725,7 +714,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;router-link </font></span><span style="color: #bababa"><font color="#bababa">to=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;/news&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>&#26032;&#38395;<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/router-link&gt;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -740,12 +728,126 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">{<br/>  <span style="color: #9876aa"><font color="#9876aa">path</font></span>: <span style="color: #6a8759"><font color="#6a8759">'*'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #9876aa"><font color="#9876aa">redirect</font></span>: <span style="color: #6a8759"><font color="#6a8759">'/news'<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x627e;&#x4e0d;&#x5230;&#x8def;&#x7531;&#x65f6;&#x9ed8;&#x8ba4;&#x8df3;&#x8f6c;&#x5230; /news" ID="ID_744153805" CREATED="1546960217109" MODIFIED="1546960243279"/>
 </node>
+<node TEXT="&#x52a8;&#x6001;&#x8def;&#x7531;" ID="ID_1578633727" CREATED="1547044942396" MODIFIED="1547044949216">
+<node TEXT="&#x8def;&#x7531;&#x8bbe;&#x7f6e;" ID="ID_1089034622" CREATED="1547044949513" MODIFIED="1547044960293">
+<node ID="ID_1198363634" CREATED="1547044969112" MODIFIED="1547044969112"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">{<br/>  <span style="color: #9876aa"><font color="#9876aa">path</font></span>: <span style="color: #6a8759"><font color="#6a8759">'/content/:key'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #9876aa"><font color="#9876aa">component</font></span>: Content<br/>}<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
 </node>
+</node>
+<node TEXT="&#x8df3;&#x8f6c;" ID="ID_103884362" CREATED="1547045276706" MODIFIED="1547045284676">
+<node ID="ID_921031361" CREATED="1547045417813" MODIFIED="1547045417813"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;router-link </font></span><span style="color: #bababa"><font color="#bababa">:to=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span>'/content/' + key<span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>{{ key }}<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/router-link&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x83b7;&#x53d6;&#x52a8;&#x6001;&#x90e8;&#x5206;&#x7684;&#x503c;" ID="ID_172494684" CREATED="1547044972201" MODIFIED="1547044986716">
+<node ID="ID_13548394" CREATED="1547045007175" MODIFIED="1547045007175"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">msg </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.$route.params.key</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="this.$route.params &#x662f;key-value&#x5f62;&#x5f0f;&#x7684;&#x5bf9;&#x8c61;" ID="ID_1905084275" CREATED="1547045009929" MODIFIED="1547045035363"/>
+</node>
+<node TEXT="&#x8def;&#x7531;get &#x4f20;&#x503c;" ID="ID_1038472872" CREATED="1547045049337" MODIFIED="1547045056939">
+<node TEXT="&#x8def;&#x7531;&#x662f;&#x5199;&#x6b7b;&#x7684;&#x8def;&#x7531;" ID="ID_1229975924" CREATED="1547045299576" MODIFIED="1547045315355"/>
+<node TEXT="&#x8df3;&#x8f6c;" ID="ID_1624185508" CREATED="1547045316480" MODIFIED="1547045321355">
+<node ID="ID_347046756" CREATED="1547045355966" MODIFIED="1547045355966"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #e8bf6a"><font color="#e8bf6a">&lt;router-link </font></span><span style="color: #bababa"><font color="#bababa">:to=</font></span><span style="color: #a5c261"><font color="#a5c261">&quot;</font></span>'/content?key=' + key<span style="color: #a5c261"><font color="#a5c261">&quot;</font></span><span style="color: #e8bf6a"><font color="#e8bf6a">&gt;</font></span>{{ key }}<span style="color: #e8bf6a"><font color="#e8bf6a">&lt;/router-link&gt;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x83b7;&#x53d6; ?k=v &#x4e2d;&#x7684;&#x503c;" ID="ID_1350645923" CREATED="1547045361049" MODIFIED="1547045377107">
+<node ID="ID_1420697111" CREATED="1547045390572" MODIFIED="1547045390572"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #9876aa"><font color="#9876aa">msg </font></span>= <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.$route.query.key</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x7f16;&#x7a0b;&#x5f0f;&#x5bfc;&#x822a;" ID="ID_832631697" CREATED="1547048730114" MODIFIED="1547048739671">
+<node TEXT="this.$router.push()" ID="ID_429057424" CREATED="1547049254057" MODIFIED="1547049267678"/>
+<node TEXT="path" ID="ID_249157815" CREATED="1547049267929" MODIFIED="1547049288179">
+<node ID="ID_1686103130" CREATED="1547049306632" MODIFIED="1547049306632"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.$router.<span style="color: #ffc66d"><font color="#ffc66d">push</font></span>({<br/>  <span style="color: #9876aa"><font color="#9876aa">path</font></span>: <span style="color: #6a8759"><font color="#6a8759">'/news'<br/></font></span>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x901a;&#x8fc7;&#x547d;&#x540d;&#x8def;&#x7531;&#x8df3;&#x8f6c;" ID="ID_1048639071" CREATED="1547049307940" MODIFIED="1547049322292">
+<node ID="ID_160770299" CREATED="1547049366670" MODIFIED="1547049366670"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.$router.<span style="color: #ffc66d"><font color="#ffc66d">push</font></span>({<br/>  <span style="color: #9876aa"><font color="#9876aa">name</font></span>: <span style="color: #6a8759"><font color="#6a8759">'news'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #9876aa"><font color="#9876aa">query</font></span>: { <span style="color: #9876aa"><font color="#9876aa">plan</font></span>: <span style="color: #6a8759"><font color="#6a8759">'private' </font></span>}<br/>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x7236;&#x5b50;&#x8def;&#x7531;" ID="ID_211242432" CREATED="1547049616817" MODIFIED="1547049625228"/>
 </node>
 </node>
 </map>
