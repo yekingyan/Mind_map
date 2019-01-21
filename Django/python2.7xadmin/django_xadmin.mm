@@ -3,7 +3,7 @@
 <node TEXT="django" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1547645164509" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="102" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="104" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="virtualenv" POSITION="right" ID="ID_1420307328" CREATED="1547647535622" MODIFIED="1547647583481" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#7c007c"/>
@@ -260,6 +260,54 @@
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+<node TEXT="&#x672c;&#x5730;&#x5316;&#x914d;&#x7f6e;" ID="ID_809301185" CREATED="1548078951426" MODIFIED="1548078961084">
+<node TEXT="admin&#x4e2d;&#x6587;" ID="ID_886374114" CREATED="1548078983825" MODIFIED="1548078990466">
+<node ID="ID_97797024" CREATED="1548078997678" MODIFIED="1548078997678"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">LANGUAGE_CODE = <span style="color: #a5c261"><font color="#a5c261">'zh-hans'</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x65f6;&#x533a;" ID="ID_523150646" CREATED="1548078999009" MODIFIED="1548079010668">
+<node ID="ID_321791648" CREATED="1548079019726" MODIFIED="1548079019726"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">TIME_ZONE = <span style="color: #a5c261"><font color="#a5c261">'Asia/Shanghai'</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x672c;&#x5730;&#x65f6;&#x95f4;" ID="ID_1772195237" CREATED="1548079012617" MODIFIED="1548079059930">
+<node ID="ID_79314543" CREATED="1548079066837" MODIFIED="1548079066837"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">USE_TZ = <span style="color: #8888c6"><font color="#8888c6">False</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x9ed8;&#x8ba4;utc&#x7684;&#x65f6;&#x95f4;" ID="ID_1018558998" CREATED="1548079069921" MODIFIED="1548079080314"/>
 </node>
 </node>
 </node>
@@ -461,7 +509,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>CityDict(models.Model):<br/>    name = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">50</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u&quot;&#22478;&#24066;&#21517;&#31216;&quot;</font></span>)<br/>    desc = models.TextField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">200</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u&quot;&#26426;&#26500;&#25551;&#36848;&quot;</font></span>)<br/>    add_time = models.DateTimeField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=datetime.now)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        verbose_name = <span style="color: #6a8759"><font color="#6a8759">u'&#22478;&#24066;'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        </span></font>verbose_name_plural = verbose_name</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -476,7 +523,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>CourseOrg(models.Model):<br/>    city = models.ForeignKey(CityDict<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u&quot;&#25152;&#22312;&#22478;&#24066;&quot;</font></span>)<br/>    name = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">50</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u&quot;&#26426;&#26500;&#21517;&#31216;&quot;</font></span>)<br/>    desc = models.TextField(<span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u&quot;&#26426;&#26500;&#25551;&#36848;&quot;</font></span>)<br/>    click_nums = models.IntegerField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u&quot;&#28857;&#20987;&#25968;&quot;</font></span>)<br/>    fav_nums = models.IntegerField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u&quot;&#25910;&#34255;&#25968;&quot;</font></span>)<br/>    image = models.ImageField(<span style="color: #aa4926"><font color="#aa4926">upload_to</font></span>=<span style="color: #6a8759"><font color="#6a8759">&quot;org/%Y/%m&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u&quot;&#23553;&#38754;&#22270;&quot;</font></span>)<br/>    address = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">150</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#22320;&#22336;'</font></span>)<br/>    add_time = models.DateTimeField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=datetime.now)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        verbose_name = <span style="color: #6a8759"><font color="#6a8759">u'&#35838;&#31243;&#26426;&#26500;'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        </span></font>verbose_name_plural = verbose_name</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -491,10 +537,107 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Teacher(models.Model):<br/>    org = models.ForeignKey(CourseOrg<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#25152;&#23646;&#35838;&#31243;&#26426;&#26500;'</font></span>)<br/>    name = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">50</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u&quot;&#25945;&#24072;&#21517;&quot;</font></span>)<br/>    work_years = models.IntegerField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#24037;&#20316;&#24180;&#38480;'</font></span>)<br/>    work_company = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">50</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#23601;&#32844;&#20844;&#21496;'</font></span>)<br/>    work_position = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">50</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#20844;&#21496;&#32844;&#20301;'</font></span>)<br/>    points = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">50</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#25945;&#23398;&#29305;&#28857;'</font></span>)<br/>    click_nums = models.IntegerField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u&quot;&#28857;&#20987;&#25968;&quot;</font></span>)<br/>    fav_nums = models.IntegerField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u&quot;&#25910;&#34255;&#25968;&quot;</font></span>)<br/>    add_time = models.DateTimeField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=datetime.now)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        verbose_name = <span style="color: #6a8759"><font color="#6a8759">u'&#25945;&#24072;'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        </span></font>verbose_name_plural = verbose_name</pre>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="operation" ID="ID_1895074360" CREATED="1548075469418" MODIFIED="1548075473820">
+<node TEXT="&#x7528;&#x6237;&#x54a8;&#x8be2;" ID="ID_793251090" CREATED="1548075475015" MODIFIED="1548075543132">
+<node ID="ID_1585434681" CREATED="1548078181972" MODIFIED="1548078181972"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UserAsk(models.Model):<br/>    name = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#22995;&#21517;'</font></span>)<br/>    mobile = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">11</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#25163;&#26426;&#21495;'</font></span>)<br/>    course_name = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">50</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#35838;&#31243;&#21517;'</font></span>)<br/>    add_time = models.DateTimeField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=datetime.now<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#21019;&#24314;&#26102;&#38388;'</font></span>)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        verbose_name = <span style="color: #6a8759"><font color="#6a8759">u'&#29992;&#25143;&#21672;&#35759;'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        </span></font>verbose_name_plural = verbose_name</pre>
+  </body>
+</html>
 
 </richcontent>
 </node>
 </node>
+<node TEXT="&#x7528;&#x6237;&#x8bc4;&#x8bba;" ID="ID_1450407307" CREATED="1548075543464" MODIFIED="1548075553427">
+<node ID="ID_1064311626" CREATED="1548078187284" MODIFIED="1548078187284"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>CourseComments(models.Model):<br/>    user = models.ForeignKey(UserProfile<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#29992;&#25143;'</font></span>)<br/>    course = models.ForeignKey(Course<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#35838;&#31243;'</font></span>)<br/>    comments = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">200</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#35780;&#35770;'</font></span>)<br/>    add_time = models.DateTimeField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=datetime.now<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#21019;&#24314;&#26102;&#38388;'</font></span>)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        verbose_name = <span style="color: #6a8759"><font color="#6a8759">u'&#35838;&#31243;&#35780;&#35770;'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        </span></font>verbose_name_plural = verbose_name</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7528;&#x6237;&#x6536;&#x85cf;" ID="ID_135553098" CREATED="1548075553608" MODIFIED="1548075559818">
+<node ID="ID_55735844" CREATED="1548078194309" MODIFIED="1548078194309"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UserFavorite(models.Model):<br/>    user = models.ForeignKey(UserProfile<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#29992;&#25143;'</font></span>)<br/>    fav_id = models.IntegerField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#25968;&#25454;id'</font></span>)<br/>    fav_type = models.IntegerField(<span style="color: #aa4926"><font color="#aa4926">choices</font></span>=((<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'&#35838;&#31243;'</font></span>)<span style="color: #cc7832"><font color="#cc7832">, </font></span>(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'&#35838;&#31243;&#26426;&#26500;'</font></span>)<span style="color: #cc7832"><font color="#cc7832">, </font></span>(<span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'&#35762;&#24072;'</font></span>))<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                                   </span></font><span style="color: #aa4926"><font color="#aa4926">default</font></span>=<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                                   </span></font><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#25910;&#34255;&#31867;&#22411;'</font></span>)<br/>    add_time = models.DateTimeField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=datetime.now<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#21019;&#24314;&#26102;&#38388;'</font></span>)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        verbose_name = <span style="color: #6a8759"><font color="#6a8759">u'&#29992;&#25143;&#25910;&#34255;'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        </span></font>verbose_name_plural = verbose_name</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7528;&#x6237;&#x6d88;&#x606f;" ID="ID_1825237811" CREATED="1548075562911" MODIFIED="1548075566194">
+<node ID="ID_800675414" CREATED="1548078208744" MODIFIED="1548078208744"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UserMessage(models.Model):<br/>    user = models.IntegerField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#25509;&#25910;&#29992;&#25143;&#35780;&#35770;'</font></span>)<br/>    massage = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">500</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#28040;&#24687;&#20869;&#23481;'</font></span>)<br/>    has_read = models.BooleanField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=<span style="color: #8888c6"><font color="#8888c6">False</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#26159;&#21542;&#24050;&#35835;'</font></span>)<br/>    add_time = models.DateTimeField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=datetime.now<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#21019;&#24314;&#26102;&#38388;'</font></span>)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        verbose_name = <span style="color: #6a8759"><font color="#6a8759">u'&#29992;&#25143;&#20449;&#24687;'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        </span></font>verbose_name_plural = verbose_name</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7528;&#x6237;&#x5b66;&#x4e60;&#x7684;&#x8bfe;&#x7a0b;" ID="ID_1850270831" CREATED="1548075566432" MODIFIED="1548075573945">
+<node ID="ID_1660993222" CREATED="1548078214441" MODIFIED="1548078214441"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UserCourse(models.Model):<br/>    user = models.ForeignKey(UserProfile<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#29992;&#25143;'</font></span>)<br/>    course = models.ForeignKey(Course<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#35838;&#31243;'</font></span>)<br/>    add_time = models.DateTimeField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=datetime.now<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#21019;&#24314;&#26102;&#38388;'</font></span>)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        verbose_name = <span style="color: #6a8759"><font color="#6a8759">u'&#29992;&#25143;&#35838;&#31243;'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        </span></font>verbose_name_plural = verbose_name</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="admin" POSITION="right" ID="ID_867177644" CREATED="1548078515738" MODIFIED="1548078518204">
+<edge COLOR="#ff00ff"/>
+<node TEXT="/admin" ID="ID_1349057871" CREATED="1548078524041" MODIFIED="1548078542811"/>
+<node TEXT="&#x521b;&#x5efa;admin&#x7528;&#x6237;" ID="ID_640783702" CREATED="1548078543241" MODIFIED="1548078552515">
+<node TEXT="python manage.py createsuperuser" ID="ID_58413366" CREATED="1548078553073" MODIFIED="1548084196012"/>
+</node>
+<node TEXT="&#x4e0d;&#x80fd;&#x8fdb;&#x5165;&#x6bcf;&#x4e2a;&#x8868;&#x7684;&#x65b0;&#x589e;&#x6216;&#x4fee;&#x6539;&#x662f;&#x4ec0;&#x4e48;&#x9b3c;&#xff1f;&#x4e00;&#x76f4;&#x8f6c;&#x83ca;&#x82b1;" ID="ID_1912296605" CREATED="1548084198502" MODIFIED="1548084238233"/>
+</node>
+<node TEXT="xadmin" POSITION="right" ID="ID_1365773098" CREATED="1548084240885" MODIFIED="1548084244976">
+<edge COLOR="#00ffff"/>
+<node TEXT="&#x521d;&#x59cb;&#x5316;" ID="ID_1464279607" CREATED="1548084253831" MODIFIED="1548084257335">
+<node TEXT="&#x5b89;&#x88c5;" ID="ID_1368556673" CREATED="1548084413621" MODIFIED="1548084415464">
+<node TEXT="pip install xadmin" ID="ID_678132911" CREATED="1548084245246" MODIFIED="1548084251968"/>
+</node>
+<node TEXT="&#x6ce8;&#x518c;app" ID="ID_1561251695" CREATED="1548084396669" MODIFIED="1548084401175">
+<node TEXT="xadmin&#x662f;app&#xff0c;&#x9700;&#x8981;&#x6ce8;&#x518c;&#x8fdb;settings.py" ID="ID_59401017" CREATED="1548084260870" MODIFIED="1548084288848"/>
+<node TEXT="&#x989d;&#x5916;&#x8981;&#x6ce8;&#x518c;&#x7684;&#x4f9d;&#x8d56;app&#x4e5f;&#x9700;&#x8981;&#x6ce8;&#x518c;  crispy_forms" ID="ID_292302894" CREATED="1548084342413" MODIFIED="1548084382929"/>
+</node>
+<node TEXT="url&#x6307;&#x5411;" ID="ID_98713076" CREATED="1548084405836" MODIFIED="1548084410127"/>
 </node>
 </node>
 </node>
