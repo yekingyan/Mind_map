@@ -401,11 +401,14 @@
 </node>
 </node>
 </node>
-<node TEXT="prefetch_related" POSITION="right" ID="ID_1615966714" CREATED="1548828604791" MODIFIED="1548828611200">
-<edge COLOR="#7c007c"/>
-</node>
 <node TEXT=" model_to_dict" POSITION="right" ID="ID_191823927" CREATED="1548828617885" MODIFIED="1548828619142">
 <edge COLOR="#007c7c"/>
+<node TEXT=" Django model&#x8f6c;&#x5b57;&#x5178;" ID="ID_1318210753" CREATED="1548837695168" MODIFIED="1548837697672"/>
+<node TEXT=" &#x660e;&#x786e;&#x5220;&#x9664;&#x4e86;&#x4e0d;&#x53ef;&#x7f16;&#x8f91;&#x7684;&#x5b57;&#x6bb5;" ID="ID_1912844681" CREATED="1548837513751" MODIFIED="1548837514793"/>
+<node TEXT=" &#x4e0d;&#x80fd;&#x8f93;&#x51fa;time&#x65f6;&#x95f4;&#x5b57;&#x6bb5;&#xff08;editable=False&#xff09;" ID="ID_158538136" CREATED="1548837677535" MODIFIED="1548837678912"/>
+</node>
+<node TEXT="prefetch_related" POSITION="right" ID="ID_1615966714" CREATED="1548828604791" MODIFIED="1548828611200">
+<edge COLOR="#7c007c"/>
 </node>
 </node>
 </map>
