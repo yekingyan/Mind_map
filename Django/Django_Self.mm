@@ -3,7 +3,7 @@
 <node TEXT="Django_Self" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1548828499643" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="101" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="102" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="Q &#x4e0e; F" POSITION="right" ID="ID_4910678" CREATED="1548828720437" MODIFIED="1548829082239">
 <edge COLOR="#ff0000"/>
@@ -149,7 +149,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db.models <span style="color: #cc7832"><font color="#cc7832">import </font></span>Q<br/>q = Q(<span style="color: #aa4926"><font color="#aa4926">order_id</font></span>=order_id<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">order_type</font></span>=order_type)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x53c2;&#x6570;&#x53ef;&#x4f20;&#x5165;**dict_" ID="ID_543938632" CREATED="1548830130340" MODIFIED="1548830140550"/>
@@ -167,7 +166,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">q = Q(<span style="color: #aa4926"><font color="#aa4926">create_time__gte</font></span>=start_time) &amp; Q(<span style="color: #aa4926"><font color="#aa4926">create_time__lte</font></span>=end_time)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -184,7 +182,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">q = Q(<span style="color: #aa4926"><font color="#aa4926">question__startswith</font></span>=<span style="color: #a5c261"><font color="#a5c261">'Who'</font></span>) | Q(<span style="color: #aa4926"><font color="#aa4926">question__startswith</font></span>=<span style="color: #a5c261"><font color="#a5c261">'What'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -201,7 +198,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">~Q(<span style="color: #aa4926"><font color="#aa4926">pub_date__year</font></span>=<span style="color: #6897bb"><font color="#6897bb">2005</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -220,7 +216,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080"># &#27491;&#30830;&#30340;&#20570;&#27861;<br/></font></span>News.objects.get(<br/>    Q(<span style="color: #aa4926"><font color="#aa4926">pub_date</font></span>=date(<span style="color: #6897bb"><font color="#6897bb">2005</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span>))<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #aa4926"><font color="#aa4926">question__startswith</font></span>=<span style="color: #a5c261"><font color="#a5c261">'Who'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_10862911" CREATED="1548829931283" MODIFIED="1548829931283"><richcontent TYPE="NODE">
@@ -233,7 +228,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080"># &#38169;&#35823;&#30340;&#20570;&#27861;&#65292;&#20195;&#30721;&#23558;&#20851;&#38190;&#23383;&#21442;&#25968;&#25918;&#22312;&#20102;Q()&#23545;&#35937;&#30340;&#21069;&#38754;&#12290;<br/></font></span>News.objects.get(<br/>    <span style="color: #aa4926"><font color="#aa4926">question__startswith</font></span>=<span style="color: #a5c261"><font color="#a5c261">'Who'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>Q(pub_date=date(<span style="color: #6897bb"><font color="#6897bb">2005</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span>)))</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -257,7 +251,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">reporter = Reporters.objects.get(<span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #a5c261"><font color="#a5c261">'Tintin'</font></span>)<br/>reporter.stories_field += <span style="color: #6897bb"><font color="#6897bb">1<br/></font></span>reporter.save()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x4ece;&#x6570;&#x636e;&#x5e93;&#x4e2d;&#x53d6;&#x51fa;reporter.stories_field&#x7684;&#x503c;&#x653e;&#x5165;&#x5185;&#x5b58;&#x4e2d;&#x5e76;&#x4f7f;&#x7528;&#x6211;&#x4eec;&#x719f;&#x6089;&#x7684;python&#x8fd0;&#x7b97;&#x7b26;&#x64cd;&#x4f5c;&#x5b83;&#xff0c;&#x7136;&#x540e;&#x628a;&#x5bf9;&#x8c61;&#x4fdd;&#x5b58;&#x5230;&#x6570;&#x636e;&#x5e93;&#x4e2d;" ID="ID_1898160507" CREATED="1548831875427" MODIFIED="1548831881148"/>
@@ -274,7 +267,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db.models <span style="color: #cc7832"><font color="#cc7832">import </font></span>F<br/>reporter = Reporters.objects.get(<span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #a5c261"><font color="#a5c261">'Tintin'</font></span>)<br/>reporter.stories_field = F(<span style="color: #a5c261"><font color="#a5c261">'stories_field'</font></span>) + <span style="color: #6897bb"><font color="#6897bb">1<br/></font></span>reporter.save()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1838397403" CREATED="1548832061114" MODIFIED="1548832061114"><richcontent TYPE="NODE">
@@ -287,7 +279,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">reporter = Reporters.objects.filter(<span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #a5c261"><font color="#a5c261">'Tintin'</font></span>)<br/>reporter.update(<span style="color: #aa4926"><font color="#aa4926">stories_field</font></span>=F(<span style="color: #a5c261"><font color="#a5c261">'stories_field'</font></span>) + <span style="color: #6897bb"><font color="#6897bb">1</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1923738403" CREATED="1548832099752" MODIFIED="1548832099752"><richcontent TYPE="NODE">
@@ -300,7 +291,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">Reporters.objects.all().update(<span style="color: #aa4926"><font color="#aa4926">stories_field</font></span>=F(<span style="color: #a5c261"><font color="#a5c261">'stories_field'</font></span>) + <span style="color: #6897bb"><font color="#6897bb">1</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -327,7 +317,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">reporter = Reporters.objects.get(<span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #a5c261"><font color="#a5c261">'Tintin'</font></span>)<br/>reporter.stories_field = F(<span style="color: #a5c261"><font color="#a5c261">'stories_field'</font></span>) + <span style="color: #6897bb"><font color="#6897bb">1<br/></font></span>reporter.save()  <span style="color: #808080"><font color="#808080"># F()&#34920;&#36798;&#24335;&#31532;&#19968;&#27425;&#25191;&#34892;<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>reporter.name = <span style="color: #a5c261"><font color="#a5c261">'Tintin Jr'</font></span>)<br/>reporter.save()  <span style="color: #808080"><font color="#808080"># F()&#34920;&#36798;&#24335;&#31532;&#20108;&#27425;&#25191;&#34892;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="stories_field&#x5c06;&#x4f1a;&#x88ab;&#x66f4;&#x65b0;&#x4e24;&#x6b21;&#xff01;&#x5982;&#x679c;&#x521d;&#x59cb;&#x503c;&#x4e3a;1&#xff0c;&#x90a3;&#x4e48;&#x6700;&#x7ec8;&#x503c;&#x5c06;&#x4f1a;&#x662f;3" ID="ID_1561967766" CREATED="1548835929728" MODIFIED="1548835937482"/>
@@ -346,7 +335,6 @@
 &#25105;&#20204;&#26500;&#24314;&#19968;&#20010;F()&#23545;&#35937;&#26469;&#24341;&#29992;pingback&#30340;&#25968;&#37327;<br/></font></span><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db.models <span style="color: #cc7832"><font color="#cc7832">import </font></span>F<br/>Entry.objects.filter(<span style="color: #aa4926"><font color="#aa4926">n_commnets__gt</font></span>=F(<span style="color: #a5c261"><font color="#a5c261">'n_pingbacks'</font></span>))</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" Django&#x652f;&#x6301;F()&#x5bf9;&#x8c61;&#x4f7f;&#x7528;&#x52a0;&#x3001;&#x51cf;&#x3001;&#x4e58;&#x3001;&#x9664;&#x3001;&#x53d6;&#x6a21;&#x548c;&#x5e42;&#x8fd0;&#x7b97;&#x7b49;&#x7b97;&#x672f;&#x64cd;&#x4f5c;" ID="ID_490382514" CREATED="1548836186024" MODIFIED="1548836188499"/>
@@ -360,7 +348,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">Entry.objects.filter(<span style="color: #aa4926"><font color="#aa4926">n_comments__gt</font></span>=F(<span style="color: #a5c261"><font color="#a5c261">'n_pingbacks'</font></span>) * <span style="color: #6897bb"><font color="#6897bb">2</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -375,7 +362,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db.models <span style="color: #cc7832"><font color="#cc7832">import </font></span>F<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>app01.models <span style="color: #cc7832"><font color="#cc7832">import </font></span>Book<br/><span style="color: #808080"><font color="#808080"># &#23545;&#20110;book&#34920;&#20013;&#27599;&#26412;&#20070;&#30340;&#20215;&#26684;&#37117;&#22312;&#21407;&#20215;&#26684;&#30340;&#22522;&#30784;&#19978;&#22686;&#21152;20&#20803;<br/></font></span>Book.objects.update(<span style="color: #aa4926"><font color="#aa4926">price</font></span>=F(<span style="color: #a5c261"><font color="#a5c261">&quot;price&quot;</font></span>) + <span style="color: #6897bb"><font color="#6897bb">20</font></span>)  </pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -396,7 +382,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">creator = models.ForeignKey(SuperManager<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">to_field</font></span>=<span style="color: #a5c261"><font color="#a5c261">'user_id'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">u'&#29992;&#25143;'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -409,6 +394,9 @@
 </node>
 <node TEXT="prefetch_related" POSITION="right" ID="ID_1615966714" CREATED="1548828604791" MODIFIED="1548828611200">
 <edge COLOR="#7c007c"/>
+</node>
+<node TEXT="select_related" POSITION="right" ID="ID_566117723" CREATED="1549847953364" MODIFIED="1549847971018">
+<edge COLOR="#00ff00"/>
 </node>
 </node>
 </map>
