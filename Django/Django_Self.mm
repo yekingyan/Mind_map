@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="102" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="105" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="Q &#x4e0e; F" POSITION="right" ID="ID_4910678" CREATED="1548828720437" MODIFIED="1548829082239">
 <edge COLOR="#ff0000"/>
@@ -386,17 +386,112 @@
 </node>
 </node>
 </node>
-<node TEXT=" model_to_dict" POSITION="right" ID="ID_191823927" CREATED="1548828617885" MODIFIED="1548828619142">
-<edge COLOR="#007c7c"/>
-<node TEXT=" Django model&#x8f6c;&#x5b57;&#x5178;" ID="ID_1318210753" CREATED="1548837695168" MODIFIED="1548837697672"/>
+<node TEXT=" Django model&#x8f6c;&#x5b57;&#x5178;" POSITION="right" ID="ID_1318210753" CREATED="1548837695168" MODIFIED="1550455853190">
+<edge COLOR="#ff00ff"/>
+<node TEXT=" model_to_dict" ID="ID_191823927" CREATED="1548828617885" MODIFIED="1550455854341">
+<node TEXT="&#x5e38;&#x7528;&#x4e8e;&#x5206;&#x9875;&#x4e4b;&#x540e;&#x5b57;&#x6bb5;&#x8f93;&#x51fa;" ID="ID_1488853839" CREATED="1550456379227" MODIFIED="1550457082191"/>
 <node TEXT=" &#x660e;&#x786e;&#x5220;&#x9664;&#x4e86;&#x4e0d;&#x53ef;&#x7f16;&#x8f91;&#x7684;&#x5b57;&#x6bb5;" ID="ID_1912844681" CREATED="1548837513751" MODIFIED="1548837514793"/>
 <node TEXT=" &#x4e0d;&#x80fd;&#x8f93;&#x51fa;time&#x65f6;&#x95f4;&#x5b57;&#x6bb5;&#xff08;editable=False&#xff09;" ID="ID_158538136" CREATED="1548837677535" MODIFIED="1548837678912"/>
+<node TEXT="&#x6709;&#x4e24;&#x4e2a;&#x53c2;&#x6570;fields&#x548c;exclude&#x6765;&#x914d;&#x7f6e;&#x8f93;&#x51fa;&#x7684;&#x5b57;&#x6bb5;" ID="ID_1626507486" CREATED="1550458956088" MODIFIED="1550458983281"/>
 </node>
-<node TEXT="prefetch_related" POSITION="right" ID="ID_1615966714" CREATED="1548828604791" MODIFIED="1548828611200">
-<edge COLOR="#7c007c"/>
+<node TEXT=" query_set.values()" ID="ID_539810436" CREATED="1550455984391" MODIFIED="1550455986601">
+<node TEXT="&#x6bd4;&#x8f83;&#x5b8c;&#x6574;&#x7684;&#x8f93;&#x51fa;&#xff0c;&#x524d;&#x63d0;&#x662f;query_set&#x7c7b;&#x578b;" ID="ID_113415355" CREATED="1550455989858" MODIFIED="1550456030077"/>
 </node>
-<node TEXT="select_related" POSITION="right" ID="ID_566117723" CREATED="1549847953364" MODIFIED="1549847971018">
-<edge COLOR="#00ff00"/>
+</node>
+<node TEXT="query_set&#x67e5;&#x8be2;&#x4f18;&#x5316;" POSITION="right" ID="ID_1210873393" CREATED="1550475103483" MODIFIED="1550475117139">
+<edge COLOR="#7c0000"/>
+<node TEXT="select_related" ID="ID_566117723" CREATED="1549847953364" MODIFIED="1550475119414">
+<node TEXT="&#x4f7f;&#x7528;INNER JOIN&#x7684;&#x65b9;&#x6cd5;&#x51cf;&#x5c11;&#x67e5;&#x8be2;&#x6b21;&#x6570;" ID="ID_1901415289" CREATED="1550475156951" MODIFIED="1550475203021"/>
+<node TEXT="&#x5e94;&#x7528;&#x8303;&#x56f4;" ID="ID_825130946" CREATED="1550475036544" MODIFIED="1550475044143">
+<node ID="ID_322797089" CREATED="1550475052193" MODIFIED="1550475052193"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19968;&#23545;&#19968;&#23383;&#27573;&#65288;OneToOneField&#65289;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x5916;&#x952e;&#x5b57;&#x6bb5;&#xff08;ForeignKey&#xff09;" ID="ID_512874827" CREATED="1550475059480" MODIFIED="1550475060826"/>
+</node>
+<node TEXT="&#x4f7f;&#x7528;&#x65b9;&#x5f0f;" ID="ID_1896309707" CREATED="1550475285855" MODIFIED="1550475295277">
+<node TEXT="&#x4ee5;&#x94fe;&#x5f0f;&#x6dfb;&#x52a0;&#x5230;query_set&#x67e5;&#x8be2;&#x4e2d;" ID="ID_1998811794" CREATED="1550475295561" MODIFIED="1550475325673"/>
+<node ID="ID_261420899" CREATED="1550475403146" MODIFIED="1550475403146"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 9.0pt">origin_logs = EditDiscountLog.objects.filter(q).select_related(<span style="color: #a5c261"><font color="#a5c261">'creator'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x63a5;&#x53d7;&#x53ef;&#x53d8;&#x957f;&#x53c2;&#x6570;" ID="ID_713728086" CREATED="1550475326111" MODIFIED="1550475340849">
+<node TEXT="&#x5916;&#x952e;&#x7684;&#x5b57;&#x6bb5;&#x540d;" ID="ID_123973570" CREATED="1550475341496" MODIFIED="1550475373523"/>
+<node TEXT="&#x5916;&#x952e;&#x7684;&#x5916;&#x952e;&#x7684;&#x5b57;&#x6bb5;&#x540d;" ID="ID_51965776" CREATED="1550475345328" MODIFIED="1550475375515">
+<node TEXT=" &#x4f7f;&#x7528;&#x4e24;&#x4e2a;&#x4e0b;&#x5212;&#x7ebf;&#x201c;__&#x201d;&#x6765;&#x8fde;&#x63a5;" ID="ID_696394236" CREATED="1550475386344" MODIFIED="1550475387792"/>
+</node>
+<node TEXT=" &#x672a;&#x6307;&#x5b9a;&#x7684;&#x5916;&#x952e;&#x5219;&#x4e0d;&#x4f1a;&#x88ab;&#x6dfb;&#x52a0;&#x5230;&#x7ed3;&#x679c;&#x4e2d;" ID="ID_62258021" CREATED="1550475438823" MODIFIED="1550475440914"/>
+</node>
+<node TEXT="depth &#x53c2;&#x6570;" ID="ID_1984528216" CREATED="1550475520096" MODIFIED="1550475526354">
+<node TEXT=" depth&#x53c2;&#x6570;&#x53ef;&#x4ee5;&#x786e;&#x5b9a;select_related&#x7684;&#x6df1;&#x5ea6;" ID="ID_1812623746" CREATED="1550475542048" MODIFIED="1550475543890"/>
+<node TEXT=" Django&#x4f1a;&#x9012;&#x5f52;&#x904d;&#x5386;&#x6307;&#x5b9a;&#x6df1;&#x5ea6;&#x5185;&#x7684;&#x6240;&#x6709;&#x7684;OneToOneField&#x548c;ForeignKey" ID="ID_439985983" CREATED="1550475553872" MODIFIED="1550475555321"/>
+<node TEXT="&#x4f8b;&#x5b50;" ID="ID_1529352676" CREATED="1550475645968" MODIFIED="1550475647355">
+<node TEXT=" select_related(depth = d)" ID="ID_1182670916" CREATED="1550475698215" MODIFIED="1550475699954"/>
+<node TEXT="depth = 1" ID="ID_973270400" CREATED="1550475679184" MODIFIED="1550475688075">
+<node TEXT=" select_related(&#x2018;hometown&#x2019;,&#x2019;living&#x2019;)" ID="ID_154913663" CREATED="1550475720344" MODIFIED="1550475722128"/>
+</node>
+<node TEXT="depth = 2" ID="ID_134435877" CREATED="1550475572464" MODIFIED="1550475668994">
+<node TEXT=" select_related(&#x2018;hometown__province&#x2019;,&#x2019;living__province&#x2019;)" ID="ID_1448779840" CREATED="1550475670513" MODIFIED="1550475673554"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x65e0;&#x53c2;&#x6570;" ID="ID_15954468" CREATED="1550475611448" MODIFIED="1550475617025">
+<node ID="ID_1581984112" CREATED="1550475632187" MODIFIED="1550475632187"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" size="15px">&#34920;&#31034;&#35201;&#27714;Django&#23613;&#21487;&#33021;&#28145;&#30340;select_related</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="prefetch_related" ID="ID_1615966714" CREATED="1548828604791" MODIFIED="1550475121236">
+<node TEXT=" &#x901a;&#x8fc7;JOIN&#x8bed;&#x53e5;&#xff0c;&#x5728;SQL&#x67e5;&#x8be2;&#x5185;&#x89e3;&#x51b3;&#x95ee;&#x9898;" ID="ID_440345491" CREATED="1550475864073" MODIFIED="1550475866510"/>
+<node TEXT=" prefetch_related&#x901a;&#x8fc7;&#x5206;&#x522b;&#x83b7;&#x53d6;&#x5404;&#x4e2a;&#x8868;&#x7684;&#x5185;&#x5bb9;&#xff0c;&#x7136;&#x540e;&#x7528;Python&#x5904;&#x7406;&#x4ed6;&#x4eec;&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;&#x6765;&#x8fdb;&#x884c;&#x4f18;&#x5316;" ID="ID_1180528878" CREATED="1550476312946" MODIFIED="1550476315091"/>
+<node TEXT="&#x5e94;&#x7528;&#x8303;&#x56f4;" ID="ID_1303967962" CREATED="1550475804649" MODIFIED="1550475810425">
+<node TEXT="&#x591a;&#x5bf9;&#x591a;&#x5b57;&#x6bb5;&#xff08;ManyToManyField&#xff09;" ID="ID_1848746260" CREATED="1550475811233" MODIFIED="1550475818866"/>
+<node TEXT=" &#x4e00;&#x5bf9;&#x591a;&#x5b57;&#x6bb5;" ID="ID_1383096732" CREATED="1550475823600" MODIFIED="1550475825362"/>
+</node>
+<node TEXT=" Prefetch&#x5bf9;&#x8c61;&#x5bf9;&#x5b57;&#x6bb5;&#x6307;&#x5b9a;&#x7684;&#x65b9;&#x5f0f;&#x548c;prefetch_related&#x4e2d;&#x7684;&#x53c2;&#x6570;&#x76f8;&#x540c;&#xff0c;&#x90fd;&#x662f;&#x901a;&#x8fc7;&#x53cc;&#x4e0b;&#x5212;&#x7ebf;&#x8fde;&#x63a5;&#x7684;&#x5b57;&#x6bb5;&#x540d;&#x5b8c;&#x6210;&#x7684;" ID="ID_1753199064" CREATED="1550476265418" MODIFIED="1550476266866"/>
+<node TEXT="" ID="ID_1431387540" CREATED="1550476424812" MODIFIED="1550476424812">
+<node TEXT=" select_related()&#x7684;&#x6548;&#x7387;&#x8981;&#x9ad8;&#x4e8e;prefetch_related()" ID="ID_1287971678" CREATED="1550476426843" MODIFIED="1550476428738"/>
+<node TEXT="&#x5bf9;&#x4e8e;ForeignKey&#x5b57;&#x6bb5;&#xff0c;&#x907f;&#x514d;&#x4f7f;&#x7528;prefetch_related()" ID="ID_1094033960" CREATED="1550476428936" MODIFIED="1550476438026"/>
+</node>
+</node>
+<node TEXT="&#x603b;&#x7ed3;" ID="ID_1452831716" CREATED="1550476477254" MODIFIED="1550476481994">
+<node TEXT=" select_related()&#x603b;&#x662f;&#x5728;&#x5355;&#x6b21;SQL&#x67e5;&#x8be2;&#x4e2d;&#x89e3;&#x51b3;&#x95ee;&#x9898;" ID="ID_1650811052" CREATED="1550476504328" MODIFIED="1550476506057"/>
+<node TEXT="prefetch_related()&#x4f1a;&#x5bf9;&#x6bcf;&#x4e2a;&#x76f8;&#x5173;&#x8868;&#x8fdb;&#x884c;SQL&#x67e5;&#x8be2;&#xff0c;&#x7528;python &#x5904;&#x7406;" ID="ID_927209511" CREATED="1550476507083" MODIFIED="1550476531312"/>
+<node TEXT=" &#x53ea;&#x6709;&#x5728;select_related()&#x4e0d;&#x80fd;&#x89e3;&#x51b3;&#x95ee;&#x9898;&#x7684;&#x65f6;&#x5019;&#x518d;&#x53bb;&#x60f3;prefetch_related()" ID="ID_1309647837" CREATED="1550476540158" MODIFIED="1550476541545"/>
+<node TEXT=" &#x4f60;&#x53ef;&#x4ee5;&#x5728;&#x4e00;&#x4e2a;QuerySet&#x4e2d;&#x540c;&#x65f6;&#x4f7f;&#x7528;select_related()&#x548c;prefetch_related()&#xff0c;&#x4ece;&#x800c;&#x51cf;&#x5c11;SQL&#x67e5;&#x8be2;&#x7684;&#x6b21;&#x6570;" ID="ID_1165604399" CREATED="1550476548961" MODIFIED="1550476554361"/>
+<node TEXT=" &#x53ea;&#x6709;prefetch_related()&#x4e4b;&#x524d;&#x7684;select_related()&#x662f;&#x6709;&#x6548;&#x7684;&#xff0c;&#x4e4b;&#x540e;&#x7684;&#x5c06;&#x4f1a;&#x88ab;&#x65e0;&#x89c6;&#x6389;" ID="ID_32974722" CREATED="1550476555191" MODIFIED="1550476556281"/>
+</node>
 </node>
 </node>
 </map>
