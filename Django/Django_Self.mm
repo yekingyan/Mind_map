@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="105" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="107" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="Q &#x4e0e; F" POSITION="right" ID="ID_4910678" CREATED="1548828720437" MODIFIED="1548829082239">
 <edge COLOR="#ff0000"/>
@@ -415,7 +415,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x5916;&#x952e;&#x5b57;&#x6bb5;&#xff08;ForeignKey&#xff09;" ID="ID_512874827" CREATED="1550475059480" MODIFIED="1550475060826"/>
@@ -432,7 +431,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 9.0pt">origin_logs = EditDiscountLog.objects.filter(q).select_related(<span style="color: #a5c261"><font color="#a5c261">'creator'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x63a5;&#x53d7;&#x53ef;&#x53d8;&#x957f;&#x53c2;&#x6570;" ID="ID_713728086" CREATED="1550475326111" MODIFIED="1550475340849">
@@ -466,7 +464,6 @@
     <span style="color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" size="15px">&#34920;&#31034;&#35201;&#27714;Django&#23613;&#21487;&#33021;&#28145;&#30340;select_related</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -491,6 +488,84 @@
 <node TEXT=" &#x53ea;&#x6709;&#x5728;select_related()&#x4e0d;&#x80fd;&#x89e3;&#x51b3;&#x95ee;&#x9898;&#x7684;&#x65f6;&#x5019;&#x518d;&#x53bb;&#x60f3;prefetch_related()" ID="ID_1309647837" CREATED="1550476540158" MODIFIED="1550476541545"/>
 <node TEXT=" &#x4f60;&#x53ef;&#x4ee5;&#x5728;&#x4e00;&#x4e2a;QuerySet&#x4e2d;&#x540c;&#x65f6;&#x4f7f;&#x7528;select_related()&#x548c;prefetch_related()&#xff0c;&#x4ece;&#x800c;&#x51cf;&#x5c11;SQL&#x67e5;&#x8be2;&#x7684;&#x6b21;&#x6570;" ID="ID_1165604399" CREATED="1550476548961" MODIFIED="1550476554361"/>
 <node TEXT=" &#x53ea;&#x6709;prefetch_related()&#x4e4b;&#x524d;&#x7684;select_related()&#x662f;&#x6709;&#x6548;&#x7684;&#xff0c;&#x4e4b;&#x540e;&#x7684;&#x5c06;&#x4f1a;&#x88ab;&#x65e0;&#x89c6;&#x6389;" ID="ID_32974722" CREATED="1550476555191" MODIFIED="1550476556281"/>
+</node>
+</node>
+<node TEXT="&#x5916;&#x952e;&#x5173;&#x7cfb;" POSITION="right" ID="ID_1811464031" CREATED="1551429607068" MODIFIED="1551429616729">
+<edge COLOR="#00007c"/>
+<node TEXT="&#x591a;&#x5bf9;&#x4e00;" ID="ID_21913366" CREATED="1551429623884" MODIFIED="1551429626236">
+<node TEXT=" ForeignKey" ID="ID_882098782" CREATED="1551431180644" MODIFIED="1551431182045">
+<node TEXT=" &#x5916;&#x952e;&#x8981;&#x5b9a;&#x4e49;&#x5728;&#x2018;&#x591a;&#x2019;&#x7684;&#x4e00;&#x65b9;&#xff01;" ID="ID_1721002051" CREATED="1551431428147" MODIFIED="1551431430205"/>
+<node ID="ID_1798845514" CREATED="1551431404293" MODIFIED="1551431771730"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Goods(models.Model):<br/>    category = models.ForeignKey(GoodsCategory<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">null</font></span>=<span style="color: #cc7832"><font color="#cc7832">True, </font></span><span style="color: #aa4926"><font color="#aa4926">blank</font></span>=<span style="color: #cc7832"><font color="#cc7832">True, </font></span><span style="color: #aa4926"><font color="#aa4926">on_delete</font></span>=models.CASCADE)<br/></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT=" on_delete&#x9009;&#x9879;&#x5efa;&#x8bae;&#x5fc5;&#x586b;" ID="ID_1873904115" CREATED="1551431449987" MODIFIED="1551431457676"/>
+</node>
+<node TEXT=" &#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x9012;&#x5f52;&#x7684;&#x5916;&#x952e;" ID="ID_1868350371" CREATED="1551431651738" MODIFIED="1551431653581">
+<node TEXT=" &#x81ea;&#x5df1;&#x5173;&#x8054;&#x81ea;&#x5df1;&#x7684;&#x7684;&#x5916;&#x952e;" ID="ID_309170979" CREATED="1551431662339" MODIFIED="1551431663582"/>
+<node ID="ID_1162773263" CREATED="1551431762093" MODIFIED="1551431762093"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">parent_category = models.ForeignKey(<span style="color: #6a8759"><font color="#6a8759">'self'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">null</font></span>=<span style="color: #cc7832"><font color="#cc7832">True, </font></span><span style="color: #aa4926"><font color="#aa4926">blank</font></span>=<span style="color: #cc7832"><font color="#cc7832">True, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#29238;&#32423;&#30446;&#24405;'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">related_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'sub_cat'</font></span>)</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x5173;&#x8054;&#x7684;&#x5bf9;&#x8c61;&#x88ab;&#x5220;&#x9664;&#x65f6;&#xff0c;&#xa;&#x5c06;&#x8be5;&#x5916;&#x952e;&#x81ea;&#x52a8;&#x8bbe;&#x4e3a;null" ID="ID_715485689" CREATED="1551433308971" MODIFIED="1551433338307"/>
+<node TEXT="on_delete&#x53c2;&#x6570;" ID="ID_1136478203" CREATED="1551432357563" MODIFIED="1551432368255">
+<node TEXT=" &#x5f53;&#x4e00;&#x4e2a;&#x88ab;&#x5916;&#x952e;&#x5173;&#x8054;&#x7684;&#x5bf9;&#x8c61;&#x88ab;&#x5220;&#x9664;&#x65f6;&#xff0c;Django&#x5c06;&#x6a21;&#x4eff;on_delete&#x53c2;&#x6570;&#x5b9a;&#x4e49;&#x7684;SQL&#x7ea6;&#x675f;&#x6267;&#x884c;&#x76f8;&#x5e94;&#x64cd;&#x4f5c;" ID="ID_272076993" CREATED="1551433038330" MODIFIED="1551433040117"/>
+<node TEXT=" &#x8be5;&#x53c2;&#x6570;&#x53ef;&#x9009;&#x7684;&#x503c;&#x90fd;&#x5185;&#x7f6e;&#x5728;django.db.models&#x4e2d;" ID="ID_915124852" CREATED="1551434382964" MODIFIED="1551434385090"/>
+<node TEXT="CASCADE" ID="ID_234609047" CREATED="1551434216238" MODIFIED="1551434223707">
+<node TEXT=" &#x6a21;&#x62df;SQL&#x8bed;&#x8a00;&#x4e2d;&#x7684;ON DELETE CASCADE&#x7ea6;&#x675f;&#xff0c;&#x5c06;&#x5b9a;&#x4e49;&#x6709;&#x5916;&#x952e;&#x7684;&#x6a21;&#x578b;&#x5bf9;&#x8c61;&#x540c;&#x65f6;&#x5220;&#x9664;&#xff01;" ID="ID_1950937890" CREATED="1551434252707" MODIFIED="1551434255815"/>
+</node>
+<node TEXT=" PROTECT" ID="ID_1084150045" CREATED="1551434267179" MODIFIED="1551434273555">
+<node TEXT=" &#x963b;&#x6b62;&#x4e0a;&#x9762;&#x7684;&#x5220;&#x9664;&#x64cd;&#x4f5c;&#xff0c;&#x4f46;&#x662f;&#x5f39;&#x51fa;ProtectedError&#x5f02;&#x5e38;" ID="ID_1557381184" CREATED="1551434275426" MODIFIED="1551434277932"/>
+</node>
+<node TEXT="SET_NULL" ID="ID_1170895343" CREATED="1551434290946" MODIFIED="1551434305011">
+<node TEXT=" &#x5c06;&#x5916;&#x952e;&#x5b57;&#x6bb5;&#x8bbe;&#x4e3a;null&#xff0c;&#x53ea;&#x6709;&#x5f53;&#x5b57;&#x6bb5;&#x8bbe;&#x7f6e;&#x4e86;null=True&#x65f6;&#xff0c;&#x65b9;&#x53ef;&#x4f7f;&#x7528;&#x8be5;&#x503c;" ID="ID_1566744973" CREATED="1551434294093" MODIFIED="1551434301322"/>
+</node>
+<node TEXT=" SET_DEFAULT" ID="ID_1587409576" CREATED="1551434312265" MODIFIED="1551434320774">
+<node TEXT=" &#x5c06;&#x5916;&#x952e;&#x5b57;&#x6bb5;&#x8bbe;&#x4e3a;&#x9ed8;&#x8ba4;&#x503c;&#x3002;&#x53ea;&#x6709;&#x5f53;&#x5b57;&#x6bb5;&#x8bbe;&#x7f6e;&#x4e86;default&#x53c2;&#x6570;&#x65f6;&#xff0c;&#x65b9;&#x53ef;&#x4f7f;&#x7528;" ID="ID_874356548" CREATED="1551434321704" MODIFIED="1551434323865"/>
+</node>
+<node TEXT=" DO_NOTHING" ID="ID_87858675" CREATED="1551434335180" MODIFIED="1551434343545">
+<node TEXT=" &#x4ec0;&#x4e48;&#x4e5f;&#x4e0d;&#x505a;" ID="ID_768714550" CREATED="1551434344544" MODIFIED="1551434346762"/>
+</node>
+<node TEXT=" SET()" ID="ID_1809158633" CREATED="1551434356886" MODIFIED="1551434363965">
+<node TEXT=" &#x8bbe;&#x7f6e;&#x4e3a;&#x4e00;&#x4e2a;&#x4f20;&#x9012;&#x7ed9;SET()&#x7684;&#x503c;&#x6216;&#x8005;&#x4e00;&#x4e2a;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x7684;&#x8fd4;&#x56de;&#x503c;&#x3002;&#x6ce8;&#x610f;&#x5927;&#x5c0f;&#x5199;" ID="ID_1480875735" CREATED="1551434365019" MODIFIED="1551434367653"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x4e00;&#x5bf9;&#x4e00;" ID="ID_206213684" CREATED="1551429616940" MODIFIED="1551429619522"/>
+<node TEXT="&#x4e00;&#x5bf9;&#x591a;" ID="ID_1749722723" CREATED="1551429621231" MODIFIED="1551429623707"/>
+<node TEXT="&#x591a;&#x5bf9;&#x591a;" ID="ID_349807770" CREATED="1551429627008" MODIFIED="1551429629183"/>
+</node>
+<node TEXT="&#x7528;&#x6237;&#x767b;&#x9646;&#x9a8c;&#x8bc1;" POSITION="right" ID="ID_183818764" CREATED="1551505379699" MODIFIED="1551505390385">
+<edge COLOR="#007c00"/>
+<node ID="ID_1210990169" CREATED="1551506202701" MODIFIED="1551506202701"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db.models <span style="color: #cc7832"><font color="#cc7832">import </font></span>Q<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.contrib.auth <span style="color: #cc7832"><font color="#cc7832">import </font></span>(<br/>    authenticate<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>login<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>backends<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span>)<br/><br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>CustomBackend(backends.ModelBackend):<br/>    <span style="color: #808080"><font color="#808080"># &#35206;&#20889; authenticate &#26041;&#27861;<br/></font></span><font color="#808080"><span style="color: #808080">    # &#20351;&#25903;&#25345; &#29992;&#25143;&#21517;&#19982;&#37038;&#31665;&#30331;&#38470;<br/></span><span style="color: #808080">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">authenticate</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>request<span style="color: #cc7832"><font color="#cc7832">, </font></span>username=<span style="color: #cc7832"><font color="#cc7832">None, </font></span>password=<span style="color: #cc7832"><font color="#cc7832">None, </font></span>**kwargs):<br/>        <span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>            q = Q(<span style="color: #aa4926"><font color="#aa4926">username</font></span>=username) | Q(<span style="color: #aa4926"><font color="#aa4926">email</font></span>=username)<br/>            user = UserProfile.objects.get(q)<br/>            <span style="color: #cc7832"><font color="#cc7832">if </font></span>user.check_password(password):<br/>                <span style="color: #cc7832"><font color="#cc7832">return </font></span>user<br/>        <span style="color: #cc7832"><font color="#cc7832">except </font></span><span style="color: #8888c6"><font color="#8888c6">Exception </font></span><span style="color: #cc7832"><font color="#cc7832">as </font></span><span style="color: #808080"><font color="#808080">e</font></span>:<br/>            <span style="color: #cc7832"><font color="#cc7832">return None<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font>user = authenticate(<span style="color: #aa4926"><font color="#aa4926">username</font></span>=username<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">password</font></span>=password)</pre>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
