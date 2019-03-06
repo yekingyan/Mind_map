@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="114" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="115" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x72ec;&#x7acb;&#x4f7f;&#x7528;Django ORM" POSITION="right" ID="ID_928227116" CREATED="1551273918472" MODIFIED="1551273933422">
 <edge COLOR="#7c007c"/>
@@ -814,6 +814,345 @@
 </html>
 
 </richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x8ba4;&#x8bc1;" POSITION="right" ID="ID_462535818" CREATED="1551701730965" MODIFIED="1551701937674">
+<edge COLOR="#00ffff"/>
+<node TEXT="DRF session" ID="ID_269613233" CREATED="1551701774096" MODIFIED="1551710501168"/>
+<node TEXT="DRF token" ID="ID_1721634388" CREATED="1551702090708" MODIFIED="1551710498472">
+<node TEXT="settings.py" ID="ID_413202627" CREATED="1551702146100" MODIFIED="1551702151673">
+<node TEXT="&#x52a0;&#x5165;app" ID="ID_1659156083" CREATED="1551702157168" MODIFIED="1551702164106">
+<node ID="ID_780268891" CREATED="1551702179503" MODIFIED="1551702179503"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #6a8759"><font color="#6a8759">'rest_framework.authtoken'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x8be5;&#x64cd;&#x4f5c;&#x4e4b;&#x540e;&#x9700;&#x8981;&#x5efa;&#x7acb;&#x4e00;&#x5f20;&#x8868;" ID="ID_1855634832" CREATED="1551702194085" MODIFIED="1551702272336"/>
+</node>
+<node TEXT="REST_FRAMEWORK" ID="ID_937962446" CREATED="1551708165160" MODIFIED="1551708178539">
+<node TEXT="token&#x8bbe;&#x7f6e;" ID="ID_251335775" CREATED="1551708179217" MODIFIED="1551708199408">
+<node ID="ID_1228057914" CREATED="1551708207558" MODIFIED="1551708207558"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#29992;&#25143;&#35748;&#35777;<br/></font></span><span style="color: #6a8759"><font color="#6a8759">'DEFAULT_AUTHENTICATION_CLASSES'</font></span>: (<br/>    <span style="color: #6a8759"><font color="#6a8759">'rest_framework.authentication.BasicAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework.authentication.SessionAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework.authentication.TokenAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span>)<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5bf9;&#x6240;&#x6709;&#x63a5;&#x53e3;&#x8fdb;&#x884c;&#x9a8c;&#x8bc1;" ID="ID_1606939645" CREATED="1551708208826" MODIFIED="1551708218940">
+<node ID="ID_1722161687" CREATED="1551708226418" MODIFIED="1551708226418"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#35774;&#32622;&#25152;&#26377;&#25509;&#21475;&#37117;&#35201;&#39564;&#35777;<br/></font></span><span style="color: #6a8759"><font color="#6a8759">'DEFAULT_PERMISSION_CLASSES'</font></span>: (<br/>        <span style="color: #6a8759"><font color="#6a8759">'rest_framework.permissions.IsAuthenticated'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>)<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="console" ID="ID_1588322270" CREATED="1551702275868" MODIFIED="1551702287093">
+<node TEXT="python manage.py migrate" ID="ID_544286459" CREATED="1551702287363" MODIFIED="1551702300373"/>
+<node TEXT="&#x65b0;&#x751f;&#x6210;&#x8868;&#x540d;&#xff1a;authtoken_token" ID="ID_426155464" CREATED="1551702369123" MODIFIED="1551702416586"/>
+</node>
+<node TEXT="urls.py" ID="ID_1387070568" CREATED="1551702419874" MODIFIED="1551702879211">
+<node ID="ID_1605567986" CREATED="1551702887384" MODIFIED="1551702887384"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>rest_framework.authtoken <span style="color: #cc7832"><font color="#cc7832">import </font></span>views</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1186062374" CREATED="1551702900631" MODIFIED="1551702900631"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#33719;&#21462;token<br/></font></span>url(<span style="color: #6a8759"><font color="#6a8759">r'api-token-auth/'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>views.obtain_auth_token)<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x6b63;&#x5e38;post&#x7528;&#x6237;&#x4fe1;&#x606f;&#xff0c;&#x8fd4;&#x56de;token&#x5e76;&#x5b58;&#x5165;&#x6570;&#x636e;&#x8868;" ID="ID_859533490" CREATED="1551702913059" MODIFIED="1551703697695"/>
+</node>
+<node TEXT="&#x4f7f;&#x7528;" ID="ID_600716080" CREATED="1551703544796" MODIFIED="1551703549015">
+<node TEXT="post JSON&#x7528;&#x6237;&#x4fe1;&#x606f;" ID="ID_492180157" CREATED="1551703619387" MODIFIED="1551703639102">
+<node TEXT="&apos;host/aip-token-auth/&apos;" ID="ID_761007943" CREATED="1551703645885" MODIFIED="1551703653923"/>
+<node ID="ID_1179115078" CREATED="1551703654910" MODIFIED="1551703654910"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21363;&#21487;&#36820;&#22238;token
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x52a0;&#x5165;http HEADER" ID="ID_342175637" CREATED="1551703701238" MODIFIED="1551703709720">
+<node TEXT="key" ID="ID_653453648" CREATED="1551703717787" MODIFIED="1551703722249">
+<node TEXT="Authorization" ID="ID_407302847" CREATED="1551703722580" MODIFIED="1551703728921"/>
+</node>
+<node TEXT="value" ID="ID_1406920703" CREATED="1551703730468" MODIFIED="1551703732343">
+<node TEXT="Token b6c19615b290493d896f59f7bce6bbce956a411b" ID="ID_1396333729" CREATED="1551703796575" MODIFIED="1551703813196" MAX_WIDTH="11.2 cm"/>
+</node>
+</node>
+<node TEXT="&#x6b63;&#x786e;&#x7684;token" ID="ID_1451911411" CREATED="1551712788980" MODIFIED="1551712795292">
+<node TEXT="request.user &#x8bfb;&#x51fa;&#x5f53;&#x524d;&#x7528;&#x6237;" ID="ID_1113258631" CREATED="1551712773130" MODIFIED="1551712807925"/>
+<node TEXT="&#x7528;request.auth &#x8bfb;&#x51fa;token" ID="ID_1178148508" CREATED="1551704565154" MODIFIED="1551712787111"/>
+</node>
+</node>
+<node TEXT="&#x6ce8;&#x610f;" ID="ID_981071843" CREATED="1551710509149" MODIFIED="1551710514288">
+<node TEXT="&#x6ca1;&#x6709;token&#x8fc7;&#x671f;" ID="ID_240268706" CREATED="1551710514497" MODIFIED="1551710520855"/>
+</node>
+</node>
+<node TEXT="JWT" ID="ID_1710533685" CREATED="1551710356895" MODIFIED="1551710371501">
+<node TEXT="json web token" ID="ID_705701199" CREATED="1551710380731" MODIFIED="1551710389488"/>
+<node TEXT="&#x5305;&#x542b;&#x6240;&#x9700;&#x7684;&#x7528;&#x6237;&#x4fe1;&#x606f;&#xff0c;&#x907f;&#x514d;&#x591a;&#x6b21;&#x67e5;&#x8be2;&#x6570;&#x636e;&#x5e93;" ID="ID_1203187251" CREATED="1551710391230" MODIFIED="1551710782352"/>
+<node TEXT="&#x7ec4;&#x6210;" ID="ID_1903176606" CREATED="1551710799731" MODIFIED="1551710803588">
+<node TEXT="Header" ID="ID_114553161" CREATED="1551710803833" MODIFIED="1551710808114">
+<node TEXT="base64enc({&#xa;    &apos;alg&apos;: &apos;HS256&apos;,&#xa;    &apos;typ&apos;: &apos;JWT&apos;&#xa;})" ID="ID_1990656404" CREATED="1551710828445" MODIFIED="1551710895864"/>
+<node TEXT="token&#x7c7b;&#x578b; &#x4e0e; &#x52a0;&#x5bc6;&#x7b97;&#x6cd5;" ID="ID_1966631670" CREATED="1551711001611" MODIFIED="1551711016228"/>
+</node>
+<node TEXT="Payload &#x8d1f;&#x8f7d;" ID="ID_1961058200" CREATED="1551710808332" MODIFIED="1551711192499">
+<node ID="ID_1320003185" CREATED="1551710981879" MODIFIED="1551710981879"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">{<br/>  <span style="color: #6a8759"><font color="#6a8759">&quot;sub&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;1234567890&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;name&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;John Doe&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;admin&quot;</font></span>: true<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x653e;&#x7528;&#x6237;&#x4fe1;&#x606f;" ID="ID_989894299" CREATED="1551711050879" MODIFIED="1551711061212"/>
+<node TEXT="&#x89c4;&#x8303;" ID="ID_1691745938" CREATED="1551711085808" MODIFIED="1551711096035">
+<node ID="ID_551864648" CREATED="1551711259760" MODIFIED="1551711259760"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iss (issuer)&#65306;&#31614;&#21457;&#20154;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_765253184" CREATED="1551711259760" MODIFIED="1551711259760"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      exp (expiration time)&#65306;&#36807;&#26399;&#26102;&#38388;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1768242683" CREATED="1551711259762" MODIFIED="1551711259762"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sub (subject)&#65306;&#20027;&#39064;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_854960320" CREATED="1551711259764" MODIFIED="1551711259764"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      aud (audience)&#65306;&#21463;&#20247;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_29182462" CREATED="1551711259766" MODIFIED="1551711259766"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nbf (Not Before)&#65306;&#29983;&#25928;&#26102;&#38388;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_855645286" CREATED="1551711259768" MODIFIED="1551711259768"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iat (Issued At)&#65306;&#31614;&#21457;&#26102;&#38388;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1739206029" CREATED="1551711259770" MODIFIED="1551711259770"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      jti (JWT ID)&#65306;&#32534;&#21495;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Signature &#x7b7e;&#x540d;" ID="ID_1027807779" CREATED="1551710812241" MODIFIED="1551711200911">
+<node TEXT="base64enc({&#xa;    &apos;alg&apos;: &apos;HS256&apos;,&#xa;    &apos;typ&apos;: &apos;JWT&apos;&#xa;})" ID="ID_80178487" CREATED="1551710828445" MODIFIED="1551710895864"/>
+</node>
+</node>
+<node TEXT="&#x914d;&#x7f6e;" ID="ID_1639242524" CREATED="1551712469103" MODIFIED="1551712603900">
+<node TEXT="pip install djangorestframework-jwt" ID="ID_234101249" CREATED="1551712473550" MODIFIED="1551712500411"/>
+<node TEXT="settings.py" ID="ID_959672956" CREATED="1551712502478" MODIFIED="1551712512442">
+<node TEXT="REST_FRAMEWORK" ID="ID_334052870" CREATED="1551712512685" MODIFIED="1551712524488">
+<node ID="ID_115701522" CREATED="1551712543339" MODIFIED="1551712543339"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #6a8759"><font color="#6a8759">'DEFAULT_AUTHENTICATION_CLASSES'</font></span>: (<br/>    <span style="color: #6a8759"><font color="#6a8759">'rest_framework.authentication.BasicAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework.authentication.SessionAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework_jwt.authentication.JSONWebTokenAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span>)<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="urls.py" ID="ID_619692717" CREATED="1551712547825" MODIFIED="1551712551067">
+<node ID="ID_1882322946" CREATED="1551712583421" MODIFIED="1551712583421"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>rest_framework_jwt.views <span style="color: #cc7832"><font color="#cc7832">import </font></span>obtain_jwt_token</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1703593023" CREATED="1551712568405" MODIFIED="1551712568405"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># jwt&#30340;token&#35748;&#35777;&#27169;&#24335;<br/></font></span>url(<span style="color: #6a8759"><font color="#6a8759">r'^api-jwt-auth/'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>obtain_jwt_token)<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x4f7f;&#x7528;" ID="ID_1470573139" CREATED="1551703544796" MODIFIED="1551703549015">
+<node TEXT="post JSON&#x7528;&#x6237;&#x4fe1;&#x606f;" ID="ID_1903765551" CREATED="1551703619387" MODIFIED="1551703639102">
+<node TEXT="&apos;host/aip-token-auth/&apos;" ID="ID_1495209031" CREATED="1551703645885" MODIFIED="1551703653923"/>
+<node ID="ID_603580791" CREATED="1551703654910" MODIFIED="1551703654910"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21363;&#21487;&#36820;&#22238;token
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x52a0;&#x5165;http HEADER" ID="ID_959633614" CREATED="1551703701238" MODIFIED="1551703709720">
+<node TEXT="key" ID="ID_40378526" CREATED="1551703717787" MODIFIED="1551703722249">
+<node TEXT="Authorization" ID="ID_1563438643" CREATED="1551703722580" MODIFIED="1551703728921"/>
+</node>
+<node TEXT="value" ID="ID_1820440401" CREATED="1551703730468" MODIFIED="1551703732343">
+<node TEXT="JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9&#xa;.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTUxNzEyNzMzLCJlbWFpbCI6InlAeS5jb20ifQ&#xa;._rp_-MlHgx_4YC638IOwnMTNnY3lX9KAq5Zlw4y9SQ8" ID="ID_1099777315" CREATED="1551703796575" MODIFIED="1551712735135"/>
+</node>
+</node>
+<node TEXT="&#x6b63;&#x786e;&#x7684;token" ID="ID_245109986" CREATED="1551712788980" MODIFIED="1551712795292">
+<node TEXT="request.user &#x8bfb;&#x51fa;&#x5f53;&#x524d;&#x7528;&#x6237;" ID="ID_1538310503" CREATED="1551712773130" MODIFIED="1551712807925"/>
+<node TEXT="&#x7528;request.auth &#x8bfb;&#x51fa;jwt" ID="ID_1364091574" CREATED="1551704565154" MODIFIED="1551712868837"/>
 </node>
 </node>
 </node>

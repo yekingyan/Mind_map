@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="107" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="108" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="Q &#x4e0e; F" POSITION="right" ID="ID_4910678" CREATED="1548828720437" MODIFIED="1548829082239">
 <edge COLOR="#ff0000"/>
@@ -417,7 +417,10 @@
 </html>
 </richcontent>
 </node>
-<node TEXT=" &#x5916;&#x952e;&#x5b57;&#x6bb5;&#xff08;ForeignKey&#xff09;" ID="ID_512874827" CREATED="1550475059480" MODIFIED="1550475060826"/>
+<node TEXT="&#x591a;&#x5bf9;&#x4e00;&#xff08;ForeignKey&#xff09;" ID="ID_512874827" CREATED="1550475059480" MODIFIED="1551864397854">
+<node TEXT=" select_related&#x7684;&#x5b57;&#x6bb5;&#x540d;" ID="ID_1113049760" CREATED="1551864353345" MODIFIED="1551864360135"/>
+<node TEXT=" &#x53cc;&#x4e0b;&#x5212;&#x7ebf;&#x201c;__&#x201d;&#x8fde;&#x63a5;&#x5b57;&#x6bb5;&#x540d;" ID="ID_208991785" CREATED="1551864361089" MODIFIED="1551864362525"/>
+</node>
 </node>
 <node TEXT="&#x4f7f;&#x7528;&#x65b9;&#x5f0f;" ID="ID_1896309707" CREATED="1550475285855" MODIFIED="1550475295277">
 <node TEXT="&#x4ee5;&#x94fe;&#x5f0f;&#x6dfb;&#x52a0;&#x5230;query_set&#x67e5;&#x8be2;&#x4e2d;" ID="ID_1998811794" CREATED="1550475295561" MODIFIED="1550475325673"/>
@@ -470,13 +473,44 @@
 </node>
 </node>
 <node TEXT="prefetch_related" ID="ID_1615966714" CREATED="1548828604791" MODIFIED="1550475121236">
-<node TEXT=" &#x901a;&#x8fc7;JOIN&#x8bed;&#x53e5;&#xff0c;&#x5728;SQL&#x67e5;&#x8be2;&#x5185;&#x89e3;&#x51b3;&#x95ee;&#x9898;" ID="ID_440345491" CREATED="1550475864073" MODIFIED="1550475866510"/>
-<node TEXT=" prefetch_related&#x901a;&#x8fc7;&#x5206;&#x522b;&#x83b7;&#x53d6;&#x5404;&#x4e2a;&#x8868;&#x7684;&#x5185;&#x5bb9;&#xff0c;&#x7136;&#x540e;&#x7528;Python&#x5904;&#x7406;&#x4ed6;&#x4eec;&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;&#x6765;&#x8fdb;&#x884c;&#x4f18;&#x5316;" ID="ID_1180528878" CREATED="1550476312946" MODIFIED="1550476315091"/>
 <node TEXT="&#x5e94;&#x7528;&#x8303;&#x56f4;" ID="ID_1303967962" CREATED="1550475804649" MODIFIED="1550475810425">
 <node TEXT="&#x591a;&#x5bf9;&#x591a;&#x5b57;&#x6bb5;&#xff08;ManyToManyField&#xff09;" ID="ID_1848746260" CREATED="1550475811233" MODIFIED="1550475818866"/>
-<node TEXT=" &#x4e00;&#x5bf9;&#x591a;&#x5b57;&#x6bb5;" ID="ID_1383096732" CREATED="1550475823600" MODIFIED="1550475825362"/>
+<node TEXT=" &#x4e00;&#x5bf9;&#x591a;&#x5b57;&#x6bb5; (ForeignKey)" ID="ID_1383096732" CREATED="1550475823600" MODIFIED="1551864444223"/>
 </node>
-<node TEXT=" Prefetch&#x5bf9;&#x8c61;&#x5bf9;&#x5b57;&#x6bb5;&#x6307;&#x5b9a;&#x7684;&#x65b9;&#x5f0f;&#x548c;prefetch_related&#x4e2d;&#x7684;&#x53c2;&#x6570;&#x76f8;&#x540c;&#xff0c;&#x90fd;&#x662f;&#x901a;&#x8fc7;&#x53cc;&#x4e0b;&#x5212;&#x7ebf;&#x8fde;&#x63a5;&#x7684;&#x5b57;&#x6bb5;&#x540d;&#x5b8c;&#x6210;&#x7684;" ID="ID_1753199064" CREATED="1550476265418" MODIFIED="1550476266866"/>
+<node TEXT=" &#x901a;&#x8fc7;JOIN&#x8bed;&#x53e5;&#xff0c;&#x5728;SQL&#x67e5;&#x8be2;&#x5185;&#x89e3;&#x51b3;&#x95ee;&#x9898;" ID="ID_440345491" CREATED="1550475864073" MODIFIED="1550475866510"/>
+<node TEXT=" prefetch_related&#x901a;&#x8fc7;&#x5206;&#x522b;&#x83b7;&#x53d6;&#x5404;&#x4e2a;&#x8868;&#x7684;&#x5185;&#x5bb9;&#xff0c;&#x7136;&#x540e;&#x7528;Python&#x5904;&#x7406;&#x4ed6;&#x4eec;&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;&#x6765;&#x8fdb;&#x884c;&#x4f18;&#x5316;" ID="ID_1180528878" CREATED="1550476312946" MODIFIED="1550476315091"/>
+<node TEXT="  Prefetch&#x5bf9;&#x8c61;" ID="ID_215594131" CREATED="1551864624649" MODIFIED="1551864626606">
+<node TEXT="&#x5bf9;&#x5b57;&#x6bb5;&#x6307;&#x5b9a;&#x7684;&#x65b9;&#x5f0f;&#x548c;prefetch_related&#x4e2d;&#x7684;&#x53c2;&#x6570;&#x76f8;&#x540c;&#xff0c;&#x90fd;&#x662f;&#x901a;&#x8fc7;&#x53cc;&#x4e0b;&#x5212;&#x7ebf;&#x8fde;&#x63a5;&#x7684;&#x5b57;&#x6bb5;&#x540d;&#x5b8c;&#x6210;&#x7684;" ID="ID_1753199064" CREATED="1550476265418" MODIFIED="1551864623758"/>
+<node TEXT="&#x4e00;&#x4e2a;Prefetch&#x5bf9;&#x8c61;&#x53ea;&#x80fd;&#x6307;&#x5b9a;&#x4e00;&#x9879;prefetch&#x64cd;&#x4f5c;" ID="ID_737341503" CREATED="1551864629577" MODIFIED="1551864644086"/>
+<node TEXT=" to_attr &#x53c2;&#x6570;&#x6307;&#x5b9a;prefetch&#x5230;&#x7684;&#x5c5e;&#x6027;&#x540d;" ID="ID_1582505705" CREATED="1551864658787" MODIFIED="1551864660015"/>
+<node ID="ID_1599098630" CREATED="1551864704575" MODIFIED="1551864735898"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">wus = City.objects.filter(<span style="color: #aa4926"><font color="#aa4926">name__icontains </font></span>= <span style="color: #6a8759"><font color="#6a8759">u&quot;&#27494;&quot;</font></span>)<br/>zhous = City.objects.filter(<span style="color: #aa4926"><font color="#aa4926">name__icontains </font></span>= <span style="color: #6a8759"><font color="#6a8759">u&quot;&#24030;&quot;</font></span>)<br/>plist = Person.objects.prefetch_related(<br/>    Prefetch(<span style="color: #6a8759"><font color="#6a8759">'visitation'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">queryset </font></span>= wus<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">to_attr </font></span>= <span style="color: #6a8759"><font color="#6a8759">&quot;wu_city&quot;</font></span>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>Prefetch(<span style="color: #6a8759"><font color="#6a8759">'visitation'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">queryset </font></span>= zhous<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">to_attr </font></span>= <span style="color: #6a8759"><font color="#6a8759">&quot;zhou_city&quot;</font></span>)<span style="color: #cc7832"><font color="#cc7832">,</font></span>)<br/>[p.wu_city <span style="color: #cc7832"><font color="#cc7832">for </font></span>p <span style="color: #cc7832"><font color="#cc7832">in </font></span>plist]<br/>[p.zhou_city <span style="color: #cc7832"><font color="#cc7832">for </font></span>p <span style="color: #cc7832"><font color="#cc7832">in </font></span>plist]</pre>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33719;&#21462;&#25152;&#26377;&#20154;&#35775;&#38382;&#36807;&#30340;&#22478;&#24066;&#20013;&#24102;&#26377;&#8220;&#27494;&#8221;&#23383;&#21644;&#8220;&#24030;&#8221;&#30340;&#22478;&#24066;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="" ID="ID_1431387540" CREATED="1550476424812" MODIFIED="1550476424812">
 <node TEXT=" select_related()&#x7684;&#x6548;&#x7387;&#x8981;&#x9ad8;&#x4e8e;prefetch_related()" ID="ID_1287971678" CREATED="1550476426843" MODIFIED="1550476428738"/>
 <node TEXT="&#x5bf9;&#x4e8e;ForeignKey&#x5b57;&#x6bb5;&#xff0c;&#x907f;&#x514d;&#x4f7f;&#x7528;prefetch_related()" ID="ID_1094033960" CREATED="1550476428936" MODIFIED="1550476438026"/>
@@ -547,10 +581,139 @@
 <node TEXT=" &#x8bbe;&#x7f6e;&#x4e3a;&#x4e00;&#x4e2a;&#x4f20;&#x9012;&#x7ed9;SET()&#x7684;&#x503c;&#x6216;&#x8005;&#x4e00;&#x4e2a;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x7684;&#x8fd4;&#x56de;&#x503c;&#x3002;&#x6ce8;&#x610f;&#x5927;&#x5c0f;&#x5199;" ID="ID_1480875735" CREATED="1551434365019" MODIFIED="1551434367653"/>
 </node>
 </node>
+<node TEXT=" related_name:" ID="ID_1341336837" CREATED="1551857414822" MODIFIED="1551857421689">
+<node ID="ID_524249370" CREATED="1551857423300" MODIFIED="1551857423300"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21487;&#20197;&#35774;&#32622;&#24341;&#29992;&#30340;&#21517;&#23383;&#65292;&#40664;&#35748;&#20026;&#27169;&#22411;&#21517;&#23383;&#30340;&#23567;&#20889;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="&#x4e00;&#x5bf9;&#x4e00;" ID="ID_206213684" CREATED="1551429616940" MODIFIED="1551429619522"/>
-<node TEXT="&#x4e00;&#x5bf9;&#x591a;" ID="ID_1749722723" CREATED="1551429621231" MODIFIED="1551429623707"/>
-<node TEXT="&#x591a;&#x5bf9;&#x591a;" ID="ID_349807770" CREATED="1551429627008" MODIFIED="1551429629183"/>
+<node TEXT="&#x4e3b;&#x8868;&#x67e5;&#x8be2;&#x5b50;&#x8868;&#xff0c;&#x5373;&#x53cd;&#x5411;&#x67e5;&#x8be2;" ID="ID_696068465" CREATED="1551857742583" MODIFIED="1551857764168">
+<node TEXT="&#x65b9;&#x5f0f;" ID="ID_1428977861" CREATED="1551857765489" MODIFIED="1551857772328">
+<node ID="ID_1596969783" CREATED="1551858890831" MODIFIED="1551858890831"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Goods(models.Model):<br/>    category = models.ForeignKey(GoodsCategory<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">null</font></span>=<span style="color: #cc7832"><font color="#cc7832">True, </font></span><span style="color: #aa4926"><font color="#aa4926">blank</font></span>=<span style="color: #cc7832"><font color="#cc7832">True, </font></span><span style="color: #aa4926"><font color="#aa4926">on_delete</font></span>=models.CASCADE<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                                 </span></font><span style="color: #aa4926"><font color="#aa4926">related_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'goods'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#21830;&#21697;&#31867;&#30446;'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">help_text</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#21830;&#21697;&#31867;&#30446;'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1190986103" CREATED="1551858968655" MODIFIED="1551858968655"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>GoodsCategory(models.Model):</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5229;&#x7528;related_name&#x5c5e;&#x6027;&#x503c;&#x65e2;&#x53ef;" ID="ID_1343802683" CREATED="1551857819127" MODIFIED="1551857841575">
+<node ID="ID_1614348595" CREATED="1551858880264" MODIFIED="1551858880264"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">category = GoodsCategory.objects.get(<span style="color: #aa4926"><font color="#aa4926">id</font></span>=<span style="color: #6897bb"><font color="#6897bb">58</font></span>)<br/>goods = category.goods.all()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x9ed8;&#x8ba4;&#x7528;&#x6a21;&#x578b;&#x540d;&#x5b57;&#x5c0f;&#x5199;&#x52a0;_set" ID="ID_995302468" CREATED="1551859498238" MODIFIED="1551859614778">
+<node ID="ID_620236453" CREATED="1551859531460" MODIFIED="1551859531460"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">category = GoodsCategory.objects.get(<span style="color: #aa4926"><font color="#aa4926">id</font></span>=<span style="color: #6897bb"><font color="#6897bb">58</font></span>)<br/>goods = category.goods_set.all()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x524d;&#x63d0;&#x662f;&#x4e0d;&#x80fd;&#x8bbe;&#x7f6e;related_name&#x5c5e;&#x6027;" ID="ID_1138520853" CREATED="1551859561534" MODIFIED="1551859578426"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="related_query_name" ID="ID_390267640" CREATED="1551861979925" MODIFIED="1551861982222"/>
+<node TEXT="to_field" ID="ID_571766312" CREATED="1551859640707" MODIFIED="1551859649927">
+<node TEXT="&#x6307;&#x5b9a;&#x5916;&#x952e;&#x8981;&#x5173;&#x8054;&#x4e3b;&#x8868;&#x7684;&#x7279;&#x5b9a;&#x5217;" ID="ID_1530104678" CREATED="1551859650608" MODIFIED="1551859696906"/>
+<node TEXT=" &#x5916;&#x952e;&#x9ed8;&#x8ba4;&#x90fd;&#x662f;&#x5173;&#x8054;&#x5230;&#x88ab;&#x5173;&#x8054;&#x5bf9;&#x8c61;&#x7684;&#x4e3b;&#x952e;&#x4e0a;&#xff08;id&#xff09;" ID="ID_415953839" CREATED="1551859707616" MODIFIED="1551859733569"/>
+<node TEXT=" &#x7528;&#x8fd9;&#x4e2a;&#x5b57;&#x6bb5;&#x5fc5;&#x987b;&#x5177;&#x6709;unique=True&#x5c5e;&#x6027;&#xff0c;&#x4e5f;&#x5c31;&#x662f;&#x5177;&#x6709;&#x552f;&#x4e00;&#x5c5e;&#x6027;" ID="ID_704433973" CREATED="1551859749733" MODIFIED="1551859763592"/>
+</node>
+<node TEXT=" db_constraint" ID="ID_1804123439" CREATED="1551859787829" MODIFIED="1551859789575">
+<node TEXT=" &#x8fd9;&#x4e2a;&#x53c2;&#x6570;&#x88ab;&#x8bbe;&#x4e3a;True&#xff0c;&#x8868;&#x793a;&#x9075;&#x5faa;&#x6570;&#x636e;&#x5e93;&#x7ea6;&#x675f;" ID="ID_124106281" CREATED="1551859803733" MODIFIED="1551859805296"/>
+<node TEXT=" &#x8bbe;False&#xff0c;&#x5c06;&#x65e0;&#x6cd5;&#x4fdd;&#x8bc1;&#x6570;&#x636e;&#x7684;&#x5b8c;&#x6574;&#x6027;&#x548c;&#x5408;&#x6cd5;&#x6027;" ID="ID_1667286383" CREATED="1551859816814" MODIFIED="1551859831704">
+<node TEXT="&#x6709;&#x5386;&#x53f2;&#x9057;&#x7559;&#x7684;&#x4e0d;&#x5408;&#x6cd5;&#x6570;&#x636e;&#xff0c;&#x6ca1;&#x529e;&#x6cd5;&#x7684;&#x9009;&#x62e9;" ID="ID_384091321" CREATED="1551859837935" MODIFIED="1551859845216"/>
+<node TEXT=" &#x4f60;&#x6b63;&#x5728;&#x5206;&#x5272;&#x6570;&#x636e;&#x8868;" ID="ID_417816132" CREATED="1551859848866" MODIFIED="1551859850343"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x4e00;&#x5bf9;&#x591a;" ID="ID_1749722723" CREATED="1551429621231" MODIFIED="1551429623707">
+<node TEXT=" ForeignKey" ID="ID_907861774" CREATED="1551857729302" MODIFIED="1551857740944"/>
+</node>
+<node TEXT="&#x4e00;&#x5bf9;&#x4e00;" ID="ID_206213684" CREATED="1551429616940" MODIFIED="1551429619522">
+<node TEXT=" OneToOneField" ID="ID_280891226" CREATED="1551856959557" MODIFIED="1551856961150"/>
+<node TEXT=" &#x591a;&#x6570;&#x7528;&#x4e8e;&#x5f53;&#x4e00;&#x4e2a;&#x6a21;&#x578b;&#x9700;&#x8981;&#x4ece;&#x522b;&#x7684;&#x6a21;&#x578b;&#x6269;&#x5c55;&#x800c;&#x6765;&#x7684;&#x60c5;&#x51b5;" ID="ID_1845276701" CREATED="1551863102084" MODIFIED="1551863104655"/>
+<node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_1628376884" CREATED="1551857251302" MODIFIED="1551857260591">
+<node TEXT="&#x5c06;&#x4e00;&#x5f20;&#x8868;&#x62c6;&#x6210;&#x4e24;&#x5f20;&#x8868;&#xff0c;&#x4e0d;&#x5e38;&#x7528;&#x4fe1;&#x606f;&#x653e;&#x5728;&#x53e6;&#x4e00;&#x5f20;&#x8868;" ID="ID_738531054" CREATED="1551857202366" MODIFIED="1551857228901"/>
+<node TEXT="&#x7528;&#x6237;&#x8868;User&#x4f1a;&#x5c06;&#x5e38;&#x7528;&#x7684;&#x5b57;&#x6bb5;&#x5982;&#xff08;name, email ,phone)&#x653e;&#x5728;&#x4e00;&#x5f20;&#x8868;&#x4e2d;&#xff0c;&#xa;&#x4e0d;&#x5e38;&#x7528;&#x7684;&#x5b57;&#x6bb5;&#xff08;address)&#x5982;&#x7528;&#x6237;&#x5730;&#x5740;&#x653e;&#x5728;&#x53e6;&#x5f20;&#x8868;&#x4e2d;UserInfo" ID="ID_143635680" CREATED="1551857263582" MODIFIED="1551857293961" MAX_WIDTH="13.1 cm"/>
+<node TEXT=" user = models.OneToOneField(&apos;User&apos;)" ID="ID_862996312" CREATED="1551857314238" MODIFIED="1551857315841"/>
+</node>
+</node>
+<node TEXT="&#x591a;&#x5bf9;&#x591a;" ID="ID_349807770" CREATED="1551429627008" MODIFIED="1551429629183">
+<node TEXT="ManyToManyField" ID="ID_1894459854" CREATED="1551857448886" MODIFIED="1551859921476"/>
+<node TEXT=" &#x591a;&#x5bf9;&#x591a;&#x7684;&#x5b57;&#x6bb5;&#x53ef;&#x4ee5;&#x5b9a;&#x4e49;&#x5728;&#x4efb;&#x4f55;&#x7684;&#x4e00;&#x65b9;&#xff0c;&#x4f46;&#x4e0d;&#x8981;&#x540c;&#x65f6;&#x90fd;&#x5b9a;&#x4e49;&#x3002;&#x8bf7;&#x5c3d;&#x91cf;&#x5b9a;&#x4e49;&#x5728;&#x7b26;&#x5408;&#x4eba;&#x4eec;&#x601d;&#x7ef4;&#x4e60;&#x60ef;&#x7684;&#x4e00;&#x65b9;" ID="ID_224818719" CREATED="1551861845116" MODIFIED="1551861864699"/>
+<node TEXT="" ID="ID_1674901910" CREATED="1551862381092" MODIFIED="1551862381092">
+<node ID="ID_999014292" CREATED="1551862389169" MODIFIED="1551862389169"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db <span style="color: #cc7832"><font color="#cc7832">import </font></span>models<br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>Person(models.Model):<br/>    friends = models.ManyToManyField(<span style="color: #6a8759"><font color="#6a8759">&quot;self&quot;</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="symmetrical" ID="ID_665738352" CREATED="1551862305261" MODIFIED="1551862312704">
+<node TEXT="&#x9ed8;&#x8ba4;&#x4e3a;True&#xff0c;&#x5373;&#x5173;&#x7cfb;&#x5bf9;&#x79f0;" ID="ID_916772317" CREATED="1551862314277" MODIFIED="1551862422679">
+<node TEXT="&#x5982;&#x679c;&#x6211;&#x662f;&#x4f60;&#x7684;&#x670b;&#x53cb;&#xff0c;&#x90a3;&#x4e48;&#x4f60;&#x4e5f;&#x662f;&#x6211;&#x7684;&#x670b;&#x53cb;" ID="ID_461487066" CREATED="1551862423917" MODIFIED="1551862433175"/>
+<node TEXT=" Django&#x4e0d;&#x4f1a;&#x4e3a;Person&#x6a21;&#x578b;&#x6dfb;&#x52a0;person_set&#x5c5e;&#x6027;&#x7528;&#x4e8e;&#x53cd;&#x5411;&#x5173;&#x8054;" ID="ID_910966617" CREATED="1551862443350" MODIFIED="1551862444655"/>
+</node>
+<node TEXT=" &#x5c06;symmetrical&#x8bbe;&#x7f6e;&#x4e3a;False&#xff0c;&#x8fd9;&#x5c06;&#x5f3a;&#x5236;Django&#x4e3a;&#x53cd;&#x5411;&#x5173;&#x8054;&#x6dfb;&#x52a0;&#x63cf;&#x8ff0;&#x7b26;" ID="ID_842708821" CREATED="1551862462709" MODIFIED="1551862464174"/>
+</node>
+<node TEXT="thorough" ID="ID_1056996269" CREATED="1551862897668" MODIFIED="1551862901721">
+<node TEXT="&#x7528;&#x4e8e;&#x5b9a;&#x4e49;&#x4e2d;&#x95f4;&#x8868;" ID="ID_1243464738" CREATED="1551862902972" MODIFIED="1551862911808"/>
+</node>
+</node>
 </node>
 <node TEXT="&#x7528;&#x6237;&#x767b;&#x9646;&#x9a8c;&#x8bc1;" POSITION="right" ID="ID_183818764" CREATED="1551505379699" MODIFIED="1551505390385">
 <edge COLOR="#007c00"/>
@@ -567,6 +730,9 @@
 
 </richcontent>
 </node>
+</node>
+<node TEXT="&#x4e2d;&#x95f4;&#x4ef6;" POSITION="right" ID="ID_18336048" CREATED="1551708237738" MODIFIED="1551708240008">
+<edge COLOR="#7c007c"/>
 </node>
 </node>
 </map>
