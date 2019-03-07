@@ -3,7 +3,7 @@
 <node TEXT="django_restvue" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1551186550185" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="115" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="117" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x72ec;&#x7acb;&#x4f7f;&#x7528;Django ORM" POSITION="right" ID="ID_928227116" CREATED="1551273918472" MODIFIED="1551273933422">
 <edge COLOR="#7c007c"/>
@@ -301,7 +301,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>GoodsListViewSet(viewsets.GenericViewSet<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                       </span></font>mixins.ListModelMixin<span style="color: #cc7832"><font color="#cc7832">,</font></span>):<br/><br/>    <span style="color: #808080"><font color="#808080"># queryset &#21644; serializer_class &#26159;&#24517;&#39035;&#30340;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>queryset = Goods.objects.all()<br/>    serializer_class = GoodsSerializer<br/></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -316,7 +315,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>goods.views <span style="color: #cc7832"><font color="#cc7832">import </font></span>GoodsListViewSet<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>rest_framework.routers <span style="color: #cc7832"><font color="#cc7832">import </font></span>DefaultRouter<br/><br/>router = DefaultRouter()<br/><span style="color: #808080"><font color="#808080"># &#37197;&#32622;goods URL<br/></font></span>router.register(<span style="color: #6a8759"><font color="#6a8759">r'goods'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>GoodsListViewSet)<br/><span style="color: #808080"><font color="#808080"># &#31561;&#21516;&#19979;&#38754;<br/></font></span><font color="#808080"><span style="color: #808080"># goods_list = GoodsListViewSet.as_view({<br/></span><span style="color: #808080">#     'get': 'list',<br/></span><span style="color: #808080">#     # 'post': 'create',<br/></span><span style="color: #808080"># })</span></font></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_965495797" CREATED="1551451427681" MODIFIED="1551451427681"><richcontent TYPE="NODE">
@@ -329,7 +327,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#21830;&#21697;&#21015;&#34920;&#39029;<br/></font></span><font color="#808080"><span style="color: #808080"># url(r'goods/$', goods_list, name='goods-list'),<br/></span><span style="color: #808080"><br/></span></font>url(<span style="color: #6a8759"><font color="#6a8759">r'^'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>include(router.urls))<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -348,7 +345,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="GenericAPIView" ID="ID_267511914" CREATED="1551451595755" MODIFIED="1551452564657"><richcontent TYPE="DETAILS">
 
@@ -362,7 +358,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="APIView(views)" ID="ID_1666996513" CREATED="1551451646838" MODIFIED="1551451715324"><richcontent TYPE="DETAILS">
 
@@ -376,7 +371,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="View" ID="ID_1492095025" CREATED="1551451675314" MODIFIED="1551451721974"><richcontent TYPE="DETAILS">
 
@@ -390,7 +384,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -399,7 +392,33 @@
 <node TEXT=" (generics.py&#x4e0b;)" ID="ID_1083340955" CREATED="1551452568934" MODIFIED="1551452580444"/>
 <node TEXT="RetrieveAPIView" ID="ID_1856809877" CREATED="1551452527139" MODIFIED="1551452584936"/>
 </node>
-<node TEXT="genericAPIView + viresers" ID="ID_16782901" CREATED="1551452700050" MODIFIED="1551452722335"/>
+<node ID="ID_892738726" CREATED="1551943351139" MODIFIED="1551943378814"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>GenericViewSet(ViewSetMixin<span style="color: #cc7832"><font color="#cc7832">, </font></span>generics.GenericAPIView):<font color="#629755"><i><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    </span></i></font><span style="color: #cc7832"><font color="#cc7832">pass</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      genericAPIView + viresers
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="&#x53ef;&#x4ee5;&#x5728;urls&#x4e0b;&#x9ed8;&#x8ba4;&#x8fdb;&#x884c;&#x7ed1;&#x5b9a;&#x6240;&#x6709;&#x8bf7;&#x6c42;&#x65b9;&#x6cd5;" ID="ID_527329050" CREATED="1551452722968" MODIFIED="1551452771355"/>
 <node TEXT="&#x53ef;&#x6839;&#x636e;&#x8bf7;&#x6c42;&#x65b9;&#x6cd5;&#x52a8;&#x6001;&#x914d;&#x7f6e;serializers" ID="ID_1069341191" CREATED="1551452839101" MODIFIED="1551452884552"/>
 </node>
@@ -530,7 +549,7 @@
 </node>
 <node TEXT="&#x65b9;&#x6cd5;&#x4e8c;" ID="ID_425517136" CREATED="1551369377253" MODIFIED="1551369383998">
 <node TEXT="&#x5728;views.py&#x4e2d;&#x5b9a;&#x4e49;&#x7c7b;" ID="ID_603619164" CREATED="1551369395400" MODIFIED="1551369410134">
-<node ID="ID_974360305" CREATED="1551369773217" MODIFIED="1551369773217"><richcontent TYPE="NODE">
+<node ID="ID_974360305" CREATED="1551369773217" MODIFIED="1551766028610"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -542,7 +561,7 @@
 </html>
 </richcontent>
 </node>
-<node ID="ID_895409876" CREATED="1551369916892" MODIFIED="1551369916892"><richcontent TYPE="NODE">
+<node ID="ID_895409876" CREATED="1551369916892" MODIFIED="1551780950474"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -618,7 +637,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>django_filters<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>.models <span style="color: #cc7832"><font color="#cc7832">import </font></span>Goods<br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>GoodsFiter(django_filters.rest_framework.FilterSet):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    &#21830;&#21697;&#30340;&#36807;&#28388;&#31867;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font>price_min = django_filters.NumberFilter(<span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'shop_price'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">lookup_expr</font></span>=<span style="color: #6a8759"><font color="#6a8759">'gte'</font></span>)<br/>    price_max = django_filters.NumberFilter(<span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'shop_price'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">lookup_expr</font></span>=<span style="color: #6a8759"><font color="#6a8759">'lte'</font></span>)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        model = Goods<br/>        fields = [<span style="color: #6a8759"><font color="#6a8759">'price_min'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'price_max'</font></span>]</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -633,7 +651,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>GoodsListViewSet(viewsets.GenericViewSet<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                       </span></font>mixins.ListModelMixin<span style="color: #cc7832"><font color="#cc7832">,</font></span>):<br/><br/>    queryset = Goods.objects.all()<br/>    serializer_class = GoodsSerializer<br/>    <span style="color: #808080"><font color="#808080"># &#35774;&#32622;filter<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #cc7832"><font color="#cc7832">from </font></span>django_filters.rest_framework <span style="color: #cc7832"><font color="#cc7832">import </font></span>DjangoFilterBackend<br/>    <span style="color: #cc7832"><font color="#cc7832">from </font></span>.filters <span style="color: #cc7832"><font color="#cc7832">import </font></span>GoodsFiter<br/>    filter_backends = (DjangoFilterBackend<span style="color: #cc7832"><font color="#cc7832">,</font></span>)<br/>    filter_class = GoodsFiter</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -649,7 +666,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">top_category = django_filters.NumberFilter(<span style="color: #aa4926"><font color="#aa4926">method</font></span>=<span style="color: #6a8759"><font color="#6a8759">'top_category_filter'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1674508494" CREATED="1551624118674" MODIFIED="1551624118674"><richcontent TYPE="NODE">
@@ -662,7 +678,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">top_category_filter</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>queryset<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #808080"><font color="#808080">name</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>value):<br/>    q = Q(<span style="color: #aa4926"><font color="#aa4926">category__id</font></span>=value) \<br/>        | Q(<span style="color: #aa4926"><font color="#aa4926">category__parent_category__id</font></span>=value) \<br/>        | Q(<span style="color: #aa4926"><font color="#aa4926">category__parent_category__parent_category__id</font></span>=value)<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>queryset.filter(q)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -680,7 +695,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>rest_framework <span style="color: #cc7832"><font color="#cc7832">import </font></span>filters</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_724108695" CREATED="1551458902208" MODIFIED="1551458902208"><richcontent TYPE="NODE">
@@ -693,7 +707,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>GoodsListViewSet(viewsets.GenericViewSet<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                       </span></font>mixins.ListModelMixin<span style="color: #cc7832"><font color="#cc7832">,</font></span>):<br/><br/>    queryset = Goods.objects.all()<br/>    serializer_class = GoodsSerializer<br/>    <span style="color: #808080"><font color="#808080"># &#35774;&#32622;filter&#65292;django-filter&#36807;&#28388;&#65292;DRF&#30340;filter&#25628;&#32034;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>filter_backends = (DjangoFilterBackend<span style="color: #cc7832"><font color="#cc7832">, </font></span>filters.SearchFilter)<br/>    filter_class = GoodsFiter<br/>    <span style="color: #808080"><font color="#808080"># &#19968;&#20010;&#23383;&#27573;&#25628;&#19979;&#38754;&#30340;&#25152;&#26377;&#21442;&#25968;&#65292;&#27880;&#24847;&#21644;filter&#21306;&#21035;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>search_fields = (<span style="color: #6a8759"><font color="#6a8759">'name'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'goods_brief'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'goods_desc'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x652f;&#x6301;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_62928617" CREATED="1551459046110" MODIFIED="1551459054089">
@@ -727,7 +740,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">filter_backends = (DjangoFilterBackend<span style="color: #cc7832"><font color="#cc7832">, </font></span>filters.SearchFilter<span style="color: #cc7832"><font color="#cc7832">, </font></span>filters.OrderingFilter)<br/><span style="color: #808080"><font color="#808080"># &#25490;&#24207;&#35774;&#32622;, &#38656;&#35201;&#20837;&#21442;{'ordering': '-add_time'}<br/></font></span>ordering_fields = (<span style="color: #6a8759"><font color="#6a8759">'add_time'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'shop_price'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'sold_num'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -744,7 +756,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>GoodsCategorySerializer2(serializers.ModelSerializer):<br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        model = GoodsCategory<br/>        fields = <span style="color: #6a8759"><font color="#6a8759">'__all__'<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span><span style="color: #6a8759"><br/></span></font><span style="color: #cc7832"><font color="#cc7832">class </font></span>GoodsCategorySerializer(serializers.ModelSerializer):<br/>    <span style="color: #808080"><font color="#808080"># sub_cat &#26159;relate_name &#19968;&#23545;&#22810; &#21453;&#26597;<br/></font></span><font color="#808080"><span style="color: #808080">    # &#21830;&#21697;&#31867;&#21035;&#26159;&#23884;&#22871;&#30340;&#20851;&#31995;<br/></span><span style="color: #808080">    </span></font>sub_cat = GoodsCategorySerializer2(<span style="color: #aa4926"><font color="#aa4926">many</font></span>=<span style="color: #cc7832"><font color="#cc7832">True</font></span>)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        model = GoodsCategory<br/>        fields = <span style="color: #6a8759"><font color="#6a8759">'__all__'<br/></font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -759,7 +770,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>GoodsCategoryViewSet(viewsets.GenericViewSet<span style="color: #cc7832"><font color="#cc7832">, </font></span>mixins.ListModelMixin<span style="color: #cc7832"><font color="#cc7832">, </font></span>mixins.RetrieveModelMixin):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    list:<br/></span><span style="color: #629755; font-style: italic">        &#21830;&#21697;&#20998;&#31867;&#21015;&#34920;&#25968;&#25454;<br/></span><span style="color: #629755; font-style: italic">    dict:<br/></span><span style="color: #629755; font-style: italic">        /id<br/></span><span style="color: #629755; font-style: italic">        &#21830;&#21697;&#20998;&#31867;&#35814;&#24773;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font><span style="color: #808080"><font color="#808080"># &#33719;&#21462;&#31532;&#19968;&#31867;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>queryset = GoodsCategory.objects.filter(<span style="color: #aa4926"><font color="#aa4926">category_type</font></span>=<span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/>    serializer_class = GoodsCategorySerializer<br/></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -774,7 +784,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#21830;&#21697;&#31867;&#21035;&#21015;&#34920;<br/></font></span>router.register(<span style="color: #6a8759"><font color="#6a8759">r'categorys'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>GoodsCategoryViewSet<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">base_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'categorys'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -797,7 +806,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">MIDDLEWARE = [<span style="color: #cc7832"><font color="#cc7832"><br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080"># &#35201;&#22312;CsrfViewMiddleware &#20043;&#21069;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #6a8759"><font color="#6a8759">'corsheaders.middleware.CorsMiddleware'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'django.middleware.csrf.CsrfViewMiddleware'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font>]</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -812,7 +820,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#20801;&#35768;&#36328;&#22495;<br/></font></span>CORS_ORIGIN_ALLOW_ALL = <span style="color: #cc7832"><font color="#cc7832">True</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -834,14 +841,13 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #6a8759"><font color="#6a8759">'rest_framework.authtoken'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x8be5;&#x64cd;&#x4f5c;&#x4e4b;&#x540e;&#x9700;&#x8981;&#x5efa;&#x7acb;&#x4e00;&#x5f20;&#x8868;" ID="ID_1855634832" CREATED="1551702194085" MODIFIED="1551702272336"/>
 </node>
 <node TEXT="REST_FRAMEWORK" ID="ID_937962446" CREATED="1551708165160" MODIFIED="1551708178539">
 <node TEXT="token&#x8bbe;&#x7f6e;" ID="ID_251335775" CREATED="1551708179217" MODIFIED="1551708199408">
-<node ID="ID_1228057914" CREATED="1551708207558" MODIFIED="1551708207558"><richcontent TYPE="NODE">
+<node ID="ID_1228057914" CREATED="1551708207558" MODIFIED="1551855007751"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -851,7 +857,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#29992;&#25143;&#35748;&#35777;<br/></font></span><span style="color: #6a8759"><font color="#6a8759">'DEFAULT_AUTHENTICATION_CLASSES'</font></span>: (<br/>    <span style="color: #6a8759"><font color="#6a8759">'rest_framework.authentication.BasicAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework.authentication.SessionAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework.authentication.TokenAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span>)<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -866,7 +871,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#35774;&#32622;&#25152;&#26377;&#25509;&#21475;&#37117;&#35201;&#39564;&#35777;<br/></font></span><span style="color: #6a8759"><font color="#6a8759">'DEFAULT_PERMISSION_CLASSES'</font></span>: (<br/>        <span style="color: #6a8759"><font color="#6a8759">'rest_framework.permissions.IsAuthenticated'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>)<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -887,7 +891,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>rest_framework.authtoken <span style="color: #cc7832"><font color="#cc7832">import </font></span>views</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1186062374" CREATED="1551702900631" MODIFIED="1551702900631"><richcontent TYPE="NODE">
@@ -900,7 +903,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#33719;&#21462;token<br/></font></span>url(<span style="color: #6a8759"><font color="#6a8759">r'api-token-auth/'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>views.obtain_auth_token)<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6b63;&#x5e38;post&#x7528;&#x6237;&#x4fe1;&#x606f;&#xff0c;&#x8fd4;&#x56de;token&#x5e76;&#x5b58;&#x5165;&#x6570;&#x636e;&#x8868;" ID="ID_859533490" CREATED="1551702913059" MODIFIED="1551703697695"/>
@@ -920,7 +922,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -941,141 +942,9 @@
 <node TEXT="&#x6ca1;&#x6709;token&#x8fc7;&#x671f;" ID="ID_240268706" CREATED="1551710514497" MODIFIED="1551710520855"/>
 </node>
 </node>
-<node TEXT="JWT" ID="ID_1710533685" CREATED="1551710356895" MODIFIED="1551710371501">
+<node TEXT="DRF JWT" ID="ID_1710533685" CREATED="1551710356895" MODIFIED="1551947587332">
 <node TEXT="json web token" ID="ID_705701199" CREATED="1551710380731" MODIFIED="1551710389488"/>
 <node TEXT="&#x5305;&#x542b;&#x6240;&#x9700;&#x7684;&#x7528;&#x6237;&#x4fe1;&#x606f;&#xff0c;&#x907f;&#x514d;&#x591a;&#x6b21;&#x67e5;&#x8be2;&#x6570;&#x636e;&#x5e93;" ID="ID_1203187251" CREATED="1551710391230" MODIFIED="1551710782352"/>
-<node TEXT="&#x7ec4;&#x6210;" ID="ID_1903176606" CREATED="1551710799731" MODIFIED="1551710803588">
-<node TEXT="Header" ID="ID_114553161" CREATED="1551710803833" MODIFIED="1551710808114">
-<node TEXT="base64enc({&#xa;    &apos;alg&apos;: &apos;HS256&apos;,&#xa;    &apos;typ&apos;: &apos;JWT&apos;&#xa;})" ID="ID_1990656404" CREATED="1551710828445" MODIFIED="1551710895864"/>
-<node TEXT="token&#x7c7b;&#x578b; &#x4e0e; &#x52a0;&#x5bc6;&#x7b97;&#x6cd5;" ID="ID_1966631670" CREATED="1551711001611" MODIFIED="1551711016228"/>
-</node>
-<node TEXT="Payload &#x8d1f;&#x8f7d;" ID="ID_1961058200" CREATED="1551710808332" MODIFIED="1551711192499">
-<node ID="ID_1320003185" CREATED="1551710981879" MODIFIED="1551710981879"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">{<br/>  <span style="color: #6a8759"><font color="#6a8759">&quot;sub&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;1234567890&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;name&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;John Doe&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;admin&quot;</font></span>: true<br/>}</pre>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node TEXT="&#x653e;&#x7528;&#x6237;&#x4fe1;&#x606f;" ID="ID_989894299" CREATED="1551711050879" MODIFIED="1551711061212"/>
-<node TEXT="&#x89c4;&#x8303;" ID="ID_1691745938" CREATED="1551711085808" MODIFIED="1551711096035">
-<node ID="ID_551864648" CREATED="1551711259760" MODIFIED="1551711259760"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      iss (issuer)&#65306;&#31614;&#21457;&#20154;
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node ID="ID_765253184" CREATED="1551711259760" MODIFIED="1551711259760"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      exp (expiration time)&#65306;&#36807;&#26399;&#26102;&#38388;
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node ID="ID_1768242683" CREATED="1551711259762" MODIFIED="1551711259762"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      sub (subject)&#65306;&#20027;&#39064;
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node ID="ID_854960320" CREATED="1551711259764" MODIFIED="1551711259764"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      aud (audience)&#65306;&#21463;&#20247;
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node ID="ID_29182462" CREATED="1551711259766" MODIFIED="1551711259766"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      nbf (Not Before)&#65306;&#29983;&#25928;&#26102;&#38388;
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node ID="ID_855645286" CREATED="1551711259768" MODIFIED="1551711259768"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      iat (Issued At)&#65306;&#31614;&#21457;&#26102;&#38388;
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node ID="ID_1739206029" CREATED="1551711259770" MODIFIED="1551711259770"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      jti (JWT ID)&#65306;&#32534;&#21495;
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="Signature &#x7b7e;&#x540d;" ID="ID_1027807779" CREATED="1551710812241" MODIFIED="1551711200911">
-<node TEXT="base64enc({&#xa;    &apos;alg&apos;: &apos;HS256&apos;,&#xa;    &apos;typ&apos;: &apos;JWT&apos;&#xa;})" ID="ID_80178487" CREATED="1551710828445" MODIFIED="1551710895864"/>
-</node>
-</node>
 <node TEXT="&#x914d;&#x7f6e;" ID="ID_1639242524" CREATED="1551712469103" MODIFIED="1551712603900">
 <node TEXT="pip install djangorestframework-jwt" ID="ID_234101249" CREATED="1551712473550" MODIFIED="1551712500411"/>
 <node TEXT="settings.py" ID="ID_959672956" CREATED="1551712502478" MODIFIED="1551712512442">
@@ -1090,7 +959,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #6a8759"><font color="#6a8759">'DEFAULT_AUTHENTICATION_CLASSES'</font></span>: (<br/>    <span style="color: #6a8759"><font color="#6a8759">'rest_framework.authentication.BasicAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework.authentication.SessionAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework_jwt.authentication.JSONWebTokenAuthentication'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span>)<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1106,7 +974,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>rest_framework_jwt.views <span style="color: #cc7832"><font color="#cc7832">import </font></span>obtain_jwt_token</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1703593023" CREATED="1551712568405" MODIFIED="1551712568405"><richcontent TYPE="NODE">
@@ -1119,7 +986,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># jwt&#30340;token&#35748;&#35777;&#27169;&#24335;<br/></font></span>url(<span style="color: #6a8759"><font color="#6a8759">r'^api-jwt-auth/'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>obtain_jwt_token)<span style="color: #cc7832"><font color="#cc7832">,</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1156,6 +1022,205 @@
 </node>
 </node>
 </node>
+<node TEXT="jwt" ID="ID_152723338" CREATED="1551944030257" MODIFIED="1551949676252">
+<node TEXT="&#x8ba4;&#x8bc1;&#x65b9;&#x6cd5;" ID="ID_1852517037" CREATED="1551944214323" MODIFIED="1551944221729">
+<node TEXT="Cookie" ID="ID_31592493" CREATED="1551944222450" MODIFIED="1551944263005"/>
+<node TEXT="Session" ID="ID_1810003841" CREATED="1551944227164" MODIFIED="1551944260535">
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_755611611" CREATED="1551944904953" MODIFIED="1551944914847">
+<node TEXT="&#x57fa;&#x4e8e;cookie&#x5b9e;&#x73b0;" ID="ID_1417683842" CREATED="1551944231299" MODIFIED="1551944238461"/>
+<node TEXT=" &#x670d;&#x52a1;&#x5668;&#x4fdd;&#x5b58;&#x76f8;&#x5173;&#x6570;&#x636e;&#xff0c;&#x6bd4;&#x5982;&#x7528;&#x6237;&#x89d2;&#x8272;&#x3001;&#x767b;&#x5f55;&#x65f6;&#x95f4;" ID="ID_758125757" CREATED="1551944410339" MODIFIED="1551944474485"/>
+<node TEXT="&#x8fd4;&#x56de;&#x4e00;&#x4e2a;session_id&#x5199;&#x5165;Cookie" ID="ID_1965409047" CREATED="1551944474851" MODIFIED="1551944848575"/>
+<node TEXT="&#x901a;&#x8fc7;session_id&#x83b7;&#x53d6;&#x7528;&#x6237;&#x4fe1;&#x606f;" ID="ID_1687983198" CREATED="1551944858314" MODIFIED="1551944870431"/>
+</node>
+<node TEXT="&#x7f3a;&#x70b9;" ID="ID_39427372" CREATED="1551944921386" MODIFIED="1551944926741">
+<node TEXT="&#x6269;&#x5c55;&#x6027;&#xff08;scaling&#xff09;&#x4e0d;&#x597d;" ID="ID_933574346" CREATED="1551944926995" MODIFIED="1551944936053"/>
+<node TEXT=" &#x670d;&#x52a1;&#x5668;&#x96c6;&#x7fa4;&#xff0c;&#x6216;&#x8005;&#x662f;&#x8de8;&#x57df;&#x7684;&#x670d;&#x52a1;&#x5bfc;&#x5411;&#x67b6;&#x6784;&#xff0c;&#x5c31;&#x8981;&#x6c42; session &#x6570;&#x636e;&#x5171;&#x4eab;" ID="ID_1996260021" CREATED="1551944952235" MODIFIED="1551944954687"/>
+</node>
+<node TEXT="&#x89e3;&#x51b3;&#x65b9;&#x6848;" ID="ID_76775485" CREATED="1551944983642" MODIFIED="1551944989648">
+<node TEXT="session&#x6301;&#x4e45;&#x5316;" ID="ID_1001422252" CREATED="1551944989891" MODIFIED="1551945000687">
+<node TEXT=" &#x5199;&#x5165;&#x6570;&#x636e;&#x5e93;&#x6216;&#x522b;&#x7684;&#x6301;&#x4e45;&#x5c42;" ID="ID_1932528755" CREATED="1551945026067" MODIFIED="1551945027269"/>
+<node TEXT="&#x5de5;&#x7a0b;&#x91cf;&#x6bd4;&#x8f83;&#x5927;" ID="ID_1023924067" CREATED="1551945035817" MODIFIED="1551945038715"/>
+</node>
+<node TEXT="&#x6240;&#x6709;&#x6570;&#x636e;&#x4fdd;&#x5b58;&#x5728;&#x5ba2;&#x6237;&#x7aef;" ID="ID_1821410190" CREATED="1551945000921" MODIFIED="1551945069982">
+<node ID="ID_715181701" CREATED="1551945070900" MODIFIED="1551945070900"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27599;&#27425;&#35831;&#27714;&#37117;&#21457;&#22238;&#26381;&#21153;&#22120;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5982;JWT" ID="ID_1126256700" CREATED="1551945073546" MODIFIED="1551945076998"/>
+</node>
+</node>
+</node>
+<node TEXT="Token" ID="ID_1124095025" CREATED="1551944240131" MODIFIED="1551944257015">
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_1188082843" CREATED="1551945196294" MODIFIED="1551945204341">
+<node TEXT="&#x4ec5;&#x4ec5;&#x9700;&#x8981;&#x5728; HTTP &#x7684;&#x5934;&#x90e8;&#x9644;&#x4e0a; token&#xff0c;&#xa;&#x7531;&#x670d;&#x52a1;&#x5668; check signature &#x5373;&#x53ef;&#x5b9e;&#x73b0;" ID="ID_847479184" CREATED="1551944291313" MODIFIED="1551944321646"/>
+<node TEXT=" &#x65e0;&#x987b;&#x62c5;&#x5fc3; cookie &#x5b58;&#x5728;&#x7684; CORS &#x95ee;&#x9898;" ID="ID_236634250" CREATED="1551944326834" MODIFIED="1551944328253"/>
+<node TEXT="&#x5982; JSON Web Token" ID="ID_1378721954" CREATED="1551944267468" MODIFIED="1551944296385"/>
+</node>
+</node>
+</node>
+<node TEXT=" JSON Web Token" ID="ID_1964173679" CREATED="1551945299636" MODIFIED="1551945301508">
+<node TEXT="" ID="ID_1828534918" CREATED="1551945342675" MODIFIED="1551945342675">
+<node TEXT="&#x6570;&#x636e;&#x5728;&#x5ba2;&#x6237;&#x7aef;&#xff0c;&#x52a0;&#x4e0a;&#x7b7e;&#x540d;&#x4f5c;&#x9a8c;&#x8bc1;" ID="ID_1198681235" CREATED="1551945225393" MODIFIED="1551945276472">
+<node TEXT="&#x5ba2;&#x6237;&#x7aef;&#x53ef;&#x4ee5;&#x5b58;&#x50a8;&#x5728;Cookie&#x91cc;&#xff0c;&#x4e5f;&#x53ef;&#x4ee5;&#x5b58;&#x50a8;&#x5728;localStorage" ID="ID_808917221" CREATED="1551946178068" MODIFIED="1551946221792"/>
+<node TEXT=" &#x5305;&#x542b;&#x6240;&#x9700;&#x7684;&#x7528;&#x6237;&#x4fe1;&#x606f;&#xff0c;&#x907f;&#x514d;&#x591a;&#x6b21;&#x67e5;&#x8be2;&#x6570;&#x636e;&#x5e93;" ID="ID_988235312" CREATED="1551945372458" MODIFIED="1551945374261"/>
+<node TEXT=" &#x670d;&#x52a1;&#x5668;&#x53d8;&#x6210;&#x65e0;&#x72b6;&#x6001;&#x4e86;&#xff0c;&#x4ece;&#x800c;&#x6bd4;&#x8f83;&#x5bb9;&#x6613;&#x5b9e;&#x73b0;&#x6269;&#x5c55;" ID="ID_1910383994" CREATED="1551945286370" MODIFIED="1551945288157"/>
+</node>
+</node>
+<node TEXT="&#x7ec4;&#x6210;" ID="ID_1464418120" CREATED="1551710799731" MODIFIED="1551710803588">
+<node TEXT="" ID="ID_296869270" CREATED="1551945453684" MODIFIED="1551945458630">
+<hook URI="django_restvue_files/png_7371395909677752245.png" SIZE="0.75" NAME="ExternalObject"/>
+</node>
+<node TEXT="Header" ID="ID_1995125816" CREATED="1551710803833" MODIFIED="1551710808114">
+<node TEXT="BASE64URL&#x89e3;&#x7801;&#x4e00;&#x822c;&#x4e3a;" ID="ID_1199438" CREATED="1551945617275" MODIFIED="1551946128570">
+<node TEXT="{&#xa;    &apos;alg&apos;: &apos;HS256&apos;,&#xa;    &apos;typ&apos;: &apos;JWT&apos;&#xa;}" ID="ID_1084343878" CREATED="1551710828445" MODIFIED="1551945639891"/>
+</node>
+<node TEXT="token&#x7c7b;&#x578b; &#x4e0e; &#x52a0;&#x5bc6;&#x7b97;&#x6cd5;" ID="ID_695643710" CREATED="1551711001611" MODIFIED="1551711016228"/>
+</node>
+<node TEXT="Payload &#x8d1f;&#x8f7d;" ID="ID_1240382414" CREATED="1551710808332" MODIFIED="1551711192499">
+<node TEXT="BASE64URL&#x89e3;&#x7801;&#x4e3a;&#x7528;&#x6237;&#x4fe1;&#x606f;" ID="ID_1344185056" CREATED="1551945723946" MODIFIED="1551946139708">
+<node ID="ID_1496811328" CREATED="1551710981879" MODIFIED="1551949187157"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">{<br/>  <span style="color: #6a8759"><font color="#6a8759">&quot;sub&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;1234567890&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;name&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;John Doe&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;admin&quot;</font></span>: true<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x89c4;&#x8303;" ID="ID_1693598227" CREATED="1551711085808" MODIFIED="1551711096035">
+<node ID="ID_440868661" CREATED="1551711259760" MODIFIED="1551711259760"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iss (issuer)&#65306;&#31614;&#21457;&#20154;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1929398565" CREATED="1551711259760" MODIFIED="1551711259760"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      exp (expiration time)&#65306;&#36807;&#26399;&#26102;&#38388;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1170569658" CREATED="1551711259762" MODIFIED="1551711259762"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sub (subject)&#65306;&#20027;&#39064;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_61323313" CREATED="1551711259764" MODIFIED="1551711259764"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      aud (audience)&#65306;&#21463;&#20247;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1406589263" CREATED="1551711259766" MODIFIED="1551711259766"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nbf (Not Before)&#65306;&#29983;&#25928;&#26102;&#38388;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_371987773" CREATED="1551711259768" MODIFIED="1551711259768"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      iat (Issued At)&#65306;&#31614;&#21457;&#26102;&#38388;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_646284105" CREATED="1551711259770" MODIFIED="1551711259770"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      jti (JWT ID)&#65306;&#32534;&#21495;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Signature &#x7b7e;&#x540d;" ID="ID_467493508" CREATED="1551710812241" MODIFIED="1551711200911">
+<node TEXT="HMACSHA256(&#xa;  base64UrlEncode(header) + &quot;.&quot; +&#xa;  base64UrlEncode(payload),&#xa;  secret)" ID="ID_1856542126" CREATED="1551710828445" MODIFIED="1551946036366"/>
+<node TEXT=" &#x4f7f;&#x7528; Header &#x91cc;&#x9762;&#x6307;&#x5b9a;&#x7684;&#x7b7e;&#x540d;&#x7b97;&#x6cd5;&#x751f;&#x6210;Signature&#x7b7e;&#x540d;" ID="ID_1454440692" CREATED="1551946009032" MODIFIED="1551946068740"/>
+<node TEXT="&#x7b97;&#x51fa;&#x7b7e;&#x540d;&#x4ee5;&#x540e;&#xff0c;&#x628a; Header&#x3001;Payload&#x3001;Signature &#x62fc;&#x5728;&#x4e00;&#x8d77;" ID="ID_335651413" CREATED="1551946070609" MODIFIED="1551946094647"/>
+</node>
+</node>
+<node TEXT="&#x7279;&#x70b9;" ID="ID_673225514" CREATED="1551946371929" MODIFIED="1551946378977">
+<node TEXT=" JWT &#x9ed8;&#x8ba4;&#x662f;&#x4e0d;&#x52a0;&#x5bc6;&#x7684;(BASE64URL&#x7f16;&#x7801;)&#xff0c;&#x4e5f;&#x53ef;&#x4ee5;&#x751f;&#x6210;TOKEN&#x540e;&#x52a0;&#x5bc6;" ID="ID_616970150" CREATED="1551945907913" MODIFIED="1551946449389" MAX_WIDTH="11.0 cm"/>
+<node TEXT="JWT &#x4e0d;&#x4ec5;&#x53ef;&#x4ee5;&#x7528;&#x4e8e;&#x8ba4;&#x8bc1;&#xff0c;&#x4e5f;&#x53ef;&#x4ee5;&#x7528;&#x4e8e;&#x4ea4;&#x6362;&#x4fe1;&#x606f;&#x3002;&#x6709;&#x6548;&#x4f7f;&#x7528; JWT&#xff0c;&#x53ef;&#x4ee5;&#x964d;&#x4f4e;&#x670d;&#x52a1;&#x5668;&#x67e5;&#x8be2;&#x6570;&#x636e;&#x5e93;&#x7684;&#x6b21;&#x6570;" ID="ID_960311047" CREATED="1551946391484" MODIFIED="1551946446059"/>
+<node TEXT=" &#x4e00;&#x65e6; JWT &#x7b7e;&#x53d1;&#x4e86;&#xff0c;&#x5728;&#x5230;&#x671f;&#x4e4b;&#x524d;&#x5c31;&#x4f1a;&#x59cb;&#x7ec8;&#x6709;&#x6548;&#xff0c;&#x9664;&#x975e;&#x670d;&#x52a1;&#x5668;&#x90e8;&#x7f72;&#x989d;&#x5916;&#x7684;&#x903b;&#x8f91;" ID="ID_131316898" CREATED="1551946460197" MODIFIED="1551946461228"/>
+<node TEXT=" &#x4e3a;&#x4e86;&#x51cf;&#x5c11;&#x76d7;&#x7528;&#xff0c;JWT &#x4e0d;&#x5e94;&#x8be5;&#x4f7f;&#x7528; HTTP &#x534f;&#x8bae;&#x660e;&#x7801;&#x4f20;&#x8f93;&#xff0c;&#x8981;&#x4f7f;&#x7528; HTTPS &#x534f;&#x8bae;&#x4f20;&#x8f93;" ID="ID_1599895849" CREATED="1551946478961" MODIFIED="1551946480845"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_416847262" CREATED="1551949683210" MODIFIED="1551949683211">
+<edge COLOR="#00007c"/>
 </node>
 </node>
 </map>

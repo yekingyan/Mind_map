@@ -418,8 +418,22 @@
 </richcontent>
 </node>
 <node TEXT="&#x591a;&#x5bf9;&#x4e00;&#xff08;ForeignKey&#xff09;" ID="ID_512874827" CREATED="1550475059480" MODIFIED="1551864397854">
-<node TEXT=" select_related&#x7684;&#x5b57;&#x6bb5;&#x540d;" ID="ID_1113049760" CREATED="1551864353345" MODIFIED="1551864360135"/>
-<node TEXT=" &#x53cc;&#x4e0b;&#x5212;&#x7ebf;&#x201c;__&#x201d;&#x8fde;&#x63a5;&#x5b57;&#x6bb5;&#x540d;" ID="ID_208991785" CREATED="1551864361089" MODIFIED="1551864362525"/>
+<node TEXT=" related_name&#x7684;&#x5b57;&#x6bb5;&#x540d;&#x53cd;&#x67e5;" ID="ID_1113049760" CREATED="1551864353345" MODIFIED="1551922201961"/>
+<node TEXT=" &#x53cc;&#x4e0b;&#x5212;&#x7ebf;&#x201c;__&#x201d;&#x8fde;&#x63a5;&#x5b57;&#x6bb5;&#x540d;" ID="ID_208991785" CREATED="1551864361089" MODIFIED="1551864362525">
+<node ID="ID_102000520" CREATED="1551866563640" MODIFIED="1551866609278"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">order_q = Q(<span style="color: #aa4926"><font color="#aa4926">OrderHead__Seller_Store_Id__in</font></span>=store_ids)<br/>queryset = queryset.filter(order_q)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="&#x4f7f;&#x7528;&#x65b9;&#x5f0f;" ID="ID_1896309707" CREATED="1550475285855" MODIFIED="1550475295277">
@@ -558,7 +572,6 @@
 </richcontent>
 </node>
 </node>
-<node TEXT=" &#x5173;&#x8054;&#x7684;&#x5bf9;&#x8c61;&#x88ab;&#x5220;&#x9664;&#x65f6;&#xff0c;&#xa;&#x5c06;&#x8be5;&#x5916;&#x952e;&#x81ea;&#x52a8;&#x8bbe;&#x4e3a;null" ID="ID_715485689" CREATED="1551433308971" MODIFIED="1551433338307"/>
 <node TEXT="on_delete&#x53c2;&#x6570;" ID="ID_1136478203" CREATED="1551432357563" MODIFIED="1551432368255">
 <node TEXT=" &#x5f53;&#x4e00;&#x4e2a;&#x88ab;&#x5916;&#x952e;&#x5173;&#x8054;&#x7684;&#x5bf9;&#x8c61;&#x88ab;&#x5220;&#x9664;&#x65f6;&#xff0c;Django&#x5c06;&#x6a21;&#x4eff;on_delete&#x53c2;&#x6570;&#x5b9a;&#x4e49;&#x7684;SQL&#x7ea6;&#x675f;&#x6267;&#x884c;&#x76f8;&#x5e94;&#x64cd;&#x4f5c;" ID="ID_272076993" CREATED="1551433038330" MODIFIED="1551433040117"/>
 <node TEXT=" &#x8be5;&#x53c2;&#x6570;&#x53ef;&#x9009;&#x7684;&#x503c;&#x90fd;&#x5185;&#x7f6e;&#x5728;django.db.models&#x4e2d;" ID="ID_915124852" CREATED="1551434382964" MODIFIED="1551434385090"/>
@@ -569,6 +582,7 @@
 <node TEXT=" &#x963b;&#x6b62;&#x4e0a;&#x9762;&#x7684;&#x5220;&#x9664;&#x64cd;&#x4f5c;&#xff0c;&#x4f46;&#x662f;&#x5f39;&#x51fa;ProtectedError&#x5f02;&#x5e38;" ID="ID_1557381184" CREATED="1551434275426" MODIFIED="1551434277932"/>
 </node>
 <node TEXT="SET_NULL" ID="ID_1170895343" CREATED="1551434290946" MODIFIED="1551434305011">
+<node TEXT=" &#x5173;&#x8054;&#x7684;&#x5bf9;&#x8c61;&#x88ab;&#x5220;&#x9664;&#x65f6;&#xff0c;&#x5c06;&#x8be5;&#x5916;&#x952e;&#x81ea;&#x52a8;&#x8bbe;&#x4e3a;null" ID="ID_715485689" CREATED="1551433308971" MODIFIED="1551874685557"/>
 <node TEXT=" &#x5c06;&#x5916;&#x952e;&#x5b57;&#x6bb5;&#x8bbe;&#x4e3a;null&#xff0c;&#x53ea;&#x6709;&#x5f53;&#x5b57;&#x6bb5;&#x8bbe;&#x7f6e;&#x4e86;null=True&#x65f6;&#xff0c;&#x65b9;&#x53ef;&#x4f7f;&#x7528;&#x8be5;&#x503c;" ID="ID_1566744973" CREATED="1551434294093" MODIFIED="1551434301322"/>
 </node>
 <node TEXT=" SET_DEFAULT" ID="ID_1587409576" CREATED="1551434312265" MODIFIED="1551434320774">
