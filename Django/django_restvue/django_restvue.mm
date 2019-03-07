@@ -1219,8 +1219,56 @@
 </node>
 </node>
 </node>
-<node TEXT="" POSITION="right" ID="ID_416847262" CREATED="1551949683210" MODIFIED="1551949683211">
+<node TEXT="&#x7528;&#x6237;&#x6ce8;&#x518c;&#x5bc6;&#x7801;&#x5199;&#x5165;&#x5bc6;&#x6587;" POSITION="right" ID="ID_416847262" CREATED="1551949683210" MODIFIED="1551971901105">
 <edge COLOR="#00007c"/>
+<node TEXT=" &#x91cd;&#x8f7d;serializers.ModelSerializer&#x4e2d;&#x7684;create&#x65b9;&#x6cd5;" ID="ID_305808111" CREATED="1551972164290" MODIFIED="1551972166714">
+<node TEXT="&#x7528;.set_password()&#x52a0;&#x5bc6;&#x660e;&#x6587;&#x5bc6;&#x7801;" ID="ID_1622226258" CREATED="1551971901365" MODIFIED="1551972206916"/>
+<node ID="ID_1824716569" CREATED="1551972138810" MODIFIED="1551972138810"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">create</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>validated_data):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    &#35753;&#23494;&#30721;&#21487;&#20197;&#23494;&#25991;&#20445;&#23384;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font>user = <span style="color: #8888c6"><font color="#8888c6">super</font></span>(UserRegisterSerializer<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>).create(<span style="color: #aa4926"><font color="#aa4926">validated_data</font></span>=validated_data)<br/>    user.set_password(validated_data[<span style="color: #6a8759"><font color="#6a8759">'password'</font></span>])<br/>    user.save()<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>user</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x4fe1;&#x53f7;&#x91cf;" ID="ID_851084220" CREATED="1551972141600" MODIFIED="1551972149338">
+<node TEXT="&#x65b0;&#x5efa;signals.py&#x6587;&#x4ef6;" ID="ID_980911162" CREATED="1551972913788" MODIFIED="1551972936735">
+<node ID="ID_16407372" CREATED="1551972956470" MODIFIED="1551972956470"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db.models.signals <span style="color: #cc7832"><font color="#cc7832">import </font></span>post_save<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.dispatch <span style="color: #cc7832"><font color="#cc7832">import </font></span>receiver<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.contrib.auth <span style="color: #cc7832"><font color="#cc7832">import </font></span>get_user_model<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>rest_framework.authtoken.models <span style="color: #cc7832"><font color="#cc7832">import </font></span>Token<br/><br/>User = get_user_model()<br/><br/><br/><span style="color: #bbb529"><font color="#bbb529">@receiver</font></span>(post_save<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">sender</font></span>=User)<br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">create_auth_token</font></span>(<span style="color: #808080"><font color="#808080">sender</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>instance=<span style="color: #cc7832"><font color="#cc7832">None, </font></span>created=<span style="color: #cc7832"><font color="#cc7832">False, </font></span><span style="color: #808080"><font color="#808080">**kwargs</font></span>):<br/>    <span style="color: #cc7832"><font color="#cc7832">if </font></span>created:<br/>        password = instance.password<br/>        instance.set_password(password)<br/>        instance.save()<br/>        <span style="color: #808080"><font color="#808080"># &#29992;jwt&#23601;&#19981;&#29992;token&#20102;<br/></font></span><font color="#808080"><span style="color: #808080">        # Token.objects.create(user=instance)</span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="apps.py&#x4e0b;&#x914d;&#x7f6e;&#x4fe1;&#x53f7;&#x91cf;" ID="ID_922082617" CREATED="1551972959174" MODIFIED="1551972977885">
+<node ID="ID_1216511289" CREATED="1551972986058" MODIFIED="1551972986058"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UsersConfig(AppConfig):<br/>    name = <span style="color: #6a8759"><font color="#6a8759">'users'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font>verbose_name = <span style="color: #6a8759"><font color="#6a8759">&quot;&#29992;&#25143;&#31649;&#29702;&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span><span style="color: #6a8759">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">ready</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">import </font></span>users.signals</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
