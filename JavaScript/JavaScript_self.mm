@@ -3,7 +3,7 @@
 <node TEXT="JavaScript" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1541639499447" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="122" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="123" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x6761;&#x4ef6;(&#x4e09;&#x5143;)&#x8fd0;&#x7b97;&#x7b26;" POSITION="right" ID="ID_1533474054" CREATED="1541639502335" MODIFIED="1541640532405">
 <edge COLOR="#7c0000"/>
@@ -606,7 +606,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1722716548" CREATED="1548665074865" MODIFIED="1548665074865"><richcontent TYPE="NODE">
@@ -621,7 +620,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_635427628" CREATED="1548665074868" MODIFIED="1548665074868"><richcontent TYPE="NODE">
@@ -636,7 +634,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -667,7 +664,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>const </b></font></span>promise = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Promise((resolve<span style="color: #cc7832"><font color="#cc7832">, </font></span>reject) =&gt; {<br/>  <span style="color: #808080"><font color="#808080">// ... some code<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">  </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>if </b></font></span>(<span style="color: #808080"><font color="#808080">/* &#24322;&#27493;&#25805;&#20316;&#25104;&#21151; */</font></span>){<br/>    resolve(value)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font>} <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>else </b></font></span>{<br/>    reject(error)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font>}<br/>})<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -683,7 +679,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt">promise.<span style="color: #ffc66d"><font color="#ffc66d">then</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function</b></font></span>(value) {<br/>  <span style="color: #808080"><font color="#808080">// success<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function</b></span></font>(error) {<br/>  <span style="color: #808080"><font color="#808080">// failure<br/></font></span>})<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x7b2c;&#x4e00;&#x4e2a;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x662f;Promise&#x5bf9;&#x8c61;&#x7684;&#x72b6;&#x6001;&#x53d8;&#x4e3a;resolved&#x65f6;&#x8c03;&#x7528;" ID="ID_982008604" CREATED="1548667487424" MODIFIED="1548667498314"/>
@@ -703,7 +698,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>const </b></font></span>promise = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>Promise(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(resolve<span style="color: #cc7832"><font color="#cc7832">, </font></span>reject) {<br/>    resolve(<span style="color: #6a8759"><font color="#6a8759">'ok'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>throw new </b></span></font>Error(<span style="color: #6a8759"><font color="#6a8759">'test'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>})<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>promise<br/>    .<span style="color: #ffc66d"><font color="#ffc66d">then</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(value) {<br/>        console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(value)<br/>    })<br/>    .<span style="color: #ffc66d"><font color="#ffc66d">catch</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(error) {<br/>        console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(error)<br/>    })<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080">// ok</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x56e0;&#x4e3a; Promise &#x7684;&#x72b6;&#x6001;&#x4e00;&#x65e6;&#x6539;&#x53d8;&#xff0c;&#x5c31;&#x6c38;&#x4e45;&#x4fdd;&#x6301;&#x8be5;&#x72b6;&#x6001;&#xff0c;&#x4e0d;&#x4f1a;&#x518d;&#x53d8;&#x4e86;" ID="ID_209586094" CREATED="1548668190592" MODIFIED="1548668192306"/>
@@ -719,7 +713,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 12.0pt"><span style="color: #808080"><font color="#808080">// bad<br/></font></span>promise<br/>    .<span style="color: #ffc66d"><font color="#ffc66d">then</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(data) {<br/>        <span style="color: #808080"><font color="#808080">// success<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>}<span style="color: #cc7832"><font color="#cc7832">, </font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>function </b></span></font>(err) {<br/>        <span style="color: #808080"><font color="#808080">// error<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>})<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font><span style="color: #808080"><font color="#808080">// good<br/></font></span>promise<br/>    .<span style="color: #ffc66d"><font color="#ffc66d">then</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(data) { <span style="color: #808080"><font color="#808080">//cb<br/></font></span><font color="#808080"><span style="color: #808080">        // success<br/></span><span style="color: #808080">    </span></font>})<br/>    .<span style="color: #ffc66d"><font color="#ffc66d">catch</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>(err) {<br/>        <span style="color: #808080"><font color="#808080">// error<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>})<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -729,6 +722,46 @@
 <node TEXT=" &#x4e0d;&#x7ba1; Promise &#x5bf9;&#x8c61;&#x6700;&#x540e;&#x72b6;&#x6001;&#x5982;&#x4f55;&#xff0c;&#x90fd;&#x4f1a;&#x6267;&#x884c;&#x7684;&#x64cd;&#x4f5c;" ID="ID_221182432" CREATED="1548668466281" MODIFIED="1548668467905"/>
 <node TEXT=" finally&#x65b9;&#x6cd5;&#x7684;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x4e0d;&#x63a5;&#x53d7;&#x4efb;&#x4f55;&#x53c2;&#x6570;" ID="ID_68364934" CREATED="1548668491032" MODIFIED="1548668492498"/>
 <node TEXT=" finally&#x65b9;&#x6cd5;&#x91cc;&#x9762;&#x7684;&#x64cd;&#x4f5c;&#xff0c;&#x5e94;&#x8be5;&#x662f;&#x4e0e;&#x72b6;&#x6001;&#x65e0;&#x5173;&#x7684;&#xff0c;&#x4e0d;&#x4f9d;&#x8d56;&#x4e8e; Promise &#x7684;&#x6267;&#x884c;&#x7ed3;&#x679c;" ID="ID_1025772678" CREATED="1548668504320" MODIFIED="1548668505834"/>
+</node>
+</node>
+</node>
+<node TEXT="switch" POSITION="right" ID="ID_826277848" CREATED="1552295173438" MODIFIED="1552295176602">
+<edge COLOR="#0000ff"/>
+<node ID="ID_1075864435" CREATED="1552295602023" MODIFIED="1552295602023"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>switch </b></font></span>(WHERE) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>case </b></font></span><span style="color: #6a8759"><font color="#6a8759">'google'</font></span>:<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>case </b></font></span><span style="color: #6a8759"><font color="#6a8759">'bing'</font></span>:<br/>        targetDom[<span style="color: #6897bb"><font color="#6897bb">0</font></span>].<span style="color: #9876aa"><font color="#9876aa">prepend</font></span>(containerDiv[<span style="color: #6897bb"><font color="#6897bb">0</font></span>])<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>break<br/></b></font></span><font color="#cc7832"><b><span style="color: #cc7832; font-weight: bold">    case </span></b></font><span style="color: #6a8759"><font color="#6a8759">'baidu'</font></span>:<br/>        targetDom[<span style="color: #6897bb"><font color="#6897bb">0</font></span>].<span style="color: #ffc66d"><font color="#ffc66d">append</font></span>(containerDiv[<span style="color: #6897bb"><font color="#6897bb">0</font></span>])<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>break<br/></b></font></span><font color="#cc7832"><b><span style="color: #cc7832; font-weight: bold">    default</span></b></font>:<br/>        targetDom[<span style="color: #6897bb"><font color="#6897bb">0</font></span>].<span style="color: #ffc66d"><font color="#ffc66d">after</font></span>(containerDiv[<span style="color: #6897bb"><font color="#6897bb">0</font></span>])<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="case" ID="ID_1345267206" CREATED="1552295668219" MODIFIED="1552295671249">
+<node TEXT="case&#x4e0e;&#x53c2;&#x6570;&#x5339;&#x914d;&#x65f6;&#xff0c;&#x6267;&#x884c;case&#x4e0b;&#x7684;&#x8bed;&#x53e5;" ID="ID_1902612233" CREATED="1552295671571" MODIFIED="1552295726663"/>
+<node TEXT="&#x5982;&#x679c;&#x5339;&#x914d;&#x7684;case&#x4e0b;&#x6ca1;&#x6709;break&#xff0c;&#x5c06;&#x6267;&#x884c;&#x4e0b;&#x4e00;&#x4e2a;case &#x4e2d;&#x7684;&#x8bed;&#x53e5;&#x800c;&#x4e0d;&#x8bba;&#x503c;&#x662f;&#x5426;&#x5339;&#x914d;&#xff0c;&#x76f4;&#x81f3;&#x6709;break&#x624d;&#x6253;&#x65ad;" ID="ID_43206610" CREATED="1552295726891" MODIFIED="1552297166885"/>
+<node TEXT="&#x591a; case - &#x5355;&#x4e00;&#x64cd;&#x4f5c;&#xff0c;&#x591a;&#x4e2a;case&#x53e0;&#x52a0;&#x53ef;&#x505a;&#x5230; or &#x884c;&#x4e3a;" ID="ID_1430654761" CREATED="1552295781933" MODIFIED="1552297188975"/>
+</node>
+<node TEXT="default" ID="ID_1998614935" CREATED="1552297050803" MODIFIED="1552297057116">
+<node TEXT="&#x6ca1;&#x6709;case&#x5339;&#x914d;&#xff0c;&#x5219;&#x6267;&#x884c;default&#x4e0b;&#x7684;&#x8bed;&#x53e5;" ID="ID_734815043" CREATED="1552297057424" MODIFIED="1552297080900"/>
+</node>
+<node TEXT="&#x5728;case&#x8868;&#x8fbe;&#x5f0f;&#x4e2d;&#x8fdb;&#x884c;&#x4e00;&#x4e9b;&#x8fd0;&#x7b97;" ID="ID_1795783754" CREATED="1552297083823" MODIFIED="1552297266531">
+<node TEXT="case &#x53ef;&#x63a5;&#x5355;&#x6761;js&#x8bed;&#x53e5;" ID="ID_944144308" CREATED="1552297102951" MODIFIED="1552297278379"/>
+<node ID="ID_672981003" CREATED="1552297241241" MODIFIED="1552297241241"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>i = <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>switch </b></span></font>(i) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>case </b></font></span>( (i&gt;=<span style="color: #6897bb"><font color="#6897bb">0 </font></span>&amp;&amp; i&lt;=<span style="color: #6897bb"><font color="#6897bb">5</font></span>) ? i : -<span style="color: #6897bb"><font color="#6897bb">1 </font></span>): <br/>           console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'0 ~5'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; <br/></font></span><font color="#cc7832"><span style="color: #cc7832">           </span><span style="color: #cc7832; font-weight: bold"><b>break</b></span><span style="color: #cc7832">;<br/></span><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>case </b></span></font><span style="color: #6897bb"><font color="#6897bb">6</font></span>: console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'6'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
