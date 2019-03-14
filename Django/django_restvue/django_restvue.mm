@@ -3,7 +3,7 @@
 <node TEXT="django_restvue" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1551186550185" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="117" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="118" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x72ec;&#x7acb;&#x4f7f;&#x7528;Django ORM" POSITION="right" ID="ID_928227116" CREATED="1551273918472" MODIFIED="1551273933422">
 <edge COLOR="#7c007c"/>
@@ -402,7 +402,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>GenericViewSet(ViewSetMixin<span style="color: #cc7832"><font color="#cc7832">, </font></span>generics.GenericAPIView):<font color="#629755"><i><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    </span></i></font><span style="color: #cc7832"><font color="#cc7832">pass</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -416,7 +415,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x53ef;&#x4ee5;&#x5728;urls&#x4e0b;&#x9ed8;&#x8ba4;&#x8fdb;&#x884c;&#x7ed1;&#x5b9a;&#x6240;&#x6709;&#x8bf7;&#x6c42;&#x65b9;&#x6cd5;" ID="ID_527329050" CREATED="1551452722968" MODIFIED="1551452771355"/>
@@ -1054,7 +1052,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5982;JWT" ID="ID_1126256700" CREATED="1551945073546" MODIFIED="1551945076998"/>
@@ -1099,7 +1096,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">{<br/>  <span style="color: #6a8759"><font color="#6a8759">&quot;sub&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;1234567890&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;name&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;John Doe&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;admin&quot;</font></span>: true<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1233,7 +1229,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">create</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>validated_data):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    &#35753;&#23494;&#30721;&#21487;&#20197;&#23494;&#25991;&#20445;&#23384;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font>user = <span style="color: #8888c6"><font color="#8888c6">super</font></span>(UserRegisterSerializer<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>).create(<span style="color: #aa4926"><font color="#aa4926">validated_data</font></span>=validated_data)<br/>    user.set_password(validated_data[<span style="color: #6a8759"><font color="#6a8759">'password'</font></span>])<br/>    user.save()<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>user</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1249,7 +1244,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db.models.signals <span style="color: #cc7832"><font color="#cc7832">import </font></span>post_save<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.dispatch <span style="color: #cc7832"><font color="#cc7832">import </font></span>receiver<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.contrib.auth <span style="color: #cc7832"><font color="#cc7832">import </font></span>get_user_model<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>rest_framework.authtoken.models <span style="color: #cc7832"><font color="#cc7832">import </font></span>Token<br/><br/>User = get_user_model()<br/><br/><br/><span style="color: #bbb529"><font color="#bbb529">@receiver</font></span>(post_save<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">sender</font></span>=User)<br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">create_auth_token</font></span>(<span style="color: #808080"><font color="#808080">sender</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>instance=<span style="color: #cc7832"><font color="#cc7832">None, </font></span>created=<span style="color: #cc7832"><font color="#cc7832">False, </font></span><span style="color: #808080"><font color="#808080">**kwargs</font></span>):<br/>    <span style="color: #cc7832"><font color="#cc7832">if </font></span>created:<br/>        password = instance.password<br/>        instance.set_password(password)<br/>        instance.save()<br/>        <span style="color: #808080"><font color="#808080"># &#29992;jwt&#23601;&#19981;&#29992;token&#20102;<br/></font></span><font color="#808080"><span style="color: #808080">        # Token.objects.create(user=instance)</span></font></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1264,9 +1258,102 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UsersConfig(AppConfig):<br/>    name = <span style="color: #6a8759"><font color="#6a8759">'users'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font>verbose_name = <span style="color: #6a8759"><font color="#6a8759">&quot;&#29992;&#25143;&#31649;&#29702;&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span><span style="color: #6a8759">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">ready</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">import </font></span>users.signals</pre>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x8054;&#x5408;&#x552f;&#x4e00;&#x7d22;&#x5f15;" POSITION="right" ID="ID_1490365595" CREATED="1552407355430" MODIFIED="1552407377013">
+<edge COLOR="#007c00"/>
+<node TEXT="&#x7528;&#x6237;&#x6536;&#x85cf;&#x4e0d;&#x80fd;&#x91cd;&#x8986;" ID="ID_1913910911" CREATED="1552407377331" MODIFIED="1552407408260"/>
+<node TEXT="models.UserFav" ID="ID_101333982" CREATED="1552407920050" MODIFIED="1552407933595">
+<node ID="ID_224310223" CREATED="1552407947680" MODIFIED="1552408578300"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UserFav(models.Model):<br/>    user = models.ForeignKey(User<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#29992;&#25143;'</font></span>)<br/>    goods = models.ForeignKey(Goods<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#21830;&#21697;'</font></span>)<br/>    add_time = models.DateTimeField(<span style="color: #aa4926"><font color="#aa4926">default</font></span>=datetime.now<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#28155;&#21152;&#26102;&#38388;'</font></span>)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        verbose_name = <span style="color: #6a8759"><font color="#6a8759">'&#29992;&#25143;&#25910;&#34255;'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        </span></font>verbose_name_plural = verbose_name<br/>        <span style="color: #808080"><font color="#808080"># &#32852;&#21512;&#21807;&#19968;&#32034;&#24341;&#65292;&#26144;&#23556;&#25968;&#25454;&#24211;&#65288;&#25968;&#25454;&#24211;&#23436;&#25104;&#65292;&#25968;&#25454;&#24211;&#25243;&#24322;&#24120;&#65289;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>unique_together = (<span style="color: #6a8759"><font color="#6a8759">'user'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'goods'</font></span>)  <span style="color: #808080"><font color="#808080"># &#38656;&#35201;migration</font></span></pre>
+  </body>
+</html>
 
 </richcontent>
 </node>
+</node>
+<node TEXT="&#x5c06; &#x5546;&#x54c1; &#x4e0e; &#x7528;&#x6237;ID &#x5efa;&#x7acb;unique &#x7d22;&#x5f15;" ID="ID_520272548" CREATED="1552407408698" MODIFIED="1552407447586">
+<node TEXT="" ID="ID_1244105858" CREATED="1552408092255" MODIFIED="1552408096487">
+<hook URI="django_restvue_files/png_8212709657555783566.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="serializers.py" ID="ID_902838665" CREATED="1552407454504" MODIFIED="1552407464519">
+<node ID="ID_1809995366" CREATED="1552407473960" MODIFIED="1552407915955"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UserFavSerializer(serializers.ModelSerializer):<br/>    <span style="color: #808080"><font color="#808080"># &#38544;&#34255;&#23383;&#27573;&#65292;&#40664;&#35748;&#29992;&#25143;&#36873;&#21462;&#24403;&#21069;&#29992;&#25143;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>user = serializers.HiddenField(<br/>        <span style="color: #aa4926"><font color="#aa4926">default</font></span>=serializers.CurrentUserDefault()<br/>    )<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        model = UserFav<br/>        fields = (<span style="color: #6a8759"><font color="#6a8759">'user'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'goods'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'id'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="views.py" ID="ID_162573037" CREATED="1552407475301" MODIFIED="1552407481205">
+<node ID="ID_984969385" CREATED="1552407542497" MODIFIED="1552407542497"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UserFavViewSet(<br/>        viewsets.GenericViewSet<span style="color: #cc7832"><font color="#cc7832">, </font></span>mixins.CreateModelMixin<span style="color: #cc7832"><font color="#cc7832">, <br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font>mixins.DestroyModelMixin<span style="color: #cc7832"><font color="#cc7832">, </font></span>mixins.ListModelMixin):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    &#29992;&#25143;&#25910;&#34255;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font>queryset = UserFav.objects.all()<br/>    serializer_class = UserFavSerializer</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="urls.py" ID="ID_277591640" CREATED="1552407549203" MODIFIED="1552407559378">
+<node ID="ID_62442138" CREATED="1552407567257" MODIFIED="1552407567257"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#29992;&#25143;&#25910;&#34255;<br/></font></span>router.register(<span style="color: #6a8759"><font color="#6a8759">r'userfavs'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>UserFavViewSet<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">base_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'userfavs'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x4e5f;&#x53ef;&#x4ee5;&#x5728;serializers&#x4e0b;&#x52a0;&#x5165;UniqueTogetherValidator&#x7684;validator&#x9a8c;&#x8bc1;" ID="ID_1486471087" CREATED="1552408475450" MODIFIED="1552408519029">
+<node TEXT="&#x53ef;&#x540c;&#x65f6;unique_together&#x4f7f;&#x7528;&#x3002;&#x4fbf;&#x5e76;&#x4e0d;&#x6e05;&#x695a;&#x80fd;&#x5426;&#x5355;&#x72ec;&#x4f7f;&#x7528;" ID="ID_1125552601" CREATED="1552408526294" MODIFIED="1552408608801"/>
+<node ID="ID_1309229709" CREATED="1552408810168" MODIFIED="1552408810168"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UserFavSerializer(serializers.ModelSerializer):<br/>    <span style="color: #808080"><font color="#808080"># &#38544;&#34255;&#23383;&#27573;&#65292;&#40664;&#35748;&#29992;&#25143;&#36873;&#21462;&#24403;&#21069;&#29992;&#25143;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>user = serializers.HiddenField(<br/>        <span style="color: #aa4926"><font color="#aa4926">default</font></span>=serializers.CurrentUserDefault()<br/>    )<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        model = UserFav<br/>        fields = (<span style="color: #6a8759"><font color="#6a8759">'user'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'goods'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'id'</font></span>)<br/>        validators = [<br/>            UniqueTogetherValidator(<br/>                <span style="color: #aa4926"><font color="#aa4926">queryset</font></span>=UserFav.objects.all()<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                </span></font><span style="color: #aa4926"><font color="#aa4926">fields</font></span>=(<span style="color: #6a8759"><font color="#6a8759">'user'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'goods'</font></span>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                </span></font><span style="color: #aa4926"><font color="#aa4926">message</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#24050;&#32463;&#25910;&#34255;'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">            </span></font>)<br/>        ]</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" queryset" ID="ID_507843350" CREATED="1552461064562" MODIFIED="1552461082668">
+<node TEXT=" &#x9700;&#x8981;&#x5f3a;&#x5236;&#x6267;&#x884c;&#x552f;&#x4e00;&#x6027;&#x7684;&#x67e5;&#x8be2;&#x96c6;" ID="ID_1903611622" CREATED="1552461083280" MODIFIED="1552461092422"/>
+</node>
+<node TEXT="fields" ID="ID_671687193" CREATED="1552408545265" MODIFIED="1552408704832">
+<node TEXT="&#x8054;&#x5408;&#x552f;&#x4e00;&#x7d22;&#x5f15;&#x7684;&#x5b57;&#x6bb5;" ID="ID_1719531918" CREATED="1552461822538" MODIFIED="1552461837005"/>
+</node>
+<node TEXT=" message" ID="ID_771154688" CREATED="1552458148091" MODIFIED="1552458149348">
+<node TEXT=" &#x9a8c;&#x8bc1;&#x5931;&#x8d25;&#x65f6;&#x5e94;&#x4f7f;&#x7528;&#x7684;&#x9519;&#x8bef;&#x6d88;&#x606f;" ID="ID_807261307" CREATED="1552458156560" MODIFIED="1552458158059"/>
 </node>
 </node>
 </node>
