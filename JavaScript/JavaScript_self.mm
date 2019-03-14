@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="123" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="124" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x6761;&#x4ef6;(&#x4e09;&#x5143;)&#x8fd0;&#x7b97;&#x7b26;" POSITION="right" ID="ID_1533474054" CREATED="1541639502335" MODIFIED="1541640532405">
 <edge COLOR="#7c0000"/>
@@ -737,7 +737,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>switch </b></font></span>(WHERE) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>case </b></font></span><span style="color: #6a8759"><font color="#6a8759">'google'</font></span>:<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>case </b></font></span><span style="color: #6a8759"><font color="#6a8759">'bing'</font></span>:<br/>        targetDom[<span style="color: #6897bb"><font color="#6897bb">0</font></span>].<span style="color: #9876aa"><font color="#9876aa">prepend</font></span>(containerDiv[<span style="color: #6897bb"><font color="#6897bb">0</font></span>])<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>break<br/></b></font></span><font color="#cc7832"><b><span style="color: #cc7832; font-weight: bold">    case </span></b></font><span style="color: #6a8759"><font color="#6a8759">'baidu'</font></span>:<br/>        targetDom[<span style="color: #6897bb"><font color="#6897bb">0</font></span>].<span style="color: #ffc66d"><font color="#ffc66d">append</font></span>(containerDiv[<span style="color: #6897bb"><font color="#6897bb">0</font></span>])<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>break<br/></b></font></span><font color="#cc7832"><b><span style="color: #cc7832; font-weight: bold">    default</span></b></font>:<br/>        targetDom[<span style="color: #6897bb"><font color="#6897bb">0</font></span>].<span style="color: #ffc66d"><font color="#ffc66d">after</font></span>(containerDiv[<span style="color: #6897bb"><font color="#6897bb">0</font></span>])<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="case" ID="ID_1345267206" CREATED="1552295668219" MODIFIED="1552295671249">
@@ -760,9 +759,129 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>var </b></font></span>i = <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>switch </b></span></font>(i) {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>case </b></font></span>( (i&gt;=<span style="color: #6897bb"><font color="#6897bb">0 </font></span>&amp;&amp; i&lt;=<span style="color: #6897bb"><font color="#6897bb">5</font></span>) ? i : -<span style="color: #6897bb"><font color="#6897bb">1 </font></span>): <br/>           console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'0 ~5'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; <br/></font></span><font color="#cc7832"><span style="color: #cc7832">           </span><span style="color: #cc7832; font-weight: bold"><b>break</b></span><span style="color: #cc7832">;<br/></span><span style="color: #cc7832">    </span><span style="color: #cc7832; font-weight: bold"><b>case </b></span></font><span style="color: #6897bb"><font color="#6897bb">6</font></span>: console.<span style="color: #ffc66d"><font color="#ffc66d">log</font></span>(<span style="color: #6a8759"><font color="#6a8759">'6'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}</pre>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x8ba1;&#x5212;&#x8c03;&#x5ea6;" POSITION="right" ID="ID_547916648" CREATED="1552548257618" MODIFIED="1552548264372">
+<edge COLOR="#00ff00"/>
+<node TEXT="setTimeout" ID="ID_1007586777" CREATED="1552548272538" MODIFIED="1552548275556">
+<node TEXT=" &#x5c06;&#x51fd;&#x6570;&#x7684;&#x6267;&#x884c;&#x63a8;&#x8fdf;&#x5230;&#x4e00;&#x6bb5;&#x65f6;&#x95f4;&#x4e4b;&#x540e;&#x518d;&#x6267;&#x884c;&#xff0c;setTimeout &#x53ea;&#x6267;&#x884c;&#x4e00;&#x6b21;" ID="ID_194724938" CREATED="1552548362658" MODIFIED="1552549304052"/>
+<node ID="ID_1662450341" CREATED="1552548811469" MODIFIED="1552548811469"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>timerId = <span style="color: #ffc66d"><font color="#ffc66d">setTimeout</font></span>(func<span style="color: #cc7832"><font color="#cc7832">, </font></span>delay[<span style="color: #cc7832"><font color="#cc7832">, </font></span>arg1<span style="color: #cc7832"><font color="#cc7832">, </font></span>arg2...])<br/><span style="color: #808080"><font color="#808080">/*<br/></font></span><font color="#808080"><span style="color: #808080">* func&#65306; &#24819;&#35201;&#25191;&#34892;&#30340;&#20989;&#25968;<br/></span><span style="color: #808080">* delay: &#25191;&#34892;&#21069;&#30340;&#24310;&#26102;&#65292;&#20197;&#27627;&#31186;&#20026;&#21333;&#20301;&#65288;1000 &#27627;&#31186; = 1 &#31186;&#65289;<br/></span><span style="color: #808080">* arg:   &#35201;&#20256;&#20837;&#34987;&#25191;&#34892;&#20989;&#25968;&#65288;&#25110;&#20195;&#30721;&#23383;&#31526;&#20018;&#65289;&#30340;&#21442;&#25968;<br/></span><span style="color: #808080">* */</span></font></pre>
+  </body>
+</html>
 
 </richcontent>
 </node>
+<node TEXT="&#x5b9a;&#x65f6;&#x4e00;&#x79d2;&#x6267;&#x884c;&#x4e00;&#x51fd;&#x6570;" ID="ID_198703144" CREATED="1552548813426" MODIFIED="1552548856945">
+<node TEXT="&#x65e0;&#x53c2;&#x6570;" ID="ID_550023339" CREATED="1552548891120" MODIFIED="1552548893731">
+<node ID="ID_235579693" CREATED="1552548857994" MODIFIED="1552548857994"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">sayHi</font></span>() {<br/>  <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Hello'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/><br/><span style="color: #ffc66d"><font color="#ffc66d">setTimeout</font></span>(<span style="color: #ffc66d"><font color="#ffc66d">sayHi</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1000</font></span>)<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5e26;&#x53c2;&#x6570;" ID="ID_423868936" CREATED="1552548884313" MODIFIED="1552548888492">
+<node ID="ID_45661159" CREATED="1552548889234" MODIFIED="1552548889234"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span><span style="color: #ffc66d"><font color="#ffc66d">sayHi</font></span>() {<br/>  <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Hello'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>}<br/><br/><span style="color: #ffc66d"><font color="#ffc66d">setTimeout</font></span>(<span style="color: #ffc66d"><font color="#ffc66d">sayHi</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1000</font></span>)<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT=" &#x9012;&#x5f52;&#x7248; setTimeout" ID="ID_604950927" CREATED="1552549501216" MODIFIED="1552549502419">
+<node TEXT=" &#x5468;&#x671f;&#x6027;&#x8c03;&#x5ea6;&#xff0c;&#x6bd4; setInterval &#x7075;&#x6d3b;&#x7684;&#x591a;" ID="ID_821501425" CREATED="1552549541585" MODIFIED="1552549574530"/>
+<node TEXT="2&#x79d2;&#x5468;&#x671f;" ID="ID_935801155" CREATED="1552549630403" MODIFIED="1552549638046">
+<node ID="ID_1596128985" CREATED="1552549613724" MODIFIED="1552549613724"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>timerId = <span style="color: #ffc66d"><font color="#ffc66d">setInterval</font></span>(() =&gt; <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'tick'</font></span>)<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2000</font></span>)<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1658567400" CREATED="1552549628780" MODIFIED="1552549628780"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>timerId = <span style="color: #ffc66d"><font color="#ffc66d">setTimeout</font></span>(<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>function </b></font></span>tick() {<br/>  <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'tick'</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832">  </span></font>timerId = <span style="color: #ffc66d"><font color="#ffc66d">setTimeout</font></span>(<span style="color: #ffc66d"><font color="#ffc66d">tick</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2000</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #808080"><font color="#808080">// (*)<br/></font></span>}<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2000</font></span>)<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5728;&#x9012;&#x5f52;&#x53ef;&#x7528;&#x6761;&#x4ef6;&#x5224;&#x65ad;&#x4e0b;&#x6b21;&#x8c03;&#x5ea6;&#x7684;&#x65f6;&#x957f;" ID="ID_281544682" CREATED="1552549836459" MODIFIED="1552549885021"/>
+</node>
+</node>
+<node TEXT="clearTimeout" ID="ID_65189284" CREATED="1552549049065" MODIFIED="1552549262806">
+<node TEXT=" setTimeout &#x4e0e; setInterval &#x8c03;&#x7528;&#x65f6;&#x4f1a;&#x8fd4;&#x56de;&#x201c;&#x5b9a;&#x65f6;&#x5668; id&#x201d;" ID="ID_1779686906" CREATED="1552549095036" MODIFIED="1552549120273"/>
+<node TEXT="&#x53d6;&#x6d88;&#x8c03;&#x5ea6;" ID="ID_1363044505" CREATED="1552548944738" MODIFIED="1552548949365">
+<node ID="ID_1564187884" CREATED="1552549149991" MODIFIED="1552549149991"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>timerId = <span style="color: #ffc66d"><font color="#ffc66d">setTimeout</font></span>(...)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">clearTimeout</font></span>(timerId)<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x53d6;&#x6d88;&#x8c03;&#x5ea6;&#x4e4b;&#x540e;timerId&#x4ecd;&#x7136;&#x5b58;&#x5728;" ID="ID_1096081678" CREATED="1552549190449" MODIFIED="1552549209235"/>
+</node>
+</node>
+<node TEXT="setInterval" ID="ID_900543105" CREATED="1552548276361" MODIFIED="1552548281763">
+<node TEXT=" &#x8ba9;&#x51fd;&#x6570;&#x95f4;&#x9694;&#x4e00;&#x5b9a;&#x65f6;&#x95f4;&#x5468;&#x671f;&#x6027;&#x6267;&#x884c;" ID="ID_1300504108" CREATED="1552548373205" MODIFIED="1552548374338"/>
+<node TEXT=" &#x6bcf;&#x95f4;&#x9694; 2 &#x79d2;&#x5c31;&#x4f1a;&#x8f93;&#x51fa;&#x4e00;&#x6761;&#x6d88;&#x606f;&#x3002;5 &#x79d2;&#x4e4b;&#x540e;&#xff0c;&#x8f93;&#x51fa;&#x505c;&#x6b62;" ID="ID_1093094637" CREATED="1552549368497" MODIFIED="1552549370020">
+<node ID="ID_931887911" CREATED="1552549383443" MODIFIED="1552549383443"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080">// &#27599; 2 &#31186;&#37325;&#22797;&#19968;&#27425;<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>let </b></font></span>timerId = <span style="color: #ffc66d"><font color="#ffc66d">setInterval</font></span>(() =&gt; <span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'tick'</font></span>)<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2000</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font><span style="color: #808080"><font color="#808080">// 5 &#31186;&#20043;&#21518;&#20572;&#27490;<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">setTimeout</font></span>(() =&gt; { <span style="color: #ffc66d"><font color="#ffc66d">clearInterval</font></span>(timerId)<span style="color: #cc7832"><font color="#cc7832">; </font></span><span style="color: #ffc66d"><font color="#ffc66d">alert</font></span>(<span style="color: #6a8759"><font color="#6a8759">'stop'</font></span>)<span style="color: #cc7832"><font color="#cc7832">; </font></span>}<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5000</font></span>)<span style="color: #cc7832"><font color="#cc7832">;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x5f39;&#x7a97;&#x4f1a;&#x8ba9; Chrome/Opera/Safari &#x5185;&#x7684;&#x65f6;&#x949f;&#x505c;&#x6b62;" ID="ID_436603785" CREATED="1552549419050" MODIFIED="1552549420355"/>
 </node>
 </node>
 </node>
