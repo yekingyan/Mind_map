@@ -1,9 +1,9 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="&#x5ed6;&#x96ea;&#x5cf0; python3" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537888489239" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="87" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="88" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x89e3;&#x91ca;&#x5668;" FOLDED="true" POSITION="right" ID="ID_987134475" CREATED="1537888500595" MODIFIED="1537889643579" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#007c00"/>
@@ -293,7 +293,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt">string = <span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: &#x5b8b;&#x4f53;"><font color="#6a8759" face="&#x5b8b;&#x4f53;">&#20013;</font></span><span style="color: #6a8759"><font color="#6a8759">'<br/></font></span><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #8888c6"><font color="#8888c6">ord</font></span>(string))<br/><span style="color: #808080"><font color="#808080"># 20013</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -309,7 +308,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #8888c6"><font color="#8888c6">chr</font></span>(<span style="color: #6897bb"><font color="#6897bb">20013</font></span>))<br/><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#20013;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -334,7 +332,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -497,7 +494,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt">n = <span style="color: #6897bb"><font color="#6897bb">0<br/></font></span><span style="color: #cc7832"><font color="#cc7832">while </font></span>n &lt; <span style="color: #6897bb"><font color="#6897bb">10</font></span>:<br/>    n = n + <span style="color: #6897bb"><font color="#6897bb">1<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#22914;&#26524;</font></span><span style="color: #808080"><font color="#808080">n</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#26159;&#20598;&#25968;&#65292;&#25191;&#34892;</font></span><span style="color: #808080"><font color="#808080">continue</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#35821;&#21477;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">    </span></font><span style="color: #cc7832"><font color="#cc7832">if </font></span>n % <span style="color: #6897bb"><font color="#6897bb">2 </font></span>== <span style="color: #6897bb"><font color="#6897bb">0</font></span>:<br/>        <span style="color: #808080"><font color="#808080"># continue</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#35821;&#21477;&#20250;&#30452;&#25509;&#32487;&#32493;&#19979;&#19968;&#36718;&#24490;&#29615;&#65292;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">        </span></font><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#21518;&#32493;&#30340;</font></span><span style="color: #808080"><font color="#808080">print()</font></span><span style="color: #808080; font-family: &#x5b8b;&#x4f53;"><font color="#808080" face="&#x5b8b;&#x4f53;">&#35821;&#21477;&#19981;&#20250;&#25191;&#34892;<br/></font></span><font color="#808080" face="&#x5b8b;&#x4f53;"><span style="color: #808080; font-family: &#x5b8b;&#x4f53;">        </span></font><span style="color: #cc7832"><font color="#cc7832">continue  <br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #8888c6"><font color="#8888c6">print</font></span>(n)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -518,7 +514,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_800457010" CREATED="1538154102700" MODIFIED="1538154102700"><richcontent TYPE="NODE">
@@ -533,7 +528,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x800c; list &#x5219;&#x76f8;&#x53cd;" ID="ID_1107208032" CREATED="1538154113094" MODIFIED="1538154129926"/>
@@ -596,7 +590,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_664104862" CREATED="1538155224770" MODIFIED="1538155224770"><richcontent TYPE="NODE">
@@ -611,7 +604,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1793072497" CREATED="1538155224773" MODIFIED="1538155224773"><richcontent TYPE="NODE">
@@ -626,7 +618,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_489302172" CREATED="1538155224776" MODIFIED="1538155224776"><richcontent TYPE="NODE">
@@ -641,7 +632,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5728;&#x7f29;&#x8fdb;&#x5757;&#x4e2d;&#x7f16;&#x5199;&#x51fd;&#x6570;&#x4f53;" ID="ID_485339517" CREATED="1538155245199" MODIFIED="1538155257201">
@@ -682,6 +672,77 @@
 <node TEXT="&#x9012;&#x5f52;&#x51fd;&#x6570;&#x7684;&#x4f18;&#x70b9;&#x662f;&#x5b9a;&#x4e49;&#x7b80;&#x5355;&#xff0c;&#x903b;&#x8f91;&#x6e05;&#x6670;" ID="ID_1507208827" CREATED="1538156137995" MODIFIED="1538156143214"/>
 <node TEXT=" &#x7406;&#x8bba;&#x4e0a;&#xff0c;&#x6240;&#x6709;&#x7684;&#x9012;&#x5f52;&#x51fd;&#x6570;&#x90fd;&#x53ef;&#x4ee5;&#x5199;&#x6210;&#x5faa;&#x73af;&#x7684;&#x65b9;&#x5f0f;" ID="ID_41767003" CREATED="1538156149634" MODIFIED="1538156151363"/>
 </node>
+</node>
+<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;&#x7f16;&#x7a0b;" POSITION="right" ID="ID_1845505475" CREATED="1552640699195" MODIFIED="1552640707692">
+<edge COLOR="#7c7c00"/>
+<node TEXT=" &#x6982;&#x5ff5;" ID="ID_1992469518" CREATED="1552640728891" MODIFIED="1552640730707">
+<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;&#x7f16;&#x7a0b;" ID="ID_758216714" CREATED="1552640734995" MODIFIED="1552640738660">
+<node TEXT=" Object Oriented Programming,OOP" ID="ID_97513162" CREATED="1552640744026" MODIFIED="1552640745084"/>
+<node TEXT=" OOP&#x628a;&#x5bf9;&#x8c61;&#x4f5c;&#x4e3a;&#x7a0b;&#x5e8f;&#x7684;&#x57fa;&#x672c;&#x5355;&#x5143;" ID="ID_1320906978" CREATED="1552640750187" MODIFIED="1552640751390"/>
+<node TEXT=" &#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x5305;&#x542b;&#x6570;&#x636e;&#x548c;&#x64cd;&#x4f5c;&#x6570;&#x636e;&#x7684;&#x51fd;&#x6570;" ID="ID_1724240273" CREATED="1552640758698" MODIFIED="1552640760757">
+<node TEXT=" &#x6bcf;&#x4e2a;&#x5bf9;&#x8c61;&#x90fd;&#x53ef;&#x4ee5;&#x63a5;&#x6536;&#x5176;&#x4ed6;&#x5bf9;&#x8c61;&#x53d1;&#x8fc7;&#x6765;&#x7684;&#x6d88;&#x606f;&#x5e76;&#x5904;&#x7406;" ID="ID_1249360085" CREATED="1552640769443" MODIFIED="1552640770844"/>
+<node TEXT=" &#x8ba1;&#x7b97;&#x673a;&#x7a0b;&#x5e8f;&#x7684;&#x6267;&#x884c;&#x5c31;&#x662f;&#x4e00;&#x7cfb;&#x5217;&#x6d88;&#x606f;&#x5728;&#x5404;&#x4e2a;&#x5bf9;&#x8c61;&#x4e4b;&#x95f4;&#x4f20;&#x9012;" ID="ID_1196634309" CREATED="1552640776635" MODIFIED="1552640777957"/>
+</node>
+<node TEXT=" &#x4f8b;&#x5b50;" ID="ID_1005757317" CREATED="1552640785450" MODIFIED="1552640787483">
+<node ID="ID_1008744249" CREATED="1552643607227" MODIFIED="1552643607227"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Student(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>   <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__int__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>name<span style="color: #cc7832"><font color="#cc7832">, </font></span>score):<br/>       <span style="color: #94558d"><font color="#94558d">self</font></span>.name = name<br/>       <span style="color: #94558d"><font color="#94558d">self</font></span>.score = score<br/>   <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">print_score</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>       <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">f&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.name<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">,</font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.score<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">&quot;</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x9762;&#x5411;&#x8fc7;&#x7a0b;&#x7f16;&#x7a0b;" ID="ID_1084011082" CREATED="1552643610638" MODIFIED="1552643624059">
+<node TEXT=" &#x9762;&#x5411;&#x8fc7;&#x7a0b;&#x628a;&#x5927;&#x5757;&#x51fd;&#x6570;&#x901a;&#x8fc7;&#x5207;&#x5272;&#x6210;&#x5c0f;&#x5757;&#x51fd;&#x6570;&#x6765;&#x964d;&#x4f4e;&#x7cfb;&#x7edf;&#x7684;&#x590d;&#x6742;&#x5ea6;" ID="ID_1578394492" CREATED="1552643640650" MODIFIED="1552643642095"/>
+<node TEXT=" &#x628a;&#x8ba1;&#x7b97;&#x673a;&#x7a0b;&#x5e8f;&#x89c6;&#x4e3a;&#x4e00;&#x7cfb;&#x5217;&#x7684;&#x547d;&#x4ee4;&#x96c6;&#x5408;&#xff0c;&#x5373;&#x4e00;&#x7ec4;&#x51fd;&#x6570;&#x7684;&#x987a;&#x5e8f;&#x6267;&#x884c;" ID="ID_416676874" CREATED="1552643633210" MODIFIED="1552643635107"/>
+<node TEXT="&#x4f8b;&#x5b50;" ID="ID_1679423606" CREATED="1552643692246" MODIFIED="1552643695251">
+<node ID="ID_1334848266" CREATED="1552643688612" MODIFIED="1552643688612"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">std1 = {<span style="color: #6a8759"><font color="#6a8759">'name'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'Michael'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'score'</font></span>: <span style="color: #6897bb"><font color="#6897bb">98</font></span>}<br/>std2 = {<span style="color: #6a8759"><font color="#6a8759">'name'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'Bob'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'score'</font></span>: <span style="color: #6897bb"><font color="#6897bb">81</font></span>}<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">print_sore</font></span>(std):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">f&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>std[<span style="color: #6a8759"><font color="#6a8759">'name'</font></span>]<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">, </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>std[<span style="color: #6a8759"><font color="#6a8759">'score'</font></span>]<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">&quot;</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT=" &#x7c7b;&#x548c;&#x5b9e;&#x4f8b;" ID="ID_240032657" CREATED="1552643726824" MODIFIED="1552643728343">
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_1213030969" CREATED="1532836018709" MODIFIED="1532836183427">
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="&#x7c7b;" ID="ID_1987366797" CREATED="1532836018709" MODIFIED="1532836206113">
+<font SIZE="14"/>
+<node TEXT="&#x62bd;&#x8c61;&#x7684;&#x6a21;&#x677f;" ID="ID_1463624823" CREATED="1532836018709" MODIFIED="1532836206114">
+<font SIZE="14"/>
+</node>
+</node>
+<node TEXT="&#x5b9e;&#x4f8b;" ID="ID_1127100815" CREATED="1532836018709" MODIFIED="1532836206114">
+<font SIZE="14"/>
+<node TEXT="&#x5177;&#x4f53;&#x7684;&apos;&#x5bf9;&#x8c61;&apos;" ID="ID_1917551549" CREATED="1532836018709" MODIFIED="1532836206114">
+<font SIZE="14"/>
+</node>
+<node TEXT="&#x6bcf;&#x4e2a;&#x5bf9;&#x8c61;&#x6709;&#x76f8;&#x540c;&#x7684;&#x65b9;&#x6cd5;" ID="ID_1069387546" CREATED="1532836018709" MODIFIED="1532836206114">
+<font SIZE="14"/>
+</node>
+<node TEXT="&#x6bcf;&#x4e2a;&#x5bf9;&#x8c61;&#x5404;&#x81ea;&#x7684;&#x6570;&#x636e;&#x53ef;&#x80fd;&#x4e0d;&#x540c;" ID="ID_937690847" CREATED="1532836018709" MODIFIED="1532836206114">
+<font SIZE="14"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT=" &#x8bbf;&#x95ee;&#x9650;&#x5236;" ID="ID_1815958039" CREATED="1552643739325" MODIFIED="1552643740449"/>
 </node>
 </node>
 </map>

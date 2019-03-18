@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="125" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="131" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x72ec;&#x7acb;&#x4f7f;&#x7528;Django ORM" POSITION="right" ID="ID_928227116" CREATED="1551273918472" MODIFIED="1551273933422">
 <edge COLOR="#7c007c"/>
@@ -1327,7 +1327,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4e5f;&#x53ef;&#x4ee5;&#x5728;serializers&#x4e0b;&#x52a0;&#x5165;UniqueTogetherValidator&#x7684;validator&#x9a8c;&#x8bc1;" ID="ID_1486471087" CREATED="1552408475450" MODIFIED="1552408519029">
+<node TEXT="&#x4e5f;&#x53ef;&#x4ee5;&#x5728;serializers&#x4e0b;&#x52a0;&#x5165;UniqueTogetherValidator&#x7684;validator&#x9a8c;&#x8bc1;" ID="ID_1486471087" CREATED="1552408475450" MODIFIED="1552755719286">
+<font BOLD="false"/>
 <node TEXT="&#x53ef;&#x540c;&#x65f6;unique_together&#x4f7f;&#x7528;&#x3002;&#x4fbf;&#x5e76;&#x4e0d;&#x6e05;&#x695a;&#x80fd;&#x5426;&#x5355;&#x72ec;&#x4f7f;&#x7528;" ID="ID_1125552601" CREATED="1552408526294" MODIFIED="1552408608801"/>
 <node ID="ID_1309229709" CREATED="1552408810168" MODIFIED="1552408810168"><richcontent TYPE="NODE">
 
@@ -1479,6 +1480,265 @@
   </head>
   <body>
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">get_serializer_class</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    &#35814;&#24773;&#19982;&#21019;&#24314;&#29992;&#19981;&#21516;&#30340;serializer<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font><span style="color: #6a8759"><font color="#6a8759">&quot;&quot;&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    Return the class to use for the serializer.<br/></span><span style="color: #6a8759">    Defaults to using `self.serializer_class`.<br/></span><span style="color: #6a8759"><br/></span><span style="color: #6a8759">    You may want to override this if you need to provide different<br/></span><span style="color: #6a8759">    serializations depending on the incoming request.<br/></span><span style="color: #6a8759"><br/></span><span style="color: #6a8759">    (Eg. admins get full serialization, others get basic serialization)<br/></span><span style="color: #6a8759">    &quot;&quot;&quot;<br/></span><span style="color: #6a8759">    </span></font>serializer_action = {<br/>        <span style="color: #6a8759"><font color="#6a8759">'retrieve'</font></span>: UserDetailSerializer<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #6a8759"><font color="#6a8759">'create'</font></span>: UserRegisterSerializer<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>serializer_action.get(<span style="color: #94558d"><font color="#94558d">self</font></span>.action<span style="color: #cc7832"><font color="#cc7832">, </font></span>UserDetailSerializer)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="drf &#x81ea;&#x52a8;&#x5224;&#x65ad;&#x6570;&#x636e;&#x5199;&#x8fdb;&#x6570;&#x636e;&#x5e93;&#xa;&#x5982;&#x5f53;&#x524d;&#x7528;&#x6237;id&#xff0c;&#x521b;&#x5efa;&#x65f6;&#x95f4;" POSITION="right" ID="ID_203079708" CREATED="1552727447078" MODIFIED="1552728066509">
+<edge COLOR="#00ffff"/>
+<node ID="ID_1011260090" CREATED="1552727499516" MODIFIED="1552727499516"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>LeavingMessageSerializer(serializers.ModelSerializer):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    &#29992;&#25143;&#30041;&#35328;serializer<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font>user = serializers.HiddenField(<br/>        <span style="color: #aa4926"><font color="#aa4926">default</font></span>=serializers.CurrentUserDefault()<br/>    )</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x9690;&#x85cf;&#x5b57;&#x6bb5;" ID="ID_1000612822" CREATED="1552727941919" MODIFIED="1552727944389">
+<node TEXT=" &#x4e0d;&#x6839;&#x636e;&#x7528;&#x6237;&#x8f93;&#x5165;&#x83b7;&#x53d6;&#x503c;&#x7684;&#x5b57;&#x6bb5;&#x7c7b;&#xff0c;&#x800c;&#x662f;&#x4ece;&#x9ed8;&#x8ba4;&#x503c;&#x6216;&#x53ef;&#x8c03;&#x7528;&#x503c;&#x4e2d;&#x83b7;&#x53d6;&#x503c;" ID="ID_1682084399" CREATED="1552728085742" MODIFIED="1552728087487"/>
+<node TEXT=" &#x5982;&#x679c;&#x9700;&#x8981;&#x6839;&#x636e;&#x67d0;&#x4e9b;&#x9884;&#x5148;&#x63d0;&#x4f9b;&#x7684;&#x5b57;&#x6bb5;&#x503c;&#x8fd0;&#x884c;&#x67d0;&#x4e9b;&#x9a8c;&#x8bc1;&#xff0c;&#x5219;&#x901a;&#x5e38;&#x53ea;&#x9700;&#x8981; HiddenField &#x7c7b;&#xff0c;&#x800c;&#x4e0d;&#x662f;&#x5c06;&#x6240;&#x6709;&#x8fd9;&#x4e9b;&#x5b57;&#x6bb5;&#x516c;&#x5f00;&#x7ed9;&#x6700;&#x7ec8;&#x7528;&#x6237;" ID="ID_1002605225" CREATED="1552728107641" MODIFIED="1552728110095"/>
+<node TEXT="user&#x662f;&#x662f;&#x81ea;&#x52a8;&#x5224;&#x65ad;&#x540e;&#x8d4b;&#x503c;&#x7684;" ID="ID_52034107" CREATED="1552727559110" MODIFIED="1552727567979"/>
+</node>
+<node TEXT="HiddenField" ID="ID_1146667362" CREATED="1552727504440" MODIFIED="1552727511144">
+<node TEXT="default &#x662f;&#x7c7b;&#xff0c;&#x6709;set_context&#x65b9;&#x6cd5;" ID="ID_1950731890" CREATED="1552727636953" MODIFIED="1552727894102"/>
+<node TEXT="default = CurrentShopDefault()" ID="ID_102225088" CREATED="1552727812955" MODIFIED="1552727911094"/>
+<node ID="ID_916255858" CREATED="1552727806805" MODIFIED="1552727867720"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>CurrentShopDefault(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">set_context</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>serializer_field):<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>.shop = serializer_field.context[<span style="color: #6a8759"><font color="#6a8759">'request'</font></span>].user.shop<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__call__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.shop</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="modified = serializers.HiddenField(default=timezone.now)" ID="ID_830317958" CREATED="1552728008435" MODIFIED="1552728013201"/>
+</node>
+</node>
+<node TEXT="drf &#x4e00;&#x5b57;&#x6bb5;&#x53ea;&#x5305;&#x542b;&#x4e8e;&#x8f93;&#x51fa;api" POSITION="right" ID="ID_1551432410" CREATED="1552728164874" MODIFIED="1552728197082">
+<edge COLOR="#7c0000"/>
+<node TEXT="serializer&#x4e0b;&#x7684;read_only&#x53c2;&#x6570;" ID="ID_1075123310" CREATED="1552728203291" MODIFIED="1552728225365"/>
+<node TEXT=" &#x53ea;&#x8bfb;&#x5b57;&#x6bb5;&#x5305;&#x542b;&#x4e8e;&#x8f93;&#x51fa; API &#x4e2d;&#xff0c;&#x4e0d;&#x5e94;&#x8be5;&#x5305;&#x542b;&#x5728;&#x9700;&#x8981;&#x521b;&#x5efa;&#x6216;&#x66f4;&#x65b0;&#x64cd;&#x4f5c;&#x7684;&#x8f93;&#x5165; API &#x4e2d;" ID="ID_310674940" CREATED="1552728233739" MODIFIED="1552728235405"/>
+<node ID="ID_1749542597" CREATED="1552728253488" MODIFIED="1552728263711"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">add_time = serializers.DateTimeField(<span style="color: #aa4926"><font color="#aa4926">read_only</font></span>=<span style="color: #cc7832"><font color="#cc7832">True, </font></span><span style="color: #aa4926"><font color="#aa4926">format</font></span>=<span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d %H:%M:%S'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="drf &#x4e00;&#x5b57;&#x6bb5;&#x53ea;&#x5305;&#x542b;&#x4e8e;&#x8f93;&#x5165;api" POSITION="right" ID="ID_78187712" CREATED="1552728283379" MODIFIED="1552728294791">
+<edge COLOR="#00007c"/>
+<node TEXT=" serializer&#x4e0b;&#x7684;write_only&#x53c2;&#x6570;" ID="ID_1936986551" CREATED="1552728313091" MODIFIED="1552728324374"/>
+<node TEXT=" &#x5c06;&#x5176;&#x8bbe;&#x7f6e;&#x4e3a; True &#x4ee5;&#x786e;&#x4fdd;&#x5728;&#x66f4;&#x65b0;&#x6216;&#x521b;&#x5efa;&#x5b9e;&#x4f8b;&#x65f6;&#x53ef;&#x4ee5;&#x4f7f;&#x7528;&#x8be5;&#x5b57;&#x6bb5;&#xff0c;&#x4f46;&#x5728;&#x5e8f;&#x5217;&#x5316;&#x8868;&#x793a;&#x65f6;&#x4e0d;&#x5305;&#x62ec;&#x8be5;&#x5b57;&#x6bb5;" ID="ID_263700925" CREATED="1552728305487" MODIFIED="1552728308085"/>
+<node ID="ID_1919560689" CREATED="1552728379853" MODIFIED="1552728379853"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">password = serializers.CharField(<span style="color: #aa4926"><font color="#aa4926">label</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#23494;&#30721;'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">write_only</font></span>=<span style="color: #cc7832"><font color="#cc7832">True, </font></span><span style="color: #aa4926"><font color="#aa4926">help_text</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#23494;&#30721;'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="axios &#x4f20;&#x9012;&#x53c2;&#x6570; form" POSITION="right" ID="ID_904623127" CREATED="1552737666602" MODIFIED="1552737978572">
+<edge COLOR="#007c00"/>
+<node TEXT="&#x8bbe;&#x7f6e;&#x4e0d;&#x540c;&#x7684;&#x5934;&#x90e8;" ID="ID_1604863057" CREATED="1552742440848" MODIFIED="1552742450343"/>
+<node TEXT="&#x4f20;json" ID="ID_1850695821" CREATED="1552737979453" MODIFIED="1552737982654">
+<node TEXT=" application/json" ID="ID_1447791654" CREATED="1552742434053" MODIFIED="1552742435640"/>
+<node TEXT="&#x9ed8;&#x8ba4;&#x4f20;json&#x683c;&#x5f0f;" ID="ID_779681781" CREATED="1552742314238" MODIFIED="1552742324435"/>
+</node>
+<node TEXT="&#x4f20;formdata" ID="ID_566915963" CREATED="1552737982998" MODIFIED="1552737988566">
+<node TEXT="&#x8bbe;&#x5934;" ID="ID_37093795" CREATED="1552743449264" MODIFIED="1552743453473">
+<node TEXT=" application/x-www-form-urlencoded" ID="ID_1022635733" CREATED="1552742413268" MODIFIED="1552742414677"/>
+</node>
+<node TEXT="&#x518d;&#x8f6c;&#x6362;data" ID="ID_926274028" CREATED="1552742954048" MODIFIED="1552743447774">
+<node TEXT="&#x6216; qs.stringify()" ID="ID_673323317" CREATED="1552743003069" MODIFIED="1552743468284">
+<node ID="ID_1456601480" CREATED="1552743025608" MODIFIED="1552743190496"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 16px; line-height: 22px; white-space: pre">
+      <div style="line-height: 22px">
+        <div>
+          <font color="#9cdcfe">headers:</font>&#160;{
+        </div>
+        <div>
+          <font color="#ce9178">'Content-Type'</font><font color="#9cdcfe">:</font>&#160;<font color="#ce9178">'application/x-www-form-urlencoded'</font>
+        </div>
+        <div>
+          },
+        </div>
+        <div>
+          <font color="#9cdcfe">data:</font>&#160;<font color="#9cdcfe">qs</font>.<font color="#dcdcaa">stringify</font>(<font color="#9cdcfe">dataObj</font>),
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6216; new FormData" ID="ID_755453747" CREATED="1552743460287" MODIFIED="1552744381230">
+<node ID="ID_893787544" CREATED="1552744573864" MODIFIED="1552744573864"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>const </b></font></span>formData = <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>new </b></font></span>FormData()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>formData.<span style="color: #ffc66d"><font color="#ffc66d">append</font></span>(<span style="color: #6a8759"><font color="#6a8759">'file'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>this</b></span></font>.<span style="color: #9876aa"><font color="#9876aa">file</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>formData.<span style="color: #ffc66d"><font color="#ffc66d">append</font></span>(<span style="color: #6a8759"><font color="#6a8759">'subject'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>this</b></span></font>.<span style="color: #9876aa"><font color="#9876aa">subject</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>formData.<span style="color: #ffc66d"><font color="#ffc66d">append</font></span>(<span style="color: #6a8759"><font color="#6a8759">'message'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>this</b></span></font>.<span style="color: #9876aa"><font color="#9876aa">message</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>formData.<span style="color: #ffc66d"><font color="#ffc66d">append</font></span>(<span style="color: #6a8759"><font color="#6a8759">'message_type'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><font color="#cc7832"><span style="color: #cc7832; font-weight: bold"><b>this</b></span></font>.<span style="color: #9876aa"><font color="#9876aa">message_type</font></span>)<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span><span style="color: #ffc66d"><font color="#ffc66d">addMessage</font></span>(formData).<span style="color: #ffc66d"><font color="#ffc66d">then</font></span>((response)=&gt; {<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>this</b></font></span>.<span style="color: #ffc66d"><font color="#ffc66d">getMessage</font></span>()<span style="color: #cc7832"><font color="#cc7832">;<br/></font></span>})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x4f20;&#x5e26;&#x6587;&#x4ef6;&#x7684;formdata" ID="ID_774906634" CREATED="1552742390426" MODIFIED="1552742397593">
+<node ID="ID_1527951118" CREATED="1552737766151" MODIFIED="1552737772093"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 16px; line-height: 22px; white-space: pre">
+      <font color="#9cdcfe">axios</font>.<font color="#dcdcaa">post</font>(<font color="#ce9178">`</font><font color="#569cd6">${</font><font color="#9cdcfe">local</font><font color="#569cd6">}</font><font color="#ce9178">/messages/`</font>, <font color="#9cdcfe">params</font>, {<font color="#9cdcfe">headers:</font>{ <font color="#ce9178">'Content-Type'</font><font color="#9cdcfe">:</font>&#160;<font color="#ce9178">'multipart/form-data'</font>&#160; }})
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_420313040" CREATED="1552744796778" MODIFIED="1552744801236"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 16px; line-height: 22px; white-space: pre">
+      <div>
+        <font color="#dcdcaa">getMessage</font>&#160;() { <font color="#6a9955">//&#33719;&#21462;&#30041;&#35328;</font>
+      </div>
+      <div>
+        <font color="#dcdcaa">getMessages</font>().<font color="#dcdcaa">then</font>((<font color="#9cdcfe">response</font>)<font color="#569cd6">=&gt;</font>&#160;{
+      </div>
+      <div>
+        <font color="#569cd6">this</font>.<font color="#9cdcfe">messageAll</font>&#160;= <font color="#9cdcfe">response</font>.<font color="#9cdcfe">data</font>.<font color="#9cdcfe">results</font>;
+      </div>
+      <div>
+        }).<font color="#dcdcaa">catch</font>(<font color="#569cd6">function</font>&#160;(<font color="#9cdcfe">error</font>) {
+      </div>
+      <div>
+        <font color="#4ec9b0">console</font>.<font color="#dcdcaa">log</font>(<font color="#9cdcfe">error</font>);
+      </div>
+      <div>
+        });
+      </div>
+      <div>
+        },
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="drf &#x8fd4;&#x56de;&#x522b;&#x540d;&#x5b57;&#x6bb5;(&#x6620;&#x5c04;modle&#x5b57;&#x6bb5;&#x540d;)" POSITION="right" ID="ID_1158201261" CREATED="1552758125881" MODIFIED="1552758171919">
+<edge COLOR="#007c7c"/>
+<node TEXT=" source&#x53c2;&#x6570;" ID="ID_515363587" CREATED="1552758196084" MODIFIED="1552758202333">
+<node TEXT="&#x6620;&#x5c04;model&#x4e2d;&#x7684;&#x5b57;&#x6bb5;" ID="ID_263334639" CREATED="1552758202540" MODIFIED="1552758214205"/>
+<node TEXT="(model&#x4e2d;&#x7684;&#x5b57;&#x6bb5;&#x53ef;&#x7528; db_column&#x53c2;&#x6570;&#x6620;&#x5c04;&#x6570;&#x636e;&#x5e93;&#x4e2d;&#x7684;&#x5b57;&#x6bb5;)" ID="ID_1001703867" CREATED="1552758214767" MODIFIED="1552758275208"/>
+<node TEXT="&#x53ea;&#x80fd;&#x8bfb;&#xff0c;&#x9664;&#x975e;&#x5728;&#x6570;&#x636e;&#x5e93;&#x4e2d;&#x52a0;&#x5165;&#x8be5;&#x5b57;&#x6bb5;" ID="ID_932034015" CREATED="1552758325036" MODIFIED="1552758362799"/>
+<node ID="ID_1804856922" CREATED="1552758186187" MODIFIED="1552758194641"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">mobile = serializers.CharField(<span style="color: #aa4926"><font color="#aa4926">source</font></span>=<span style="color: #6a8759"><font color="#6a8759">'signer_mobile'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">11</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">read_only</font></span>=<span style="color: #cc7832"><font color="#cc7832">True</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" SerializerMethodField&#x7c7b;" ID="ID_91017792" CREATED="1552758796879" MODIFIED="1552758803832">
+<node TEXT="&#x6307;&#x5b9a;get_validate_mobile&#x65b9;&#x6cd5;" ID="ID_1897667338" CREATED="1552758836320" MODIFIED="1552758873510"/>
+<node TEXT="&#x53ef;&#x6620;&#x5c04;model&#x4e2d;&#x7684;&#x5b57;&#x6bb5;" ID="ID_322172441" CREATED="1552758874346" MODIFIED="1552758893270"/>
+<node TEXT="&#x53ef;&#x9a8c;&#x8bc1;&#x5b57;&#x6bb5;" ID="ID_1144203343" CREATED="1552758894662" MODIFIED="1552758903010"/>
+<node ID="ID_653839473" CREATED="1552758828538" MODIFIED="1552758834792"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>AddressSerializer(serializers.ModelSerializer):<font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">    </span></font>mobile = serializers.SerializerMethodField(<span style="color: #6a8759"><font color="#6a8759">'get_validate_mobile'</font></span>)  <span style="color: #808080"><font color="#808080"># &#29992;mobile &#23383;&#27573; &#26144;&#23556; signer_mobile<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">get_validate_mobile</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>obj):<br/>        mobile = obj.signer_mobile<br/>        <span style="color: #808080"><font color="#808080"># &#39564;&#35777;&#25163;&#26426;&#21495;&#30721;&#26159;&#21512;&#27861;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>REGEX_MOBILE = <span style="color: #6a8759"><font color="#6a8759">&quot;^1[358]\d{9}$|^147\d{8}$|^176\d{8}$&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        </span></font><span style="color: #cc7832"><font color="#cc7832">if not </font></span>re.match(REGEX_MOBILE<span style="color: #cc7832"><font color="#cc7832">, </font></span>mobile):<br/>            <span style="color: #cc7832"><font color="#cc7832">raise </font></span>serializers.ValidationError(<span style="color: #6a8759"><font color="#6a8759">'&#25163;&#26426;&#21495;&#30721;&#38750;&#27861;'</font></span>)<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span>mobile</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="rdf &#x524d;&#x7aef;&#x53c2;&#x6570;&#x9a8c;&#x8bc1;" POSITION="right" ID="ID_241149742" CREATED="1552758035203" MODIFIED="1552758063190">
+<edge COLOR="#7c007c"/>
+<node TEXT="validate_&#x53c2;&#x6570;() &#x65b9;&#x6cd5;" ID="ID_1967820746" CREATED="1552758095624" MODIFIED="1552758109272">
+<node ID="ID_59313577" CREATED="1552758081737" MODIFIED="1552758090399"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>AddressSerializer(serializers.ModelSerializer):<font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">    </span></font>signer_mobile = serializers.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">11</font></span>)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">validate_signer_mobile</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>signer_mobile):<br/><br/>        <span style="color: #808080"><font color="#808080"># &#39564;&#35777;&#25163;&#26426;&#21495;&#30721;&#26159;&#21512;&#27861;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>REGEX_MOBILE = <span style="color: #6a8759"><font color="#6a8759">&quot;^1[358]\d{9}$|^147\d{8}$|^176\d{8}$&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">        </span></font><span style="color: #cc7832"><font color="#cc7832">if not </font></span>re.match(REGEX_MOBILE<span style="color: #cc7832"><font color="#cc7832">, </font></span>signer_mobile):<br/>            <span style="color: #cc7832"><font color="#cc7832">raise </font></span>serializers.ValidationError(<span style="color: #6a8759"><font color="#6a8759">'&#25163;&#26426;&#21495;&#30721;&#38750;&#27861;'</font></span>)<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span>signer_mobile</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x591a;&#x4e2a;&#x5b57;&#x6bb5;&#x8054;&#x5408;&#x9a8c;&#x8bc1;" ID="ID_1439669117" CREATED="1552759031324" MODIFIED="1552759046049">
+<node ID="ID_739229767" CREATED="1552759196030" MODIFIED="1552759196030"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">validate</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>attrs):<br/>    <span style="color: #808080"><font color="#808080"># &#20256;&#36827;&#26469;&#20160;&#20040;&#21442;&#25968;&#65292;&#23601;&#36820;&#22238;&#20160;&#20040;&#21442;&#25968;&#65292;&#19968;&#33324;&#24773;&#20917;&#19979;&#29992;attrs<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #cc7832"><font color="#cc7832">if </font></span>attrs[<span style="color: #6a8759"><font color="#6a8759">'start'</font></span>] &gt; attrs[<span style="color: #6a8759"><font color="#6a8759">'finish'</font></span>]:<br/>        <span style="color: #cc7832"><font color="#cc7832">raise </font></span>serializers.ValidationError(<span style="color: #6a8759"><font color="#6a8759">&quot;finish must occur after start&quot;</font></span>)<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>attrs</pre>
   </body>
 </html>
 
