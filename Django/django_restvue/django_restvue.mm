@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="131" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="140" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x72ec;&#x7acb;&#x4f7f;&#x7528;Django ORM" POSITION="right" ID="ID_928227116" CREATED="1551273918472" MODIFIED="1551273933422">
 <edge COLOR="#7c007c"/>
@@ -1674,6 +1674,9 @@
 </node>
 </node>
 </node>
+<node TEXT="TODO: &#x4e0b;&#x4e0b;" POSITION="right" ID="ID_1829331412" CREATED="1552917742152" MODIFIED="1552917771761">
+<edge COLOR="#00007c"/>
+</node>
 <node TEXT="drf &#x8fd4;&#x56de;&#x522b;&#x540d;&#x5b57;&#x6bb5;(&#x6620;&#x5c04;modle&#x5b57;&#x6bb5;&#x540d;)" POSITION="right" ID="ID_1158201261" CREATED="1552758125881" MODIFIED="1552758171919">
 <edge COLOR="#007c7c"/>
 <node TEXT=" source&#x53c2;&#x6570;" ID="ID_515363587" CREATED="1552758196084" MODIFIED="1552758202333">
@@ -1745,6 +1748,106 @@
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="drf &#x5b9a;&#x4e49;url&#x53d6;&#x8be6;&#x60c5;&#x7528;&#x4ec0;&#x4e48;&#x5b57;&#x6bb5;" POSITION="right" ID="ID_1538894814" CREATED="1552808397435" MODIFIED="1552962581048">
+<edge COLOR="#ff0000"/>
+<node TEXT=" &#x7528;&#x4e8e;&#x6267;&#x884c;&#x5404;&#x4e2a;&#x6a21;&#x578b;&#x5b9e;&#x4f8b;&#x7684;&#x5bf9;&#x8c61;&#x67e5;&#x627e;&#x7684;&#x6a21;&#x578b;&#x5b57;&#x6bb5;&#x3002;&#x9ed8;&#x8ba4;&#x4e3a; &apos;pk&apos;" ID="ID_1643348596" CREATED="1552808575173" MODIFIED="1552808585900"/>
+<node ID="ID_373620039" CREATED="1552808445064" MODIFIED="1552808453646"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>ShoppingCartViewSet(viewsets.ModelViewSet):<br/><br/>    lookup_field = <span style="color: #6a8759"><font color="#6a8759">'goods'</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x6ce8;&#x610f;&#xff0c;&#x5728;&#x4f7f;&#x7528;&#x8d85;&#x94fe;&#x63a5; API &#x65f6;&#xff0c;&#x5982;&#x679c;&#x9700;&#x8981;&#x4f7f;&#x7528;&#x81ea;&#x5b9a;&#x4e49;&#x503c;&#xff0c;&#x5219;&#x9700;&#x8981;&#x786e;&#x4fdd; API &#x89c6;&#x56fe;&#x548c;&#x5e8f;&#x5217;&#x5316;&#x5668;&#x7c7b;&#x90fd;&#x8bbe;&#x7f6e;&#x67e5;&#x627e;&#x5b57;&#x6bb5;" ID="ID_1193785374" CREATED="1552808623391" MODIFIED="1552808687837"/>
+</node>
+<node TEXT="serializer &#x7528;related_name&#x53cd;&#x67e5;" POSITION="right" ID="ID_1109827628" CREATED="1552916992691" MODIFIED="1552917020562">
+<edge COLOR="#7c0000"/>
+<node TEXT=" related_name" ID="ID_108295242" CREATED="1552962247693" MODIFIED="1552962254696">
+<node ID="ID_1604219661" CREATED="1552962255819" MODIFIED="1552962273762"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>IntegralOrderWorks(models.Model):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    &#31215;&#20998;&#25152;&#33021;&#36141;&#20080;&#30340;&#35746;&#21333;&#37096;&#20214;&#35774;&#35745;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;</span></i></font><br/>    Order = models.ForeignKey(<br/>        IntegralOrderHead<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#31215;&#20998;&#28040;&#36153;&#35746;&#21333;'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #aa4926"><font color="#aa4926">on_delete</font></span>=models.CASCADE<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">related_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'integralOrderWorks'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #aa4926"><font color="#aa4926">db_column</font></span>=<span style="color: #6a8759"><font color="#6a8759">'Order_Id'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_870504989" CREATED="1552962350115" MODIFIED="1552962358871"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>IntegralOrderPattern(models.Model):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    &#31215;&#20998;&#25152;&#33021;&#36141;&#20080;&#30340;&#35746;&#21333;&#22270;&#26696;&#35774;&#35745;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;</span></i></font><br/>    Order = models.ForeignKey(<br/>        IntegralOrderHead<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">verbose_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#31215;&#20998;&#28040;&#36153;&#35746;&#21333;'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #aa4926"><font color="#aa4926">on_delete</font></span>=models.CASCADE<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">related_name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'integralOrderPattern'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #aa4926"><font color="#aa4926">db_column</font></span>=<span style="color: #6a8759"><font color="#6a8759">'Order_Id'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="serializer" ID="ID_876720920" CREATED="1552962323184" MODIFIED="1552962325877">
+<node ID="ID_658028889" CREATED="1552962449195" MODIFIED="1552962449195"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UseIntegralOrderDetailSerializer(serializers.ModelSerializer):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    &#28040;&#36153;&#31215;&#20998;&#23450;&#21333;&#35814;&#24773;&#30340;serializer<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font>integralOrderPattern = UseIntegralOrderPatternSerializer(<span style="color: #aa4926"><font color="#aa4926">many</font></span>=<span style="color: #cc7832"><font color="#cc7832">True</font></span>)<br/>    integralOrderWorks = UseIntegralOrderWorksSerializer(<span style="color: #aa4926"><font color="#aa4926">many</font></span>=<span style="color: #cc7832"><font color="#cc7832">True</font></span>)<br/>    <br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        model = IntegralOrderHead<br/>        fields = <span style="color: #6a8759"><font color="#6a8759">'__all__'</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x8ba2;&#x5236;&#x8fd4;&#x56de;&#x7684;&#x5b57;&#x6bb5;" POSITION="right" ID="ID_1463988587" CREATED="1552964692585" MODIFIED="1552964700890">
+<edge COLOR="#007c00"/>
+<node TEXT="SerializerMethodField&#x5b57;&#x6bb5;" ID="ID_195074216" CREATED="1552964733672" MODIFIED="1552964747806">
+<node TEXT=" &#x8fd9;&#x662f;&#x4e00;&#x4e2a;&#x53ea;&#x8bfb;&#x5b57;&#x6bb5;" ID="ID_432030302" CREATED="1552964900336" MODIFIED="1552964902947"/>
+<node TEXT=" &#x5b83;&#x53ef;&#x7528;&#x4e8e;&#x5c06;&#x4efb;&#x4f55;&#x7c7b;&#x578b;&#x7684;&#x6570;&#x636e;&#x6dfb;&#x52a0;&#x5230;&#x5bf9;&#x8c61;&#x7684;&#x5e8f;&#x5217;&#x5316;&#x8868;&#x793a;&#x4e2d;" ID="ID_242100159" CREATED="1552964919113" MODIFIED="1552964920283"/>
+</node>
+<node TEXT="&#x65b9;&#x6cd5;" ID="ID_669627159" CREATED="1552964953570" MODIFIED="1552964957252">
+<node TEXT="method_name&#x6307;&#x5b9a;" ID="ID_1720950536" CREATED="1552964958536" MODIFIED="1552964966571">
+<node TEXT=" SerializerMethodField(method_name=None)" ID="ID_1438460853" CREATED="1552964941015" MODIFIED="1552964942449"/>
+</node>
+<node TEXT="&#x4e0d;&#x6307;&#x5b9a;" ID="ID_1526681167" CREATED="1552964971840" MODIFIED="1552964976173">
+<node TEXT="get_&#x5b57;&#x6bb5;&#x540d;(self, obj)" ID="ID_1077575325" CREATED="1552964748249" MODIFIED="1552964776515"/>
+<node TEXT="obj&#x8fd4;&#x56de;&#x7684;&#x53c2;&#x6570;" ID="ID_729778905" CREATED="1552964777519" MODIFIED="1552964783093"/>
+</node>
+</node>
+<node ID="ID_946968617" CREATED="1552964702327" MODIFIED="1552964725324"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>UseIntegralOrderListSerializer(serializers.ModelSerializer):<br/><br/>    <span style="color: #808080"><font color="#808080"># &#36825;&#20010;&#23383;&#27573;&#22312;model&#20013;&#19981;&#23384;&#22312;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>Business_Type = serializers.SerializerMethodField()<font color="#6a8759"><span style="color: #6a8759"><br/></span><span style="color: #6a8759">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">get_Business_Type</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #808080"><font color="#808080">obj</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #6a8759"><font color="#6a8759">'&#31215;&#20998;&#28040;&#36153;'</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="serializer" POSITION="right" ID="ID_1741499562" CREATED="1552806589560" MODIFIED="1552808128441">
+<edge COLOR="#7c7c00"/>
+<node TEXT=" StringRelatedField" ID="ID_1141346454" CREATED="1552808129017" MODIFIED="1552808138589">
+<node TEXT="&#x5d4c;&#x5165;&#x5916;&#x952e;&#x7684;&#x6240;&#x6709;&#x6570;&#x636e;" ID="ID_1480862590" CREATED="1552808156792" MODIFIED="1552808186412"/>
+</node>
+<node TEXT="PrimaryKeyRelatedField" ID="ID_1278753464" CREATED="1552808187959" MODIFIED="1552808198349"/>
 </node>
 </node>
 </map>
