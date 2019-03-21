@@ -1,0 +1,320 @@
+<map version="freeplane 1.7.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="docker" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1553071504671" STYLE="bubble">
+<font NAME="Noto Sans S Chinese Light" SIZE="14"/>
+<hook NAME="MapStyle" zoom="1.077">
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="combined" BORDER_WIDTH="3.0 px" MAX_WIDTH="10.1 cm" MIN_WIDTH="0.0 cm" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12" BOLD="false" ITALIC="false"/>
+<edge STYLE="sharp_bezier" WIDTH="7"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating" VGAP_QUANTITY="6.8999999999999995 pt">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+<stylenode LOCALIZED_TEXT="styles.ok" VGAP_QUANTITY="6.8999999999999995 pt">
+<icon BUILTIN="button_ok"/>
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.needs_action" VGAP_QUANTITY="6.8999999999999995 pt">
+<icon BUILTIN="messagebox_warning"/>
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.floating_node" VGAP_QUANTITY="6.8999999999999995 pt">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.connection" COLOR="#606060" STYLE="fork" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12" BOLD="false"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important" COLOR="#ff0000" VGAP_QUANTITY="6.8999999999999995 pt">
+<icon BUILTIN="yes"/>
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.question" VGAP_QUANTITY="6.8999999999999995 pt">
+<icon BUILTIN="help"/>
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.key" COLOR="#996600" VGAP_QUANTITY="6.8999999999999995 pt">
+<icon BUILTIN="password"/>
+<font NAME="Noto Sans S Chinese Light" SIZE="12" BOLD="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.idea" VGAP_QUANTITY="6.8999999999999995 pt">
+<icon BUILTIN="idea"/>
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.note" COLOR="#990000" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.date" COLOR="#0033ff" VGAP_QUANTITY="6.8999999999999995 pt">
+<icon BUILTIN="calendar"/>
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.website" COLOR="#006633" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.list" COLOR="#cc6600" VGAP_QUANTITY="6.8999999999999995 pt">
+<icon BUILTIN="list"/>
+<font NAME="Noto Sans S Chinese Light" SIZE="12" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.quotation" COLOR="#338800" STYLE="fork" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.definition" COLOR="#666600" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12" BOLD="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.description" COLOR="#996600" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12" BOLD="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.pending" COLOR="#b3b95c" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode TEXT="&#x4ee3;&#x7801;" COLOR="#c0fdce" BACKGROUND_COLOR="#000000" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+<edge COLOR="#003333"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+<edge COLOR="#808080"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#003366" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+<edge COLOR="#808080"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5" COLOR="#006666" VGAP_QUANTITY="6.8999999999999995 pt">
+<font NAME="Noto Sans S Chinese Light" SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6" VGAP_QUANTITY="6.8999999999999995 pt">
+<font SIZE="12"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="102" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
+<node TEXT=" Docker &#x662f;&#x4ec0;&#x4e48;" POSITION="right" ID="ID_871086341" CREATED="1553071567388" MODIFIED="1553071568767">
+<edge COLOR="#7c007c"/>
+<node TEXT=" Docker &#x5c5e;&#x4e8e; Linux &#x5bb9;&#x5668;&#x7684;&#x4e00;&#x79cd;&#x5c01;&#x88c5;&#xff0c;&#xa;&#x63d0;&#x4f9b;&#x7b80;&#x5355;&#x6613;&#x7528;&#x7684;&#x5bb9;&#x5668;&#x4f7f;&#x7528;&#x63a5;&#x53e3;" ID="ID_721819788" CREATED="1553071575675" MODIFIED="1553071588430"/>
+<node TEXT=" Docker &#x5c06;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#x4e0e;&#x8be5;&#x7a0b;&#x5e8f;&#x7684;&#x4f9d;&#x8d56;&#xff0c;&#x6253;&#x5305;&#x5728;&#x4e00;&#x4e2a;&#x6587;&#x4ef6;&#x91cc;&#x9762;" ID="ID_1838427841" CREATED="1553071608479" MODIFIED="1553071609767"/>
+<node TEXT=" &#x8fd0;&#x884c;&#x8fd9;&#x4e2a;&#x6587;&#x4ef6;&#xff0c;&#x5c31;&#x4f1a;&#x751f;&#x6210;&#x4e00;&#x4e2a;&#x865a;&#x62df;&#x5bb9;&#x5668;" ID="ID_1871139830" CREATED="1553071616084" MODIFIED="1553071617917"/>
+<node TEXT=" &#x7a0b;&#x5e8f;&#x5728;&#x8fd9;&#x4e2a;&#x865a;&#x62df;&#x5bb9;&#x5668;&#x91cc;&#x8fd0;&#x884c;&#xff0c;&#x5c31;&#x597d;&#x50cf;&#x5728;&#x771f;&#x5b9e;&#x7684;&#x7269;&#x7406;&#x673a;&#x4e0a;&#x8fd0;&#x884c;&#x4e00;&#x6837;" ID="ID_249601919" CREATED="1553071624420" MODIFIED="1553071626069"/>
+</node>
+<node TEXT="Docker &#x7684;&#x7528;&#x9014;" POSITION="right" ID="ID_1040751100" CREATED="1553071631969" MODIFIED="1553071639311">
+<edge COLOR="#007c7c"/>
+<node TEXT=" &#x63d0;&#x4f9b;&#x4e00;&#x6b21;&#x6027;&#x7684;&#x73af;&#x5883;" ID="ID_1228950719" CREATED="1553071644773" MODIFIED="1553071646175">
+<node TEXT=" &#x672c;&#x5730;&#x6d4b;&#x8bd5;&#x4ed6;&#x4eba;&#x7684;&#x8f6f;&#x4ef6;" ID="ID_254216102" CREATED="1553071679196" MODIFIED="1553071680285"/>
+<node TEXT=" &#x6301;&#x7eed;&#x96c6;&#x6210;&#x7684;&#x65f6;&#x5019;&#x63d0;&#x4f9b;&#x5355;&#x5143;&#x6d4b;&#x8bd5;&#x548c;&#x6784;&#x5efa;&#x7684;&#x73af;&#x5883;" ID="ID_355388910" CREATED="1553071686659" MODIFIED="1553071688070"/>
+</node>
+<node TEXT=" &#x63d0;&#x4f9b;&#x5f39;&#x6027;&#x7684;&#x4e91;&#x670d;&#x52a1;" ID="ID_1150691649" CREATED="1553071696433" MODIFIED="1553071702172">
+<node TEXT=" &#x56e0;&#x4e3a; Docker &#x5bb9;&#x5668;&#x53ef;&#x4ee5;&#x968f;&#x5f00;&#x968f;&#x5173;&#xff0c;&#x5f88;&#x9002;&#x5408;&#x52a8;&#x6001;&#x6269;&#x5bb9;&#x548c;&#x7f29;&#x5bb9;" ID="ID_1008528663" CREATED="1553071703067" MODIFIED="1553071704574"/>
+</node>
+<node TEXT=" &#x7ec4;&#x5efa;&#x5fae;&#x670d;&#x52a1;&#x67b6;&#x6784;" ID="ID_225458170" CREATED="1553071710388" MODIFIED="1553071711279">
+<node TEXT=" &#x901a;&#x8fc7;&#x591a;&#x4e2a;&#x5bb9;&#x5668;&#xff0c;&#x4e00;&#x53f0;&#x673a;&#x5668;&#x53ef;&#x4ee5;&#x8dd1;&#x591a;&#x4e2a;&#x670d;&#x52a1;" ID="ID_328120804" CREATED="1553071720080" MODIFIED="1553071721142"/>
+<node TEXT=" &#x56e0;&#x6b64;&#x5728;&#x672c;&#x673a;&#x5c31;&#x53ef;&#x4ee5;&#x6a21;&#x62df;&#x51fa;&#x5fae;&#x670d;&#x52a1;&#x67b6;&#x6784;" ID="ID_554586552" CREATED="1553071725176" MODIFIED="1553071726053"/>
+</node>
+</node>
+<node TEXT="&#x5bb9;&#x5668;&#x5bf9;&#x6bd4;&#x865a;&#x62df;&#x673a;" POSITION="right" ID="ID_1981910955" CREATED="1553152415105" MODIFIED="1553152428811">
+<edge COLOR="#ff0000"/>
+<node TEXT="&#x5bb9;&#x5668;" ID="ID_1933006357" CREATED="1553152430155" MODIFIED="1553152449510">
+<node TEXT=" &#x5bb9;&#x5668;&#x53ef;&#x4ee5;&#x5171;&#x4eab;&#x5355;&#x4e2a;&#x5185;&#x6838;" ID="ID_714375802" CREATED="1553153040438" MODIFIED="1553153042072"/>
+<node TEXT=" &#x5b58;&#x5728;&#x4e8e;&#x5bb9;&#x5668;&#x955c;&#x50cf;&#x4e2d;&#x7684;&#x552f;&#x4e00;&#x4fe1;&#x606f;&#x662f;&#x53ef;&#x6267;&#x884c;&#x6587;&#x4ef6;&#x53ca;&#x5176;&#x8f6f;&#x4ef6;&#x5305;&#x4f9d;&#x8d56;&#x9879;" ID="ID_509572471" CREATED="1553153057358" MODIFIED="1553153058839"/>
+</node>
+<node TEXT="&#x865a;&#x62df;&#x673a;" ID="ID_446655136" CREATED="1553152449672" MODIFIED="1553152454471">
+<node TEXT=" &#x8fd0;&#x884c;&#x4e00;&#x4e2a;&#x5b8c;&#x6574;&#x7684;&#x201c;&#x5ba2;&#x6237;&#x201d;&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;" ID="ID_296532353" CREATED="1553153088454" MODIFIED="1553153101928"/>
+<node TEXT=" &#x901a;&#x8fc7;&#x865a;&#x62df;&#x673a;&#x7ba1;&#x7406;&#x7a0b;&#x5e8f;&#x5bf9;&#x4e3b;&#x673a;&#x8d44;&#x6e90;&#x8fdb;&#x884c;&#x865a;&#x62df;&#x8bbf;&#x95ee;" ID="ID_921183334" CREATED="1553153103046" MODIFIED="1553153108551"/>
+<node TEXT=" VM&#x63d0;&#x4f9b;&#x7684;&#x73af;&#x5883;&#x6bd4;&#x5927;&#x591a;&#x6570;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#x9700;&#x8981;&#x7684;&#x8d44;&#x6e90;&#x66f4;&#x591a;" ID="ID_1084795860" CREATED="1553153109511" MODIFIED="1553153110808"/>
+</node>
+</node>
+<node TEXT="&#x4f7f;&#x7528;" POSITION="right" ID="ID_1041454995" CREATED="1553149808780" MODIFIED="1553153634466" VGAP_QUANTITY="6.8999999999999995 pt">
+<edge COLOR="#7c7c00"/>
+<node TEXT=" &#x4e00;&#x65e6;&#x5bb9;&#x5668;&#x751f;&#x6210;&#xff0c;&#x5c31;&#x4f1a;&#x540c;&#x65f6;&#x5b58;&#x5728;&#x4e24;&#x4e2a;&#x6587;&#x4ef6;" ID="ID_309487235" CREATED="1553153201694" MODIFIED="1553153216718">
+<node TEXT="  image &#x6587;&#x4ef6;" ID="ID_1108254200" CREATED="1553153220840" MODIFIED="1553153225168"/>
+<node TEXT=" &#x5bb9;&#x5668;&#x6587;&#x4ef6;" ID="ID_333046517" CREATED="1553153225967" MODIFIED="1553153233098">
+<node TEXT=" image &#x6587;&#x4ef6;&#x751f;&#x6210;&#x7684;&#x5bb9;&#x5668;&#x5b9e;&#x4f8b;" ID="ID_1841323938" CREATED="1553153233678" MODIFIED="1553153241112"/>
+</node>
+</node>
+<node TEXT="&#x8fd0;&#x884c;" ID="ID_486231958" CREATED="1553151102687" MODIFIED="1553151106145">
+<node TEXT="&#x547d;&#x4ee4;" ID="ID_204475007" CREATED="1553150085281" MODIFIED="1553150088532">
+<node TEXT=" docker run ubuntu:15.10 /bin/echo &quot;Hello world&quot;" ID="ID_1786258515" CREATED="1553149860559" MODIFIED="1553149867275"/>
+</node>
+<node TEXT="&#x53c2;&#x6570;" ID="ID_1474182807" CREATED="1553150092161" MODIFIED="1553150093867">
+<node TEXT="docker" ID="ID_1604376347" CREATED="1553150096295" MODIFIED="1553150099388">
+<node TEXT="Docker &#x7684;&#x4e8c;&#x8fdb;&#x5236;&#x6267;&#x884c;&#x6587;&#x4ef6;" ID="ID_669558902" CREATED="1553150130420" MODIFIED="1553150141974"/>
+</node>
+<node TEXT="run" ID="ID_605291419" CREATED="1553150100281" MODIFIED="1553150101363">
+<node TEXT=" &#x4e0e;&#x524d;&#x9762;&#x7684; docker &#x7ec4;&#x5408;&#x6765;&#x8fd0;&#x884c;&#x4e00;&#x4e2a;&#x5bb9;&#x5668;" ID="ID_500861327" CREATED="1553150142744" MODIFIED="1553150144108"/>
+</node>
+<node TEXT="ubuntu:15.10" ID="ID_1129408626" CREATED="1553150101640" MODIFIED="1553150113139">
+<node TEXT=" &#x6307;&#x5b9a;&#x8981;&#x8fd0;&#x884c;&#x7684;&#x955c;&#x50cf;" ID="ID_1542494107" CREATED="1553150153866" MODIFIED="1553150155130"/>
+<node TEXT=" &#x4ece;&#x672c;&#x5730;&#x4e3b;&#x673a;&#x4e0a;&#x67e5;&#x627e;&#x955c;&#x50cf;&#x662f;&#x5426;&#x5b58;&#x5728;" ID="ID_313624472" CREATED="1553150175593" MODIFIED="1553150189067"/>
+<node TEXT=" &#x5982;&#x679c;&#x4e0d;&#x5b58;&#x5728;&#xff0c;Docker &#x5c31;&#x4f1a;&#x4ece;&#x955c;&#x50cf;&#x4ed3;&#x5e93; Docker Hub &#x4e0b;&#x8f7d;&#x516c;&#x5171;&#x955c;&#x50cf;" ID="ID_1497780572" CREATED="1553150190032" MODIFIED="1553150191163"/>
+</node>
+<node TEXT="/bin/echo &quot;Hello world&quot;" ID="ID_96885224" CREATED="1553150114112" MODIFIED="1553150128331">
+<node TEXT=" &#x5728;&#x542f;&#x52a8;&#x7684;&#x5bb9;&#x5668;&#x91cc;&#x6267;&#x884c;&#x7684;&#x547d;&#x4ee4;" ID="ID_157796465" CREATED="1553150195707" MODIFIED="1553150196651"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x4ea4;&#x4e92;&#x5f0f;&#x8fd0;&#x884c;" ID="ID_183405857" CREATED="1553151111576" MODIFIED="1553151127337">
+<node TEXT="&#x547d;&#x4ee4;" ID="ID_1509194743" CREATED="1553151134016" MODIFIED="1553151142466">
+<node TEXT=" docker run -it ubuntu:15.10 /bin/bash" ID="ID_1741570852" CREATED="1553151143369" MODIFIED="1553151146994"/>
+</node>
+<node TEXT="&#x53c2;&#x6570;" ID="ID_536257979" CREATED="1553151153624" MODIFIED="1553151158760">
+<node TEXT="-t" ID="ID_1338394822" CREATED="1553151172543" MODIFIED="1553151174737">
+<node TEXT=" &#x5728;&#x65b0;&#x5bb9;&#x5668;&#x5185;&#x6307;&#x5b9a;&#x4e00;&#x4e2a;&#x4f2a;&#x7ec8;&#x7aef;&#x6216;&#x7ec8;&#x7aef;" ID="ID_806486592" CREATED="1553151175975" MODIFIED="1553151193066"/>
+</node>
+<node TEXT="-i" ID="ID_510917043" CREATED="1553151158984" MODIFIED="1553151162954">
+<node TEXT=" &#x5141;&#x8bb8;&#x4f60;&#x5bf9;&#x5bb9;&#x5668;&#x5185;&#x7684;&#x6807;&#x51c6;&#x8f93;&#x5165; (STDIN) &#x8fdb;&#x884c;&#x4ea4;&#x4e92;" ID="ID_583214864" CREATED="1553151187927" MODIFIED="1553151190312"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x540e;&#x53f0;&#x6a21;&#x5f0f;" ID="ID_1011929940" CREATED="1553151210951" MODIFIED="1553151219770">
+<node TEXT="&#x547d;&#x4ee4;" ID="ID_146160934" CREATED="1553151235784" MODIFIED="1553151239891">
+<node TEXT=" docker run -d ubuntu:15.10 /bin/sh -c &quot;while true; do echo hello world; sleep 1; done&quot;" ID="ID_1205778394" CREATED="1553151240176" MODIFIED="1553151241567"/>
+</node>
+<node TEXT="-d" ID="ID_667789499" CREATED="1553151448665" MODIFIED="1553151450513"/>
+</node>
+<node TEXT="&#x67e5;&#x770b;&#x6b63;&#x5728;&#x8fd0;&#x884c;&#x7684;&#x5bb9;&#x5668;" ID="ID_1153889065" CREATED="1553151452095" MODIFIED="1553151484948">
+<node TEXT="docker ps" ID="ID_1947712341" CREATED="1553151485794" MODIFIED="1553151491482">
+<node TEXT="&#x901a;&#x8fc7; CONTAINER ID &#x786e;&#x5b9a;&#x6b63;&#x5728;&#x8fd0;&#x884c;&#x7684;&#x5bb9;&#x5668;" ID="ID_741007709" CREATED="1553151612359" MODIFIED="1553151634048"/>
+</node>
+<node TEXT="&#x67e5;&#x770b;&#x5bb9;&#x5668;&#x5185;&#x7684;&#x6807;&#x51c6;&#x8f93;&#x51fa;" ID="ID_921094609" CREATED="1553151680026" MODIFIED="1553151762088">
+<node TEXT="docker logs [id]" ID="ID_221707500" CREATED="1553151605743" MODIFIED="1553151750121"/>
+<node TEXT="docker logs [names]" ID="ID_14387660" CREATED="1553151819239" MODIFIED="1553151917534"/>
+</node>
+</node>
+<node TEXT="&#x67e5;&#x770b;&#x6240;&#x6709;&#x7684;&#x5bb9;&#x5668;" ID="ID_1068219887" CREATED="1553152134215" MODIFIED="1553152171362">
+<node TEXT="docker ps --all" ID="ID_1825990332" CREATED="1553152172064" MODIFIED="1553152176625"/>
+<node TEXT=" $ docker container ls --all" ID="ID_946972235" CREATED="1553153433269" MODIFIED="1553153434480"/>
+</node>
+<node TEXT="&#x67e5;&#x770b;&#x6240;&#x6709;image" ID="ID_371876939" CREATED="1553153380311" MODIFIED="1553153388617">
+<node TEXT="docker image ls" ID="ID_859524477" CREATED="1553153389319" MODIFIED="1553153396809"/>
+</node>
+<node TEXT="&#x505c;&#x6b62;&#x5bb9;&#x5668;" ID="ID_1629982151" CREATED="1553151847679" MODIFIED="1553153634465">
+<node TEXT=" docker stop [id | names]" ID="ID_1616257842" CREATED="1553151858111" MODIFIED="1553151918952"/>
+<node TEXT="docker kill [id | names]" ID="ID_112985993" CREATED="1553152036510" MODIFIED="1553152049864"/>
+</node>
+</node>
+<node TEXT="&#x5bb9;&#x5668;" POSITION="right" ID="ID_1460902511" CREATED="1553153542997" MODIFIED="1553153546481">
+<edge COLOR="#0000ff"/>
+<node TEXT="Dockerfile&#x5b9a;&#x4e49;&#x7684;&#x53ef;&#x79fb;&#x690d;&#x955c;&#x50cf;" ID="ID_1289627657" CREATED="1553153611254" MODIFIED="1553153665848">
+<node TEXT=" &#x5c06;&#x53ef;&#x79fb;&#x690d;&#x7684; Python &#x8fd0;&#x884c;&#x65f6;&#x6293;&#x53d6;&#x4e3a;&#x955c;&#x50cf;&#xff0c;&#x800c;&#x65e0;&#x9700;&#x8fdb;&#x884c;&#x5b89;&#x88c5;" ID="ID_1420543312" CREATED="1553153620024" MODIFIED="1553153621815"/>
+<node TEXT=" &#x5c06;&#x57fa;&#x672c; Python &#x955c;&#x50cf;&#x4e0e;&#x5e94;&#x7528;&#x4ee3;&#x7801;&#x5305;&#x542b;&#x5728;&#x4e00;&#x8d77;&#xff0c;&#x4ece;&#x800c;&#x786e;&#x4fdd;&#x5e94;&#x7528;&#x3001;&#x5176;&#x4f9d;&#x8d56;&#x9879;&#x53ca;&#x8fd0;&#x884c;&#x65f6;&#x90fd;&#x4e00;&#x8d77;&#x63d0;&#x4f9b;" ID="ID_1805764596" CREATED="1553153633141" MODIFIED="1553153635296"/>
+</node>
+<node TEXT=" Dockerfile" ID="ID_119270947" CREATED="1553153676086" MODIFIED="1553154310751">
+<node TEXT=" &#x5b9a;&#x4e49;&#x5bb9;&#x5668;" ID="ID_1918656119" CREATED="1553154312040" MODIFIED="1553154313432">
+<node TEXT="dockerfile&#x6587;&#x4ef6;" ID="ID_690673748" CREATED="1553154282798" MODIFIED="1553154295240"/>
+</node>
+<node TEXT="&#x5e94;&#x7528;&#x672c;&#x8eab;" ID="ID_896476183" CREATED="1553154315902" MODIFIED="1553154323895">
+<node TEXT="requements.txt" ID="ID_1404423121" CREATED="1553154324053" MODIFIED="1553154331287"/>
+<node TEXT="&#x4ee3;&#x7801;" ID="ID_480289241" CREATED="1553154331581" MODIFIED="1553154334712"/>
+</node>
+<node TEXT="&#x6784;&#x5efa;&#x5e94;&#x7528;" ID="ID_1269243836" CREATED="1553154335790" MODIFIED="1553154340121">
+<node TEXT=" docker build --tag=friendlyhello ." ID="ID_803199447" CREATED="1553154391925" MODIFIED="1553154393536"/>
+<node TEXT="--tag" ID="ID_1440899513" CREATED="1553154398150" MODIFIED="1553154402288">
+<node TEXT="&#x5373; -t" ID="ID_677617071" CREATED="1553154402558" MODIFIED="1553154429679"/>
+<node TEXT=" &#x8fdb;&#x884c;&#x6807;&#x8bb0;" ID="ID_591075859" CREATED="1553154425812" MODIFIED="1553154427165"/>
+</node>
+<node TEXT="&#x6253;&#x5305;&#x6210;image&#x955c;&#x50cf;" ID="ID_1449353741" CREATED="1553154540636" MODIFIED="1553154549294"/>
+<node TEXT="&#x6ce8;&#x610f;  &#x6700;&#x540e;&#x9762;&#x7684;&#x90a3;&#x4e2a;&#x70b9; . &#x4e0d;&#x8981;&#x6f0f;&#x4e86;" ID="ID_396503775" CREATED="1553154511829" MODIFIED="1553154530087"/>
+</node>
+<node TEXT="&#x8fd0;&#x884c;&#x5e94;&#x7528;" ID="ID_296164537" CREATED="1553154667556" MODIFIED="1553154676622" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="docker run -p 4000:80 friendlyhello" ID="ID_766442485" CREATED="1553154672374" MODIFIED="1553154683326"/>
+<node TEXT="-p &#x5c06;&#x8ba1;&#x7b97;&#x673a;&#x7684;&#x7aef;&#x53e3;4000&#x6620;&#x5c04;&#x5230;&#x5bb9;&#x5668;&#x7684;&#x5df2;&#x53d1;&#x5e03;&#x7aef;&#x53e3;80" ID="ID_1479339750" CREATED="1553154684277" MODIFIED="1553154698039"/>
+<node TEXT="&#x6ce8;&#x610f;" ID="ID_418741632" CREATED="1553155138389" MODIFIED="1553155149740">
+<node TEXT="&#x6620;&#x8c22;&#x51fa;&#x6765;&#x7684;4000&#x7aef;&#x53e3;&#x4e0d;&#x4e00;&#x5b9a;&#x662f;127.0.0.1&#x7684;" ID="ID_129558138" CREATED="1553155161154" MODIFIED="1553155184842"/>
+<node TEXT=" Docker Toolbox &#x7528;&#x7684;&#x662f;http://192.168.99.100" ID="ID_1227553002" CREATED="1553155220996" MODIFIED="1553155238412"/>
+<node TEXT="&#x7528; docker-machine ip &#x67e5;&#x627e;IP&#x5730;&#x5740;" ID="ID_130703906" CREATED="1553155186113" MODIFIED="1553155209086"/>
+</node>
+</node>
+<node TEXT="&#x5206;&#x4eab;&#x955c;&#x50cf;" ID="ID_1742237900" CREATED="1553155747060" MODIFIED="1553155754896">
+<node TEXT="&#x767b;&#x9646;" ID="ID_372854857" CREATED="1553156645970" MODIFIED="1553156652136">
+<node TEXT="docker login" ID="ID_1251957872" CREATED="1553155755241" MODIFIED="1553155762898"/>
+</node>
+<node TEXT="&#x6807;&#x8bb0;" ID="ID_136957559" CREATED="1553156635631" MODIFIED="1553156642394">
+<node TEXT="docker tag demo yekingyan/test:v0.1" ID="ID_1595883342" CREATED="1553155763190" MODIFIED="1553156612970"/>
+</node>
+<node TEXT="&#x63a8;&#x9001;&#x5df2;&#x6807;&#x8bb0;&#x7684;&#x955c;&#x50cf;" ID="ID_1326010361" CREATED="1553156654986" MODIFIED="1553156668982">
+<node TEXT=" docker push demo yekingyan/test:v0.1" ID="ID_1102008935" CREATED="1553156734540" MODIFIED="1553156740340"/>
+</node>
+</node>
+<node TEXT="&#x62c9;&#x53d6;&#x5e76;&#x8fd0;&#x884c;&#x8fdc;&#x7a0b;&#x955c;&#x50cf;" ID="ID_55343502" CREATED="1553156920572" MODIFIED="1553156942542">
+<node TEXT=" docker run -p 4000:80 yekingyan/test:v0.1" ID="ID_1627591528" CREATED="1553156947390" MODIFIED="1553156966411"/>
+<node TEXT="&#x672a;&#x6307;&#x5b9a;tag&#xff0c;&#x5c06;&#x9ed8;&#x8ba4;&#x4f7f;&#x7528;  :latest &#x8fd0;&#x884c;&#x7684;&#x955c;&#x50cf;&#x7684;&#x6700;&#x65b0;&#x7248;&#x672c;" ID="ID_1557248178" CREATED="1553156986763" MODIFIED="1553157022870"/>
+</node>
+</node>
+<node TEXT="&#x5220;&#x9664;" ID="ID_1211933513" CREATED="1553154296788" MODIFIED="1553157228282">
+<node TEXT="&#x4ece;&#x6b64;&#x673a;&#x5668;&#x4e2d;&#x5220;&#x9664;&#x6307;&#x5b9a;&#x7684;&#x5bb9;&#x5668;" ID="ID_1084572352" CREATED="1553157228564" MODIFIED="1553157256757">
+<node TEXT=" docker rm &lt;hash&gt;" ID="ID_500276732" CREATED="1553157263302" MODIFIED="1553157264429"/>
+</node>
+<node TEXT=" &#x4ece;&#x6b64;&#x673a;&#x5668;&#x4e2d;&#x5220;&#x9664;&#x6307;&#x5b9a;&#x7684;&#x955c;&#x50cf;" ID="ID_644315484" CREATED="1553157273944" MODIFIED="1553157275843">
+<node TEXT=" docker rmi &lt;imagename&gt;" ID="ID_1955087974" CREATED="1553157281225" MODIFIED="1553157282684"/>
+</node>
+<node TEXT="&#x5220;&#x9664;&#x6240;&#x6709;&#x5bb9;&#x5668;" ID="ID_1324690554" CREATED="1553157287941" MODIFIED="1553157294178">
+<node TEXT=" docker rm $(docker ps -a -q)" ID="ID_1286116720" CREATED="1553157301967" MODIFIED="1553157302972"/>
+</node>
+<node TEXT="&#x5220;&#x9664;&#x6240;&#x6709;&#x955c;&#x50cf;" ID="ID_1770386158" CREATED="1553157233158" MODIFIED="1553157287156">
+<node TEXT=" docker rmi $(docker images -q)" ID="ID_919623557" CREATED="1553157309153" MODIFIED="1553157310059"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x670d;&#x52a1;" POSITION="right" ID="ID_971775937" CREATED="1553157429834" MODIFIED="1553157431919">
+<edge COLOR="#00ff00"/>
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_885985573" CREATED="1553157600460" MODIFIED="1553157606776">
+<node TEXT="&#x5728;&#x5206;&#x5e03;&#x5f0f;&#x5e94;&#x7528;&#x4e2d;&#xff0c;&#x5e94;&#x7528;&#x7684;&#x4e0d;&#x540c;&#x90e8;&#x5206;&#x79f0;&#x4e3a;&#x201c;&#x670d;&#x52a1;&#x201d;" ID="ID_1422354001" CREATED="1553157432242" MODIFIED="1553157452706"/>
+<node TEXT=" &#x670d;&#x52a1;&#x5b9e;&#x9645;&#x4e0a;&#x662f;&#x201c;&#x751f;&#x4ea7;&#x4e2d;&#x7684;&#x5bb9;&#x5668;&#x201d;" ID="ID_1180146182" CREATED="1553157466427" MODIFIED="1553157467821"/>
+<node TEXT=" &#x7f16;&#x5236;&#x955c;&#x50cf;&#x7684;&#x8fd0;&#x884c;&#x65b9;&#x5f0f;" ID="ID_1349964511" CREATED="1553157647562" MODIFIED="1553157652551">
+<node TEXT=" &#x4f7f;&#x7528;&#x7684;&#x7aef;&#x53e3;" ID="ID_1403217337" CREATED="1553157653122" MODIFIED="1553157654116"/>
+<node TEXT=" &#x5bb9;&#x5668;&#x7684;&#x591a;&#x5c11;&#x4e2a;" ID="ID_1905934188" CREATED="1553157657823" MODIFIED="1553157659604"/>
+<node TEXT=" &#x5c06;&#x591a;&#x4e2a;&#x8ba1;&#x7b97;&#x8d44;&#x6e90;&#x5206;&#x914d;&#x7ed9;&#x8fdb;&#x7a0b;&#x4e2d;&#x7684;&#x670d;&#x52a1;" ID="ID_1719809114" CREATED="1553157690062" MODIFIED="1553157692546"/>
+</node>
+</node>
+<node TEXT="docer-compose" ID="ID_857535413" CREATED="1553157729063" MODIFIED="1553157734888">
+<node TEXT="&#x7f16;&#x5199;&#x4e00;&#x4e2a; docker-compose.yml &#x6587;&#x4ef6;&#xff0c;&#x5f88;&#x5bb9;&#x6613;&#x4f7f;&#x7528; Docker &#x5e73;&#x53f0;&#x5b9a;&#x4e49;&#x3001;&#x8fd0;&#x884c;&#x548c;&#x6269;&#x5c55;&#x670d;&#x52a1;" ID="ID_1414526031" CREATED="1553157634302" MODIFIED="1553157718989"/>
+<node TEXT=" ocker-compose.yml &#x6587;&#x4ef6;&#x662f;&#x4e00;&#x4e2a; YAML &#x6587;&#x4ef6;" ID="ID_1303897520" CREATED="1553157745692" MODIFIED="1553157746635"/>
+</node>
+</node>
+</node>
+</map>
