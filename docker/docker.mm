@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="105" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="108" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT=" Docker &#x662f;&#x4ec0;&#x4e48;" POSITION="right" ID="ID_871086341" CREATED="1553071567388" MODIFIED="1553071568767">
 <edge COLOR="#7c007c"/>
@@ -177,7 +177,9 @@
 </node>
 <node TEXT="client" ID="ID_1822006279" CREATED="1553183616005" MODIFIED="1553183619127">
 <node TEXT="client &#x901a;&#x8fc7;&#x547d;&#x4ee4;&#x64cd;&#x4f5c; Docker deamon" ID="ID_1954141138" CREATED="1553183456604" MODIFIED="1553183481098"/>
-<node TEXT="build" ID="ID_1794992570" CREATED="1553183721115" MODIFIED="1553183725254"/>
+<node TEXT="build" ID="ID_1794992570" CREATED="1553183721115" MODIFIED="1553183725254">
+<node TEXT="" ID="ID_936178186" CREATED="1553253926478" MODIFIED="1553253926478"/>
+</node>
 <node TEXT="pull" ID="ID_1860126767" CREATED="1553183725506" MODIFIED="1553183727559"/>
 <node TEXT="run" ID="ID_1621646768" CREATED="1553183728164" MODIFIED="1553183729100"/>
 </node>
@@ -508,6 +510,33 @@
 <node TEXT=" USER &#x6307;&#x4ee4;&#x548c; WORKDIR &#x76f8;&#x4f3c;&#xff0c;&#x90fd;&#x662f;&#x6539;&#x53d8;&#x73af;&#x5883;&#x72b6;&#x6001;&#x5e76;&#x5f71;&#x54cd;&#x4ee5;&#x540e;&#x7684;&#x5c42;" ID="ID_356149468" CREATED="1553237653240" MODIFIED="1553237654910"/>
 <node TEXT=" USER &#x6539;&#x53d8;&#x4e4b;&#x540e;&#x5c42;&#x7684;&#x6267;&#x884c; RUN, CMD &#x4ee5;&#x53ca; ENTRYPOINT &#x8fd9;&#x7c7b;&#x547d;&#x4ee4;&#x7684;&#x8eab;&#x4efd;" ID="ID_1210478700" CREATED="1553237670387" MODIFIED="1553237680045"/>
 </node>
+</node>
+<node TEXT="&#x6570;&#x636e;&#x5377;(volume)" POSITION="right" ID="ID_625562206" CREATED="1553314540347" MODIFIED="1553314655545">
+<edge COLOR="#00007c"/>
+<node TEXT="&#x63d0;&#x4f9b;&#x72ec;&#x7acb;&#x4e8e;&#x5bb9;&#x5668;&#x4e4b;&#x5916;&#x7684;&#x6301;&#x4e45;&#x5316;&#x5b58;&#x50a8;" ID="ID_203688309" CREATED="1553314570882" MODIFIED="1553314597115"/>
+<node TEXT="&#x5bb9;&#x5668;&#x5185;&#x7684;&#x6570;&#x636e;&#x6620;&#x5c04;&#x5230;&#x6570;&#x7ec4;&#x673a;" ID="ID_898116538" CREATED="1553327506815" MODIFIED="1553327522740">
+<node TEXT="docker run -d --name h-nginx -v /usr/share/nginx/html h-nginx" ID="ID_534900799" CREATED="1553314600345" MODIFIED="1553332848552"/>
+<node TEXT="&#x6570;&#x7ec4;&#x673a;&#x5730;&#x5740;" ID="ID_735393571" CREATED="1553327536988" MODIFIED="1553327544283">
+<node TEXT="docker inspect nginx" ID="ID_1366238177" CREATED="1553321555095" MODIFIED="1553321583660"/>
+<node TEXT="  /var/lib/docker/volumes/2f0aa3cbcce7f7258674c94b6e3dd6dcaaff180bc1da07ad850488cc10d35f89/_data" ID="ID_1058584956" CREATED="1553321587298" MODIFIED="1553321589198"/>
+</node>
+</node>
+<node TEXT="&#x672c;&#x5730;&#x76ee;&#x5f55;&#x6302;&#x8f7d;&#x5230;&#x5bb9;&#x5668;&#x5185;" ID="ID_534745706" CREATED="1553331886512" MODIFIED="1553331914162">
+<node TEXT="docker run -p 80:80 -d -v $PWD/html:/usr/share/nginx/html h-nginx" ID="ID_201721899" CREATED="1553332788469" MODIFIED="1553332838864"/>
+</node>
+<node TEXT="&#x5bb9;&#x5668;&#x5f53;&#x6210;&#x6570;&#x636e;&#x5377;&#xff0c;&#x6302;&#x8f7d;&#x5230;&#x5176;&#x4ed6;&#x5bb9;&#x5668;" ID="ID_1987222264" CREATED="1553332953979" MODIFIED="1553332983255">
+<node TEXT="&#x521b;&#x5efa;&#x7528;&#x4f5c;volume&#x7684;&#x5bb9;&#x5668;" ID="ID_409947076" CREATED="1553333079017" MODIFIED="1553333094429">
+<node TEXT="&#x7528;ubuntu&#x521b;&#x5efa;data_container" ID="ID_1285134678" CREATED="1553334007471" MODIFIED="1553334053622"/>
+<node TEXT="docker create -v $PWD/data:/var/mydata --name data_container ubuntu" ID="ID_311795523" CREATED="1553333095452" MODIFIED="1553333134701"/>
+</node>
+<node TEXT="&#x6302;&#x8f7d;&#x8fdb;ubuntu&#x751f;&#x6210;&#x7684;&#x53e6;&#x4e00;&#x5bb9;&#x5668;" ID="ID_1034193544" CREATED="1553334032141" MODIFIED="1553334069958">
+<node TEXT="--volumes-from &#x6307;&#x5b9a;&#x8981;&#x6302;&#x8f7d;&#x7684;&#x5bb9;&#x5668;" ID="ID_1368601003" CREATED="1553334099980" MODIFIED="1553334996959"/>
+<node TEXT="docker run -it --volumes-from data_container ubuntu /bin/bash" ID="ID_1959653608" CREATED="1553334071214" MODIFIED="1553335012410"/>
+</node>
+</node>
+</node>
+<node TEXT="docker-compose" POSITION="right" ID="ID_393296482" CREATED="1553345413726" MODIFIED="1553345422918">
+<edge COLOR="#7c007c"/>
 </node>
 </node>
 </map>
