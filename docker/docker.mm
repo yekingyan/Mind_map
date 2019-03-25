@@ -537,6 +537,11 @@
 </node>
 <node TEXT="docker-compose" POSITION="right" ID="ID_393296482" CREATED="1553345413726" MODIFIED="1553345422918">
 <edge COLOR="#7c007c"/>
+<node TEXT="&#x5b89;&#x88c5;" ID="ID_235168954" CREATED="1553345447564" MODIFIED="1553345450984">
+<node TEXT=" $ sudo curl -L https://github.com/docker/compose/releases/download/1.17.1/docker-compose-`uname -s`-`uname -m` &gt; /usr/local/bin/docker-compose&#xa;$ sudo chmod +x /usr/local/bin/docker-compose" ID="ID_1298745853" CREATED="1553345451451" MODIFIED="1553345452560"/>
+</node>
+<node TEXT="docker-compose build" ID="ID_427126933" CREATED="1553408687505" MODIFIED="1553408698489"/>
+<node TEXT="docker-compose up" ID="ID_1139472759" CREATED="1553408698702" MODIFIED="1553408704362"/>
 </node>
 </node>
 </map>
