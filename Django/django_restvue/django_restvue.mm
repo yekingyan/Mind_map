@@ -3,7 +3,7 @@
 <node TEXT="django_restvue" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1551186550185" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="142" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="143" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x72ec;&#x7acb;&#x4f7f;&#x7528;Django ORM" POSITION="right" ID="ID_928227116" CREATED="1551273918472" MODIFIED="1551273933422">
 <edge COLOR="#7c007c"/>
@@ -1825,7 +1825,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">Price_Unit = serializers.CharField(<span style="color: #aa4926"><font color="#aa4926">read_only</font></span>=<span style="color: #cc7832"><font color="#cc7832">True, </font></span><span style="color: #aa4926"><font color="#aa4926">default</font></span>=<span style="color: #6a8759"><font color="#6a8759">'&#31215;&#20998;'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1854,7 +1853,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>rest_framework_extensions.cache.mixins <span style="color: #cc7832"><font color="#cc7832">import </font></span>CacheResponseMixin</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1149085439" CREATED="1553440674469" MODIFIED="1553440674469"><richcontent TYPE="NODE">
@@ -1867,7 +1865,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>GoodsListViewSet(<br/>    CacheResponseMixin<span style="color: #cc7832"><font color="#cc7832">, </font></span>viewsets.GenericViewSet<span style="color: #cc7832"><font color="#cc7832">, <br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>mixins.ListModelMixin<span style="color: #cc7832"><font color="#cc7832">, </font></span>mixins.RetrieveModelMixin):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    list:<br/></span><span style="color: #629755; font-style: italic">        &#21830;&#21697;&#21015;&#34920;<br/></span><span style="color: #629755; font-style: italic">    retrieve:<br/></span><span style="color: #629755; font-style: italic">        &#21830;&#21697;&#35814;&#24773;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;</span></i></font></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1881,6 +1878,25 @@
   </head>
   <body>
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># drf-extensions &#32531;&#23384;&#36807;&#26399;&#26102;&#38388;, &#40664;&#35748;15&#20998;&#38047;<br/></font></span>REST_FRAMEWORK_EXTENSIONS = {<br/>    <span style="color: #6a8759"><font color="#6a8759">'DEFAULT_CACHE_RESPONSE_TIMEOUT'</font></span>: <span style="color: #6897bb"><font color="#6897bb">60 </font></span>* <span style="color: #6897bb"><font color="#6897bb">3<br/></font></span>}<br/></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="drf &#x7f13;&#x5b58;&#x52a0;&#x5165;redis" POSITION="right" ID="ID_247699243" CREATED="1553607533917" MODIFIED="1553607547649">
+<edge COLOR="#7c7c00"/>
+<node TEXT="&#x5728;drf-extensions&#x7684;&#x57fa;&#x7840;&#x4e0a;" ID="ID_301846413" CREATED="1553607568622" MODIFIED="1553607586728"/>
+<node TEXT="&#x628a;&#x76f4;&#x63a5;&#x5b58;&#x5728;&#x5185;&#x5b58;&#x4e2d;&#x7684;&#x6570;&#x636e;&#x79fb;&#x5230;&#x4e86;redis&#x4e2d;" ID="ID_977388082" CREATED="1553607594030" MODIFIED="1553607615037"/>
+<node TEXT="settings.py" ID="ID_129942894" CREATED="1553607640874" MODIFIED="1553607646776">
+<node ID="ID_13959544" CREATED="1553607648002" MODIFIED="1553607648002"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># redis &#32531;&#23384;<br/></font></span>CACHES = {<br/>    <span style="color: #6a8759"><font color="#6a8759">&quot;default&quot;</font></span>: {<br/>        <span style="color: #6a8759"><font color="#6a8759">&quot;BACKEND&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;django_redis.cache.RedisCache&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;LOCATION&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;redis://127.0.0.1:6379&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;OPTIONS&quot;</font></span>: {<br/>            <span style="color: #6a8759"><font color="#6a8759">&quot;CLIENT_CLASS&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;django_redis.client.DefaultClient&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font>}<br/>    }<br/>}</pre>
   </body>
 </html>
 
