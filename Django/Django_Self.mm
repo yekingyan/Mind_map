@@ -3,7 +3,7 @@
 <node TEXT="Django_Self" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1548828499643" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="110" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="113" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="Q &#x4e0e; F" POSITION="right" ID="ID_4910678" CREATED="1548828720437" MODIFIED="1548829082239">
 <edge COLOR="#ff0000"/>
@@ -735,7 +735,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4e2d;&#x95f4;&#x4ef6;" POSITION="right" ID="ID_18336048" CREATED="1551708237738" MODIFIED="1551708240008">
+<node TEXT="&#x4e2d;&#x95f4;&#x4ef6;" FOLDED="true" POSITION="right" ID="ID_18336048" CREATED="1551708237738" MODIFIED="1551708240008">
 <edge COLOR="#7c007c"/>
 <node TEXT="&#x6982;&#x5ff5;" ID="ID_1225240233" CREATED="1552011209184" MODIFIED="1552011218485">
 <node TEXT=" &#x4e2d;&#x95f4;&#x4ef6;&#x662f;&#x4e00;&#x4e2a;&#x4e0e;Django&#x7684;&#x8bf7;&#x6c42;/&#x54cd;&#x5e94;&#x5904;&#x7406;&#x76f8;&#x5173;&#x7684;&#x6846;&#x67b6;" ID="ID_308683760" CREATED="1552011224872" MODIFIED="1552011231996"/>
@@ -875,7 +875,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x6a21;&#x578b;&#x5b57;&#x6bb5;&#x7684;&#x53c2;&#x6570;" POSITION="right" ID="ID_1726564537" CREATED="1552028883747" MODIFIED="1552028976914">
+<node TEXT="&#x6a21;&#x578b;&#x5b57;&#x6bb5;&#x7684;&#x53c2;&#x6570;" FOLDED="true" POSITION="right" ID="ID_1726564537" CREATED="1552028883747" MODIFIED="1552028976914">
 <edge COLOR="#007c7c"/>
 <node TEXT="null" ID="ID_654590377" CREATED="1552028960951" MODIFIED="1552028965053">
 <node TEXT="&#x9ed8;&#x8ba4;&#x503c;&#x4e3a;False" ID="ID_154466893" CREATED="1552029237176" MODIFIED="1552029244853"/>
@@ -953,7 +953,7 @@
 <node TEXT="&#x9664;&#x4e86;ForeignKey&#x7b49;&#x7279;&#x6b8a;&#x7684;&#x5173;&#x7cfb;&#x7c7b;&#x578b;&#xff0c;&#x7b2c;&#x4e00;&#x53ef;&#x9009;&#x4f4d;&#x7f6e;&#x53c2;&#x6570;&#x90fd;&#x662f;verbose_name" ID="ID_889645300" CREATED="1552033270446" MODIFIED="1552033298499"/>
 </node>
 </node>
-<node TEXT="&#x6a21;&#x578b;&#x5b57;&#x6bb5;" POSITION="right" ID="ID_401151127" CREATED="1552553384417" MODIFIED="1552553394441">
+<node TEXT="&#x6a21;&#x578b;&#x5b57;&#x6bb5;" FOLDED="true" POSITION="right" ID="ID_401151127" CREATED="1552553384417" MODIFIED="1552553394441">
 <edge COLOR="#7c7c00"/>
 <node TEXT=" AutoField" ID="ID_297319189" CREATED="1552553461328" MODIFIED="1552553463044">
 <node TEXT=" &#x4e00;&#x4e2a;&#x81ea;&#x52a8;&#x589e;&#x52a0;&#x7684;&#x6574;&#x6570;&#x7c7b;&#x578b;&#x5b57;&#x6bb5;&#xff0c;&#x901a;&#x5e38;&#x4f60;&#x4e0d;&#x9700;&#x8981;&#x81ea;&#x5df1;&#x7f16;&#x5199;&#x5b83;" ID="ID_803283721" CREATED="1552553470751" MODIFIED="1552553514939"/>
@@ -1104,7 +1104,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x914d;&#x7f6e;MEDIA_ROOT" ID="ID_1873140046" CREATED="1552555667652" MODIFIED="1552556339603">
 <node TEXT="&#x4f5c;&#x4e3a;&#x4f60;&#x4e0a;&#x4f20;&#x6587;&#x4ef6;&#x5728;&#x670d;&#x52a1;&#x5668;&#x4e2d;&#x7684;&#x57fa;&#x672c;&#x8def;&#x5f84;" ID="ID_995394908" CREATED="1552555675781" MODIFIED="1552555680273"/>
@@ -1133,9 +1132,63 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>uuid     <span style="color: #808080"><font color="#808080"># Python&#30340;&#20869;&#32622;&#27169;&#22359;<br/></font></span><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db <span style="color: #cc7832"><font color="#cc7832">import </font></span>models<br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>MyUUIDModel(models.Model):<br/>    id = models.UUIDField(<span style="color: #aa4926"><font color="#aa4926">primary_key</font></span>=<span style="color: #8888c6"><font color="#8888c6">True</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">default</font></span>=uuid.uuid4<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">editable</font></span>=<span style="color: #8888c6"><font color="#8888c6">False</font></span>)<br/>    <span style="color: #808080"><font color="#808080"># &#20854;&#23427;&#23383;&#27573;</font></span></pre>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x7f13;&#x5b58;&#x7cfb;&#x7edf;" POSITION="right" ID="ID_1744268817" CREATED="1553672866872" MODIFIED="1553672879121">
+<edge COLOR="#ff0000"/>
+</node>
+<node TEXT="&#x4fee;&#x6539;QueryDict&#x5bf9;&#x8c61;" POSITION="right" ID="ID_1911053175" CREATED="1553767163050" MODIFIED="1553767185808">
+<edge COLOR="#0000ff"/>
+<node TEXT="django.http.QueryDict&#x5206;&#x914d;&#x7ed9;request.GET&#x548c;request.POST&#x662f;&#x4e0d;&#x53ef;&#x53d8;&#x7684;&#x5bf9;&#x8c61;" ID="ID_4668439" CREATED="1553767187056" MODIFIED="1553767287252"/>
+<node TEXT="&#x901a;&#x8fc7;&#x590d;&#x5236;&#x5c06;&#x5176;&#x8f6c;&#x6362;&#x4e3a;&#x53ef;&#x53d8;&#x5b9e;&#x4f8b;" ID="ID_703473219" CREATED="1553767290934" MODIFIED="1553767301812">
+<node TEXT="query_dict.copy()" ID="ID_179848524" CREATED="1553767645854" MODIFIED="1553767665966"/>
+<node ID="ID_1745119747" CREATED="1553767467606" MODIFIED="1553767467606"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET = <span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET.copy()<br/><span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET[<span style="color: #6a8759"><font color="#6a8759">'foo'</font></span>] = <span style="color: #6a8759"><font color="#6a8759">'bar'</font></span></pre>
+  </body>
+</html>
 
 </richcontent>
 </node>
+</node>
+<node TEXT=" &#x5220;&#x9664;&#x4e0d;&#x53d8;&#x6027;" ID="ID_1748220670" CREATED="1553769841190" MODIFIED="1553769843374">
+<node TEXT="query_dict._mutable" ID="ID_1308548075" CREATED="1553769856090" MODIFIED="1553769866130"/>
+<node ID="ID_465794130" CREATED="1553769853787" MODIFIED="1553769853787"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">query_params = {k.lower(): v <span style="color: #cc7832"><font color="#cc7832">for </font></span>k<span style="color: #cc7832"><font color="#cc7832">, </font></span>v <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.request.query_params.items()}<br/><span style="color: #94558d"><font color="#94558d">self</font></span>.request.query_params._mutable = <span style="color: #cc7832"><font color="#cc7832">True<br/></font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.request.query_params.update(query_params)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="django &#x8ba9;&#x8bf7;&#x6c42;&#x5b57;&#x6bb5;&#x53c2;&#x6570;&#x5927;&#x5c0f;&#x5199;&#x4e0d;&#x654f;&#x611f;" POSITION="right" ID="ID_190332334" CREATED="1553782367433" MODIFIED="1553782404567">
+<edge COLOR="#00ff00"/>
+<node ID="ID_1485534692" CREATED="1553791896050" MODIFIED="1553791912639"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">get_parser_context</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>http_request):<font color="#629755"><i><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    </span></i></font><span style="color: #6a8759"><font color="#6a8759">&quot;&quot;&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    &#23558;&#35831;&#27714;&#23383;&#27573;&#21442;&#25968;&#23545;&#22823;&#23567;&#20889;&#19981;&#25935;&#24863;<br/></span><span style="color: #6a8759">    &#65288;&#21516;&#26102;filter&#20013;&#30340;&#21442;&#25968;&#20063;&#35201;&#35774;&#20026;&#23567;&#20889;&#65292; &#21542;&#21017;&#22823;&#23567;&#20889;&#25935;&#24863;&#65289;<br/></span><span style="color: #6a8759">    &quot;&quot;&quot;<br/></span><span style="color: #6a8759">    </span></font><span style="color: #808080"><font color="#808080"># Note: Additionally `request` and `encoding` will also be added<br/></font></span><font color="#808080"><span style="color: #808080">    #       to the context by the Request object.<br/></span><span style="color: #808080"><br/></span><span style="color: #808080">    # &#23383;&#27573;&#21442;&#25968;&#36716;&#21270;&#20026;&#23567;&#20889;<br/></span><span style="color: #808080">    </span></font>lower_query_params = {k.lower(): v <span style="color: #cc7832"><font color="#cc7832">for </font></span>k<span style="color: #cc7832"><font color="#cc7832">, </font></span>v <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET.items()}<br/>    <span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET._mutable = <span style="color: #cc7832"><font color="#cc7832">True<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET.update(lower_query_params)<font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080"><br/></span><span style="color: #808080">    # &#21024;&#38500;META&#20013; 'page'&#23383;&#27573;&#30340;&#21464;&#31181;&#65292;&#22914; 'Page'<br/></span><span style="color: #808080">    # &#20027;&#35201;&#20026;&#20102;&#28165;&#38500;previous &#19982; next &#20043;&#20013;url&#30340;&#33039;&#21442;&#25968;<br/></span><span style="color: #808080">    </span></font>path_list = <span style="color: #94558d"><font color="#94558d">self</font></span>.request.META[<span style="color: #6a8759"><font color="#6a8759">'QUERY_STRING'</font></span>].split(<span style="color: #6a8759"><font color="#6a8759">'&amp;'</font></span>)<br/>    [path_list.remove(item) <span style="color: #cc7832"><font color="#cc7832">for </font></span>item <span style="color: #cc7832"><font color="#cc7832">in </font></span>path_list<br/>     <span style="color: #cc7832"><font color="#cc7832">if </font></span>item.lower().find(<span style="color: #6a8759"><font color="#6a8759">'page'</font></span>) != -<span style="color: #6897bb"><font color="#6897bb">1 </font></span><span style="color: #cc7832"><font color="#cc7832">and </font></span>item.find(<span style="color: #6a8759"><font color="#6a8759">'page'</font></span>) == -<span style="color: #6897bb"><font color="#6897bb">1</font></span>]<br/>    <span style="color: #94558d"><font color="#94558d">self</font></span>.request.META[<span style="color: #6a8759"><font color="#6a8759">'QUERY_STRING'</font></span>] = <span style="color: #6a8759"><font color="#6a8759">'&amp;'</font></span>.join(path_list)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #8888c6"><font color="#8888c6">super</font></span>().get_parser_context(http_request)</pre>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>

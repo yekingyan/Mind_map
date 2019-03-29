@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="143" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="145" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x72ec;&#x7acb;&#x4f7f;&#x7528;Django ORM" POSITION="right" ID="ID_928227116" CREATED="1551273918472" MODIFIED="1551273933422">
 <edge COLOR="#7c007c"/>
@@ -1902,6 +1902,53 @@
 
 </richcontent>
 </node>
+</node>
+</node>
+<node TEXT="&#x9650;&#x6d41;" POSITION="right" ID="ID_1889856786" CREATED="1553608095362" MODIFIED="1553608100709">
+<edge COLOR="#ff0000"/>
+<node TEXT="&#x5168;&#x5c40;&#x9650;&#x6d41;" ID="ID_1049056566" CREATED="1553608100959" MODIFIED="1553608106073">
+<node ID="ID_650439174" CREATED="1553609505156" MODIFIED="1553609513592"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">REST_FRAMEWORK = {<br/><font color="#cc7832"><span style="color: #cc7832"><br/></span><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080"># &#20840;&#23616;&#38480;&#27969;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #6a8759"><font color="#6a8759">'DEFAULT_THROTTLE_CLASSES'</font></span>: (<br/>        <span style="color: #808080"><font color="#808080"># &#21482;&#20250;&#38480;&#21046;&#26410;&#32463;&#35748;&#35777;&#30340;&#29992;&#25143;&#65288;&#35831;&#27714;&#30340; IP &#22320;&#22336;&#65289;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework.throttling.AnonRateThrottle'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #808080"><font color="#808080"># &#30331;&#38470;&#29992;&#25143;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework.throttling.UserRateThrottle'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080"># &#38480;&#36895;&#30340;&#31574;&#30053;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #6a8759"><font color="#6a8759">'DEFAULT_THROTTLE_RATES'</font></span>: {<br/>        <span style="color: #6a8759"><font color="#6a8759">'anon'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'2/day'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #6a8759"><font color="#6a8759">'user'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'1000/day'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font>}<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5c40;&#x90e8;&#x9650;&#x6d41;" ID="ID_1955569920" CREATED="1553608106478" MODIFIED="1553609425154">
+<node ID="ID_1277009829" CREATED="1553610355614" MODIFIED="1553610380226"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>GoodsListViewSet(<br/>    CacheResponseMixin<span style="color: #cc7832"><font color="#cc7832">, </font></span>viewsets.GenericViewSet<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>mixins.ListModelMixin<span style="color: #cc7832"><font color="#cc7832">, </font></span>mixins.RetrieveModelMixin):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    list:<br/></span><span style="color: #629755; font-style: italic">        &#21830;&#21697;&#21015;&#34920;<br/></span><span style="color: #629755; font-style: italic">    retrieve:<br/></span><span style="color: #629755; font-style: italic">        &#21830;&#21697;&#35814;&#24773;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font>throttle_classes = (UserRateThrottle<span style="color: #cc7832"><font color="#cc7832">, </font></span>AnonRateThrottle)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x91cd;&#x5199;UserRateThrottle&#x4e0e;AnonRateThrottle&#x4e2d;&#x7684;&#x65b9;&#x6cd5;" ID="ID_390474733" CREATED="1553608113970" MODIFIED="1553610386663"/>
+<node TEXT=" .allow_request()" ID="ID_204511656" CREATED="1553610398693" MODIFIED="1553610404468">
+<node TEXT=" &#x5982;&#x679c;&#x8bf7;&#x6c42;&#x88ab;&#x5141;&#x8bb8;&#xff0c;&#x8be5;&#x65b9;&#x6cd5;&#x5e94;&#x8fd4;&#x56de; True&#xff0c;&#x5426;&#x5219;&#x8fd4;&#x56de; False" ID="ID_1735991117" CREATED="1553610412285" MODIFIED="1553610415970"/>
+</node>
+<node TEXT=" .wait() &#x65b9;&#x6cd5;" ID="ID_426725043" CREATED="1553610422173" MODIFIED="1553610423785">
+<node TEXT=" &#x4e0b;&#x4e00;&#x6b21;&#x8bf7;&#x6c42;&#x4e4b;&#x524d;&#x7b49;&#x5f85;&#x7684;&#x63a8;&#x8350;&#x79d2;&#x6570;" ID="ID_99031854" CREATED="1553610456340" MODIFIED="1553610458198"/>
+</node>
+</node>
+</node>
+<node TEXT="sentry" POSITION="right" ID="ID_1717972483" CREATED="1553610682511" MODIFIED="1553610688654">
+<edge COLOR="#0000ff"/>
+<node TEXT=" logging &#x7684;&#x7f3a;&#x70b9;" ID="ID_935826000" CREATED="1553610753628" MODIFIED="1553610768058">
+<node TEXT="&#x767b;&#x9646;&#x670d;&#x52a1;&#x5668;&#x67e5;&#x6587;&#x4ef6;" ID="ID_1065938727" CREATED="1553610768300" MODIFIED="1553610781723"/>
+<node TEXT="&#x4e3b;&#x52a8;&#x67e5;&#x5bfb;" ID="ID_1983375588" CREATED="1553610782004" MODIFIED="1553610786944"/>
 </node>
 </node>
 </node>
