@@ -953,7 +953,7 @@
 <node TEXT="&#x9664;&#x4e86;ForeignKey&#x7b49;&#x7279;&#x6b8a;&#x7684;&#x5173;&#x7cfb;&#x7c7b;&#x578b;&#xff0c;&#x7b2c;&#x4e00;&#x53ef;&#x9009;&#x4f4d;&#x7f6e;&#x53c2;&#x6570;&#x90fd;&#x662f;verbose_name" ID="ID_889645300" CREATED="1552033270446" MODIFIED="1552033298499"/>
 </node>
 </node>
-<node TEXT="&#x6a21;&#x578b;&#x5b57;&#x6bb5;" FOLDED="true" POSITION="right" ID="ID_401151127" CREATED="1552553384417" MODIFIED="1552553394441">
+<node TEXT="&#x6a21;&#x578b;&#x5b57;&#x6bb5;" POSITION="right" ID="ID_401151127" CREATED="1552553384417" MODIFIED="1552553394441">
 <edge COLOR="#7c7c00"/>
 <node TEXT=" AutoField" ID="ID_297319189" CREATED="1552553461328" MODIFIED="1552553463044">
 <node TEXT=" &#x4e00;&#x4e2a;&#x81ea;&#x52a8;&#x589e;&#x52a0;&#x7684;&#x6574;&#x6570;&#x7c7b;&#x578b;&#x5b57;&#x6bb5;&#xff0c;&#x901a;&#x5e38;&#x4f60;&#x4e0d;&#x9700;&#x8981;&#x81ea;&#x5df1;&#x7f16;&#x5199;&#x5b83;" ID="ID_803283721" CREATED="1552553470751" MODIFIED="1552553514939"/>

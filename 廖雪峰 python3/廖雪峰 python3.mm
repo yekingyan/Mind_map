@@ -3,7 +3,7 @@
 <node TEXT="&#x5ed6;&#x96ea;&#x5cf0; python3" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537888489239" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="88" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="89" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x89e3;&#x91ca;&#x5668;" FOLDED="true" POSITION="right" ID="ID_987134475" CREATED="1537888500595" MODIFIED="1537889643579" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#007c00"/>
@@ -694,7 +694,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Student(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>   <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__int__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>name<span style="color: #cc7832"><font color="#cc7832">, </font></span>score):<br/>       <span style="color: #94558d"><font color="#94558d">self</font></span>.name = name<br/>       <span style="color: #94558d"><font color="#94558d">self</font></span>.score = score<br/>   <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">print_score</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>       <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">f&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.name<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">,</font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.score<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">&quot;</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -713,7 +712,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">std1 = {<span style="color: #6a8759"><font color="#6a8759">'name'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'Michael'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'score'</font></span>: <span style="color: #6897bb"><font color="#6897bb">98</font></span>}<br/>std2 = {<span style="color: #6a8759"><font color="#6a8759">'name'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'Bob'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'score'</font></span>: <span style="color: #6897bb"><font color="#6897bb">81</font></span>}<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">print_sore</font></span>(std):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">f&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>std[<span style="color: #6a8759"><font color="#6a8759">'name'</font></span>]<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">, </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>std[<span style="color: #6a8759"><font color="#6a8759">'score'</font></span>]<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">&quot;</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -743,6 +741,35 @@
 </node>
 </node>
 <node TEXT=" &#x8bbf;&#x95ee;&#x9650;&#x5236;" ID="ID_1815958039" CREATED="1552643739325" MODIFIED="1552643740449"/>
+</node>
+<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;&#x9ad8;&#x7ea7;&#x7f16;&#x7a0b;" POSITION="right" ID="ID_1673555620" CREATED="1554100424553" MODIFIED="1554100439492">
+<edge COLOR="#ff0000"/>
+<node TEXT="@property" ID="ID_1989624869" CREATED="1554100439811" MODIFIED="1554100447378">
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_1757256912" CREATED="1554100828903" MODIFIED="1554100835811">
+<node TEXT=" &#x8d1f;&#x8d23;&#x628a;&#x4e00;&#x4e2a;&#x65b9;&#x6cd5;&#x53d8;&#x6210;&#x5c5e;&#x6027;&#x8c03;&#x7528;" ID="ID_364245909" CREATED="1554100540841" MODIFIED="1554100542523"/>
+<node TEXT="&#x907f;&#x514d;&#x76f4;&#x63a5;&#x628a;&#x5c5e;&#x6027;&#x66b4;&#x9732;&#x51fa;&#x53bb;" ID="ID_167820888" CREATED="1554100567432" MODIFIED="1554100574665"/>
+</node>
+<node ID="ID_1547614411" CREATED="1554100771851" MODIFIED="1554100777292"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Student(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<span style="color: #cc7832"><font color="#cc7832"><br/></font></span><font color="#cc7832"><span style="color: #cc7832">    <br/></span><span style="color: #cc7832">    </span></font><span style="color: #bbb529"><font color="#bbb529">@property<br/></font></span><font color="#bbb529"><span style="color: #bbb529">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">score</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>._score<br/><br/>    <span style="color: #bbb529"><font color="#bbb529">@score.setter<br/></font></span><font color="#bbb529"><span style="color: #bbb529">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">score</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>value):<br/>        <span style="color: #cc7832"><font color="#cc7832">if not </font></span><span style="color: #8888c6"><font color="#8888c6">isinstance</font></span>(value<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #8888c6"><font color="#8888c6">int</font></span>):<br/>            <span style="color: #cc7832"><font color="#cc7832">raise </font></span><span style="color: #8888c6"><font color="#8888c6">ValueError</font></span>(<span style="color: #6a8759"><font color="#6a8759">'score must be an integer!'</font></span>)<br/>        <span style="color: #cc7832"><font color="#cc7832">if </font></span>value &lt; <span style="color: #6897bb"><font color="#6897bb">0 </font></span><span style="color: #cc7832"><font color="#cc7832">or </font></span>value &gt; <span style="color: #6897bb"><font color="#6897bb">100</font></span>:<br/>            <span style="color: #cc7832"><font color="#cc7832">raise </font></span><span style="color: #8888c6"><font color="#8888c6">ValueError</font></span>(<span style="color: #6a8759"><font color="#6a8759">'score must between 0 ~ 100!'</font></span>)<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>._score = value</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x628a;&#x4e00;&#x4e2a;getter&#x65b9;&#x6cd5;&#x53d8;&#x6210;&#x5c5e;&#x6027;&#xff0c;&#x53ea;&#x9700;&#x8981;&#x52a0;&#x4e0a;@property" ID="ID_463054397" CREATED="1554100802166" MODIFIED="1554100856268"/>
+<node TEXT=" @property&#x672c;&#x8eab;&#x53c8;&#x521b;&#x5efa;&#x4e86;&#x53e6;&#x4e00;&#x4e2a;&#x88c5;&#x9970;&#x5668;@score.setter&#xff0c;&#x8d1f;&#x8d23;&#x628a;&#x4e00;&#x4e2a;setter&#x65b9;&#x6cd5;&#x53d8;&#x6210;&#x5c5e;&#x6027;&#x8d4b;&#x503c;" ID="ID_895871753" CREATED="1554100857015" MODIFIED="1554100878784"/>
+<node TEXT="&#x5b9a;&#x4e49;&#x53ea;&#x8bfb;&#x7c7b;&#x5c5e;&#x6027;" ID="ID_331180311" CREATED="1554100905122" MODIFIED="1554100913321">
+<node TEXT="&#x53ea;&#x5b9a;&#x4e49;getter&#x65b9;&#x6cd5;&#xff0c;&#x4e0d;&#x5b9a;&#x4e49;setter&#x65b9;&#x6cd5;&#x5c31;&#x662f;&#x4e00;&#x4e2a;&#x53ea;&#x8bfb;&#x5c5e;&#x6027;" ID="ID_1783685140" CREATED="1554100914089" MODIFIED="1554100933653"/>
+<node TEXT="&#x53ea;&#x6709;@property" ID="ID_407777497" CREATED="1554100997736" MODIFIED="1554101005048"/>
+<node TEXT="&#x6ca1;&#x6709;@***.setter" ID="ID_455323476" CREATED="1554101005263" MODIFIED="1554101033266"/>
+</node>
+</node>
 </node>
 </node>
 </map>
