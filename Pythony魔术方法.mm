@@ -1,4 +1,4 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Pythony&#x9b54;&#x672f;&#x65b9;&#x6cd5;" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1532884720871" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light"/>
@@ -130,7 +130,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="46" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="47" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x6982;&#x5ff5;" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_460177667" CREATED="1532798334901" MODIFIED="1532834706634">
 <edge COLOR="#0000ff"/>
@@ -354,7 +354,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5c5e;&#x6027;&#x8c03;&#x7528;" POSITION="right" ID="ID_766785122" CREATED="1536422600165" MODIFIED="1539318727444">
+<node TEXT="&#x5c5e;&#x6027;&#x8c03;&#x7528;" FOLDED="true" POSITION="right" ID="ID_766785122" CREATED="1536422600165" MODIFIED="1539318727444">
 <edge COLOR="#0000ff"/>
 <node TEXT=" __getattribute__" ID="ID_466217927" CREATED="1536422632333" MODIFIED="1536423459663">
 <node TEXT="&#x8bbf;&#x95ee;&#x7c7b;&#x5c5e;&#x6027;&#x6216;&#x5b9e;&#x4f8b;&#x5c5e;&#x6027;&#x7684;&#x65f6;&#x5019;&#x4f1a;&#x8c03;&#x7528;&#x7684;&#x65b9;&#x6cd5;" ID="ID_718307462" CREATED="1536584722574" MODIFIED="1536584808834">
@@ -414,6 +414,45 @@
 </node>
 </node>
 <node TEXT="&#x5bf9;&#x6bd4; getattr() &#x4e0e; setattr()" ID="ID_957148578" CREATED="1536583807577" MODIFIED="1536583822565"/>
+</node>
+<node TEXT="__call__" POSITION="right" ID="ID_658272142" CREATED="1554103411128" MODIFIED="1554103421161">
+<edge COLOR="#00ff00"/>
+<node TEXT=" &#x53ef;&#x8c03;&#x7528;&#x5bf9;&#x8c61;&#xff08;callable&#xff09;" ID="ID_774687810" CREATED="1554103467386" MODIFIED="1554103469051">
+<node TEXT=" &#x5728;Python&#x4e2d;&#xff0c;&#x65b9;&#x6cd5;&#x4e5f;&#x662f;&#x4e00;&#x79cd;&#x9ad8;&#x7b49;&#x7684;&#x5bf9;&#x8c61;" ID="ID_363398761" CREATED="1554103913080" MODIFIED="1554103914753"/>
+<node TEXT=" &#x81ea;&#x5b9a;&#x4e49;&#x7684;&#x51fd;&#x6570;&#x3001;&#x5185;&#x7f6e;&#x51fd;&#x6570;&#x548c;&#x7c7b;&#x90fd;&#x5c5e;&#x4e8e;&#x53ef;&#x8c03;&#x7528;&#x5bf9;&#x8c61;" ID="ID_648555026" CREATED="1554103476664" MODIFIED="1554103477768"/>
+<node TEXT="&#x4f46;&#x51e1;&#x662f;&#x53ef;&#x4ee5;&#x628a;&#x4e00;&#x5bf9;&#x62ec;&#x53f7;()&#x5e94;&#x7528;&#x5230;&#x67d0;&#x4e2a;&#x5bf9;&#x8c61;&#x8eab;&#x4e0a;&#x90fd;&#x53ef;&#x79f0;&#x4e4b;&#x4e3a;&#x53ef;&#x8c03;&#x7528;&#x5bf9;&#x8c61;" ID="ID_265770957" CREATED="1554103478024" MODIFIED="1554103487016"/>
+</node>
+<node TEXT="&#x5224;&#x65ad;&#x4e00;&#x53d8;&#x91cf;&#x662f;&#x5426;&#x4e3a;&#x53ef;&#x8c03;&#x7528;&#x5bf9;&#x8c61;" ID="ID_150753282" CREATED="1554103497774" MODIFIED="1554104116857">
+<node TEXT="callable()" ID="ID_455302499" CREATED="1554103535983" MODIFIED="1554103544688"/>
+<node ID="ID_147335145" CREATED="1554103533130" MODIFIED="1554104116856"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">a = A()<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #8888c6"><font color="#8888c6">callable</font></span>(a))  <span style="color: #808080"><font color="#808080"># True</font></span></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT=" a&#x662f;&#x5b9e;&#x4f8b;&#x5bf9;&#x8c61;&#xff0c;&#x540c;&#x65f6;&#x8fd8;&#x662f;&#x53ef;&#x8c03;&#x7528;&#x5bf9;&#x8c61;" ID="ID_1059622529" CREATED="1554103574391" MODIFIED="1554103575729"/>
+<node TEXT="  a() &#x4e0e; a.__call__() &#x662f;&#x76f8;&#x540c;&#x7684;" ID="ID_1898542602" CREATED="1554103974665" MODIFIED="1554103980224"/>
+</node>
+<node TEXT=" &#x5229;&#x7528;&#x8fd9;&#x79cd;&#x7279;&#x6027;&#x53ef;&#x4ee5;&#x5b9e;&#x73b0;&#x57fa;&#x4e8e;&#x7c7b;&#x7684;&#x88c5;&#x9970;&#x5668;&#xff0c;&#x5728;&#x7c7b;&#x91cc;&#x9762;&#x8bb0;&#x5f55;&#x72b6;&#x6001;" ID="ID_206538063" CREATED="1554103604047" MODIFIED="1554103605743">
+<node ID="ID_404807889" CREATED="1554108799362" MODIFIED="1554108799362"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Foo(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__init__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>func):<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>._func = func<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__call__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'class decorator runing'</font></span>)<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>._func()<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'class decorator ending'</font></span>)<br/><br/><span style="color: #bbb529"><font color="#bbb529">@Foo<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">bar</font></span>():<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'bar'</font></span>)</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>
