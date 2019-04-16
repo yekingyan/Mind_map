@@ -1,9 +1,9 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="python3 &#x5185;&#x7f6e;&#x51fd;&#x6570;" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1536494620117" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="90" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="93" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="filter" FOLDED="true" POSITION="right" ID="ID_183133208" CREATED="1536490006310" MODIFIED="1536494641713">
 <edge COLOR="#007c00"/>
@@ -392,6 +392,109 @@
 </node>
 </node>
 </node>
+<node TEXT=".setdefault()" FOLDED="true" POSITION="right" ID="ID_1987238996" CREATED="1555399518466" MODIFIED="1555399537743">
+<edge COLOR="#00ff00"/>
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_200410546" CREATED="1555399590977" MODIFIED="1555399595773">
+<node TEXT=" &#x5982;&#x679c;&#x952e;&#x4e0d;&#x5b58;&#x5728;&#x4e8e;&#x5b57;&#x5178;&#x4e2d;&#xff0c;&#x5c06;&#x4f1a;&#x6dfb;&#x52a0;&#x952e;&#x5e76;&#x5c06;&#x503c;&#x8bbe;&#x4e3a;&#x9ed8;&#x8ba4;&#x503c;" ID="ID_529232532" CREATED="1555399556617" MODIFIED="1555399561004"/>
+<node TEXT=" setdefault() &#x51fd;&#x6570;&#x548c; get()&#x65b9;&#x6cd5; &#x7c7b;&#x4f3c;" ID="ID_347096477" CREATED="1555399562369" MODIFIED="1555399573628"/>
+</node>
+<node TEXT="&#x8bed;&#x6cd5;" ID="ID_1699950950" CREATED="1555399600817" MODIFIED="1555399602838">
+<node TEXT=" dict.setdefault(key, default=None)" ID="ID_1020321925" CREATED="1555399606225" MODIFIED="1555399607830"/>
+<node TEXT="key" ID="ID_1530500467" CREATED="1555399614188" MODIFIED="1555399624939">
+<node TEXT="&#x67e5;&#x627e;&#x7684;&#x952e;&#x503c;" ID="ID_586545151" CREATED="1555399625959" MODIFIED="1555399629924"/>
+</node>
+<node TEXT="default" ID="ID_954608635" CREATED="1555399631125" MODIFIED="1555399636146">
+<node TEXT=" &#x952e;&#x4e0d;&#x5b58;&#x5728;&#x65f6;&#xff0c;&#x8bbe;&#x7f6e;&#x7684;&#x9ed8;&#x8ba4;&#x952e;&#x503c;" ID="ID_938027178" CREATED="1555399641148" MODIFIED="1555399642371"/>
+</node>
+</node>
+<node TEXT="&#x8fd4;&#x56de;" ID="ID_1922498926" CREATED="1555399610197" MODIFIED="1555399612763">
+<node TEXT=" &#x5b57;&#x5178;&#x4e2d;&#x5305;&#x542b;&#x7ed9;&#x5b9a;&#x7684;key" ID="ID_379162284" CREATED="1555399666080" MODIFIED="1555399733860">
+<node TEXT="&#x5b57;&#x5178;key&#x539f;&#x6709;&#x5bf9;&#x5e94;&#x7684;value" ID="ID_563880670" CREATED="1555399672335" MODIFIED="1555399698588"/>
+</node>
+<node TEXT="&#x5b57;&#x5178;&#x4e2d;&#x4e0d;&#x5305;&#x542b;&#x7ed9;&#x5b9a;&#x7684;key" ID="ID_981371099" CREATED="1555399701361" MODIFIED="1555399737404">
+<node TEXT="&#x8bbe;&#x7f6e;&#x65b0;&#x7684;&#x503c;&#x5e76;&#x8fd4;&#x56de;" ID="ID_637464841" CREATED="1555399738607" MODIFIED="1555399753224"/>
+</node>
+</node>
+</node>
+<node TEXT="hasattr()" FOLDED="true" POSITION="right" ID="ID_175758419" CREATED="1555400109858" MODIFIED="1555400116471">
+<edge COLOR="#ff00ff"/>
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_1458194434" CREATED="1555400117125" MODIFIED="1555400122723">
+<node TEXT="hasattr() &#x51fd;&#x6570;&#x7528;&#x4e8e;&#x5224;&#x65ad;&#x5bf9;&#x8c61;&#x662f;&#x5426;&#x5305;&#x542b;&#x5bf9;&#x5e94;&#x7684;&#x5c5e;&#x6027;" ID="ID_1807188793" CREATED="1555400122966" MODIFIED="1555400130860"/>
+</node>
+<node TEXT="&#x8bed;&#x6cd5;" ID="ID_15921169" CREATED="1555400133179" MODIFIED="1555400137310">
+<node ID="ID_722911200" CREATED="1555400141996" MODIFIED="1555400145013"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      hasattr(object, name)&#160;<content ename="content"/>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="object" ID="ID_1828635592" CREATED="1555400149693" MODIFIED="1555400152433">
+<node TEXT=" &#x5bf9;&#x8c61;" ID="ID_775046783" CREATED="1555400158999" MODIFIED="1555400160410"/>
+</node>
+<node TEXT="name" ID="ID_629424969" CREATED="1555400153639" MODIFIED="1555400154637">
+<node TEXT="&#x5c5e;&#x6027;&#x540d;&#x7684;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1258301713" CREATED="1555400161271" MODIFIED="1555400172370"/>
+</node>
+</node>
+<node TEXT="&#x8fd4;&#x56de;&#x503c;" ID="ID_1192610943" CREATED="1555400146873" MODIFIED="1555400178812">
+<node TEXT="boolean" ID="ID_1696295231" CREATED="1555400179184" MODIFIED="1555400182977"/>
+</node>
+<node TEXT="&#x6ce8;&#x610f;" ID="ID_470607671" CREATED="1555400184748" MODIFIED="1555400189996">
+<node TEXT="&#x5728;python2&#x4e2d;&#x4e0d;&#x5efa;&#x8bae;&#x4f7f;&#x7528; hasattr()" ID="ID_60683235" CREATED="1555400190237" MODIFIED="1555400284821"/>
+<node TEXT="python2 &#x4e2d;hasattr()&#x4f1a;&#x9690;&#x85cf;&#x6389;&#x7279;&#x6027;&#xff08;property&#xff09;" ID="ID_1840162065" CREATED="1555400339053" MODIFIED="1555400355427"/>
+<node TEXT="&#x53ef;&#x7528;try except  &#x6216; getattr() &#x4ee3;&#x66ff;" ID="ID_323681460" CREATED="1555400260297" MODIFIED="1555400326104"/>
+<node ID="ID_836621782" CREATED="1555400536129" MODIFIED="1555400536129"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>C(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    <span style="color: #bbb529"><font color="#bbb529">@property<br/></font></span><font color="#bbb529"><span style="color: #bbb529">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">y</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #a5c261"><font color="#a5c261">'y'<br/></font></span><font color="#a5c261"><span style="color: #a5c261">    <br/></span></font><span style="color: #cc7832"><font color="#cc7832">print </font></span><span style="color: #8888c6"><font color="#8888c6">hasattr</font></span>(C()<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;y&quot;</font></span>)  <span style="color: #808080"><font color="#808080"># False</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="getattr()" FOLDED="true" POSITION="right" ID="ID_1465082578" CREATED="1555400582976" MODIFIED="1555400590958">
+<edge COLOR="#00ffff"/>
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_271067911" CREATED="1555400626039" MODIFIED="1555400631303">
+<node TEXT=" getattr() &#x51fd;&#x6570;&#x7528;&#x4e8e;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;&#x503c;" ID="ID_1139693505" CREATED="1555400631618" MODIFIED="1555400632834"/>
+</node>
+<node TEXT="&#x8bed;&#x6cd5;" ID="ID_910638291" CREATED="1555400634768" MODIFIED="1555400636387">
+<node TEXT="getattr(object, name[, default])" ID="ID_1939993630" CREATED="1555400636775" MODIFIED="1555400651971"/>
+<node TEXT="object" ID="ID_901193514" CREATED="1555400653616" MODIFIED="1555400656013">
+<node TEXT="&#x5bf9;&#x8c61;" ID="ID_1161595978" CREATED="1555400656507" MODIFIED="1555400659411"/>
+</node>
+<node TEXT="name" ID="ID_258292140" CREATED="1555400661277" MODIFIED="1555400662989">
+<node TEXT="&#x5bf9;&#x8c61;&#x5c5e;&#x6027;&#x7684;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1422508151" CREATED="1555400663459" MODIFIED="1555400672540"/>
+</node>
+<node TEXT="default" ID="ID_106444535" CREATED="1555400673785" MODIFIED="1555400678565">
+<node TEXT="&#x6ca1;&#x6709;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;&#x65f6;&#x9ed8;&#x8ba4;&#x8fd4;&#x56de;&#x503c;" ID="ID_374222616" CREATED="1555400678732" MODIFIED="1555400709562"/>
+</node>
+</node>
+<node TEXT="&#x8fd4;&#x56de;&#x503c;" ID="ID_1337589156" CREATED="1555400715807" MODIFIED="1555400722712">
+<node TEXT="&#x5982;&#x679c;&#x5b58;&#x5728;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;name" ID="ID_1736244612" CREATED="1555400723375" MODIFIED="1555400773964">
+<node TEXT="&#x8fd4;&#x56de;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;&#x503c;" ID="ID_1609089202" CREATED="1555400744626" MODIFIED="1555400760451"/>
+</node>
+<node TEXT="&#x5982;&#x679c;&#x4e0d;&#x5b58;&#x5728;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;name" ID="ID_807037339" CREATED="1555400761895" MODIFIED="1555400777632">
+<node TEXT="&#x8fd4;&#x56de;default" ID="ID_747009895" CREATED="1555400778448" MODIFIED="1555400782724"/>
+</node>
+</node>
+<node TEXT="&#x6ce8;&#x610f;" ID="ID_1222611526" CREATED="1555400799207" MODIFIED="1555400803332">
+<node TEXT="&#x5982;&#x679c;&#x4e0d;&#x63d0;&#x4f9b;default&#x53c2;&#x6570;&#xff0c;&#x5728;&#x6ca1;&#x6709;&#x5bf9;&#x5e94;&#x5c5e;&#x6027;&#x65f6;&#xff0c;&#x5c06;&#x89e6;&#x53d1; AttributeError" ID="ID_349912709" CREATED="1555400803591" MODIFIED="1555400815283"/>
+</node>
+</node>
 <node TEXT="vars()" POSITION="right" ID="ID_932104976" CREATED="1539600196318" MODIFIED="1539600200192">
 <edge COLOR="#0000ff"/>
 <node TEXT=" &#x8fd4;&#x56de;&#x5bf9;&#x8c61;object&#x7684;&#x5c5e;&#x6027;&#x548c;&#x5c5e;&#x6027;&#x503c;&#x7684;&#x5b57;&#x5178;&#x5bf9;&#x8c61;" ID="ID_543705618" CREATED="1539600236686" MODIFIED="1539600238744"/>
@@ -409,7 +512,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>A(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__init__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>t<span style="color: #cc7832"><font color="#cc7832">, </font></span>c<span style="color: #cc7832"><font color="#cc7832">, </font></span>ct):<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>.title = t<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>.content = c<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>.ct = ct</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1779999716" CREATED="1539600361471" MODIFIED="1539600361471"><richcontent TYPE="NODE">
@@ -422,7 +524,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Source Code Pro; font-size: 12.0pt">a = A(<span style="color: #6a8759"><font color="#6a8759">'django'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'A web frame'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'2018'</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #8888c6"><font color="#8888c6">vars</font></span>(a))<br/><span style="color: #808080"><font color="#808080"># {'title': 'django', <br/></font></span><font color="#808080"><span style="color: #808080">#   'content': 'A web frame', 'ct': '2018'}</span></font></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -439,9 +540,11 @@
 #          &#12290;&#12290;&#12290;}       </span></font></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
+</node>
+<node TEXT="&#x53bb;&#x6389;&#x9b54;&#x6cd5;&#x5c5e;&#x6027;&#xff08;&#x5e72;&#x51c0;&#x7684;&#x5b57;&#x5178;&#xff09;" ID="ID_244282062" CREATED="1555401385648" MODIFIED="1555401411046">
+<node TEXT=" {k: v for k, v in vars(A).items() if &apos;__&apos; not in k}" ID="ID_51858045" CREATED="1555401418360" MODIFIED="1555401439564"/>
 </node>
 </node>
 <node TEXT="os &#x6a21;&#x5757;" FOLDED="true" POSITION="left" ID="ID_1450216899" CREATED="1539077987880" MODIFIED="1539078006161">
