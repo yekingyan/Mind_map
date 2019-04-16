@@ -3,7 +3,7 @@
 <node TEXT="&#x5ed6;&#x96ea;&#x5cf0; python3" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537888489239" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="89" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="90" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x89e3;&#x91ca;&#x5668;" FOLDED="true" POSITION="right" ID="ID_987134475" CREATED="1537888500595" MODIFIED="1537889643579" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#007c00"/>
@@ -740,10 +740,113 @@
 </node>
 </node>
 </node>
-<node TEXT=" &#x8bbf;&#x95ee;&#x9650;&#x5236;" ID="ID_1815958039" CREATED="1552643739325" MODIFIED="1552643740449"/>
+<node TEXT=" &#x8bbf;&#x95ee;&#x9650;&#x5236;" ID="ID_1815958039" CREATED="1552643739325" MODIFIED="1552643740449">
+<node TEXT="&#x53cc;&#x4e0b;&#x5212;&#x7ebf;&#x5f00;&#x5934; __XX" ID="ID_1026429400" CREATED="1555402317418" MODIFIED="1555402337576">
+<node TEXT=" &#x79c1;&#x6709;&#x53d8;&#x91cf;&#xff08;private&#xff09;" ID="ID_1268105020" CREATED="1555402375755" MODIFIED="1555402381454"/>
+<node TEXT="&#x8be5;&#x5185;&#x90e8;&#x5c5e;&#x6027;&#x4e0d;&#x518d;&#x80fd;&#x88ab;&#x5916;&#x90e8;&#x8bbf;&#x95ee;" ID="ID_1122518475" CREATED="1555402338605" MODIFIED="1555402405090">
+<node TEXT="python&#x6539;&#x4e86;&#x4e2a;&#x540d;&#x5b57;&#xff0c;&#x4e0d;&#x80fd;&#x901a;&#x8fc7;A.__XX" ID="ID_1692652141" CREATED="1555402610318" MODIFIED="1555402638202"/>
+<node TEXT="&#x4f46;&#x901a;&#x8fc7;&#x6539;&#x7684;&#x540d;&#x5b57;&#xff0c;&#x8fd8;&#x662f;&#x53ef;&#x4ee5;&#x8bbf;&#x95ee;&#x7684;" ID="ID_1700616872" CREATED="1555402626105" MODIFIED="1555402651626"/>
+</node>
+<node TEXT="&#x95f4;&#x63a5;&#x66b4;&#x9732;" ID="ID_15018474" CREATED="1555402426823" MODIFIED="1555402452652">
+<node TEXT="&#x5b9a;&#x4e49;&#x4e00;&#x4e2a;&#x65b9;&#x6cd5; return &#x53cc;&#x4e0b;&#x5212;&#x7ebf;&#x7684;&#x79c1;&#x6709;&#x53d8;&#x91cf;" ID="ID_809803146" CREATED="1555402452831" MODIFIED="1555402475208"/>
+<node TEXT="&#x5b9a;&#x4e49;&#x4e00;&#x4e2a;&#x65b9;&#x6cd5; &#x4fee;&#x6539; &#x53cc;&#x4e0b;&#x5212;&#x7ebf;&#x7684;&#x79c1;&#x6709;&#x53d8;&#x91cf;" ID="ID_1211583730" CREATED="1555402490936" MODIFIED="1555402508829"/>
+</node>
+</node>
+<node TEXT="&#x5355;&#x4e0b;&#x5212;&#x7ebf;&#x5f00;&#x5934; _XX" ID="ID_1617064472" CREATED="1555402528416" MODIFIED="1555402539082">
+<node TEXT="&#x7ea6;&#x5b9a;&#x4fd7;&#x6210;&#x7684;&#x5185;&#x90e8;&#x53d8;&#x91cf;" ID="ID_892439707" CREATED="1555402539548" MODIFIED="1555402564454"/>
+<node TEXT=" &quot;&#x867d;&#x7136;&#x6211;&#x53ef;&#x4ee5;&#x88ab;&#x8bbf;&#x95ee;&#xff0c;&#x4f46;&#x662f;&#xff0c;&#x8bf7;&#x628a;&#x6211;&#x89c6;&#x4e3a;&#x79c1;&#x6709;&#x53d8;&#x91cf;&#xff0c;&#x4e0d;&#x8981;&#x968f;&#x610f;&#x8bbf;&#x95ee;&quot;" ID="ID_1957608164" CREATED="1555402580726" MODIFIED="1555402588504"/>
+</node>
+</node>
+<node TEXT="&#x7ee7;&#x627f;&#x548c;&#x591a;&#x6001;" ID="ID_473787505" CREATED="1555402661644" MODIFIED="1555402670742">
+<node TEXT="&#x7ee7;&#x627f;" ID="ID_1635492483" CREATED="1555403475013" MODIFIED="1555403481526">
+<node TEXT="&#x65b0;&#x7ee7;&#x627f;&#x7684;&#x65b0;&#x7684;class&#x79f0;&#x4e3a;&#x5b50;&#x7c7b;&#xff08;Subclass&#xff09;" ID="ID_1927744840" CREATED="1555403481712" MODIFIED="1555403492026"/>
+<node TEXT="&#x88ab;&#x7ee7;&#x627f;&#x7684;class&#x79f0;&#x4e3a;&#x57fa;&#x7c7b;&#x3001;&#x7236;&#x7c7b;&#x6216;&#x8d85;&#x7c7b;&#xff08;Base class&#x3001;Super class&#xff09;" ID="ID_130710845" CREATED="1555403500472" MODIFIED="1555403503696"/>
+<node TEXT=" &#x5b50;&#x7c7b;&#x83b7;&#x5f97;&#x4e86;&#x7236;&#x7c7b;&#x7684;&#x5168;&#x90e8;&#x529f;&#x80fd;" ID="ID_590995412" CREATED="1555403513848" MODIFIED="1555403515499"/>
+<node TEXT=" &#x5b50;&#x7c7b;&#x53ea;&#x9700;&#x8981;&#x65b0;&#x589e;&#x81ea;&#x5df1;&#x7279;&#x6709;&#x7684;&#x65b9;&#x6cd5;&#xff0c;&#x4e5f;&#x53ef;&#x4ee5;&#x628a;&#x7236;&#x7c7b;&#x4e0d;&#x9002;&#x5408;&#x7684;&#x65b9;&#x6cd5;&#x8986;&#x76d6;&#x91cd;&#x5199;" ID="ID_270430487" CREATED="1555404027303" MODIFIED="1555404029649"/>
+</node>
+<node TEXT="&#x591a;&#x6001;" ID="ID_612676084" CREATED="1555403531217" MODIFIED="1555403533378">
+<node TEXT="&#x5b50;&#x7c7b;&#x8986;&#x76d6;&#x7236;&#x7c7b;&#x7684;&#x65b9;&#x6cd5;" ID="ID_243625445" CREATED="1555403533599" MODIFIED="1555403574713"/>
+<node TEXT="&#x6570;&#x636e;&#x7c7b;&#x578b;" ID="ID_539844980" CREATED="1555403592745" MODIFIED="1555403606396">
+<node TEXT=" &#x5b9a;&#x4e49;&#x4e00;&#x4e2a;class&#x7684;&#x65f6;&#x5019;&#xff0c;&#x5b9e;&#x9645;&#x4e0a;&#x5b9a;&#x4e49;&#x4e86;&#x4e00;&#x79cd;&#x6570;&#x636e;&#x7c7b;&#x578b;" ID="ID_1910767272" CREATED="1555403607199" MODIFIED="1555403618731"/>
+<node TEXT=" &#x5b9a;&#x4e49;&#x7684;&#x6570;&#x636e;&#x7c7b;&#x578b;&#x548c;Python&#x81ea;&#x5e26;&#x7684;&#x6570;&#x636e;&#x7c7b;&#x578b;&#xff0c;&#x6bd4;&#x5982;str&#x3001;list&#x3001;dict&#x6ca1;&#x4ec0;&#x4e48;&#x4e24;&#x6837;" ID="ID_51828004" CREATED="1555403627848" MODIFIED="1555403632451"/>
+<node TEXT=" &#x5728;&#x7ee7;&#x627f;&#x5173;&#x7cfb;&#x4e2d;&#xff0c;&#x5982;&#x679c;&#x4e00;&#x4e2a;&#x5b9e;&#x4f8b;&#x7684;&#x6570;&#x636e;&#x7c7b;&#x578b;&#x662f;&#x67d0;&#x4e2a;&#x5b50;&#x7c7b;&#xff0c;&#x90a3;&#x5b83;&#x7684;&#x6570;&#x636e;&#x7c7b;&#x578b;&#x4e5f;&#x53ef;&#x4ee5;&#x88ab;&#x770b;&#x505a;&#x662f;&#x7236;&#x7c7b;&#x3002;&#x4f46;&#x662f;&#xff0c;&#x53cd;&#x8fc7;&#x6765;&#x5c31;&#x4e0d;&#x884c;" ID="ID_1941208933" CREATED="1555403674359" MODIFIED="1555403676708"/>
+</node>
+<node TEXT=" &#x653e;&#x5fc3;&#x5730;&#x8c03;&#x7528;&#x65b9;&#x6cd5;" ID="ID_1719512415" CREATED="1555403820631" MODIFIED="1555403825555">
+<node TEXT=" &#x53ea;&#x9700;&#x8981;&#x77e5;&#x9053;&#x5b83;&#x7684;&#x7236;&#x7c7b;&#x578b;&#x6709;&#x8fd9;&#x4e2a;&#x65b9;&#x6cd5;" ID="ID_1692307923" CREATED="1555403840553" MODIFIED="1555403857075"/>
+<node TEXT=" &#x65e0;&#x9700;&#x786e;&#x5207;&#x5730;&#x77e5;&#x9053;&#x5b83;&#x7684;&#x5b50;&#x7c7b;&#x578b;" ID="ID_1383906866" CREATED="1555403847128" MODIFIED="1555403848517"/>
+<node TEXT=" &#x8c03;&#x7528;&#x65b9;&#x53ea;&#x7ba1;&#x8c03;&#x7528;&#xff0c;&#x4e0d;&#x7ba1;&#x7ec6;&#x8282;" ID="ID_393643815" CREATED="1555403931143" MODIFIED="1555403932562"/>
+</node>
+<node TEXT="&#x4e0d;&#x540c;&#x7c7b;&#x578b;&#x4e0b;&#x65b9;&#x6cd5;&#x591a;&#x6837;&#x5316;" ID="ID_1305869498" CREATED="1555403805240" MODIFIED="1555403887752">
+<node TEXT="&#x8c03;&#x7528;&#x76f8;&#x540c;&#x7684;&#x65b9;&#x6cd5;&#xff0c;&#x5728;&#x4e0d;&#x540c;&#x7684;&#x7c7b;&#x578b;&#x4e0b;&#x6709;&#x4e0d;&#x540c;&#x7684;&#x8868;&#x73b0;" ID="ID_430639223" CREATED="1555403897929" MODIFIED="1555403953281"/>
+</node>
+<node TEXT="&#x5f00;&#x95ed;&#x539f;&#x5219;" ID="ID_220351561" CREATED="1555403969392" MODIFIED="1555403982194" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="&#x5bf9;&#x6269;&#x5c55;&#x5f00;&#x653e;&#xff1a;&#x5141;&#x8bb8;&#x65b0;&#x589e;Animal&#x5b50;&#x7c7b;&#xff1b;" ID="ID_136747438" CREATED="1555403973539" MODIFIED="1555403983571"/>
+<node TEXT="&#x5bf9;&#x4fee;&#x6539;&#x5c01;&#x95ed;&#xff1a;&#x4e0d;&#x9700;&#x8981;&#x4fee;&#x6539;&#x4f9d;&#x8d56;Animal&#x7c7b;&#x578b;&#x7684;run_twice()&#x7b49;&#x51fd;&#x6570;&#x3002;" ID="ID_464584887" CREATED="1555403985042" MODIFIED="1555403991585"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x83b7;&#x53d6;&#x5bf9;&#x8c61;&#x4fe1;&#x606f;" ID="ID_1023222662" CREATED="1555404292908" MODIFIED="1555404298698">
+<node TEXT="&#x7c7b;&#x578b;&#x5224;&#x65ad;" ID="ID_1461533598" CREATED="1555404298864" MODIFIED="1555404331484">
+<node TEXT=" type()" ID="ID_1057048275" CREATED="1555404342327" MODIFIED="1555404343480">
+<node TEXT=" type()&#x51fd;&#x6570;&#x8fd4;&#x56de;&#x5bf9;&#x5e94;&#x7684;Class&#x7c7b;&#x578b;" ID="ID_334464769" CREATED="1555404361721" MODIFIED="1555404369066"/>
+</node>
+<node TEXT=" isinstance()" ID="ID_1477439243" CREATED="1555404379481" MODIFIED="1555404380856">
+<node TEXT=" &#x5bf9;&#x4e8e;class&#x7684;&#x7ee7;&#x627f;&#x5173;&#x7cfb;&#x6765;&#x8bf4;&#xff0c;&#x4f7f;&#x7528;type()&#x5c31;&#x5f88;&#x4e0d;&#x65b9;&#x4fbf;" ID="ID_776398555" CREATED="1555404392296" MODIFIED="1555404393418"/>
+<node TEXT=" isinstance()&#x5c31;&#x5224;&#x65ad;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x662f;&#x5426;&#x662f;&#x67d0;&#x79cd;&#x7c7b;&#x578b;" ID="ID_383132311" CREATED="1555404409615" MODIFIED="1555404417594"/>
+<node TEXT=" isinstance()&#x5224;&#x65ad;&#x7684;&#x662f;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x662f;&#x5426;&#x662f;&#x8be5;&#x7c7b;&#x578b;&#x672c;&#x8eab;&#xff0c;&#x6216;&#x8005;&#x4f4d;&#x4e8e;&#x8be5;&#x7c7b;&#x578b;&#x7684;&#x7236;&#x7ee7;&#x627f;&#x94fe;&#x4e0a;" ID="ID_618900097" CREATED="1555404440840" MODIFIED="1555404442401"/>
+<node TEXT="&#x4f8b;&#x5b50;" ID="ID_1805691947" CREATED="1555404511871" MODIFIED="1555404513275">
+<node TEXT="&#x662f;&#x5426;&#x5c5e;&#x4e8e;&#x67d0;&#x79cd;&#x7c7b;&#x578b;" ID="ID_467674392" CREATED="1555404464472" MODIFIED="1555404542272">
+<node TEXT="isinstance(&apos;a&apos;, str)" ID="ID_692691585" CREATED="1555404473944" MODIFIED="1555404479571"/>
+</node>
+<node TEXT="&#x662f;&#x5426;&#x662f;&#x5176;&#x4e2d;&#x7684;&#x4e00;&#x79cd;" ID="ID_1611278340" CREATED="1555404488232" MODIFIED="1555404495249">
+<node TEXT=" isinstance([1, 2, 3], (list, tuple))" ID="ID_1770439063" CREATED="1555404509106" MODIFIED="1555404510179"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x67e5;&#x770b;&#x4fe1;&#x606f;" ID="ID_693435654" CREATED="1555404331762" MODIFIED="1555404336626">
+<node TEXT="dir()" ID="ID_68776837" CREATED="1555404548744" MODIFIED="1555404553474">
+<node TEXT=" &#x83b7;&#x5f97;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x6240;&#x6709;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;" ID="ID_1784642925" CREATED="1555404561655" MODIFIED="1555404563474"/>
+<node TEXT=" &#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x5305;&#x542b;&#x5b57;&#x7b26;&#x4e32;&#x7684;list" ID="ID_983164188" CREATED="1555404577951" MODIFIED="1555404579340"/>
+</node>
+<node TEXT=" getattr()&#x3001;setattr()&#x4ee5;&#x53ca;hasattr()" ID="ID_509693842" CREATED="1555404622071" MODIFIED="1555404623706"/>
+<node TEXT="vals()" ID="ID_1485746511" CREATED="1555404623991" MODIFIED="1555404626666"/>
+</node>
+</node>
+<node TEXT="&#x5b9e;&#x4f8b;&#x5c5e;&#x6027;&#x548c;&#x7c7b;&#x5c5e;&#x6027;" ID="ID_1046872857" CREATED="1555404785069" MODIFIED="1555404803218">
+<node TEXT="&#x7c7b;&#x5c5e;&#x6027;" ID="ID_451984352" CREATED="1555404803375" MODIFIED="1555404817066">
+<node TEXT="&#x5b9e;&#x4f8b;&#x4e0e;&#x7c7b;&#x53ef;&#x8bbf;&#x95ee;" ID="ID_191007243" CREATED="1555404817392" MODIFIED="1555404828372"/>
+</node>
+<node TEXT="&#x5b9e;&#x4f8b;&#x5c5e;&#x6027;" ID="ID_566271944" CREATED="1555404830369" MODIFIED="1555404889747">
+<node TEXT="&#x5b9e;&#x4f8b;&#x4e0b;&#x7684;&#x5c5e;&#x6027;" ID="ID_1697923648" CREATED="1555404834424" MODIFIED="1555404932209"/>
+<node TEXT=" &#x5982;&#x679c;&#x4e0e;&#x7c7b;&#x5c5e;&#x6027;&#x540c;&#x540d;&#xff0c;&#x5219;&#x4f1a;&#x66f4;&#x66ff;&#x7c7b;&#x5c5e;&#x6027;" ID="ID_981925404" CREATED="1555404932856" MODIFIED="1555404934451"/>
+</node>
+</node>
 </node>
 <node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;&#x9ad8;&#x7ea7;&#x7f16;&#x7a0b;" POSITION="right" ID="ID_1673555620" CREATED="1554100424553" MODIFIED="1554100439492">
 <edge COLOR="#ff0000"/>
+<node TEXT="__slots__" ID="ID_1755679867" CREATED="1555404968511" MODIFIED="1555404979696">
+<node TEXT=" &#x7c7b;&#x53d8;&#x91cf;__slots__&#xff0c;&#x7528;&#x4e8e;&#x9650;&#x5236;&#x8be5;class&#x5b9e;&#x4f8b;&#x80fd;&#x6dfb;&#x52a0;&#x7684;&#x5c5e;&#x6027;" ID="ID_1838061976" CREATED="1555405342009" MODIFIED="1555405346281"/>
+<node TEXT="&#x4f8b;&#x5b50;" ID="ID_674888049" CREATED="1555405177639" MODIFIED="1555405181771">
+<node ID="ID_570246703" CREATED="1555405156309" MODIFIED="1555405156309"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Student(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    <span style="color: #808080"><font color="#808080"># &#29992;tuple&#23450;&#20041;&#20801;&#35768;&#32465;&#23450;&#30340;&#23646;&#24615;&#21517;&#31216;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #b200b2"><font color="#b200b2">__slots__ </font></span>= (<span style="color: #a5c261"><font color="#a5c261">'name'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">'age'</font></span>) </pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x8bd5;&#x56fe;&#x7ed1;&#x5b9a;&#x672a;&#x5199;&#x5165;__slots__&#x4e2d;&#x7684;&#x5c5e;&#x6027;&#xff0c;&#x5c06;&#x5f97;&#x5230;AttributeError&#x7684;&#x9519;&#x8bef;" ID="ID_894830428" CREATED="1555405185449" MODIFIED="1555405210785"/>
+</node>
+<node TEXT="&#x6ce8;&#x610f;" ID="ID_494019541" CREATED="1555405219263" MODIFIED="1555405221681">
+<node TEXT=" __slots__&#x5b9a;&#x4e49;&#x7684;&#x5c5e;&#x6027;&#x4ec5;&#x5bf9;&#x5f53;&#x524d;&#x7c7b;&#x5b9e;&#x4f8b;&#x8d77;&#x4f5c;&#x7528;&#xff0c;&#x5bf9;&#x7ee7;&#x627f;&#x7684;&#x5b50;&#x7c7b;&#x662f;&#x4e0d;&#x8d77;&#x4f5c;&#x7528;&#x7684;" ID="ID_211316541" CREATED="1555405229279" MODIFIED="1555405230601"/>
+</node>
+</node>
 <node TEXT="@property" ID="ID_1989624869" CREATED="1554100439811" MODIFIED="1554100447378">
 <node TEXT="&#x6982;&#x5ff5;" ID="ID_1757256912" CREATED="1554100828903" MODIFIED="1554100835811">
 <node TEXT=" &#x8d1f;&#x8d23;&#x628a;&#x4e00;&#x4e2a;&#x65b9;&#x6cd5;&#x53d8;&#x6210;&#x5c5e;&#x6027;&#x8c03;&#x7528;" ID="ID_364245909" CREATED="1554100540841" MODIFIED="1554100542523"/>
@@ -759,7 +862,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Student(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<span style="color: #cc7832"><font color="#cc7832"><br/></font></span><font color="#cc7832"><span style="color: #cc7832">    <br/></span><span style="color: #cc7832">    </span></font><span style="color: #bbb529"><font color="#bbb529">@property<br/></font></span><font color="#bbb529"><span style="color: #bbb529">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">score</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>._score<br/><br/>    <span style="color: #bbb529"><font color="#bbb529">@score.setter<br/></font></span><font color="#bbb529"><span style="color: #bbb529">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">score</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>value):<br/>        <span style="color: #cc7832"><font color="#cc7832">if not </font></span><span style="color: #8888c6"><font color="#8888c6">isinstance</font></span>(value<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #8888c6"><font color="#8888c6">int</font></span>):<br/>            <span style="color: #cc7832"><font color="#cc7832">raise </font></span><span style="color: #8888c6"><font color="#8888c6">ValueError</font></span>(<span style="color: #6a8759"><font color="#6a8759">'score must be an integer!'</font></span>)<br/>        <span style="color: #cc7832"><font color="#cc7832">if </font></span>value &lt; <span style="color: #6897bb"><font color="#6897bb">0 </font></span><span style="color: #cc7832"><font color="#cc7832">or </font></span>value &gt; <span style="color: #6897bb"><font color="#6897bb">100</font></span>:<br/>            <span style="color: #cc7832"><font color="#cc7832">raise </font></span><span style="color: #8888c6"><font color="#8888c6">ValueError</font></span>(<span style="color: #6a8759"><font color="#6a8759">'score must between 0 ~ 100!'</font></span>)<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>._score = value</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x628a;&#x4e00;&#x4e2a;getter&#x65b9;&#x6cd5;&#x53d8;&#x6210;&#x5c5e;&#x6027;&#xff0c;&#x53ea;&#x9700;&#x8981;&#x52a0;&#x4e0a;@property" ID="ID_463054397" CREATED="1554100802166" MODIFIED="1554100856268"/>
@@ -770,6 +872,72 @@
 <node TEXT="&#x6ca1;&#x6709;@***.setter" ID="ID_455323476" CREATED="1554101005263" MODIFIED="1554101033266"/>
 </node>
 </node>
+<node TEXT="&#x591a;&#x91cd;&#x7ee7;&#x627f;" ID="ID_353571414" CREATED="1555405410799" MODIFIED="1555405415928">
+<node TEXT="&#x83b7;&#x5f97;&#x6240;&#x7ee7;&#x627f;&#x7c7b;&#x7684;&#x6240;&#x6709;&#x529f;&#x80fd;" ID="ID_1675532041" CREATED="1555405550818" MODIFIED="1555405567657">
+<node TEXT="&#x53ea;&#x8981;&#x9009;&#x62e9;&#x7ec4;&#x5408;&#x4e0d;&#x540c;&#x7684;&#x7c7b;&#x7684;&#x529f;&#x80fd;&#xff0c;&#x5c31;&#x53ef;&#x4ee5;&#x5feb;&#x901f;&#x6784;&#x9020;&#x51fa;&#x6240;&#x9700;&#x7684;&#x5b50;&#x7c7b;" ID="ID_148396260" CREATED="1555405679673" MODIFIED="1555405686978"/>
+</node>
+<node TEXT="MixIn" ID="ID_1453579431" CREATED="1555405567943" MODIFIED="1555405579858">
+<node TEXT=" &#x5728;&#x8bbe;&#x8ba1;&#x7c7b;&#x7684;&#x7ee7;&#x627f;&#x5173;&#x7cfb;&#x65f6;&#xff0c;&#x901a;&#x5e38;&#xff0c;&#x4e3b;&#x7ebf;&#x90fd;&#x662f;&#x5355;&#x4e00;&#x7ee7;&#x627f;&#x4e0b;&#x6765;&#x7684;" ID="ID_488315742" CREATED="1555405607817" MODIFIED="1555405610649"/>
+<node TEXT="&#x4e3a;&#x4e86;&#x770b;&#x6e05;&#x5173;&#x7cfb;&#xff0c;&#x5176;&#x5b83;&#x7ee7;&#x627f;&#x7684;&#x7c7b;&#x52a0;MixIn&#x540e;&#x7f00;" ID="ID_694594441" CREATED="1555405611345" MODIFIED="1555405635129"/>
+</node>
+<node TEXT="&#x4f18;&#x5148;&#x7ea7;" ID="ID_1894329418" CREATED="1555405728291" MODIFIED="1555405732498">
+<node TEXT="&#x5f53;&#x524d;&#x5b50;&#x7c7b;&#x4f18;&#x5148;&#x7ea7;&#x9ad8;&#x4e8e;&#x7236;&#x7c7b;" ID="ID_867316179" CREATED="1555405732752" MODIFIED="1555405756929"/>
+<node TEXT="&#x5de6;&#x8fb9;&#x7236;&#x7c7b; &#x4f18;&#x5148;&#x7ea7;&#x9ad8;&#x4e8e; &#x53f3;&#x8fb9;&#x7236;&#x7c7b;" ID="ID_1031469262" CREATED="1555405757152" MODIFIED="1555405799075"/>
+<node TEXT=" python&#x7ee7;&#x627f;&#x987a;&#x5e8f;&#x9075;&#x5faa;C3&#x7b97;&#x6cd5;&#xff0c;&#x53ea;&#x8981;&#x5728;&#x4e00;&#x4e2a;&#x5730;&#x65b9;&#x627e;&#x5230;&#x4e86;&#x6240;&#x9700;&#x7684;&#x5185;&#x5bb9;&#xff0c;&#x5c31;&#x4e0d;&#x518d;&#x7ee7;&#x7eed;&#x67e5;&#x627e;" ID="ID_1736647980" CREATED="1555405870045" MODIFIED="1555405871632"/>
+</node>
+</node>
+<node TEXT="&#x5b9a;&#x5236;&#x7c7b;" ID="ID_773487989" CREATED="1555406000083" MODIFIED="1555406003850">
+<node TEXT="__len__()" ID="ID_1681278112" CREATED="1555406004044" MODIFIED="1555406075570">
+<node TEXT="&#x8ba9;class&#x4f5c;&#x7528;&#x4e8e;len()&#x51fd;&#x6570;" ID="ID_1127336540" CREATED="1555406012620" MODIFIED="1555406031642"/>
+</node>
+<node TEXT=" __str__()" ID="ID_321181733" CREATED="1555406060160" MODIFIED="1555406078146">
+<node TEXT="print &#x6253;&#x5370;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x597d;&#x770b;&#x7684;&#x5b57;&#x7b26;&#x4e32;" ID="ID_754595345" CREATED="1555406049245" MODIFIED="1555406119294"/>
+</node>
+<node TEXT="__repr__()" ID="ID_1793959469" CREATED="1555406103636" MODIFIED="1555406110468">
+<node TEXT=" &#x4fee;&#x6539;&#x76f4;&#x63a5;&#x663e;&#x793a;&#x53d8;&#x91cf;&#x8c03;&#x7528;&#x65f6;&#x7684;&#x663e;&#x793a;&#x7684;&#x4fe1;&#x606f;" ID="ID_470016949" CREATED="1555406145165" MODIFIED="1555406203827"/>
+<node TEXT="&#x53ef;&#x76f4;&#x63a5;__repr__ = __str__" ID="ID_1041614747" CREATED="1555406168395" MODIFIED="1555406189966"/>
+</node>
+<node TEXT=" __iter__" ID="ID_302423458" CREATED="1555406214086" MODIFIED="1555406215163">
+<node TEXT=" &#x8be5;&#x65b9;&#x6cd5;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x8fed;&#x4ee3;&#x5bf9;&#x8c61;" ID="ID_1549161455" CREATED="1555406229160" MODIFIED="1555406231329"/>
+<node TEXT="&#x5b9e;&#x73b0;&#x8be5;&#x65b9;&#x6cd5;&#x53ef;&#x7528;&#x4e8e;for ... in&#x5faa;&#x73af;" ID="ID_1468609715" CREATED="1555406243579" MODIFIED="1555406254016"/>
+<node ID="ID_173886957" CREATED="1555406647068" MODIFIED="1555406647068"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Fib(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__init__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>.a<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.b = <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1  </font></span><span style="color: #808080"><font color="#808080"># &#21021;&#22987;&#21270;&#20004;&#20010;&#35745;&#25968;&#22120;a&#65292;b<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__iter__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">self  </font></span><span style="color: #808080"><font color="#808080"># &#23454;&#20363;&#26412;&#36523;&#23601;&#26159;&#36845;&#20195;&#23545;&#35937;&#65292;&#25925;&#36820;&#22238;&#33258;&#24049;<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">__next__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>.a<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.b = <span style="color: #94558d"><font color="#94558d">self</font></span>.b<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.a + <span style="color: #94558d"><font color="#94558d">self</font></span>.b  <span style="color: #808080"><font color="#808080"># &#35745;&#31639;&#19979;&#19968;&#20010;&#20540;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #cc7832"><font color="#cc7832">if </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.a &gt; <span style="color: #6897bb"><font color="#6897bb">100000</font></span>:  <span style="color: #808080"><font color="#808080"># &#36864;&#20986;&#24490;&#29615;&#30340;&#26465;&#20214;<br/></font></span><font color="#808080"><span style="color: #808080">            </span></font><span style="color: #cc7832"><font color="#cc7832">raise </font></span><span style="color: #8888c6"><font color="#8888c6">StopIteration</font></span>()<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.a  <span style="color: #808080"><font color="#808080"># &#36820;&#22238;&#19979;&#19968;&#20010;&#20540;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" __getitem__" ID="ID_1061827112" CREATED="1555406271455" MODIFIED="1555406273082">
+<node TEXT=" &#x5b9e;&#x73b0;&#x8be5;&#x65b9;&#x6cd5;&#x53ef;&#x50cf;list&#x90a3;&#x6837;&#x6309;&#x7167;&#x4e0b;&#x6807;&#x53d6;&#x51fa;&#x5143;&#x7d20;" ID="ID_265718325" CREATED="1555406296476" MODIFIED="1555406315065"/>
+<node ID="ID_1732052873" CREATED="1555406690150" MODIFIED="1555406690150"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Fib(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__getitem__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>n):<br/>        a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b = <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1<br/></font></span><font color="#6897bb"><span style="color: #6897bb">        </span></font><span style="color: #cc7832"><font color="#cc7832">for </font></span>x <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #8888c6"><font color="#8888c6">range</font></span>(n):<br/>            a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b = b<span style="color: #cc7832"><font color="#cc7832">, </font></span>a + b<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span>a</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x4f7f;&#x7528;&#x679a;&#x4e3e;&#x7c7b;" ID="ID_1902596778" CREATED="1555406382774" MODIFIED="1555406391672">
+<node TEXT=" Enum&#x7c7b;" ID="ID_777885634" CREATED="1555407093436" MODIFIED="1555407095000"/>
+</node>
+<node TEXT="&#x4f7f;&#x7528;&#x5143;&#x7c7b;" ID="ID_1434969336" CREATED="1555406393351" MODIFIED="1555406396505"/>
+</node>
+<node TEXT="&#x9519;&#x8bef;&#x3001;&#x8c03;&#x8bd5;&#x548c;&#x6d4b;&#x8bd5;" POSITION="right" ID="ID_1143742283" CREATED="1555407644511" MODIFIED="1555407653119">
+<edge COLOR="#0000ff"/>
 </node>
 </node>
 </map>
