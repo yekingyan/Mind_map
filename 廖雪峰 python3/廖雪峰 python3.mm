@@ -938,6 +938,96 @@
 </node>
 <node TEXT="&#x9519;&#x8bef;&#x3001;&#x8c03;&#x8bd5;&#x548c;&#x6d4b;&#x8bd5;" POSITION="right" ID="ID_1143742283" CREATED="1555407644511" MODIFIED="1555407653119">
 <edge COLOR="#0000ff"/>
+<node TEXT="&#x9519;&#x8bef;&#x5904;&#x7406;" ID="ID_1685870695" CREATED="1555407759695" MODIFIED="1555407763711">
+<node TEXT="try...except...finally..." ID="ID_977798620" CREATED="1555407763901" MODIFIED="1555407796600"/>
+<node TEXT=" Python&#x7684;&#x9519;&#x8bef;&#x5176;&#x5b9e;&#x4e5f;&#x662f;class" ID="ID_264646420" CREATED="1555407831182" MODIFIED="1555407838447">
+<node TEXT=" &#x6240;&#x6709;&#x7684;&#x9519;&#x8bef;&#x7c7b;&#x578b;&#x90fd;&#x7ee7;&#x627f;&#x81ea;BaseException" ID="ID_328127607" CREATED="1555407838717" MODIFIED="1555407840354"/>
+</node>
+<node TEXT=" &#x4f7f;&#x7528;except&#x65f6;&#x9700;&#x8981;&#x6ce8;&#x610f;&#x7684;&#x662f;&#xff0c;&#x5b83;&#x4e0d;&#x4f46;&#x6355;&#x83b7;&#x8be5;&#x7c7b;&#x578b;&#x7684;&#x9519;&#x8bef;&#xff0c;&#x8fd8;&#x628a;&#x5176;&#x5b50;&#x7c7b;&#x4e5f;&#x201c;&#x4e00;&#x7f51;&#x6253;&#x5c3d;&#x201d;" ID="ID_868852596" CREATED="1555407856409" MODIFIED="1555407858672"/>
+<node TEXT="&#x9519;&#x8bef;&#x8de8;&#x8d8a;" ID="ID_876900845" CREATED="1555407927224" MODIFIED="1555407933654">
+<node TEXT="&#x9519;&#x8bef;&#x4f1a;&#x4e00;&#x5c42;&#x4e00;&#x5c42;&#x5411;&#x5916;&#x629b;&#xff0c;&#x76f4;&#x81f3;&#x88ab;Python&#x89e3;&#x91ca;&#x5668;&#x6355;&#x83b7;" ID="ID_1880348829" CREATED="1555407934229" MODIFIED="1555408088465"/>
+<node TEXT=" &#x4f7f;&#x7528;try...except&#x6355;&#x83b7;&#x9519;&#x8bef;&#xff0c;&#x53ef;&#x4ee5;&#x8de8;&#x8d8a;&#x591a;&#x5c42;&#x8c03;&#x7528;&#xff0c;&#x53ea;&#x8981;&#x5728;&#x9519;&#x8bef;&#x53d1;&#x751f;&#x7684;&#x4e0a;&#x5c42;" ID="ID_1337238705" CREATED="1555408042408" MODIFIED="1555408110924"/>
+</node>
+</node>
+<node TEXT="&#x8bb0;&#x5f55;&#x9519;&#x8bef;" ID="ID_1351204733" CREATED="1555408160390" MODIFIED="1555408164776">
+<node TEXT=" logging&#x6a21;&#x5757;" ID="ID_712971333" CREATED="1555408197531" MODIFIED="1555408198754">
+<node TEXT=" try:&#xa;    bar(&apos;0&apos;)&#xa;except Exception as e:&#xa;    logging.exception(e)" ID="ID_857453797" CREATED="1555408209463" MODIFIED="1555408223336"/>
+</node>
+<node TEXT=" &#x901a;&#x8fc7;&#x914d;&#x7f6e;&#xff0c;logging&#x8fd8;&#x53ef;&#x4ee5;&#x628a;&#x9519;&#x8bef;&#x8bb0;&#x5f55;&#x5230;&#x65e5;&#x5fd7;&#x6587;&#x4ef6;&#x91cc;" ID="ID_1224731367" CREATED="1555408264248" MODIFIED="1555408266523"/>
+</node>
+<node TEXT="&#x629b;&#x51fa;&#x9519;&#x8bef;" ID="ID_187964212" CREATED="1555408281763" MODIFIED="1555408285876">
+<node TEXT="&#x7528;raise&#x8bed;&#x53e5;&#x629b;&#x51fa;&#x4e00;&#x4e2a;&#x9519;&#x8bef;&#x7684;&#x5b9e;&#x4f8b;" ID="ID_1033559060" CREATED="1555408286326" MODIFIED="1555408299927"/>
+<node TEXT=" raise ValueError(&apos;invalid value: %s&apos; % a)" ID="ID_1306870056" CREATED="1555408313324" MODIFIED="1555408348592"/>
+<node TEXT="&#x5728;try except &#x7684; except &#x4e2d;&#x5411;&#x4e0a;&#x629b;&#x51fa;&#x9519;&#x8bef;" ID="ID_1875704941" CREATED="1555408394541" MODIFIED="1555408425387">
+<node TEXT="except ValueError as e:&#xa;        print(&apos;ValueError!&apos;)&#xa;        raise" ID="ID_24339964" CREATED="1555408426070" MODIFIED="1555408448959"/>
+<node TEXT="&#x8fd9;&#x91cc;&#x6355;&#x83b7;&#x9519;&#x8bef;&#x76ee;&#x7684;&#x53ea;&#x662f;&#x8bb0;&#x5f55;&#x4e00;&#x4e0b;&#xff0c;&#x4fbf;&#x4e8e;&#x540e;&#x7eed;&#x8ffd;&#x8e2a;" ID="ID_848687967" CREATED="1555408454889" MODIFIED="1555408460489"/>
+<node TEXT=" &#x6700;&#x540e;&#x88ab;raise&#x7684;&#x9519;&#x8bef;&#x8ba9;&#x9876;&#x5c42;&#x8c03;&#x7528;&#x8005;&#x53bb;&#x5904;&#x7406;" ID="ID_1452497611" CREATED="1555408475224" MODIFIED="1555408498378"/>
+</node>
+</node>
+<node TEXT="&#x5355;&#x5143;&#x6d4b;&#x8bd5;" ID="ID_1034939544" CREATED="1555408615544" MODIFIED="1555408621321">
+<node TEXT=" &#x7f16;&#x5199;&#x4e00;&#x4e2a;&#x6d4b;&#x8bd5;&#x7c7b;&#xff0c;&#x4ece;unittest.TestCase&#x7ee7;&#x627f;" ID="ID_1210801169" CREATED="1555408666332" MODIFIED="1555408667748"/>
+<node TEXT=" &#x4ee5;test&#x5f00;&#x5934;&#x7684;&#x65b9;&#x6cd5;&#x5c31;&#x662f;&#x6d4b;&#x8bd5;&#x65b9;&#x6cd5;&#xff0c;&#x6d4b;&#x8bd5;&#x65f6;&#x88ab;&#x6267;&#x884c;" ID="ID_1935437583" CREATED="1555408678286" MODIFIED="1555408697096"/>
+<node TEXT="&#x65ad;&#x8a00;" ID="ID_1429877463" CREATED="1555408736663" MODIFIED="1555408739122">
+<node TEXT="&#x5bf9;&#x6bd4;&#x5f0f;" ID="ID_375382940" CREATED="1555408858662" MODIFIED="1555408861485">
+<node TEXT=" self.assertEqual(abs(-1), 1)" ID="ID_1425648427" CREATED="1555408765976" MODIFIED="1555408767153"/>
+</node>
+<node TEXT="&#x671f;&#x5f85;&#x5f0f;" ID="ID_1441043904" CREATED="1555408864984" MODIFIED="1555408871592">
+<node TEXT=" &#x901a;&#x8fc7;d[&apos;empty&apos;]&#x8bbf;&#x95ee;&#x4e0d;&#x5b58;&#x5728;&#x7684;key&#x65f6;&#xff0c;&#xa;&#x65ad;&#x8a00;&#x4f1a;&#x629b;&#x51fa;KeyError" ID="ID_993014680" CREATED="1555408933201" MODIFIED="1555409021001">
+<node ID="ID_1746314434" CREATED="1555409016116" MODIFIED="1555409016116"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">with </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.assertRaises(<span style="color: #8888c6"><font color="#8888c6">KeyError</font></span>):<br/>    <span style="color: #808080"><font color="#808080">value </font></span>= d[<span style="color: #a5c261"><font color="#a5c261">'empty'</font></span>]</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x901a;&#x8fc7;d.empty&#x8bbf;&#x95ee;&#x4e0d;&#x5b58;&#x5728;&#x7684;key&#x65f6;&#xff0c;&#xa;&#x6211;&#x4eec;&#x671f;&#x5f85;&#x629b;&#x51fa;AttributeError" ID="ID_1880346824" CREATED="1555409070031" MODIFIED="1555409092031">
+<node ID="ID_1859468976" CREATED="1555409090002" MODIFIED="1555409090002"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">with </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.assertRaises(<span style="color: #8888c6"><font color="#8888c6">AttributeError</font></span>):<br/>    <span style="color: #808080"><font color="#808080">value </font></span>= d.empty</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT=" &#x8fd0;&#x884c;&#x5355;&#x5143;&#x6d4b;&#x8bd5;" ID="ID_826223892" CREATED="1555409130400" MODIFIED="1555409131879">
+<node TEXT="&#x76f4;&#x63a5;&#x8fd0;&#x884c;" ID="ID_1164327114" CREATED="1555409179464" MODIFIED="1555409183042">
+<node TEXT=" if __name__ == &apos;__main__&apos;:&#xa;    unittest.main()" ID="ID_1933739126" CREATED="1555409152223" MODIFIED="1555409153321"/>
+</node>
+<node TEXT=" &#x5f53;&#x505a;&#x6b63;&#x5e38;&#x7684;python&#x811a;&#x672c;&#x8fd0;&#x884c;" ID="ID_1097973207" CREATED="1555409147230" MODIFIED="1555409148168">
+<node TEXT=" python tests.py" ID="ID_1437167662" CREATED="1555409191253" MODIFIED="1555409200135"/>
+</node>
+<node TEXT=" &#x547d;&#x4ee4;&#x884c;&#x53c2;&#x6570;" ID="ID_767464937" CREATED="1555409230448" MODIFIED="1555409233695">
+<node TEXT="-m unittest" ID="ID_259801785" CREATED="1555409237979" MODIFIED="1555409240190"/>
+<node TEXT=" python -m unittest mydict_test" ID="ID_908764555" CREATED="1555409246078" MODIFIED="1555409247816"/>
+<node TEXT=" &#x53ef;&#x4ee5;&#x4e00;&#x6b21;&#x6279;&#x91cf;&#x8fd0;&#x884c;&#x5f88;&#x591a;&#x5355;&#x5143;&#x6d4b;&#x8bd5;" ID="ID_1592027489" CREATED="1555409257926" MODIFIED="1555409259273"/>
+</node>
+</node>
+<node TEXT=" setUp()&#x548c;tearDown()" ID="ID_1939213911" CREATED="1555409313406" MODIFIED="1555409314841">
+<node TEXT=" setUp(self)" ID="ID_311861533" CREATED="1555409304622" MODIFIED="1555409340360">
+<node TEXT="&#x6d4b;&#x8bd5;&#x524d;&#x6267;&#x884c;" ID="ID_1733734772" CREATED="1555409322287" MODIFIED="1555409360648"/>
+<node TEXT=" &#x6d4b;&#x8bd5;&#x9700;&#x8981;&#x542f;&#x52a8;&#x4e00;&#x4e2a;&#x6570;&#x636e;&#x5e93;" ID="ID_738029523" CREATED="1555409373334" MODIFIED="1555409376450"/>
+</node>
+<node TEXT=" tearDown(self)" ID="ID_893673739" CREATED="1555409320141" MODIFIED="1555409345520">
+<node TEXT=" &#x6d4b;&#x8bd5;&#x540e;&#x6267;&#x884c;" ID="ID_667142154" CREATED="1555409361281" MODIFIED="1555409365167"/>
+<node TEXT="&#x6d4b;&#x8bd5;&#x5b8c;&#x5173;&#x95ed;&#x6570;&#x636e;&#x5e93;" ID="ID_1901440852" CREATED="1555409384215" MODIFIED="1555409392337"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
