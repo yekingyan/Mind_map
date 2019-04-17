@@ -1028,6 +1028,45 @@
 </node>
 </node>
 </node>
+<node TEXT="&#x6587;&#x6863;&#x6d4b;&#x8bd5;" ID="ID_1396242977" CREATED="1555509287413" MODIFIED="1555509299222">
+<node TEXT=" Python&#x5185;&#x7f6e;&#x7684;&#x201c;&#x6587;&#x6863;&#x6d4b;&#x8bd5;&#x201d;&#xff08;doctest&#xff09;&#x6a21;&#x5757;&#x53ef;&#x4ee5;&#x76f4;&#x63a5;&#x63d0;&#x53d6;&#x6ce8;&#x91ca;&#x4e2d;&#x7684;&#x4ee3;&#x7801;&#x5e76;&#x6267;&#x884c;&#x6d4b;&#x8bd5;" ID="ID_1931558071" CREATED="1555509522836" MODIFIED="1555509524710"/>
+<node TEXT=" &#x901a;&#x8fc7;&#x67d0;&#x4e9b;&#x6587;&#x6863;&#x751f;&#x6210;&#x5de5;&#x5177;&#xff0c;&#x5c31;&#x53ef;&#x4ee5;&#x81ea;&#x52a8;&#x628a;&#x5305;&#x542b;doctest&#x7684;&#x6ce8;&#x91ca;&#x63d0;&#x53d6;&#x51fa;&#x6765;&#xff0c;&#x4f5c;&#x4e3a;&#x793a;&#x4f8b;&#x4ee3;&#x7801;" ID="ID_24785546" CREATED="1555509919705" MODIFIED="1555509930700"/>
+<node TEXT="&#x6d4b;&#x8bd5;&#x6b63;&#x5e38;" ID="ID_1463038037" CREATED="1555509467264" MODIFIED="1555509587433">
+<node ID="ID_941769980" CREATED="1555509470156" MODIFIED="1555509470156"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">abs</font></span>(n):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    Function to get absolute value of number.<br/></span><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    Example:<br/></span><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; abs(1)<br/></span><span style="color: #629755; font-style: italic">    1<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; abs(-1)<br/></span><span style="color: #629755; font-style: italic">    1<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; abs(0)<br/></span><span style="color: #629755; font-style: italic">    0<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font><span style="color: #cc7832"><font color="#cc7832">return </font></span>n <span style="color: #cc7832"><font color="#cc7832">if </font></span>n &gt;= <span style="color: #6897bb"><font color="#6897bb">0 </font></span><span style="color: #cc7832"><font color="#cc7832">else </font></span>(-n)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6d4b;&#x8bd5;&#x5f02;&#x5e38;" ID="ID_443291518" CREATED="1555509561225" MODIFIED="1555509577246">
+<node TEXT=" &#x53ef;&#x4ee5;&#x7528;...&#x8868;&#x793a;&#x4e2d;&#x95f4;&#x4e00;&#x5927;&#x6bb5;&#x70e6;&#x4eba;&#x7684;&#x8f93;&#x51fa;" ID="ID_1776216588" CREATED="1555509606771" MODIFIED="1555509608284"/>
+<node ID="ID_209066384" CREATED="1555509773087" MODIFIED="1555509773087"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Dict(<span style="color: #8888c6"><font color="#8888c6">dict</font></span>):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    Simple dict but also support access as x.y style.<br/></span><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d1 = Dict()<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d1['x'] = 100<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d1.x<br/></span><span style="color: #629755; font-style: italic">    100<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d1.y = 200<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d1['y']<br/></span><span style="color: #629755; font-style: italic">    200<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d2 = Dict(a=1, b=2, c='3')<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d2.c<br/></span><span style="color: #629755; font-style: italic">    '3'<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d2['empty']<br/></span><span style="color: #629755; font-style: italic">    Traceback (most recent call last):<br/></span><span style="color: #629755; font-style: italic">       ...<br/></span><span style="color: #629755; font-style: italic">    KeyError: 'empty'<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d2.empty<br/></span><span style="color: #629755; font-style: italic">    Traceback (most recent call last):<br/></span><span style="color: #629755; font-style: italic">        ...<br/></span><span style="color: #629755; font-style: italic">    AttributeError: 'Dict' object has no attribute 'empty'<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    </span></i></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__init__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>**kw):<br/>        <span style="color: #8888c6"><font color="#8888c6">super</font></span>(Dict<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>).<span style="color: #b200b2"><font color="#b200b2">__init__</font></span>(**kw)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__getattr__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>key):<br/>        <span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>            <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>[key]<br/>        <span style="color: #cc7832"><font color="#cc7832">except </font></span><span style="color: #8888c6"><font color="#8888c6">KeyError</font></span>:<br/>            <span style="color: #cc7832"><font color="#cc7832">raise </font></span><span style="color: #8888c6"><font color="#8888c6">AttributeError</font></span>(<span style="color: #6a8759"><font color="#6a8759">r&quot;'Dict' object has no attribute '%s'&quot; </font></span>% key)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__setattr__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>key<span style="color: #cc7832"><font color="#cc7832">, </font></span>value):<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>[key] = value</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x8fd0;&#x884c;&#x6587;&#x6863;&#x6d4b;&#x8bd5;" ID="ID_455893169" CREATED="1555509787728" MODIFIED="1555509796587">
+<node TEXT="$ python XXX.py" ID="ID_1508827148" CREATED="1555509812116" MODIFIED="1555509838544"/>
+<node TEXT="&#x76f4;&#x63a5;&#x8fd0;&#x884c;&#x5199;&#x5728;&#x6587;&#x6863;&#x6d4b;&#x8bd5;&#x7684;py&#x6587;&#x4ef6;&#x5373;&#x53ef;" ID="ID_1482355761" CREATED="1555509821330" MODIFIED="1555509868903"/>
+</node>
+</node>
 </node>
 </node>
 </map>
