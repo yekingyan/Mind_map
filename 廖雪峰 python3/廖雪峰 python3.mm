@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="90" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="92" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x89e3;&#x91ca;&#x5668;" FOLDED="true" POSITION="right" ID="ID_987134475" CREATED="1537888500595" MODIFIED="1537889643579" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#007c00"/>
@@ -1067,6 +1067,12 @@
 <node TEXT="&#x76f4;&#x63a5;&#x8fd0;&#x884c;&#x5199;&#x5728;&#x6587;&#x6863;&#x6d4b;&#x8bd5;&#x7684;py&#x6587;&#x4ef6;&#x5373;&#x53ef;" ID="ID_1482355761" CREATED="1555509821330" MODIFIED="1555509868903"/>
 </node>
 </node>
+</node>
+<node TEXT="IO&#x7f16;&#x7a0b;" POSITION="right" ID="ID_1565075659" CREATED="1555509998658" MODIFIED="1555510004206">
+<edge COLOR="#00ff00"/>
+</node>
+<node TEXT="&#x8fdb;&#x7a0b;&#x548c;&#x7ebf;&#x7a0b;" POSITION="right" ID="ID_357554149" CREATED="1555510031658" MODIFIED="1555510037661">
+<edge COLOR="#ff00ff"/>
 </node>
 </node>
 </map>
