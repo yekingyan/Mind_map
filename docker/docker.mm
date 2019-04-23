@@ -726,13 +726,532 @@
 <node TEXT="docker-compose" POSITION="right" ID="ID_393296482" CREATED="1553345413726" MODIFIED="1553345422918">
 <edge COLOR="#7c007c"/>
 <node TEXT=" &#x901a;&#x8fc7;&#x4e00;&#x4e2a;&#x5355;&#x72ec;&#x7684; docker-compose.yml &#x6a21;&#x677f;&#x6587;&#x4ef6;&#xff08;YAML &#x683c;&#x5f0f;&#xff09;&#x6765;&#x5b9a;&#x4e49;&#x4e00;&#x7ec4;&#x76f8;&#x5173;&#x8054;&#x7684;&#x5e94;&#x7528;&#x5bb9;&#x5668;&#x4e3a;&#x4e00;&#x4e2a;&#x9879;&#x76ee;&#xff08;project&#xff09;" ID="ID_169035835" CREATED="1555937637918" MODIFIED="1555937639772"/>
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_1970728733" CREATED="1556006123299" MODIFIED="1556006132215">
+<node TEXT="&#x670d;&#x52a1; (service)" ID="ID_1780577556" CREATED="1555939413057" MODIFIED="1556006155210">
+<node TEXT=" &#x4e00;&#x4e2a;&#x5e94;&#x7528;&#x7684;&#x5bb9;&#x5668;&#xff0c;&#x5b9e;&#x9645;&#x4e0a;&#x53ef;&#x4ee5;&#x5305;&#x62ec;&#x82e5;&#x5e72;&#x8fd0;&#x884c;&#x76f8;&#x540c;&#x955c;&#x50cf;&#x7684;&#x5bb9;&#x5668;&#x5b9e;&#x4f8b;" ID="ID_1640673991" CREATED="1556006149340" MODIFIED="1556006151091"/>
+</node>
+<node TEXT="&#x9879;&#x76ee; (project)" ID="ID_502013683" CREATED="1555939416360" MODIFIED="1555939425479">
+<node TEXT=" &#x7531;&#x4e00;&#x7ec4;&#x5173;&#x8054;&#x7684;&#x5e94;&#x7528;&#x5bb9;&#x5668;&#x7ec4;&#x6210;&#x7684;&#x4e00;&#x4e2a;&#x5b8c;&#x6574;&#x4e1a;&#x52a1;&#x5355;&#x5143;" ID="ID_1340993457" CREATED="1556006163295" MODIFIED="1556006168859"/>
+<node TEXT="&#x5728; docker-compose.yml &#x6587;&#x4ef6;&#x4e2d;&#x5b9a;&#x4e49;" ID="ID_1015135482" CREATED="1556006170020" MODIFIED="1556006173851"/>
+</node>
+</node>
 <node TEXT="&#x5b89;&#x88c5;" ID="ID_235168954" CREATED="1553345447564" MODIFIED="1553345450984">
 <node TEXT=" $ sudo curl -L https://github.com/docker/compose/releases/download/1.17.1/docker-compose-`uname -s`-`uname -m` &gt; /usr/local/bin/docker-compose&#xa;$ sudo chmod +x /usr/local/bin/docker-compose" ID="ID_1298745853" CREATED="1553345451451" MODIFIED="1553345452560"/>
 </node>
-<node TEXT="docker-compose build" ID="ID_427126933" CREATED="1553408687505" MODIFIED="1553408698489"/>
+<node TEXT="&#x4f8b;&#x5b50;" ID="ID_891799020" CREATED="1556009012764" MODIFIED="1556009018823">
+<node TEXT="app.py" ID="ID_1955186547" CREATED="1556009019099" MODIFIED="1556009022318">
+<node ID="ID_111437865" CREATED="1556009110491" MODIFIED="1556009110491"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>flask <span style="color: #cc7832"><font color="#cc7832">import </font></span>Flask<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>redis <span style="color: #cc7832"><font color="#cc7832">import </font></span>Redis<br/><br/>app = Flask(__name__)<br/>redis = Redis(<span style="color: #aa4926"><font color="#aa4926">host</font></span>=<span style="color: #6a8759"><font color="#6a8759">'redis'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">port</font></span>=<span style="color: #6897bb"><font color="#6897bb">6379</font></span>)<br/><br/><span style="color: #bbb529"><font color="#bbb529">@app.route</font></span>(<span style="color: #6a8759"><font color="#6a8759">'/'</font></span>)<br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">hello</font></span>():<br/>    count = redis.incr(<span style="color: #6a8759"><font color="#6a8759">'hits'</font></span>)<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #6a8759"><font color="#6a8759">'Hello World! &#35813;&#39029;&#38754;&#24050;&#34987;&#35775;&#38382; {} &#27425;&#12290;</font></span><span style="color: #cc7832"><font color="#cc7832">\n</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span>.format(count)<br/><br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>__name__ == <span style="color: #6a8759"><font color="#6a8759">&quot;__main__&quot;</font></span>:<br/>    app.run(<span style="color: #aa4926"><font color="#aa4926">host</font></span>=<span style="color: #6a8759"><font color="#6a8759">&quot;0.0.0.0&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">debug</font></span>=<span style="color: #cc7832"><font color="#cc7832">True</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Dockerfile" ID="ID_1689748152" CREATED="1556009024035" MODIFIED="1556009028909">
+<node ID="ID_654479956" CREATED="1556009184375" MODIFIED="1556009184375"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>FROM </b></font></span>python:<span style="color: #6897bb"><font color="#6897bb">3.6</font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>-</b></font></span>alpine<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>ADD </b></font></span>. <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>/</b></font></span>code<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>WORKDIR /</b></font></span>code<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>RUN </b></font></span>pip install <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>--</b></font></span>no-cache-dir <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>-</b></font></span>i https:<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>//</b></font></span>pypi.douban.com<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>/</b></font></span>simple<span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>/ </b></font></span>redis flask<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>CMD </b></font></span>[<span style="color: #6a8759"><font color="#6a8759">&quot;python&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">&quot;app.py&quot;</font></span>]<br/></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Docker-compose.yml" ID="ID_1066885571" CREATED="1556009029099" MODIFIED="1556009051762">
+<node ID="ID_995003985" CREATED="1556009229157" MODIFIED="1556009229157"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>version</b></font></span>: <span style="color: #6a8759"><font color="#6a8759">'3'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>services</b></font></span>:<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>web</b></font></span>:<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>build</b></font></span>: .<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>ports</b></font></span>:<br/>         - <span style="color: #6a8759"><font color="#6a8759">&quot;5000:5000&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span><span style="color: #6a8759">    </span></font><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>redis</b></font></span>:<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>image</b></font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;redis:alpine&quot;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x8fd0;&#x884c; compose &#x9879;&#x76ee;" ID="ID_1222262694" CREATED="1556009236293" MODIFIED="1556009255158">
 <node TEXT="docker-compose up" ID="ID_1139472759" CREATED="1553408698702" MODIFIED="1553408704362"/>
-<node TEXT=" &#x670d;&#x52a1; (service)" ID="ID_1780577556" CREATED="1555939413057" MODIFIED="1555939416133"/>
-<node TEXT="&#x9879;&#x76ee; (project)" ID="ID_502013683" CREATED="1555939416360" MODIFIED="1555939425479"/>
+</node>
+</node>
+<node TEXT="&#x547d;&#x4ee4;" ID="ID_485116455" CREATED="1556009273092" MODIFIED="1556009322200" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="&#x683c;&#x5f0f;" ID="ID_1595511453" CREATED="1556009279998" MODIFIED="1556009325042">
+<node TEXT=" docker-compose [-f=&lt;arg&gt;...] [options] [COMMAND] [ARGS...]" ID="ID_12075427" CREATED="1556009350806" MODIFIED="1556009352232"/>
+<node TEXT="-f" ID="ID_1049566028" CREATED="1556009373573" MODIFIED="1556009377496">
+<node TEXT="--file FILE" ID="ID_1994368146" CREATED="1556009377756" MODIFIED="1556009385183"/>
+<node TEXT="&#x6307;&#x5b9a;&#x4f7f;&#x7528;&#x7684;Compose&#x6a21;&#x677f;&#x6587;&#x4ef6;" ID="ID_1969561282" CREATED="1556009385579" MODIFIED="1556009410758"/>
+<node TEXT="&#x9ed8;&#x8ba4;&#x4e3a; docker-compose.yml" ID="ID_585372638" CREATED="1556009418299" MODIFIED="1556009433296"/>
+</node>
+<node TEXT=" -p" ID="ID_1591067268" CREATED="1556009438314" MODIFIED="1556009439885">
+<node TEXT=" --project-name NAME" ID="ID_676373005" CREATED="1556009445732" MODIFIED="1556009447117"/>
+<node TEXT="&#x6307;&#x5b9a;&#x9879;&#x76ee;&#x540d;&#x79f0;" ID="ID_412189795" CREATED="1556009449475" MODIFIED="1556009455373"/>
+<node TEXT=" &#x9ed8;&#x8ba4;&#x5c06;&#x4f7f;&#x7528;&#x6240;&#x5728;&#x76ee;&#x5f55;&#x540d;&#x79f0;&#x4f5c;&#x4e3a;&#x9879;&#x76ee;&#x540d;" ID="ID_1955964282" CREATED="1556009460955" MODIFIED="1556009462502"/>
+</node>
+<node TEXT=" --x-networking" ID="ID_1358099605" CREATED="1556009510421" MODIFIED="1556009515284">
+<node TEXT=" &#x4f7f;&#x7528; Docker &#x7684;&#x53ef;&#x62d4;&#x63d2;&#x7f51;&#x7edc;&#x540e;&#x7aef;&#x7279;&#x6027;" ID="ID_1289781162" CREATED="1556009516276" MODIFIED="1556009517614"/>
+</node>
+<node TEXT=" --x-network-driver DRIVER" ID="ID_354995701" CREATED="1556009525514" MODIFIED="1556009527141">
+<node TEXT="&#x6307;&#x5b9a;&#x7f51;&#x7edc;&#x540e;&#x7aef;&#x7684;&#x9a71;&#x52a8;&#xff0c;&#x9ed8;&#x8ba4;&#x4e3a; bridge" ID="ID_410744973" CREATED="1556009531676" MODIFIED="1556009534078"/>
+</node>
+<node TEXT=" --verbose" ID="ID_1439329153" CREATED="1556009539419" MODIFIED="1556009544701">
+<node TEXT=" &#x8f93;&#x51fa;&#x66f4;&#x591a;&#x8c03;&#x8bd5;&#x4fe1;&#x606f;" ID="ID_1286947125" CREATED="1556009545453" MODIFIED="1556009546564"/>
+</node>
+<node TEXT=" -v" ID="ID_920715855" CREATED="1556009552442" MODIFIED="1556009556380">
+<node TEXT=" --version" ID="ID_73844521" CREATED="1556009556932" MODIFIED="1556009557782"/>
+<node TEXT="&#x6253;&#x5370;&#x7248;&#x672c;&#x5e76;&#x9000;&#x51fa;" ID="ID_108929050" CREATED="1556009558451" MODIFIED="1556009564109"/>
+</node>
+</node>
+<node TEXT="build" ID="ID_548903489" CREATED="1556009572250" MODIFIED="1556009574462">
+<node TEXT=" docker-compose build [options] [SERVICE...]" ID="ID_503588178" CREATED="1556009592636" MODIFIED="1556009593613"/>
+<node TEXT=" &#x6784;&#x5efa;&#xff08;&#x91cd;&#x65b0;&#x6784;&#x5efa;&#xff09;&#x9879;&#x76ee;&#x4e2d;&#x7684;&#x670d;&#x52a1;&#x5bb9;&#x5668;" ID="ID_1200433795" CREATED="1556009603299" MODIFIED="1556009604476"/>
+<node TEXT=" &#x9009;&#x9879;" ID="ID_1396817651" CREATED="1556009628356" MODIFIED="1556009629844">
+<node TEXT=" --force-rm" ID="ID_1564700255" CREATED="1556009634637" MODIFIED="1556009636126">
+<node TEXT=" &#x5220;&#x9664;&#x6784;&#x5efa;&#x8fc7;&#x7a0b;&#x4e2d;&#x7684;&#x4e34;&#x65f6;&#x5bb9;&#x5668;" ID="ID_875694234" CREATED="1556009640058" MODIFIED="1556009641182"/>
+</node>
+<node TEXT=" --no-cache" ID="ID_1299267760" CREATED="1556009646156" MODIFIED="1556009651143">
+<node TEXT=" &#x6784;&#x5efa;&#x955c;&#x50cf;&#x8fc7;&#x7a0b;&#x4e2d;&#x4e0d;&#x4f7f;&#x7528; cache&#xff08;&#x8fd9;&#x5c06;&#x52a0;&#x957f;&#x6784;&#x5efa;&#x8fc7;&#x7a0b;&#xff09;" ID="ID_1307036594" CREATED="1556009651826" MODIFIED="1556009652820"/>
+</node>
+<node TEXT=" --pull" ID="ID_1723367131" CREATED="1556009657098" MODIFIED="1556009661612">
+<node TEXT=" &#x59cb;&#x7ec8;&#x5c1d;&#x8bd5;&#x901a;&#x8fc7; pull &#x6765;&#x83b7;&#x53d6;&#x66f4;&#x65b0;&#x7248;&#x672c;&#x7684;&#x955c;&#x50cf;" ID="ID_243920732" CREATED="1556009661987" MODIFIED="1556009662892"/>
+</node>
+</node>
+</node>
+<node TEXT="config" ID="ID_1505828900" CREATED="1556009672523" MODIFIED="1556009677384">
+<node TEXT="docker-compose config" ID="ID_1395726785" CREATED="1556009695331" MODIFIED="1556009704889"/>
+<node TEXT="&#x9a8c;&#x8bc1; Compose &#x6587;&#x4ef6;&#x683c;&#x5f0f;&#x662f;&#x5426;&#x6b63;&#x786e;" ID="ID_197286504" CREATED="1556009677794" MODIFIED="1556009686844"/>
+<node TEXT="&#x82e5;&#x6b63;&#x786e;&#x5219;&#x663e;&#x793a;&#x914d;&#x7f6e;&#xff0c;&#x82e5;&#x683c;&#x5f0f;&#x9519;&#x8bef;&#x663e;&#x793a;&#x9519;&#x8bef;&#x539f;&#x56e0;" ID="ID_251822481" CREATED="1556009687867" MODIFIED="1556009693373"/>
+</node>
+<node TEXT="down" ID="ID_1461052080" CREATED="1556009708722" MODIFIED="1556009710639">
+<node TEXT="docker-compose up" ID="ID_324838738" CREATED="1556009695331" MODIFIED="1556009724814"/>
+<node TEXT="&#x6b64;&#x547d;&#x4ee4;&#x5c06;&#x4f1a;&#x505c;&#x6b62; up &#x547d;&#x4ee4;&#x6240;&#x542f;&#x52a8;&#x7684;&#x5bb9;&#x5668;&#xff0c;&#x5e76;&#x79fb;&#x9664;&#x7f51;&#x7edc;" ID="ID_1407578651" CREATED="1556009711315" MODIFIED="1556009734365"/>
+</node>
+<node TEXT="exec" ID="ID_1603682795" CREATED="1556009740322" MODIFIED="1556009743802">
+<node TEXT="&#x8fdb;&#x5165;&#x6307;&#x5b9a;&#x7684;&#x5bb9;&#x5668;" ID="ID_1566796218" CREATED="1556009744315" MODIFIED="1556009752541"/>
+</node>
+<node TEXT=" images" ID="ID_1105664036" CREATED="1556009774932" MODIFIED="1556009775873">
+<node TEXT="&#x5217;&#x51fa; Compose &#x6587;&#x4ef6;&#x4e2d;&#x5305;&#x542b;&#x7684;&#x955c;&#x50cf;" ID="ID_586359018" CREATED="1556009776278" MODIFIED="1556009781252"/>
+</node>
+<node TEXT="kill" ID="ID_1827262877" CREATED="1556009783969" MODIFIED="1556009790739">
+<node TEXT=" docker-compose kill [options] [SERVICE...]" ID="ID_665256695" CREATED="1556009791619" MODIFIED="1556009792774"/>
+<node TEXT=" &#x901a;&#x8fc7;&#x53d1;&#x9001; SIGKILL &#x4fe1;&#x53f7;&#x6765;&#x5f3a;&#x5236;&#x505c;&#x6b62;&#x670d;&#x52a1;&#x5bb9;&#x5668;" ID="ID_954296251" CREATED="1556009798234" MODIFIED="1556009812132"/>
+<node TEXT=" &#x652f;&#x6301;&#x901a;&#x8fc7; -s &#x53c2;&#x6570;&#x6765;&#x6307;&#x5b9a;&#x53d1;&#x9001;&#x7684;&#x4fe1;&#x53f7;" ID="ID_413157014" CREATED="1556009813180" MODIFIED="1556009814421"/>
+<node TEXT=" &#x53d1;&#x9001; SIGINT &#x4fe1;&#x53f7;" ID="ID_1802858846" CREATED="1556009819949" MODIFIED="1556009824651">
+<node TEXT=" docker-compose kill -s SIGINT" ID="ID_1072741341" CREATED="1556009825179" MODIFIED="1556009826016"/>
+</node>
+</node>
+<node TEXT=" logs" ID="ID_1988408798" CREATED="1556009832650" MODIFIED="1556009839548">
+<node TEXT=" docker-compose logs [options] [SERVICE...]" ID="ID_670897330" CREATED="1556009840044" MODIFIED="1556009841043"/>
+<node TEXT=" &#x67e5;&#x770b;&#x670d;&#x52a1;&#x5bb9;&#x5668;&#x7684;&#x8f93;&#x51fa;,&#x8be5;&#x547d;&#x4ee4;&#x5728;&#x8c03;&#x8bd5;&#x95ee;&#x9898;&#x7684;&#x65f6;&#x5019;&#x5341;&#x5206;&#x6709;&#x7528;" ID="ID_193352538" CREATED="1556009845721" MODIFIED="1556009877278"/>
+<node TEXT=" &#x9ed8;&#x8ba4;&#x60c5;&#x51b5;&#x4e0b;&#xff0c;docker-compose &#x5c06;&#x5bf9;&#x4e0d;&#x540c;&#x7684;&#x670d;&#x52a1;&#x8f93;&#x51fa;&#x4f7f;&#x7528;&#x4e0d;&#x540c;&#x7684;&#x989c;&#x8272;&#x6765;&#x533a;&#x5206;" ID="ID_1000135445" CREATED="1556009860770" MODIFIED="1556009861972"/>
+</node>
+<node TEXT="pause" ID="ID_747035219" CREATED="1556009881202" MODIFIED="1556009883502">
+<node TEXT="&#x683c;&#x5f0f;&#x4e3a; docker-compose pause [SERVICE...]" ID="ID_962913104" CREATED="1556009884227" MODIFIED="1556009893716"/>
+<node TEXT=" &#x6682;&#x505c;&#x4e00;&#x4e2a;&#x670d;&#x52a1;&#x5bb9;&#x5668;" ID="ID_1045392959" CREATED="1556009894610" MODIFIED="1556009895597"/>
+</node>
+<node TEXT="port" ID="ID_783540540" CREATED="1556009924449" MODIFIED="1556009926878">
+<node TEXT="docker-compose port [options] SERVICE PRIVATE_PORT" ID="ID_281881086" CREATED="1556009927426" MODIFIED="1556009933891"/>
+<node TEXT=" &#x6253;&#x5370;&#x67d0;&#x4e2a;&#x5bb9;&#x5668;&#x7aef;&#x53e3;&#x6240;&#x6620;&#x5c04;&#x7684;&#x516c;&#x5171;&#x7aef;&#x53e3;" ID="ID_123205328" CREATED="1556009938450" MODIFIED="1556009947023"/>
+</node>
+<node TEXT=" ps" ID="ID_1041457512" CREATED="1556009948646" MODIFIED="1556009954099">
+<node TEXT=" docker-compose ps [options] [SERVICE...]" ID="ID_1517296386" CREATED="1556009954502" MODIFIED="1556009955367"/>
+<node TEXT=" &#x5217;&#x51fa;&#x9879;&#x76ee;&#x4e2d;&#x76ee;&#x524d;&#x7684;&#x6240;&#x6709;&#x5bb9;&#x5668;" ID="ID_296912471" CREATED="1556009959138" MODIFIED="1556009960630"/>
+<node TEXT=" -q &#x53ea;&#x6253;&#x5370;&#x5bb9;&#x5668;&#x7684; ID &#x4fe1;&#x606f;" ID="ID_1612067025" CREATED="1556009969594" MODIFIED="1556009971548"/>
+</node>
+<node TEXT=" pull" ID="ID_920907441" CREATED="1556009976122" MODIFIED="1556009981155">
+<node TEXT=" docker-compose pull [options] [SERVICE...]" ID="ID_1548265406" CREATED="1556009981605" MODIFIED="1556009984956"/>
+<node TEXT=" &#x62c9;&#x53d6;&#x670d;&#x52a1;&#x4f9d;&#x8d56;&#x7684;&#x955c;&#x50cf;" ID="ID_573162514" CREATED="1556009987138" MODIFIED="1556009988526"/>
+</node>
+<node TEXT=" push" ID="ID_926743358" CREATED="1556009997874" MODIFIED="1556010002011">
+<node TEXT=" &#x63a8;&#x9001;&#x670d;&#x52a1;&#x4f9d;&#x8d56;&#x7684;&#x955c;&#x50cf;&#x5230; Docker &#x955c;&#x50cf;&#x4ed3;&#x5e93;" ID="ID_1848007796" CREATED="1556010002418" MODIFIED="1556010003284"/>
+</node>
+<node TEXT=" restart" ID="ID_1079608644" CREATED="1556010008243" MODIFIED="1556010013379">
+<node TEXT=" docker-compose restart [options] [SERVICE...]" ID="ID_1150130524" CREATED="1556010013817" MODIFIED="1556010015341"/>
+<node TEXT=" &#x91cd;&#x542f;&#x9879;&#x76ee;&#x4e2d;&#x7684;&#x670d;&#x52a1;" ID="ID_1767085571" CREATED="1556010018883" MODIFIED="1556010025286"/>
+<node TEXT=" -t" ID="ID_946582930" CREATED="1556010026874" MODIFIED="1556010030873">
+<node TEXT=" --timeout TIMEOUT" ID="ID_662534963" CREATED="1556010031729" MODIFIED="1556010032763"/>
+<node TEXT=" &#x6307;&#x5b9a;&#x91cd;&#x542f;&#x524d;&#x505c;&#x6b62;&#x5bb9;&#x5668;&#x7684;&#x8d85;&#x65f6;&#xff08;&#x9ed8;&#x8ba4;&#x4e3a; 10 &#x79d2;&#xff09;" ID="ID_347087575" CREATED="1556010037490" MODIFIED="1556010038829"/>
+</node>
+</node>
+<node TEXT=" rm" ID="ID_1813656750" CREATED="1556010043140" MODIFIED="1556010047013">
+<node TEXT=" docker-compose rm [options] [SERVICE...]" ID="ID_1907369521" CREATED="1556010047634" MODIFIED="1556010049597"/>
+<node TEXT=" &#x5220;&#x9664;&#x6240;&#x6709;&#xff08;&#x505c;&#x6b62;&#x72b6;&#x6001;&#x7684;&#xff09;&#x670d;&#x52a1;&#x5bb9;&#x5668;" ID="ID_1082480682" CREATED="1556010059627" MODIFIED="1556010063669"/>
+<node TEXT=" &#x63a8;&#x8350;&#x5148;&#x6267;&#x884c; docker-compose stop &#x547d;&#x4ee4;&#x6765;&#x505c;&#x6b62;&#x5bb9;&#x5668;" ID="ID_1100458227" CREATED="1556010064586" MODIFIED="1556010069533"/>
+<node TEXT=" &#x9009;&#x9879;" ID="ID_1375783973" CREATED="1556010070250" MODIFIED="1556010071322">
+<node TEXT="-f" ID="ID_1872600600" CREATED="1556010071475" MODIFIED="1556010073681">
+<node TEXT=" --force" ID="ID_142725158" CREATED="1556010080945" MODIFIED="1556010081805"/>
+<node TEXT=" &#x5f3a;&#x5236;&#x76f4;&#x63a5;&#x5220;&#x9664;&#xff0c;&#x5305;&#x62ec;&#x975e;&#x505c;&#x6b62;&#x72b6;&#x6001;&#x7684;&#x5bb9;&#x5668;&#x3002;&#x4e00;&#x822c;&#x5c3d;&#x91cf;&#x4e0d;&#x8981;&#x4f7f;&#x7528;&#x8be5;&#x9009;&#x9879;" ID="ID_997206467" CREATED="1556010087356" MODIFIED="1556010090909"/>
+</node>
+<node TEXT="-v" ID="ID_451607905" CREATED="1556010073890" MODIFIED="1556010080197">
+<node TEXT=" &#x5220;&#x9664;&#x5bb9;&#x5668;&#x6240;&#x6302;&#x8f7d;&#x7684;&#x6570;&#x636e;&#x5377;" ID="ID_192431687" CREATED="1556010093379" MODIFIED="1556010094434"/>
+</node>
+</node>
+</node>
+<node TEXT=" run" ID="ID_788499792" CREATED="1556010099306" MODIFIED="1556010100439">
+<node TEXT="docker-compose run [options] [-p PORT...] [-e KEY=VAL...] SERVICE [COMMAND] [ARGS...]" ID="ID_1531072827" CREATED="1556010105370" MODIFIED="1556010107692"/>
+<node TEXT="&#x5728;&#x6307;&#x5b9a;&#x670d;&#x52a1;&#x4e0a;&#x6267;&#x884c;&#x4e00;&#x4e2a;&#x547d;&#x4ee4;" ID="ID_1688817334" CREATED="1556010108706" MODIFIED="1556010118702"/>
+<node TEXT="&#x4f8b;&#x5b50;" ID="ID_1304365341" CREATED="1556010130571" MODIFIED="1556010134586">
+<node TEXT=" &#x542f;&#x52a8;&#x4e00;&#x4e2a; ubuntu &#x670d;&#x52a1;&#x5bb9;&#x5668;&#xff0c;&#x5e76;&#x6267;&#x884c; ping docker.com &#x547d;&#x4ee4;" ID="ID_1693879812" CREATED="1556010144035" MODIFIED="1556010145179"/>
+<node TEXT=" docker-compose run ubuntu ping docker.com" ID="ID_1862020033" CREATED="1556010134765" MODIFIED="1556010136780"/>
+</node>
+<node TEXT=" &#x4e0d;&#x5e0c;&#x671b;&#x81ea;&#x52a8;&#x542f;&#x52a8;&#x5173;&#x8054;&#x7684;&#x5bb9;&#x5668;" ID="ID_111928473" CREATED="1556010207867" MODIFIED="1556010212858">
+<node TEXT=" &#x9ed8;&#x8ba4;&#x60c5;&#x51b5;&#x4e0b;&#xff0c;&#x5982;&#x679c;&#x5b58;&#x5728;&#x5173;&#x8054;&#xff0c;&#x5219;&#x6240;&#x6709;&#x5173;&#x8054;&#x7684;&#x670d;&#x52a1;&#x5c06;&#x4f1a;&#x81ea;&#x52a8;&#x88ab;&#x542f;&#x52a8;" ID="ID_1162607555" CREATED="1556010174706" MODIFIED="1556010206861"/>
+<node TEXT=" docker-compose run --no-deps web python manage.py shell" ID="ID_1430101508" CREATED="1556010213290" MODIFIED="1556010214317"/>
+</node>
+</node>
+<node TEXT="scale" ID="ID_1712868211" CREATED="1556010325057" MODIFIED="1556010328015">
+<node TEXT="docker-compose scale [options] [SERVICE=NUM...]" ID="ID_405906507" CREATED="1556010328290" MODIFIED="1556010336276"/>
+<node TEXT=" &#x8bbe;&#x7f6e;&#x6307;&#x5b9a;&#x670d;&#x52a1;&#x8fd0;&#x884c;&#x7684;&#x5bb9;&#x5668;&#x4e2a;&#x6570;" ID="ID_991028322" CREATED="1556010340587" MODIFIED="1556010342315"/>
+<node TEXT=" &#x542f;&#x52a8; 3 &#x4e2a;&#x5bb9;&#x5668;&#x8fd0;&#x884c; web &#x670d;&#x52a1;&#xff0c;2 &#x4e2a;&#x5bb9;&#x5668;&#x8fd0;&#x884c; db &#x670d;&#x52a1;" ID="ID_1783927708" CREATED="1556010351786" MODIFIED="1556010355512">
+<node TEXT=" docker-compose scale web=3 db=2" ID="ID_697626094" CREATED="1556010356105" MODIFIED="1556010357020"/>
+</node>
+</node>
+<node TEXT="up" ID="ID_259576569" CREATED="1556010391329" MODIFIED="1556010401159">
+<node TEXT=" docker-compose up [options] [SERVICE...]" ID="ID_797704848" CREATED="1556010405901" MODIFIED="1556010406917"/>
+<node TEXT=" &#x5c1d;&#x8bd5;&#x81ea;&#x52a8;&#x5b8c;&#x6210;&#x5305;&#x62ec;&#x6784;&#x5efa;&#x955c;&#x50cf;&#xff0c;&#xff08;&#x91cd;&#x65b0;&#xff09;&#x521b;&#x5efa;&#x670d;&#x52a1;&#xff0c;&#x542f;&#x52a8;&#x670d;&#x52a1;&#xff0c;&#x5e76;&#x5173;&#x8054;&#x670d;&#x52a1;&#x76f8;&#x5173;&#x5bb9;&#x5668;&#x7684;&#x4e00;&#x7cfb;&#x5217;&#x64cd;&#x4f5c;" ID="ID_673374062" CREATED="1556010419851" MODIFIED="1556010422461"/>
+<node TEXT="&#x540e;&#x53f0;&#x8fd0;&#x884c;" ID="ID_1007758778" CREATED="1556010437698" MODIFIED="1556010448719">
+<node TEXT="docker-compose up -d" ID="ID_162172044" CREATED="1556010448970" MODIFIED="1556010459998"/>
+<node TEXT=" &#x63a8;&#x8350;&#x751f;&#x4ea7;&#x73af;&#x5883;&#x4e0b;&#x4f7f;&#x7528;&#x8be5;&#x9009;&#x9879;" ID="ID_62417183" CREATED="1556010468697" MODIFIED="1556010470268"/>
+</node>
+<node TEXT=" --force-recreate" ID="ID_534984495" CREATED="1556010758342" MODIFIED="1556010762170">
+<node TEXT="  &#x5f3a;&#x5236;&#x91cd;&#x65b0;&#x521b;&#x5efa;&#x5bb9;&#x5668;" ID="ID_225321968" CREATED="1556010762755" MODIFIED="1556010763683"/>
+<node TEXT=" &#x4e0d;&#x80fd;&#x4e0e; --no-recreate &#x540c;&#x65f6;&#x4f7f;&#x7528;" ID="ID_1337505713" CREATED="1556010767153" MODIFIED="1556010768611"/>
+</node>
+<node TEXT=" --no-recreate" ID="ID_426251674" CREATED="1556010701887" MODIFIED="1556010707173">
+<node TEXT=" &#x5982;&#x679c;&#x5bb9;&#x5668;&#x5df2;&#x7ecf;&#x5b58;&#x5728;&#x4e86;&#xff0c;&#x5219;&#x4e0d;&#x91cd;&#x65b0;&#x521b;&#x5efa;" ID="ID_1243085585" CREATED="1556010707772" MODIFIED="1556010708819"/>
+<node TEXT=" &#x4e0d;&#x80fd;&#x4e0e; --force-recreate &#x540c;&#x65f6;&#x4f7f;&#x7528;" ID="ID_159135767" CREATED="1556010712688" MODIFIED="1556010717276"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x6a21;&#x677f;" ID="ID_225638209" CREATED="1556010793105" MODIFIED="1556010797764">
+<node TEXT=" &#x5927;&#x90e8;&#x5206;&#x6307;&#x4ee4;&#x8ddf; docker run &#x76f8;&#x5173;&#x53c2;&#x6570;&#x7684;&#x542b;&#x4e49;&#x90fd;&#x662f;&#x7c7b;&#x4f3c;" ID="ID_79353407" CREATED="1556010883058" MODIFIED="1556010884428"/>
+<node TEXT=" &#x6a21;&#x677f;&#x6587;&#x4ef6;&#x540d;" ID="ID_1558388060" CREATED="1556010885363" MODIFIED="1556010898356">
+<node TEXT=" docker-compose.yml" ID="ID_1879536618" CREATED="1556010901286" MODIFIED="1556010902268"/>
+<node TEXT=" &#x683c;&#x5f0f;&#x4e3a; YAML &#x683c;&#x5f0f;" ID="ID_1829933549" CREATED="1556010905693" MODIFIED="1556010906578"/>
+</node>
+<node TEXT="&#x6bcf;&#x4e2a;&#x670d;&#x52a1;&#x90fd;&#x9700;&#x8981;&#x955c;&#x50cf;" ID="ID_1120854680" CREATED="1556010929690" MODIFIED="1556010942011">
+<node TEXT="image &#x6307;&#x4ee4;&#x6307;&#x5b9a;&#x955c;&#x50cf;" ID="ID_617719583" CREATED="1556010942257" MODIFIED="1556010960265"/>
+<node TEXT="build &#x6307;&#x4ee4;&#x751f;&#x6210;&#x955c;&#x50cf;&#xff08;&#x9700;&#x8981; Dockerfile&#xff09;" ID="ID_1349375428" CREATED="1556010962530" MODIFIED="1556010991013">
+<node TEXT=" Dockerfile &#x4e2d;&#x8bbe;&#x7f6e;&#x7684;&#x9009;&#x9879;(&#x4f8b;&#x5982;&#xff1a;CMD, EXPOSE, VOLUME, ENV &#x7b49;) &#x5c06;&#x4f1a;&#x81ea;&#x52a8;&#x88ab;&#x83b7;&#x53d6;&#xff0c;&#x65e0;&#x9700;&#x5728; docker-compose.yml &#x4e2d;&#x518d;&#x6b21;&#x8bbe;&#x7f6e;" ID="ID_431232971" CREATED="1556011018623" MODIFIED="1556011022347"/>
+</node>
+</node>
+<node TEXT="&#x6307;&#x4ee4;" ID="ID_1360093660" CREATED="1556011049858" MODIFIED="1556011052180">
+<node TEXT="build" ID="ID_1691291520" CREATED="1556011052425" MODIFIED="1556011054088">
+<node TEXT=" Compose &#x5c06;&#x4f1a;&#x5229;&#x7528;&#x5b83;&#x81ea;&#x52a8;&#x6784;&#x5efa;&#x8fd9;&#x4e2a;&#x955c;&#x50cf;&#xff0c;&#x7136;&#x540e;&#x4f7f;&#x7528;&#x8fd9;&#x4e2a;&#x955c;&#x50cf;" ID="ID_590863684" CREATED="1556011160175" MODIFIED="1556011162698"/>
+<node TEXT=" &#x6307;&#x5b9a; Dockerfile &#x6240;&#x5728;&#x6587;&#x4ef6;&#x5939;&#x7684;&#x8def;&#x5f84;" ID="ID_1435811257" CREATED="1556011106705" MODIFIED="1556011108603">
+<node ID="ID_281932244" CREATED="1556011094184" MODIFIED="1556011094184"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>version</b></font></span>: <span style="color: #6a8759"><font color="#6a8759">'3'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>services</b></font></span>:<br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>webapp</b></font></span>:<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>build</b></font></span>: ./dir</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x53ef;&#x4ee5;&#x662f;&#x7edd;&#x5bf9;&#x8def;&#x5f84;" ID="ID_788983675" CREATED="1556011117260" MODIFIED="1556011119963"/>
+<node TEXT=" &#x76f8;&#x5bf9; docker-compose.yml &#x6587;&#x4ef6;&#x7684;&#x8def;&#x5f84;" ID="ID_1045491286" CREATED="1556011126389" MODIFIED="1556011128618"/>
+</node>
+<node TEXT="build&#x4e0b;&#x9762;&#x7684;&#x6307;&#x4ee4;" ID="ID_948854692" CREATED="1556011243216" MODIFIED="1556011250011">
+<node ID="ID_1937061010" CREATED="1556011337879" MODIFIED="1556011337879"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>version</b></font></span>: <span style="color: #6a8759"><font color="#6a8759">'3'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>services</b></font></span>:<br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>webapp</b></font></span>:<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>build</b></font></span>:<br/>      <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>context</b></font></span>: ./dir<br/>      <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>dockerfile</b></font></span>: Dockerfile-alternate<br/>      <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>args</b></font></span>:<br/>        <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>buildno</b></font></span>: 1</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="context" ID="ID_453088123" CREATED="1556011251423" MODIFIED="1556011256086">
+<node TEXT=" &#x6307;&#x5b9a; Dockerfile &#x6240;&#x5728;&#x6587;&#x4ef6;&#x5939;&#x7684;&#x8def;&#x5f84;" ID="ID_1196162233" CREATED="1556011347358" MODIFIED="1556011348361"/>
+</node>
+<node TEXT="dockerfile" ID="ID_1311397621" CREATED="1556011256306" MODIFIED="1556011264241">
+<node TEXT=" &#x6307;&#x5b9a; Dockerfile &#x6587;&#x4ef6;&#x540d;" ID="ID_1376064290" CREATED="1556011356265" MODIFIED="1556011357195"/>
+</node>
+<node TEXT="args" ID="ID_881266079" CREATED="1556011267269" MODIFIED="1556011269492">
+<node TEXT=" &#x6307;&#x5b9a;&#x6784;&#x5efa;&#x955c;&#x50cf;&#x65f6;&#x7684;&#x53d8;&#x91cf;" ID="ID_1377545004" CREATED="1556011362579" MODIFIED="1556011363651"/>
+</node>
+</node>
+</node>
+<node TEXT=" command" ID="ID_348376896" CREATED="1556011406048" MODIFIED="1556011410863">
+<node TEXT=" &#x8986;&#x76d6;&#x5bb9;&#x5668;&#x542f;&#x52a8;&#x540e;&#x9ed8;&#x8ba4;&#x6267;&#x884c;&#x7684;&#x547d;&#x4ee4;" ID="ID_1534631245" CREATED="1556011411406" MODIFIED="1556011412267"/>
+<node TEXT=" command: echo &quot;hello world&quot;" ID="ID_1715430" CREATED="1556011416961" MODIFIED="1556011418051"/>
+</node>
+<node TEXT="cgroup_parent" ID="ID_761683042" CREATED="1556011428937" MODIFIED="1556011437235">
+<node TEXT=" &#x6307;&#x5b9a;&#x7236; cgroup &#x7ec4;&#xff0c;&#x610f;&#x5473;&#x7740;&#x5c06;&#x7ee7;&#x627f;&#x8be5;&#x7ec4;&#x7684;&#x8d44;&#x6e90;&#x9650;&#x5236;" ID="ID_1266882077" CREATED="1556011440912" MODIFIED="1556011442626"/>
+<node TEXT=" cgroup &#x7ec4;&#x540d;&#x79f0;&#x4e3a; cgroups_1" ID="ID_768072086" CREATED="1556011466358" MODIFIED="1556011467323">
+<node TEXT=" cgroup_parent: cgroups_1" ID="ID_278358954" CREATED="1556011472183" MODIFIED="1556011473578"/>
+</node>
+</node>
+<node TEXT=" container_name" ID="ID_662237720" CREATED="1556011480511" MODIFIED="1556011484779">
+<node TEXT=" &#x6307;&#x5b9a;&#x5bb9;&#x5668;&#x540d;&#x79f0;" ID="ID_941051270" CREATED="1556011485190" MODIFIED="1556011486179"/>
+<node TEXT=" &#x9ed8;&#x8ba4;&#x5c06;&#x4f1a;&#x4f7f;&#x7528; &#x9879;&#x76ee;&#x540d;&#x79f0;_&#x670d;&#x52a1;&#x540d;&#x79f0;_&#x5e8f;&#x53f7; &#x8fd9;&#x6837;&#x7684;&#x683c;&#x5f0f;" ID="ID_360140485" CREATED="1556011490158" MODIFIED="1556011491499"/>
+<node TEXT=" container_name: docker-web-container" ID="ID_587966028" CREATED="1556011496374" MODIFIED="1556011500075"/>
+<node TEXT=" &#x6ce8;&#x610f;" ID="ID_656448268" CREATED="1556011511350" MODIFIED="1556011516027">
+<node TEXT=" &#x6307;&#x5b9a;&#x5bb9;&#x5668;&#x540d;&#x79f0;&#x540e;&#xff0c;&#x8be5;&#x670d;&#x52a1;&#x5c06;&#x65e0;&#x6cd5;&#x8fdb;&#x884c;&#x6269;&#x5c55;&#xff08;scale&#xff09;" ID="ID_1053219035" CREATED="1556011516431" MODIFIED="1556011517378"/>
+<node TEXT=" &#x56e0;&#x4e3a; Docker &#x4e0d;&#x5141;&#x8bb8;&#x591a;&#x4e2a;&#x5bb9;&#x5668;&#x5177;&#x6709;&#x76f8;&#x540c;&#x7684;&#x540d;&#x79f0;" ID="ID_379461530" CREATED="1556011521525" MODIFIED="1556011522489"/>
+</node>
+</node>
+<node TEXT=" devices" ID="ID_393345044" CREATED="1556011535481" MODIFIED="1556011539536">
+<node TEXT=" &#x6307;&#x5b9a;&#x8bbe;&#x5907;&#x6620;&#x5c04;&#x5173;&#x7cfb;" ID="ID_1348764197" CREATED="1556011539774" MODIFIED="1556011540722"/>
+<node TEXT="devices:&#xa;  - &quot;/dev/ttyUSB1:/dev/ttyUSB0&quot;" ID="ID_1656733567" CREATED="1556011541812" MODIFIED="1556011546930"/>
+</node>
+<node TEXT=" depends_on" ID="ID_293975693" CREATED="1556011552674" MODIFIED="1556011554496">
+<node TEXT=" &#x89e3;&#x51b3;&#x5bb9;&#x5668;&#x7684;&#x4f9d;&#x8d56;&#x3001;&#x542f;&#x52a8;&#x5148;&#x540e;&#x7684;&#x95ee;&#x9898;" ID="ID_545157810" CREATED="1556011560813" MODIFIED="1556011561778"/>
+<node TEXT=" &#x5148;&#x542f;&#x52a8; redis db &#x518d;&#x542f;&#x52a8; web" ID="ID_1936594435" CREATED="1556011570586" MODIFIED="1556011571923">
+<node ID="ID_771783042" CREATED="1556011593753" MODIFIED="1556011593753"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>version</b></font></span>: <span style="color: #6a8759"><font color="#6a8759">'3'<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>services</b></font></span>:<br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>web</b></font></span>:<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>build</b></font></span>: .<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>depends_on</b></font></span>:<br/>      - db<br/>      - redis<br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>redis</b></font></span>:<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>image</b></font></span>: redis<br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>db</b></font></span>:<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>image</b></font></span>: postgres</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x6ce8;&#x610f;&#xff1a;web &#x670d;&#x52a1;&#x4e0d;&#x4f1a;&#x7b49;&#x5f85; redis db &#x300c;&#x5b8c;&#x5168;&#x542f;&#x52a8;&#x300d;&#x4e4b;&#x540e;&#x624d;&#x542f;&#x52a8;" ID="ID_1118068269" CREATED="1556011616673" MODIFIED="1556011618434"/>
+</node>
+<node TEXT=" dns" ID="ID_1278984310" CREATED="1556011625733" MODIFIED="1556011626808">
+<node TEXT=" &#x81ea;&#x5b9a;&#x4e49; DNS &#x670d;&#x52a1;&#x5668;" ID="ID_1025134251" CREATED="1556011631251" MODIFIED="1556011633022"/>
+<node TEXT="&#x53ef;&#x4ee5;&#x662f;&#x4e00;&#x4e2a;&#x503c;&#xff0c;&#x4e5f;&#x53ef;&#x4ee5;&#x662f;&#x4e00;&#x4e2a;&#x5217;&#x8868;" ID="ID_1315418403" CREATED="1556011633324" MODIFIED="1556011638331"/>
+<node ID="ID_1371364632" CREATED="1556011664097" MODIFIED="1556011664097"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>dns</b></font></span>: 8.8.8.8<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>dns</b></font></span>:<br/>  - 8.8.8.8<br/>  - 114.114.114.114</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" dns_search" ID="ID_524613494" CREATED="1556011678396" MODIFIED="1556011682027">
+<node TEXT=" &#x914d;&#x7f6e; DNS &#x641c;&#x7d22;&#x57df;" ID="ID_1661839568" CREATED="1556011682337" MODIFIED="1556011683251"/>
+<node TEXT=" &#x53ef;&#x4ee5;&#x662f;&#x4e00;&#x4e2a;&#x503c;&#xff0c;&#x4e5f;&#x53ef;&#x4ee5;&#x662f;&#x4e00;&#x4e2a;&#x5217;&#x8868;" ID="ID_1166943403" CREATED="1556011686313" MODIFIED="1556011711409"/>
+<node ID="ID_662798344" CREATED="1556011712689" MODIFIED="1556011712689"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>dns_search</b></font></span>: example.com<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>dns_search</b></font></span>:<br/>  - domain1.example.com<br/>  - domain2.example.com</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" tmpfs" ID="ID_40058971" CREATED="1556011720409" MODIFIED="1556011725770">
+<node TEXT=" &#x6302;&#x8f7d;&#x4e00;&#x4e2a; tmpfs &#x6587;&#x4ef6;&#x7cfb;&#x7edf;&#x5230;&#x5bb9;&#x5668;" ID="ID_283222820" CREATED="1556011726047" MODIFIED="1556011727522"/>
+<node ID="ID_344198911" CREATED="1556011737507" MODIFIED="1556011737507"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>tmpfs</b></font></span>: /run<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>tmpfs</b></font></span>:<br/>  - /run<br/>  - /tmp</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" env_file" ID="ID_463808443" CREATED="1556011755851" MODIFIED="1556011760568">
+<node TEXT=" &#x4ece;&#x6587;&#x4ef6;&#x4e2d;&#x83b7;&#x53d6;&#x73af;&#x5883;&#x53d8;&#x91cf;" ID="ID_1204440352" CREATED="1556011761061" MODIFIED="1556011761994"/>
+<node TEXT=" &#x53ef;&#x4ee5;&#x4e3a;&#x5355;&#x72ec;&#x7684;&#x6587;&#x4ef6;&#x8def;&#x5f84;&#x6216;&#x5217;&#x8868;" ID="ID_1731097754" CREATED="1556011768224" MODIFIED="1556011769514"/>
+<node ID="ID_1950693648" CREATED="1556011840238" MODIFIED="1556011840238"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>env_file</b></font></span>: .env<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>env_file</b></font></span>:<br/>  - ./common.env<br/>  - ./apps/web.env<br/>  - /opt/secrets.env</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x73af;&#x5883;&#x53d8;&#x91cf;&#x6587;&#x4ef6;&#x683c;&#x5f0f;" ID="ID_1151553421" CREATED="1556011853721" MODIFIED="1556011858018">
+<node TEXT="# &#x5f00;&#x5934;&#x4e3a;&#x6ce8;&#x91ca;&#x884c;" ID="ID_547092983" CREATED="1556011859563" MODIFIED="1556011877200"/>
+<node TEXT=" # common.env: Set development environment&#xa;PROG_ENV=development" ID="ID_500189867" CREATED="1556011881965" MODIFIED="1556011883210"/>
+</node>
+</node>
+<node TEXT=" environment" ID="ID_268358848" CREATED="1556011894247" MODIFIED="1556011895466">
+<node TEXT=" &#x8bbe;&#x7f6e;&#x73af;&#x5883;&#x53d8;&#x91cf;" ID="ID_1808264968" CREATED="1556011908730" MODIFIED="1556011909673"/>
+<node TEXT=" &#x53ef;&#x4ee5;&#x4f7f;&#x7528;&#x6570;&#x7ec4;&#x6216;&#x5b57;&#x5178;&#x4e24;&#x79cd;&#x683c;&#x5f0f;" ID="ID_660246902" CREATED="1556011917923" MODIFIED="1556011918962"/>
+<node ID="ID_1610069227" CREATED="1556011958121" MODIFIED="1556011958121"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>environment</b></font></span>:<br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>RACK_ENV</b></font></span>: development<br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>SESSION_SECRET</b></font></span>:<br/><br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>environment</b></font></span>:<br/>  - RACK_ENV=development<br/>  - SESSION_SECRET</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x53ea;&#x7ed9;&#x5b9a;&#x540d;&#x79f0;&#x7684;&#x53d8;&#x91cf;&#x4f1a;&#x81ea;&#x52a8;&#x83b7;&#x53d6;&#x8fd0;&#x884c; Compose &#x4e3b;&#x673a;&#x4e0a;&#x5bf9;&#x5e94;&#x53d8;&#x91cf;&#x7684;&#x503c;,&#x53ef;&#x4ee5;&#x7528;&#x6765;&#x9632;&#x6b62;&#x6cc4;&#x9732;&#x4e0d;&#x5fc5;&#x8981;&#x7684;&#x6570;&#x636e;" ID="ID_1035515456" CREATED="1556011969155" MODIFIED="1556011976122"/>
+</node>
+<node TEXT=" expose" ID="ID_1410462005" CREATED="1556011997136" MODIFIED="1556011998144">
+<node TEXT=" &#x66b4;&#x9732;&#x7aef;&#x53e3;&#xff0c;&#x4f46;&#x4e0d;&#x6620;&#x5c04;&#x5230;&#x5bbf;&#x4e3b;&#x673a;&#xff0c;&#x53ea;&#x88ab;&#x8fde;&#x63a5;&#x7684;&#x670d;&#x52a1;&#x8bbf;&#x95ee;" ID="ID_21740301" CREATED="1556012006747" MODIFIED="1556012007929"/>
+<node TEXT=" &#x4ec5;&#x53ef;&#x4ee5;&#x6307;&#x5b9a;&#x5185;&#x90e8;&#x7aef;&#x53e3;&#x4e3a;&#x53c2;&#x6570;" ID="ID_622082220" CREATED="1556012031544" MODIFIED="1556012032458"/>
+<node ID="ID_1596635779" CREATED="1556012043407" MODIFIED="1556012043407"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>expose</b></font></span>:<br/> - <span style="color: #6a8759"><font color="#6a8759">&quot;3000&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759"> </span></font>- <span style="color: #6a8759"><font color="#6a8759">&quot;8000&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" image" ID="ID_1037856637" CREATED="1556012072160" MODIFIED="1556012076780">
+<node TEXT=" &#x6307;&#x5b9a;&#x4e3a;&#x955c;&#x50cf;&#x540d;&#x79f0;&#x6216;&#x955c;&#x50cf; ID" ID="ID_765140350" CREATED="1556012077412" MODIFIED="1556012078307"/>
+<node TEXT=" &#x5982;&#x679c;&#x955c;&#x50cf;&#x5728;&#x672c;&#x5730;&#x4e0d;&#x5b58;&#x5728;&#xff0c;Compose &#x5c06;&#x4f1a;&#x5c1d;&#x8bd5;&#x62c9;&#x53d6;&#x8fd9;&#x4e2a;&#x955c;&#x50cf;" ID="ID_794176000" CREATED="1556012083186" MODIFIED="1556012084265"/>
+<node ID="ID_946069620" CREATED="1556012098525" MODIFIED="1556012098525"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>image</b></font></span>: ubuntu<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>image</b></font></span>: orchardup/postgresql<br/><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>image</b></font></span>: a4bc65fd</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="logging" ID="ID_1938758352" CREATED="1556012145986" MODIFIED="1556012148518">
+<node TEXT=" &#x914d;&#x7f6e;&#x65e5;&#x5fd7;&#x9009;&#x9879;" ID="ID_1102039767" CREATED="1556012153037" MODIFIED="1556012153970"/>
+<node ID="ID_575075043" CREATED="1556012179963" MODIFIED="1556012179963"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>logging</b></font></span>:<br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>driver</b></font></span>: syslog<br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>options</b></font></span>:<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>syslog-address</b></font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;tcp://192.168.0.42:123&quot;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x652f;&#x6301;&#x4e09;&#x79cd;&#x65e5;&#x5fd7;&#x9a71;&#x52a8;&#x7c7b;&#x578b;" ID="ID_1061780853" CREATED="1556012245628" MODIFIED="1556012249066">
+<node TEXT="driver: &quot;json-file&quot;&#xa;driver: &quot;syslog&quot;&#xa;driver: &quot;none&quot;" ID="ID_62652367" CREATED="1556012249859" MODIFIED="1556012253873"/>
+</node>
+</node>
+<node TEXT=" pid" ID="ID_440118198" CREATED="1556012218278" MODIFIED="1556012219380">
+<node TEXT=" &#x8ddf;&#x4e3b;&#x673a;&#x7cfb;&#x7edf;&#x5171;&#x4eab;&#x8fdb;&#x7a0b;&#x547d;&#x540d;&#x7a7a;&#x95f4;" ID="ID_1619727266" CREATED="1556012270336" MODIFIED="1556012271442"/>
+<node TEXT=" &#x6253;&#x5f00;&#x8be5;&#x9009;&#x9879;&#x7684;&#x5bb9;&#x5668;&#x4e4b;&#x95f4;&#xff0c;&#x4ee5;&#x53ca;&#x5bb9;&#x5668;&#x548c;&#x5bbf;&#x4e3b;&#x673a;&#x7cfb;&#x7edf;&#x4e4b;&#x95f4;&#x53ef;&#x4ee5;&#x901a;&#x8fc7;&#x8fdb;&#x7a0b; ID &#x6765;&#x76f8;&#x4e92;&#x8bbf;&#x95ee;&#x548c;&#x64cd;&#x4f5c;" ID="ID_1201114592" CREATED="1556012284020" MODIFIED="1556012286684"/>
+<node TEXT=" pid: &quot;host&quot;" ID="ID_952407087" CREATED="1556012287483" MODIFIED="1556012288434"/>
+</node>
+<node TEXT=" ports" ID="ID_1893331036" CREATED="1556012292520" MODIFIED="1556012293737">
+<node TEXT="&#x66b4;&#x9732;&#x7aef;&#x53e3;&#x4fe1;&#x606f;" ID="ID_1392581889" CREATED="1556012298293" MODIFIED="1556012300743"/>
+<node TEXT=" &#x4f7f;&#x7528;&#x5bbf;&#x4e3b;&#x7aef;&#x53e3;&#xff1a;&#x5bb9;&#x5668;&#x7aef;&#x53e3; (HOST:CONTAINER) &#x683c;&#x5f0f;" ID="ID_1651258569" CREATED="1556012312803" MODIFIED="1556012313881"/>
+<node TEXT=" &#x4ec5;&#x4ec5;&#x6307;&#x5b9a;&#x5bb9;&#x5668;&#x7684;&#x7aef;&#x53e3;&#xff08;&#x5bbf;&#x4e3b;&#x5c06;&#x4f1a;&#x968f;&#x673a;&#x9009;&#x62e9;&#x7aef;&#x53e3;&#xff09;" ID="ID_1768995612" CREATED="1556012335448" MODIFIED="1556012336297"/>
+<node ID="ID_27863628" CREATED="1556012355366" MODIFIED="1556012355366"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>ports</b></font></span>:<br/>  - <span style="color: #6a8759"><font color="#6a8759">&quot;3000&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">  </span></font>- <span style="color: #6a8759"><font color="#6a8759">&quot;8000:8000&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">  </span></font>- <span style="color: #6a8759"><font color="#6a8759">&quot;49100:22&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">  </span></font>- <span style="color: #6a8759"><font color="#6a8759">&quot;127.0.0.1:8001:8001&quot;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x5efa;&#x8bae;&#x6570;&#x5b57;&#x4e32;&#x90fd;&#x91c7;&#x7528;&#x5f15;&#x53f7;&#x5305;&#x62ec;&#x8d77;&#x6765;&#x7684;&#x5b57;&#x7b26;&#x4e32;&#x683c;&#x5f0f;" ID="ID_1083787" CREATED="1556012392158" MODIFIED="1556012393297"/>
+</node>
+<node TEXT=" volumes" ID="ID_1217978982" CREATED="1556012458395" MODIFIED="1556012462846">
+<node TEXT=" &#x6570;&#x636e;&#x5377;&#x6240;&#x6302;&#x8f7d;&#x8def;&#x5f84;&#x8bbe;&#x7f6e;&#xff0c;&#x652f;&#x6301;&#x76f8;&#x5bf9;&#x8def;&#x5f84;" ID="ID_1924818118" CREATED="1556012463374" MODIFIED="1556012525647"/>
+<node TEXT="&#x6216;&#x8bbe;&#x7f6e;&#x5bbf;&#x4e3b;&#x673a;&#x8def;&#x5f84; &#xff08;HOST:CONTAINER&#xff09;" ID="ID_575541908" CREATED="1556012474691" MODIFIED="1556012482304"/>
+<node TEXT="&#x6216;&#x52a0;&#x4e0a;&#x8bbf;&#x95ee;&#x6a21;&#x5f0f; &#xff08;HOST:CONTAINER:ro&#xff09;" ID="ID_99448567" CREATED="1556012483223" MODIFIED="1556012495906"/>
+<node ID="ID_1587629408" CREATED="1556012536150" MODIFIED="1556012536150"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>volumes</b></font></span>:<br/> - /var/lib/mysql<br/> - cache/:/tmp/cache<br/> - ~/configs:/etc/configs/:ro</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" restart" ID="ID_1691390508" CREATED="1556012560009" MODIFIED="1556012560976">
+<node TEXT="&#x6307;&#x5b9a;&#x5bb9;&#x5668;&#x9000;&#x51fa;&#x540e;&#x7684;&#x91cd;&#x542f;&#x7b56;&#x7565;&#x4e3a;&#x59cb;&#x7ec8;&#x91cd;&#x542f;" ID="ID_1241775505" CREATED="1556012566217" MODIFIED="1556012568920"/>
+<node TEXT=" &#x5728;&#x751f;&#x4ea7;&#x73af;&#x5883;&#x4e2d;&#x63a8;&#x8350;&#x914d;&#x7f6e;&#x4e3a; always &#x6216;&#x8005; unless-stopped" ID="ID_1986330383" CREATED="1556012585123" MODIFIED="1556012586187"/>
+</node>
+</node>
+<node TEXT="&#x8bfb;&#x53d6;&#x53d8;&#x91cf;" ID="ID_1880523116" CREATED="1556012644027" MODIFIED="1556012649267">
+<node TEXT=" Compose &#x6a21;&#x677f;&#x6587;&#x4ef6;&#x652f;&#x6301;&#x52a8;&#x6001;&#x8bfb;&#x53d6;&#x53d8;&#x91cf;" ID="ID_472467817" CREATED="1556012678855" MODIFIED="1556012683964">
+<node TEXT=" &#x4e3b;&#x673a;&#x7684;&#x7cfb;&#x7edf;&#x73af;&#x5883;&#x53d8;&#x91cf;" ID="ID_386957164" CREATED="1556012688421" MODIFIED="1556012689313"/>
+<node TEXT=" &#x5f53;&#x524d;&#x76ee;&#x5f55;&#x4e0b;&#x7684; .env &#x6587;&#x4ef6;&#x4e2d;&#x7684;&#x53d8;&#x91cf;" ID="ID_748301076" CREATED="1556012693340" MODIFIED="1556012694266">
+<node TEXT=" &#x6267;&#x884c; docker-compose &#x547d;&#x4ee4;&#x65f6;&#x5c06;&#x4ece;&#x8be5;&#x6587;&#x4ef6;&#x4e2d;&#x8bfb;&#x53d6;&#x53d8;&#x91cf;" ID="ID_1868949036" CREATED="1556012815084" MODIFIED="1556012816282"/>
+</node>
+</node>
+<node ID="ID_1756978442" CREATED="1556012723588" MODIFIED="1556012723588"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>version</b></font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;3&quot;<br/></font></span><span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>services</b></font></span>:<br/><br/>  <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>db</b></font></span>:<br/>    <span style="color: #cc7832; font-weight: bold"><font color="#cc7832"><b>image</b></font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;mongo:${MONGO_VERSION}&quot;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x542f;&#x52a8;&#x4e00;&#x4e2a; mongo:3.2 &#x955c;&#x50cf;&#x7684;&#x5bb9;&#x5668;" ID="ID_783252624" CREATED="1556012751102" MODIFIED="1556012756388">
+<node TEXT="MONGO_VERSION=3.2 docker-compose up" ID="ID_1985176276" CREATED="1556012757052" MODIFIED="1556012759112"/>
+</node>
+<node TEXT=" &#x542f;&#x52a8;&#x4e00;&#x4e2a; mongo:2.8 &#x955c;&#x50cf;&#x7684;&#x5bb9;&#x5668;" ID="ID_1933763540" CREATED="1556012769035" MODIFIED="1556012770026">
+<node TEXT=" MONGO_VERSION=2.8 docker-compose up" ID="ID_375739871" CREATED="1556012789015" MODIFIED="1556012790187"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="docker &#x7f51;&#x7edc;" POSITION="right" ID="ID_1586473284" CREATED="1553607386714" MODIFIED="1555846643605">
 <edge COLOR="#007c7c"/>
