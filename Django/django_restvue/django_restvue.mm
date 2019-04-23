@@ -3,7 +3,7 @@
 <node TEXT="django_restvue" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1551186550185" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -728,7 +728,7 @@
 </node>
 <node TEXT="&#x6392;&#x5e8f;" POSITION="right" ID="ID_582971968" CREATED="1551459366093" MODIFIED="1551459370498">
 <edge COLOR="#ff0000"/>
-<node ID="ID_1978203941" CREATED="1551620321330" MODIFIED="1551620334865"><richcontent TYPE="NODE">
+<node ID="ID_1978203941" CREATED="1551620321330" MODIFIED="1555572267865"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -738,6 +738,7 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">filter_backends = (DjangoFilterBackend<span style="color: #cc7832"><font color="#cc7832">, </font></span>filters.SearchFilter<span style="color: #cc7832"><font color="#cc7832">, </font></span>filters.OrderingFilter)<br/><span style="color: #808080"><font color="#808080"># &#25490;&#24207;&#35774;&#32622;, &#38656;&#35201;&#20837;&#21442;{'ordering': '-add_time'}<br/></font></span>ordering_fields = (<span style="color: #6a8759"><font color="#6a8759">'add_time'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'shop_price'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'sold_num'</font></span>)</pre>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -1422,7 +1423,7 @@
 </node>
 <node TEXT="&#x81ea;&#x5b9a;&#x8fd4;&#x56de;json&#x7684;&#x7ed3;&#x6784;" POSITION="right" ID="ID_227964268" CREATED="1552619943140" MODIFIED="1552619958274">
 <edge COLOR="#ff0000"/>
-<node ID="ID_229561954" CREATED="1552619964887" MODIFIED="1552619964887"><richcontent TYPE="NODE">
+<node ID="ID_229561954" CREATED="1552619964887" MODIFIED="1553685057415"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1899,7 +1900,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># redis &#32531;&#23384;<br/></font></span>CACHES = {<br/>    <span style="color: #6a8759"><font color="#6a8759">&quot;default&quot;</font></span>: {<br/>        <span style="color: #6a8759"><font color="#6a8759">&quot;BACKEND&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;django_redis.cache.RedisCache&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;LOCATION&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;redis://127.0.0.1:6379&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #6a8759"><font color="#6a8759">&quot;OPTIONS&quot;</font></span>: {<br/>            <span style="color: #6a8759"><font color="#6a8759">&quot;CLIENT_CLASS&quot;</font></span>: <span style="color: #6a8759"><font color="#6a8759">&quot;django_redis.client.DefaultClient&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font>}<br/>    }<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1917,7 +1917,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">REST_FRAMEWORK = {<br/><font color="#cc7832"><span style="color: #cc7832"><br/></span><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080"># &#20840;&#23616;&#38480;&#27969;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #6a8759"><font color="#6a8759">'DEFAULT_THROTTLE_CLASSES'</font></span>: (<br/>        <span style="color: #808080"><font color="#808080"># &#21482;&#20250;&#38480;&#21046;&#26410;&#32463;&#35748;&#35777;&#30340;&#29992;&#25143;&#65288;&#35831;&#27714;&#30340; IP &#22320;&#22336;&#65289;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework.throttling.AnonRateThrottle'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #808080"><font color="#808080"># &#30331;&#38470;&#29992;&#25143;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #6a8759"><font color="#6a8759">'rest_framework.throttling.UserRateThrottle'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080"># &#38480;&#36895;&#30340;&#31574;&#30053;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #6a8759"><font color="#6a8759">'DEFAULT_THROTTLE_RATES'</font></span>: {<br/>        <span style="color: #6a8759"><font color="#6a8759">'anon'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'2/day'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #6a8759"><font color="#6a8759">'user'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'1000/day'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font>}<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1932,7 +1931,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>GoodsListViewSet(<br/>    CacheResponseMixin<span style="color: #cc7832"><font color="#cc7832">, </font></span>viewsets.GenericViewSet<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>mixins.ListModelMixin<span style="color: #cc7832"><font color="#cc7832">, </font></span>mixins.RetrieveModelMixin):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    list:<br/></span><span style="color: #629755; font-style: italic">        &#21830;&#21697;&#21015;&#34920;<br/></span><span style="color: #629755; font-style: italic">    retrieve:<br/></span><span style="color: #629755; font-style: italic">        &#21830;&#21697;&#35814;&#24773;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font>throttle_classes = (UserRateThrottle<span style="color: #cc7832"><font color="#cc7832">, </font></span>AnonRateThrottle)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x91cd;&#x5199;UserRateThrottle&#x4e0e;AnonRateThrottle&#x4e2d;&#x7684;&#x65b9;&#x6cd5;" ID="ID_390474733" CREATED="1553608113970" MODIFIED="1553610386663"/>
@@ -1948,7 +1946,15 @@
 <edge COLOR="#0000ff"/>
 <node TEXT=" logging &#x7684;&#x7f3a;&#x70b9;" ID="ID_935826000" CREATED="1553610753628" MODIFIED="1553610768058">
 <node TEXT="&#x767b;&#x9646;&#x670d;&#x52a1;&#x5668;&#x67e5;&#x6587;&#x4ef6;" ID="ID_1065938727" CREATED="1553610768300" MODIFIED="1553610781723"/>
-<node TEXT="&#x4e3b;&#x52a8;&#x67e5;&#x5bfb;" ID="ID_1983375588" CREATED="1553610782004" MODIFIED="1553610786944"/>
+<node TEXT="&#x4e3b;&#x52a8;&#x67e5;&#x8be2;" ID="ID_1983375588" CREATED="1553610782004" MODIFIED="1553610801718"/>
+</node>
+<node TEXT="&#x4f9d;&#x8d56;" ID="ID_1338368718" CREATED="1553612146859" MODIFIED="1553612152422">
+<node TEXT="redis" ID="ID_663354901" CREATED="1553612152639" MODIFIED="1553612156345"/>
+<node TEXT="postgresql" ID="ID_362559654" CREATED="1553612156637" MODIFIED="1553612162687"/>
+<node TEXT="outbound email" ID="ID_1389883986" CREATED="1553612163004" MODIFIED="1553612168113"/>
+</node>
+<node TEXT="docker &#x5b89;&#x88c5;" ID="ID_973415646" CREATED="1553612115376" MODIFIED="1553612124252">
+<node TEXT="" ID="ID_452824765" CREATED="1553612124594" MODIFIED="1553612124594"/>
 </node>
 </node>
 </node>

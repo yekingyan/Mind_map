@@ -3,7 +3,7 @@
 <node TEXT="Celery" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1554792305623" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -163,7 +163,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_41924172" CREATED="1555574489125" MODIFIED="1555574489125"><richcontent TYPE="NODE">
@@ -178,7 +177,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT=".delay&#x65b9;&#x6cd5;" ID="ID_1643559034" CREATED="1554801443216" MODIFIED="1554801450062"/>
 </node>
@@ -194,7 +192,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -274,7 +271,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>kombu <span style="color: #cc7832"><font color="#cc7832">import </font></span>Queue<br/>CELERY_QUEUES = (  <span style="color: #808080"><font color="#808080"># &#23450;&#20041;&#20219;&#21153;&#38431;&#21015;<br/></font></span><font color="#808080"><span style="color: #808080">    # &#36335;&#30001;&#38190;&#20197;&#8220;task.&#8221;&#24320;&#22836;&#30340;&#28040;&#24687;&#37117;&#36827;default&#38431;&#21015;<br/></span><span style="color: #808080">    </span></font>Queue(<span style="color: #6a8759"><font color="#6a8759">'default'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">routing_key</font></span>=<span style="color: #6a8759"><font color="#6a8759">'task.#'</font></span>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #808080"><font color="#808080"># &#36335;&#30001;&#38190;&#20197;&#8220;web.&#8221;&#24320;&#22836;&#30340;&#28040;&#24687;&#37117;&#36827;web_tasks&#38431;&#21015;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>Queue(<span style="color: #6a8759"><font color="#6a8759">'web_tasks'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">routing_key</font></span>=<span style="color: #6a8759"><font color="#6a8759">'web.#'</font></span>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span></font>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -289,7 +285,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#40664;&#35748;&#30340;&#20132;&#25442;&#26426;&#21517;&#23383;&#20026;tasks<br/></font></span>CELERY_DEFAULT_EXCHANGE = <span style="color: #6a8759"><font color="#6a8759">'tasks' <br/></font></span><span style="color: #808080"><font color="#808080"># &#40664;&#35748;&#30340;&#20132;&#25442;&#31867;&#22411;&#26159;topic<br/></font></span>CELERY_DEFAULT_EXCHANGE_TYPE = <span style="color: #6a8759"><font color="#6a8759">'topic' <br/></font></span><span style="color: #808080"><font color="#808080"># &#40664;&#35748;&#30340;&#36335;&#30001;&#38190;&#26159;task.default&#65292;&#36825;&#20010;&#36335;&#30001;&#38190;&#31526;&#21512;&#19978;&#38754;&#30340;default&#38431;&#21015;<br/></font></span>CELERY_DEFAULT_ROUTING_KEY = <span style="color: #6a8759"><font color="#6a8759">'task.default'</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -304,7 +299,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">CELERY_ROUTES = {<br/>    <span style="color: #808080"><font color="#808080"># tasks.add&#30340;&#28040;&#24687;&#20250;&#36827;&#20837;web_tasks&#38431;&#21015;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #6a8759"><font color="#6a8759">'warehouse.tasks.add'</font></span>: { <br/>        <span style="color: #6a8759"><font color="#6a8759">'queue'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'web_tasks'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #6a8759"><font color="#6a8759">'routing_key'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'web.add'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>}<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -338,7 +332,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">    <span style="color: #aa4926"><font color="#aa4926">CELERYBEAT_SCHEDULE</font></span>={<br/>        <span style="color: #6a8759"><font color="#6a8759">'sum-task'</font></span>: {<br/>            <span style="color: #6a8759"><font color="#6a8759">'task'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'event.tasks.add'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">            </span></font><span style="color: #6a8759"><font color="#6a8759">'schedule'</font></span>:  timedelta(<span style="color: #aa4926"><font color="#aa4926">seconds</font></span>=<span style="color: #6897bb"><font color="#6897bb">10</font></span>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">            </span></font><span style="color: #6a8759"><font color="#6a8759">'args'</font></span>: (<span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">6</font></span>)<br/>        }<span style="color: #cc7832"><font color="#cc7832">,</font></span><br/>    }<br/></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6bcf;10&#x79d2;&#x8dd1;&#x4e00;&#x6b21;event/tasks.py &#x4e0b;&#x7684;add&#x4efb;&#x52a1;" ID="ID_1013329034" CREATED="1555584355540" MODIFIED="1555584389750"/>
@@ -354,7 +347,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #aa4926"><font color="#aa4926">CELERYBEAT_SCHEDULE</font></span>={<span style="color: #cc7832"><font color="#cc7832"><br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #6a8759"><font color="#6a8759">'send-report'</font></span>: {<br/>        <span style="color: #6a8759"><font color="#6a8759">'task'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'event.tasks.report'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #6a8759"><font color="#6a8759">'schedule'</font></span>: crontab(<span style="color: #aa4926"><font color="#aa4926">hour</font></span>=<span style="color: #6897bb"><font color="#6897bb">15</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">minute</font></span>=<span style="color: #6897bb"><font color="#6897bb">47</font></span>)<span style="color: #cc7832"><font color="#cc7832">,</font></span><br/>    }<br/>}</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6bcf;&#x5929;15&#x70b9;47&#x5206;&#x8fd0;&#x884c;event/tasks.py &#x4e0b;&#x7684;report&#x4efb;&#x52a1;" ID="ID_595632781" CREATED="1555584535903" MODIFIED="1555584567498"/>
@@ -366,6 +358,14 @@
 </node>
 <node TEXT="&#x540c;&#x65f6;&#x542f;&#x52a8;Beat&#x548c;Worker&#x8fdb;&#x7a0b;" ID="ID_1054714461" CREATED="1555584688538" MODIFIED="1555584714054">
 <node TEXT=" celery -B -A warehouse worker -l info" ID="ID_583754900" CREATED="1555584719679" MODIFIED="1555584727156"/>
+</node>
+<node TEXT="&#x67e5;&#x770b;&#x72b6;&#x6001;" ID="ID_1465777702" CREATED="1555898747978" MODIFIED="1555898756532">
+<node TEXT="&#x67e5;&#x770b;&#x961f;&#x5217;" ID="ID_1526369128" CREATED="1555899081329" MODIFIED="1555899087142">
+<node TEXT=" celery -A warehouse inspect active_queues" ID="ID_1567400162" CREATED="1555899076634" MODIFIED="1555899080426"/>
+</node>
+<node TEXT="&#x67e5;&#x770b;worker" ID="ID_850585342" CREATED="1555899090673" MODIFIED="1555899094411">
+<node TEXT=" celery -A warehouse inspect active" ID="ID_1172363939" CREATED="1555899076634" MODIFIED="1555899101554"/>
+</node>
 </node>
 </node>
 </node>
