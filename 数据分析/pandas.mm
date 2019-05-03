@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="104" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="105" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="3w2h&#x5b66;&#x4e60;&#x6cd5;" POSITION="right" ID="ID_321301927" CREATED="1556462416930" MODIFIED="1556462505102">
 <edge COLOR="#7c007c"/>
@@ -462,10 +462,31 @@
 <node TEXT="&#x589e;&#x52a0;&#x5217;" ID="ID_1060143667" CREATED="1556467523720" MODIFIED="1556467527224">
 <node TEXT="df[&apos;new_col&apos;] = [2, 3, 5]" ID="ID_1780984419" CREATED="1556467527378" MODIFIED="1556467548951"/>
 </node>
+<node TEXT="&#x9012;&#x589e;&#x6dfb;&#x52a0;" ID="ID_815035087" CREATED="1556785445158" MODIFIED="1556785455007">
+<node TEXT=" &#x5efa;&#x7acb;&#x65b0;&#x7684;DataFrame&#x5bf9;&#x8c61;" ID="ID_1132832057" CREATED="1556785455214" MODIFIED="1556785486432">
+<node TEXT="data = DataFrame(columns=[&apos;Feature&apos;, &apos;Property&apos;])" ID="ID_285507473" CREATED="1556785486602" MODIFIED="1556785521752"/>
+</node>
+<node TEXT="&#x52a0;&#x5165;&#x4e00;&#x884c;" ID="ID_698297441" CREATED="1556785529692" MODIFIED="1556785534259">
+<node TEXT="data = data.append(Series([f, p], index=[&apos;Feature&apos;, &apos;Property&apos;]), ignore_index= True)" ID="ID_1076663814" CREATED="1556785534535" MODIFIED="1556785631850"/>
+</node>
+<node TEXT="&#x53c2;&#x6570;" ID="ID_973591263" CREATED="1556785633845" MODIFIED="1556785635738">
+<node TEXT="columns" ID="ID_1451721995" CREATED="1556785636024" MODIFIED="1556785641077">
+<node TEXT="&#x6570;&#x636e;&#x6846;&#x7684;&#x5217;" ID="ID_303023416" CREATED="1556785649359" MODIFIED="1556785668040"/>
+</node>
+<node TEXT="index" ID="ID_1799033201" CREATED="1556785641681" MODIFIED="1556785642896">
+<node TEXT="&#x5e8f;&#x5217;&#x5bf9;&#x5e94;&#x7684;&#x5e8f;&#x53f7;" ID="ID_1857081223" CREATED="1556785669572" MODIFIED="1556785691768"/>
+<node TEXT="&#x901a;&#x8fc7;&#x6307;&#x5b9a;&#x548c;&#x6570;&#x636e;&#x6846;&#x4e00;&#x6837;&#x7684;&#x5217;&#x540d;&#xff0c;&#x5f80;&#x6570;&#x636e;&#x6846;&#x52a0;&#x5165;&#x6570;&#x636e;" ID="ID_1885972207" CREATED="1556785692800" MODIFIED="1556785718631"/>
+</node>
+<node TEXT="ignore_index" ID="ID_276079927" CREATED="1556785643083" MODIFIED="1556785647943">
+<node TEXT="&#x662f;&#x5426;&#x5ffd;&#x7565;&#x539f;&#x6765;&#x7684;&#x5e8f;&#x53f7;" ID="ID_150747174" CREATED="1556785720002" MODIFIED="1556785746022"/>
+<node TEXT="&#x4e00;&#x822c;&#x8bbe;&#x7f6e;&#x4e3a;True&#xff0c;&#x91cd;&#x65b0;&#x8bbe;&#x7f6e;&#x5e8f;&#x53f7;" ID="ID_890849824" CREATED="1556785746349" MODIFIED="1556785771066"/>
 </node>
 </node>
 </node>
-<node TEXT="&#x5411;&#x91cf;&#x5316;&#x8ba1;&#x7b97;" POSITION="right" ID="ID_1311639249" CREATED="1556467719830" MODIFIED="1556467735225">
+</node>
+</node>
+</node>
+<node TEXT="&#x5411;&#x91cf;&#x5316;&#x8ba1;&#x7b97;" FOLDED="true" POSITION="right" ID="ID_1311639249" CREATED="1556467719830" MODIFIED="1556467735225">
 <edge COLOR="#0000ff"/>
 <node TEXT="&#x6982;&#x5ff5;" ID="ID_1665768694" CREATED="1556467802114" MODIFIED="1556467804649">
 <node TEXT="&#x7279;&#x6b8a;&#x7684;&#x5e76;&#x884c;&#x8ba1;&#x7b97;&#x65b9;&#x5f0f;" ID="ID_1204027677" CREATED="1556467735344" MODIFIED="1556467752559"/>
@@ -490,9 +511,6 @@
 
 </richcontent>
 </node>
-<node TEXT="&#x666e;&#x901a;&#x7684;range&#x4e0d;&#x652f;&#x6301;&#x5c0f;&#x6570;" ID="ID_960352438" CREATED="1556468229587" MODIFIED="1556468249960"/>
-</node>
-<node TEXT="&#x56db;&#x5219;&#x8fd0;&#x7b97;" ID="ID_547590409" CREATED="1556467939293" MODIFIED="1556467943575">
 <node ID="ID_1166592259" CREATED="1556468379299" MODIFIED="1556468379299"><richcontent TYPE="NODE">
 
 <html>
@@ -506,6 +524,9 @@
 
 </richcontent>
 </node>
+<node TEXT="&#x666e;&#x901a;&#x7684;range&#x4e0d;&#x652f;&#x6301;&#x5c0f;&#x6570;" ID="ID_960352438" CREATED="1556468229587" MODIFIED="1556468249960"/>
+</node>
+<node TEXT="&#x56db;&#x5219;&#x8fd0;&#x7b97;" ID="ID_547590409" CREATED="1556467939293" MODIFIED="1556467943575">
 <node TEXT="&#x89c4;&#x5219;" ID="ID_640434953" CREATED="1556467973589" MODIFIED="1556467976945">
 <node TEXT="&#x76f8;&#x540c;&#x4f4d;&#x7f6e;&#x7684;&#x6570;&#x636e;&#x8fdb;&#x884c;&#x8fd0;&#x7b97;&#xff0c;&#x7ed3;&#x679c;&#x5728;&#x76f8;&#x540c;&#x7684;&#x4f4d;&#x7f6e;" ID="ID_1504899648" CREATED="1556467943815" MODIFIED="1556467971465"/>
 </node>
@@ -603,7 +624,7 @@
 </node>
 <node TEXT="&#x805a;&#x5408;" ID="ID_1011021841" CREATED="1556468721043" MODIFIED="1556468733714">
 <node TEXT="&#x77e9;&#x9635;&#x8fd0;&#x7b97;" ID="ID_1899146487" CREATED="1556468733854" MODIFIED="1556468744980">
-<node TEXT="numpy.dot" ID="ID_291662395" CREATED="1556468878236" MODIFIED="1556468888412">
+<node TEXT="numpy.dot &#x70b9;&#x79ef;" ID="ID_291662395" CREATED="1556468878236" MODIFIED="1556799511081">
 <node ID="ID_1066716042" CREATED="1556468820250" MODIFIED="1556468820250"><richcontent TYPE="NODE">
 
 <html>
@@ -827,7 +848,12 @@
 </node>
 </node>
 <node TEXT="&#x6570;&#x636e;&#x5e93;" ID="ID_1921605065" CREATED="1556469995039" MODIFIED="1556469998626">
-<node TEXT="MySQL" ID="ID_824714079" CREATED="1556470379024" MODIFIED="1556470386699"/>
+<node TEXT="MySQL" ID="ID_824714079" CREATED="1556470379024" MODIFIED="1556470386699">
+<node TEXT="&#x5b89;&#x88c5;&#x9a71;&#x52a8;" ID="ID_864225978" CREATED="1556789432606" MODIFIED="1556789439922">
+<node TEXT="MySQLClient" ID="ID_1104265186" CREATED="1556789440110" MODIFIED="1556789452683"/>
+<node TEXT="pymysql" ID="ID_78020149" CREATED="1556789452880" MODIFIED="1556789459846"/>
+</node>
+</node>
 <node TEXT="Access" ID="ID_1445794421" CREATED="1556470386954" MODIFIED="1556470407050">
 <node TEXT="&#x5fae;&#x8f6f;&#x529e;&#x516c;&#x8f6f;&#x4ef6;" ID="ID_440264716" CREATED="1556470563548" MODIFIED="1556470576434"/>
 </node>
@@ -866,7 +892,7 @@
 </node>
 <node TEXT="&#x5b57;&#x6bb5;&#x62c6;&#x5206;" ID="ID_782987175" CREATED="1556552757037" MODIFIED="1556552762910">
 <node TEXT="&#x6309;&#x7279;&#x5b9a;&#x5b57;&#x7b26;&#xff0c;&#x62c6;&#x5206;&#x5df2;&#x6709;&#x5b57;&#x7b26;&#x4e32;&#x4e3a;&#x591a;&#x5217;" ID="ID_361359587" CREATED="1556552817122" MODIFIED="1556552895731"/>
-<node TEXT="spit(sep, n, expand)" ID="ID_1483994192" CREATED="1556552896337" MODIFIED="1556552910805"/>
+<node TEXT="split(sep, n, expand)" ID="ID_1483994192" CREATED="1556552896337" MODIFIED="1556800595274"/>
 <node TEXT="&#x53c2;&#x6570;" ID="ID_113837939" CREATED="1556552911059" MODIFIED="1556552913048">
 <node TEXT="sep" ID="ID_674470782" CREATED="1556552913294" MODIFIED="1556552914876">
 <node TEXT="&#x7528;&#x4e8e;&#x5206;&#x5272;&#x7684;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1779668302" CREATED="1556552924287" MODIFIED="1556552934535"/>
@@ -923,11 +949,12 @@
 </node>
 </node>
 <node TEXT="&#x968f;&#x673a;&#x62bd;&#x6837;" ID="ID_1788577307" CREATED="1556553807544" MODIFIED="1556553814732">
+<node TEXT="numpy.random.randint" ID="ID_1353584724" CREATED="1556849119055" MODIFIED="1556849131861">
 <node TEXT="&#x968f;&#x673a;&#x4ece;&#x6570;&#x636e;&#x4e2d;&#x62bd;&#x53d6;&#x6570;&#x636e;" ID="ID_308208206" CREATED="1556553815914" MODIFIED="1556553863275">
 <node TEXT="&#x6309;&#x4e00;&#x5b9a;&#x7684;&#x884c;&#x6570;" ID="ID_1434015425" CREATED="1556553838951" MODIFIED="1556553844429"/>
 <node TEXT="&#x6309;&#x6bd4;&#x4f8b;" ID="ID_1597174588" CREATED="1556553844688" MODIFIED="1556553856175"/>
 </node>
-<node TEXT="numpy.random.randint(start, end, num)" ID="ID_801515717" CREATED="1556553871619" MODIFIED="1556553892464"/>
+<node TEXT="s = numpy.random.randint(start, end, num)" ID="ID_801515717" CREATED="1556553871619" MODIFIED="1556848877786"/>
 <node TEXT="&#x53c2;&#x6570;" ID="ID_1739070405" CREATED="1556553895639" MODIFIED="1556553898434">
 <node TEXT="start" ID="ID_1748353947" CREATED="1556553898587" MODIFIED="1556553901623">
 <node TEXT="&#x8303;&#x56f4;&#x7684;&#x5f00;&#x59cb;&#x503c;" ID="ID_306328689" CREATED="1556553901895" MODIFIED="1556553908982"/>
@@ -941,6 +968,37 @@
 </node>
 <node TEXT="&#x8fd4;&#x56de;" ID="ID_1029159151" CREATED="1556553944966" MODIFIED="1556553950419">
 <node TEXT="&#x884c;&#x6570;&#x7684;&#x7d22;&#x5f15;&#x503c;&#x5e8f;&#x5217;&#xff08;series&#xff09;" ID="ID_1831296487" CREATED="1556553950530" MODIFIED="1556553976092"/>
+<node TEXT="df = df[s]" ID="ID_460740735" CREATED="1556848879183" MODIFIED="1556848892801"/>
+</node>
+</node>
+<node TEXT="numpy.random.permutation" ID="ID_17684093" CREATED="1556849141479" MODIFIED="1556849155305">
+<node TEXT="&#x968f;&#x673a;&#x6392;&#x5e8f;&#x7684;&#x5e8f;&#x5217;" ID="ID_1535475059" CREATED="1556849155904" MODIFIED="1556849191842"/>
+<node TEXT=" take&#x51fd;&#x6570;" ID="ID_320375723" CREATED="1556849762994" MODIFIED="1556849764955">
+<node TEXT="&#x4f7f;&#x7528;count&#x4f5c;&#x4e3a;&#x53c2;&#x6570;" ID="ID_1725290005" CREATED="1556849192620" MODIFIED="1556849775949"/>
+<node TEXT=" &#x6253;&#x4e71;&#x4e86;df&#x7684;&#x884c;&#x987a;&#x5e8f;" ID="ID_1651905355" CREATED="1556849776309" MODIFIED="1556849779251"/>
+</node>
+<node ID="ID_271121877" CREATED="1556849583695" MODIFIED="1556849583695"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">count = np.random.permutation(<span style="color: #6897bb"><font color="#6897bb">5</font></span>)<br/>df = df.take(count)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x968f;&#x673a;&#x62bd;&#x6837;" ID="ID_1259207088" CREATED="1556849620721" MODIFIED="1556849632161">
+<node TEXT="&#x53c2;&#x6570;&#x7531;5&#x6362;&#x4e3a;df.size" ID="ID_1703293242" CREATED="1556849632365" MODIFIED="1556849688198"/>
+<node TEXT="df = df.take(count)[:5]" ID="ID_432166441" CREATED="1556849691796" MODIFIED="1556849710002"/>
+</node>
+</node>
+<node TEXT="simple&#x51fd;&#x6570;" ID="ID_1217087297" CREATED="1556851636183" MODIFIED="1556851650082">
+<node TEXT="df.sample(n, replace=True)" ID="ID_694834639" CREATED="1556851650217" MODIFIED="1556851683143"/>
+<node TEXT="n &#x62bd;&#x53d6;&#x7684;&#x884c;&#x6570;" ID="ID_220533843" CREATED="1556851683662" MODIFIED="1556851700176"/>
+<node TEXT=" replace=True &#x53ef;&#x91cd;&#x8986;&#x62bd;&#x53d6;" ID="ID_672363641" CREATED="1556851700369" MODIFIED="1556851723193"/>
 </node>
 </node>
 <node TEXT="&#x8bb0;&#x5f55;&#x5408;&#x5e76;" ID="ID_983097889" CREATED="1556554044125" MODIFIED="1556554050340">
@@ -1017,9 +1075,19 @@
 </node>
 </node>
 <node TEXT="&#x53f7;&#x7801;&#x4e0e;&#x6708;&#x6d88;&#x8d39;&#x5206;&#x7ec4;" ID="ID_1769686786" CREATED="1556555499920" MODIFIED="1556555514502">
-<node TEXT="bins = [min(df.cost)-1, 20, 40, 60, 80, 100, max(df.cost)+1]" ID="ID_1676877935" CREATED="1556555514799" MODIFIED="1556555562251"/>
-<node TEXT="labels = [&apos;&lt;20&apos;, &apos;20-40&apos;, &apos;40-60&apos;, &apos;60-80&apos;, &apos;&gt;100&apos;]" ID="ID_703253328" CREATED="1556555573002" MODIFIED="1556555647800"/>
-<node TEXT="pandas.cut(df.cost, bins, right=False, labels=labels)" ID="ID_199565235" CREATED="1556555654212" MODIFIED="1556555683666"/>
+<node ID="ID_1850668741" CREATED="1556852743921" MODIFIED="1556852743921"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">bins = [<span style="color: #8888c6"><font color="#8888c6">min</font></span>(df.cost)-<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">40</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">60</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">80</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">100</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #8888c6"><font color="#8888c6">max</font></span>(df.cost)+<span style="color: #6897bb"><font color="#6897bb">1</font></span>]<br/>labels = [<span style="color: #6a8759"><font color="#6a8759">'&lt;20'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'20-40'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'40-60'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'60-80'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'&gt;100'</font></span>]<br/>pandas.cut(df.cost<span style="color: #cc7832"><font color="#cc7832">, </font></span>bins<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">right</font></span>=<span style="color: #cc7832"><font color="#cc7832">False, </font></span><span style="color: #aa4926"><font color="#aa4926">labels</font></span>=labels)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x8f6c;&#x65e5;&#x671f;" ID="ID_1179093341" CREATED="1556555762003" MODIFIED="1556555910719">
@@ -1250,6 +1318,229 @@
 </html>
 
 </richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x5206;&#x6790;" POSITION="right" ID="ID_192032724" CREATED="1556789940646" MODIFIED="1556789945806">
+<edge COLOR="#7c0000"/>
+<node TEXT="&#x57fa;&#x672c;&#x7edf;&#x8ba1;&#x5206;&#x6790;" ID="ID_8817550" CREATED="1556789945956" MODIFIED="1556789951818">
+<node TEXT="&#x53c8;&#x79f0;&#x63cf;&#x8ff0;&#x6027;&#x7edf;&#x8ba1;&#x5206;&#x6790;" ID="ID_56594726" CREATED="1556789987607" MODIFIED="1556789999397"/>
+<node TEXT="&#x4e00;&#x822c;&#x7edf;&#x8ba1;&#x67d0;&#x4e2a;&#x53d8;&#x91cf;&#x7684;&#x503c;" ID="ID_1232230281" CREATED="1556789963778" MODIFIED="1556789987250">
+<node TEXT="&#x6700;&#x5c0f;&#x503c;" ID="ID_1395751869" CREATED="1556790002402" MODIFIED="1556790006377"/>
+<node TEXT="&#x7b2c;&#x4e00;&#x56db;&#x5206;&#x4f4d;&#x503c;" ID="ID_1198098469" CREATED="1556790013246" MODIFIED="1556790026063"/>
+<node TEXT="&#x4e2d;&#x503c;" ID="ID_391288541" CREATED="1556790026263" MODIFIED="1556790028546"/>
+<node TEXT="&#x7b2c;&#x4e09;&#x56db;&#x5206;&#x4f4d;&#x503c;" ID="ID_1028104662" CREATED="1556790028792" MODIFIED="1556790036278"/>
+<node TEXT="&#x6700;&#x5927;&#x503c;" ID="ID_448286449" CREATED="1556790036548" MODIFIED="1556790039201"/>
+</node>
+<node TEXT="describe()&#x51fd;&#x6570;" ID="ID_824000485" CREATED="1556790093946" MODIFIED="1556790107148">
+<node TEXT="&#x76f4;&#x63a5;&#x7b97;&#x51fa;&#x67d0;&#x4e00;&#x5217;&#x7684;&#x591a;&#x4e2a;&#x6307;&#x6807;" ID="ID_1774834036" CREATED="1556790108854" MODIFIED="1556790277337"/>
+<node TEXT="df.score.describe()" ID="ID_1430207310" CREATED="1556790247855" MODIFIED="1556790260400"/>
+<node TEXT="&#x5e38;&#x7528;&#x6307;&#x6807;" ID="ID_1884532381" CREATED="1556790046932" MODIFIED="1556790052047">
+<node TEXT="&#x8ba1;&#x6570;" ID="ID_430724579" CREATED="1556790052364" MODIFIED="1556790054692">
+<node TEXT="size" ID="ID_1674119568" CREATED="1556790119755" MODIFIED="1556790121681"/>
+</node>
+<node TEXT="&#x6c42;&#x548c;" ID="ID_1598590560" CREATED="1556790054883" MODIFIED="1556790056700">
+<node TEXT="sum" ID="ID_575637905" CREATED="1556790122741" MODIFIED="1556790124208"/>
+</node>
+<node TEXT="&#x5e73;&#x5747;&#x503c;" ID="ID_1360982261" CREATED="1556790056888" MODIFIED="1556790060654">
+<node TEXT="mean" ID="ID_732827808" CREATED="1556790125276" MODIFIED="1556790127678"/>
+</node>
+<node TEXT="&#x65b9;&#x5dee;" ID="ID_422332829" CREATED="1556790060834" MODIFIED="1556790062571">
+<node TEXT="var" ID="ID_669614331" CREATED="1556790129127" MODIFIED="1556790132499"/>
+</node>
+<node TEXT="&#x6807;&#x51c6;&#x5dee;" ID="ID_440788562" CREATED="1556790062792" MODIFIED="1556790067422">
+<node TEXT="std" ID="ID_744097756" CREATED="1556790133638" MODIFIED="1556790136045"/>
+</node>
+</node>
+<node TEXT="&#x6c42;&#x5355;&#x4e2a;&#x6307;&#x6807;" ID="ID_106793773" CREATED="1556790261543" MODIFIED="1556790269520">
+<node TEXT="df.score.size" ID="ID_286222555" CREATED="1556790278121" MODIFIED="1556790284690"/>
+<node TEXT="df.score.mean" ID="ID_1912175973" CREATED="1556790284981" MODIFIED="1556790293468"/>
+<node TEXT="&#x6709;&#x5f02;&#x5e38;&#x5219;&#x52a0;&#x4e0a;&#x62ec;&#x53f7;" ID="ID_1522695915" CREATED="1556790329743" MODIFIED="1556790349094">
+<node TEXT="df.score.sum()" ID="ID_241127381" CREATED="1556790349333" MODIFIED="1556790356331"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x5206;&#x7ec4;&#x5206;&#x6790;" ID="ID_989446406" CREATED="1556790367074" MODIFIED="1556790370785">
+<node TEXT="&#x6839;&#x636e;&#x5206;&#x7ec4;&#x5b57;&#x6bb5;&#xff0c;&#x5c06;&#x5206;&#x6790;&#x5bf9;&#x8c61;&#x5212;&#x5206;&#x591a;&#x7ec4;&#xff0c;&#x4ee5;&#x8fdb;&#x884c;&#x5404;&#x7ec4;&#x4e4b;&#x95f4;&#x7684;&#x5dee;&#x5f02;&#x6027;" ID="ID_941469642" CREATED="1556790389792" MODIFIED="1556790464305"/>
+<node TEXT="groupby()&#x51fd;&#x6570;" ID="ID_738600856" CREATED="1556790492030" MODIFIED="1556790506680">
+<node TEXT="groupby(by=[&#x5206;&#x7ec4;&#x5217;1, &#x5206;&#x7ec4;&#x5217;2, ...]) \&#xa; [&#x7edf;&#x8ba1;&#x5217;1, &#x7edf;&#x8ba1;&#x5217;2, ...] \&#xa;.agg({&#x7edf;&#x8ba1;&#x5217;&#x522b;&#x540d;1: &#x7edf;&#x8ba1;&#x51fd;&#x6570;1, &#x7edf;&#x8ba1;&#x5217;&#x522b;&#x540d;2: &#x7edf;&#x8ba1;&#x51fd;&#x6570;2, ...})" ID="ID_975020114" CREATED="1556790506869" MODIFIED="1556790631813"/>
+<node TEXT="&#x53c2;&#x6570;" ID="ID_1965752577" CREATED="1556790633760" MODIFIED="1556790639000">
+<node TEXT="by" ID="ID_660922768" CREATED="1556790639182" MODIFIED="1556790641675">
+<node TEXT="&#x7528;&#x4e8e;&#x5206;&#x7ec4;&#x7684;&#x5217;" ID="ID_1886043764" CREATED="1556790642699" MODIFIED="1556790647688"/>
+</node>
+<node TEXT="[]&#x4e2d;&#x62ec;&#x53f7;" ID="ID_322885300" CREATED="1556790648605" MODIFIED="1556790653804">
+<node TEXT="&#x7528;&#x4e8e;&#x7edf;&#x8ba1;&#x7684;&#x5217;" ID="ID_1760915477" CREATED="1556790654004" MODIFIED="1556790660349"/>
+</node>
+<node TEXT="agg" ID="ID_777491268" CREATED="1556790661232" MODIFIED="1556790663188">
+<node TEXT="&#x7edf;&#x8ba1;&#x522b;&#x540d;&#x663e;&#x793a;&#x7edf;&#x8ba1;&#x503c;&#x7684;&#x540d;&#x79f0;" ID="ID_560195597" CREATED="1556790664197" MODIFIED="1556790690857"/>
+<node TEXT="&#x7edf;&#x8ba1;&#x51fd;&#x6570;&#x7528;&#x4e8e;&#x7edf;&#x8ba1;&#x6570;&#x636e;" ID="ID_1420970291" CREATED="1556790691129" MODIFIED="1556790704421"/>
+<node TEXT="&#xff08;&#x5c06;&#x5728;&#x672a;&#x6765;&#x88ab;&#x79fb;&#x9664;&#xff09;" ID="ID_557720625" CREATED="1556791491927" MODIFIED="1556791506108"/>
+</node>
+</node>
+<node TEXT="&#x5e38;&#x7528;&#x6307;&#x6807;&#xff08;&#x7edf;&#x8ba1;&#x51fd;&#x6570;&#xff09;" ID="ID_1930812723" CREATED="1556790464777" MODIFIED="1556790731101">
+<node TEXT="&#x8ba1;&#x6570;" ID="ID_110358244" CREATED="1556790472609" MODIFIED="1556790474363">
+<node TEXT="size" ID="ID_144876731" CREATED="1556790732613" MODIFIED="1556790735204"/>
+</node>
+<node TEXT="&#x6c42;&#x548c;" ID="ID_1233917952" CREATED="1556790474594" MODIFIED="1556790476436">
+<node TEXT="sum" ID="ID_1841995962" CREATED="1556790736209" MODIFIED="1556790737863"/>
+</node>
+<node TEXT="&#x5e73;&#x5747;&#x503c;" ID="ID_784662399" CREATED="1556790476635" MODIFIED="1556790482201">
+<node TEXT="mean" ID="ID_1243051558" CREATED="1556790738828" MODIFIED="1556790740999"/>
+</node>
+</node>
+<node TEXT="reset_index()" ID="ID_82901833" CREATED="1556791072924" MODIFIED="1556791085004"/>
+<node TEXT="&#x4f8b;&#x5b50;" ID="ID_677271461" CREATED="1556790760949" MODIFIED="1556790763290">
+<node TEXT="&#x5bf9; d1, d2&#x5206;&#x7ec4;&#xff0c;&#x5bf9;&quot;&#x6708;&#x6d88;&#x8d39;&quot; &#x8fdb;&#x884c;&#x6c42;&#x548c;&#x7edf;&#x8ba1;" ID="ID_1941334294" CREATED="1556790890453" MODIFIED="1556790930116"/>
+<node ID="ID_60753830" CREATED="1556790796846" MODIFIED="1556790806642"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">d1 = <span style="color: #6a8759"><font color="#6a8759">'&#25163;&#26426;&#21697;&#29260;'<br/></font></span>d2 = <span style="color: #6a8759"><font color="#6a8759">'&#36890;&#20449;&#21697;&#29260;'</font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span></font>gb = df.groupby(<span style="color: #aa4926"><font color="#aa4926">by</font></span>=[d1<span style="color: #cc7832"><font color="#cc7832">, </font></span>d2])[<span style="color: #6a8759"><font color="#6a8759">'&#26376;&#28040;&#36153;&#65288;&#20803;&#65289;'</font></span>].agg({v: np.sum})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x5206;&#x5e03;&#x5206;&#x6790;" ID="ID_935606025" CREATED="1556791099062" MODIFIED="1556791106157">
+<node TEXT="&#x5c06;&#x5b9a;&#x91cf;&#x6570;&#x636e;&#x8fdb;&#x884c;&#x7b49;&#x8ddd;&#x6216;&#x4e0d;&#x7b49;&#x8ddd;&#x5206;&#x7ec4;&#xff0c;&#x7814;&#x7a76;&#x5404;&#x7ec4;&#x5206;&#x5e03;&#x7684;&#x89c4;&#x5f8b;" ID="ID_1647766029" CREATED="1556791106639" MODIFIED="1556791163028"/>
+<node TEXT="pandas.cut()&#x51fd;&#x6570;" ID="ID_670331862" CREATED="1556791167832" MODIFIED="1556791339845">
+<node TEXT="def cut(x, bins, right=True, labels=None)" ID="ID_392415926" CREATED="1556791340111" MODIFIED="1556791651189"/>
+<node TEXT="&#x53c2;&#x6570;" ID="ID_897354050" CREATED="1556791652704" MODIFIED="1556791655028">
+<node TEXT="x" ID="ID_167562472" CREATED="1556791655237" MODIFIED="1556791657431">
+<node TEXT="&#x5355;&#x7ef4;&#x6570;&#x7ec4;" ID="ID_1472388730" CREATED="1556791657570" MODIFIED="1556791664996"/>
+<node TEXT="&#x5982; df.score" ID="ID_1153242215" CREATED="1556791666045" MODIFIED="1556791684243"/>
+</node>
+<node TEXT="bins" ID="ID_1696440322" CREATED="1556791689277" MODIFIED="1556791694859">
+<node TEXT="[int, ...]" ID="ID_1355205815" CREATED="1556791752592" MODIFIED="1556791757903"/>
+<node TEXT="&#x5b9a;&#x4e49;&#x8fb9;&#x754c;" ID="ID_220779200" CREATED="1556791695480" MODIFIED="1556791748666"/>
+</node>
+<node TEXT="lables" ID="ID_430539367" CREATED="1556791767036" MODIFIED="1556791771100">
+<node TEXT="&#x8fd4;&#x56de;&#x7ed3;&#x679c;&#x7684;&#x6807;&#x7b7e;" ID="ID_1996935626" CREATED="1556791797811" MODIFIED="1556791819816"/>
+<node TEXT="&#x9700;&#x8981;bins&#x957f;&#x5ea6;&#x4e00;&#x6837;" ID="ID_343191889" CREATED="1556791805666" MODIFIED="1556791813892"/>
+</node>
+</node>
+</node>
+<node ID="ID_28790316" CREATED="1556791862084" MODIFIED="1556791862084"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">bins = [<span style="color: #8888c6"><font color="#8888c6">min</font></span>(data.&#24180;&#40836;) - <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">20</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">30</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">40</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #8888c6"><font color="#8888c6">max</font></span>(data.&#24180;&#40836;) + <span style="color: #6897bb"><font color="#6897bb">1</font></span>]<br/>labels = [<span style="color: #6a8759"><font color="#6a8759">'20&#23681;&#20197;&#21450;&#20197;&#19979;'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'21&#23681;&#21040;30&#23681;'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'31&#23681;&#21040;40&#23681;'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'41&#23681;&#20197;&#19978;'</font></span>]<br/>data[<span style="color: #6a8759"><font color="#6a8759">'&#24180;&#40836;&#20998;&#23618;'</font></span>] = pandas.cut(data.&#24180;&#40836;<span style="color: #cc7832"><font color="#cc7832">, </font></span>bins<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">labels</font></span>=labels)<br/>gb = data.groupby(<span style="color: #aa4926"><font color="#aa4926">by</font></span>=[<span style="color: #6a8759"><font color="#6a8759">'&#24180;&#40836;&#20998;&#23618;'</font></span>])[<span style="color: #6a8759"><font color="#6a8759">'&#24180;&#40836;'</font></span>].agg({<span style="color: #6a8759"><font color="#6a8759">'&#20154;&#25968;'</font></span>: numpy.size})</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x4ea4;&#x53c9;&#x5206;&#x6790;" ID="ID_1655096852" CREATED="1556791985416" MODIFIED="1556791992152">
+<node TEXT="&#x6982;&#x5ff5;" ID="ID_1385355702" CREATED="1556792063669" MODIFIED="1556792068786">
+<node TEXT="&#x5206;&#x6790;&#x4e24;&#x4e2a;&#x4ee5;&#x4e0a;&#x5206;&#x7ec4;&#x53d8;&#x91cf;&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;" ID="ID_876980528" CREATED="1556792001431" MODIFIED="1556792027595"/>
+<node TEXT="&#x4ee5;&#x4ea4;&#x53c9;&#x8868;&#x7684;&#x5f62;&#x5f0f;&#x8fdb;&#x884c;&#x53d8;&#x91cf;&#x95f4;&#x5173;&#x7cfb;&#x7684;&#x5bf9;&#x6bd4;&#x5206;&#x6790;" ID="ID_483856455" CREATED="1556792036443" MODIFIED="1556792063327"/>
+</node>
+<node TEXT="&#x7c7b;&#x578b;" ID="ID_1965177501" CREATED="1556792086532" MODIFIED="1556792088681">
+<node TEXT="&#x5b9a;&#x91cf;&#x3001;&#x5b9a;&#x91cf;&#x5206;&#x7ec4;&#x4ea4;&#x53c9;" ID="ID_1432923400" CREATED="1556792088829" MODIFIED="1556792099093"/>
+<node TEXT="&#x5b9a;&#x91cf;&#x3001;&#x5b9a;&#x6027;&#x5206;&#x7ec4;&#x4ea4;&#x53c9;" ID="ID_200884602" CREATED="1556792099577" MODIFIED="1556792108975"/>
+<node TEXT="&#x5b9a;&#x6027;&#x3001;&#x5b9a;&#x6027;&#x5206;&#x7ec4;&#x4ea4;&#x53c9;" ID="ID_35035746" CREATED="1556792109191" MODIFIED="1556792119168"/>
+</node>
+<node TEXT="pivot_table&#x51fd;&#x6570;" ID="ID_1869394936" CREATED="1556792146580" MODIFIED="1556792157298">
+<node TEXT="pivot_table(values, index, columns, aggfunc, fil_value)" ID="ID_624225808" CREATED="1556792157472" MODIFIED="1556792185425"/>
+<node TEXT="&#x53c2;&#x6570;" ID="ID_249974366" CREATED="1556792185690" MODIFIED="1556792188481">
+<node TEXT="values" ID="ID_36069858" CREATED="1556792188686" MODIFIED="1556792191699">
+<node TEXT="&#x6570;&#x636e;&#x900f;&#x89c6;&#x8868;&#x4e2d;&#x7684;&#x503c;" ID="ID_725157997" CREATED="1556792207502" MODIFIED="1556792215179"/>
+</node>
+<node TEXT="index" ID="ID_1700369293" CREATED="1556792191877" MODIFIED="1556792194228">
+<node TEXT="&#x6570;&#x636e;&#x900f;&#x89c6;&#x8868;&#x4e2d;&#x7684;&#x884c;" ID="ID_1338503496" CREATED="1556792216500" MODIFIED="1556792222753"/>
+</node>
+<node TEXT="columns" ID="ID_767180920" CREATED="1556792194468" MODIFIED="1556792196643">
+<node TEXT="&#x6570;&#x636e;&#x900f;&#x89c6;&#x8868;&#x4e2d;&#x7684;&#x5217;" ID="ID_580223084" CREATED="1556792223609" MODIFIED="1556792234379"/>
+</node>
+<node TEXT="aggfunc" ID="ID_1525912153" CREATED="1556792196826" MODIFIED="1556792200747">
+<node TEXT="&#x7edf;&#x8ba1;&#x51fd;&#x6570;" ID="ID_1740464174" CREATED="1556792235536" MODIFIED="1556792240191"/>
+</node>
+<node TEXT="fill_value" ID="ID_1806964205" CREATED="1556792200955" MODIFIED="1556792205796">
+<node TEXT="NA&#x503c;&#x7684;&#x7edf;&#x4e00;&#x66ff;&#x4ee3;" ID="ID_503453536" CREATED="1556792241018" MODIFIED="1556792250559"/>
+</node>
+</node>
+</node>
+<node ID="ID_569113256" CREATED="1556792446260" MODIFIED="1556792446260"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">r1 = df.pivot_table(<br/>    <span style="color: #aa4926"><font color="#aa4926">values</font></span>=[<span style="color: #6a8759"><font color="#6a8759">'&#24180;&#40836;'</font></span>]<span style="color: #cc7832"><font color="#cc7832">, <br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #aa4926"><font color="#aa4926">index</font></span>=[<span style="color: #6a8759"><font color="#6a8759">'&#24180;&#40836;&#20998;&#23618;'</font></span>]<span style="color: #cc7832"><font color="#cc7832">, <br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #aa4926"><font color="#aa4926">columns</font></span>=[<span style="color: #6a8759"><font color="#6a8759">'&#24615;&#21035;'</font></span>]<span style="color: #cc7832"><font color="#cc7832">, <br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #aa4926"><font color="#aa4926">aggfunc</font></span>=[numpy.size<span style="color: #cc7832"><font color="#cc7832">, </font></span>numpy.mean]<br/>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7ed3;&#x6784;&#x5206;&#x6790;" ID="ID_1599643401" CREATED="1556792476045" MODIFIED="1556792481782">
+<node TEXT="&#x5728;&#x5206;&#x7ec4;&#x7684;&#x57fa;&#x7840;&#x4e0a;&#xff0c;&#x8ba1;&#x7b97;&#x5404;&#x7ec4;&#x6210;&#x90e8;&#x5206;&#x6240;&#x5360;&#x7684;&#x6bd4;&#x91cd;&#x3002;&#xff08;&#x5982;&#x8d44;&#x4ea7;&#x5360;&#x6709;&#x7387;&#xff09;" ID="ID_532950458" CREATED="1556792482108" MODIFIED="1556792541491"/>
+<node TEXT="&#x6570;&#x636e;&#x6846;&#x8fd0;&#x7b97;" ID="ID_300549477" CREATED="1556792543119" MODIFIED="1556792581592">
+<node TEXT="&#x5916;&#x8fd0;&#x7b97;" ID="ID_520241603" CREATED="1556792581799" MODIFIED="1556792587467">
+<node TEXT="&#x6570;&#x636e;&#x6846;&#x4e4b;&#x95f4;&#x7684;&#x8fd0;&#x7b97;" ID="ID_196732104" CREATED="1556792592322" MODIFIED="1556792600277"/>
+<node TEXT="&#x51fd;&#x6570;" ID="ID_377917640" CREATED="1556792617042" MODIFIED="1556792619832">
+<node TEXT="add &#x52a0;" ID="ID_1911693758" CREATED="1556792619987" MODIFIED="1556792661088"/>
+<node TEXT="sub &#x51cf;" ID="ID_1612907392" CREATED="1556792621955" MODIFIED="1556792664903"/>
+<node TEXT="multiply &#x4e58;" ID="ID_1459686158" CREATED="1556792623753" MODIFIED="1556792674955"/>
+<node TEXT="div &#x9664;" ID="ID_1948577546" CREATED="1556792628057" MODIFIED="1556792678531"/>
+</node>
+</node>
+<node TEXT="&#x5185;&#x8fd0;&#x7b97;" ID="ID_1590684998" CREATED="1556792588816" MODIFIED="1556792591250">
+<node TEXT="&#x6570;&#x636e;&#x6846;&#x5185;&#x7684;&#x8fd0;&#x7b97;" ID="ID_769663100" CREATED="1556792601080" MODIFIED="1556792611758"/>
+<node TEXT="&#x51fd;&#x6570;" ID="ID_1343601925" CREATED="1556792632240" MODIFIED="1556792634226">
+<node TEXT="sum &#x6c42;&#x548c;" ID="ID_8165868" CREATED="1556792634473" MODIFIED="1556792683044"/>
+<node TEXT="mean &#x5747;&#x503c;" ID="ID_1483936762" CREATED="1556792636869" MODIFIED="1556792687930"/>
+<node TEXT="var &#x65b9;&#x5dee;" ID="ID_81533255" CREATED="1556792639609" MODIFIED="1556792692749"/>
+<node TEXT="sd &#x6807;&#x51c6;&#x5dee;" ID="ID_394365381" CREATED="1556792641094" MODIFIED="1556792697414"/>
+</node>
+</node>
+<node TEXT="axis" ID="ID_843054086" CREATED="1556792715360" MODIFIED="1556792719338">
+<node TEXT="0" OBJECT="java.lang.Long|0" ID="ID_285656186" CREATED="1556792719497" MODIFIED="1556792721874">
+<node TEXT="&#x6307;&#x5b9a;&#x6309;&#x884c;&#x8fd0;&#x7b97;" ID="ID_1991734077" CREATED="1556792724323" MODIFIED="1556792885749"/>
+</node>
+<node TEXT="1" OBJECT="java.lang.Long|1" ID="ID_1485426948" CREATED="1556792722176" MODIFIED="1556792723387">
+<node TEXT="&#x6307;&#x5b9a;&#x6309;&#x5217;&#x8fd0;&#x7b97;" ID="ID_874918425" CREATED="1556792732319" MODIFIED="1556792889120"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x76f8;&#x5173;&#x5206;&#x6790;" ID="ID_737395910" CREATED="1556793044222" MODIFIED="1556793047325">
+<node TEXT="&#x7814;&#x7a76;&#x5404;&#x53d8;&#x91cf;&#x4e4b;&#x95f4;&#x7684;&#x76f8;&#x5173;&#x6027;" ID="ID_1507129464" CREATED="1556793057124" MODIFIED="1556793139674"/>
+<node TEXT="&#x8eab;&#x9ad8;&#x4e0e;&#x4f53;&#x91cd;" ID="ID_1367263021" CREATED="1556793290325" MODIFIED="1556793315985"/>
+<node TEXT=" &#x5b66;&#x5386;&#x4e0e;&#x5de5;&#x8d44;" ID="ID_856769778" CREATED="1556793295400" MODIFIED="1556793313073"/>
+<node TEXT="&#x76f8;&#x5173;&#x7cfb;&#x6570;" ID="ID_94254770" CREATED="1556793154029" MODIFIED="1556793158310">
+<node TEXT="&#x7528;&#x4e8e;&#x63cf;&#x8ff0;&#x5b9a;&#x91cf;&#x53d8;&#x91cf;&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;" ID="ID_207923522" CREATED="1556793158467" MODIFIED="1556793172614"/>
+<node TEXT="&#x76f8;&#x5173;&#x7cfb;&#x6570;r" ID="ID_931242609" CREATED="1556793174377" MODIFIED="1556793186401">
+<node TEXT="0&lt;=|r|&lt;0.3" ID="ID_135296752" CREATED="1556793186618" MODIFIED="1556793206873">
+<node TEXT="&#x4f4e;&#x5ea6;&#x76f8;&#x5173;" ID="ID_1951199233" CREATED="1556793244588" MODIFIED="1556793251244"/>
+</node>
+<node TEXT="0.3&lt;=|r|&lt;0.8" ID="ID_1745771314" CREATED="1556793207831" MODIFIED="1556793222510">
+<node TEXT="&#x4e2d;&#x5ea6;&#x76f8;&#x5173;" ID="ID_315243637" CREATED="1556793252221" MODIFIED="1556793255752"/>
+</node>
+<node TEXT="0.8&lt;=|r|&lt;=1" ID="ID_392867570" CREATED="1556793223370" MODIFIED="1556793237754">
+<node TEXT="&#x9ad8;&#x5ea6;&#x76f8;&#x5173;" ID="ID_69921879" CREATED="1556793256749" MODIFIED="1556793260217"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x51fd;&#x6570;" ID="ID_1447252031" CREATED="1556793324967" MODIFIED="1556793329317">
+<node TEXT="DataFrame.corr()" ID="ID_207465359" CREATED="1556793329465" MODIFIED="1556793337057">
+<node TEXT="&#x8ba1;&#x7b97;&#x6bcf;&#x4e2a;&#x5217;&#x4e24;&#x4e24;&#x4e4b;&#x95f4;&#x7684;&#x76f8;&#x4f3c;&#x5ea6;" ID="ID_794882451" CREATED="1556793364156" MODIFIED="1556793379377"/>
+</node>
+<node TEXT="Serise.corr(other)" ID="ID_1601163145" CREATED="1556793337255" MODIFIED="1556793351077">
+<node TEXT="&#x53ea;&#x7b97;&#x8be5;&#x5e8f;&#x5217;&#x4e0e;&#x4f20;&#x5165;&#x5e8f;&#x5217;&#x4e4b;&#x95f4;&#x7684;&#x76f8;&#x4f3c;&#x5ea6;" ID="ID_1614102661" CREATED="1556793380647" MODIFIED="1556793409724"/>
+</node>
 </node>
 </node>
 </node>
