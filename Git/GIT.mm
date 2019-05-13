@@ -3,7 +3,7 @@
 <node TEXT="GIT" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537447501902" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="89" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="90" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x6d41;&#x7a0b;" POSITION="right" ID="ID_1134793381" CREATED="1537447530207" MODIFIED="1537447549970">
 <edge COLOR="#007c00"/>
@@ -238,7 +238,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x64cd;&#x4f5c;" FOLDED="true" POSITION="right" ID="ID_1448848816" CREATED="1537449171636" MODIFIED="1537449173878">
+<node TEXT="&#x57fa;&#x672c;&#x64cd;&#x4f5c;" FOLDED="true" POSITION="right" ID="ID_1448848816" CREATED="1537449171636" MODIFIED="1557716483460">
 <edge COLOR="#7c7c00"/>
 <node TEXT=" &#x521b;&#x5efa;&#x7248;&#x672c;&#x5e93;" ID="ID_1135753393" CREATED="1537449193502" MODIFIED="1537449204430">
 <node TEXT="&#x4ed3;&#x5e93;&#xff08;repository&#xff09;" ID="ID_791732187" CREATED="1537449777583" MODIFIED="1537451309402">
@@ -353,7 +353,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -497,7 +496,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT=" type&#x7528;&#x4e8e;&#x8bf4;&#x660e; commit &#x7684;&#x7c7b;&#x522b;" ID="ID_1539010104" CREATED="1553843232280" MODIFIED="1553843233781"/>
 <node ID="ID_1318858100" CREATED="1553843250230" MODIFIED="1553843250230"><richcontent TYPE="NODE">
@@ -512,7 +510,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1121996955" CREATED="1553843250230" MODIFIED="1553843250230"><richcontent TYPE="NODE">
@@ -527,7 +524,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1787776366" CREATED="1553843250234" MODIFIED="1553843250234"><richcontent TYPE="NODE">
@@ -542,7 +538,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_611172399" CREATED="1553843250236" MODIFIED="1553843250236"><richcontent TYPE="NODE">
@@ -557,7 +552,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_875118183" CREATED="1553843250240" MODIFIED="1553843250240"><richcontent TYPE="NODE">
@@ -572,7 +566,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1690642720" CREATED="1553843250246" MODIFIED="1553843250246"><richcontent TYPE="NODE">
@@ -587,7 +580,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_895372603" CREATED="1553843250249" MODIFIED="1553843250249"><richcontent TYPE="NODE">
@@ -602,7 +594,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" revert: &#x5f53;&#x524d; commit &#x7528;&#x4e8e;&#x64a4;&#x9500;&#x4ee5;&#x524d;&#x7684; commit" ID="ID_938484383" CREATED="1553843488118" MODIFIED="1553843501369"/>
@@ -619,7 +610,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT=" scope&#x7528;&#x4e8e;&#x8bf4;&#x660e; commit &#x5f71;&#x54cd;&#x7684;&#x8303;&#x56f4;" ID="ID_1194043402" CREATED="1553843269723" MODIFIED="1553843270846"/>
 <node TEXT=" &#x6570;&#x636e;&#x5c42;&#x3001;&#x63a7;&#x5236;&#x5c42;&#x3001;&#x89c6;&#x56fe;&#x5c42;&#x7b49;&#x7b49;&#xff0c;&#x89c6;&#x9879;&#x76ee;&#x4e0d;&#x540c;&#x800c;&#x4e0d;&#x540c;" ID="ID_465177076" CREATED="1553843277940" MODIFIED="1553843279189"/>
@@ -636,7 +626,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT=" commit &#x76ee;&#x7684;&#x7684;&#x7b80;&#x77ed;&#x63cf;&#x8ff0;&#xff0c;&#x4e0d;&#x8d85;&#x8fc7;50&#x4e2a;&#x5b57;&#x7b26;" ID="ID_448353675" CREATED="1553843293302" MODIFIED="1553843294446"/>
 <node TEXT=" &#x4ee5;&#x52a8;&#x8bcd;&#x5f00;&#x5934;&#xff0c;&#x4f7f;&#x7528;&#x7b2c;&#x4e00;&#x4eba;&#x79f0;&#x73b0;&#x5728;&#x65f6;.&#xa;&#x6bd4;&#x5982;change&#xff0c;&#x800c;&#x4e0d;&#x662f;changed&#x6216;changes" ID="ID_1576424048" CREATED="1553843299638" MODIFIED="1553843313176"/>
@@ -659,6 +648,55 @@
 </node>
 </node>
 <node TEXT=" Header &#x662f;&#x5fc5;&#x9700;&#x7684;&#xff0c;Body &#x548c; Footer &#x53ef;&#x4ee5;&#x7701;&#x7565;" ID="ID_639041011" CREATED="1553843181069" MODIFIED="1553843183040"/>
+</node>
+</node>
+<node TEXT="&#x5408;&#x5e76;&#x591a;&#x4e2a;commit" POSITION="right" ID="ID_1303356055" CREATED="1557716491594" MODIFIED="1557716741487">
+<edge COLOR="#0000ff"/>
+<node TEXT="git rebase" ID="ID_183105700" CREATED="1557717140247" MODIFIED="1557717144819">
+<node TEXT="git rebase -i [startpoint] [endpoint]" ID="ID_1736243127" CREATED="1557717118369" MODIFIED="1557717138170"/>
+<node TEXT="-i" ID="ID_1018364512" CREATED="1557717148616" MODIFIED="1557717205089">
+<node TEXT=" --interactive" ID="ID_1352873833" CREATED="1557717207159" MODIFIED="1557717210427"/>
+<node TEXT=" &#x5373;&#x5f39;&#x51fa;&#x4ea4;&#x4e92;&#x5f0f;&#x7684;&#x754c;&#x9762;&#x8ba9;&#x7528;&#x6237;&#x7f16;&#x8f91;&#x5b8c;&#x6210;&#x5408;&#x5e76;&#x64cd;&#x4f5c;" ID="ID_1236819576" CREATED="1557717199167" MODIFIED="1557717200738"/>
+</node>
+<node TEXT=" [startpoint]" ID="ID_1860484891" CREATED="1557717223105" MODIFIED="1557717224659">
+<node TEXT=" &#x5f00;&#x59cb;&#x5206;&#x652f;&#xff0c;&#x5f00;&#x533a;&#x95f4;&#xff0c;&#x4e0d;&#x542b;&#x5f53;&#x524d;commit-id" ID="ID_1849432777" CREATED="1557717238796" MODIFIED="1557717268563"/>
+</node>
+<node TEXT=" [endpoint]" ID="ID_1335086132" CREATED="1557717276712" MODIFIED="1557717277986">
+<node TEXT=" &#x533a;&#x95f4;&#x7684;&#x7ec8;&#x70b9;&#xff0c;&#x95ed;&#x533a;&#x95f4;" ID="ID_1542053623" CREATED="1557717319528" MODIFIED="1557717325779"/>
+<node TEXT=" &#x4e0d;&#x6307;&#x5b9a;[endpoint]&#xff0c;&#x5219;&#x9ed8;&#x8ba4;&#x662f;&#x5f53;&#x524d;&#x5206;&#x652f;HEAD&#x6240;&#x6307;&#x5411;&#x7684;commit" ID="ID_617914088" CREATED="1557717296688" MODIFIED="1557717318436"/>
+</node>
+<node TEXT="&#x6062;&#x590d;&#x5230;rebase&#x4e4b;&#x524d;&#x7684;&#x72b6;&#x6001;" ID="ID_122708640" CREATED="1557719530691" MODIFIED="1557719546058">
+<node TEXT=" git rebase --abort" ID="ID_1254324115" CREATED="1557719546407" MODIFIED="1557719551075"/>
+</node>
+</node>
+<node TEXT=" &#x4fee;&#x6539;&#x6700;&#x8fd1;&#x4e09;&#x6b21;&#x7684;&#x63d0;&#x4ea4;&#x8bf4;&#x660e;&#xff0c;&#x6216;&#x8005;&#x5176;&#x4e2d;&#x4efb;&#x610f;&#x4e00;&#x6b21;" ID="ID_1413535449" CREATED="1557718162273" MODIFIED="1557718163722">
+<node TEXT="rebase" ID="ID_445857025" CREATED="1557718233125" MODIFIED="1557718235669">
+<node TEXT="&#x547d;&#x4ee4;" ID="ID_915458803" CREATED="1557718241620" MODIFIED="1557718244818">
+<node TEXT=" git rebase -i 36224db" ID="ID_740831861" CREATED="1557717339201" MODIFIED="1557717341955">
+<node TEXT="36224db&#x4e3a;&#x7b2c;&#x56db;&#x4e2a;commit" ID="ID_1048441625" CREATED="1557718180798" MODIFIED="1557718195963"/>
+<node TEXT="36224db&#xff08;&#x4e0d;&#x542b;&#xff09;&#x4e4b;&#x540e;&#x81f3;&#x6700;&#x65b0;" ID="ID_799674022" CREATED="1557717344746" MODIFIED="1557717382188"/>
+</node>
+<node TEXT="git rebase -i HEAD~3" ID="ID_428388915" CREATED="1557718198634" MODIFIED="1557718208211"/>
+</node>
+<node TEXT="&#x5f39;&#x7a97;" ID="ID_330840723" CREATED="1557718249755" MODIFIED="1557718254768">
+<node TEXT="&#x547d;&#x4ee4;" ID="ID_1324751691" CREATED="1557719017610" MODIFIED="1557719020126">
+<node TEXT="p, pick &#x6b63;&#x5e38;&#x9009;&#x4e2d;" ID="ID_1893136331" CREATED="1557719046403" MODIFIED="1557719094356"/>
+<node TEXT="r, reword  &#x9009;&#x4e2d;&#xff0c;&#x5e76;&#x4e14;&#x4fee;&#x6539;&#x63d0;&#x4ea4;&#x4fe1;&#x606f;" ID="ID_1684455084" CREATED="1557719046404" MODIFIED="1557719089332"/>
+<node TEXT="e, edit &#x9009;&#x4e2d;&#xff0c;rebase&#x65f6;&#x4f1a;&#x6682;&#x505c;&#xff0c;&#x5141;&#x8bb8;&#x4f60;&#x4fee;&#x6539;&#x8fd9;&#x4e2a;commit" ID="ID_224307179" CREATED="1557719046408" MODIFIED="1557719104133"/>
+<node TEXT="s, squash &#x9009;&#x4e2d;&#xff0c;&#x4f1a;&#x5c06;&#x5f53;&#x524d;commit&#x4e0e;&#x4e0a;&#x4e00;&#x4e2a;commit&#x5408;&#x5e76;" ID="ID_269903635" CREATED="1557719046412" MODIFIED="1557719112906"/>
+<node TEXT="f, fixup &#x4e0e;squash&#x76f8;&#x540c;&#xff0c;&#x4f46;&#x4e0d;&#x4f1a;&#x4fdd;&#x5b58;&#x5f53;&#x524d;commit&#x7684;&#x63d0;&#x4ea4;&#x4fe1;&#x606f;" ID="ID_1676289686" CREATED="1557719046415" MODIFIED="1557719120556"/>
+<node TEXT="x, exec &#x6267;&#x884c;&#x5176;&#x4ed6;shell&#x547d;&#x4ee4;" ID="ID_656503754" CREATED="1557719046418" MODIFIED="1557719126995"/>
+</node>
+<node TEXT="&#x628a;&#x9700;&#x8981;&#x5408;&#x5e76;&#x7684;commit &#x524d;&#x9762;&#x7684;pick &#x6362;&#x6210; s" ID="ID_216910562" CREATED="1557719145136" MODIFIED="1557719168495"/>
+</node>
+</node>
+<node TEXT="reset" ID="ID_1173337409" CREATED="1557719237795" MODIFIED="1557719239979">
+<node TEXT=" &#x64a4;&#x9500;&#x8fc7;&#x53bb;3&#x4e2a;commit&#xff0c;&#x7136;&#x540e;&#x518d;&#x5efa;&#x4e00;&#x4e2a;&#x65b0;&#x7684;" ID="ID_1148394425" CREATED="1557719240471" MODIFIED="1557719244276"/>
+<node TEXT=" $ git reset HEAD~3&#xa;$ git add .&#xa;$ git commit -am &quot;Here&apos;s the bug fix that closes #28&quot;&#xa;$ git push --force" ID="ID_1786358484" CREATED="1557719250159" MODIFIED="1557719252930"/>
+</node>
+<node TEXT="&#x5f3a;&#x5236;&#x63a8;&#x9001;" ID="ID_717386424" CREATED="1557738481819" MODIFIED="1557738492040">
+<node TEXT=" git push --force origin dev" ID="ID_1173164382" CREATED="1557738497513" MODIFIED="1557738507584"/>
+</node>
 </node>
 </node>
 </node>

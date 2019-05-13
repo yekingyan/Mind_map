@@ -3,7 +3,7 @@
 <node TEXT="&#x5ed6;&#x96ea;&#x5cf0; python3" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537888489239" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -838,7 +838,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Student(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    <span style="color: #808080"><font color="#808080"># &#29992;tuple&#23450;&#20041;&#20801;&#35768;&#32465;&#23450;&#30340;&#23646;&#24615;&#21517;&#31216;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #b200b2"><font color="#b200b2">__slots__ </font></span>= (<span style="color: #a5c261"><font color="#a5c261">'name'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">'age'</font></span>) </pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x8bd5;&#x56fe;&#x7ed1;&#x5b9a;&#x672a;&#x5199;&#x5165;__slots__&#x4e2d;&#x7684;&#x5c5e;&#x6027;&#xff0c;&#x5c06;&#x5f97;&#x5230;AttributeError&#x7684;&#x9519;&#x8bef;" ID="ID_894830428" CREATED="1555405185449" MODIFIED="1555405210785"/>
@@ -910,7 +909,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Fib(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__init__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>.a<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.b = <span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1  </font></span><span style="color: #808080"><font color="#808080"># &#21021;&#22987;&#21270;&#20004;&#20010;&#35745;&#25968;&#22120;a&#65292;b<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__iter__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">self  </font></span><span style="color: #808080"><font color="#808080"># &#23454;&#20363;&#26412;&#36523;&#23601;&#26159;&#36845;&#20195;&#23545;&#35937;&#65292;&#25925;&#36820;&#22238;&#33258;&#24049;<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">__next__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>.a<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.b = <span style="color: #94558d"><font color="#94558d">self</font></span>.b<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.a + <span style="color: #94558d"><font color="#94558d">self</font></span>.b  <span style="color: #808080"><font color="#808080"># &#35745;&#31639;&#19979;&#19968;&#20010;&#20540;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #cc7832"><font color="#cc7832">if </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.a &gt; <span style="color: #6897bb"><font color="#6897bb">100000</font></span>:  <span style="color: #808080"><font color="#808080"># &#36864;&#20986;&#24490;&#29615;&#30340;&#26465;&#20214;<br/></font></span><font color="#808080"><span style="color: #808080">            </span></font><span style="color: #cc7832"><font color="#cc7832">raise </font></span><span style="color: #8888c6"><font color="#8888c6">StopIteration</font></span>()<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.a  <span style="color: #808080"><font color="#808080"># &#36820;&#22238;&#19979;&#19968;&#20010;&#20540;</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -926,7 +924,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Fib(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__getitem__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>n):<br/>        a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b = <span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1<br/></font></span><font color="#6897bb"><span style="color: #6897bb">        </span></font><span style="color: #cc7832"><font color="#cc7832">for </font></span>x <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #8888c6"><font color="#8888c6">range</font></span>(n):<br/>            a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b = b<span style="color: #cc7832"><font color="#cc7832">, </font></span>a + b<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span>a</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -983,7 +980,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">with </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.assertRaises(<span style="color: #8888c6"><font color="#8888c6">KeyError</font></span>):<br/>    <span style="color: #808080"><font color="#808080">value </font></span>= d[<span style="color: #a5c261"><font color="#a5c261">'empty'</font></span>]</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -998,7 +994,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">with </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.assertRaises(<span style="color: #8888c6"><font color="#8888c6">AttributeError</font></span>):<br/>    <span style="color: #808080"><font color="#808080">value </font></span>= d.empty</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1042,7 +1037,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">abs</font></span>(n):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    Function to get absolute value of number.<br/></span><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    Example:<br/></span><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; abs(1)<br/></span><span style="color: #629755; font-style: italic">    1<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; abs(-1)<br/></span><span style="color: #629755; font-style: italic">    1<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; abs(0)<br/></span><span style="color: #629755; font-style: italic">    0<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font><span style="color: #cc7832"><font color="#cc7832">return </font></span>n <span style="color: #cc7832"><font color="#cc7832">if </font></span>n &gt;= <span style="color: #6897bb"><font color="#6897bb">0 </font></span><span style="color: #cc7832"><font color="#cc7832">else </font></span>(-n)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1058,7 +1052,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Dict(<span style="color: #8888c6"><font color="#8888c6">dict</font></span>):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    Simple dict but also support access as x.y style.<br/></span><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d1 = Dict()<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d1['x'] = 100<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d1.x<br/></span><span style="color: #629755; font-style: italic">    100<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d1.y = 200<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d1['y']<br/></span><span style="color: #629755; font-style: italic">    200<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d2 = Dict(a=1, b=2, c='3')<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d2.c<br/></span><span style="color: #629755; font-style: italic">    '3'<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d2['empty']<br/></span><span style="color: #629755; font-style: italic">    Traceback (most recent call last):<br/></span><span style="color: #629755; font-style: italic">       ...<br/></span><span style="color: #629755; font-style: italic">    KeyError: 'empty'<br/></span><span style="color: #629755; font-style: italic">    &gt;&gt;&gt; d2.empty<br/></span><span style="color: #629755; font-style: italic">    Traceback (most recent call last):<br/></span><span style="color: #629755; font-style: italic">        ...<br/></span><span style="color: #629755; font-style: italic">    AttributeError: 'Dict' object has no attribute 'empty'<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    </span></i></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__init__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>**kw):<br/>        <span style="color: #8888c6"><font color="#8888c6">super</font></span>(Dict<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>).<span style="color: #b200b2"><font color="#b200b2">__init__</font></span>(**kw)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__getattr__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>key):<br/>        <span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>            <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>[key]<br/>        <span style="color: #cc7832"><font color="#cc7832">except </font></span><span style="color: #8888c6"><font color="#8888c6">KeyError</font></span>:<br/>            <span style="color: #cc7832"><font color="#cc7832">raise </font></span><span style="color: #8888c6"><font color="#8888c6">AttributeError</font></span>(<span style="color: #6a8759"><font color="#6a8759">r&quot;'Dict' object has no attribute '%s'&quot; </font></span>% key)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__setattr__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>key<span style="color: #cc7832"><font color="#cc7832">, </font></span>value):<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>[key] = value</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1073,6 +1066,292 @@
 </node>
 <node TEXT="&#x8fdb;&#x7a0b;&#x548c;&#x7ebf;&#x7a0b;" POSITION="right" ID="ID_357554149" CREATED="1555510031658" MODIFIED="1555510037661">
 <edge COLOR="#ff00ff"/>
+<node TEXT=" &#x5e76;&#x884c;" ID="ID_1063923465" CREATED="1557394011182" MODIFIED="1557394012762">
+<node TEXT=" &#x771f;&#x6b63;&#x7684;&#x5e76;&#x884c;&#x6267;&#x884c;&#x591a;&#x4efb;&#x52a1;&#x53ea;&#x80fd;&#x5728;&#x591a;&#x6838;CPU&#x4e0a;&#x5b9e;&#x73b0;" ID="ID_812426087" CREATED="1557394021713" MODIFIED="1557394022806"/>
+<node TEXT="&#x7531;&#x4e8e;&#x4efb;&#x52a1;&#x6570;&#x91cf;&#x8fdc;&#x8fdc;&#x591a;&#x4e8e;CPU&#x7684;&#x6838;&#x5fc3;&#x6570;&#x91cf;&#xff0c;&#x6240;&#x4ee5;&#xff0c;&#x64cd;&#x4f5c;&#x7cfb;&#x7edf;&#x4e5f;&#x4f1a;&#x81ea;&#x52a8;&#x628a;&#x5f88;&#x591a;&#x4efb;&#x52a1;&#x8f6e;&#x6d41;&#x8c03;&#x5ea6;&#x5230;&#x6bcf;&#x4e2a;&#x6838;&#x5fc3;&#x4e0a;&#x6267;&#x884c;" ID="ID_525159075" CREATED="1557394023489" MODIFIED="1557394031142"/>
+</node>
+<node TEXT="&#x8fdb;&#x7a0b;&#x4e0e;&#x7ebf;&#x7a0b;" ID="ID_1149853277" CREATED="1557394043249" MODIFIED="1557394049929">
+<node TEXT="&#x8fdb;&#x7a0b;" ID="ID_773187727" CREATED="1557394154635" MODIFIED="1557394156717">
+<node TEXT=" &#x4e00;&#x4e2a;&#x4efb;&#x52a1;&#x5c31;&#x662f;&#x4e00;&#x4e2a;&#x8fdb;&#x7a0b;&#xff08;Process&#xff09;" ID="ID_1077454124" CREATED="1557394054756" MODIFIED="1557394056862"/>
+</node>
+<node TEXT="&#x7ebf;&#x7a0b;" ID="ID_156063807" CREATED="1557394159542" MODIFIED="1557394161103">
+<node TEXT=" &#x5728;&#x4e00;&#x4e2a;&#x8fdb;&#x7a0b;&#x5185;&#x90e8;&#xff0c;&#x8981;&#x540c;&#x65f6;&#x5e72;&#x591a;&#x4ef6;&#x4e8b;&#xff0c;&#x5c31;&#x9700;&#x8981;&#x540c;&#x65f6;&#x8fd0;&#x884c;&#x591a;&#x4e2a;&#x201c;&#x5b50;&#x4efb;&#x52a1;&#x201d;&#xff0c;&#x79f0;&#x4e3a;&#x7ebf;&#x7a0b;&#xff08;Thread&#xff09;" ID="ID_551550601" CREATED="1557394151544" MODIFIED="1557395035427"/>
+</node>
+</node>
+<node TEXT="&#x591a;&#x8fdb;&#x7a0b;" ID="ID_1384699544" CREATED="1557395145917" MODIFIED="1557451642683">
+<node TEXT="&#x7c7b;unix" ID="ID_1214146387" CREATED="1557395357796" MODIFIED="1557401944391">
+<node TEXT=" os.fork()" ID="ID_1916055241" CREATED="1557402228011" MODIFIED="1557402232701">
+<node TEXT="&#x8c03;&#x7528;&#x4e00;&#x6b21;&#xff0c;&#x8fd4;&#x56de;&#x4e24;&#x6b21;" ID="ID_21568887" CREATED="1557402241254" MODIFIED="1557402249289"/>
+<node TEXT=" &#x7236;&#x8fdb;&#x7a0b;&#x8fd4;&#x56de;&#x5b50;&#x8fdb;&#x7a0b;&#x7684;ID" ID="ID_274403000" CREATED="1557402259198" MODIFIED="1557402260320"/>
+<node TEXT="&#x5b50;&#x8fdb;&#x7a0b;&#x6c38;&#x8fdc;&#x8fd4;&#x56de;0" ID="ID_1251907941" CREATED="1557402260971" MODIFIED="1557402266328"/>
+</node>
+<node TEXT="&#x4f8b;" ID="ID_353156910" CREATED="1557402449183" MODIFIED="1557402452406">
+<node ID="ID_178754308" CREATED="1557402406620" MODIFIED="1557402406620"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>os<br/><span style="color: #cc7832"><font color="#cc7832">print</font></span>(<span style="color: #a5c261"><font color="#a5c261">'Process (%s) start...' </font></span>% os.getpid())<br/><span style="color: #808080"><font color="#808080"># Only works on Unix/Linux/Mac:<br/></font></span>pid = os.fork()<br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>pid == <span style="color: #6897bb"><font color="#6897bb">0</font></span>:<br/>    <span style="color: #cc7832"><font color="#cc7832">print</font></span>(<span style="color: #a5c261"><font color="#a5c261">'I am child process (%s) and my parent is %s.' </font></span>% (os.getpid()<span style="color: #cc7832"><font color="#cc7832">, </font></span>os.getppid()))<br/><span style="color: #cc7832"><font color="#cc7832">else</font></span>:<br/>    <span style="color: #cc7832"><font color="#cc7832">print</font></span>(<span style="color: #a5c261"><font color="#a5c261">'I (%s) just created a child process (%s).' </font></span>% (os.getpid()<span style="color: #cc7832"><font color="#cc7832">, </font></span>pid))<br/><br/><span style="color: #808080"><font color="#808080"># Process (876) start...<br/></font></span><font color="#808080"><span style="color: #808080"># I (876) just created a child process (877).<br/></span><span style="color: #808080"># I am child process (877) and my parent is 876.</span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Apache&#x670d;&#x52a1;&#x5668;" ID="ID_471918926" CREATED="1557402456551" MODIFIED="1557402464281">
+<node TEXT=" &#x7531;&#x7236;&#x8fdb;&#x7a0b;&#x76d1;&#x542c;&#x7aef;&#x53e3;" ID="ID_1126907793" CREATED="1557402471199" MODIFIED="1557402472354"/>
+<node TEXT="&#x6bcf;&#x5f53;&#x6709;&#x65b0;&#x7684;http&#x8bf7;&#x6c42;&#x65f6;&#xff0c;&#x5c31;fork&#x51fa;&#x5b50;&#x8fdb;&#x7a0b;&#x6765;&#x5904;&#x7406;&#x65b0;&#x7684;http&#x8bf7;&#x6c42;" ID="ID_1258345154" CREATED="1557402472978" MODIFIED="1557402479585"/>
+</node>
+</node>
+<node TEXT="&#x8de8;&#x5e73;&#x53f0;" ID="ID_739349861" CREATED="1557402411714" MODIFIED="1557402498980">
+<node TEXT=" multiprocessing&#x6a21;&#x5757;" ID="ID_1345174259" CREATED="1557402506326" MODIFIED="1557402507498">
+<node TEXT="Process" ID="ID_1992271957" CREATED="1557402890285" MODIFIED="1557402896324">
+<node ID="ID_1500642827" CREATED="1557402856641" MODIFIED="1557402856641"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>multiprocessing <span style="color: #cc7832"><font color="#cc7832">import </font></span>Process<br/><span style="color: #cc7832"><font color="#cc7832">import </font></span>os<br/><br/><span style="color: #808080"><font color="#808080"># &#23376;&#36827;&#31243;&#35201;&#25191;&#34892;&#30340;&#20195;&#30721;<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">run_proc</font></span>(name):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Run child process %s (%s)...' </font></span>% (name<span style="color: #cc7832"><font color="#cc7832">, </font></span>os.getpid()))<br/><br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>__name__==<span style="color: #6a8759"><font color="#6a8759">'__main__'</font></span>:<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">f'Parent process </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>os.getpid()<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">.'</font></span>)<br/>    <span style="color: #808080"><font color="#808080"># &#21019;&#24314;&#23376;&#36827;&#31243;&#26102;&#65292;&#21482;&#38656;&#35201;&#20256;&#20837;&#19968;&#20010;&#25191;&#34892;&#20989;&#25968;&#21644;&#20989;&#25968;&#30340;&#21442;&#25968;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>p = Process(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=run_proc<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(<span style="color: #6a8759"><font color="#6a8759">'test'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span>))<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Child process will start.'</font></span>)<br/>    p.start()  <span style="color: #808080"><font color="#808080"># start()&#26041;&#27861;&#21551;&#21160;<br/></font></span><font color="#808080"><span style="color: #808080">    # join()&#26041;&#27861;&#21487;&#20197;&#31561;&#24453;&#23376;&#36827;&#31243;&#32467;&#26463;&#21518;&#20877;&#32487;&#32493;&#24448;&#19979;&#36816;&#34892;&#65292;&#36890;&#24120;&#29992;&#20110;&#36827;&#31243;&#38388;&#30340;&#21516;&#27493;<br/></span><span style="color: #808080">    </span></font>p.join()<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Child process end.'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" join()&#x65b9;&#x6cd5;" ID="ID_1699986652" CREATED="1557403595683" MODIFIED="1557403609410">
+<node TEXT=" &#x8c03;&#x7528;join()&#x65b9;&#x6cd5;&#x4f1a;&#x7b49;&#x5f85;&#x6240;&#x6709;&#x5b50;&#x8fdb;&#x7a0b;&#x6267;&#x884c;&#x5b8c;&#x6bd5;" ID="ID_1561653834" CREATED="1557403610581" MODIFIED="1557403612011"/>
+</node>
+</node>
+<node TEXT=" Pool" ID="ID_479390378" CREATED="1557402911000" MODIFIED="1557402913242">
+<node ID="ID_510837142" CREATED="1557403548533" MODIFIED="1557403548533"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>multiprocessing <span style="color: #cc7832"><font color="#cc7832">import </font></span>Pool<br/><span style="color: #cc7832"><font color="#cc7832">import </font></span>os<span style="color: #cc7832"><font color="#cc7832">, </font></span>time<span style="color: #cc7832"><font color="#cc7832">, </font></span>random<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">long_time_task</font></span>(name):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Run task %s (%s)...' </font></span>% (name<span style="color: #cc7832"><font color="#cc7832">, </font></span>os.getpid()))<br/>    start = time.time()<br/>    time.sleep(random.random() * <span style="color: #6897bb"><font color="#6897bb">3</font></span>)<br/>    end = time.time()<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Task %s runs %0.2f seconds.' </font></span>% (name<span style="color: #cc7832"><font color="#cc7832">, </font></span>(end - start)))<br/><br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>__name__==<span style="color: #6a8759"><font color="#6a8759">'__main__'</font></span>:<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Parent process %s.' </font></span>% os.getpid())<br/>    p = Pool(<span style="color: #6897bb"><font color="#6897bb">4</font></span>)<br/>    <span style="color: #cc7832"><font color="#cc7832">for </font></span>i <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #8888c6"><font color="#8888c6">range</font></span>(<span style="color: #6897bb"><font color="#6897bb">5</font></span>):<br/>        p.apply_async(long_time_task<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(i<span style="color: #cc7832"><font color="#cc7832">,</font></span>))<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Waiting for all subprocesses done...'</font></span>)<br/>    p.close()<br/>    p.join()<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'All subprocesses done.'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1818585117" CREATED="1557403579010" MODIFIED="1557403579010"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># Parent process 669.<br/></font></span><font color="#808080"><span style="color: #808080"># Waiting for all subprocesses done...<br/></span><span style="color: #808080"># Run task 0 (671)...<br/></span><span style="color: #808080"># Run task 1 (672)...<br/></span><span style="color: #808080"># Run task 2 (673)...<br/></span><span style="color: #808080"># Run task 3 (674)...<br/></span><span style="color: #808080"># Task 2 runs 0.14 seconds.<br/></span><span style="color: #808080"># Run task 4 (673)...<br/></span><span style="color: #808080"># Task 1 runs 0.27 seconds.<br/></span><span style="color: #808080"># Task 3 runs 0.86 seconds.<br/></span><span style="color: #808080"># Task 0 runs 1.41 seconds.<br/></span><span style="color: #808080"># Task 4 runs 1.91 seconds.<br/></span><span style="color: #808080"># All subprocesses done.</span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="4&#x4e2a;&#x8fdb;&#x7a0b;&#x7684;&#x6c60;&#x6700;&#x591a;&#x540c;&#x65f6;&#x8dd1;4&#x4e2a;&#x8fdb;&#x7a0b;&#xff0c;&#x7b2c;5&#x4e2a;&#x8fdb;&#x7a0b;(Task 4) &#x6c38;&#x8fdc;&#x6700;&#x540e;&#x8dd1;" ID="ID_282475680" CREATED="1557403656620" MODIFIED="1557403716428"/>
+<node TEXT=" &#x8c03;&#x7528;join()&#x4e4b;&#x524d;&#x5fc5;&#x987b;&#x5148;&#x8c03;&#x7528;close()&#xff0c;&#x8c03;&#x7528;close()&#x4e4b;&#x540e;&#x5c31;&#x4e0d;&#x80fd;&#x7ee7;&#x7eed;&#x6dfb;&#x52a0;&#x65b0;&#x7684;Process&#x4e86;" ID="ID_341371270" CREATED="1557403784433" MODIFIED="1557403786424"/>
+<node TEXT=" Pool&#x7684;&#x9ed8;&#x8ba4;&#x5927;&#x5c0f;&#x662f;CPU&#x7684;&#x6838;&#x6570;" ID="ID_1367625798" CREATED="1557403748305" MODIFIED="1557403749962"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x5b50;&#x8fdb;&#x7a0b;" ID="ID_1637739814" CREATED="1557403890297" MODIFIED="1557403895335">
+<node TEXT=" &#x5f88;&#x591a;&#x65f6;&#x5019;&#xff0c;&#x5b50;&#x8fdb;&#x7a0b;&#x5e76;&#x4e0d;&#x662f;&#x81ea;&#x8eab;&#xff0c;&#x800c;&#x662f;&#x4e00;&#x4e2a;&#x5916;&#x90e8;&#x8fdb;&#x7a0b;" ID="ID_1726230809" CREATED="1557403927711" MODIFIED="1557403929571"/>
+<node TEXT="&#x521b;&#x5efa;&#x4e86;&#x5b50;&#x8fdb;&#x7a0b;&#x540e;&#xff0c;&#x8fd8;&#x9700;&#x8981;&#x63a7;&#x5236;&#x5b50;&#x8fdb;&#x7a0b;&#x7684;&#x8f93;&#x5165;&#x548c;&#x8f93;&#x51fa;" ID="ID_1161172959" CREATED="1557403929768" MODIFIED="1557403935851"/>
+<node TEXT=" subprocess&#x6a21;&#x5757;" ID="ID_1746418143" CREATED="1557404130514" MODIFIED="1557404132090">
+<node TEXT=" &#x542f;&#x52a8;&#x4e00;&#x4e2a;&#x5b50;&#x8fdb;&#x7a0b;" ID="ID_498865671" CREATED="1557404219559" MODIFIED="1557404227938">
+<node ID="ID_1287423779" CREATED="1557404244203" MODIFIED="1557404244203"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>subprocess<br/>r = subprocess.call([<span style="color: #6a8759"><font color="#6a8759">'nslookup'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'www.python.org'</font></span>])<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Exit code:'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>r)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" communicate()&#x65b9;&#x6cd5;" ID="ID_1848512013" CREATED="1557404275887" MODIFIED="1557404278604">
+<node TEXT=" &#x7ed9;&#x5b50;&#x8fdb;&#x7a0b;&#x9700;&#x8981;&#x8f93;&#x5165;&#x53c2;&#x6570;" ID="ID_1013736665" CREATED="1557404259861" MODIFIED="1557404285235"/>
+<node ID="ID_540904576" CREATED="1557404319800" MODIFIED="1557404319800"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>subprocess<br/><br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'$ nslookup'</font></span>)<br/>p = subprocess.Popen([<span style="color: #6a8759"><font color="#6a8759">'nslookup'</font></span>]<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">stdin</font></span>=subprocess.PIPE<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">stdout</font></span>=subprocess.PIPE<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">stderr</font></span>=subprocess.PIPE)<br/>output<span style="color: #cc7832"><font color="#cc7832">, </font></span>err = p.communicate(<span style="color: #a5c261"><font color="#a5c261">b'set q=mx</font></span><span style="color: #cc7832"><font color="#cc7832">\n</font></span><span style="color: #a5c261"><font color="#a5c261">python.org</font></span><span style="color: #cc7832"><font color="#cc7832">\n</font></span><span style="color: #a5c261"><font color="#a5c261">exit</font></span><span style="color: #cc7832"><font color="#cc7832">\n</font></span><span style="color: #a5c261"><font color="#a5c261">'</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(output.decode(<span style="color: #6a8759"><font color="#6a8759">'utf-8'</font></span>))<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Exit code:'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>p.returncode)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x8fdb;&#x7a0b;&#x95f4;&#x901a;&#x4fe1;" ID="ID_1873209795" CREATED="1557404329763" MODIFIED="1557404335818">
+<node TEXT="multiprocessing&#x6a21;&#x5757;&#x3001;Queue" ID="ID_91861838" CREATED="1557404448245" MODIFIED="1557404466837">
+<node TEXT=" from multiprocessing import Process, Queue" ID="ID_1705932130" CREATED="1557451118147" MODIFIED="1557451119786"/>
+<node TEXT=" Queue &#x7c7b;&#x662f;&#x4e00;&#x4e2a;&#x8fd1;&#x4f3c; queue.Queue &#x7684;&#x514b;&#x9686;" ID="ID_908226452" CREATED="1557469220106" MODIFIED="1557469221700"/>
+<node ID="ID_1079376017" CREATED="1557451895302" MODIFIED="1557451895302"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#20889;&#25968;&#25454;&#36827;&#31243;&#25191;&#34892;&#30340;&#20195;&#30721;:<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">write</font></span>(q):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Process to write: %s' </font></span>% os.getpid())<br/>    <span style="color: #cc7832"><font color="#cc7832">for </font></span>value <span style="color: #cc7832"><font color="#cc7832">in </font></span>[<span style="color: #6a8759"><font color="#6a8759">'A'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'B'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'C'</font></span>]:<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Put %s to queue...' </font></span>% value)<br/>        q.put(value)<br/>        time.sleep(random.random())<br/><br/><span style="color: #808080"><font color="#808080"># &#35835;&#25968;&#25454;&#36827;&#31243;&#25191;&#34892;&#30340;&#20195;&#30721;:<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">read</font></span>(q):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Process to read: %s' </font></span>% os.getpid())<br/>    <span style="color: #cc7832"><font color="#cc7832">while True</font></span>:<br/>        value = q.get(<span style="color: #cc7832"><font color="#cc7832">True</font></span>)<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Get %s from queue.' </font></span>% value)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_586129582" CREATED="1557451846768" MODIFIED="1557451870863"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>multiprocessing <span style="color: #cc7832"><font color="#cc7832">import </font></span>Process<span style="color: #cc7832"><font color="#cc7832">, </font></span>Queue<br/><br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>__name__==<span style="color: #6a8759"><font color="#6a8759">'__main__'</font></span>:<br/>    <span style="color: #808080"><font color="#808080"># &#29238;&#36827;&#31243;&#21019;&#24314;Queue&#65292;&#24182;&#20256;&#32473;&#21508;&#20010;&#23376;&#36827;&#31243;&#65306;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>q = Queue()<br/>    pw = Process(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=write<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(q<span style="color: #cc7832"><font color="#cc7832">,</font></span>))<br/>    pr = Process(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=read<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(q<span style="color: #cc7832"><font color="#cc7832">,</font></span>))<br/>    <span style="color: #808080"><font color="#808080"># &#21551;&#21160;&#23376;&#36827;&#31243;pw&#65292;&#20889;&#20837;:<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>pw.start()<br/>    <span style="color: #808080"><font color="#808080"># &#21551;&#21160;&#23376;&#36827;&#31243;pr&#65292;&#35835;&#21462;:<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>pr.start()<br/>    <span style="color: #808080"><font color="#808080"># &#31561;&#24453;pw&#32467;&#26463;:<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>pw.join()<br/>    <span style="color: #808080"><font color="#808080"># pr&#36827;&#31243;&#37324;&#26159;&#27515;&#24490;&#29615;&#65292;&#26080;&#27861;&#31561;&#24453;&#20854;&#32467;&#26463;&#65292;&#21482;&#33021;&#24378;&#34892;&#32456;&#27490;:<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>pr.terminate()<br/></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="multiprocessing" ID="ID_1773410854" CREATED="1557451620495" MODIFIED="1557451626844">
+<node TEXT=" &#x4f7f;&#x7528;&#x5b50;&#x8fdb;&#x7a0b;&#x4ee3;&#x66ff;&#x7ebf;&#x7a0b;&#xff0c;&#x6709;&#x6548;&#x907f;&#x514d; Global Interpreter Lock &#x5e26;&#x6765;&#x7684;&#x5f71;&#x54cd;" ID="ID_589441813" CREATED="1557451677187" MODIFIED="1557451679428"/>
+<node TEXT=" multiprocessing &#x6a21;&#x5757;&#x5141;&#x8bb8;&#x7a0b;&#x5e8f;&#x5458;&#x5145;&#x5206;&#x5229;&#x7528;&#x673a;&#x5668;&#x4e0a;&#x7684;&#x591a;&#x4e2a;&#x6838;&#x5fc3;" ID="ID_1809472735" CREATED="1557451691713" MODIFIED="1557451692967"/>
+<node TEXT="&#x5e76;&#x884c;&#x5316;&#x51fd;&#x6570;&#x7684;&#x6267;&#x884c;&#xff0c;&#x6570;&#x636e;&#x5e76;&#x884c;" ID="ID_1638459044" CREATED="1557451627654" MODIFIED="1557451958576">
+<node TEXT=" &#x8fd9;&#x4e2a;&#x6570;&#x636e;&#x5e76;&#x884c;&#x7684;&#x57fa;&#x672c;&#x4f8b;&#x5b50;&#x4f7f;&#x7528; Pool" ID="ID_84411998" CREATED="1557452122588" MODIFIED="1557452124476"/>
+<node ID="ID_971765912" CREATED="1557452077680" MODIFIED="1557452077680"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>multiprocessing <span style="color: #cc7832"><font color="#cc7832">import </font></span>Pool<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">f</font></span>(x):<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>x*x<br/><br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>__name__ == <span style="color: #6a8759"><font color="#6a8759">'__main__'</font></span>:<br/>    <span style="color: #cc7832"><font color="#cc7832">with </font></span>Pool(<span style="color: #6897bb"><font color="#6897bb">5</font></span>) <span style="color: #cc7832"><font color="#cc7832">as </font></span>p:<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(p.map(f<span style="color: #cc7832"><font color="#cc7832">, </font></span>[<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>]))<br/>        <span style="color: #808080"><font color="#808080"># [1, 4, 9]</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" Process &#x7c7b;" ID="ID_416645926" CREATED="1557452152145" MODIFIED="1557452153989">
+<node TEXT=" Process &#x548c; threading.Thread API &#x76f8;&#x540c;" ID="ID_390202679" CREATED="1557452321201" MODIFIED="1557452326040"/>
+<node TEXT=" &#x751f;&#x6210;&#x8fdb;&#x7a0b;" ID="ID_517141124" CREATED="1557452339769" MODIFIED="1557452341131">
+<node TEXT="&#x901a;&#x8fc7;&#x521b;&#x5efa;&#x4e00;&#x4e2a; Process &#x5bf9;&#x8c61;&#x7136;&#x540e;&#x8c03;&#x7528;&#x5b83;&#x7684; start() &#x65b9;&#x6cd5;&#x6765;&#x751f;&#x6210;&#x8fdb;&#x7a0b;" ID="ID_805647407" CREATED="1557452326620" MODIFIED="1557452338687"/>
+<node ID="ID_1490645452" CREATED="1557452367691" MODIFIED="1557452367691"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>multiprocessing <span style="color: #cc7832"><font color="#cc7832">import </font></span>Process<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">f</font></span>(name):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'hello'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>name)<br/><br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>__name__ == <span style="color: #6a8759"><font color="#6a8759">'__main__'</font></span>:<br/>    p = Process(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=f<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(<span style="color: #6a8759"><font color="#6a8759">'bob'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span>))<br/>    p.start()<br/>    p.join()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x67e5;&#x770b;&#x5b50;&#x8fdb;&#x7a0b;&#x4e0e;&#x7236;&#x8fdb;&#x7a0b;pid" ID="ID_24216617" CREATED="1557452722253" MODIFIED="1557452738743">
+<node TEXT=" &#x5b50;&#x8fdb;&#x7a0b;id" ID="ID_114638206" CREATED="1557452751501" MODIFIED="1557452754101">
+<node TEXT="&#x8fdb;&#x7a0b;&#x81ea;&#x8eab;&#x8fd0;&#x884c; os.getpid()" ID="ID_1775410032" CREATED="1557452761809" MODIFIED="1557452776996"/>
+<node TEXT="&#x7236;&#x8fdb;&#x7a0b;fork()&#x5b50;&#x8fdb;&#x7a0b;&#x8fd4;&#x56de;&#x5b50;&#x8fdb;&#x7a0b;id, &#x5b50;&#x8fdb;&#x7a0b;&#x8fd4;&#x56de;0" ID="ID_671195501" CREATED="1557452778653" MODIFIED="1557452821837"/>
+</node>
+<node TEXT="&#x7236;&#x8fdb;&#x7a0b;id" ID="ID_1832953376" CREATED="1557452826256" MODIFIED="1557452834710">
+<node TEXT="&#x5b50;&#x8fdb;&#x7a0b;&#x8fd0;&#x884c; os.getppid()" ID="ID_1021089362" CREATED="1557452835106" MODIFIED="1557452847444"/>
+</node>
+</node>
+<node TEXT="&#x521b;&#x5efa;&#x5b50;&#x8fdb;&#x7a0b;&#x65f6;&#x6307;&#x5b9a;&#x51fd;&#x6570;&#x53ca;&#x4f20;&#x5165;&#x53c2;&#x6570;" ID="ID_1377516107" CREATED="1557452853499" MODIFIED="1557452882648">
+<node ID="ID_1920612687" CREATED="1557452941288" MODIFIED="1557452941288"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>multiprocessing <span style="color: #cc7832"><font color="#cc7832">import </font></span>Process<br/><span style="color: #cc7832"><font color="#cc7832">import </font></span>os<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">info</font></span>(title):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(title)<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'module name:'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>__name__)<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'parent process:'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>os.getppid())<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'process id:'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>os.getpid())<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">child_f</font></span>(name):<br/>    info(<span style="color: #6a8759"><font color="#6a8759">'function child_f'</font></span>)<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'hello'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>name)<br/><br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>__name__ == <span style="color: #6a8759"><font color="#6a8759">'__main__'</font></span>:<br/>    info(<span style="color: #6a8759"><font color="#6a8759">'main line'</font></span>)<br/>    p = Process(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=child_f<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(<span style="color: #6a8759"><font color="#6a8759">'bob'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span>))<br/>    p.start()<br/>    p.join()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1418010351" CREATED="1557452948789" MODIFIED="1557452948789"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># main line<br/></font></span><font color="#808080"><span style="color: #808080"># module name: __main__<br/></span><span style="color: #808080"># parent process: 16604<br/></span><span style="color: #808080"># process id: 2764<br/></span><span style="color: #808080"># function child_f<br/></span><span style="color: #808080"># module name: __mp_main__<br/></span><span style="color: #808080"># parent process: 2764</span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x4e0a;&#x4e0b;&#x6587;&#x4e0e;&#x542f;&#x52a8;&#x65b9;&#x6cd5;" ID="ID_513477693" CREATED="1557453052241" MODIFIED="1557453063396">
+<node TEXT="&#x4e09;&#x79cd;&#x542f;&#x52a8;&#x8fdb;&#x7a0b;&#x7684;&#x65b9;&#x6cd5;" ID="ID_161521565" CREATED="1557453076079" MODIFIED="1557453091504">
+<node TEXT="spawn" ID="ID_1998657159" CREATED="1557453102078" MODIFIED="1557453118605">
+<node TEXT=" &#x7236;&#x8fdb;&#x7a0b;&#x542f;&#x52a8;&#x4e00;&#x4e2a;&#x65b0;&#x7684;Python&#x89e3;&#x91ca;&#x5668;&#x8fdb;&#x7a0b;" ID="ID_1445441158" CREATED="1557453253314" MODIFIED="1557453255328"/>
+<node TEXT="  &#x7236;&#x8fdb;&#x7a0b;&#x4e2d;&#x975e;&#x5fc5;&#x987b;&#x7684;&#x4e0d;&#x4f1a;&#x88ab;&#x7ee7;&#x627f;" ID="ID_572167217" CREATED="1557453277263" MODIFIED="1557453293656">
+<node TEXT=" &#x5b50;&#x8fdb;&#x7a0b;&#x53ea;&#x4f1a;&#x7ee7;&#x627f;&#x90a3;&#x4e9b;&#x8fd0;&#x884c;&#x8fdb;&#x7a0b;&#x5bf9;&#x8c61;&#x7684; run() &#x65b9;&#x6cd5;&#x6240;&#x9700;&#x7684;&#x8d44;&#x6e90;" ID="ID_676618049" CREATED="1557453265170" MODIFIED="1557453266733"/>
+<node TEXT=" &#x975e;&#x5fc5;&#x987b;&#x7684;&#x6587;&#x4ef6;&#x63cf;&#x8ff0;&#x7b26;&#x4e0d;&#x4f1a;&#x88ab;&#x7ee7;&#x627f;" ID="ID_1574335119" CREATED="1557453295102" MODIFIED="1557453343041"/>
+<node TEXT="  &#x975e;&#x5fc5;&#x987b;&#x7684;&#x53e5;&#x67c4;&#x4e0d;&#x4f1a;&#x88ab;&#x7ee7;&#x627f;" ID="ID_1029758001" CREATED="1557453303309" MODIFIED="1557453348239"/>
+</node>
+<node TEXT=" &#x76f8;&#x5bf9;&#x4e8e;&#x4f7f;&#x7528; fork &#x6216;&#x8005; forkserver&#xff0c;&#x4f7f;&#x7528;&#x8fd9;&#x4e2a;&#x65b9;&#x6cd5;&#x542f;&#x52a8;&#x8fdb;&#x7a0b;&#x76f8;&#x5f53;&#x6162;" ID="ID_381162941" CREATED="1557453315916" MODIFIED="1557453319770"/>
+<node TEXT=" &#x53ef;&#x5728;Unix&#x548c;Windows&#x4e0a;&#x4f7f;&#x7528;&#x3002; Windows&#x4e0a;&#x7684;&#x9ed8;&#x8ba4;&#x8bbe;&#x7f6e;" ID="ID_724379455" CREATED="1557453361437" MODIFIED="1557453362862"/>
+</node>
+<node TEXT="fork" ID="ID_1856835838" CREATED="1557453103893" MODIFIED="1557453109857">
+<node TEXT=" &#x7236;&#x8fdb;&#x7a0b;&#x4f7f;&#x7528; os.fork() &#x6765;&#x4ea7;&#x751f; Python &#x89e3;&#x91ca;&#x5668;&#x5206;&#x53c9;" ID="ID_1288138852" CREATED="1557453378889" MODIFIED="1557453380092"/>
+<node TEXT=" &#x5b50;&#x8fdb;&#x7a0b;&#x5728;&#x5f00;&#x59cb;&#x65f6;&#x5b9e;&#x9645;&#x4e0a;&#x4e0e;&#x7236;&#x8fdb;&#x7a0b;&#x76f8;&#x540c;" ID="ID_42891094" CREATED="1557453389903" MODIFIED="1557453391749"/>
+<node TEXT=" &#x7236;&#x8fdb;&#x7a0b;&#x7684;&#x6240;&#x6709;&#x8d44;&#x6e90;&#x90fd;&#x7531;&#x5b50;&#x8fdb;&#x7a0b;&#x7ee7;&#x627f;" ID="ID_42537689" CREATED="1557453397442" MODIFIED="1557453399351"/>
+<node TEXT=" &#x8bf7;&#x6ce8;&#x610f;&#xff0c;&#x5b89;&#x5168;&#x5206;&#x53c9;&#x591a;&#x7ebf;&#x7a0b;&#x8fdb;&#x7a0b;&#x662f;&#x68d8;&#x624b;&#x7684;" ID="ID_974637332" CREATED="1557453406362" MODIFIED="1557453408317"/>
+<node TEXT="&#x53ea;&#x5b58;&#x5728;&#x4e8e;Unix&#x3002;Unix&#x4e2d;&#x7684;&#x9ed8;&#x8ba4;&#x503c;" ID="ID_1477287311" CREATED="1557453408965" MODIFIED="1557453414444"/>
+</node>
+<node TEXT="forkserver" ID="ID_1395055791" CREATED="1557453110150" MODIFIED="1557458293045" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="&#x7a0b;&#x5e8f;&#x542f;&#x52a8;&#x5e76;&#x9009;&#x62e9;* forkserver * &#x542f;&#x52a8;&#x65b9;&#x6cd5;&#x65f6;&#xff0c;&#x5c06;&#x542f;&#x52a8;&#x670d;&#x52a1;&#x5668;&#x8fdb;&#x7a0b;" ID="ID_595669730" CREATED="1557453432656" MODIFIED="1557458226482"/>
+<node TEXT="&#x6bcf;&#x5f53;&#x9700;&#x8981;&#x4e00;&#x4e2a;&#x65b0;&#x8fdb;&#x7a0b;&#x65f6;&#xff0c;&#x7236;&#x8fdb;&#x7a0b;&#x5c31;&#x4f1a;&#x8fde;&#x63a5;&#x5230;&#x670d;&#x52a1;&#x5668;&#x5e76;&#x8bf7;&#x6c42;&#x5b83;&#x5206;&#x53c9;&#x4e00;&#x4e2a;&#x65b0;&#x8fdb;&#x7a0b;" ID="ID_656620787" CREATED="1557458222490" MODIFIED="1557458294736"/>
+<node TEXT="&#x5206;&#x53c9;&#x670d;&#x52a1;&#x5668;&#x8fdb;&#x7a0b;&#x662f;&#x5355;&#x7ebf;&#x7a0b;&#x7684;&#xff0c;&#x56e0;&#x6b64;&#x4f7f;&#x7528; os.fork() &#x662f;&#x5b89;&#x5168;&#x7684;" ID="ID_713224583" CREATED="1557468857410" MODIFIED="1557468879608"/>
+<node TEXT="&#x6ca1;&#x6709;&#x4e0d;&#x5fc5;&#x8981;&#x7684;&#x8d44;&#x6e90;&#x88ab;&#x7ee7;&#x627f;" ID="ID_955116247" CREATED="1557468864746" MODIFIED="1557468880564"/>
+<node TEXT="&#x53ef;&#x5728;Unix&#x5e73;&#x53f0;&#x4e0a;&#x4f7f;&#x7528;&#xff0c;&#x652f;&#x6301;&#x901a;&#x8fc7;Unix&#x7ba1;&#x9053;&#x4f20;&#x9012;&#x6587;&#x4ef6;&#x63cf;&#x8ff0;&#x7b26;" ID="ID_1600743044" CREATED="1557468871473" MODIFIED="1557468875198"/>
+</node>
+</node>
+<node TEXT="&#x9009;&#x62e9;&#x4e00;&#x4e2a;&#x542f;&#x52a8;&#x65b9;&#x6cd5;" ID="ID_642696525" CREATED="1557468933162" MODIFIED="1557468940768">
+<node TEXT=" &#x5728;&#x4e3b;&#x6a21;&#x5757;&#x7684; if __name__ == &apos;__main__&apos; &#x5b50;&#x53e5;&#x4e2d;&#x8c03;&#x7528; set_start_method()" ID="ID_1864767152" CREATED="1557468948622" MODIFIED="1557468949949"/>
+<node ID="ID_1400953395" CREATED="1557468964650" MODIFIED="1557468964650"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>multiprocessing <span style="color: #cc7832"><font color="#cc7832">as </font></span>mp<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>(q):<br/>    q.put(<span style="color: #6a8759"><font color="#6a8759">'hello'</font></span>)<br/><br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>__name__ == <span style="color: #6a8759"><font color="#6a8759">'__main__'</font></span>:<br/>    mp.set_start_method(<span style="color: #6a8759"><font color="#6a8759">'spawn'</font></span>)<br/>    q = mp.Queue()<br/>    p = mp.Process(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=foo<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(q<span style="color: #cc7832"><font color="#cc7832">,</font></span>))<br/>    p.start()<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(q.get())<br/>    p.join()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x5728;&#x7a0b;&#x5e8f;&#x4e2d; set_start_method() &#x4e0d;&#x5e94;&#x8be5;&#x88ab;&#x591a;&#x6b21;&#x8c03;&#x7528;" ID="ID_106438307" CREATED="1557469127547" MODIFIED="1557469129299"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x591a;&#x7ebf;&#x7a0b;" ID="ID_1281357053" CREATED="1557451645181" MODIFIED="1557451648249">
+<node TEXT="threading" ID="ID_1446443518" CREATED="1557451648949" MODIFIED="1557451653235"/>
+</node>
 </node>
 </node>
 </map>
