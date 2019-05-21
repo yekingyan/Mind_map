@@ -3,7 +3,7 @@
 <node TEXT="&#x5ed6;&#x96ea;&#x5cf0; python3" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537888489239" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="92" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="93" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x89e3;&#x91ca;&#x5668;" FOLDED="true" POSITION="right" ID="ID_987134475" CREATED="1537888500595" MODIFIED="1537889643579" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#007c00"/>
@@ -1064,7 +1064,7 @@
 <node TEXT="IO&#x7f16;&#x7a0b;" POSITION="right" ID="ID_1565075659" CREATED="1555509998658" MODIFIED="1555510004206">
 <edge COLOR="#00ff00"/>
 </node>
-<node TEXT="&#x8fdb;&#x7a0b;&#x548c;&#x7ebf;&#x7a0b;" POSITION="right" ID="ID_357554149" CREATED="1555510031658" MODIFIED="1555510037661">
+<node TEXT="&#x8fdb;&#x7a0b;&#x548c;&#x7ebf;&#x7a0b;" FOLDED="true" POSITION="right" ID="ID_357554149" CREATED="1555510031658" MODIFIED="1555510037661">
 <edge COLOR="#ff00ff"/>
 <node TEXT=" &#x5e76;&#x884c;" ID="ID_1063923465" CREATED="1557394011182" MODIFIED="1557394012762">
 <node TEXT=" &#x771f;&#x6b63;&#x7684;&#x5e76;&#x884c;&#x6267;&#x884c;&#x591a;&#x4efb;&#x52a1;&#x53ea;&#x80fd;&#x5728;&#x591a;&#x6838;CPU&#x4e0a;&#x5b9e;&#x73b0;" ID="ID_812426087" CREATED="1557394021713" MODIFIED="1557394022806"/>
@@ -1237,7 +1237,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>multiprocessing <span style="color: #cc7832"><font color="#cc7832">import </font></span>Process<span style="color: #cc7832"><font color="#cc7832">, </font></span>Pipe<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">f</font></span>(conn):<br/>    conn.send([<span style="color: #6897bb"><font color="#6897bb">42</font></span><span style="color: #cc7832"><font color="#cc7832">, None, </font></span><span style="color: #6a8759"><font color="#6a8759">'hello'</font></span>])<br/>    conn.close()<br/><br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>__name__ == <span style="color: #6a8759"><font color="#6a8759">'__main__'</font></span>:<br/>    parent_conn<span style="color: #cc7832"><font color="#cc7832">, </font></span>child_conn = Pipe()<br/>    p = Process(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=f<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(child_conn<span style="color: #cc7832"><font color="#cc7832">,</font></span>))<br/>    p.start()<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(parent_conn.recv())   <span style="color: #808080"><font color="#808080"># prints &quot;[42, None, 'hello']&quot;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>p.join()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1369,7 +1368,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>multiprocessing <span style="color: #cc7832"><font color="#cc7832">as </font></span>mp<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">foo</font></span>(q):<br/>    q.put(<span style="color: #6a8759"><font color="#6a8759">'hello'</font></span>)<br/><br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>__name__ == <span style="color: #6a8759"><font color="#6a8759">'__main__'</font></span>:<br/>    ctx = mp.get_context(<span style="color: #6a8759"><font color="#6a8759">'spawn'</font></span>)<br/>    q = ctx.Queue()<br/>    p = ctx.Process(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=foo<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(q<span style="color: #cc7832"><font color="#cc7832">,</font></span>))<br/>    p.start()<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(q.get())<br/>    p.join()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1393,7 +1391,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_293014426" CREATED="1557741309645" MODIFIED="1557741309645"><richcontent TYPE="NODE">
@@ -1408,7 +1405,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1439,7 +1435,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>multiprocessing <span style="color: #cc7832"><font color="#cc7832">import </font></span>Process<span style="color: #cc7832"><font color="#cc7832">, </font></span>Lock<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">f</font></span>(l<span style="color: #cc7832"><font color="#cc7832">, </font></span>i):<br/>    l.acquire()<br/>    <span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'hello world'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>i)<br/>    <span style="color: #cc7832"><font color="#cc7832">finally</font></span>:<br/>        l.release()<br/><br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>__name__ == <span style="color: #6a8759"><font color="#6a8759">'__main__'</font></span>:<br/>    lock = Lock()<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">for </font></span>num <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #8888c6"><font color="#8888c6">range</font></span>(<span style="color: #6897bb"><font color="#6897bb">10</font></span>):<br/>        Process(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=f<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(lock<span style="color: #cc7832"><font color="#cc7832">, </font></span>num)).start()<br/></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1462,7 +1457,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>time<span style="color: #cc7832"><font color="#cc7832">, </font></span>threading<br/><br/><span style="color: #808080"><font color="#808080"># &#26032;&#32447;&#31243;&#25191;&#34892;&#30340;&#20195;&#30721;:<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">loop</font></span>():<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'thread %s is running...' </font></span>% threading.current_thread().name)<br/>    <span style="color: #cc7832"><font color="#cc7832">for </font></span>n <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #8888c6"><font color="#8888c6">range</font></span>(<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">6</font></span>):<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'thread %s &gt;&gt;&gt; %s' </font></span>% (threading.current_thread().name<span style="color: #cc7832"><font color="#cc7832">, </font></span>n))<br/>        time.sleep(<span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'thread %s ended.' </font></span>% threading.current_thread().name)<br/><br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'thread %s is running...' </font></span>% threading.current_thread().name)<br/>t = threading.Thread(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=loop)<br/>t.start()<br/>t.join()<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'thread %s ended.' </font></span>% threading.current_thread().name)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1122182736" CREATED="1557818891712" MODIFIED="1557818891712"><richcontent TYPE="NODE">
@@ -1475,7 +1469,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># thread MainThread is running...<br/></font></span><font color="#808080"><span style="color: #808080"># thread Thread-17 is running...<br/></span><span style="color: #808080"># thread Thread-17 &gt;&gt;&gt; 1<br/></span><span style="color: #808080"># thread Thread-17 &gt;&gt;&gt; 2<br/></span><span style="color: #808080"># thread Thread-17 &gt;&gt;&gt; 3<br/></span><span style="color: #808080"># thread Thread-17 &gt;&gt;&gt; 4<br/></span><span style="color: #808080"># thread Thread-17 &gt;&gt;&gt; 5<br/></span><span style="color: #808080"># thread Thread-17 ended.<br/></span><span style="color: #808080"># thread MainThread ended.</span></font></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1503,7 +1496,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>threading<br/><br/><span style="color: #808080"><font color="#808080"># &#20551;&#23450;&#36825;&#26159;&#20320;&#30340;&#38134;&#34892;&#23384;&#27454;:<br/></font></span>balance = <span style="color: #6897bb"><font color="#6897bb">0<br/></font></span>lock = threading.Lock()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x52a0;&#x9501;&#xff0c;&#x64cd;&#x4f5c;&#xff0c;&#x91ca;&#x653e;&#x9501;" ID="ID_1237041938" CREATED="1557819786845" MODIFIED="1557819825711">
@@ -1517,7 +1509,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">lock.acquire()<br/><span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>    change_it(n)<br/><span style="color: #cc7832"><font color="#cc7832">finally</font></span>:<br/>    lock.release()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1546,7 +1537,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>threading<br/><br/><span style="color: #808080"><font color="#808080"># &#21019;&#24314;&#20840;&#23616;ThreadLocal&#23545;&#35937;:<br/></font></span>local_school = threading.local()<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">process_student</font></span>():<br/>    <span style="color: #808080"><font color="#808080"># &#33719;&#21462;&#24403;&#21069;&#32447;&#31243;&#20851;&#32852;&#30340;student:<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>std = local_school.student<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'Hello, %s (in %s)' </font></span>% (std<span style="color: #cc7832"><font color="#cc7832">, </font></span>threading.current_thread().name))<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">process_thread</font></span>(name):<br/>    <span style="color: #808080"><font color="#808080"># &#32465;&#23450;ThreadLocal&#30340;student:<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>local_school.student = name<br/>    process_student()<br/><br/>t1 = threading.Thread(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=process_thread<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(<span style="color: #6a8759"><font color="#6a8759">'Alice'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span>)<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'Thread-A'</font></span>)<br/>t2 = threading.Thread(<span style="color: #aa4926"><font color="#aa4926">target</font></span>=process_thread<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=(<span style="color: #6a8759"><font color="#6a8759">'Bob'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span>)<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'Thread-B'</font></span>)<br/>t1.start()  <span style="color: #808080"><font color="#808080"># Hello, Alice (in Thread-A)<br/></font></span>t2.start()  <span style="color: #808080"><font color="#808080"># Hello, Bob (in Thread-B)<br/></font></span>t1.join()<br/>t2.join()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5168;&#x5c40;&#x53d8;&#x91cf;local_school&#x5c31;&#x662f;&#x4e00;&#x4e2a;ThreadLocal&#x5bf9;&#x8c61;" ID="ID_1331685960" CREATED="1557888498206" MODIFIED="1557888503639"/>
@@ -1574,10 +1564,14 @@
 <node TEXT=" &#x5728;Windows&#x4e0b;&#xff0c;&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x6548;&#x7387;&#x6bd4;&#x591a;&#x8fdb;&#x7a0b;&#x8981;&#x9ad8;" ID="ID_162464542" CREATED="1557890171198" MODIFIED="1557890172545"/>
 </node>
 </node>
+</node>
+<node TEXT="&#x5f02;&#x6b65;IO" POSITION="right" ID="ID_389734159" CREATED="1558084277223" MODIFIED="1558084292105">
+<edge COLOR="#00ffff"/>
 <node TEXT="&#x534f;&#x7a0b;" ID="ID_471738878" CREATED="1557901873064" MODIFIED="1557901875886">
 <node TEXT="&#x534f;&#x7a0b;&#x7684;&#x7279;&#x70b9;&#x5728;&#x4e8e;&#x662f;&#x4e00;&#x4e2a;&#x7ebf;&#x7a0b;&#x6267;&#x884c;" ID="ID_1726441824" CREATED="1557901998816" MODIFIED="1557902033398">
 <node TEXT=" &#x5b50;&#x7a0b;&#x5e8f;&#x5207;&#x6362;&#x4e0d;&#x662f;&#x7ebf;&#x7a0b;&#x5207;&#x6362;&#xff0c;&#x6ca1;&#x6709;&#x7ebf;&#x7a0b;&#x5207;&#x6362;&#x7684;&#x5f00;&#x9500;" ID="ID_1533415271" CREATED="1557902133669" MODIFIED="1557902144333"/>
 <node TEXT=" &#x4e0d;&#x9700;&#x8981;&#x591a;&#x7ebf;&#x7a0b;&#x7684;&#x9501;&#x673a;&#x5236;" ID="ID_1547700044" CREATED="1557902100590" MODIFIED="1557902101883"/>
+<node TEXT="&#x5728;&#x4ee3;&#x7801;&#x6267;&#x884c;&#x6d41;&#x7a0b;&#x4e2d;&#x4eba;&#x4e3a;&#x7684;&#x5b9e;&#x73b0;&#x591a;&#x4efb;&#x52a1;&#x5e76;&#x53d1;&#xff0c;&#x662f;&#x5355;&#x4e2a;&#x7ebf;&#x7a0b;&#x5185;&#x7684;&#x4efb;&#x52a1;&#x8c03;&#x5ea6;&#x6280;&#x5de7;" ID="ID_853757563" CREATED="1558086497022" MODIFIED="1558086501991"/>
 </node>
 <node ID="ID_593695984" CREATED="1557902797004" MODIFIED="1557902797004"><richcontent TYPE="NODE">
 
@@ -1589,8 +1583,217 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">consumer</font></span>():<br/>    r = <span style="color: #6a8759"><font color="#6a8759">''<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font><span style="color: #cc7832"><font color="#cc7832">while True</font></span>:<br/>        <span style="color: #808080"><font color="#808080"># 3.&#36890;&#36807;yield&#25343;&#21040;&#28040;&#24687;&#65292;&#22788;&#29702;&#65292;&#21448;&#36890;&#36807;yield&#25226;&#32467;&#26524;&#20256;&#22238;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>n = <span style="color: #cc7832"><font color="#cc7832">yield </font></span>r<br/>        <span style="color: #cc7832"><font color="#cc7832">if not </font></span>n:<br/>            <span style="color: #cc7832"><font color="#cc7832">return<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        </span></font><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">f'[&#28040;&#36153;&#32773;] &#28040;&#36153; </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>n<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">...'</font></span>)<br/>        r = <span style="color: #6a8759"><font color="#6a8759">'200 OK'<br/></font></span><font color="#6a8759"><span style="color: #6a8759"><br/></span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">produce</font></span>(c):<br/>    c.send(<span style="color: #cc7832"><font color="#cc7832">None</font></span>)  <span style="color: #808080"><font color="#808080"># 1. &#21551;&#21160;&#29983;&#25104;&#22120;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>n = <span style="color: #6897bb"><font color="#6897bb">0<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font><span style="color: #cc7832"><font color="#cc7832">while </font></span>n &lt; <span style="color: #6897bb"><font color="#6897bb">2</font></span>:<br/>        n = n + <span style="color: #6897bb"><font color="#6897bb">1<br/></font></span><font color="#6897bb"><span style="color: #6897bb">        </span></font><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">f'[&#29983;&#20135;&#32773;] &#29983;&#20135; </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>n<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">...'</font></span>)<br/>        r = c.send(n)  <span style="color: #808080"><font color="#808080"># 2. &#29983;&#20135;&#20102;&#19996;&#35199;&#65292;&#20999;&#25442;&#21040;c<br/></font></span><font color="#808080"><span style="color: #808080">        # 4. &#25343;&#21040;&#22788;&#29702;&#30340;&#32467;&#26524;&#32487;&#32493;<br/></span><span style="color: #808080">        </span></font><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">f'[&#29983;&#20135;&#32773;] &#28040;&#36153;&#32773; return: </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>r<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span>)<br/>    <span style="color: #808080"><font color="#808080"># 5. &#36890;&#36807;c.close()&#20851;&#38381;consumer&#65292;&#25972;&#20010;&#36807;&#31243;&#32467;&#26463;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>c.close()<br/><br/>c = consumer()<br/>produce(c)</pre>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+<node TEXT="yield" ID="ID_608445695" CREATED="1558086605165" MODIFIED="1558086608572">
+<node TEXT="&#x7528;&#x4e8e;&#x5236;&#x9020;&#x751f;&#x6210;&#x5668;" ID="ID_1962486187" CREATED="1558086609176" MODIFIED="1558086627358">
+<node TEXT="&#x5728;yield&#x8fd9;&#x91cc;&#x6682;&#x505c;&#x51fd;&#x6570;&#x7684;&#x6267;&#x884c;" ID="ID_1761696650" CREATED="1558086645525" MODIFIED="1558086856513"/>
+<node TEXT="&#x518d;&#x6b21;&#x8c03;&#x7528;&#x53cd;&#x56de;next()&#x7684;&#x503c;" ID="ID_1552084317" CREATED="1558086835161" MODIFIED="1558086853244"/>
+</node>
+<node TEXT="&#x4e0e;send()&#x65b9;&#x6cd5;&#x76f8;&#x4e92;&#x4f20;&#x503c;" ID="ID_664861133" CREATED="1558087131440" MODIFIED="1558087145888">
+<node TEXT="send()" ID="ID_1288387928" CREATED="1558086918754" MODIFIED="1558086922330">
+<node TEXT="send()&#x65b9;&#x6cd5;&#x4f7f;&#x751f;&#x6210;&#x5668;&#x5c31;&#x53d8;&#x6210;&#x4e86;&#x534f;&#x7a0b;" ID="ID_1232470423" CREATED="1558086978773" MODIFIED="1558087085424"/>
+<node TEXT="&#x751f;&#x6210;&#x5668;&#x901a;&#x8fc7;send()&#x65b9;&#x6cd5;&#xff0c;&#x7ed9;&#x5185;&#x90e8;&#x7684;yield&#x53d1;&#x9001;&#x503c;" ID="ID_1270483939" CREATED="1558087023747" MODIFIED="1558087053686"/>
+</node>
+<node TEXT="&#x63a5;&#x6536;&#x5916;&#x90e8;send()&#x65b9;&#x6cd5;&#x53d1;&#x9001;&#x8fc7;&#x6765;&#x7684;&#x503c;" ID="ID_376768522" CREATED="1558087105237" MODIFIED="1558087118328"/>
+<node TEXT="&#x91cd;&#x65b0;&#x6fc0;&#x6d3b;&#x51fd;&#x6570;&#xff0c;yield&#x540e;&#x9762;&#x7684;&#x503c;&#x5c06;&#x4f5c;&#x4e3a;&#x5916;&#x90e8;send()&#x7684;&#x8fd4;&#x56de;&#x503c;" ID="ID_796396866" CREATED="1558087151713" MODIFIED="1558087246648"/>
+</node>
+</node>
+<node TEXT="&#x534f;&#x7a0b;&#x72b6;&#x6001;" ID="ID_1006321814" CREATED="1558087676825" MODIFIED="1558087695187">
+<node ID="ID_1412749403" CREATED="1558087711716" MODIFIED="1558087711716"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      'GEN_CREATED'&#12288;&#12288;&#31561;&#24453;&#24320;&#22987;&#25191;&#34892;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT=" &#x672a;&#x6fc0;&#x6d3b;&#x7528;send([val])&#x4f1a;&#x51fa;&#x73b0;TypeError&#x3002;val != None" ID="ID_1308883246" CREATED="1558087816452" MODIFIED="1558087972970"/>
+<node TEXT="&#x6fc0;&#x6d3b;" ID="ID_1639827845" CREATED="1558087885262" MODIFIED="1558087902094" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="&#x6216; next(my_coro)" ID="ID_14133518" CREATED="1558087888189" MODIFIED="1558087905141"/>
+<node TEXT="&#x6216; my_coro.send(None)" ID="ID_1040139622" CREATED="1558087899568" MODIFIED="1558087919376"/>
+</node>
+</node>
+<node ID="ID_759035483" CREATED="1558087711716" MODIFIED="1558087711716"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      'GEN_RUNNING'&#12288;&#12288;&#21327;&#31243;&#27491;&#22312;&#25191;&#34892;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_545837706" CREATED="1558087711718" MODIFIED="1558087711718"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      'GEN_SUSPENDED' &#22312;yield&#34920;&#36798;&#24335;&#22788;&#26242;&#20572;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT=" &#x5f53;&#x534f;&#x7a0b;&#x5904;&#x4e8e;&#x6682;&#x505c;&#x72b6;&#x6001;&#x65f6;&#x624d;&#x80fd;&#x8c03;&#x7528; send()&#x65b9;&#x6cd5;" ID="ID_243427688" CREATED="1558087763936" MODIFIED="1558087765951"/>
+</node>
+<node ID="ID_874875872" CREATED="1558087711719" MODIFIED="1558087711719"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      'GEN_CLOSED' &#12288;&#12288;&#25191;&#34892;&#32467;&#26463;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="asyncio" ID="ID_1213247930" CREATED="1558086068129" MODIFIED="1558086072030">
+<node TEXT="asyncio" ID="ID_252393981" CREATED="1558420459827" MODIFIED="1558420463543">
+<node TEXT=" &#x4e00;&#x4e2a;&#x57fa;&#x4e8e;&#x4e8b;&#x4ef6;&#x5faa;&#x73af;&#x7684;&#x5f02;&#x6b65;IO&#x6a21;&#x5757;" ID="ID_1799829164" CREATED="1558420497722" MODIFIED="1558420499338"/>
+<node TEXT=" &#x5b9e;&#x73b0;&#x534f;&#x7a0b;&#x6765;&#x5b8c;&#x6210;&#x5f02;&#x6b65;IO&#x64cd;&#x4f5c;" ID="ID_996768980" CREATED="1558420479661" MODIFIED="1558420481481">
+<node TEXT=" &#x4ece;asyncio&#x6a21;&#x5757;&#x4e2d;&#x76f4;&#x63a5;&#x83b7;&#x53d6;&#x4e00;&#x4e2a;EventLoop&#x7684;&#x5f15;&#x7528;" ID="ID_1612312602" CREATED="1558422814139" MODIFIED="1558422815394"/>
+<node TEXT="&#x628a;&#x9700;&#x8981;&#x6267;&#x884c;&#x7684;&#x534f;&#x7a0b;&#x6254;&#x5230;EventLoop&#x4e2d;&#x6267;&#x884c;" ID="ID_1889371246" CREATED="1558422816171" MODIFIED="1558422824451"/>
+</node>
+<node TEXT="&#x4f7f;&#x7528;&#x53ef;&#x5206;&#x4e09;&#x6b65;&#x8d70;" ID="ID_961219216" CREATED="1558422578447" MODIFIED="1558422587179">
+<node TEXT="&#x521b;&#x5efa;&#x4e8b;&#x4ef6;&#x5faa;&#x73af;" ID="ID_826371755" CREATED="1558422600128" MODIFIED="1558422602641">
+<node TEXT=" asyncio.get_event_loop()" ID="ID_956770458" CREATED="1558422625051" MODIFIED="1558422626033"/>
+</node>
+<node ID="ID_14892148" CREATED="1558422600129" MODIFIED="1558422600129"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25351;&#23450;&#24490;&#29615;&#27169;&#24335;&#24182;&#36816;&#34892;
+    </p>
+  </body>
+</html>
 
 </richcontent>
+<node TEXT=" run_until_complete()&#x65b9;&#x6cd5;" ID="ID_418838594" CREATED="1558422641939" MODIFIED="1558422643294">
+<node TEXT=" &#x5185;&#x7f6e;add_done_callback&#x56de;&#x8c03;&#x51fd;&#x6570;" ID="ID_1719733788" CREATED="1558422660506" MODIFIED="1558422661513"/>
+</node>
+<node TEXT=" run_forever()&#x65b9;&#x6cd5;" ID="ID_1855153776" CREATED="1558422649235" MODIFIED="1558422650187">
+<node TEXT=" &#x53ef;&#x4ee5;&#x81ea;&#x5b9a;&#x4e49;add_done_callback()" ID="ID_515814293" CREATED="1558422669500" MODIFIED="1558422670418"/>
+</node>
+</node>
+<node ID="ID_599082552" CREATED="1558422600137" MODIFIED="1558422600137"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20851;&#38381;&#24490;&#29615;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT=" @asyncio.coroutine" ID="ID_945654890" CREATED="1558086248926" MODIFIED="1558086250631">
+<node TEXT="&#x7528;&#x4e8e;&#x5c06;&#x4e00;&#x4e2a;&#x751f;&#x6210;&#x5668;&#x58f0;&#x660e;&#x4e3a;&#x534f;&#x7a0b;" ID="ID_284408651" CREATED="1558088041313" MODIFIED="1558088045679"/>
+<node TEXT=" &#x628a;&#x4e00;&#x4e2a;generator&#x6807;&#x8bb0;&#x4e3a;coroutine&#x7c7b;&#x578b;" ID="ID_313083361" CREATED="1558086256392" MODIFIED="1558086257744"/>
+<node TEXT="&#x5c31;&#x53ef;&#x4ee5;&#x628a;&#x8fd9;&#x4e2a;coroutine&#x6254;&#x5230;EventLoop&#x4e2d;&#x6267;&#x884c;" ID="ID_1857320505" CREATED="1558086258338" MODIFIED="1558086272059"/>
+</node>
+<node TEXT=" yield from" ID="ID_290580274" CREATED="1558088053562" MODIFIED="1558088054641">
+<node TEXT="&#x7b49;&#x5f85;&#x53e6;&#x5916;&#x4e00;&#x4e2a;&#x534f;&#x7a0b;&#x7684;&#x8fd4;&#x56de;" ID="ID_748970391" CREATED="1558088061513" MODIFIED="1558420606585"/>
+<node TEXT="yield from &#x4e0e; yield" ID="ID_766968965" CREATED="1558420586948" MODIFIED="1558420598043">
+<node ID="ID_1984424323" CREATED="1558088137111" MODIFIED="1558088137111"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">func</font></span>():<br/>    <span style="color: #cc7832"><font color="#cc7832">for </font></span>i <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #8888c6"><font color="#8888c6">range</font></span>(<span style="color: #6897bb"><font color="#6897bb">10</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">yield </font></span>i<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #8888c6"><font color="#8888c6">list</font></span>(func()))</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1942507784" CREATED="1558088144597" MODIFIED="1558088144597"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">func</font></span>():<br/>    <span style="color: #cc7832"><font color="#cc7832">yield from </font></span><span style="color: #8888c6"><font color="#8888c6">range</font></span>(<span style="color: #6897bb"><font color="#6897bb">10</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #8888c6"><font color="#8888c6">list</font></span>(func()))</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x4f8b;&#x5b50;" ID="ID_331857573" CREATED="1558421944704" MODIFIED="1558421949095">
+<node TEXT=" yield from&#x5c06;&#x534f;&#x7a0b;asyncio.sleep()&#x7684;&#x63a7;&#x5236;&#x6743;&#x4ea4;&#x7ed9;&#x4e8b;&#x4ef6;&#x5faa;&#x73af;" ID="ID_367560743" CREATED="1558422391458" MODIFIED="1558423137232">
+<node TEXT="&#x76f4;&#x63a5;&#x4e2d;&#x65ad;" ID="ID_1319561549" CREATED="1558422949013" MODIFIED="1558422978840">
+<node TEXT=" &#x7136;&#x540e;&#x6302;&#x8d77;&#x5f53;&#x524d;&#x534f;&#x7a0b;" ID="ID_767014768" CREATED="1558422420871" MODIFIED="1558422422561"/>
+</node>
+<node TEXT="&#x6267;&#x884c;&#x4e0b;&#x4e00;&#x4e2a;&#x5faa;&#x73af;" ID="ID_1970706822" CREATED="1558422924434" MODIFIED="1558422939425">
+<node TEXT="&#x53bb;&#x6267;&#x884c;EventLoop&#x4e2d;&#x5176;&#x4ed6;&#x53ef;&#x4ee5;&#x6267;&#x884c;&#x7684;coroutine&#x4e86;&#xff0c;&#x56e0;&#x6b64;&#x53ef;&#x4ee5;&#x5b9e;&#x73b0;&#x5e76;&#x53d1;&#x6267;&#x884c;" ID="ID_929619169" CREATED="1558422906628" MODIFIED="1558423044874"/>
+<node TEXT=" &#x591a;&#x4e2a;coroutine&#x5c31;&#x53ef;&#x4ee5;&#x7531;&#x4e00;&#x4e2a;&#x7ebf;&#x7a0b;&#x5e76;&#x53d1;&#x6267;&#x884c;" ID="ID_1655744063" CREATED="1558423223190" MODIFIED="1558423224425"/>
+</node>
+<node TEXT="&#x5f53;asyncio.sleep()&#x8fd4;&#x56de;&#x65f6;" ID="ID_1382149143" CREATED="1558422993264" MODIFIED="1558423007491">
+<node TEXT="&#x4ece;yield from&#x62ff;&#x5230;&#x8fd4;&#x56de;&#x503c;" ID="ID_243533120" CREATED="1558422981379" MODIFIED="1558422992466"/>
+<node TEXT=" &#x6267;&#x884c;&#x4e0b;&#x4e00;&#x884c;&#x8bed;&#x53e5;" ID="ID_1682207153" CREATED="1558423015864" MODIFIED="1558423016866"/>
+</node>
+</node>
+<node ID="ID_1572606465" CREATED="1558422132930" MODIFIED="1558422132930"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>asyncio<br/><span style="color: #cc7832"><font color="#cc7832">import </font></span>datetime<br/><br/><span style="color: #bbb529"><font color="#bbb529">@asyncio.coroutine  </font></span><span style="color: #808080"><font color="#808080"># &#22768;&#26126;&#19968;&#20010;&#21327;&#31243;<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">display_date</font></span>(num<span style="color: #cc7832"><font color="#cc7832">, </font></span>loop):<br/>    end_time = loop.time() + <span style="color: #6897bb"><font color="#6897bb">10.0<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font><span style="color: #cc7832"><font color="#cc7832">while True</font></span>:<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">&quot;Loop: {} Time: {}&quot;</font></span>.format(num<span style="color: #cc7832"><font color="#cc7832">, </font></span>datetime.datetime.now()))<br/>        <span style="color: #cc7832"><font color="#cc7832">if </font></span>(loop.time() + <span style="color: #6897bb"><font color="#6897bb">1.0</font></span>) &gt;= end_time:<br/>            <span style="color: #cc7832"><font color="#cc7832">break<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        yield from </span></font>asyncio.sleep(<span style="color: #6897bb"><font color="#6897bb">2</font></span>)  <span style="color: #808080"><font color="#808080"># &#38459;&#22622;&#30452;&#21040;&#21327;&#31243;sleep(2)&#36820;&#22238;&#32467;&#26524;<br/></font></span>loop = asyncio.get_event_loop()  <span style="color: #808080"><font color="#808080"># &#33719;&#21462;&#19968;&#20010;event_loop<br/></font></span>tasks = [display_date(<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>loop)<span style="color: #cc7832"><font color="#cc7832">, </font></span>display_date(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>loop)]<br/>loop.run_until_complete(asyncio.gather(*tasks))  <span style="color: #808080"><font color="#808080"># &quot;&#38459;&#22622;&quot;&#30452;&#21040;&#25152;&#26377;&#30340;tasks&#23436;&#25104;<br/></font></span>loop.close()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="asyncio.sleep(2)" ID="ID_527954950" CREATED="1558422135432" MODIFIED="1558422151442">
+<node TEXT="&#x6a21;&#x62df;&#x7684;&#x5176;&#x5b9e;&#x5c31;&#x662f;&#x4e00;&#x4e2a;&#x8017;&#x65f6;2&#x79d2;&#x7684;IO&#x8bfb;&#x5199;&#x64cd;&#x4f5c;" ID="ID_503090913" CREATED="1558422152853" MODIFIED="1558422193725"/>
+</node>
+</node>
+</node>
+<node TEXT="async await" ID="ID_22909379" CREATED="1558422462283" MODIFIED="1558422470074">
+<node TEXT=" &#x4f7f;&#x7528;async&#x4ee3;&#x66ff;@asyncio.coroutine" ID="ID_229805403" CREATED="1558422478143" MODIFIED="1558422483733"/>
+<node TEXT="&#x4f7f;&#x7528;await&#x4ee3;&#x66ff;yield from" ID="ID_1081332907" CREATED="1558422484456" MODIFIED="1558422492028"/>
+<node ID="ID_1816472600" CREATED="1558422561706" MODIFIED="1558422561706"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>asyncio<br/><span style="color: #cc7832"><font color="#cc7832">import </font></span>datetime<br/><br/><span style="color: #cc7832"><font color="#cc7832">async def </font></span><span style="color: #ffc66d"><font color="#ffc66d">display_date</font></span>(num<span style="color: #cc7832"><font color="#cc7832">, </font></span>loop):      <span style="color: #808080"><font color="#808080"># &#27880;&#24847;&#36825;&#19968;&#34892;&#30340;&#20889;&#27861;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>end_time = loop.time() + <span style="color: #6897bb"><font color="#6897bb">10.0<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font><span style="color: #cc7832"><font color="#cc7832">while True</font></span>:<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">f&quot;Loop: </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>num<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759"> Time: </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>datetime.datetime.now()<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">&quot;</font></span>)<br/>        <span style="color: #cc7832"><font color="#cc7832">if </font></span>(loop.time() + <span style="color: #6897bb"><font color="#6897bb">1.0</font></span>) &gt;= end_time:<br/>            <span style="color: #cc7832"><font color="#cc7832">break<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        await </span></font>asyncio.sleep(<span style="color: #6897bb"><font color="#6897bb">2</font></span>)  <span style="color: #808080"><font color="#808080"># &#38459;&#22622;&#30452;&#21040;&#21327;&#31243;sleep(2)&#36820;&#22238;&#32467;&#26524;<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>loop = asyncio.get_event_loop()  <span style="color: #808080"><font color="#808080"># &#33719;&#21462;&#19968;&#20010;event_loop<br/></font></span>tasks = [display_date(<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>loop)<span style="color: #cc7832"><font color="#cc7832">, </font></span>display_date(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>loop)]<br/>loop.run_until_complete(asyncio.gather(*tasks))  <span style="color: #808080"><font color="#808080"># &quot;&#38459;&#22622;&quot;&#30452;&#21040;&#25152;&#26377;&#30340;tasks&#23436;&#25104;<br/></font></span>loop.close()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
