@@ -3,7 +3,7 @@
 <node TEXT="Django_Self" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1548828499643" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -695,7 +695,7 @@
 <node TEXT="ManyToManyField" ID="ID_1894459854" CREATED="1551857448886" MODIFIED="1551859921476"/>
 <node TEXT=" &#x591a;&#x5bf9;&#x591a;&#x7684;&#x5b57;&#x6bb5;&#x53ef;&#x4ee5;&#x5b9a;&#x4e49;&#x5728;&#x4efb;&#x4f55;&#x7684;&#x4e00;&#x65b9;&#xff0c;&#x4f46;&#x4e0d;&#x8981;&#x540c;&#x65f6;&#x90fd;&#x5b9a;&#x4e49;&#x3002;&#x8bf7;&#x5c3d;&#x91cf;&#x5b9a;&#x4e49;&#x5728;&#x7b26;&#x5408;&#x4eba;&#x4eec;&#x601d;&#x7ef4;&#x4e60;&#x60ef;&#x7684;&#x4e00;&#x65b9;" ID="ID_224818719" CREATED="1551861845116" MODIFIED="1551861864699"/>
 <node TEXT="" ID="ID_1674901910" CREATED="1551862381092" MODIFIED="1551862381092">
-<node ID="ID_999014292" CREATED="1551862389169" MODIFIED="1551862389169"><richcontent TYPE="NODE">
+<node ID="ID_999014292" CREATED="1551862389169" MODIFIED="1559704315439"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -705,6 +705,7 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db <span style="color: #cc7832"><font color="#cc7832">import </font></span>models<br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>Person(models.Model):<br/>    friends = models.ManyToManyField(<span style="color: #6a8759"><font color="#6a8759">&quot;self&quot;</font></span>)</pre>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -717,6 +718,76 @@
 </node>
 <node TEXT="thorough" ID="ID_1056996269" CREATED="1551862897668" MODIFIED="1551862901721">
 <node TEXT="&#x7528;&#x4e8e;&#x5b9a;&#x4e49;&#x4e2d;&#x95f4;&#x8868;" ID="ID_1243464738" CREATED="1551862902972" MODIFIED="1551862911808"/>
+</node>
+<node TEXT="&#x7528;&#x6237;&#x4e0e;&#x7ec4;" ID="ID_1792839105" CREATED="1559701790262" MODIFIED="1559701814377">
+<node TEXT="&#x9ed8;&#x8ba4;&#x4e2d;&#x95f4;&#x8868;" ID="ID_773292108" CREATED="1559701814841" MODIFIED="1559701822827">
+<node TEXT="model" ID="ID_449792643" CREATED="1559701903494" MODIFIED="1559701910305">
+<node ID="ID_881388686" CREATED="1559701857887" MODIFIED="1559701857887"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Person(models.Model):<br/>    name = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">128</font></span>)<br/><br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>Group(models.Model):<br/>    name = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">128</font></span>)<br/>    members = models.ManyToManyField(Person)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x8868;" ID="ID_465824197" CREATED="1559701912920" MODIFIED="1559701916405">
+<node TEXT="app_person" ID="ID_157225741" CREATED="1559701930168" MODIFIED="1559701934836">
+<node TEXT="id" ID="ID_1352253579" CREATED="1559701959029" MODIFIED="1559701961595"/>
+<node TEXT="name" ID="ID_1406109715" CREATED="1559701962635" MODIFIED="1559701964669"/>
+</node>
+<node TEXT="app_group" ID="ID_1836446155" CREATED="1559701916623" MODIFIED="1559701929964">
+<node TEXT="id" ID="ID_313084695" CREATED="1559701968592" MODIFIED="1559701971484"/>
+<node TEXT="name" ID="ID_926223693" CREATED="1559701971813" MODIFIED="1559701973483"/>
+</node>
+<node TEXT="app_group_members" ID="ID_1859219190" CREATED="1559701935688" MODIFIED="1559701950528">
+<node TEXT="id" ID="ID_934089734" CREATED="1559701979514" MODIFIED="1559701980827"/>
+<node TEXT="group_id" ID="ID_1515758145" CREATED="1559701981056" MODIFIED="1559701990438"/>
+<node TEXT="person_id" ID="ID_974196448" CREATED="1559701990749" MODIFIED="1559701998802"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x81ea;&#x5b9a;&#x5b9a;&#x4e2d;&#x95f4;&#x8868;" ID="ID_1590047060" CREATED="1559702071378" MODIFIED="1559702083175">
+<node TEXT="&#x52a0;&#x5165;&#x989d;&#x5916;&#x5b57;&#x6bb5;&#xff0c;&#x4fdd;&#x5b58;&#x6570;&#x636e;" ID="ID_979399457" CREATED="1559702229046" MODIFIED="1559702256003"/>
+<node TEXT="model" ID="ID_1907758292" CREATED="1559702138492" MODIFIED="1559702140810">
+<node ID="ID_416450612" CREATED="1559702141714" MODIFIED="1559702141714"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Person(models.Model):<br/>    name = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">128</font></span>)<br/><br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>Group(models.Model):<br/>    name = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">128</font></span>)<br/>    members = models.ManyToManyField(Person<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">through</font></span>=<span style="color: #6a8759"><font color="#6a8759">'Membership'</font></span>)<br/><br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>Membership(models.Model):<br/>    person = models.ForeignKey(Person<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">on_delete</font></span>=models.CASCADE)<br/>    group = models.ForeignKey(Group<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">on_delete</font></span>=models.CASCADE)<br/>    date_joined = models.DateField()        <span style="color: #808080"><font color="#808080"># &#36827;&#32452;&#26102;&#38388;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>invite_reason = models.CharField(<span style="color: #aa4926"><font color="#aa4926">max_length</font></span>=<span style="color: #6897bb"><font color="#6897bb">64</font></span>)  <span style="color: #808080"><font color="#808080"># &#36992;&#35831;&#21407;&#22240;</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x8868;" ID="ID_855971240" CREATED="1559702142761" MODIFIED="1559702150396">
+<node TEXT="app_person" ID="ID_219752175" CREATED="1559701930168" MODIFIED="1559701934836">
+<node TEXT="id" ID="ID_1230388632" CREATED="1559701959029" MODIFIED="1559701961595"/>
+<node TEXT="name" ID="ID_74227083" CREATED="1559701962635" MODIFIED="1559701964669"/>
+</node>
+<node TEXT="app_group" ID="ID_413012786" CREATED="1559701916623" MODIFIED="1559701929964">
+<node TEXT="id" ID="ID_1684838618" CREATED="1559701968592" MODIFIED="1559701971484"/>
+<node TEXT="name" ID="ID_451607238" CREATED="1559701971813" MODIFIED="1559701973483"/>
+</node>
+<node TEXT="app_group_members" ID="ID_1336897767" CREATED="1559701935688" MODIFIED="1559701950528">
+<node TEXT="id" ID="ID_1340043740" CREATED="1559701979514" MODIFIED="1559701980827"/>
+<node TEXT="group_id" ID="ID_283429363" CREATED="1559701981056" MODIFIED="1559701990438"/>
+<node TEXT="person_id" ID="ID_971517660" CREATED="1559701990749" MODIFIED="1559701998802"/>
+<node TEXT="date_joined" ID="ID_443575990" CREATED="1559702162529" MODIFIED="1559702183542"/>
+<node TEXT="invite_reason" ID="ID_1311813748" CREATED="1559702183798" MODIFIED="1559702189221"/>
+</node>
+</node>
+<node TEXT="&#x4e0e;&#x666e;&#x901a;&#x7684;&#x591a;&#x5bf9;&#x591a;&#x4e0d;&#x4e00;&#x6837;&#xff0c;&#x4f7f;&#x7528;&#x81ea;&#x5b9a;&#x4e49;&#x4e2d;&#x95f4;&#x8868;&#x7684;&#x591a;&#x5bf9;&#x591a;&#x4e0d;&#x80fd;&#x4f7f;&#x7528;add(), create(),remove(),&#x548c;set()&#x65b9;&#x6cd5;&#x6765;&#x521b;&#x5efa;&#x3001;&#x5220;&#x9664;&#x5173;&#x7cfb;" ID="ID_457514396" CREATED="1559702326925" MODIFIED="1559704058284"/>
+</node>
 </node>
 </node>
 </node>
@@ -1154,7 +1225,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET = <span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET.copy()<br/><span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET[<span style="color: #6a8759"><font color="#6a8759">'foo'</font></span>] = <span style="color: #6a8759"><font color="#6a8759">'bar'</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1170,7 +1240,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">query_params = {k.lower(): v <span style="color: #cc7832"><font color="#cc7832">for </font></span>k<span style="color: #cc7832"><font color="#cc7832">, </font></span>v <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.request.query_params.items()}<br/><span style="color: #94558d"><font color="#94558d">self</font></span>.request.query_params._mutable = <span style="color: #cc7832"><font color="#cc7832">True<br/></font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.request.query_params.update(query_params)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1187,7 +1256,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">get_parser_context</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>http_request):<font color="#629755"><i><span style="color: #629755; font-style: italic"><br/></span><span style="color: #629755; font-style: italic">    </span></i></font><span style="color: #6a8759"><font color="#6a8759">&quot;&quot;&quot;<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    &#23558;&#35831;&#27714;&#23383;&#27573;&#21442;&#25968;&#23545;&#22823;&#23567;&#20889;&#19981;&#25935;&#24863;<br/></span><span style="color: #6a8759">    &#65288;&#21516;&#26102;filter&#20013;&#30340;&#21442;&#25968;&#20063;&#35201;&#35774;&#20026;&#23567;&#20889;&#65292; &#21542;&#21017;&#22823;&#23567;&#20889;&#25935;&#24863;&#65289;<br/></span><span style="color: #6a8759">    &quot;&quot;&quot;<br/></span><span style="color: #6a8759">    </span></font><span style="color: #808080"><font color="#808080"># Note: Additionally `request` and `encoding` will also be added<br/></font></span><font color="#808080"><span style="color: #808080">    #       to the context by the Request object.<br/></span><span style="color: #808080"><br/></span><span style="color: #808080">    # &#23383;&#27573;&#21442;&#25968;&#36716;&#21270;&#20026;&#23567;&#20889;<br/></span><span style="color: #808080">    </span></font>lower_query_params = {k.lower(): v <span style="color: #cc7832"><font color="#cc7832">for </font></span>k<span style="color: #cc7832"><font color="#cc7832">, </font></span>v <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET.items()}<br/>    <span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET._mutable = <span style="color: #cc7832"><font color="#cc7832">True<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #94558d"><font color="#94558d">self</font></span>.request.GET.update(lower_query_params)<font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080"><br/></span><span style="color: #808080">    # &#21024;&#38500;META&#20013; 'page'&#23383;&#27573;&#30340;&#21464;&#31181;&#65292;&#22914; 'Page'<br/></span><span style="color: #808080">    # &#20027;&#35201;&#20026;&#20102;&#28165;&#38500;previous &#19982; next &#20043;&#20013;url&#30340;&#33039;&#21442;&#25968;<br/></span><span style="color: #808080">    </span></font>path_list = <span style="color: #94558d"><font color="#94558d">self</font></span>.request.META[<span style="color: #6a8759"><font color="#6a8759">'QUERY_STRING'</font></span>].split(<span style="color: #6a8759"><font color="#6a8759">'&amp;'</font></span>)<br/>    [path_list.remove(item) <span style="color: #cc7832"><font color="#cc7832">for </font></span>item <span style="color: #cc7832"><font color="#cc7832">in </font></span>path_list<br/>     <span style="color: #cc7832"><font color="#cc7832">if </font></span>item.lower().find(<span style="color: #6a8759"><font color="#6a8759">'page'</font></span>) != -<span style="color: #6897bb"><font color="#6897bb">1 </font></span><span style="color: #cc7832"><font color="#cc7832">and </font></span>item.find(<span style="color: #6a8759"><font color="#6a8759">'page'</font></span>) == -<span style="color: #6897bb"><font color="#6897bb">1</font></span>]<br/>    <span style="color: #94558d"><font color="#94558d">self</font></span>.request.META[<span style="color: #6a8759"><font color="#6a8759">'QUERY_STRING'</font></span>] = <span style="color: #6a8759"><font color="#6a8759">'&amp;'</font></span>.join(path_list)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #8888c6"><font color="#8888c6">super</font></span>().get_parser_context(http_request)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
