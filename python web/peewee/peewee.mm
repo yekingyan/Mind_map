@@ -3,7 +3,7 @@
 <node TEXT="peewee" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1560946903054" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -148,7 +148,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>peewee <span style="color: #cc7832"><font color="#cc7832">import </font></span>*<br/><br/>db = SqliteDatabase(<span style="color: #6a8759"><font color="#6a8759">'people.db'</font></span>)<br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>Person(Model):<br/>    name = CharField()<br/>    birthday = DateField()<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        database = db <span style="color: #808080"><font color="#808080"># This model uses the &quot;people.db&quot; database.</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6a21;&#x578b;&#x547d;&#x540d;&#x7528;&#x5355;&#x6570;&#xff0c;&#x547d;&#x540d;&#x4e3a;Person&#x800c;&#x4e0d;&#x662f;People" ID="ID_11702118" CREATED="1560947115085" MODIFIED="1560947137102"/>
@@ -164,7 +163,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>    database = db<br/>    table_name = <span style="color: #6a8759"><font color="#6a8759">'order_info'</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x82e5;&#x4e0d;&#x6307;&#x5b9a;&#x8868;&#x540d;&#xff0c;Peewee&#x5c06;&#x81ea;&#x52a8;&#x4ece;&#x7c7b;&#x540d;&#x4e2d;&#x63a8;&#x65ad;&#x51fa;&#x8868;&#x540d;" ID="ID_414472162" CREATED="1560947043880" MODIFIED="1560947101335"/>
@@ -181,7 +179,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Pet(Model):<br/>    owner = ForeignKeyField(Person<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">backref</font></span>=<span style="color: #6a8759"><font color="#6a8759">'pets'</font></span>)<br/>    name = CharField()<br/>    animal_type = CharField()<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">class </font></span>Meta:<br/>        database = db</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -208,7 +205,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>datetime <span style="color: #cc7832"><font color="#cc7832">import </font></span>date<br/>uncle_bob = Person(<span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'Bob'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">birthday</font></span>=date(<span style="color: #6897bb"><font color="#6897bb">1960</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">15</font></span>))<br/>uncle_bob.save() <span style="color: #808080"><font color="#808080"># bob is now stored in the database<br/></font></span><font color="#808080"><span style="color: #808080"># Returns: 1</span></font></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -223,7 +219,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">Bob.name = <span style="color: #6a8759"><font color="#6a8759">'Bob L.'<br/></font></span>Bob.save()<br/><span style="color: #808080"><font color="#808080"># Returns: 1</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -239,7 +234,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">grandma = Person.create(<span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'Grandma'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">birthday</font></span>=date(<span style="color: #6897bb"><font color="#6897bb">1935</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span>))<br/>herb = Person.create(<span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'Herb'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">birthday</font></span>=date(<span style="color: #6897bb"><font color="#6897bb">1950</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span>))</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -278,7 +272,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">query = (Pet<br/>         .select(Pet<span style="color: #cc7832"><font color="#cc7832">, </font></span>Person)<br/>         .join(Person)<br/>         .where(Pet.animal_type == <span style="color: #6a8759"><font color="#6a8759">'cat'</font></span>))</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" Pet.select().join(Person).where(Person.name == &apos;Bob&apos;)" ID="ID_534058696" CREATED="1560948034907" MODIFIED="1560948036038"/>
@@ -304,7 +297,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">d1940 = date(<span style="color: #6897bb"><font color="#6897bb">1940</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/>d1960 = date(<span style="color: #6897bb"><font color="#6897bb">1960</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/>query = (Person<br/>         .select()<br/>         .where((Person.birthday &lt; d1940) | (Person.birthday &gt; d1960)))</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -319,12 +311,56 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">query = (Person<br/>         .select()<br/>         .where(Person.birthday.between(d1940<span style="color: #cc7832"><font color="#cc7832">, </font></span>d1960)))</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x805a;&#x5408;" ID="ID_677218699" CREATED="1560948277089" MODIFIED="1560958584161"/>
+<node TEXT="&#x805a;&#x5408;" ID="ID_677218699" CREATED="1560948277089" MODIFIED="1560958584161">
+<node TEXT=" &#x5217;&#x51fa;&#x6240;&#x6709;&#x4eba;&#x548c;&#x4ed6;&#x4eec;&#x6709;&#x591a;&#x5c11;&#x5ba0;&#x7269;" ID="ID_1881500403" CREATED="1561469925682" MODIFIED="1561469926740">
+<node TEXT=" for person in Person.select():&#xa;    print(person.name, person.pets.count(), &apos;pets&apos;)" ID="ID_903774785" CREATED="1561469930580" MODIFIED="1561469931619"/>
+<node TEXT="&#x7528;join&#x89e3;&#x51b3;N + 1&#x67e5;&#x8be2;&#x884c;&#x4e3a;" ID="ID_184329992" CREATED="1561469972715" MODIFIED="1561470000173"/>
+<node ID="ID_617460300" CREATED="1561470043217" MODIFIED="1561470043217"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"> query = (Person<br/>         .select(Person<span style="color: #cc7832"><font color="#cc7832">, </font></span>fn.COUNT(Pet.id).alias(<span style="color: #6a8759"><font color="#6a8759">'pet_count'</font></span>))<br/>         .join(Pet<span style="color: #cc7832"><font color="#cc7832">, </font></span>JOIN.LEFT_OUTER)  <span style="color: #808080"><font color="#808080"># include people without pets.<br/></font></span><font color="#808080"><span style="color: #808080">         </span></font>.group_by(Person)<br/>         .order_by(Person.name))<br/><br/><span style="color: #cc7832"><font color="#cc7832">for </font></span>person <span style="color: #cc7832"><font color="#cc7832">in </font></span>query:<br/>    <span style="color: #808080"><font color="#808080"># &quot;pet_count&quot; becomes an attribute on the returned model instances.<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font><span style="color: #8888c6"><font color="#8888c6">print</font></span>(person.name<span style="color: #cc7832"><font color="#cc7832">, </font></span>person.pet_count<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'pets'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="fn()" ID="ID_407945354" CREATED="1561470091671" MODIFIED="1561470102590">
+<node TEXT=" &#x5e2e;&#x52a9;&#x5668;fn()&#xff0c;&#x53ef;&#x4ee5;&#x7528;&#x6765;&#x8c03;&#x7528;&#x4efb;&#x4f55;SQL&#x51fd;&#x6570;" ID="ID_1799866095" CREATED="1561470111783" MODIFIED="1561470112835"/>
+<node TEXT=" &#x4f7f;&#x7528;SQL&#x51fd;&#x6570;&#x6765;&#x805a;&#x5408;&#x7ed3;&#x679c;" ID="ID_180972647" CREATED="1561470102879" MODIFIED="1561470104411"/>
+<node TEXT="fn.COUNT(Pet.id).alias(&apos;pet_count&apos;)  &#x5c06;&#x88ab;&#x7ffb;&#x8bd1;&#x6210; COUNT(pet.id) AS pet_count" ID="ID_1456827018" CREATED="1561470125419" MODIFIED="1561470198716"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x9884;&#x53d6;" ID="ID_194324936" CREATED="1561470209662" MODIFIED="1561470214479">
+<node TEXT="&#x591a;&#x5bf9;&#x4e00;&#x7528;jion" ID="ID_426306440" CREATED="1561470214646" MODIFIED="1561470234515"/>
+<node TEXT="&#x4e00;&#x5bf9;&#x591a;&#x7528;prefetch()" ID="ID_176834746" CREATED="1561470222271" MODIFIED="1561470242656">
+<node TEXT="query = Person.select().order_by(Person.name).prefetch(Pet)" ID="ID_1232845995" CREATED="1561470247564" MODIFIED="1561470249589"/>
+</node>
+</node>
+<node TEXT="SQL&#x51fd;&#x6570;" ID="ID_960603939" CREATED="1561470286571" MODIFIED="1561470293354">
+<node TEXT="&#x4f7f;&#x7528;SQL&#x51fd;&#x6570;&#x6765;&#x67e5;&#x627e;&#x540d;&#x79f0;&#x4ee5;&#x5927;&#x5199;&#x6216;&#x5c0f;&#x5199;G&#x5f00;&#x5934;&#x7684;&#x6240;&#x6709;&#x4eba;" ID="ID_27828480" CREATED="1561470293596" MODIFIED="1561470304564"/>
+<node ID="ID_9941231" CREATED="1561470317824" MODIFIED="1561470317824"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">expression = fn.Lower(fn.Substr(Person.name<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span>)) == <span style="color: #6a8759"><font color="#6a8759">'g'<br/></font></span><span style="color: #cc7832"><font color="#cc7832">for </font></span>person <span style="color: #cc7832"><font color="#cc7832">in </font></span>Person.select().where(expression):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(person.name)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>

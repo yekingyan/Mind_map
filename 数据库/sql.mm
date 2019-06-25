@@ -179,7 +179,7 @@
 <node TEXT="&#x4ea4;&#x53c9;&#x8fde;&#x63a5;&#xff08;cross join&#xff09;" ID="ID_1229178040" CREATED="1561109199790" MODIFIED="1561109214564">
 <node TEXT=" &#x8868; A &#x548c;&#x8868; B &#x4e0d;&#x5b58;&#x5728;&#x5173;&#x8054;&#x5b57;&#x6bb5;" ID="ID_1365927992" CREATED="1561109227012" MODIFIED="1561109227987"/>
 <node TEXT=" &#x8fd9;&#x65f6;&#x8868; A&#xff08;&#x5171;&#x6709; n &#x6761;&#x8bb0;&#x5f55;&#xff09;&#x4e0e;&#x8868; B &#xff08;&#x5171;&#x6709; m &#x6761;&#x8bb0;&#x5f55;&#xff09;&#x8fde;&#x63a5;&#x540e;&#xff0c;&#x4f1a;&#x4ea7;&#x751f;&#x4e00;&#x5f20;&#x5305;&#x542b; n x m &#x6761;&#x8bb0;&#x5f55;&#x7684;&#x65b0;&#x8868;" ID="ID_563037976" CREATED="1561109234976" MODIFIED="1561109236028"/>
-<node TEXT="" ID="ID_420473411" CREATED="1561109242137" MODIFIED="1561109245621">
+<node TEXT="&#x8fea;&#x5361;&#x5c14;&#x96c6;" ID="ID_420473411" CREATED="1561109242137" MODIFIED="1561109936446">
 <hook URI="sql_files/png_1836620359799118715.png" SIZE="0.55487454" NAME="ExternalObject"/>
 </node>
 </node>

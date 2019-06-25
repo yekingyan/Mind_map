@@ -3,7 +3,7 @@
 <node TEXT="&#x6307;&#x6807;" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1560929289232" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -149,6 +149,7 @@
 </node>
 </node>
 <node TEXT="&#x73af;&#x6bd4;" ID="ID_79837492" CREATED="1560929291213" MODIFIED="1560930941274">
+<node TEXT="&#x73af;&#x6bd4;&#x662f;&#x8fde;&#x7eed;(&#x65e0;&#x4efb;&#x4f55;&#x65f6;&#x95f4;&#x95f4;&#x9694;)2&#x4e2a;&#x5355;&#x4f4d;&#x5468;&#x671f;&#x5185;&#x7684;&#x91cf;&#x7684;&#x53d8;&#x5316;&#x6bd4;" ID="ID_1710062751" CREATED="1561379632574" MODIFIED="1561379670918"/>
 <node TEXT=" month-on-month" ID="ID_208070618" CREATED="1560931994704" MODIFIED="1560931996666">
 <node TEXT=" &#x5b63;&#x8282;&#x6027;&#x5bf9;&#x6570;&#x636e;&#x7684;&#x5f71;&#x54cd;&#x8f83;&#x5c0f;" ID="ID_940560824" CREATED="1560932650765" MODIFIED="1560932652145"/>
 </node>
@@ -159,6 +160,11 @@
 <node TEXT="&#x521d;&#x521b;&#x516c;&#x53f8;" ID="ID_1422301072" CREATED="1560932530123" MODIFIED="1560932562099"/>
 <node TEXT="&#x7edd;&#x5927;&#x591a;&#x6570;&#x8d39;&#x7528;&#x6570;&#x636e;&#xff0c;&#x4f8b;&#x5982;&#x6298;&#x65e7;&#x3001;&#x623f;&#x79df;&#x3001;&#x4fdd;&#x9669;&#x8d39;&#x7b49;" ID="ID_1335774399" CREATED="1560932562289" MODIFIED="1560932573914"/>
 </node>
+</node>
+<node TEXT="&#x540c;&#x6bd4;&#x5bf9;&#x6bd4;&#x73af;&#x6bd4;" ID="ID_565425739" CREATED="1561379803684" MODIFIED="1561379814944">
+<node TEXT="&#x73af;&#x6bd4;&#xff1a;&#x662f;&#x8fde;&#x7eed;2&#x4e2a;&#x5355;&#x4f4d;&#x5468;&#x671f;&#x5185;&#x7684;&#x91cf;&#x7684;&#x53d8;&#x5316;&#x6bd4;" ID="ID_914425545" CREATED="1561379826055" MODIFIED="1561379830166"/>
+<node TEXT="&#x540c;&#x6bd4;&#xff1a;&#x662f;&#x4e00;&#x4e2a;&#x5355;&#x4f4d;&#x5468;&#x671f;&#x5185;&#x548c;&#x53e6;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x5468;&#x671f;&#x7684;&#x540c;&#x4e00;&#x4e2a;&#x6bb5;&#x5468;&#x671f;&#x5185;&#x7684;&#x53d8;&#x5316;&#x6bd4;&#x3002;" ID="ID_908568737" CREATED="1561379833598" MODIFIED="1561379854670"/>
+<node TEXT=" &#x73af;&#x6bd4;&#x53ea;&#x6709;&#x4e00;&#x4e2a;&#xff0c;&#x540c;&#x6bd4;&#x5219;&#x56e0;&#x53c2;&#x7167;&#x91cf;&#xff08;&#x53e6;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x5468;&#x671f;&#xff09;&#x4e0d;&#x540c;&#x800c;&#x4e0d;&#x540c;&#xff0c;&#x6709;&#x591a;&#x4e2a;" ID="ID_1864557522" CREATED="1561379861473" MODIFIED="1561379863126"/>
 </node>
 <node TEXT="" ID="ID_512195276" CREATED="1560930996434" MODIFIED="1560931000490">
 <hook URI="&#x6307;&#x6807;_files/png_3473618757853625161.png" SIZE="0.8333333" NAME="ExternalObject"/>
