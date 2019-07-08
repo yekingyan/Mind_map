@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="113" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="114" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x4ea7;&#x54c1;" POSITION="right" ID="ID_87199611" CREATED="1561561338777" MODIFIED="1561561342142">
 <edge COLOR="#7c7c00"/>
@@ -489,6 +489,9 @@
 <edge COLOR="#00ff00"/>
 <node TEXT="app&#x521d;&#x59cb;&#x5316;&#x7684;&#x4f4d;&#x7f6e;&#x51b3;&#x5b9a;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#x7684;&#x6839;&#x76ee;&#x5f55;" ID="ID_343425666" CREATED="1561902633468" MODIFIED="1561902671831"/>
 <node TEXT=" app = Flask(__name__)&#x5728;&#x54ea;&#x91cc;&#x6267;&#x884c;&#xff0c;&#x54ea;&#x91cc;&#x5c31;&#x662f;&#x6839;&#x76ee;&#x5f55;&#xff0c;&#x5e76;&#x4e0d;&#x7b49;&#x540c;&#x9879;&#x76ee;&#x6839;&#x76ee;&#x5f55;" ID="ID_1289515649" CREATED="1561902672062" MODIFIED="1561902701485"/>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1003404323" CREATED="1562257723691" MODIFIED="1562257723702">
+<edge COLOR="#ff00ff"/>
 </node>
 </node>
 </map>
