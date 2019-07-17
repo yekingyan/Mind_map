@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="117" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="118" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="Q &#x4e0e; F" FOLDED="true" POSITION="right" ID="ID_4910678" CREATED="1548828720437" MODIFIED="1548829082239">
 <edge COLOR="#ff0000"/>
@@ -1484,7 +1484,7 @@
 <node TEXT="&#x91cd;&#x8f7d;add_arguments()&#x65b9;&#x6cd5;" ID="ID_664342504" CREATED="1562549204135" MODIFIED="1562549224280"/>
 </node>
 </node>
-<node TEXT="&#x4fe1;&#x53f7;&#x91cf;" POSITION="right" ID="ID_1082249840" CREATED="1562138834342" MODIFIED="1562138837842">
+<node TEXT="&#x4fe1;&#x53f7;&#x91cf;" FOLDED="true" POSITION="right" ID="ID_1082249840" CREATED="1562138834342" MODIFIED="1562138837842">
 <edge COLOR="#7c0000"/>
 <node TEXT="&#x7528;&#x5904;" ID="ID_83698350" CREATED="1562293835225" MODIFIED="1562293838516">
 <node TEXT="&#x6709;&#x52a9;&#x4e8e;&#x5728;&#x6846;&#x67b6;&#x4e2d;&#x7684;&#x5176;&#x4ed6;&#x4f4d;&#x7f6e;&#x53d1;&#x751f;&#x64cd;&#x4f5c;&#x65f6;&#x901a;&#x77e5;&#x5206;&#x79bb;&#x7684;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;" ID="ID_1097502530" CREATED="1562293839190" MODIFIED="1562293852268"/>
@@ -2026,6 +2026,9 @@
 <node TEXT="setting_changed" ID="ID_1620202365" CREATED="1562567063485" MODIFIED="1562567070921"/>
 </node>
 </node>
+</node>
+<node TEXT="django &#x4e8b;&#x52a1;" POSITION="right" ID="ID_839477497" CREATED="1563160953245" MODIFIED="1563160958108">
+<edge COLOR="#007c00"/>
 </node>
 </node>
 </map>
