@@ -137,6 +137,8 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="store" POSITION="right" ID="ID_1700964309" CREATED="1562640451500" MODIFIED="1562640457309">
 <edge COLOR="#7c007c"/>
+<node TEXT="Vuex &#x662f;&#x4e00;&#x4e2a;&#x4e13;&#x4e3a; Vue.js &#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#x5f00;&#x53d1;&#x7684;&#x72b6;&#x6001;&#x7ba1;&#x7406;&#x6a21;&#x5f0f;" ID="ID_1173163532" CREATED="1563413793395" MODIFIED="1563413802390"/>
+<node TEXT="Vuex &#x91c7;&#x7528;&#x96c6;&#x4e2d;&#x5f0f;&#x5b58;&#x50a8;&#x7ba1;&#x7406;&#x5e94;&#x7528;&#x7684;&#x6240;&#x6709;&#x7ec4;&#x4ef6;&#x7684;&#x72b6;&#x6001;&#xff0c;&#x5e76;&#x4ee5;&#x76f8;&#x5e94;&#x7684;&#x89c4;&#x5219;&#x4fdd;&#x8bc1;&#x72b6;&#x6001;&#x4ee5;&#x4e00;&#x79cd;&#x53ef;&#x9884;&#x6d4b;&#x7684;&#x65b9;&#x5f0f;&#x53d1;&#x751f;&#x53d8;&#x5316;" ID="ID_1344398913" CREATED="1563413803421" MODIFIED="1563413816494"/>
 <node TEXT=" &#x6bcf;&#x4e00;&#x4e2a; Vuex &#x5e94;&#x7528;&#x7684;&#x6838;&#x5fc3;&#x5c31;&#x662f; store&#xff08;&#x4ed3;&#x5e93;&#xff09;" ID="ID_1141969259" CREATED="1562640508996" MODIFIED="1562640510173"/>
 <node TEXT=" &#x662f;&#x4e00;&#x4e2a;&#x5bb9;&#x5668;&#xff0c;&#x5b83;&#x5305;&#x542b;&#x7740;&#x4f60;&#x7684;&#x5e94;&#x7528;&#x4e2d;&#x5927;&#x90e8;&#x5206;&#x7684;&#x72b6;&#x6001; (state)" ID="ID_846213375" CREATED="1562640471915" MODIFIED="1562640473373"/>
 </node>

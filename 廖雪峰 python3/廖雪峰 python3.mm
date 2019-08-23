@@ -3,7 +3,7 @@
 <node TEXT="&#x5ed6;&#x96ea;&#x5cf0; python3" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537888489239" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -545,7 +545,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x51fd;&#x6570;" POSITION="right" ID="ID_880255830" CREATED="1538154859321" MODIFIED="1538154862346">
+<node TEXT="&#x51fd;&#x6570;" FOLDED="true" POSITION="right" ID="ID_880255830" CREATED="1538154859321" MODIFIED="1538154862346">
 <edge COLOR="#007c7c"/>
 <node TEXT="&#x8c03;&#x7528;&#x51fd;&#x6570;" ID="ID_1280782097" CREATED="1538154894737" MODIFIED="1538154899642">
 <node TEXT="&#x67e5;&#x770b;&#x81ea;&#x5e26;&#x51fd;&#x6570;&#x7684;&#x5e2e;&#x52a9;&#x4fe1;&#x606f;" ID="ID_942053658" CREATED="1538154921109" MODIFIED="1538154930730">
@@ -673,7 +673,7 @@
 <node TEXT=" &#x7406;&#x8bba;&#x4e0a;&#xff0c;&#x6240;&#x6709;&#x7684;&#x9012;&#x5f52;&#x51fd;&#x6570;&#x90fd;&#x53ef;&#x4ee5;&#x5199;&#x6210;&#x5faa;&#x73af;&#x7684;&#x65b9;&#x5f0f;" ID="ID_41767003" CREATED="1538156149634" MODIFIED="1538156151363"/>
 </node>
 </node>
-<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;&#x7f16;&#x7a0b;" POSITION="right" ID="ID_1845505475" CREATED="1552640699195" MODIFIED="1552640707692">
+<node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;&#x7f16;&#x7a0b;" FOLDED="true" POSITION="right" ID="ID_1845505475" CREATED="1552640699195" MODIFIED="1552640707692">
 <edge COLOR="#7c7c00"/>
 <node TEXT=" &#x6982;&#x5ff5;" ID="ID_1992469518" CREATED="1552640728891" MODIFIED="1552640730707">
 <node TEXT="&#x9762;&#x5411;&#x5bf9;&#x8c61;&#x7f16;&#x7a0b;" ID="ID_758216714" CREATED="1552640734995" MODIFIED="1552640738660">
@@ -1023,7 +1023,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x6587;&#x6863;&#x6d4b;&#x8bd5;" ID="ID_1396242977" CREATED="1555509287413" MODIFIED="1555509299222">
+<node TEXT="&#x6587;&#x6863;&#x6d4b;&#x8bd5;" FOLDED="true" ID="ID_1396242977" CREATED="1555509287413" MODIFIED="1555509299222">
 <node TEXT=" Python&#x5185;&#x7f6e;&#x7684;&#x201c;&#x6587;&#x6863;&#x6d4b;&#x8bd5;&#x201d;&#xff08;doctest&#xff09;&#x6a21;&#x5757;&#x53ef;&#x4ee5;&#x76f4;&#x63a5;&#x63d0;&#x53d6;&#x6ce8;&#x91ca;&#x4e2d;&#x7684;&#x4ee3;&#x7801;&#x5e76;&#x6267;&#x884c;&#x6d4b;&#x8bd5;" ID="ID_1931558071" CREATED="1555509522836" MODIFIED="1555509524710"/>
 <node TEXT=" &#x901a;&#x8fc7;&#x67d0;&#x4e9b;&#x6587;&#x6863;&#x751f;&#x6210;&#x5de5;&#x5177;&#xff0c;&#x5c31;&#x53ef;&#x4ee5;&#x81ea;&#x52a8;&#x628a;&#x5305;&#x542b;doctest&#x7684;&#x6ce8;&#x91ca;&#x63d0;&#x53d6;&#x51fa;&#x6765;&#xff0c;&#x4f5c;&#x4e3a;&#x793a;&#x4f8b;&#x4ee3;&#x7801;" ID="ID_24785546" CREATED="1555509919705" MODIFIED="1555509930700"/>
 <node TEXT="&#x6d4b;&#x8bd5;&#x6b63;&#x5e38;" ID="ID_1463038037" CREATED="1555509467264" MODIFIED="1555509587433">
@@ -1687,7 +1687,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT=" run_until_complete()&#x65b9;&#x6cd5;" ID="ID_418838594" CREATED="1558422641939" MODIFIED="1558422643294">
 <node TEXT=" &#x5185;&#x7f6e;add_done_callback&#x56de;&#x8c03;&#x51fd;&#x6570;" ID="ID_1719733788" CREATED="1558422660506" MODIFIED="1558422661513"/>
@@ -1708,7 +1707,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1770,7 +1768,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>asyncio<br/><span style="color: #cc7832"><font color="#cc7832">import </font></span>datetime<br/><br/><span style="color: #bbb529"><font color="#bbb529">@asyncio.coroutine  </font></span><span style="color: #808080"><font color="#808080"># &#22768;&#26126;&#19968;&#20010;&#21327;&#31243;<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">display_date</font></span>(num<span style="color: #cc7832"><font color="#cc7832">, </font></span>loop):<br/>    end_time = loop.time() + <span style="color: #6897bb"><font color="#6897bb">10.0<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font><span style="color: #cc7832"><font color="#cc7832">while True</font></span>:<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">&quot;Loop: {} Time: {}&quot;</font></span>.format(num<span style="color: #cc7832"><font color="#cc7832">, </font></span>datetime.datetime.now()))<br/>        <span style="color: #cc7832"><font color="#cc7832">if </font></span>(loop.time() + <span style="color: #6897bb"><font color="#6897bb">1.0</font></span>) &gt;= end_time:<br/>            <span style="color: #cc7832"><font color="#cc7832">break<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        yield from </span></font>asyncio.sleep(<span style="color: #6897bb"><font color="#6897bb">2</font></span>)  <span style="color: #808080"><font color="#808080"># &#38459;&#22622;&#30452;&#21040;&#21327;&#31243;sleep(2)&#36820;&#22238;&#32467;&#26524;<br/></font></span>loop = asyncio.get_event_loop()  <span style="color: #808080"><font color="#808080"># &#33719;&#21462;&#19968;&#20010;event_loop<br/></font></span>tasks = [display_date(<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>loop)<span style="color: #cc7832"><font color="#cc7832">, </font></span>display_date(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>loop)]<br/>loop.run_until_complete(asyncio.gather(*tasks))  <span style="color: #808080"><font color="#808080"># &quot;&#38459;&#22622;&quot;&#30452;&#21040;&#25152;&#26377;&#30340;tasks&#23436;&#25104;<br/></font></span>loop.close()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="asyncio.sleep(2)" ID="ID_527954950" CREATED="1558422135432" MODIFIED="1558422151442">
@@ -1791,7 +1788,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>asyncio<br/><span style="color: #cc7832"><font color="#cc7832">import </font></span>datetime<br/><br/><span style="color: #cc7832"><font color="#cc7832">async def </font></span><span style="color: #ffc66d"><font color="#ffc66d">display_date</font></span>(num<span style="color: #cc7832"><font color="#cc7832">, </font></span>loop):      <span style="color: #808080"><font color="#808080"># &#27880;&#24847;&#36825;&#19968;&#34892;&#30340;&#20889;&#27861;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>end_time = loop.time() + <span style="color: #6897bb"><font color="#6897bb">10.0<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font><span style="color: #cc7832"><font color="#cc7832">while True</font></span>:<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">f&quot;Loop: </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>num<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759"> Time: </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>datetime.datetime.now()<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">&quot;</font></span>)<br/>        <span style="color: #cc7832"><font color="#cc7832">if </font></span>(loop.time() + <span style="color: #6897bb"><font color="#6897bb">1.0</font></span>) &gt;= end_time:<br/>            <span style="color: #cc7832"><font color="#cc7832">break<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        await </span></font>asyncio.sleep(<span style="color: #6897bb"><font color="#6897bb">2</font></span>)  <span style="color: #808080"><font color="#808080"># &#38459;&#22622;&#30452;&#21040;&#21327;&#31243;sleep(2)&#36820;&#22238;&#32467;&#26524;<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>loop = asyncio.get_event_loop()  <span style="color: #808080"><font color="#808080"># &#33719;&#21462;&#19968;&#20010;event_loop<br/></font></span>tasks = [display_date(<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>loop)<span style="color: #cc7832"><font color="#cc7832">, </font></span>display_date(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>loop)]<br/>loop.run_until_complete(asyncio.gather(*tasks))  <span style="color: #808080"><font color="#808080"># &quot;&#38459;&#22622;&quot;&#30452;&#21040;&#25152;&#26377;&#30340;tasks&#23436;&#25104;<br/></font></span>loop.close()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

@@ -3,7 +3,7 @@
 <node TEXT="flask&#x9c7c;&#x4e66;" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1561797571916" STYLE="bubble" VGAP_QUANTITY="6.8999999999999995 pt">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="115" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="119" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x4ea7;&#x54c1;" POSITION="right" ID="ID_87199611" CREATED="1561561338777" MODIFIED="1561561342142">
 <edge COLOR="#7c7c00"/>
@@ -238,7 +238,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x914d;&#x7f6e;&#x6587;&#x4ef6;" POSITION="right" ID="ID_1511224408" CREATED="1561566044026" MODIFIED="1561566050379">
+<node TEXT="&#x914d;&#x7f6e;&#x6587;&#x4ef6;" FOLDED="true" POSITION="right" ID="ID_1511224408" CREATED="1561566044026" MODIFIED="1561566050379">
 <edge COLOR="#7c0000"/>
 <node TEXT="form_object &#x6240;&#x8bfb;&#x914d;&#x7f6e;&#x4e2d;&#x7684;key&#x5fc5;&#x987b;&#x5168;&#x90e8;&#x5927;&#x5199;" ID="ID_838969689" CREATED="1561566196047" MODIFIED="1561566292353"/>
 <node TEXT="secure.py" ID="ID_807141904" CREATED="1561566050560" MODIFIED="1562834449064">
@@ -249,7 +249,7 @@
 </node>
 <node TEXT="app.config.from_object(&apos;app.secure&apos;)&#xa;app.config.from_object(&apos;app.setting&apos;)&#xa;app.run(debug=app.config[&apos;DEBUG&apos;])" ID="ID_1739159892" CREATED="1561566057836" MODIFIED="1562834481987"/>
 </node>
-<node TEXT="&#x89c6;&#x56fe;" POSITION="right" ID="ID_1439517155" CREATED="1561562667569" MODIFIED="1561562827620">
+<node TEXT="&#x89c6;&#x56fe;" FOLDED="true" POSITION="right" ID="ID_1439517155" CREATED="1561562667569" MODIFIED="1561562827620">
 <edge COLOR="#0000ff"/>
 <node TEXT="view &#x5373;MVC&#x4e2d;&#x7684;Controller" ID="ID_1125876587" CREATED="1561563184548" MODIFIED="1561563211956"/>
 <node TEXT="&#x666e;&#x901a;&#x89c6;&#x56fe;" ID="ID_1680030894" CREATED="1561562827773" MODIFIED="1561562839807">
@@ -271,7 +271,7 @@
 <node TEXT="&#x53ef;&#x7ee7;&#x627f;&#xff0c;&#x5373;&#x590d;&#x7528;&#x6027;&#x9ad8;" ID="ID_1006424253" CREATED="1561563140774" MODIFIED="1561563157665"/>
 </node>
 </node>
-<node TEXT="&#x8def;&#x7531;&#x6ce8;&#x518c;&#x7684;&#x65b9;&#x6cd5;" POSITION="right" ID="ID_708912896" CREATED="1561564274091" MODIFIED="1561564283576">
+<node TEXT="&#x8def;&#x7531;&#x6ce8;&#x518c;&#x7684;&#x65b9;&#x6cd5;" FOLDED="true" POSITION="right" ID="ID_708912896" CREATED="1561564274091" MODIFIED="1561564283576">
 <edge COLOR="#00ffff"/>
 <node TEXT="&#x88c5;&#x9970;&#x5668;" ID="ID_247519015" CREATED="1561564283767" MODIFIED="1561564297496">
 <node TEXT=" @app.route(&apos;/hello/&apos;)" ID="ID_1730208943" CREATED="1561564306057" MODIFIED="1561564307411"/>
@@ -293,6 +293,28 @@
 <node TEXT="&#x4f7f;&#x7528;&#x57fa;&#x4e8e;&#x7c7b;&#x7684;&#x89c6;&#x56fe;&#xff0c;&#x662f;&#x5fc5;&#x9700;&#x7684;&#x6ce8;&#x518c;&#x65b9;&#x5f0f;" ID="ID_1809105475" CREATED="1561564464127" MODIFIED="1561564496172"/>
 </node>
 </node>
+<node TEXT="&#x8def;&#x7531;&#x539f;&#x7406;" FOLDED="true" POSITION="right" ID="ID_584659774" CREATED="1561646089216" MODIFIED="1561646099495">
+<edge COLOR="#007c7c"/>
+<node TEXT="rule &#x6307;&#x5411; endpoint&#xff0c;endpoint &#x6307;&#x5411;  view_func" ID="ID_619061323" CREATED="1561646925980" MODIFIED="1561646978218"/>
+<node TEXT="add_url_rule" ID="ID_1332324116" CREATED="1561646206018" MODIFIED="1562838525746">
+<node TEXT="rule" ID="ID_1914534946" CREATED="1561646701896" MODIFIED="1561646704940">
+<node TEXT="&#x5373;&#x88ab;&#x5b9a;&#x4e49;&#x7684;url&#x89c4;&#x5219;" ID="ID_1679166878" CREATED="1561646705533" MODIFIED="1561646800231"/>
+<node TEXT="rule&#x53ef;&#x4ee5;&#x4e0d;&#x6b62;&#x5339;&#x914d;&#x4e00;&#x6761;url&#xff0c;&#x52a8;&#x6001;&#x8def;&#x7531;" ID="ID_1244638385" CREATED="1561646732954" MODIFIED="1561646782301"/>
+<node TEXT="rule &#x5b58;&#x4e8e;url_map&#x4e2d;" ID="ID_1672717028" CREATED="1561646827117" MODIFIED="1561646849480">
+<node TEXT=" app.url_map.add(rule)" ID="ID_964139337" CREATED="1561646838935" MODIFIED="1561646861238"/>
+</node>
+</node>
+<node TEXT="url &#x4e0e; &#x89c6;&#x56fe;&#x51fd;&#x6570;&#x901a;&#x8fc7;endpoint&#x5bf9;&#x5e94;&#x8d77;&#x6765;" ID="ID_1301127899" CREATED="1561646099795" MODIFIED="1561646454002"/>
+</node>
+<node TEXT="endpoint" ID="ID_1187269873" CREATED="1561646217032" MODIFIED="1561646455378">
+<node TEXT="&#x901a;&#x8fc7;&#x7ed9;&#x8def;&#x7531;&#x51fd;&#x6570;&#x547d;&#x540d;&#xff0c;&#x6807;&#x5fd7;&#x89c6;&#x56fe;&#x51fd;&#x6570;" ID="ID_1873484984" CREATED="1561646253414" MODIFIED="1561646288662"/>
+<node TEXT="&#x7528;&#x4e8e;&#x53cd;&#x5411;&#x8def;&#x7531;, url_for()" ID="ID_1027030230" CREATED="1561646289284" MODIFIED="1561646561331"/>
+<node TEXT="&#x5b58;&#x4e8e;view_functions" ID="ID_961265956" CREATED="1561646297923" MODIFIED="1561646321279">
+<node TEXT=" app.view_functions[&apos;index&apos;] = index" ID="ID_1556552520" CREATED="1561646312970" MODIFIED="1561646319668"/>
+</node>
+<node TEXT="&#x6ca1;&#x6709;&#x6307;&#x5b9a;, &#x5c06;&#x7528;&#x89c6;&#x51fd;&#x6570;&#x540d;&#x4f5c;&#x4e3a;endpoint" ID="ID_1496655180" CREATED="1561646394052" MODIFIED="1561646448503"/>
+</node>
+</node>
 <node TEXT="&#x5373;&#x63d2;&#x89c6;&#x56fe;" POSITION="right" ID="ID_797727157" CREATED="1562834587944" MODIFIED="1562834594941">
 <edge COLOR="#00ffff"/>
 <node TEXT="View&#x7c7b;" ID="ID_1867308219" CREATED="1562834745471" MODIFIED="1562834751540">
@@ -307,7 +329,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>flask.views <span style="color: #cc7832"><font color="#cc7832">import </font></span>View<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>flask <span style="color: #cc7832"><font color="#cc7832">import </font></span>jsonify<br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>ShowUsers(View):<br/>    methods = [<span style="color: #6a8759"><font color="#6a8759">'GET'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'POST'</font></span>]<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">dispatch_request</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">if </font></span>request.method == <span style="color: #6a8759"><font color="#6a8759">'POST'</font></span>:<br/>            <span style="color: #cc7832"><font color="#cc7832">pass<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        return </span></font>jsonify({<span style="color: #6a8759"><font color="#6a8759">'data'</font></span>: <span style="color: #6897bb"><font color="#6897bb">3.1415</font></span>})<br/><br/>app.add_url_rule(<span style="color: #6a8759"><font color="#6a8759">'/users/'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">view_func</font></span>=ShowUsers.as_view(<span style="color: #6a8759"><font color="#6a8759">'show_users'</font></span>))</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="as_view" ID="ID_279953017" CREATED="1562837018938" MODIFIED="1562837025671">
@@ -329,13 +350,7 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>flask.views <span style="color: #cc7832"><font color="#cc7832">import </font></span>MethodView<br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>UserAPI(MethodView):<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">get</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        ...<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">post</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        ...<br/><br/>app.add_url_rule(<span style="color: #6a8759"><font color="#6a8759">'/users/'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">view_func</font></span>=UserAPI.as_view(<span style="color: #6a8759"><font color="#6a8759">'users'</font></span>))</pre>
   </body>
 </html>
-
 </richcontent>
-</node>
-<node TEXT=" &#x88c5;&#x9970;&#x89c6;&#x56fe;" ID="ID_1086555003" CREATED="1562837994409" MODIFIED="1562837995593">
-<node TEXT=" &#x4e0d;&#x80fd;&#x5728;&#x89c6;&#x56fe;&#x7684;&#x5404;&#x4e2a;&#x65b9;&#x6cd5;&#x4e0a;&#x4f7f;&#x7528;&#x5e38;&#x89c4;&#x89c6;&#x56fe;&#x88c5;&#x9970;&#x5668;" ID="ID_823139329" CREATED="1562837985649" MODIFIED="1562837987073"/>
-<node TEXT="&#x6216; view = user_required(UserAPI.as_view(&apos;users&apos;))" ID="ID_524738143" CREATED="1562838018517" MODIFIED="1562838034484"/>
-<node TEXT="&#x6216; decorators = [user_required]" ID="ID_1966967535" CREATED="1562838024101" MODIFIED="1562838029006"/>
 </node>
 <node TEXT="restful &#x98ce;&#x683c;" ID="ID_1824136245" CREATED="1562838153040" MODIFIED="1562838162062">
 <node ID="ID_1319459421" CREATED="1562838204865" MODIFIED="1562838204865"><richcontent TYPE="NODE">
@@ -348,7 +363,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>flask.views <span style="color: #cc7832"><font color="#cc7832">import </font></span>MethodView<br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>UserAPI(MethodView):<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">get</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>user_id):<br/>        <span style="color: #cc7832"><font color="#cc7832">if </font></span>user_id <span style="color: #cc7832"><font color="#cc7832">is None</font></span>:<br/>            <span style="color: #808080"><font color="#808080"># return a list of users<br/></font></span><font color="#808080"><span style="color: #808080">            </span></font><span style="color: #cc7832"><font color="#cc7832">pass<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        else</span></font>:<br/>            <span style="color: #808080"><font color="#808080"># expose a single user<br/></font></span><font color="#808080"><span style="color: #808080">            </span></font><span style="color: #cc7832"><font color="#cc7832">pass<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span><span style="color: #cc7832">    def </span></font><span style="color: #ffc66d"><font color="#ffc66d">post</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #808080"><font color="#808080"># create a new user<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #cc7832"><font color="#cc7832">pass<br/></font></span><font color="#cc7832"><span style="color: #cc7832"><br/></span><span style="color: #cc7832">    def </span></font><span style="color: #ffc66d"><font color="#ffc66d">delete</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>user_id):<br/>        <span style="color: #808080"><font color="#808080"># delete a single user<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font><span style="color: #cc7832"><font color="#cc7832">pass</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_917971550" CREATED="1562838287525" MODIFIED="1562838287525"><richcontent TYPE="NODE">
@@ -361,7 +375,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">register_api</font></span>(view<span style="color: #cc7832"><font color="#cc7832">, </font></span>endpoint<span style="color: #cc7832"><font color="#cc7832">, </font></span>url<span style="color: #cc7832"><font color="#cc7832">, </font></span>pk=<span style="color: #6a8759"><font color="#6a8759">'id'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>pk_type=<span style="color: #6a8759"><font color="#6a8759">'int'</font></span>):<br/>    view_func = view.as_view(endpoint)<br/>    app.add_url_rule(url<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">defaults</font></span>={pk: <span style="color: #cc7832"><font color="#cc7832">None</font></span>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                     </span></font><span style="color: #aa4926"><font color="#aa4926">view_func</font></span>=view_func<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">methods</font></span>=[<span style="color: #6a8759"><font color="#6a8759">'GET'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span>])<br/>    app.add_url_rule(url<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">view_func</font></span>=view_func<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">methods</font></span>=[<span style="color: #6a8759"><font color="#6a8759">'POST'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span>])<br/>    app.add_url_rule(<span style="color: #6a8759"><font color="#6a8759">'%s&lt;%s:%s&gt;' </font></span>% (url<span style="color: #cc7832"><font color="#cc7832">, </font></span>pk_type<span style="color: #cc7832"><font color="#cc7832">, </font></span>pk)<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">view_func</font></span>=view_func<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">                     </span></font><span style="color: #aa4926"><font color="#aa4926">methods</font></span>=[<span style="color: #6a8759"><font color="#6a8759">'GET'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'PUT'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'DELETE'</font></span>])</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1816698898" CREATED="1562838296081" MODIFIED="1562838296081"><richcontent TYPE="NODE">
@@ -374,10 +387,15 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">register_api(UserAPI<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'user_api'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'/users/'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">pk</font></span>=<span style="color: #6a8759"><font color="#6a8759">'user_id'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT=" &#x88c5;&#x9970;&#x89c6;&#x56fe;" ID="ID_1086555003" CREATED="1562837994409" MODIFIED="1562837995593">
+<node TEXT=" &#x4e0d;&#x80fd;&#x5728;&#x89c6;&#x56fe;&#x7684;&#x5404;&#x4e2a;&#x65b9;&#x6cd5;&#x4e0a;&#x4f7f;&#x7528;&#x5e38;&#x89c4;&#x89c6;&#x56fe;&#x88c5;&#x9970;&#x5668;" ID="ID_823139329" CREATED="1562837985649" MODIFIED="1562837987073"/>
+<node TEXT="&#x6216; view = user_required(UserAPI.as_view(&apos;users&apos;))" ID="ID_524738143" CREATED="1562838018517" MODIFIED="1562838034484"/>
+<node TEXT=" app.add_url_rule(&apos;/users/&apos;, view_func=view)" ID="ID_476132926" CREATED="1563954514514" MODIFIED="1563954517413"/>
+<node TEXT="&#x6216; &#x5728;MethodView&#x4e2d;&#x6307;&#x660e;&#x7c7b;&#x53d8;&#x91cf;decorators = [user_required]" ID="ID_1966967535" CREATED="1562838024101" MODIFIED="1563954555215"/>
 </node>
 </node>
 <node TEXT="&#x89c6;&#x56fe;&#x51fd;&#x6570;&#x7684;return" POSITION="right" ID="ID_106814486" CREATED="1561566656941" MODIFIED="1561566670349">
@@ -411,32 +429,9 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #bbb529"><font color="#bbb529">@app.route</font></span>(<span style="color: #6a8759"><font color="#6a8759">'/'</font></span>)<br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">index</font></span>():<br/>    headers = {<br/>        <span style="color: #6a8759"><font color="#6a8759">'content-type'</font></span>: <span style="color: #6a8759"><font color="#6a8759">'text/plain'<br/></font></span><font color="#6a8759"><span style="color: #6a8759">    </span></font>}<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #6a8759"><font color="#6a8759">'&lt;h1&gt;22&lt;/h1&gt;'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">404</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>headers</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4e5f;&#x80fd;&#x52a0;&#x5165;cookie" ID="ID_319822470" CREATED="1561567307940" MODIFIED="1561567313256"/>
-</node>
-</node>
-<node TEXT="&#x8def;&#x7531;&#x539f;&#x7406;" POSITION="right" ID="ID_584659774" CREATED="1561646089216" MODIFIED="1561646099495">
-<edge COLOR="#007c7c"/>
-<node TEXT="rule &#x6307;&#x5411; endpoint&#xff0c;endpoint &#x6307;&#x5411;  view_func" ID="ID_619061323" CREATED="1561646925980" MODIFIED="1561646978218"/>
-<node TEXT=" add_url_rule" ID="ID_1332324116" CREATED="1561646206018" MODIFIED="1561646207883">
-<node TEXT="rule" ID="ID_1914534946" CREATED="1561646701896" MODIFIED="1561646704940">
-<node TEXT="&#x5373;&#x88ab;&#x5b9a;&#x4e49;&#x7684;url&#x89c4;&#x5219;" ID="ID_1679166878" CREATED="1561646705533" MODIFIED="1561646800231"/>
-<node TEXT="rule&#x53ef;&#x4ee5;&#x4e0d;&#x6b62;&#x5339;&#x914d;&#x4e00;&#x6761;url&#xff0c;&#x52a8;&#x6001;&#x8def;&#x7531;" ID="ID_1244638385" CREATED="1561646732954" MODIFIED="1561646782301"/>
-<node TEXT="rule &#x5b58;&#x4e8e;url_map&#x4e2d;" ID="ID_1672717028" CREATED="1561646827117" MODIFIED="1561646849480">
-<node TEXT=" app.url_map.add(rule)" ID="ID_964139337" CREATED="1561646838935" MODIFIED="1561646861238"/>
-</node>
-</node>
-<node TEXT="url &#x4e0e; &#x89c6;&#x56fe;&#x51fd;&#x6570;&#x901a;&#x8fc7;endpoint&#x5bf9;&#x5e94;&#x8d77;&#x6765;" ID="ID_1301127899" CREATED="1561646099795" MODIFIED="1561646454002"/>
-</node>
-<node TEXT="endpoint" ID="ID_1187269873" CREATED="1561646217032" MODIFIED="1561646455378">
-<node TEXT="&#x901a;&#x8fc7;&#x7ed9;&#x8def;&#x7531;&#x51fd;&#x6570;&#x547d;&#x540d;&#xff0c;&#x6807;&#x5fd7;&#x89c6;&#x56fe;&#x51fd;&#x6570;" ID="ID_1873484984" CREATED="1561646253414" MODIFIED="1561646288662"/>
-<node TEXT="&#x7528;&#x4e8e;&#x53cd;&#x5411;&#x8def;&#x7531;, url_for()" ID="ID_1027030230" CREATED="1561646289284" MODIFIED="1561646561331"/>
-<node TEXT="&#x5b58;&#x4e8e;view_functions" ID="ID_961265956" CREATED="1561646297923" MODIFIED="1561646321279">
-<node TEXT=" app.view_functions[&apos;index&apos;] = index" ID="ID_1556552520" CREATED="1561646312970" MODIFIED="1561646319668"/>
-</node>
-<node TEXT="&#x6ca1;&#x6709;&#x6307;&#x5b9a;, &#x5c06;&#x7528;&#x89c6;&#x51fd;&#x6570;&#x540d;&#x4f5c;&#x4e3a;endpoint" ID="ID_1496655180" CREATED="1561646394052" MODIFIED="1561646448503"/>
 </node>
 </node>
 <node TEXT="wtform &#x8868;&#x5355;&#x68c0;&#x9a8c;" POSITION="right" ID="ID_1867840007" CREATED="1561793750802" MODIFIED="1561797569767">
@@ -492,20 +487,7 @@
 </node>
 <node TEXT="code first&#x4f8b;" ID="ID_1430441567" CREATED="1561801508100" MODIFIED="1561801793446">
 <node TEXT="&#x4f9d;&#x8d56;" ID="ID_32320560" CREATED="1561802910133" MODIFIED="1561802917177">
-<node ID="ID_1878426380" CREATED="1561802964707" MODIFIED="1561802964707"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Flask-SQLAlchemy
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
+<node TEXT="Flask-SQLAlchemy" ID="ID_1878426380" CREATED="1561802964707" MODIFIED="1563705692941"/>
 <node ID="ID_353454089" CREATED="1561802964707" MODIFIED="1561802964707"><richcontent TYPE="NODE">
 
 <html>
@@ -560,7 +542,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>flask <span style="color: #cc7832"><font color="#cc7832">import </font></span>Flask<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>app.models.book <span style="color: #cc7832"><font color="#cc7832">import </font></span>db<br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">create_app</font></span>():<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    &#24037;&#21378;&#20989;&#25968;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font>app = Flask(__name__)<br/>    app.config.from_object(<span style="color: #6a8759"><font color="#6a8759">'app.secure'</font></span>)<br/>    db.init_app(app)<br/>    db.create_all(<span style="color: #aa4926"><font color="#aa4926">app</font></span>=app)<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>app<br/></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -602,7 +583,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>flask_login <span style="color: #cc7832"><font color="#cc7832">import </font></span>LoginManager<br/><span style="color: #808080"><font color="#808080"><br/></font></span>login_manager = LoginManager()<br/>app = Flask(__name__)<br/>login_manager.init_app(app)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -629,7 +609,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">login_user(user<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">remember</font></span>=<span style="color: #cc7832"><font color="#cc7832">True, </font></span><span style="color: #aa4926"><font color="#aa4926">duration</font></span>=timedelta(<span style="color: #aa4926"><font color="#aa4926">days</font></span>=<span style="color: #6897bb"><font color="#6897bb">7</font></span>))</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -646,7 +625,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>flask_login <span style="color: #cc7832"><font color="#cc7832">import </font></span>UserMixin<br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>User(UserMixin<span style="color: #cc7832"><font color="#cc7832">, </font></span>Base):<br/>    id = Column(Integer<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">primary_key</font></span>=<span style="color: #cc7832"><font color="#cc7832">True</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="UserMixin&#x4e0b;&#x6709;&#x5f88;&#x591a;&#x65b9;&#x6cd5;&#x4f9b;flask_login&#x4f7f;&#x7528;&#xff0c;&#x7c7b;&#x4f3c;&#x4e8e;django&#x4e2d;  backends.ModelBackend&#x4e0b;&#x7684;&#x65b9;&#x6cd5;" ID="ID_414903428" CREATED="1562604870448" MODIFIED="1562604954395"/>
@@ -662,7 +640,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>flask_login <span style="color: #cc7832"><font color="#cc7832">import </font></span>login_user<br/>user = User.query.filter_by(<span style="color: #aa4926"><font color="#aa4926">email</font></span>=form.email.data).first()<br/><span style="color: #cc7832"><font color="#cc7832">if </font></span>user <span style="color: #cc7832"><font color="#cc7832">and </font></span>user.check_password(form.password.data):<br/>    login_user(user)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -680,7 +657,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>app <span style="color: #cc7832"><font color="#cc7832">import </font></span>login_manager<br/><span style="color: #808080"><font color="#808080"># login_manager = LoginManager()<br/></font></span><span style="color: #bbb529"><font color="#bbb529">@login_manager.user_loader<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">get_user</font></span>(user_id):<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>User.query.get(user_id)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -697,10 +673,184 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>flask_login <span style="color: #cc7832"><font color="#cc7832">import </font></span>login_required<br/><br/><span style="color: #bbb529"><font color="#bbb529">@web.route</font></span>(<span style="color: #6a8759"><font color="#6a8759">'/my/gifts'</font></span>)<br/><span style="color: #bbb529"><font color="#bbb529">@login_required<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">my_gifts</font></span>():<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #6a8759"><font color="#6a8759">'my gifts'</font></span></pre>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="SQLAlchemy&#x4e8b;&#x52a1;" POSITION="right" ID="ID_53894282" CREATED="1563705625401" MODIFIED="1563705705846">
+<edge COLOR="#7c0000"/>
+<node TEXT="&#x4e8b;&#x52a1;&#x63d0;&#x4ea4;" ID="ID_1574726223" CREATED="1563706892062" MODIFIED="1563706897932">
+<node TEXT="&#x591a;&#x8868;&#x64cd;&#x4f5c;&#xff0c;&#x7edf;&#x4e00;&#x6700;&#x540e;commit&#x4e8b;&#x52a1;" ID="ID_1679698904" CREATED="1563706708140" MODIFIED="1563706727810"/>
+<node TEXT="db.session.commit() &#x624d;&#x63d0;&#x4ea4;&#x6570;&#x636e;&#x5e93;" ID="ID_1143461966" CREATED="1563705630874" MODIFIED="1563706706999"/>
+</node>
+<node TEXT="&#x4e8b;&#x52a1;&#x56de;&#x6eda;" ID="ID_90218770" CREATED="1563706883303" MODIFIED="1563706888803">
+<node TEXT="&#x591a;&#x8868;&#x8bed;&#x53e5;&#x4e2d;&#x867d;&#x7136;&#x51fa;&#x9519;&#x6ca1;&#x6709;&#x63d0;&#x4ea4;&#x4e8b;&#x52a1;&#xff0c;&#x4f46;&#x5e76;&#x6ca1;&#x8fdb;&#x884c;&#x56de;&#x6eda;" ID="ID_1393895937" CREATED="1563706789735" MODIFIED="1563706881802"/>
+<node TEXT="&#x4e0a;&#x4e00;&#x6b21;&#x7684;&#x4e8b;&#x52a1;&#x63d0;&#x4ea4;&#x5931;&#x8d25;&#xff0c;&#x4f1a;&#x8ba9;&#x4e4b;&#x540e;&#x7684;&#x4e8b;&#x52a1;&#x63d0;&#x4ea4;&#x90fd;&#x5931;&#x8d25;" ID="ID_1227066592" CREATED="1563706942138" MODIFIED="1563706970326"/>
+<node TEXT="db.seeion.rollback" ID="ID_248410610" CREATED="1563706910154" MODIFIED="1563706920811"/>
+</node>
+</node>
+<node TEXT=" &#x4e0a;&#x4e0b;&#x6587;&#x7ba1;&#x7406;" POSITION="right" ID="ID_1830914235" CREATED="1563706787734" MODIFIED="1563707020805">
+<edge COLOR="#00007c"/>
+<node TEXT="&#x9b54;&#x672f;&#x65b9;&#x6cd5;&#x5b9e;&#x73b0;&#x7c7b;" ID="ID_420947844" CREATED="1563709604275" MODIFIED="1563709614527">
+<node ID="ID_1840932489" CREATED="1563710668960" MODIFIED="1563710673523"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>MyResource:<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__enter__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">&quot;&#36830;&#25509;&#36164;&#28304;&quot;</font></span>)<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">self<br/></font></span><font color="#94558d"><span style="color: #94558d"><br/></span><span style="color: #94558d">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__exit__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>exc_type<span style="color: #cc7832"><font color="#cc7832">, </font></span>exc_val<span style="color: #cc7832"><font color="#cc7832">, </font></span>exc_tb):<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">&quot;&#20851;&#38381;&#36164;&#28304;&quot;</font></span>)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">query</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'&#26597;&#35810;'</font></span>)<br/></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1080211856" CREATED="1563710681985" MODIFIED="1563710681985"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">with </font></span>MyResource() <span style="color: #cc7832"><font color="#cc7832">as </font></span>r:<br/>    r.query()<br/></pre>
+  </body>
+</html>
 
 </richcontent>
 </node>
 </node>
+<node TEXT="contextmanager" ID="ID_1836990744" CREATED="1563709627763" MODIFIED="1563709634486">
+<node TEXT="&#x7528;&#x5904;" ID="ID_108853388" CREATED="1563811867094" MODIFIED="1563811871591">
+<node TEXT="&#x53ef;&#x5c06;&#x975e;&#x4e0a;&#x4e0b;&#x6587;&#x7ba1;&#x7406;&#x5668;&#x7684;&#x7c7b;&#xff0c;&#x53d8;&#x6210;&#x4e0a;&#x4e0b;&#x6587;&#x7ba1;&#x7406;&#x5668;" ID="ID_1938923006" CREATED="1563811871919" MODIFIED="1563811896747"/>
+</node>
+<node ID="ID_836504038" CREATED="1563711862314" MODIFIED="1563711862314"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>MyResource:<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">query</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">'&#26597;&#35810;'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_622216503" CREATED="1563711871552" MODIFIED="1563711871552"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>contextlib <span style="color: #cc7832"><font color="#cc7832">import </font></span>contextmanager<br/><br/><span style="color: #bbb529"><font color="#bbb529">@contextmanager<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">make_myresource</font></span>():<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">&quot;&#36830;&#25509;&#36164;&#28304;&quot;</font></span>)<br/>    <span style="color: #cc7832"><font color="#cc7832">yield </font></span>MyResource()<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">&quot;&#20851;&#38381;&#36164;&#28304;&quot;</font></span>)<br/>    <br/>    <br/><span style="color: #cc7832"><font color="#cc7832">with </font></span>make_myresource() <span style="color: #cc7832"><font color="#cc7832">as </font></span>r:<br/>    r.query()<br/></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x62d3;&#x5c55;&#xff0c;&#x5728;&#x4ee3;&#x7801;&#x524d;&#x540e;&#x52a0;&#x6599;" ID="ID_816996169" CREATED="1563711877893" MODIFIED="1563811607063">
+<node ID="ID_1230823947" CREATED="1563811687877" MODIFIED="1563811687877"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>contextlib <span style="color: #cc7832"><font color="#cc7832">import </font></span>contextmanager<br/><br/><span style="color: #bbb529"><font color="#bbb529">@contextmanager<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">log</font></span>():<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">&quot;&#21069;&quot;</font></span>)<br/>    <span style="color: #cc7832"><font color="#cc7832">yield <br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font><span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">&quot;&#21518;&quot;</font></span>)<br/><br/><span style="color: #cc7832"><font color="#cc7832">with </font></span>log():<br/>    func()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x81ea;&#x52a8;&#x63d0;&#x4ea4;db&#xff0c;&#x62a5;&#x9519;&#x56de;&#x6eda;" ID="ID_102665733" CREATED="1563812472052" MODIFIED="1563812484273">
+<node TEXT="&#x539f;&#x59cb;" ID="ID_928736739" CREATED="1563812491837" MODIFIED="1563812494006">
+<node ID="ID_446932748" CREATED="1563812494879" MODIFIED="1563812494879"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>    gift = Gift()<br/>    gift.isbn = isbn<br/>    gift.user_id = current_user.id<br/>    current_user.beans += current_app.config[<span style="color: #6a8759"><font color="#6a8759">'BEANS_UPLOAD_ONE_BOOK'</font></span>]<br/>    db.session.add(gift)<br/>    <span style="color: #808080"><font color="#808080"># &#25191;&#34892;&#20107;&#21153;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>db.session.commit()<br/><span style="color: #cc7832"><font color="#cc7832">except </font></span><span style="color: #8888c6"><font color="#8888c6">Exception </font></span><span style="color: #cc7832"><font color="#cc7832">as </font></span>e:<br/>    <span style="color: #808080"><font color="#808080"># &#20107;&#21153;&#22238;&#28378;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>db.session.rollback()<br/>    <span style="color: #cc7832"><font color="#cc7832">raise </font></span>e</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x4e0a;&#x4e0b;&#x6587;" ID="ID_73601874" CREATED="1563812509095" MODIFIED="1563812513228">
+<node ID="ID_783925024" CREATED="1563812513840" MODIFIED="1563812524129"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>contextlib <span style="color: #cc7832"><font color="#cc7832">import </font></span>contextmanager<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>flask_sqlalchemy <span style="color: #cc7832"><font color="#cc7832">import </font></span>SQLAlchemy <span style="color: #cc7832"><font color="#cc7832">as </font></span>_SQLAlchemy<br/><br/><span style="color: #cc7832"><font color="#cc7832">class </font></span>SQLAlchemy(_SQLAlchemy):<br/>    <span style="color: #bbb529"><font color="#bbb529">@contextmanager<br/></font></span><font color="#bbb529"><span style="color: #bbb529">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">auto_commit</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>            <span style="color: #cc7832"><font color="#cc7832">yield<br/></font></span><font color="#cc7832"><span style="color: #cc7832">            </span></font><span style="color: #94558d"><font color="#94558d">self</font></span>.session.commit()<br/>        <span style="color: #cc7832"><font color="#cc7832">except </font></span><span style="color: #8888c6"><font color="#8888c6">Exception </font></span><span style="color: #cc7832"><font color="#cc7832">as </font></span>e:<br/>            <span style="color: #94558d"><font color="#94558d">self</font></span>.session.rollback()<br/>            <span style="color: #cc7832"><font color="#cc7832">raise </font></span>e<br/><br/>db = SQLAlchemy()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1695600910" CREATED="1563812556476" MODIFIED="1563812556476"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">with </font></span>db.auto_commit():<br/>    gift = Gift()<br/>    gift.isbn = isbn<br/>    gift.user_id = current_user.id<br/>    current_user.beans += current_app.config[<span style="color: #6a8759"><font color="#6a8759">'BEANS_UPLOAD_ONE_BOOK'</font></span>]<br/>    db.session.add(gift)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="MVC &#x4e0e; MVT" POSITION="right" ID="ID_1454569081" CREATED="1563893030265" MODIFIED="1563893039915">
+<edge COLOR="#007c00"/>
+<node TEXT="MVC" ID="ID_419160106" CREATED="1563893040251" MODIFIED="1563893041981">
+<node TEXT="M" ID="ID_813323153" CREATED="1563893045783" MODIFIED="1563893047262">
+<node TEXT="&#x6a21;&#x578b;&#x5c42; model" ID="ID_1022350836" CREATED="1563893058311" MODIFIED="1563893212408"/>
+<node TEXT="&#x6a21;&#x578b;&#x5c42;&#x4e0d;&#x662f;&#x5355;&#x662f;&#x6570;&#x636e;&#x5c42;" ID="ID_1834823767" CREATED="1563893215100" MODIFIED="1563893264936">
+<node TEXT="&#x6570;&#x636e;&#x6301;&#x4e45;&#x5316;&#x5c42;" ID="ID_1020258539" CREATED="1563893386017" MODIFIED="1563893415354"/>
+<node TEXT="&#x6570;&#x636e;&#x5c42;&#x7528;&#x4e8e;&#x4f7f;&#x7528;&#x4e0d;&#x540c;&#x7684;&#x6570;&#x636e;&#x5e93;&#xff0c;&#x7edf;&#x4e00;&#x8c03;&#x7528;&#x63a5;&#x53e3;" ID="ID_1118934592" CREATED="1563893418265" MODIFIED="1563893461464"/>
+<node TEXT="ORM&#x5df2;&#x7ecf;&#x5b8c;&#x6210;&#xff0c;&#x5bf9;&#x4e0d;&#x540c;&#x6570;&#x636e;&#x5e93;&#x7684;&#x63a5;&#x53e3;&#x7edf;&#x4e00;&#x5c01;&#x88c5;" ID="ID_1437987889" CREATED="1563893464277" MODIFIED="1563893489346"/>
+</node>
+<node TEXT="&#x4e1a;&#x52a1;&#x4ee3;&#x7801;&#x5e94;&#x5199;&#x5728;model&#x5c42;&#xff0c;&#x800c;&#x4e0d;&#x662f;&#x5199;&#x5728;controller" ID="ID_596926985" CREATED="1563893265202" MODIFIED="1563893344026"/>
+</node>
+<node TEXT="V" ID="ID_1257962716" CREATED="1563893048256" MODIFIED="1563893049934">
+<node TEXT="&#x89c6;&#x56fe;&#x5c42;" ID="ID_999922574" CREATED="1563893078280" MODIFIED="1563893115791"/>
+</node>
+<node TEXT="C" ID="ID_104528651" CREATED="1563893050210" MODIFIED="1563893050969">
+<node TEXT="&#x63a7;&#x5236;&#x5c42;" ID="ID_1765463552" CREATED="1563893124953" MODIFIED="1563893127838"/>
+</node>
+</node>
+<node TEXT="MVT" ID="ID_1284918081" CREATED="1563893042265" MODIFIED="1563893044308">
+<node TEXT="M" ID="ID_141456016" CREATED="1563893053229" MODIFIED="1563893054777">
+<node TEXT="&#x6a21;&#x578b;&#x5c42;" ID="ID_1278140905" CREATED="1563893071904" MODIFIED="1563893076928"/>
+</node>
+<node TEXT="V" ID="ID_885001728" CREATED="1563893054966" MODIFIED="1563893055716">
+<node TEXT="&#x63a7;&#x5236;&#x5c42;" ID="ID_829564511" CREATED="1563893124953" MODIFIED="1563893127838"/>
+</node>
+<node TEXT="T" ID="ID_1105529881" CREATED="1563893055915" MODIFIED="1563893056578">
+<node TEXT="&#x89c6;&#x56fe;&#x5c42;" ID="ID_468738347" CREATED="1563893099730" MODIFIED="1563893105879"/>
+</node>
+</node>
+</node>
+<node TEXT="filter_by() &#x4e0e; filter()" POSITION="right" ID="ID_825255468" CREATED="1563898621625" MODIFIED="1563898637058">
+<edge COLOR="#7c007c"/>
+<node TEXT="filter_by" ID="ID_1677061431" CREATED="1563898637502" MODIFIED="1563898665925">
+<node TEXT=" User.query.filter_by()" ID="ID_1413004581" CREATED="1563898736516" MODIFIED="1563898754001"/>
+</node>
+<node TEXT="filter" ID="ID_1377710283" CREATED="1563898666180" MODIFIED="1563898669049">
+<node TEXT="&#x590d;&#x6742;&#x67e5;&#x8be2;&#xff0c;&#x8de8;&#x8868;&#x67e5;&#x8be2;" ID="ID_1090624655" CREATED="1563898698889" MODIFIED="1563898713584"/>
+<node TEXT="db.session.query().filter()" ID="ID_808258414" CREATED="1563898721724" MODIFIED="1563898735009"/>
 </node>
 </node>
 </node>

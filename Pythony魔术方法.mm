@@ -3,7 +3,7 @@
 <node TEXT="Pythony&#x9b54;&#x672f;&#x65b9;&#x6cd5;" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1532884720871" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light"/>
 <hook NAME="MapStyle" zoom="1.185">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -439,6 +439,7 @@
 <node TEXT=" a&#x662f;&#x5b9e;&#x4f8b;&#x5bf9;&#x8c61;&#xff0c;&#x540c;&#x65f6;&#x8fd8;&#x662f;&#x53ef;&#x8c03;&#x7528;&#x5bf9;&#x8c61;" ID="ID_1059622529" CREATED="1554103574391" MODIFIED="1554103575729"/>
 <node TEXT="  a() &#x4e0e; a.__call__() &#x662f;&#x76f8;&#x540c;&#x7684;" ID="ID_1898542602" CREATED="1554103974665" MODIFIED="1554103980224"/>
 </node>
+<node TEXT="&#x7528;&#x5904;" ID="ID_404590404" CREATED="1564896881892" MODIFIED="1564896887897">
 <node TEXT=" &#x5229;&#x7528;&#x8fd9;&#x79cd;&#x7279;&#x6027;&#x53ef;&#x4ee5;&#x5b9e;&#x73b0;&#x57fa;&#x4e8e;&#x7c7b;&#x7684;&#x88c5;&#x9970;&#x5668;&#xff0c;&#x5728;&#x7c7b;&#x91cc;&#x9762;&#x8bb0;&#x5f55;&#x72b6;&#x6001;" ID="ID_206538063" CREATED="1554103604047" MODIFIED="1554103605743">
 <node ID="ID_404807889" CREATED="1554108799362" MODIFIED="1554108799362"><richcontent TYPE="NODE">
 
@@ -452,6 +453,14 @@
 </html>
 </richcontent>
 </node>
+</node>
+<node TEXT="&#x7b80;&#x5316;&#x5bf9;&#x8c61;&#x4e0b;&#x7684;&#x65b9;&#x6cd5;&#x7684;&#x8c03;&#x7528;" ID="ID_1492015371" CREATED="1564896891219" MODIFIED="1564896900852">
+<node TEXT="a = A()&#xa;a.main()" ID="ID_851882023" CREATED="1564897038671" MODIFIED="1564897053302"/>
+<node TEXT="&#x5c06;main()&#x65b9;&#x6cd5;&#x5199;&#x5165;__call__()&#x65b9;&#x6cd5;&#x5185;" ID="ID_1128199684" CREATED="1564897055500" MODIFIED="1564897072721"/>
+<node TEXT="&#x5bf9;&#x8c61;&#x4e0b;&#x67d0;&#x4e2a;&#x65b9;&#x6cd5;&#x4f7f;&#x7528;&#x5f88;&#x591a;&#x7684;&#x65f6;&#x5019;" ID="ID_1737139694" CREATED="1564897185736" MODIFIED="1564897205949"/>
+<node TEXT="&#x6216;&#x8005;&#x5bf9;&#x8c61;&#x4e0b;&#x53ea;&#x6709;&#x4e00;&#x4e2a;&#x65b9;&#x6cd5;" ID="ID_1781690243" CREATED="1564897174786" MODIFIED="1564897208968"/>
+</node>
+<node TEXT="&#x6a21;&#x7cca;&#x4e86;&#x5bf9;&#x8c61;&#x548c;&#x51fd;&#x6570;&#x7684;&#x533a;&#x522b;" ID="ID_117647286" CREATED="1564897256034" MODIFIED="1564897268021"/>
 </node>
 </node>
 </node>

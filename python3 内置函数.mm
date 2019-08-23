@@ -3,7 +3,7 @@
 <node TEXT="python3 &#x5185;&#x7f6e;&#x51fd;&#x6570;" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1536494620117" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="93" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="95" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="filter" FOLDED="true" POSITION="right" ID="ID_183133208" CREATED="1536490006310" MODIFIED="1536494641713">
 <edge COLOR="#007c00"/>
@@ -434,7 +434,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="object" ID="ID_1828635592" CREATED="1555400149693" MODIFIED="1555400152433">
@@ -461,7 +460,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>C(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    <span style="color: #bbb529"><font color="#bbb529">@property<br/></font></span><font color="#bbb529"><span style="color: #bbb529">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">y</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span>):<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #a5c261"><font color="#a5c261">'y'<br/></font></span><font color="#a5c261"><span style="color: #a5c261">    <br/></span></font><span style="color: #cc7832"><font color="#cc7832">print </font></span><span style="color: #8888c6"><font color="#8888c6">hasattr</font></span>(C()<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;y&quot;</font></span>)  <span style="color: #808080"><font color="#808080"># False</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -545,6 +543,369 @@
 </node>
 <node TEXT="&#x53bb;&#x6389;&#x9b54;&#x6cd5;&#x5c5e;&#x6027;&#xff08;&#x5e72;&#x51c0;&#x7684;&#x5b57;&#x5178;&#xff09;" ID="ID_244282062" CREATED="1555401385648" MODIFIED="1555401411046">
 <node TEXT=" {k: v for k, v in vars(A).items() if &apos;__&apos; not in k}" ID="ID_51858045" CREATED="1555401418360" MODIFIED="1555401439564"/>
+</node>
+</node>
+<node TEXT="logging" POSITION="right" ID="ID_952352316" CREATED="1566220701495" MODIFIED="1566222337784" VGAP_QUANTITY="6.8999999999999995 pt">
+<edge COLOR="#7c0000"/>
+<node TEXT=" &#x57fa;&#x7840;" ID="ID_6142601" CREATED="1566222601484" MODIFIED="1566222605304">
+<node TEXT="&#x65e5;&#x5fd7;&#x7ea7;&#x522b;" ID="ID_227790505" CREATED="1566220808640" MODIFIED="1566220841727" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="&#x5206;&#x7ea7;" ID="ID_95716759" CREATED="1566221488277" MODIFIED="1566221492849">
+<node TEXT="DEBUG 10" ID="ID_1517155070" CREATED="1566221360805" MODIFIED="1566222553093">
+<node TEXT=" &#x7ec6;&#x8282;&#x4fe1;&#x606f;&#xff0c;&#x4ec5;&#x5f53;&#x8bca;&#x65ad;&#x95ee;&#x9898;&#x65f6;&#x9002;&#x7528;&#x3002;" ID="ID_1492558788" CREATED="1566221401570" MODIFIED="1566221402826"/>
+</node>
+<node TEXT="INFO 20" ID="ID_1161473218" CREATED="1566221363297" MODIFIED="1566222557175">
+<node TEXT="&#x786e;&#x8ba4;&#x7a0b;&#x5e8f;&#x6309;&#x9884;&#x671f;&#x8fd0;&#x884c;" ID="ID_82677262" CREATED="1566221406973" MODIFIED="1566221415279"/>
+</node>
+<node TEXT="WARNING 30" ID="ID_1173518431" CREATED="1566221382065" MODIFIED="1566222564078">
+<node TEXT="&#x8868;&#x660e;&#x6709;&#x5df2;&#x7ecf;&#x6216;&#x5373;&#x5c06;&#x53d1;&#x751f;&#x7684;&#x610f;&#x5916;&#xff0c;&#x7a0b;&#x5e8f;&#x4ecd;&#x6309;&#x9884;&#x671f;&#x8fdb;&#x884c;" ID="ID_1219378444" CREATED="1566221419337" MODIFIED="1566221442056"/>
+<node TEXT="&#x4f8b;&#x5982;&#xff1a;&#x78c1;&#x76d8;&#x7a7a;&#x95f4;&#x4e0d;&#x8db3;" ID="ID_698391618" CREATED="1566221443074" MODIFIED="1566221449696"/>
+</node>
+<node TEXT=" ERROR 40" ID="ID_1588297536" CREATED="1566221387690" MODIFIED="1566222568381">
+<node TEXT=" &#x7531;&#x4e8e;&#x4e25;&#x91cd;&#x7684;&#x95ee;&#x9898;&#xff0c;&#x7a0b;&#x5e8f;&#x7684;&#x67d0;&#x4e9b;&#x529f;&#x80fd;&#x5df2;&#x7ecf;&#x4e0d;&#x80fd;&#x6b63;&#x5e38;&#x6267;&#x884c;" ID="ID_1882200377" CREATED="1566221456346" MODIFIED="1566221457967"/>
+</node>
+<node TEXT=" CRITICAL 50" ID="ID_1764191798" CREATED="1566221394539" MODIFIED="1566222571079">
+<node TEXT=" &#x4e25;&#x91cd;&#x7684;&#x9519;&#x8bef;&#xff0c;&#x8868;&#x660e;&#x7a0b;&#x5e8f;&#x5df2;&#x4e0d;&#x80fd;&#x7ee7;&#x7eed;&#x6267;&#x884c;" ID="ID_606249881" CREATED="1566221462040" MODIFIED="1566221463240"/>
+</node>
+</node>
+<node TEXT="&#x9ed8;&#x8ba4;" ID="ID_157912613" CREATED="1566221506688" MODIFIED="1566221511956">
+<node TEXT="&#x9ed8;&#x8ba4;&#x7684;&#x7ea7;&#x522b;&#x662f;``WARNING``" ID="ID_1294150997" CREATED="1566221527313" MODIFIED="1566221530976"/>
+<node TEXT=" WARNING&#xff0c;&#x610f;&#x5473;&#x7740;&#x53ea;&#x4f1a;&#x8ffd;&#x8e2a;&#x8be5;&#x7ea7;&#x522b;&#x53ca;&#x4ee5;&#x4e0a;&#x7684;&#x4e8b;&#x4ef6;&#xff0c;&#x9664;&#x975e;&#x66f4;&#x6539;&#x65e5;&#x5fd7;&#x914d;&#x7f6e;" ID="ID_775394746" CREATED="1566221545119" MODIFIED="1566221549672"/>
+</node>
+</node>
+<node TEXT=" &#x8bb0;&#x5f55;&#x65e5;&#x5fd7;&#x5230;&#x6587;&#x4ef6;" ID="ID_370500945" CREATED="1566221594477" MODIFIED="1566221596201">
+<node TEXT="logging.basicConfig()" ID="ID_660455729" CREATED="1566226315897" MODIFIED="1566226322086"/>
+<node ID="ID_1985499363" CREATED="1566221644309" MODIFIED="1566221644309"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>logging<br/>logging.basicConfig(<span style="color: #aa4926"><font color="#aa4926">filename</font></span>=<span style="color: #6a8759"><font color="#6a8759">'example.log'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><span style="color: #aa4926"><font color="#aa4926">level</font></span>=logging.DEBUG)<br/>logging.debug(<span style="color: #6a8759"><font color="#6a8759">'This message should go to the log file'</font></span>)<br/>logging.info(<span style="color: #6a8759"><font color="#6a8759">'So should this'</font></span>)<br/>logging.warning(<span style="color: #6a8759"><font color="#6a8759">'And this, too'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x8bb0;&#x5f55;&#x53d8;&#x91cf;&#x6570;&#x636e;" ID="ID_939399672" CREATED="1566222028511" MODIFIED="1566222036885">
+<node TEXT=" &#x683c;&#x5f0f;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1653292061" CREATED="1566222061925" MODIFIED="1566222065206">
+<node ID="ID_1513826235" CREATED="1566222088970" MODIFIED="1566222088970"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>logging<br/>logging.warning(<span style="color: #6a8759"><font color="#6a8759">'%s before you %s'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Look'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'leap!'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x8f93;&#x51fa; WARNING:root:Look before you leap!" ID="ID_1332371047" CREATED="1566222090492" MODIFIED="1566222105746"/>
+</node>
+</node>
+<node TEXT=" &#x66f4;&#x6539;&#x663e;&#x793a;&#x6d88;&#x606f;&#x7684;&#x683c;&#x5f0f;" ID="ID_1875086710" CREATED="1566222204891" MODIFIED="1566222213519">
+<font BOLD="false"/>
+<node ID="ID_105185137" CREATED="1566222241408" MODIFIED="1566222241408"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">logging.xxx(message)<br/><br/><span style="color: #cc7832"><font color="#cc7832">import </font></span>logging<br/>logging.basicConfig(<span style="color: #aa4926"><font color="#aa4926">format</font></span>=<span style="color: #6a8759"><font color="#6a8759">'%(levelname)s:%(message)s'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">level</font></span>=logging.DEBUG)<br/>logging.debug(<span style="color: #6a8759"><font color="#6a8759">'This message should appear on the console'</font></span>)<br/>logging.info(<span style="color: #6a8759"><font color="#6a8759">'So should this'</font></span>)<br/>logging.warning(<span style="color: #6a8759"><font color="#6a8759">'And this, too'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="DEBUG:This message should appear on the console&#xa;INFO:So should this&#xa;WARNING:And this, too" ID="ID_1159121478" CREATED="1566222252294" MODIFIED="1566222257121"/>
+<node TEXT="&#x9ed8;&#x8ba4;" ID="ID_54097934" CREATED="1566222278362" MODIFIED="1566222282923">
+<node TEXT="INFO:root:So should this" ID="ID_528437164" CREATED="1566222283697" MODIFIED="1566222299123"/>
+</node>
+<node TEXT="&#x53c2;&#x6570;" ID="ID_1772648438" CREATED="1566224817181" MODIFIED="1566224821409">
+<node ID="ID_673549228" CREATED="1566224832752" MODIFIED="1566224832752"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(levelno)s&#65306;&#25171;&#21360;&#26085;&#24535;&#32423;&#21035;&#30340;&#25968;&#20540;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_673465492" CREATED="1566224832752" MODIFIED="1566224832752"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(levelname)s&#65306;&#25171;&#21360;&#26085;&#24535;&#32423;&#21035;&#30340;&#21517;&#31216;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_469552918" CREATED="1566224832754" MODIFIED="1566224832754"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(pathname)s&#65306;&#25171;&#21360;&#24403;&#21069;&#25191;&#34892;&#31243;&#24207;&#30340;&#36335;&#24452;&#65292;&#20854;&#23454;&#23601;&#26159;sys.argv[0]&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_191217225" CREATED="1566224832756" MODIFIED="1566224832756"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(filename)s&#65306;&#25171;&#21360;&#24403;&#21069;&#25191;&#34892;&#31243;&#24207;&#21517;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_487945890" CREATED="1566224832759" MODIFIED="1566224832759"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(funcName)s&#65306;&#25171;&#21360;&#26085;&#24535;&#30340;&#24403;&#21069;&#20989;&#25968;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_28359326" CREATED="1566224832760" MODIFIED="1566224832760"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(lineno)d&#65306;&#25171;&#21360;&#26085;&#24535;&#30340;&#24403;&#21069;&#34892;&#21495;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1659068774" CREATED="1566224832762" MODIFIED="1566224832762"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(asctime)s&#65306;&#25171;&#21360;&#26085;&#24535;&#30340;&#26102;&#38388;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1838838405" CREATED="1566224832763" MODIFIED="1566224832763"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(thread)d&#65306;&#25171;&#21360;&#32447;&#31243;ID&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1014324660" CREATED="1566224832764" MODIFIED="1566224832764"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(threadName)s&#65306;&#25171;&#21360;&#32447;&#31243;&#21517;&#31216;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1731404412" CREATED="1566224832766" MODIFIED="1566224832766"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(process)d&#65306;&#25171;&#21360;&#36827;&#31243;ID&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_174815853" CREATED="1566224832767" MODIFIED="1566224832767"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(processName)s&#65306;&#25171;&#21360;&#32447;&#31243;&#21517;&#31216;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1292637583" CREATED="1566224832770" MODIFIED="1566224832770"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(module)s&#65306;&#25171;&#21360;&#27169;&#22359;&#21517;&#31216;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1282980863" CREATED="1566224832772" MODIFIED="1566224832772"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      %(message)s&#65306;&#25171;&#21360;&#26085;&#24535;&#20449;&#24687;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x5728;&#x6d88;&#x606f;&#x4e2d;&#x663e;&#x793a;&#x65e5;&#x671f;/&#x65f6;&#x95f4;" ID="ID_1972732848" CREATED="1566222333274" MODIFIED="1566222339111">
+<node TEXT="asctime" ID="ID_680666800" CREATED="1566222378263" MODIFIED="1566222388639">
+<node ID="ID_1369061643" CREATED="1566222360751" MODIFIED="1566222360751"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>logging<br/>logging.basicConfig(<span style="color: #aa4926"><font color="#aa4926">format</font></span>=<span style="color: #6a8759"><font color="#6a8759">'%(asctime)s %(message)s'</font></span>)<br/>logging.warning(<span style="color: #6a8759"><font color="#6a8759">'is when this event was logged.'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" 2010-12-12 11:41:42,612 is when this event was logged." ID="ID_317753770" CREATED="1566222367285" MODIFIED="1566222368744"/>
+</node>
+<node TEXT="&#x65f6;&#x95f4;&#x683c;&#x5f0f;" ID="ID_1056449805" CREATED="1566222392218" MODIFIED="1566222420415">
+<node ID="ID_1844380755" CREATED="1566222442864" MODIFIED="1566222442864"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>logging<br/>logging.basicConfig(<span style="color: #aa4926"><font color="#aa4926">format</font></span>=<span style="color: #6a8759"><font color="#6a8759">'%(asctime)s %(message)s'</font></span><span style="color: #cc7832"><font color="#cc7832">, <br/></font></span><font color="#cc7832"><span style="color: #cc7832">                    </span></font><span style="color: #aa4926"><font color="#aa4926">datefmt</font></span>=<span style="color: #6a8759"><font color="#6a8759">'%m/%d/%Y %I:%M:%S %p'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x8fdb;&#x9636;" ID="ID_89866016" CREATED="1566222617551" MODIFIED="1566222623761">
+<node TEXT=" &#x65e5;&#x5fd7;&#x5e93;&#x91c7;&#x7528;&#x6a21;&#x5757;&#x5316;&#x65b9;&#x6cd5;" ID="ID_1191453921" CREATED="1566222707511" MODIFIED="1566222708646">
+<node TEXT="&#x8bb0;&#x5f55;&#x5668; logger" ID="ID_1969671674" CREATED="1566222715984" MODIFIED="1566224544234">
+<node TEXT=" &#x8fdb;&#x884c;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#x65f6;&#x521b;&#x5efa;&#x7684;&#x5bf9;&#x8c61;" ID="ID_474779091" CREATED="1566224562263" MODIFIED="1566224564216"/>
+<node TEXT="&#x8c03;&#x7528;&#x5b83;&#x7684;&#x65b9;&#x6cd5;&#x4f20;&#x5165;&#x65e5;&#x5fd7;&#x6a21;&#x677f;&#x548c;&#x4fe1;&#x606f;&#xff0c;&#x6765;&#x751f;&#x6210;&#x4e00;&#x6761;&#x6761;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;" ID="ID_1990616193" CREATED="1566224564836" MODIFIED="1566224572926"/>
+<node TEXT=" &#x8bb0;&#x5f55;&#x5668;&#x66b4;&#x9732;&#x4e86;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#x4ee3;&#x7801;&#x76f4;&#x63a5;&#x4f7f;&#x7528;&#x7684;&#x63a5;&#x53e3;" ID="ID_1910147215" CREATED="1566222740566" MODIFIED="1566222741408"/>
+</node>
+<node TEXT="&#x5904;&#x7406;&#x7a0b;&#x5e8f; Handler" ID="ID_1111256249" CREATED="1566222717587" MODIFIED="1566224486895">
+<node TEXT=" &#x7528;&#x6765;&#x5904;&#x7406;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#x7684;&#x7c7b;" ID="ID_321468767" CREATED="1566224592274" MODIFIED="1566224594629"/>
+<node TEXT="&#x5904;&#x7406;&#x7a0b;&#x5e8f;&#x5c06;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#xff08;&#x7531;&#x8bb0;&#x5f55;&#x5668;&#x521b;&#x5efa;&#xff09;&#x53d1;&#x9001;&#x5230;&#x9002;&#x5f53;&#x7684;&#x76ee;&#x6807;" ID="ID_1639891391" CREATED="1566222746388" MODIFIED="1566224597280"/>
+</node>
+<node TEXT=" &#x8fc7;&#x6ee4;&#x5668; Filter" ID="ID_294477635" CREATED="1566222725378" MODIFIED="1566224646050">
+<node TEXT=" &#x8fc7;&#x6ee4;&#x5668;&#x63d0;&#x4f9b;&#x4e86;&#x66f4;&#x7cbe;&#x7ec6;&#x7684;&#x9644;&#x52a0;&#x529f;&#x80fd;&#xff0c;&#x7528;&#x4e8e;&#x786e;&#x5b9a;&#x8981;&#x8f93;&#x51fa;&#x7684;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;" ID="ID_1661336809" CREATED="1566222753536" MODIFIED="1566222755111"/>
+</node>
+<node TEXT=" &#x683c;&#x5f0f;&#x5316;&#x7a0b;&#x5e8f; Formatter" ID="ID_1079471054" CREATED="1566222729961" MODIFIED="1566224616467">
+<node TEXT=" &#x683c;&#x5f0f;&#x5316;&#x7a0b;&#x5e8f;&#x6307;&#x5b9a;&#x6700;&#x7ec8;&#x8f93;&#x51fa;&#x4e2d;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#x7684;&#x6837;&#x5f0f;" ID="ID_1845812445" CREATED="1566222760432" MODIFIED="1566222761350"/>
+<node TEXT=" &#x8fd4;&#x56de;&#x7684;&#x5c31;&#x662f;&#x65e5;&#x5fd7;&#x5b57;&#x7b26;&#x4e32;&#xff0c;&#x7136;&#x540e;&#x4f20;&#x56de;&#x7ed9; Handler &#x6765;&#x5904;&#x7406;" ID="ID_82244139" CREATED="1566224633533" MODIFIED="1566224636652"/>
+</node>
+</node>
+<node TEXT=" LogRecord" ID="ID_776729942" CREATED="1566222835965" MODIFIED="1566222837504">
+<node TEXT="&#x65e5;&#x5fd7;&#x4e8b;&#x4ef6;&#x4fe1;&#x606f;&#x5728; LogRecord &#x5b9e;&#x4f8b;&#x4e2d;&#x7684;&#x8bb0;&#x5f55;&#x5668;&#x3001;&#x5904;&#x7406;&#x7a0b;&#x5e8f;&#x3001;&#x8fc7;&#x6ee4;&#x5668;&#x548c;&#x683c;&#x5f0f;&#x5316;&#x7a0b;&#x5e8f;&#x4e4b;&#x95f4;&#x4f20;&#x9012;" ID="ID_1530831030" CREATED="1566222842330" MODIFIED="1566222847863"/>
+</node>
+<node TEXT="&#x8bb0;&#x5f55;&#x5668;" ID="ID_1327177112" CREATED="1566222936179" MODIFIED="1566222956199">
+<node TEXT="&#x901a;&#x8fc7;&#x8c03;&#x7528; Logger &#x7c7b;&#xff08;&#x4ee5;&#x4e0b;&#x79f0;&#x4e3a; loggers &#xff0c; &#x8bb0;&#x5f55;&#x5668;&#xff09;&#x7684;&#x5b9e;&#x4f8b;&#x6765;&#x6267;&#x884c;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;" ID="ID_107486189" CREATED="1566222962211" MODIFIED="1566222967970"/>
+<node TEXT=" &#x547d;&#x540d;&#x8bb0;&#x5f55;&#x5668;" ID="ID_1735416122" CREATED="1566222985687" MODIFIED="1566223005095" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="&#x5728;&#x6bcf;&#x4e2a;&#x4f7f;&#x7528;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#x7684;&#x6a21;&#x5757;&#x4e2d;&#x4f7f;&#x7528;&#x6a21;&#x5757;&#x7ea7;&#x8bb0;&#x5f55;&#x5668;" ID="ID_1343990555" CREATED="1566222999939" MODIFIED="1566223006375"/>
+<node TEXT=" logger = logging.getLogger(__name__)" ID="ID_587857799" CREATED="1566223015372" MODIFIED="1566223016487"/>
+<node TEXT="&#x8bb0;&#x5f55;&#x5668;&#x540d;&#x79f0;&#x8ddf;&#x8e2a;&#x5305;&#x6216;&#x6a21;&#x5757;&#x7684;&#x5c42;&#x6b21;&#x7ed3;&#x6784;&#xff0c;&#x5e76;&#x4e14;&#x76f4;&#x89c2;&#x5730;&#x4ece;&#x8bb0;&#x5f55;&#x5668;&#x540d;&#x79f0;&#x663e;&#x793a;&#x8bb0;&#x5f55;&#x4e8b;&#x4ef6;&#x7684;&#x4f4d;&#x7f6e;" ID="ID_689739679" CREATED="1566223031465" MODIFIED="1566223034213"/>
+</node>
+<node TEXT=" &#x4e09;&#x91cd;&#x4efb;&#x52a1;" ID="ID_245763756" CREATED="1566223337801" MODIFIED="1566223338894">
+<node TEXT=" &#x5b83;&#x4eec;&#x5411;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#x4ee3;&#x7801;&#x516c;&#x5f00;&#x4e86;&#x51e0;&#x79cd;&#x65b9;&#x6cd5;&#xff0c;&#x4ee5;&#x4fbf;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#x53ef;&#x4ee5;&#x5728;&#x8fd0;&#x884c;&#x65f6;&#x8bb0;&#x5f55;&#x6d88;&#x606f;" ID="ID_647527882" CREATED="1566223349881" MODIFIED="1566223351424"/>
+<node TEXT=" &#x8bb0;&#x5f55;&#x5668;&#x5bf9;&#x8c61;&#x6839;&#x636e;&#x4e25;&#x91cd;&#x6027;&#xff08;&#x9ed8;&#x8ba4;&#x8fc7;&#x6ee4;&#x5de5;&#x5177;&#xff09;&#x6216;&#x8fc7;&#x6ee4;&#x5668;&#x5bf9;&#x8c61;&#x786e;&#x5b9a;&#x8981;&#x5904;&#x7406;&#x7684;&#x65e5;&#x5fd7;&#x6d88;&#x606f;" ID="ID_1222867607" CREATED="1566223358828" MODIFIED="1566223360519"/>
+<node TEXT=" &#x8bb0;&#x5f55;&#x5668;&#x5bf9;&#x8c61;&#x5c06;&#x76f8;&#x5173;&#x7684;&#x65e5;&#x5fd7;&#x6d88;&#x606f;&#x4f20;&#x9012;&#x7ed9;&#x6240;&#x6709;&#x611f;&#x5174;&#x8da3;&#x7684;&#x65e5;&#x5fd7;&#x5904;&#x7406;&#x7a0b;&#x5e8f;" ID="ID_1020305191" CREATED="1566223367005" MODIFIED="1566223368111"/>
+</node>
+<node TEXT=" &#x5e38;&#x89c1;&#x7684;&#x914d;&#x7f6e;&#x65b9;&#x6cd5;" ID="ID_1567708011" CREATED="1566223428133" MODIFIED="1566223429351">
+<node TEXT="&#x914d;&#x7f6e;&#x7ea7;&#x522b;" ID="ID_1405787462" CREATED="1566223429675" MODIFIED="1566223442076">
+<node TEXT=" Logger.setLevel() &#x6307;&#x5b9a;&#x8bb0;&#x5f55;&#x5668;&#x5c06;&#x5904;&#x7406;&#x7684;&#x6700;&#x4f4e;&#x4e25;&#x91cd;&#x6027;&#x65e5;&#x5fd7;&#x6d88;&#x606f;" ID="ID_840970040" CREATED="1566223450684" MODIFIED="1566223451656"/>
+</node>
+<node TEXT=" &#x4ece;&#x8bb0;&#x5f55;&#x5668;&#x5bf9;&#x8c61;&#x4e2d;&#x6dfb;&#x52a0;&#x548c;&#x5220;&#x9664;&#x5904;&#x7406;&#x7a0b;&#x5e8f;&#x5bf9;&#x8c61;" ID="ID_1460705569" CREATED="1566223476212" MODIFIED="1566223477249">
+<node TEXT="Logger.addHandler()" ID="ID_211732417" CREATED="1566223482611" MODIFIED="1566223485595"/>
+<node TEXT="Logger.removeHandler()" ID="ID_562764049" CREATED="1566223485779" MODIFIED="1566223491167"/>
+</node>
+<node TEXT=" &#x6dfb;&#x52a0;&#x6216;&#x79fb;&#x9664;&#x8bb0;&#x5f55;&#x5668;&#x5bf9;&#x8c61;&#x4e2d;&#x7684;&#x8fc7;&#x6ee4;&#x5668;" ID="ID_1117658280" CREATED="1566223502904" MODIFIED="1566223503993">
+<node TEXT="Logger.addFilter()" ID="ID_522282384" CREATED="1566223507806" MODIFIED="1566223510582"/>
+<node TEXT="Logger.removeFilter()" ID="ID_499600576" CREATED="1566223510738" MODIFIED="1566223515463"/>
+</node>
+<node TEXT=" &#x4f60;&#x4e0d;&#x9700;&#x8981;&#x59cb;&#x7ec8;&#x5728;&#x4f60;&#x521b;&#x5efa;&#x7684;&#x6bcf;&#x4e2a;&#x8bb0;&#x5f55;&#x5668;&#x4e0a;&#x8c03;&#x7528;&#x8fd9;&#x4e9b;&#x65b9;&#x6cd5;" ID="ID_1708501914" CREATED="1566223529412" MODIFIED="1566223530654"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="os &#x6a21;&#x5757;" FOLDED="true" POSITION="left" ID="ID_1450216899" CREATED="1539077987880" MODIFIED="1539078006161">
