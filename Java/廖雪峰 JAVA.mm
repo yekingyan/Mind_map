@@ -710,7 +710,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x6d41;&#x7a0b;&#x63a7;&#x5236;" POSITION="right" ID="ID_388212873" CREATED="1566400049347" MODIFIED="1566405947650">
+<node TEXT="&#x6d41;&#x7a0b;&#x63a7;&#x5236;" FOLDED="true" POSITION="right" ID="ID_388212873" CREATED="1566400049347" MODIFIED="1566405947650">
 <edge COLOR="#7c7c00"/>
 <node TEXT="&#x8f93;&#x5165;&#x4e0e;&#x8f93;&#x51fa;" FOLDED="true" ID="ID_145693315" CREATED="1566405989768" MODIFIED="1566405994855">
 <node TEXT="&#x8f93;&#x51fa;" ID="ID_960594625" CREATED="1566406046102" MODIFIED="1566406051769">
@@ -891,7 +891,7 @@
 </node>
 </node>
 </node>
-<node TEXT="while&#x5faa;&#x73af;" ID="ID_1189987596" CREATED="1566407371760" MODIFIED="1566407378373">
+<node TEXT="while&#x5faa;&#x73af;" FOLDED="true" ID="ID_1189987596" CREATED="1566407371760" MODIFIED="1566407378373">
 <node TEXT=" while&#x5faa;&#x73af;&#x662f;&#x5148;&#x5224;&#x65ad;&#x5faa;&#x73af;&#x6761;&#x4ef6;&#xff0c;&#x518d;&#x5faa;&#x73af;&#xff0c;&#x56e0;&#x6b64;&#xff0c;&#x6709;&#x53ef;&#x80fd;&#x4e00;&#x6b21;&#x5faa;&#x73af;&#x90fd;&#x4e0d;&#x505a;" ID="ID_985370467" CREATED="1566491930013" MODIFIED="1566491932188"/>
 <node ID="ID_917444709" CREATED="1566491862123" MODIFIED="1566491862123"><richcontent TYPE="NODE">
 
@@ -908,10 +908,10 @@
 </node>
 <node TEXT="Java&#x7684;int&#x7c7b;&#x578b;&#x6709;&#x6700;&#x5927;&#x503c;&#xff0c;&#x8fbe;&#x5230;&#x6700;&#x5927;&#x503c;&#x540e;&#xff0c;&#x518d;&#x52a0;1&#x4f1a;&#x53d8;&#x6210;&#x8d1f;&#x6570;" ID="ID_297119996" CREATED="1566492015572" MODIFIED="1566492023451"/>
 </node>
-<node TEXT="do while&#x5faa;&#x73af;" ID="ID_306721067" CREATED="1566492033236" MODIFIED="1566492039048">
+<node TEXT="do while&#x5faa;&#x73af;" FOLDED="true" ID="ID_306721067" CREATED="1566492033236" MODIFIED="1566750765737" VGAP_QUANTITY="6.8999999999999995 pt">
 <node TEXT=" do while&#x5faa;&#x73af;&#x5148;&#x6267;&#x884c;&#x5faa;&#x73af;&#xff0c;&#x518d;&#x5224;&#x65ad;&#x6761;&#x4ef6;" ID="ID_526340909" CREATED="1566492114569" MODIFIED="1566492116887"/>
 <node TEXT=" do while&#x5faa;&#x73af;&#x4f1a;&#x81f3;&#x5c11;&#x5faa;&#x73af;&#x4e00;&#x6b21;" ID="ID_284009165" CREATED="1566492094218" MODIFIED="1566492113258"/>
-<node ID="ID_948769875" CREATED="1566492084326" MODIFIED="1566492084326"><richcontent TYPE="NODE">
+<node ID="ID_948769875" CREATED="1566492084326" MODIFIED="1566750765735"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -925,7 +925,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT=" for&#x5faa;&#x73af;" ID="ID_613358742" CREATED="1566492156176" MODIFIED="1566492157468">
+<node TEXT=" for&#x5faa;&#x73af;" FOLDED="true" ID="ID_613358742" CREATED="1566492156176" MODIFIED="1566492157468">
 <node TEXT=" &#x5faa;&#x73af;&#x524d;&#x5148;&#x68c0;&#x67e5;&#x5faa;&#x73af;&#x6761;&#x4ef6;i&lt;=100&#xff0c;&#x5faa;&#x73af;&#x540e;&#x81ea;&#x52a8;&#x6267;&#x884c;i++" ID="ID_1112008171" CREATED="1566492333577" MODIFIED="1566492492151"/>
 <node ID="ID_766792191" CREATED="1566492192630" MODIFIED="1566492192630"><richcontent TYPE="NODE">
 
@@ -941,7 +941,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT=" for each&#x5faa;&#x73af;" ID="ID_172859848" CREATED="1566492493647" MODIFIED="1566492495353">
+<node TEXT=" for each&#x5faa;&#x73af;" FOLDED="true" ID="ID_172859848" CREATED="1566492493647" MODIFIED="1566492495353">
 <node TEXT=" for each&#x5faa;&#x73af;&#x65e0;&#x6cd5;&#x6307;&#x5b9a;&#x904d;&#x5386;&#x987a;&#x5e8f;&#xff0c;&#x4e5f;&#x65e0;&#x6cd5;&#x83b7;&#x53d6;&#x6570;&#x7ec4;&#x7684;&#x7d22;&#x5f15;" ID="ID_1868076495" CREATED="1566492990618" MODIFIED="1566492993192"/>
 <node ID="ID_1018298636" CREATED="1566492561866" MODIFIED="1566492561866"><richcontent TYPE="NODE">
 
@@ -970,7 +970,7 @@
 </node>
 <node TEXT="&#x6570;&#x7ec4;&#x64cd;&#x4f5c;" POSITION="right" ID="ID_991223498" CREATED="1566493797090" MODIFIED="1566493803249">
 <edge COLOR="#ff0000"/>
-<node TEXT="&#x904d;&#x5386;&#x6570;&#x7ec4;" ID="ID_657330249" CREATED="1566493830074" MODIFIED="1566493832920">
+<node TEXT="&#x904d;&#x5386;&#x6570;&#x7ec4;" FOLDED="true" ID="ID_657330249" CREATED="1566493830074" MODIFIED="1566493832920">
 <node TEXT="&#x6807;&#x51c6;&#x7684;for&#x5faa;&#x73af;" ID="ID_686717657" CREATED="1566493910330" MODIFIED="1566494070910">
 <node ID="ID_1527563136" CREATED="1566493947878" MODIFIED="1566493947878"><richcontent TYPE="NODE">
 
@@ -1051,19 +1051,22 @@
 </node>
 <node TEXT=" &#x6570;&#x7ec4;&#x6392;&#x5e8f;" ID="ID_961354940" CREATED="1566494513189" MODIFIED="1566494514808">
 <node TEXT=" &#x5bf9;&#x6570;&#x7ec4;&#x6392;&#x5e8f;&#x4f1a;&#x76f4;&#x63a5;&#x4fee;&#x6539;&#x6570;&#x7ec4;&#x672c;&#x8eab;" ID="ID_1953795930" CREATED="1566494972572" MODIFIED="1566494974425"/>
-<node ID="ID_1448059327" CREATED="1566494765247" MODIFIED="1566495198319"><richcontent TYPE="NODE">
+<node TEXT="&#x5bf9;&#x6570;&#x5b57;" ID="ID_360067458" CREATED="1566830106482" MODIFIED="1566830111194">
+<node ID="ID_1739493505" CREATED="1566830133522" MODIFIED="1566830137453"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Fira Code; font-size: 10.5pt"><font color="#cc7832">import </font>java.util.Arrays<font color="#cc7832">;<br/><br/>public class </font>Hello {<br/>    <font color="#cc7832">public static void </font><font color="#ffc66d">main</font>(String[] args) {<br/>        <font color="#cc7832">int</font>[] ns = { <font color="#6897bb">28</font><font color="#cc7832">, </font><font color="#6897bb">12</font><font color="#cc7832">, </font><font color="#6897bb">89</font><font color="#cc7832">, </font><font color="#6897bb">73</font><font color="#cc7832">, </font><font color="#6897bb">65</font><font color="#cc7832">, </font><font color="#6897bb">18</font><font color="#cc7832">, </font><font color="#6897bb">96</font><font color="#cc7832">, </font><font color="#6897bb">50</font><font color="#cc7832">, </font><font color="#6897bb">8</font><font color="#cc7832">, </font><font color="#6897bb">36 </font>}<font color="#cc7832">;<br/>        </font>System.<font color="#9876aa"><i>out</i></font>.println(ns)<font color="#cc7832">; </font><font color="#808080">// [I@3f99bd52<br/>        </font>Arrays.<i>sort</i>(ns)<font color="#cc7832">;<br/>        </font>System.<font color="#9876aa"><i>out</i></font>.println(ns)<font color="#cc7832">; </font><font color="#808080">// [I@3f99bd52<br/>    </font>}<br/>}</pre>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Fira Code; font-size: 10.5pt"><font color="#cc7832">import </font>java.util.Arrays<font color="#cc7832">;<br/><br/>public class </font>Hello {<br/>    <font color="#cc7832">public static void </font><font color="#ffc66d">main</font>(String[] args) {<br/>        <font color="#cc7832">int</font>[] ns = {<font color="#6897bb">28</font><font color="#cc7832">, </font><font color="#6897bb">12</font><font color="#cc7832">, </font><font color="#6897bb">89</font><font color="#cc7832">, </font><font color="#6897bb">73</font><font color="#cc7832">, </font><font color="#6897bb">65</font><font color="#cc7832">, </font><font color="#6897bb">18</font><font color="#cc7832">, </font><font color="#6897bb">96</font><font color="#cc7832">, </font><font color="#6897bb">50</font><font color="#cc7832">, </font><font color="#6897bb">8</font><font color="#cc7832">, </font><font color="#6897bb">36</font>}<font color="#cc7832">;<br/>        </font>System.<font color="#9876aa"><i>out</i></font>.println(ns)<font color="#cc7832">; </font><font color="#808080">// [I@3f99bd52<br/>        </font>Arrays.<i>sort</i>(ns)<font color="#cc7832">;<br/>        </font>System.<font color="#9876aa"><i>out</i></font>.println(ns)<font color="#cc7832">; </font><font color="#808080">// [I@3f99bd52<br/>        </font>System.<font color="#9876aa"><i>out</i></font>.println(Arrays.<i>toString</i>(ns))<font color="#cc7832">;<br/>        </font><font color="#808080">// [8, 12, 18, 28, 36, 50, 65, 73, 89, 96]<br/>    </font>}<br/>}</pre>
   </body>
 </html>
 
 </richcontent>
 </node>
+</node>
+<node TEXT="&#x5bf9;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1894942699" CREATED="1566830115478" MODIFIED="1566830121325">
 <node ID="ID_99576268" CREATED="1566495249328" MODIFIED="1566495268791"><richcontent TYPE="NODE">
 
 <html>
@@ -1078,8 +1081,10 @@
 </richcontent>
 </node>
 </node>
+</node>
 <node TEXT="&#x591a;&#x7ef4;&#x6570;&#x7ec4;" ID="ID_956963267" CREATED="1566495273156" MODIFIED="1566495279982">
 <node TEXT="&#x5b9a;&#x4e49;&#x4e00;&#x4e2a;&#x4e8c;&#x7ef4;&#x6570;&#x7ec4;" ID="ID_1574665932" CREATED="1566495311033" MODIFIED="1566495313985">
+<node TEXT="&#x4e8c;&#x7ef4;&#x6570;&#x7ec4;&#x5c31;&#x662f;&#x6570;&#x7ec4;&#x4e2d;&#x5d4c;&#x5957;&#x6570;&#x7ec4;" ID="ID_1197141780" CREATED="1566829645644" MODIFIED="1566829659779"/>
 <node TEXT="" ID="ID_862062745" CREATED="1566495356837" MODIFIED="1566495360274">
 <hook URI="&#x5ed6;&#x96ea;&#x5cf0;%20JAVA_files/png_15419425843881061981.png" SIZE="1.0413672" NAME="ExternalObject"/>
 </node>
@@ -1097,6 +1102,7 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="&#x6253;&#x5370;&#x591a;&#x7ef4;&#x6570;&#x7ec4;&#x53ef;&#x4ee5;&#x4f7f;&#x7528;Arrays.deepToString()&#xff1b;" ID="ID_1933348171" CREATED="1566829637017" MODIFIED="1566829679251"/>
 </node>
 </node>
 </node>
