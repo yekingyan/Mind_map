@@ -3,7 +3,7 @@
 <node TEXT="GIT" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537447501902" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="90" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="98" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x6d41;&#x7a0b;" POSITION="right" ID="ID_1134793381" CREATED="1537447530207" MODIFIED="1537447549970">
 <edge COLOR="#007c00"/>
@@ -480,7 +480,7 @@
 </node>
 </node>
 </node>
-<node TEXT="commit message" POSITION="right" ID="ID_1185902425" CREATED="1553843127777" MODIFIED="1553843145598">
+<node TEXT="commit message" FOLDED="true" POSITION="right" ID="ID_1185902425" CREATED="1553843127777" MODIFIED="1553843145598">
 <edge COLOR="#ff0000"/>
 <node TEXT="&#x7ec4;&#x6210;" ID="ID_938408740" CREATED="1553843150445" MODIFIED="1553843156174">
 <node TEXT="header" ID="ID_122897962" CREATED="1553843156513" MODIFIED="1553843162327">
@@ -698,6 +698,333 @@
 <node TEXT=" git push --force origin dev" ID="ID_1173164382" CREATED="1557738497513" MODIFIED="1557738507584"/>
 </node>
 </node>
+</node>
+<node TEXT="git&#x89c4;&#x8303;&#x6d41;&#x7a0b;" POSITION="right" ID="ID_1342612995" CREATED="1566892001077" MODIFIED="1566892011088">
+<edge COLOR="#007c7c"/>
+<node TEXT="&#x65b0;&#x5efa;&#x5206;&#x652f;" ID="ID_229098546" CREATED="1566892014777" MODIFIED="1566892021929">
+<node TEXT=" git checkout -b myfeature" ID="ID_1942311727" CREATED="1566892074018" MODIFIED="1566892075244"/>
+</node>
+<node TEXT="&#x63d0;&#x4ea4;&#x5206;&#x652f;commit" ID="ID_1846271172" CREATED="1566892022107" MODIFIED="1566892029730">
+<node TEXT="git add ." ID="ID_835838174" CREATED="1566892078667" MODIFIED="1566892084382"/>
+<node TEXT="git commit -m &quot;feat xx&quot;" ID="ID_1853484543" CREATED="1566892084596" MODIFIED="1566892094143"/>
+</node>
+<node TEXT="&#x4e0e;&#x4e3b;&#x5e72;&#x540c;&#x6b65;" ID="ID_1554775295" CREATED="1566892030461" MODIFIED="1566892055680">
+<node TEXT="&#x5206;&#x652f;&#x7684;&#x5f00;&#x53d1;&#x8fc7;&#x7a0b;&#x4e2d;&#xff0c;&#x8981;&#x7ecf;&#x5e38;&#x4e0e;&#x4e3b;&#x5e72;&#x4fdd;&#x6301;&#x540c;&#x6b65;" ID="ID_295499515" CREATED="1566892063026" MODIFIED="1566892065988"/>
+<node ID="ID_1525366698" CREATED="1566892117475" MODIFIED="1566892117475"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ git fetch origin
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_412592750" CREATED="1566892117475" MODIFIED="1566892117475"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      $ git rebase origin/master
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5408;&#x5e76;commit" ID="ID_1128214320" CREATED="1566892125595" MODIFIED="1566892131621">
+<node TEXT=" &#x5728;&#x53d1;&#x8d77;Pull Request&#x4e4b;&#x524d;&#xff0c;&#x5e94;&#x8be5;&#x628a;&#x591a;&#x4e2a;commit&#x5408;&#x5e76;&#x6210;&#x4e00;&#x4e2a;" ID="ID_1066069197" CREATED="1566891904895" MODIFIED="1566891908544"/>
+<node TEXT=" git rebase -i origin/master" ID="ID_641314174" CREATED="1566892171229" MODIFIED="1566892173788">
+<node TEXT=" squash&#x548c;fixup&#x53ef;&#x4ee5;&#x7528;&#x6765;&#x5408;&#x5e76;commit" ID="ID_1708258457" CREATED="1566892271050" MODIFIED="1566892272269"/>
+</node>
+<node TEXT="git reset HEAD~n" ID="ID_810296633" CREATED="1566892306616" MODIFIED="1566892317699">
+<node TEXT="&#x5148;&#x64a4;&#x9500;&#x8fc7;&#x53bb;n&#x4e2a;commit&#xff0c;&#x7136;&#x540e;&#x518d;&#x5efa;&#x4e00;&#x4e2a;&#x65b0;&#x7684;" ID="ID_1835140933" CREATED="1566892317997" MODIFIED="1566892328259"/>
+</node>
+</node>
+<node TEXT="&#x63a8;&#x9001;&#x5230;&#x8fdc;&#x7a0b;&#x4ed3;&#x5e93;" ID="ID_1460322004" CREATED="1566892336201" MODIFIED="1566892367983">
+<node TEXT=" git push --force origin myfeature" ID="ID_1269963269" CREATED="1566892345959" MODIFIED="1566892346988"/>
+<node TEXT=" git push&#x547d;&#x4ee4;&#x8981;&#x52a0;&#x4e0a;force&#x53c2;&#x6570;&#xff0c;&#x56e0;&#x4e3a;rebase&#x4ee5;&#x540e;&#xff0c;&#x5206;&#x652f;&#x5386;&#x53f2;&#x6539;&#x53d8;&#x4e86;&#xff0c;&#x8ddf;&#x8fdc;&#x7a0b;&#x5206;&#x652f;&#x4e0d;&#x4e00;&#x5b9a;&#x517c;&#x5bb9;&#xff0c;&#x6709;&#x53ef;&#x80fd;&#x8981;&#x5f3a;&#x884c;&#x63a8;&#x9001;" ID="ID_1592932770" CREATED="1566892356096" MODIFIED="1566892357277"/>
+</node>
+<node TEXT=" &#x53d1;&#x51fa;Pull Request" ID="ID_651192780" CREATED="1566892364586" MODIFIED="1566892365565"/>
+</node>
+<node TEXT="git merge --no-ff &#x53c2;&#x6570;" POSITION="right" ID="ID_689443073" CREATED="1566888703591" MODIFIED="1566891817889">
+<edge COLOR="#7c007c"/>
+<node TEXT="&#x4e0d;&#x4f7f;&#x7528;--no-ff&#x53c2;&#x6570;" ID="ID_1869867388" CREATED="1566888781040" MODIFIED="1566888792046">
+<node TEXT=" &#x9ed8;&#x8ba4;&#x60c5;&#x51b5;&#x4e0b;&#xff0c;Git&#x6267;&#x884c;&quot;&#x5feb;&#x8fdb;&#x5f0f;&#x5408;&#x5e76;&quot;&#xff08;fast-farward merge&#xff09;&#xff0c;&#x4e0d;&#x751f;&#x6210;&#x5355;&#x72ec;&#x7684;&#x5408;&#x5e76;&#x8282;&#x70b9;" ID="ID_1154599000" CREATED="1566888802702" MODIFIED="1566891776575"/>
+<node TEXT=" &#x76f4;&#x63a5;&#x5c06;Master&#x5206;&#x652f;&#x6307;&#x5411;Develop&#x5206;&#x652f;&#xff0c;&#x76f4;&#x63a5;&#x4e00;&#x6761;&#x7ebf;" ID="ID_792519358" CREATED="1566888816329" MODIFIED="1566888897027"/>
+<node TEXT=" &#x4e0d;&#x5229;&#x4e8e;&#x4fdd;&#x6301;commit&#x4fe1;&#x606f;&#x7684;&#x6e05;&#x6670;&#xff0c;&#x4e5f;&#x4e0d;&#x5229;&#x4e8e;&#x4ee5;&#x540e;&#x7684;&#x56de;&#x6eda;" ID="ID_518820456" CREATED="1566891778292" MODIFIED="1566891779574"/>
+</node>
+<node TEXT=" &#x4f7f;&#x7528;--no-ff&#x53c2;&#x6570;" ID="ID_25484365" CREATED="1566888776682" MODIFIED="1566888780698">
+<node TEXT=" &#x6267;&#x884c;&#x6b63;&#x5e38;&#x5408;&#x5e76;&#xff0c;&#x5728;Master&#x5206;&#x652f;&#x4e0a;&#x751f;&#x6210;&#x4e00;&#x4e2a;&#x65b0;&#x8282;&#x70b9;" ID="ID_768294318" CREATED="1566888830346" MODIFIED="1566888832177"/>
+<node TEXT="&#x591a;&#x51fa;&#x6765;&#x7684;&#x8282;&#x70b9;&#xff0c;&#x4fdd;&#x8bc1;&#x7248;&#x672c;&#x6f14;&#x8fdb;&#x7684;&#x6e05;&#x6670;" ID="ID_725429315" CREATED="1566888848324" MODIFIED="1566888881174"/>
+</node>
+</node>
+<node TEXT="flow" POSITION="right" ID="ID_1205666564" CREATED="1566888271187" MODIFIED="1566888282099">
+<edge COLOR="#7c0000"/>
+<node TEXT="&#x529f;&#x80fd;&#x9a71;&#x52a8;&#x5f0f;&#x5f00;&#x53d1;" ID="ID_1493715579" CREATED="1566888360397" MODIFIED="1566888364969">
+<node TEXT="&#x5148;&#x6709;&#x9700;&#x6c42;&#x518d;&#x6709;&#x529f;&#x80fd;&#x5206;&#x652f;&#xff08;feature branch&#xff09;&#x6216;&#x8005;&#x8865;&#x4e01;&#x5206;&#x652f;&#xff08;hotfix branch&#xff09;" ID="ID_1750125878" CREATED="1566888375405" MODIFIED="1566888385146"/>
+<node TEXT="&#x5b8c;&#x6210;&#x5f00;&#x53d1;&#x540e;&#xff0c;&#x8be5;&#x5206;&#x652f;&#x5c31;&#x5408;&#x5e76;&#x5230;&#x4e3b;&#x5206;&#x652f;&#xff0c;&#x7136;&#x540e;&#x88ab;&#x5220;&#x9664;&#x3002;" ID="ID_1761939102" CREATED="1566888377164" MODIFIED="1566888383034"/>
+</node>
+<node TEXT="git flow" ID="ID_1188154745" CREATED="1566877554602" MODIFIED="1566888283759">
+<node TEXT=" &#x9879;&#x76ee;&#x5b58;&#x5728;&#x4e24;&#x4e2a;&#x957f;&#x671f;&#x5206;&#x652f;" ID="ID_51385459" CREATED="1566888400958" MODIFIED="1566888403196">
+<node TEXT="&#x4e3b;&#x5206;&#x652f;master" ID="ID_274279059" CREATED="1566888407048" MODIFIED="1566888417061">
+<node TEXT="&#x7528;&#x4e8e;&#x5b58;&#x653e;&#x5bf9;&#x5916;&#x53d1;&#x5e03;&#x7684;&#x7248;&#x672c;" ID="ID_504682505" CREATED="1566888431591" MODIFIED="1566888442756"/>
+<node TEXT="&#x4efb;&#x4f55;&#x65f6;&#x5019;&#x5728;&#x8fd9;&#x4e2a;&#x5206;&#x652f;&#x62ff;&#x5230;&#x7684;&#xff0c;&#x90fd;&#x662f;&#x7a33;&#x5b9a;&#x7684;&#x5206;&#x5e03;&#x7248;" ID="ID_288172687" CREATED="1566888433576" MODIFIED="1566888440394"/>
+<node TEXT=" &#x5c06;Develop&#x5206;&#x652f;&#x53d1;&#x5e03;&#x5230;Master&#x5206;&#x652f;" ID="ID_1791710903" CREATED="1566889012576" MODIFIED="1566889013866">
+<node TEXT=" &#x5207;&#x6362;&#x5230;Master&#x5206;&#x652f;" ID="ID_1877826660" CREATED="1566889018815" MODIFIED="1566889019882">
+<node TEXT=" git checkout master" ID="ID_393319149" CREATED="1566889027815" MODIFIED="1566889028873"/>
+</node>
+<node TEXT=" &#x5bf9;Develop&#x5206;&#x652f;&#x8fdb;&#x884c;&#x5408;&#x5e76;" ID="ID_1915929127" CREATED="1566889023464" MODIFIED="1566889026877">
+<node TEXT=" git merge --no-ff develop" ID="ID_1094625460" CREATED="1566889032726" MODIFIED="1566889033889"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x5f00;&#x53d1;&#x5206;&#x652f;develop" ID="ID_478869562" CREATED="1566888409068" MODIFIED="1566888415153">
+<node TEXT="&#x7528;&#x4e8e;&#x65e5;&#x5e38;&#x5f00;&#x53d1;" ID="ID_1631815879" CREATED="1566888448778" MODIFIED="1566888456473"/>
+<node TEXT="&#x5b58;&#x653e;&#x6700;&#x65b0;&#x7684;&#x5f00;&#x53d1;&#x7248;" ID="ID_1791657566" CREATED="1566888450264" MODIFIED="1566888454745"/>
+<node TEXT=" &#x521b;&#x5efa;Develop&#x5206;&#x652f;" ID="ID_55954409" CREATED="1566888998577" MODIFIED="1566888999530">
+<node TEXT=" git checkout -b develop master" ID="ID_879902501" CREATED="1566889003776" MODIFIED="1566889004898"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x9879;&#x76ee;&#x5b58;&#x5728;&#x4e09;&#x79cd;&#x77ed;&#x671f;&#x5206;&#x652f;" ID="ID_292440426" CREATED="1566888465783" MODIFIED="1566888471700">
+<node TEXT="&#x77ed;&#x671f;&#x5206;&#x652f;" ID="ID_782287763" CREATED="1566888495957" MODIFIED="1566888505973">
+<node TEXT="&#x529f;&#x80fd;&#x5206;&#x652f;&#xff08;feature branch&#xff09;" ID="ID_34169898" CREATED="1566888475825" MODIFIED="1566888492732">
+<node TEXT=" &#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x529f;&#x80fd;&#x5206;&#x652f;" ID="ID_492692923" CREATED="1566888620989" MODIFIED="1566888622371">
+<node TEXT="git checkout -b feature-x develop" ID="ID_248998281" CREATED="1566888629057" MODIFIED="1566888632268"/>
+</node>
+<node TEXT="&#x5f00;&#x53d1;&#x5b8c;&#x6210;&#x540e;&#xff0c;&#x5c06;&#x529f;&#x80fd;&#x5206;&#x652f;&#x5408;&#x5e76;&#x5230;develop&#x5206;&#x652f;" ID="ID_285118486" CREATED="1566888638716" MODIFIED="1566888645107">
+<node ID="ID_1664089372" CREATED="1566888657888" MODIFIED="1566888657888"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git checkout develop
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1060953387" CREATED="1566888657889" MODIFIED="1566888657889"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git merge --no-ff feature-x
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x5220;&#x9664;feature&#x5206;&#x652f;" ID="ID_1822819735" CREATED="1566888666561" MODIFIED="1566888670216">
+<node TEXT=" git branch -d feature-x" ID="ID_1083725543" CREATED="1566888670918" MODIFIED="1566888672114"/>
+</node>
+</node>
+<node TEXT="&#x9884;&#x53d1;&#x5206;&#x652f;&#xff08;release branch&#xff09;" ID="ID_806688828" CREATED="1566888483217" MODIFIED="1566888488394">
+<node TEXT="&#x6307;&#x53d1;&#x5e03;&#x6b63;&#x5f0f;&#x7248;&#x672c;&#x4e4b;&#x524d;&#xff08;&#x5373;&#x5408;&#x5e76;&#x5230;Master&#x5206;&#x652f;&#x4e4b;&#x524d;&#xff09;&#x7528;&#x4e8e;&#x8fdb;&#x884c;&#x6d4b;&#x8bd5;&#x7684;&#x7248;&#x672c;" ID="ID_5653974" CREATED="1566889077729" MODIFIED="1566889124865"/>
+<node TEXT="&#x9884;&#x53d1;&#x5e03;&#x5206;&#x652f;&#x662f;&#x4ece;Develop&#x5206;&#x652f;&#x4e0a;&#x9762;&#x5206;&#x51fa;&#x6765;&#x7684;&#xff0c;&#x9884;&#x53d1;&#x5e03;&#x7ed3;&#x675f;&#x4ee5;&#x540e;&#xff0c;&#x5fc5;&#x987b;&#x5408;&#x5e76;&#x8fdb;Develop&#x548c;Master&#x5206;&#x652f;" ID="ID_687893664" CREATED="1566889120947" MODIFIED="1566889158442"/>
+<node TEXT="&#x9884;&#x53d1;&#x5e03;&#x7248;&#x672c;&#x7684;&#x547d;&#x540d;&#xff0c;&#x53ef;&#x4ee5;&#x91c7;&#x7528;release-*&#x7684;&#x5f62;&#x5f0f;" ID="ID_1867899474" CREATED="1566889139273" MODIFIED="1566889149958"/>
+<node TEXT="git" ID="ID_1177150268" CREATED="1566889159788" MODIFIED="1566889161171">
+<node TEXT=" &#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x9884;&#x53d1;&#x5e03;&#x5206;&#x652f;" ID="ID_1871309455" CREATED="1566889167023" MODIFIED="1566889168035">
+<node TEXT=" git checkout -b release-1.2 develop" ID="ID_1360540037" CREATED="1566889171121" MODIFIED="1566889172058"/>
+</node>
+<node TEXT="&#x786e;&#x8ba4;&#x6ca1;&#x6709;&#x95ee;&#x9898;&#x540e;&#xff0c;&#x5408;&#x5e76;&#x5230;master&#x5206;&#x652f;" ID="ID_1432871295" CREATED="1566889173061" MODIFIED="1566889179346">
+<node ID="ID_1960646226" CREATED="1566889223916" MODIFIED="1566889223916"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git checkout master
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1424487786" CREATED="1566889223917" MODIFIED="1566889223917"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git merge --no-ff release-1.2
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="# &#x5bf9;&#x5408;&#x5e76;&#x751f;&#x6210;&#x7684;&#x65b0;&#x8282;&#x70b9;&#xff0c;&#x505a;&#x4e00;&#x4e2a;&#x6807;&#x7b7e;&#xa;git tag -a 1.2" ID="ID_210188066" CREATED="1566889187228" MODIFIED="1566889222612"/>
+</node>
+<node TEXT=" &#x518d;&#x5408;&#x5e76;&#x5230;develop&#x5206;&#x652f;" ID="ID_13444790" CREATED="1566889235686" MODIFIED="1566889241444">
+<node TEXT=" git checkout develop" ID="ID_1687943391" CREATED="1566889244711" MODIFIED="1566889245938"/>
+<node TEXT=" git merge --no-ff release-1.2" ID="ID_1189206716" CREATED="1566889251342" MODIFIED="1566889252346"/>
+</node>
+<node TEXT=" &#x6700;&#x540e;&#xff0c;&#x5220;&#x9664;&#x9884;&#x53d1;&#x5e03;&#x5206;&#x652f;" ID="ID_1174657946" CREATED="1566889258706" MODIFIED="1566889262216">
+<node TEXT=" git branch -d release-1.2" ID="ID_1759582493" CREATED="1566889262981" MODIFIED="1566889263978"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x8865;&#x4e01;&#x5206;&#x652f;&#xff08;hotfix branch&#xff09;" ID="ID_527670100" CREATED="1566888477884" MODIFIED="1566888483031">
+<node TEXT="&#x4fee;&#x8865;bug&#x5206;&#x652f;&#x662f;&#x4ece;Master&#x5206;&#x652f;&#x4e0a;&#x9762;&#x5206;&#x51fa;&#x6765;&#x7684;" ID="ID_1802973859" CREATED="1566889273872" MODIFIED="1566889292418"/>
+<node TEXT="&#x4fee;&#x8865;&#x7ed3;&#x675f;&#x4ee5;&#x540e;&#xff0c;&#x518d;&#x5408;&#x5e76;&#x8fdb;Master&#x548c;Develop&#x5206;&#x652f;" ID="ID_35928267" CREATED="1566889280733" MODIFIED="1566889290610"/>
+<node TEXT="&#x5b83;&#x7684;&#x547d;&#x540d;&#xff0c;&#x53ef;&#x4ee5;&#x91c7;&#x7528;fixbug-*&#x7684;&#x5f62;&#x5f0f;" ID="ID_743337571" CREATED="1566889282076" MODIFIED="1566889287394"/>
+<node TEXT="git" ID="ID_1387111551" CREATED="1566889299172" MODIFIED="1566889301445">
+<node TEXT=" &#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x4fee;&#x8865;bug&#x5206;&#x652f;" ID="ID_1886536823" CREATED="1566889306414" MODIFIED="1566889307314">
+<node TEXT="git checkout -b fixbug-0.1 master" ID="ID_1070597097" CREATED="1566889310551" MODIFIED="1566889312794"/>
+</node>
+<node TEXT="&#x4fee;&#x8865;&#x7ed3;&#x675f;&#x540e;&#xff0c;&#x5408;&#x5e76;&#x5230;master&#x5206;&#x652f;" ID="ID_1409502812" CREATED="1566889314075" MODIFIED="1566889319178">
+<node ID="ID_1986801714" CREATED="1566889329656" MODIFIED="1566889329656"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;git checkout master
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1807334222" CREATED="1566889329656" MODIFIED="1566889329656"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git merge --no-ff fixbug-0.1
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_568166193" CREATED="1566889329658" MODIFIED="1566889329658"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git tag -a 0.1.1
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x518d;&#x5408;&#x5e76;&#x5230;develop&#x5206;&#x652f;" ID="ID_670830960" CREATED="1566889337145" MODIFIED="1566889338722">
+<node TEXT="git checkout develop" ID="ID_1300465400" CREATED="1566889346731" MODIFIED="1566889349938"/>
+<node ID="ID_457973363" CREATED="1566889346731" MODIFIED="1566889346731"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git merge --no-ff fixbug-0.1
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x6700;&#x540e;&#xff0c;&#x5220;&#x9664;&quot;&#x4fee;&#x8865;bug&#x5206;&#x652f;&quot;" ID="ID_1460435381" CREATED="1566889355572" MODIFIED="1566889358863">
+<node TEXT=" git branch -d fixbug-0.1" ID="ID_1095802470" CREATED="1566889359664" MODIFIED="1566889361548"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x4e00;&#x65e6;&#x5b8c;&#x6210;&#x5f00;&#x53d1;&#xff0c;&#x5b83;&#x4eec;&#x5c31;&#x4f1a;&#x88ab;&#x5408;&#x5e76;&#x8fdb;develop&#x6216;master&#xff0c;&#x7136;&#x540e;&#x88ab;&#x5220;&#x9664;" ID="ID_379742763" CREATED="1566888511684" MODIFIED="1566888519233"/>
+</node>
+</node>
+<node TEXT="github flow" ID="ID_928853093" CREATED="1566877563061" MODIFIED="1566888285740">
+<node TEXT="Github flow &#x662f;Git flow&#x7684;&#x7b80;&#x5316;&#x7248;&#xff0c;&#x4e13;&#x95e8;&#x914d;&#x5408;&quot;&#x6301;&#x7eed;&#x53d1;&#x5e03;&quot;" ID="ID_1917138863" CREATED="1566890059536" MODIFIED="1566890065824"/>
+<node TEXT="&#x5b98;&#x65b9;&#x63a8;&#x8350;&#x7684;&#x6d41;&#x7a0b;" ID="ID_1827002966" CREATED="1566890077150" MODIFIED="1566890080345">
+<node TEXT="&#x65b0;&#x5206;&#x652f;" ID="ID_1651284999" CREATED="1566890391886" MODIFIED="1566890402826">
+<node TEXT="&#x6839;&#x636e;&#x9700;&#x6c42;&#xff0c;&#x4ece;master&#x62c9;&#x51fa;&#x65b0;&#x5206;&#x652f;&#xff0c;&#x4e0d;&#x533a;&#x5206;&#x529f;&#x80fd;&#x5206;&#x652f;&#x6216;&#x8865;&#x4e01;&#x5206;&#x652f;" ID="ID_1174087410" CREATED="1566890282353" MODIFIED="1566890286138"/>
+</node>
+<node TEXT="&#x63d0;PR" ID="ID_254049931" CREATED="1566890406274" MODIFIED="1566890411467">
+<node TEXT="&#x65b0;&#x5206;&#x652f;&#x5f00;&#x53d1;&#x5b8c;&#x6210;&#x540e;&#xff0c;&#x6216;&#x8005;&#x9700;&#x8981;&#x8ba8;&#x8bba;&#x7684;&#x65f6;&#x5019;&#xff0c;&#x5c31;&#x5411;master&#x53d1;&#x8d77;&#x4e00;&#x4e2a;pull request&#xff08;&#x7b80;&#x79f0;PR&#xff09;" ID="ID_1837862807" CREATED="1566890286992" MODIFIED="1566890308803"/>
+<node TEXT="Pull Request&#x65e2;&#x662f;&#x4e00;&#x4e2a;&#x901a;&#x77e5;&#xff0c;&#x8ba9;&#x522b;&#x4eba;&#x6ce8;&#x610f;&#x5230;&#x4f60;&#x7684;&#x8bf7;&#x6c42;&#xff0c;&#x53c8;&#x662f;&#x4e00;&#x79cd;&#x5bf9;&#x8bdd;&#x673a;&#x5236;&#xff0c;&#x5927;&#x5bb6;&#x4e00;&#x8d77;&#x8bc4;&#x5ba1;&#x548c;&#x8ba8;&#x8bba;&#x4f60;&#x7684;&#x4ee3;&#x7801;&#x3002;&#x5bf9;&#x8bdd;&#x8fc7;&#x7a0b;&#x4e2d;&#xff0c;&#x4f60;&#x8fd8;&#x53ef;&#x4ee5;&#x4e0d;&#x65ad;&#x63d0;&#x4ea4;&#x4ee3;&#x7801;&#x3002;" ID="ID_419836487" CREATED="1566890342139" MODIFIED="1566890345276"/>
+</node>
+<node TEXT="&#x5408;&#x5e76;PR" ID="ID_493079123" CREATED="1566890414583" MODIFIED="1566890461991">
+<node TEXT="&#x4f60;&#x7684;Pull Request&#x88ab;&#x63a5;&#x53d7;&#xff0c;&#x5408;&#x5e76;&#x8fdb;master&#xff0c;&#x91cd;&#x65b0;&#x90e8;&#x7f72;&#x540e;&#xff0c;&#x539f;&#x6765;&#x4f60;&#x62c9;&#x51fa;&#x6765;&#x7684;&#x90a3;&#x4e2a;&#x5206;&#x652f;&#x5c31;&#x88ab;&#x5220;&#x9664;" ID="ID_1009600028" CREATED="1566890357941" MODIFIED="1566890361526"/>
+</node>
+</node>
+<node TEXT="&#x8bc4;&#x4ef7;" ID="ID_637487614" CREATED="1566890375297" MODIFIED="1566890875093">
+<node TEXT="Github flow &#x7684;&#x6700;&#x5927;&#x4f18;&#x70b9;&#x5c31;&#x662f;&#x7b80;&#x5355;&#xff0c;&#x5bf9;&#x4e8e;&quot;&#x6301;&#x7eed;&#x53d1;&#x5e03;&quot;&#x7684;&#x4ea7;&#x54c1;&#xff0c;&#x53ef;&#x4ee5;&#x8bf4;&#x662f;&#x6700;&#x5408;&#x9002;&#x7684;&#x6d41;&#x7a0b;" ID="ID_1049652712" CREATED="1566890887812" MODIFIED="1566890891725"/>
+<node TEXT=" Github flow&#x5047;&#x8bbe;master&#x5206;&#x652f;&#x7684;&#x66f4;&#x65b0;&#x4e0e;&#x4ea7;&#x54c1;&#x7684;&#x53d1;&#x5e03;&#x662f;&#x4e00;&#x81f4;&#x7684;&#x3002;&#x4e5f;&#x5c31;&#x662f;&#x8bf4;&#xff0c;master&#x5206;&#x652f;&#x7684;&#x6700;&#x65b0;&#x4ee3;&#x7801;&#xff0c;&#x9ed8;&#x8ba4;&#x5c31;&#x662f;&#x5f53;&#x524d;&#x7684;&#x7ebf;&#x4e0a;&#x4ee3;&#x7801;" ID="ID_1172500916" CREATED="1566890965356" MODIFIED="1566891007580"/>
+<node TEXT="&#x5f53;&#x7ebf;&#x4e0a;&#x7248;&#x672c;&#x843d;&#x540e;&#x4e8e;master&#x5206;&#x652f;&#xff0c;&#x53ea;&#x6709;master&#x4e00;&#x4e2a;&#x4e3b;&#x5206;&#x652f;&#x5c31;&#x4e0d;&#x591f;&#x7528;&#x4e86;&#x3002;&#x901a;&#x5e38;&#xff0c;&#x4f60;&#x4e0d;&#x5f97;&#x4e0d;&#x5728;master&#x5206;&#x652f;&#x4ee5;&#x5916;&#xff0c;&#x53e6;&#x5916;&#x65b0;&#x5efa;&#x4e00;&#x4e2a;production&#x5206;&#x652f;&#x8ddf;&#x8e2a;&#x7ebf;&#x4e0a;&#x7248;&#x672c;" ID="ID_302612549" CREATED="1566890977723" MODIFIED="1566891049064"/>
+</node>
+</node>
+<node TEXT="gitlab flow" ID="ID_896014456" CREATED="1566877566484" MODIFIED="1566888287045">
+<node TEXT="&#x7279;&#x70b9;" ID="ID_1469583064" CREATED="1566891101169" MODIFIED="1566891102598">
+<node TEXT=" Gitlab flow &#x662f; Git flow &#x4e0e; Github flow &#x7684;&#x7efc;&#x5408;" ID="ID_608895023" CREATED="1566891064030" MODIFIED="1566891065014"/>
+<node TEXT=" &#x65e2;&#x6709;&#x9002;&#x5e94;&#x4e0d;&#x540c;&#x5f00;&#x53d1;&#x73af;&#x5883;&#x7684;&#x5f39;&#x6027;" ID="ID_1709122052" CREATED="1566891076904" MODIFIED="1566891077819"/>
+<node TEXT=" &#x53c8;&#x6709;&#x5355;&#x4e00;&#x4e3b;&#x5206;&#x652f;&#x7684;&#x7b80;&#x5355;&#x548c;&#x4fbf;&#x5229;" ID="ID_1039411917" CREATED="1566891082930" MODIFIED="1566891083830"/>
+</node>
+<node TEXT="&#x4e0a;&#x6e38;&#x4f18;&#x5148;" ID="ID_671920705" CREATED="1566891109261" MODIFIED="1566891116284">
+<node TEXT="Gitlab flow &#x7684;&#x6700;&#x5927;&#x539f;&#x5219;&#x53eb;&#x505a;&quot;&#x4e0a;&#x6e38;&#x4f18;&#x5148;&quot;&#xff08;upsteam first&#xff09;" ID="ID_1388078368" CREATED="1566891123931" MODIFIED="1566891126837"/>
+<node TEXT=" &#x5373;&#x53ea;&#x5b58;&#x5728;&#x4e00;&#x4e2a;&#x4e3b;&#x5206;&#x652f;master&#xff0c;&#x5b83;&#x662f;&#x6240;&#x6709;&#x5176;&#x4ed6;&#x5206;&#x652f;&#x7684;&quot;&#x4e0a;&#x6e38;&quot;" ID="ID_1756093946" CREATED="1566891134202" MODIFIED="1566891135261"/>
+<node TEXT=" &#x53ea;&#x6709;&#x4e0a;&#x6e38;&#x5206;&#x652f;&#x91c7;&#x7eb3;&#x7684;&#x4ee3;&#x7801;&#x53d8;&#x5316;&#xff0c;&#x624d;&#x80fd;&#x5e94;&#x7528;&#x5230;&#x5176;&#x4ed6;&#x5206;&#x652f;" ID="ID_185032900" CREATED="1566891143750" MODIFIED="1566891145020"/>
+</node>
+<node TEXT=" &#x6301;&#x7eed;&#x53d1;&#x5e03;" ID="ID_1944055513" CREATED="1566891450153" MODIFIED="1566891453073">
+<node TEXT=" &#x5728;master&#x5206;&#x652f;&#x4ee5;&#x5916;&#xff0c;&#x518d;&#x5efa;&#x7acb;&#x4e0d;&#x540c;&#x7684;&#x73af;&#x5883;&#x5206;&#x652f;" ID="ID_408375758" CREATED="1566891461992" MODIFIED="1566891463013">
+<node TEXT=" &quot;&#x5f00;&#x53d1;&#x73af;&#x5883;&quot;&#x7684;&#x5206;&#x652f;&#x662f;master" ID="ID_1816635715" CREATED="1566891472751" MODIFIED="1566891473749"/>
+<node TEXT=" &quot;&#x9884;&#x53d1;&#x73af;&#x5883;&quot;&#x7684;&#x5206;&#x652f;&#x662f;pre-production" ID="ID_1026157895" CREATED="1566891479118" MODIFIED="1566891485084"/>
+<node TEXT=" &quot;&#x751f;&#x4ea7;&#x73af;&#x5883;&quot;&#x7684;&#x5206;&#x652f;&#x662f;production" ID="ID_1095149045" CREATED="1566891485643" MODIFIED="1566891486948"/>
+</node>
+<node TEXT="&#x5f00;&#x53d1;&#x5206;&#x652f;&#x662f;&#x9884;&#x53d1;&#x5206;&#x652f;&#x7684;&quot;&#x4e0a;&#x6e38;&quot;&#xff0c;&#x9884;&#x53d1;&#x5206;&#x652f;&#x53c8;&#x662f;&#x751f;&#x4ea7;&#x5206;&#x652f;&#x7684;&quot;&#x4e0a;&#x6e38;&quot;" ID="ID_141083038" CREATED="1566891514695" MODIFIED="1566891558589"/>
+<node TEXT="&#x4ee3;&#x7801;&#x7684;&#x53d8;&#x5316;&#xff0c;&#x5fc5;&#x987b;&#x7531;&quot;&#x4e0a;&#x6e38;&quot;&#x5411;&quot;&#x4e0b;&#x6e38;&quot;&#x53d1;&#x5c55;" ID="ID_1018529313" CREATED="1566891554264" MODIFIED="1566891607299">
+<node TEXT=" &#x751f;&#x4ea7;&#x73af;&#x5883;&#x51fa;&#x73b0;&#x4e86;bug" ID="ID_280816868" CREATED="1566891580657" MODIFIED="1566891581949"/>
+<node TEXT=" &#x65b0;&#x5efa;&#x4e00;&#x4e2a;&#x529f;&#x80fd;&#x5206;&#x652f;&#xff0c;&#x5148;&#x628a;&#x5b83;&#x5408;&#x5e76;&#x5230;master" ID="ID_282828530" CREATED="1566891588614" MODIFIED="1566891589662"/>
+<node TEXT=" &#x786e;&#x8ba4;&#x6ca1;&#x6709;&#x95ee;&#x9898;&#xff0c;&#x518d;cherry-pick&#x5230;pre-production" ID="ID_1884991767" CREATED="1566891594552" MODIFIED="1566891598676"/>
+<node TEXT=" &#x8fd9;&#x4e00;&#x6b65;&#x4e5f;&#x6ca1;&#x6709;&#x95ee;&#x9898;&#xff0c;&#x624d;&#x8fdb;&#x5165;production" ID="ID_1341393777" CREATED="1566891599249" MODIFIED="1566891600108"/>
+<node TEXT="&#x53ea;&#x6709;&#x7d27;&#x6025;&#x60c5;&#x51b5;&#xff0c;&#x624d;&#x5141;&#x8bb8;&#x8df3;&#x8fc7;&#x4e0a;&#x6e38;&#xff0c;&#x76f4;&#x63a5;&#x5408;&#x5e76;&#x5230;&#x4e0b;&#x6e38;&#x5206;&#x652f;" ID="ID_1273667963" CREATED="1566891618954" MODIFIED="1566891621352"/>
+</node>
+<node TEXT=" &#x7248;&#x672c;&#x53d1;&#x5e03;" ID="ID_476390945" CREATED="1566891650384" MODIFIED="1566891651493">
+<node TEXT="&#x5bf9;&#x4e8e;&quot;&#x7248;&#x672c;&#x53d1;&#x5e03;&quot;&#x7684;&#x9879;&#x76ee;&#xff0c;&#x5efa;&#x8bae;&#x7684;&#x505a;&#x6cd5;&#x662f;&#x6bcf;&#x4e00;&#x4e2a;&#x7a33;&#x5b9a;&#x7248;&#x672c;&#xff0c;&#x90fd;&#x8981;&#x4ece;master&#x5206;&#x652f;&#x62c9;&#x51fa;&#x4e00;&#x4e2a;&#x5206;&#x652f;" ID="ID_1066372510" CREATED="1566891658550" MODIFIED="1566891661446"/>
+<node TEXT=" &#x6bd4;&#x5982;2-3-stable&#x3001;2-4-stable&#x7b49;&#x7b49;" ID="ID_353909691" CREATED="1566891673571" MODIFIED="1566891674564"/>
+<node TEXT=" &#x4ee5;&#x540e;&#xff0c;&#x53ea;&#x6709;&#x4fee;&#x8865;bug&#xff0c;&#x624d;&#x5141;&#x8bb8;&#x5c06;&#x4ee3;&#x7801;&#x5408;&#x5e76;&#x5230;&#x8fd9;&#x4e9b;&#x5206;&#x652f;&#xff0c;&#x5e76;&#x4e14;&#x6b64;&#x65f6;&#x8981;&#x66f4;&#x65b0;&#x5c0f;&#x7248;&#x672c;&#x53f7;" ID="ID_1524016346" CREATED="1566891686215" MODIFIED="1566891687236"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_258490891" CREATED="1566891809773" MODIFIED="1566891809774">
+<edge COLOR="#00007c"/>
 </node>
 </node>
 </map>
