@@ -3,7 +3,7 @@
 <node TEXT="mongodb" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1568106680748" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -137,11 +137,10 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x6982;&#x5ff5;" POSITION="right" ID="ID_1868690089" CREATED="1568107725866" MODIFIED="1568107729871">
 <edge COLOR="#0000ff"/>
-<node TEXT="&#x6570;&#x636e;&#x5e93;" ID="ID_1385868437" CREATED="1568106682962" MODIFIED="1568107739276">
+<node TEXT="&#x6570;&#x636e;&#x5e93;" FOLDED="true" ID="ID_1385868437" CREATED="1568106682962" MODIFIED="1568107739276">
 <node TEXT=" &#x4e00;&#x4e2a;mongodb&#x4e2d;&#x53ef;&#x4ee5;&#x5efa;&#x7acb;&#x591a;&#x4e2a;&#x6570;&#x636e;&#x5e93;" ID="ID_878487200" CREATED="1568106697025" MODIFIED="1568106698088"/>
 <node TEXT=" MongoDB&#x7684;&#x9ed8;&#x8ba4;&#x6570;&#x636e;&#x5e93;&#x4e3a;&quot;db&quot;&#xff0c;&#x8be5;&#x6570;&#x636e;&#x5e93;&#x5b58;&#x50a8;&#x5728;data&#x76ee;&#x5f55;&#x4e2d;" ID="ID_1057196610" CREATED="1568106698630" MODIFIED="1568106704595"/>
 <node TEXT=" &#x5728;MongoDB&#x4e2d;&#x53ef;&#x4ee5;&#x521b;&#x5efa;&#x6570;&#x636e;&#x5e93;&#xff0c;&#x5982;&#x679c;&#x4f60;&#x60f3;&#x4f7f;&#x7528;MongoDB&#xff0c;&#x521b;&#x5efa;&#x6570;&#x636e;&#x5e93;&#x4e0d;&#x662f;&#x5fc5;&#x8981;&#x7684;" ID="ID_125656465" CREATED="1568106717739" MODIFIED="1568106718819"/>
-</node>
 <node TEXT=" &#x663e;&#x793a;&#x5f53;&#x524d;&#x6570;&#x636e;&#x5e93;&#x5bf9;&#x8c61;&#x6216;&#x96c6;&#x5408;" ID="ID_918357517" CREATED="1568107258836" MODIFIED="1568107736712">
 <node TEXT=" $ db" ID="ID_1990576704" CREATED="1568107264521" MODIFIED="1568107269681"/>
 <node TEXT=" &#x663e;&#x793a;&#x5f53;&#x524d;&#x6570;&#x636e;&#x5e93;&#x5bf9;&#x8c61;&#x6216;&#x96c6;&#x5408;" ID="ID_1819605261" CREATED="1568107269888" MODIFIED="1568107274962"/>
@@ -153,7 +152,8 @@
 <node TEXT=" &#x8fd0;&#x884c;&quot;use&quot;&#x547d;&#x4ee4;&#xff0c;&#x53ef;&#x4ee5;&#x8fde;&#x63a5;&#x5230;&#x4e00;&#x4e2a;&#x6307;&#x5b9a;&#x7684;&#x6570;&#x636e;&#x5e93;" ID="ID_433713435" CREATED="1568107357024" MODIFIED="1568107358194"/>
 <node TEXT=" &gt; use local&#xa;switched to db local&#xa;&gt; db&#xa;local&#xa;&gt;" ID="ID_81954147" CREATED="1568107366994" MODIFIED="1568107368403"/>
 </node>
-<node TEXT=" &#x6570;&#x636e;&#x5e93;&#x540d;&#x7684;&#x5b9a;&#x4e49;" ID="ID_200687199" CREATED="1568107545762" MODIFIED="1568107731987">
+</node>
+<node TEXT=" &#x6570;&#x636e;&#x5e93;&#x540d;&#x7684;&#x5b9a;&#x4e49;" FOLDED="true" ID="ID_200687199" CREATED="1568107545762" MODIFIED="1568107731987">
 <node TEXT=" &#x6ee1;&#x8db3;&#x4ee5;&#x4e0b;&#x6761;&#x4ef6;&#x7684;&#x4efb;&#x610f;UTF-8&#x5b57;&#x7b26;&#x4e32;" ID="ID_1318158415" CREATED="1568107560774" MODIFIED="1568107563010">
 <node ID="ID_1646162454" CREATED="1568107572395" MODIFIED="1568107572395"><richcontent TYPE="NODE">
 
@@ -167,7 +167,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1057135999" CREATED="1568107572393" MODIFIED="1568107572393"><richcontent TYPE="NODE">
@@ -182,7 +181,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1864542879" CREATED="1568107572390" MODIFIED="1568107572390"><richcontent TYPE="NODE">
@@ -197,7 +195,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1896517" CREATED="1568107572390" MODIFIED="1568107572390"><richcontent TYPE="NODE">
@@ -212,7 +209,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -231,7 +227,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x4ec0;&#x4e48;&#x662f;&#x6587;&#x6863;" ID="ID_1937352859" CREATED="1568107747584" MODIFIED="1568107785338">
+<node TEXT="&#x4ec0;&#x4e48;&#x662f;&#x6587;&#x6863;" FOLDED="true" ID="ID_1937352859" CREATED="1568107747584" MODIFIED="1568107785338">
 <node TEXT="&#x6587;&#x6863;&#x662f;mongodb&#x4e2d;&#x7684;&#x6700;&#x6838;&#x5fc3;&#x7684;&#x6982;&#x5ff5;&#xff0c;&#x662f;&#x5176;&#x6838;&#x5fc3;&#x5355;&#x5143;&#xff0c; &#x6587;&#x6863;&#x662f;&#x4e00;&#x7ec4;&#x952e;&#x503c;(key-value)&#x5bf9;(&#x5373; BSON)" ID="ID_1531846530" CREATED="1568107757729" MODIFIED="1568127120911"/>
 <node TEXT=" &#x53ef;&#x4ee5;&#x5c06;&#x6587;&#x6863;&#x7c7b;&#x6bd4;&#x6210;&#x5173;&#x7cfb;&#x578b;&#x6570;&#x636e;&#x5e93;&#x4e2d;&#x7684;&#x6bcf;&#x4e00;&#x884c;&#x6570;&#x636e;" ID="ID_419912743" CREATED="1568127128181" MODIFIED="1568127129551"/>
 <node TEXT=" MongoDB &#x7684;&#x6587;&#x6863;&#x4e0d;&#x9700;&#x8981;&#x8bbe;&#x7f6e;&#x76f8;&#x540c;&#x7684;&#x5b57;&#x6bb5;&#xff0c;&#x5e76;&#x4e14;&#x76f8;&#x540c;&#x7684;&#x5b57;&#x6bb5;&#x4e0d;&#x9700;&#x8981;&#x76f8;&#x540c;&#x7684;&#x6570;&#x636e;&#x7c7b;&#x578b;&#xff0c;&#x8fd9;&#x4e0e;&#x5173;&#x7cfb;&#x578b;&#x6570;&#x636e;&#x5e93;&#x6709;&#x5f88;&#x5927;&#x7684;&#x533a;&#x522b;&#xff0c;&#x4e5f;&#x662f; MongoDB &#x975e;&#x5e38;&#x7a81;&#x51fa;&#x7684;&#x7279;&#x70b9;" ID="ID_822911264" CREATED="1568107779781" MODIFIED="1568107781043"/>
@@ -239,7 +235,7 @@
 <node TEXT="{&quot;site&quot;:&quot;www.runoob.com&quot;, &quot;name&quot;:&quot;&#x83dc;&#x9e1f;&#x6559;&#x7a0b;&quot;}" ID="ID_788354356" CREATED="1568107849505" MODIFIED="1568107857741"/>
 </node>
 </node>
-<node TEXT="&#x4ec0;&#x4e48;&#x662f;&#x96c6;&#x5408;" ID="ID_593848385" CREATED="1568107889787" MODIFIED="1568107894857">
+<node TEXT="&#x4ec0;&#x4e48;&#x662f;&#x96c6;&#x5408;" FOLDED="true" ID="ID_593848385" CREATED="1568107889787" MODIFIED="1568107894857">
 <node TEXT=" &#x96c6;&#x5408;&#x5c31;&#x662f; MongoDB &#x6587;&#x6863;&#x7ec4;&#xff0c;&#x7c7b;&#x4f3c;&#x4e8e; RDBMS &#xff08;&#x5173;&#x7cfb;&#x6570;&#x636e;&#x5e93;&#xff09;&#x4e2d;&#x7684;&#x8868;&#x683c;" ID="ID_928956537" CREATED="1568107900435" MODIFIED="1568107925434"/>
 <node TEXT=" &#x96c6;&#x5408;&#x5b58;&#x5728;&#x4e8e;&#x6570;&#x636e;&#x5e93;&#x4e2d;&#xff0c;&#x96c6;&#x5408;&#x6ca1;&#x6709;&#x56fa;&#x5b9a;&#x7684;&#x7ed3;&#x6784;" ID="ID_421968894" CREATED="1568107946392" MODIFIED="1568107947454">
 <node TEXT=" &#x53ef;&#x4ee5;&#x63d2;&#x5165;&#x4e0d;&#x540c;&#x683c;&#x5f0f;&#x548c;&#x7c7b;&#x578b;&#x7684;&#x6570;&#x636e;" ID="ID_260229507" CREATED="1568107961002" MODIFIED="1568107961989"/>
@@ -250,7 +246,7 @@
 </node>
 <node TEXT=" &#x5f53;&#x7b2c;&#x4e00;&#x4e2a;&#x6587;&#x6863;&#x63d2;&#x5165;&#x65f6;&#xff0c;&#x96c6;&#x5408;&#x5c31;&#x4f1a;&#x88ab;&#x521b;&#x5efa;" ID="ID_419025904" CREATED="1568108040357" MODIFIED="1568108041785"/>
 </node>
-<node TEXT=" capped collections" ID="ID_1420048818" CREATED="1568108079162" MODIFIED="1568108080347">
+<node TEXT=" capped collections" FOLDED="true" ID="ID_1420048818" CREATED="1568108079162" MODIFIED="1568108080347">
 <node TEXT=" Capped collections &#x5c31;&#x662f;&#x56fa;&#x5b9a;&#x5927;&#x5c0f;&#x7684;collection" ID="ID_621054608" CREATED="1568108089585" MODIFIED="1568108090501"/>
 <node TEXT=" &#x5b83;&#x6709;&#x5f88;&#x9ad8;&#x7684;&#x6027;&#x80fd;&#x4ee5;&#x53ca;&#x961f;&#x5217;&#x8fc7;&#x671f;&#x7684;&#x7279;&#x6027;(&#x8fc7;&#x671f;&#x6309;&#x7167;&#x63d2;&#x5165;&#x7684;&#x987a;&#x5e8f;)." ID="ID_833277905" CREATED="1568108099594" MODIFIED="1568108142740"/>
 <node TEXT=" db.createCollection(&quot;mycoll&quot;, {capped:true, size:100000})" ID="ID_251971350" CREATED="1568108143905" MODIFIED="1568108144946"/>
@@ -267,21 +263,7 @@
 <node TEXT=" dbname.system.namespaces &#x5217;&#x51fa;&#x6240;&#x6709;&#x540d;&#x5b57;&#x7a7a;&#x95f4;&#x3002;&#xa;dbname.system.indexes &#x5217;&#x51fa;&#x6240;&#x6709;&#x7d22;&#x5f15;&#x3002;&#xa;dbname.system.profile &#x5305;&#x542b;&#x6570;&#x636e;&#x5e93;&#x6982;&#x8981;(profile)&#x4fe1;&#x606f;&#x3002;&#xa;dbname.system.users &#x5217;&#x51fa;&#x6240;&#x6709;&#x53ef;&#x8bbf;&#x95ee;&#x6570;&#x636e;&#x5e93;&#x7684;&#x7528;&#x6237;&#x3002;&#xa;dbname.local.sources &#x5305;&#x542b;&#x590d;&#x5236;&#x5bf9;&#x7aef;&#xff08;slave&#xff09;&#x7684;&#x670d;&#x52a1;&#x5668;&#x4fe1;&#x606f;&#x548c;&#x72b6;&#x6001;&#x3002;" ID="ID_1415951580" CREATED="1568108283956" MODIFIED="1568108285692"/>
 </node>
 <node TEXT=" MongoDB &#x6570;&#x636e;&#x7c7b;&#x578b;" ID="ID_565574729" CREATED="1568108275784" MODIFIED="1568108277010">
-<node ID="ID_211664837" CREATED="1568108300190" MODIFIED="1568108300190"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#160;String &#23383;&#31526;&#20018;&#12290;&#23384;&#20648;&#25968;&#25454;&#24120;&#29992;&#30340;&#25968;&#25454;&#31867;&#22411;&#12290;&#22312; MongoDB &#20013;&#65292;UTF-8 &#32534;&#30721;&#30340;&#23383;&#31526;&#20018;&#25165;&#26159;&#21512;&#27861;&#30340;&#12290;
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
+<node TEXT="String &#x5b57;&#x7b26;&#x4e32;&#x3002;&#x5b58;&#x50a8;&#x6570;&#x636e;&#x5e38;&#x7528;&#x7684;&#x6570;&#x636e;&#x7c7b;&#x578b;&#x3002;&#x5728; MongoDB &#x4e2d;&#xff0c;UTF-8 &#x7f16;&#x7801;&#x7684;&#x5b57;&#x7b26;&#x4e32;&#x624d;&#x662f;&#x5408;&#x6cd5;&#x7684;&#x3002;" ID="ID_211664837" CREATED="1568108300190" MODIFIED="1568604892589"/>
 <node ID="ID_1131141113" CREATED="1568108300190" MODIFIED="1568108300190"><richcontent TYPE="NODE">
 
 <html>
@@ -294,7 +276,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1653764882" CREATED="1568108300192" MODIFIED="1568108300192"><richcontent TYPE="NODE">
@@ -309,7 +290,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1226085362" CREATED="1568108300194" MODIFIED="1568108300194"><richcontent TYPE="NODE">
@@ -324,7 +304,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1513719309" CREATED="1568108300197" MODIFIED="1568108300197"><richcontent TYPE="NODE">
@@ -339,7 +318,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_294647651" CREATED="1568108300199" MODIFIED="1568108300199"><richcontent TYPE="NODE">
@@ -354,7 +332,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1844116862" CREATED="1568108300200" MODIFIED="1568108300200"><richcontent TYPE="NODE">
@@ -369,7 +346,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1202222679" CREATED="1568108300202" MODIFIED="1568108300202"><richcontent TYPE="NODE">
@@ -384,7 +360,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_159345872" CREATED="1568108300204" MODIFIED="1568108300204"><richcontent TYPE="NODE">
@@ -399,7 +374,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_809713552" CREATED="1568108300206" MODIFIED="1568108300206"><richcontent TYPE="NODE">
@@ -414,7 +388,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1770627851" CREATED="1568108300208" MODIFIED="1568108300208"><richcontent TYPE="NODE">
@@ -429,7 +402,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_783001290" CREATED="1568108300209" MODIFIED="1568108300209"><richcontent TYPE="NODE">
@@ -444,7 +416,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_491399985" CREATED="1568108300212" MODIFIED="1568108300212"><richcontent TYPE="NODE">
@@ -459,7 +430,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1969696676" CREATED="1568108300213" MODIFIED="1568108300213"><richcontent TYPE="NODE">
@@ -474,7 +444,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_882236566" CREATED="1568108300214" MODIFIED="1568108300214"><richcontent TYPE="NODE">
@@ -489,7 +458,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -534,7 +502,7 @@
 <node TEXT="db.runoob.drop()" ID="ID_403973285" CREATED="1568108845376" MODIFIED="1568108851927"/>
 </node>
 </node>
-<node TEXT="&#x63d2;&#x5165;&#x6587;&#x6863;" POSITION="right" ID="ID_869392896" CREATED="1568108995080" MODIFIED="1568108998893">
+<node TEXT="&#x63d2;&#x5165;&#x6587;&#x6863;" FOLDED="true" POSITION="right" ID="ID_869392896" CREATED="1568108995080" MODIFIED="1568108998893">
 <edge COLOR="#7c007c"/>
 <node TEXT=" MongoDB &#x4f7f;&#x7528; insert() &#x6216; save() &#x65b9;&#x6cd5;&#x5411;&#x96c6;&#x5408;&#x4e2d;&#x63d2;&#x5165;&#x6587;&#x6863;" ID="ID_73742677" CREATED="1568109009269" MODIFIED="1568109011005"/>
 <node TEXT="&#x8bed;&#x6cd5;" ID="ID_1002973117" CREATED="1568109017715" MODIFIED="1568109020842">
@@ -550,7 +518,7 @@
 <node TEXT=" &#x67e5;&#x770b;&#x5df2;&#x63d2;&#x5165;&#x6587;&#x6863; db.col.find()" ID="ID_926944669" CREATED="1568125095241" MODIFIED="1568125117209"/>
 </node>
 </node>
-<node TEXT="&#x66f4;&#x65b0;&#x6587;&#x6863;" POSITION="right" ID="ID_649360736" CREATED="1568125272724" MODIFIED="1568125279102">
+<node TEXT="&#x66f4;&#x65b0;&#x6587;&#x6863;" FOLDED="true" POSITION="right" ID="ID_649360736" CREATED="1568125272724" MODIFIED="1568125279102">
 <edge COLOR="#7c7c00"/>
 <node TEXT=" MongoDB &#x4f7f;&#x7528; update() &#x548c; save() &#x65b9;&#x6cd5;&#x6765;&#x66f4;&#x65b0;&#x96c6;&#x5408;&#x4e2d;&#x7684;&#x6587;&#x6863;" ID="ID_1050382401" CREATED="1568125308967" MODIFIED="1568125310398"/>
 <node TEXT=" update() &#x65b9;&#x6cd5;" ID="ID_110912847" CREATED="1568125311175" MODIFIED="1568125329350">
@@ -571,39 +539,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node ID="ID_342876052" CREATED="1568125382061" MODIFIED="1568125382061"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      upsert : &#21487;&#36873;&#65292;&#36825;&#20010;&#21442;&#25968;&#30340;&#24847;&#24605;&#26159;&#65292;&#22914;&#26524;&#19981;&#23384;&#22312;update&#30340;&#35760;&#24405;&#65292;&#26159;&#21542;&#25554;&#20837;objNew,true&#20026;&#25554;&#20837;&#65292;&#40664;&#35748;&#26159;false&#65292;&#19981;&#25554;&#20837;&#12290;
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node ID="ID_853494502" CREATED="1568125382071" MODIFIED="1568125382071"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      multi : &#21487;&#36873;&#65292;mongodb &#40664;&#35748;&#26159;false,&#21482;&#26356;&#26032;&#25214;&#21040;&#30340;&#31532;&#19968;&#26465;&#35760;&#24405;&#65292;&#22914;&#26524;&#36825;&#20010;&#21442;&#25968;&#20026;true,&#23601;&#25226;&#25353;&#26465;&#20214;&#26597;&#20986;&#26469;&#22810;&#26465;&#35760;&#24405;&#20840;&#37096;&#26356;&#26032;&#12290;
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
+<node TEXT="upsert : &#x53ef;&#x9009;&#xff0c;&#x8fd9;&#x4e2a;&#x53c2;&#x6570;&#x7684;&#x610f;&#x601d;&#x662f;&#xff0c;&#x5982;&#x679c;&#x4e0d;&#x5b58;&#x5728;update&#x7684;&#x8bb0;&#x5f55;&#xff0c;&#x662f;&#x5426;&#x63d2;&#x5165;objNew,true&#x4e3a;&#x63d2;&#x5165;&#xff0c;&#x9ed8;&#x8ba4;&#x662f;false&#xff0c;&#x4e0d;&#x63d2;&#x5165;&#x3002;" ID="ID_342876052" CREATED="1568125382061" MODIFIED="1568605801618"/>
+<node TEXT="multi : &#x53ef;&#x9009;&#xff0c;mongodb &#x9ed8;&#x8ba4;&#x662f;false,&#x53ea;&#x66f4;&#x65b0;&#x627e;&#x5230;&#x7684;&#x7b2c;&#x4e00;&#x6761;&#x8bb0;&#x5f55;&#xff0c;&#x5982;&#x679c;&#x8fd9;&#x4e2a;&#x53c2;&#x6570;&#x4e3a;true,&#x5c31;&#x628a;&#x6309;&#x6761;&#x4ef6;&#x67e5;&#x51fa;&#x6765;&#x591a;&#x6761;&#x8bb0;&#x5f55;&#x5168;&#x90e8;&#x66f4;&#x65b0;&#x3002;" ID="ID_853494502" CREATED="1568125382071" MODIFIED="1568605695521"/>
 <node ID="ID_166807318" CREATED="1568125382078" MODIFIED="1568125382078"><richcontent TYPE="NODE">
 
 <html>
@@ -616,7 +555,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -628,14 +566,14 @@
 <node TEXT=" &#x5168;&#x90e8;&#x66f4;&#x65b0;" ID="ID_888454591" CREATED="1568127371860" MODIFIED="1568127374069">
 <node TEXT=" db.test0.update( { &quot;count&quot; : { $gt : 3 } } , { $set : { &quot;test2&quot; : &quot;OK&quot;} },false,true );" ID="ID_1391709544" CREATED="1568127378790" MODIFIED="1568127379885"/>
 </node>
+<node TEXT=" &#x5168;&#x90e8;&#x66f4;&#x65b0;" ID="ID_1911362571" CREATED="1568127418335" MODIFIED="1568127424200">
+<node TEXT=" db.test0.update( { &quot;count&quot; : { $gt : 15 } } , { $inc : { &quot;count&quot; : 1} },false,true );" ID="ID_202556101" CREATED="1568127425324" MODIFIED="1568127427693"/>
+</node>
 <node TEXT="&#x53ea;&#x6dfb;&#x52a0;&#x7b2c;&#x4e00;&#x6761;" ID="ID_322160502" CREATED="1568127381842" MODIFIED="1568127386846">
 <node TEXT=" db.test0.update( { &quot;count&quot; : { $gt : 4 } } , { $set : { &quot;test5&quot; : &quot;OK&quot;} },true,false );" ID="ID_143524043" CREATED="1568127391316" MODIFIED="1568127392413"/>
 </node>
 <node TEXT=" &#x5168;&#x90e8;&#x6dfb;&#x52a0;&#x52a0;&#x8fdb;&#x53bb;" ID="ID_1763696003" CREATED="1568127394134" MODIFIED="1568127399142">
 <node TEXT=" db.test0.update( { &quot;count&quot; : { $gt : 5 } } , { $set : { &quot;test5&quot; : &quot;OK&quot;} },true,true );" ID="ID_976557919" CREATED="1568127411591" MODIFIED="1568127412925"/>
-</node>
-<node TEXT=" &#x5168;&#x90e8;&#x66f4;&#x65b0;" ID="ID_1911362571" CREATED="1568127418335" MODIFIED="1568127424200">
-<node TEXT=" db.test0.update( { &quot;count&quot; : { $gt : 15 } } , { $inc : { &quot;count&quot; : 1} },false,true );" ID="ID_202556101" CREATED="1568127425324" MODIFIED="1568127427693"/>
 </node>
 <node TEXT=" save() &#x65b9;&#x6cd5;" ID="ID_1459250470" CREATED="1568125881895" MODIFIED="1568125890148">
 <node TEXT=" save() &#x65b9;&#x6cd5;&#x901a;&#x8fc7;&#x4f20;&#x5165;&#x7684;&#x6587;&#x6863;&#x6765;&#x66ff;&#x6362;&#x5df2;&#x6709;&#x6587;&#x6863;" ID="ID_1771903961" CREATED="1568125891446" MODIFIED="1568125893580"/>
@@ -655,7 +593,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1828102168" CREATED="1568125938606" MODIFIED="1568125938606"><richcontent TYPE="NODE">
@@ -670,7 +607,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -680,7 +616,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5220;&#x9664;&#x6587;&#x6863;" POSITION="right" ID="ID_1304522297" CREATED="1568126729290" MODIFIED="1568126743561">
+<node TEXT="&#x5220;&#x9664;&#x6587;&#x6863;" FOLDED="true" POSITION="right" ID="ID_1304522297" CREATED="1568126729290" MODIFIED="1568126743561">
 <edge COLOR="#ff0000"/>
 <node TEXT=" remove()&#x51fd;&#x6570;&#x662f;&#x7528;&#x6765;&#x79fb;&#x9664;&#x96c6;&#x5408;&#x4e2d;&#x7684;&#x6570;&#x636e;" ID="ID_142631552" CREATED="1568126744308" MODIFIED="1568126848654"/>
 <node TEXT=" &#x5728;&#x6267;&#x884c;remove()&#x51fd;&#x6570;&#x524d;&#x5148;&#x6267;&#x884c;find()&#x547d;&#x4ee4;&#x6765;&#x5224;&#x65ad;&#x6267;&#x884c;&#x7684;&#x6761;&#x4ef6;&#x662f;&#x5426;&#x6b63;&#x786e;&#xff0c;&#x8fd9;&#x662f;&#x4e00;&#x4e2a;&#x6bd4;&#x8f83;&#x597d;&#x7684;&#x4e60;&#x60ef;" ID="ID_1029672998" CREATED="1568127485139" MODIFIED="1568127486428"/>
@@ -689,7 +625,51 @@
 <node TEXT="db.collection.remove(&#xa;   &lt;query&gt;,&#xa;   {&#xa;     justOne: &lt;boolean&gt;,&#xa;     writeConcern: &lt;document&gt;&#xa;   }&#xa;)" ID="ID_1702401133" CREATED="1568126873334" MODIFIED="1568127030164"/>
 </node>
 <node TEXT="&#x53c2;&#x6570;" ID="ID_124877880" CREATED="1568127034079" MODIFIED="1568127037868">
-<node TEXT="query :&#xff08;&#x53ef;&#x9009;&#xff09;&#x5220;&#x9664;&#x7684;&#x6587;&#x6863;&#x7684;&#x6761;&#x4ef6;&#x3002;&#xa;justOne : &#xff08;&#x53ef;&#x9009;&#xff09;&#x5982;&#x679c;&#x8bbe;&#x4e3a; true &#x6216; 1&#xff0c;&#x5219;&#x53ea;&#x5220;&#x9664;&#x4e00;&#x4e2a;&#x6587;&#x6863;&#xff0c;&#x5982;&#x679c;&#x4e0d;&#x8bbe;&#x7f6e;&#x8be5;&#x53c2;&#x6570;&#xff0c;&#x6216;&#x4f7f;&#x7528;&#x9ed8;&#x8ba4;&#x503c; false&#xff0c;&#x5219;&#x5220;&#x9664;&#x6240;&#x6709;&#x5339;&#x914d;&#x6761;&#x4ef6;&#x7684;&#x6587;&#x6863;&#x3002;&#xa;writeConcern :&#xff08;&#x53ef;&#x9009;&#xff09;&#x629b;&#x51fa;&#x5f02;&#x5e38;&#x7684;&#x7ea7;&#x522b;&#x3002;" ID="ID_136476002" CREATED="1568127042027" MODIFIED="1568127045700"/>
+<node ID="ID_1309042217" CREATED="1568606412490" MODIFIED="1568606412490"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      query :&#65288;&#21487;&#36873;&#65289;&#21024;&#38500;&#30340;&#25991;&#26723;&#30340;&#26465;&#20214;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1277632871" CREATED="1568606412490" MODIFIED="1568606412490"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      justOne : &#65288;&#21487;&#36873;&#65289;&#22914;&#26524;&#35774;&#20026; true &#25110; 1&#65292;&#21017;&#21482;&#21024;&#38500;&#19968;&#20010;&#25991;&#26723;&#65292;&#22914;&#26524;&#19981;&#35774;&#32622;&#35813;&#21442;&#25968;&#65292;&#25110;&#20351;&#29992;&#40664;&#35748;&#20540; false&#65292;&#21017;&#21024;&#38500;&#25152;&#26377;&#21305;&#37197;&#26465;&#20214;&#30340;&#25991;&#26723;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_880388561" CREATED="1568606412493" MODIFIED="1568606412493"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      writeConcern :&#65288;&#21487;&#36873;&#65289;&#25243;&#20986;&#24322;&#24120;&#30340;&#32423;&#21035;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="&#x5220;&#x9664;&#x6307;&#x5b9a;&#x6570;&#x636e;" ID="ID_555062063" CREATED="1568127779126" MODIFIED="1568127785216">
@@ -703,7 +683,7 @@
 <node TEXT=" db.col.remove({})" ID="ID_168407457" CREATED="1568127891048" MODIFIED="1568127892831"/>
 </node>
 </node>
-<node TEXT="&#x67e5;&#x8be2;&#x6587;&#x6863;" POSITION="right" ID="ID_1019382851" CREATED="1568127917357" MODIFIED="1568127957024" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="&#x67e5;&#x8be2;&#x6587;&#x6863;" FOLDED="true" POSITION="right" ID="ID_1019382851" CREATED="1568127917357" MODIFIED="1568127957024" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#0000ff"/>
 <node TEXT=" MongoDB &#x67e5;&#x8be2;&#x6587;&#x6863;&#x4f7f;&#x7528; find() &#x65b9;&#x6cd5;" ID="ID_1004352113" CREATED="1568127948870" MODIFIED="1568127951165"/>
 <node TEXT="&#x8bed;&#x6cd5;" ID="ID_1734956713" CREATED="1568127951914" MODIFIED="1568127958276">
@@ -722,7 +702,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_161986947" CREATED="1568127986681" MODIFIED="1568127986681"><richcontent TYPE="NODE">
@@ -737,7 +716,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -787,7 +765,7 @@
 <node TEXT=" db.col.find({&quot;likes&quot;: {$gt:50}, $or: [{&quot;by&quot;: &quot;&#x83dc;&#x9e1f;&#x6559;&#x7a0b;&quot;},{&quot;title&quot;: &quot;MongoDB &#x6559;&#x7a0b;&quot;}]}).pretty()" ID="ID_63883182" CREATED="1568128585886" MODIFIED="1568128586901"/>
 </node>
 </node>
-<node TEXT="$type&#x64cd;&#x4f5c;&#x7b26;" POSITION="right" ID="ID_598240164" CREATED="1568128633394" MODIFIED="1568128645269">
+<node TEXT="$type&#x64cd;&#x4f5c;&#x7b26;" FOLDED="true" POSITION="right" ID="ID_598240164" CREATED="1568128633394" MODIFIED="1568128645269">
 <edge COLOR="#00ff00"/>
 <node TEXT=" $type&#x64cd;&#x4f5c;&#x7b26;&#x662f;&#x57fa;&#x4e8e;BSON&#x7c7b;&#x578b;&#x6765;&#x68c0;&#x7d22;&#x96c6;&#x5408;&#x4e2d;&#x5339;&#x914d;&#x7684;&#x6570;&#x636e;&#x7c7b;&#x578b;&#xff0c;&#x5e76;&#x8fd4;&#x56de;&#x7ed3;&#x679c;" ID="ID_1449492722" CREATED="1568167168127" MODIFIED="1568167169796"/>
 <node TEXT="&#x7c7b;&#x578b;" ID="ID_1183157927" CREATED="1568167195502" MODIFIED="1568167199561">
@@ -803,7 +781,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_84296628" CREATED="1568167208767" MODIFIED="1568167208767"><richcontent TYPE="NODE">
@@ -818,7 +795,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1342365085" CREATED="1568167208768" MODIFIED="1568167208768"><richcontent TYPE="NODE">
@@ -833,7 +809,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1289435110" CREATED="1568167208769" MODIFIED="1568167208769"><richcontent TYPE="NODE">
@@ -848,7 +823,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x7b49;&#x7b49;" ID="ID_1609984371" CREATED="1568167211855" MODIFIED="1568167214793"/>
@@ -866,7 +840,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1375105992" CREATED="1568167273421" MODIFIED="1568167273421"><richcontent TYPE="NODE">
@@ -881,12 +854,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="  Limit&#x4e0e;Skip" POSITION="right" ID="ID_1084843197" CREATED="1568167476947" MODIFIED="1568167477904">
+<node TEXT="  Limit&#x4e0e;Skip" FOLDED="true" POSITION="right" ID="ID_1084843197" CREATED="1568167476947" MODIFIED="1568167477904">
 <edge COLOR="#00ffff"/>
 <node TEXT="Limit() &#x65b9;&#x6cd5;" ID="ID_280716026" CREATED="1568167310342" MODIFIED="1568167479215">
 <node TEXT=" limit()&#x65b9;&#x6cd5;&#x63a5;&#x53d7;&#x4e00;&#x4e2a;&#x6570;&#x5b57;&#x53c2;&#x6570;&#xff0c;&#x8be5;&#x53c2;&#x6570;&#x6307;&#x5b9a;&#x4ece;MongoDB&#x4e2d;&#x8bfb;&#x53d6;&#x7684;&#x8bb0;&#x5f55;&#x6761;&#x6570;" ID="ID_491401961" CREATED="1568167381315" MODIFIED="1568167382537"/>
@@ -902,7 +874,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x6392;&#x5e8f;" POSITION="right" ID="ID_531551458" CREATED="1568167548554" MODIFIED="1568167551254">
+<node TEXT="&#x6392;&#x5e8f;" FOLDED="true" POSITION="right" ID="ID_531551458" CREATED="1568167548554" MODIFIED="1568167551254">
 <edge COLOR="#7c0000"/>
 <node TEXT=" sort() &#x65b9;&#x6cd5;" ID="ID_295488894" CREATED="1568167563509" MODIFIED="1568167564320">
 <node TEXT="&#x63a5;&#x53d7;&#x53c2;&#x6570;&#xff0c;1 &#x4e3a;&#x5347;&#x5e8f;&#x6392;&#x5217;&#xff0c;&#x800c; -1 &#x662f;&#x7528;&#x4e8e;&#x964d;&#x5e8f;&#x6392;&#x5217;" ID="ID_597722177" CREATED="1568167585913" MODIFIED="1568167599990"/>
@@ -1052,7 +1024,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1803232362" CREATED="1568170187096" MODIFIED="1568170187096"><richcontent TYPE="NODE">
@@ -1067,7 +1038,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_72743417" CREATED="1568170187097" MODIFIED="1568170187097"><richcontent TYPE="NODE">
@@ -1082,7 +1052,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1844078327" CREATED="1568170187097" MODIFIED="1568170187097"><richcontent TYPE="NODE">
@@ -1097,7 +1066,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1149,7 +1117,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_215813677" CREATED="1568170636421" MODIFIED="1568170636421"><richcontent TYPE="NODE">
@@ -1164,7 +1131,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_243169876" CREATED="1568170636422" MODIFIED="1568170636422"><richcontent TYPE="NODE">
@@ -1179,7 +1145,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
