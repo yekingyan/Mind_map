@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="mongodb" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1568106680748" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
-<hook NAME="MapStyle" zoom="1.077">
+<hook NAME="MapStyle" zoom="0.979">
     <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="119" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="127" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x6982;&#x5ff5;" POSITION="right" ID="ID_1868690089" CREATED="1568107725866" MODIFIED="1568107729871">
 <edge COLOR="#0000ff"/>
@@ -683,7 +683,7 @@
 <node TEXT=" db.col.remove({})" ID="ID_168407457" CREATED="1568127891048" MODIFIED="1568127892831"/>
 </node>
 </node>
-<node TEXT="&#x67e5;&#x8be2;&#x6587;&#x6863;" FOLDED="true" POSITION="right" ID="ID_1019382851" CREATED="1568127917357" MODIFIED="1568127957024" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="&#x67e5;&#x8be2;&#x6587;&#x6863;" POSITION="right" ID="ID_1019382851" CREATED="1568127917357" MODIFIED="1568127957024" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#0000ff"/>
 <node TEXT=" MongoDB &#x67e5;&#x8be2;&#x6587;&#x6863;&#x4f7f;&#x7528; find() &#x65b9;&#x6cd5;" ID="ID_1004352113" CREATED="1568127948870" MODIFIED="1568127951165"/>
 <node TEXT="&#x8bed;&#x6cd5;" ID="ID_1734956713" CREATED="1568127951914" MODIFIED="1568127958276">
@@ -760,6 +760,10 @@
 <node TEXT=" &gt;db.col.find(&#xa;   {&#xa;      $or: [&#xa;         {key1: value1}, {key2:value2}&#xa;      ]&#xa;   }&#xa;).pretty()" ID="ID_905031345" CREATED="1568128547069" MODIFIED="1568128548477"/>
 </node>
 <node TEXT=" db.col.find({$or:[{&quot;by&quot;:&quot;&#x83dc;&#x9e1f;&#x6559;&#x7a0b;&quot;},{&quot;title&quot;: &quot;MongoDB &#x6559;&#x7a0b;&quot;}]}).pretty()" ID="ID_1473730984" CREATED="1568128592880" MODIFIED="1568128594111"/>
+</node>
+<node TEXT="MongoDB IN &#x6761;&#x4ef6;" ID="ID_1619925088" CREATED="1568711677849" MODIFIED="1568711684862">
+<node TEXT="&#x4ece; user &#x96c6;&#x5408;&#x4e2d;&#x68c0;&#x7d22; status &#x5b57;&#x6bb5;&#x503c;&#x4e3a; &quot;P&quot; &#x6216;&#x8005; &quot;D&quot; &#x7684;&#x6240;&#x6709;&#x6587;&#x6863;" ID="ID_610416785" CREATED="1568711692672" MODIFIED="1568711700873"/>
+<node TEXT=" db.users.find( { status: { $in: [ &quot;P&quot;, &quot;D&quot; ] } } )" ID="ID_1522862223" CREATED="1568711697223" MODIFIED="1568711698289"/>
 </node>
 <node TEXT=" AND &#x548c; OR &#x8054;&#x5408;&#x4f7f;&#x7528;" ID="ID_156667486" CREATED="1568128572798" MODIFIED="1568128574340">
 <node TEXT=" db.col.find({&quot;likes&quot;: {$gt:50}, $or: [{&quot;by&quot;: &quot;&#x83dc;&#x9e1f;&#x6559;&#x7a0b;&quot;},{&quot;title&quot;: &quot;MongoDB &#x6559;&#x7a0b;&quot;}]}).pretty()" ID="ID_63883182" CREATED="1568128585886" MODIFIED="1568128586901"/>
@@ -886,7 +890,7 @@
 <node TEXT=" db.col.find({},{&quot;title&quot;:1,_id:0}).sort({&quot;likes&quot;:-1})" ID="ID_1397957025" CREATED="1568167856423" MODIFIED="1568167857410"/>
 </node>
 </node>
-<node TEXT=" &#x7d22;&#x5f15;" POSITION="right" ID="ID_1765600412" CREATED="1568167884347" MODIFIED="1568167885632">
+<node TEXT=" &#x7d22;&#x5f15;" FOLDED="true" POSITION="right" ID="ID_1765600412" CREATED="1568167884347" MODIFIED="1568167885632">
 <edge COLOR="#00007c"/>
 <node TEXT=" MongoDB &#x65e0;&#x9700;&#x5728;&#x6574;&#x4e2a;&#x6570;&#x636e;&#x6587;&#x6863;&#x4e2d;&#x68c0;&#x7d22;&#x5339;&#x914d;&#x67e5;&#x8be2;&#x6761;&#x4ef6;&#x548c;&#x8fd4;&#x56de;&#x4f7f;&#x7528;&#x76f8;&#x540c;&#x7d22;&#x5f15;&#x7684;&#x67e5;&#x8be2;&#x7ed3;&#x679c;" ID="ID_91339684" CREATED="1568172033183" MODIFIED="1568172034879"/>
 <node TEXT=" &#x7d22;&#x5f15;&#x5b58;&#x5728;&#x4e8e;RAM&#x4e2d;&#xff0c;&#x4ece;&#x7d22;&#x5f15;&#x4e2d;&#x83b7;&#x53d6;&#x6570;&#x636e;&#x6bd4;&#x901a;&#x8fc7;&#x626b;&#x63cf;&#x6587;&#x6863;&#x8bfb;&#x53d6;&#x6570;&#x636e;&#x8981;&#x5feb;&#x5f97;&#x591a;" ID="ID_1794008955" CREATED="1568172054792" MODIFIED="1568172055942"/>
@@ -948,7 +952,7 @@
 <node TEXT=" db.mycol.aggregate([{$group : {_id : &quot;$by_user&quot;, num_tutorial : {$sum : 1}}}])" ID="ID_1241857571" CREATED="1568169114121" MODIFIED="1568169115273"/>
 </node>
 </node>
-<node TEXT=" &#x805a;&#x5408;&#x7684;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_1143447122" CREATED="1568169154033" MODIFIED="1568169155759">
+<node TEXT=" &#x805a;&#x5408;&#x7684;&#x8868;&#x8fbe;&#x5f0f;" FOLDED="true" ID="ID_1143447122" CREATED="1568169154033" MODIFIED="1568169155759">
 <node TEXT=" $sum" ID="ID_366928173" CREATED="1568169166657" MODIFIED="1568169167544">
 <node TEXT=" &#x8ba1;&#x7b97;&#x603b;&#x548c;&#x3002;" ID="ID_544912869" CREATED="1568169170724" MODIFIED="1568169172090"/>
 <node TEXT=" db.mycol.aggregate([{$group : {_id : &quot;$by_user&quot;, num_tutorial : {$sum : &quot;$likes&quot;}}}])" ID="ID_1553871543" CREATED="1568169172307" MODIFIED="1568169176520"/>
@@ -966,7 +970,7 @@
 <node TEXT=" db.mycol.aggregate([{$group : {_id : &quot;$by_user&quot;, num_tutorial : {$max : &quot;$likes&quot;}}}])" ID="ID_510290992" CREATED="1568169242538" MODIFIED="1568169243650"/>
 </node>
 </node>
-<node TEXT="&#x7ba1;&#x9053;" ID="ID_403230464" CREATED="1568169297753" MODIFIED="1568169305386">
+<node TEXT="&#x7ba1;&#x9053;" FOLDED="true" ID="ID_403230464" CREATED="1568169297753" MODIFIED="1568169305386">
 <node TEXT="&#x4ec0;&#x4e48;&#x662f;&#x7ba1;&#x9053;" ID="ID_466839896" CREATED="1568169338103" MODIFIED="1568169347020">
 <node TEXT="&#x7ba1;&#x9053;&#x5728;Unix&#x548c;Linux&#x4e2d;&#x4e00;&#x822c;&#x7528;&#x4e8e;&#x5c06;&#x5f53;&#x524d;&#x547d;&#x4ee4;&#x7684;&#x8f93;&#x51fa;&#x7ed3;&#x679c;&#x4f5c;&#x4e3a;&#x4e0b;&#x4e00;&#x4e2a;&#x547d;&#x4ee4;&#x7684;&#x53c2;&#x6570;&#x3002;" ID="ID_1171354994" CREATED="1568169318465" MODIFIED="1568169321971"/>
 <node TEXT="MongoDB&#x7684;&#x805a;&#x5408;&#x7ba1;&#x9053;&#x5c06;MongoDB&#x6587;&#x6863;&#x5728;&#x4e00;&#x4e2a;&#x7ba1;&#x9053;&#x5904;&#x7406;&#x5b8c;&#x6bd5;&#x540e;&#x5c06;&#x7ed3;&#x679c;&#x4f20;&#x9012;&#x7ed9;&#x4e0b;&#x4e00;&#x4e2a;&#x7ba1;&#x9053;&#x5904;&#x7406;" ID="ID_766838237" CREATED="1568169322311" MODIFIED="1568169331704"/>
@@ -1006,7 +1010,9 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5173;&#x7cfb;" ID="ID_1293609931" CREATED="1568169840110" MODIFIED="1568169845606">
+</node>
+<node TEXT="&#x5173;&#x7cfb;" FOLDED="true" POSITION="right" ID="ID_1293609931" CREATED="1568169840110" MODIFIED="1568705330898">
+<edge COLOR="#00ff00"/>
 <node TEXT="&#x6982;&#x5ff5;" ID="ID_1596986333" CREATED="1568170169856" MODIFIED="1568170174463">
 <node TEXT=" MongoDB &#x7684;&#x5173;&#x7cfb;&#x8868;&#x793a;&#x591a;&#x4e2a;&#x6587;&#x6863;&#x4e4b;&#x95f4;&#x5728;&#x903b;&#x8f91;&#x4e0a;&#x7684;&#x76f8;&#x4e92;&#x8054;&#x7cfb;" ID="ID_1263309280" CREATED="1568170149226" MODIFIED="1568170150176"/>
 <node TEXT=" &#x6587;&#x6863;&#x95f4;&#x53ef;&#x4ee5;&#x901a;&#x8fc7;&#x5d4c;&#x5165;&#x548c;&#x5f15;&#x7528;&#x6765;&#x5efa;&#x7acb;&#x8054;&#x7cfb;" ID="ID_1745299324" CREATED="1568170154684" MODIFIED="1568170155648"/>
@@ -1071,7 +1077,19 @@
 </node>
 <node TEXT=" &#x5d4c;&#x5165;&#x5f0f;&#x5173;&#x7cfb;" ID="ID_1754055791" CREATED="1568170199197" MODIFIED="1568170200128">
 <node TEXT=" &#x628a;&#x7528;&#x6237;&#x5730;&#x5740;&#x5d4c;&#x5165;&#x5230;&#x7528;&#x6237;&#x7684;&#x6587;&#x6863;" ID="ID_923739295" CREATED="1568170207301" MODIFIED="1568170210776"/>
-<node TEXT=" {&#xa;   &quot;_id&quot;:ObjectId(&quot;52ffc33cd85242f436000001&quot;),&#xa;   &quot;contact&quot;: &quot;987654321&quot;,&#xa;   &quot;dob&quot;: &quot;01-01-1991&quot;,&#xa;   &quot;name&quot;: &quot;Tom Benzamin&quot;,&#xa;   &quot;address&quot;: [&#xa;      {&#xa;         &quot;building&quot;: &quot;22 A, Indiana Apt&quot;,&#xa;         &quot;pincode&quot;: 123456,&#xa;         &quot;city&quot;: &quot;Los Angeles&quot;,&#xa;         &quot;state&quot;: &quot;California&quot;&#xa;      },&#xa;      {&#xa;         &quot;building&quot;: &quot;170 A, Acropolis Apt&quot;,&#xa;         &quot;pincode&quot;: 456789,&#xa;         &quot;city&quot;: &quot;Chicago&quot;,&#xa;         &quot;state&quot;: &quot;Illinois&quot;&#xa;      }]&#xa;}" ID="ID_1887160773" CREATED="1568170230133" MODIFIED="1568170234144"/>
+<node ID="ID_1742044844" CREATED="1568705641347" MODIFIED="1568705641347"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"> {<br/>   <span style="color: #a5c261"><font color="#a5c261">&quot;_id&quot;</font></span>:ObjectId(<span style="color: #a5c261"><font color="#a5c261">&quot;52ffc33cd85242f436000001&quot;</font></span>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;contact&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;987654321&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;dob&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;01-01-1991&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;name&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;Tom Benzamin&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;address&quot;</font></span>: [<br/>      {<br/>         <span style="color: #a5c261"><font color="#a5c261">&quot;building&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;22 A, Indiana Apt&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">         </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;pincode&quot;</font></span>: <span style="color: #6897bb"><font color="#6897bb">123456</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">         </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;city&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;Los Angeles&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">         </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;state&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;California&quot;<br/></font></span><font color="#a5c261"><span style="color: #a5c261">      </span></font>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">      </span></font>{<br/>         <span style="color: #a5c261"><font color="#a5c261">&quot;building&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;170 A, Acropolis Apt&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">         </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;pincode&quot;</font></span>: <span style="color: #6897bb"><font color="#6897bb">456789</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">         </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;city&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;Chicago&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">         </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;state&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;Illinois&quot;<br/></font></span><font color="#a5c261"><span style="color: #a5c261">      </span></font>}]<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="&#x4f18;&#x70b9;" ID="ID_1236230118" CREATED="1568170268443" MODIFIED="1568170270088">
 <node TEXT="&#x4ee5;&#x4e0a;&#x6570;&#x636e;&#x4fdd;&#x5b58;&#x5728;&#x5355;&#x4e00;&#x7684;&#x6587;&#x6863;&#x4e2d;&#xff0c;&#x53ef;&#x4ee5;&#x6bd4;&#x8f83;&#x5bb9;&#x6613;&#x7684;&#x83b7;&#x53d6;&#x5f88;&#x7ef4;&#x62a4;&#x6570;&#x636e;" ID="ID_280274637" CREATED="1568170256978" MODIFIED="1568170267387"/>
 </node>
@@ -1080,12 +1098,24 @@
 </node>
 </node>
 <node TEXT=" &#x5f15;&#x7528;&#x5f0f;&#x5173;&#x7cfb;" ID="ID_1192803403" CREATED="1568170287173" MODIFIED="1568170288159">
-<node TEXT="&#x6982;&#x5ff5;" ID="ID_1987142212" CREATED="1568170327170" MODIFIED="1568170332364">
+<node TEXT="&#x6982;&#x5ff5;" FOLDED="true" ID="ID_1987142212" CREATED="1568170327170" MODIFIED="1568170332364">
 <node TEXT=" &#x5f15;&#x7528;&#x5f0f;&#x5173;&#x7cfb;&#x662f;&#x8bbe;&#x8ba1;&#x6570;&#x636e;&#x5e93;&#x65f6;&#x7ecf;&#x5e38;&#x7528;&#x5230;&#x7684;&#x65b9;&#x6cd5;" ID="ID_1463615715" CREATED="1568170316502" MODIFIED="1568170318428"/>
 <node TEXT=" &#x628a;&#x7528;&#x6237;&#x6570;&#x636e;&#x6587;&#x6863;&#x548c;&#x7528;&#x6237;&#x5730;&#x5740;&#x6570;&#x636e;&#x6587;&#x6863;&#x5206;&#x5f00;&#xff0c;&#x901a;&#x8fc7;&#x5f15;&#x7528;&#x6587;&#x6863;&#x7684; id &#x5b57;&#x6bb5;&#x6765;&#x5efa;&#x7acb;&#x5173;&#x7cfb;&#x3002;" ID="ID_218284381" CREATED="1568170318981" MODIFIED="1568170325273"/>
 </node>
 <node TEXT=" &#x7528;&#x6237;&#x6587;&#x6863;&#x7684; address_ids &#x5b57;&#x6bb5;&#x5305;&#x542b;&#x7528;&#x6237;&#x5730;&#x5740;&#x7684;&#x5bf9;&#x8c61;id&#xff08;ObjectId&#xff09;&#x6570;&#x7ec4;" ID="ID_757897182" CREATED="1568170352352" MODIFIED="1568170353432"/>
-<node TEXT=" {&#xa;   &quot;_id&quot;:ObjectId(&quot;52ffc33cd85242f436000001&quot;),&#xa;   &quot;contact&quot;: &quot;987654321&quot;,&#xa;   &quot;dob&quot;: &quot;01-01-1991&quot;,&#xa;   &quot;name&quot;: &quot;Tom Benzamin&quot;,&#xa;   &quot;address_ids&quot;: [&#xa;      ObjectId(&quot;52ffc4a5d85242602e000000&quot;),&#xa;      ObjectId(&quot;52ffc4a5d85242602e000001&quot;)&#xa;   ]&#xa;}" ID="ID_181956004" CREATED="1568170340760" MODIFIED="1568170341911"/>
+<node ID="ID_1651367257" CREATED="1568705690467" MODIFIED="1568705690467"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"> {<br/>   <span style="color: #a5c261"><font color="#a5c261">&quot;_id&quot;</font></span>:ObjectId(<span style="color: #a5c261"><font color="#a5c261">&quot;52ffc33cd85242f436000001&quot;</font></span>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;contact&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;987654321&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;dob&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;01-01-1991&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;name&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;Tom Benzamin&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;address_ids&quot;</font></span>: [<br/>      ObjectId(<span style="color: #a5c261"><font color="#a5c261">&quot;52ffc4a5d85242602e000000&quot;</font></span>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">      </span></font>ObjectId(<span style="color: #a5c261"><font color="#a5c261">&quot;52ffc4a5d85242602e000001&quot;</font></span>)<br/>   ]<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT=" &#x8fd9;&#x79cd;&#x65b9;&#x6cd5;&#x9700;&#x8981;&#x4e24;&#x6b21;&#x67e5;&#x8be2;" ID="ID_5887681" CREATED="1568170363962" MODIFIED="1568170364863">
 <node TEXT=" &#x7b2c;&#x4e00;&#x6b21;&#x67e5;&#x8be2;&#x7528;&#x6237;&#x5730;&#x5740;&#x7684;&#x5bf9;&#x8c61;id&#xff08;ObjectId&#xff09;" ID="ID_1457875288" CREATED="1568170369046" MODIFIED="1568170369865">
 <node TEXT=" var result = db.users.findOne({&quot;name&quot;:&quot;Tom Benzamin&quot;},{&quot;address_ids&quot;:1})" ID="ID_1623466457" CREATED="1568170381726" MODIFIED="1568170383247"/>
@@ -1096,8 +1126,9 @@
 </node>
 </node>
 </node>
-<node TEXT=" &#x6570;&#x636e;&#x5e93;&#x5f15;&#x7528;" ID="ID_1494769055" CREATED="1568170489985" MODIFIED="1568170491463">
-<node TEXT=" DBRefs vs &#x624b;&#x52a8;&#x5f15;&#x7528;" ID="ID_1163168932" CREATED="1568170531094" MODIFIED="1568170532000">
+<node TEXT=" &#x6570;&#x636e;&#x5e93;&#x5f15;&#x7528;" FOLDED="true" POSITION="right" ID="ID_1494769055" CREATED="1568170489985" MODIFIED="1568705327092">
+<edge COLOR="#0000ff"/>
+<node TEXT=" DBRefs vs &#x624b;&#x52a8;&#x5f15;&#x7528;" FOLDED="true" ID="ID_1163168932" CREATED="1568170531094" MODIFIED="1568170532000">
 <node TEXT="&#x5728;&#x4e0d;&#x540c;&#x7684;&#x96c6;&#x5408;&#x4e2d; (address_home, address_office, address_mailing, &#x7b49;)&#x5b58;&#x50a8;&#x4e0d;&#x540c;&#x7684;&#x5730;&#x5740;" ID="ID_1378802125" CREATED="1568170573299" MODIFIED="1568170589443"/>
 <node TEXT=" &#x8fd9;&#x6837;&#x5728;&#x8c03;&#x7528;&#x4e0d;&#x540c;&#x5730;&#x5740;&#x65f6;&#xff0c;&#x4e5f;&#x9700;&#x8981;&#x6307;&#x5b9a;&#x96c6;&#x5408;" ID="ID_1894661736" CREATED="1568170585050" MODIFIED="1568170593176"/>
 <node TEXT=" &#x4e00;&#x4e2a;&#x6587;&#x6863;&#x4ece;&#x591a;&#x4e2a;&#x96c6;&#x5408;&#x5f15;&#x7528;&#x6587;&#x6863;&#xff0c;&#x6211;&#x4eec;&#x5e94;&#x8be5;&#x4f7f;&#x7528; DBRefs" ID="ID_1697548645" CREATED="1568170605196" MODIFIED="1568170606223"/>
@@ -1150,7 +1181,19 @@
 </node>
 <node TEXT=" &#x7528;&#x6237;&#x6570;&#x636e;&#x6587;&#x6863;&#x4f7f;&#x7528;&#x4e86; DBRef, &#x5b57;&#x6bb5; address" ID="ID_424779473" CREATED="1568170655215" MODIFIED="1568170656216">
 <node TEXT="&#x5b9a;&#x4e49;" ID="ID_1595910107" CREATED="1568170994856" MODIFIED="1568170996612">
-<node TEXT=" {&#xa;   &quot;_id&quot;:ObjectId(&quot;53402597d852426020000002&quot;),&#xa;   &quot;address&quot;: {&#xa;   &quot;$ref&quot;: &quot;address_home&quot;,&#xa;   &quot;$id&quot;: ObjectId(&quot;534009e4d852427820000002&quot;),&#xa;   &quot;$db&quot;: &quot;runoob&quot;},&#xa;   &quot;contact&quot;: &quot;987654321&quot;,&#xa;   &quot;dob&quot;: &quot;01-01-1991&quot;,&#xa;   &quot;name&quot;: &quot;Tom Benzamin&quot;&#xa;}" ID="ID_1001591479" CREATED="1568170660659" MODIFIED="1568170662512"/>
+<node ID="ID_307001014" CREATED="1568706017573" MODIFIED="1568706017573"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"> {<br/>   <span style="color: #a5c261"><font color="#a5c261">&quot;_id&quot;</font></span>:ObjectId(<span style="color: #a5c261"><font color="#a5c261">&quot;53402597d852426020000002&quot;</font></span>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;address&quot;</font></span>: {<br/>   <span style="color: #a5c261"><font color="#a5c261">&quot;$ref&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;address_home&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;$id&quot;</font></span>: ObjectId(<span style="color: #a5c261"><font color="#a5c261">&quot;534009e4d852427820000002&quot;</font></span>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;$db&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;runoob&quot;</font></span>}<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;contact&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;987654321&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;dob&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;01-01-1991&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">   </span></font><span style="color: #a5c261"><font color="#a5c261">&quot;name&quot;</font></span>: <span style="color: #a5c261"><font color="#a5c261">&quot;Tom Benzamin&quot;<br/></font></span>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x67e5;&#x627e;&#x5730;&#x5740;" ID="ID_1328331597" CREATED="1568171000094" MODIFIED="1568171066428">
 <node TEXT=" &#x901a;&#x8fc7;&#x6307;&#x5b9a; $ref &#x53c2;&#x6570;&#xff08;address_home &#x96c6;&#x5408;&#xff09;&#x6765;&#x67e5;&#x627e;" ID="ID_1927812788" CREATED="1568171076337" MODIFIED="1568171077303"/>
@@ -1160,11 +1203,13 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x67e5;&#x8be2;&#x5206;&#x6790;" ID="ID_1900626578" CREATED="1568173271394" MODIFIED="1568173280664">
+<node TEXT="&#x67e5;&#x8be2;&#x5206;&#x6790;" POSITION="right" ID="ID_1900626578" CREATED="1568173271394" MODIFIED="1568705325686">
+<edge COLOR="#ff0000"/>
 <node TEXT="explain" ID="ID_1068721103" CREATED="1568173280891" MODIFIED="1568173283996"/>
 <node TEXT="hint" ID="ID_1691783535" CREATED="1568173284220" MODIFIED="1568173286035"/>
 </node>
-<node TEXT=" &#x539f;&#x5b50;&#x64cd;&#x4f5c;" ID="ID_1717487991" CREATED="1568173287299" MODIFIED="1568173344926">
+<node TEXT=" &#x539f;&#x5b50;&#x64cd;&#x4f5c;" FOLDED="true" POSITION="right" ID="ID_1717487991" CREATED="1568173287299" MODIFIED="1568705324214">
+<edge COLOR="#7c7c00"/>
 <node TEXT=" mongodb&#x4e0d;&#x652f;&#x6301;&#x4e8b;&#x52a1;" ID="ID_821325855" CREATED="1568173435468" MODIFIED="1568173437833"/>
 <node TEXT=" mongodb&#x6587;&#x6863;&#x7684;&#x4fdd;&#x5b58;&#xff0c;&#x4fee;&#x6539;&#xff0c;&#x5220;&#x9664;&#x7b49;&#xff0c;&#x90fd;&#x662f;&#x539f;&#x5b50;&#x64cd;&#x4f5c;" ID="ID_1464250843" CREATED="1568173652600" MODIFIED="1568173662609"/>
 <node TEXT=" &#x539f;&#x5b50;&#x64cd;&#x4f5c;&#x5e38;&#x7528;&#x547d;&#x4ee4;" ID="ID_1453499541" CREATED="1568186209513" MODIFIED="1568186216087">
@@ -1211,13 +1256,292 @@
 </node>
 <node TEXT=" findAndModify() &#x65b9;&#x6cd5;" ID="ID_1853021183" CREATED="1568188356702" MODIFIED="1568188357888">
 <node TEXT=" &#x5728;&#x4e00;&#x4e2a;&#x76f8;&#x540c;&#x7684;&#x6587;&#x6863;&#x4e2d;&#x5982;&#x4f55;&#x786e;&#x4fdd;&#x5d4c;&#x5165;&#x5b57;&#x6bb5;&#x5173;&#x8054;&#x539f;&#x5b50;&#x64cd;&#x4f5c;&#xff08;update&#xff1a;&#x66f4;&#x65b0;&#xff09;&#x7684;&#x5b57;&#x6bb5;&#x662f;&#x540c;&#x6b65;&#x7684;" ID="ID_1204409021" CREATED="1568188450788" MODIFIED="1568188452236"/>
-<node TEXT=" book = {&#xa;          _id: 123456789,&#xa;          title: &quot;MongoDB: The Definitive Guide&quot;,&#xa;          author: [ &quot;Kristina Chodorow&quot;, &quot;Mike Dirolf&quot; ],&#xa;          published_date: ISODate(&quot;2010-09-24&quot;),&#xa;          pages: 216,&#xa;          language: &quot;English&quot;,&#xa;          publisher_id: &quot;oreilly&quot;,&#xa;          available: 3,&#xa;          checkout: [ { by: &quot;joe&quot;, date: ISODate(&quot;2012-10-15&quot;) } ]&#xa;        }" ID="ID_1821047945" CREATED="1568188418918" MODIFIED="1568188420108"/>
+<node ID="ID_1793689937" CREATED="1568706504389" MODIFIED="1568706504389"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">book = {<br/>    _id: <span style="color: #6897bb"><font color="#6897bb">123456789</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>title: <span style="color: #a5c261"><font color="#a5c261">&quot;MongoDB: The Definitive Guide&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>author: [<span style="color: #a5c261"><font color="#a5c261">&quot;Kristina Chodorow&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;Mike Dirolf&quot;</font></span>]<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>published_date: ISODate(<span style="color: #a5c261"><font color="#a5c261">&quot;2010-09-24&quot;</font></span>)<span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>pages: <span style="color: #6897bb"><font color="#6897bb">216</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>language: <span style="color: #a5c261"><font color="#a5c261">&quot;English&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>publisher_id: <span style="color: #a5c261"><font color="#a5c261">&quot;oreilly&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>available: <span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>checkout: [{by: <span style="color: #a5c261"><font color="#a5c261">&quot;joe&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>date: ISODate(<span style="color: #a5c261"><font color="#a5c261">&quot;2012-10-15&quot;</font></span>)}]<br/>}</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="&#x4f7f;&#x7528; db.collection.findAndModify() &#x65b9;&#x6cd5;&#x6765;&#x5224;&#x65ad;&#x4e66;&#x7c4d;&#x662f;&#x5426;&#x53ef;&#x7ed3;&#x7b97;&#x5e76;&#x66f4;&#x65b0;&#x65b0;&#x7684;&#x7ed3;&#x7b97;&#x4fe1;&#x606f;" ID="ID_328204788" CREATED="1568188414368" MODIFIED="1568188438179"/>
 <node TEXT=" &#x5728;&#x540c;&#x4e00;&#x4e2a;&#x6587;&#x6863;&#x4e2d;&#x5d4c;&#x5165;&#x7684; available &#x548c; checkout &#x5b57;&#x6bb5;&#x6765;&#x786e;&#x4fdd;&#x8fd9;&#x4e9b;&#x5b57;&#x6bb5;&#x662f;&#x540c;&#x6b65;&#x66f4;&#x65b0;&#x7684;" ID="ID_590591080" CREATED="1568188467301" MODIFIED="1568188468347"/>
 <node TEXT=" db.books.findAndModify ( {&#xa;   query: {&#xa;            _id: 123456789,&#xa;            available: { $gt: 0 }&#xa;          },&#xa;   update: {&#xa;             $inc: { available: -1 },&#xa;             $push: { checkout: { by: &quot;abc&quot;, date: new Date() } }&#xa;           }&#xa;} )" ID="ID_1877238616" CREATED="1568188471591" MODIFIED="1568188472781"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1352545183" CREATED="1568174115492" MODIFIED="1568174115492"/>
+<node TEXT="&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;" POSITION="right" ID="ID_563196387" CREATED="1568875722426" MODIFIED="1568875730321">
+<edge COLOR="#ff00ff"/>
+<node TEXT="MongoDB &#x7684;&#x6587;&#x6863;&#x4e0e; JavaScript &#x4e2d;&#x7684;&#x5bf9;&#x8c61;&#x76f8;&#x8fd1;&#xff0c;&#x56e0;&#x800c;&#x53ef;&#x8ba4;&#x4e3a;&#x5b83;&#x7c7b;&#x4f3c;&#x4e8e;JSON" ID="ID_1916166332" CREATED="1568875821011" MODIFIED="1568875861879"/>
+<node TEXT="Json&#x7c7b;&#x578b;" ID="ID_1629793888" CREATED="1568876165154" MODIFIED="1568876170123">
+<node TEXT=" 6 &#x79cd;&#x6570;&#x636e;&#x7c7b;&#x578b;" ID="ID_1901919084" CREATED="1568875775937" MODIFIED="1568875777167">
+<node ID="ID_1288369607" CREATED="1568875766418" MODIFIED="1568875766418"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      null
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_381112495" CREATED="1568875766419" MODIFIED="1568875766419"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24067;&#23572;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1778485996" CREATED="1568875766420" MODIFIED="1568875766420"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25968;&#23383;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1272760143" CREATED="1568875766421" MODIFIED="1568875766421"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23383;&#31526;&#20018;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_933218692" CREATED="1568875766422" MODIFIED="1568875766422"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25968;&#32452;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1197356643" CREATED="1568875766423" MODIFIED="1568875766423"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#35937;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7f3a;&#x4e4f;&#x7684;&#x91cd;&#x8981;&#x7c7b;&#x578b;" ID="ID_602857043" CREATED="1568875878031" MODIFIED="1568875898600">
+<node TEXT=" JSON &#x6ca1;&#x6709;&#x65e5;&#x671f;&#x7c7b;&#x578b;" ID="ID_1111345906" CREATED="1568875906119" MODIFIED="1568875906999"/>
+<node TEXT=" JSON &#x53ea;&#x6709;&#x4e00;&#x79cd;&#x6570;&#x5b57;&#x7c7b;&#x578b;" ID="ID_1450890922" CREATED="1568875913813" MODIFIED="1568875914798">
+<node TEXT="&#x65e0;&#x6cd5;&#x533a;&#x5206;&#x6d6e;&#x70b9;&#x6570;&#x548c;&#x6574;&#x6570;" ID="ID_1439043106" CREATED="1568875921772" MODIFIED="1568875937584"/>
+<node TEXT="&#x65e0;&#x6cd5;&#x8bf4;&#x533a;&#x5206; 32 &#x4f4d;&#x548c; 64 &#x4f4d;&#x6570;&#x5b57;" ID="ID_455261302" CREATED="1568875932443" MODIFIED="1568875935066"/>
+</node>
+<node TEXT="JSON &#x65e0;&#x6cd5;&#x8868;&#x793a;&#x4e00;&#x4e9b;&#x901a;&#x7528;&#x7c7b;&#x578b;" ID="ID_1963345971" CREATED="1568875948905" MODIFIED="1568875978009">
+<node ID="ID_1530054770" CREATED="1568875988048" MODIFIED="1568875988048"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27491;&#21017;&#34920;&#36798;&#24335;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_453946457" CREATED="1568875988048" MODIFIED="1568875988048"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20989;&#25968;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="mongo&#x7c7b;&#x578b;" ID="ID_1678808814" CREATED="1568876183708" MODIFIED="1568876189205">
+<node ID="ID_1270878631" CREATED="1568875766418" MODIFIED="1568875766418"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      null
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT=" null &#x7528;&#x4e8e;&#x8868;&#x793a;&#x7a7a;&#x503c;&#x6216;&#x8005;&#x4e0d;&#x5b58;&#x5728;&#x7684;&#x5b57;&#x6bb5;" ID="ID_536178729" CREATED="1568876010306" MODIFIED="1568876011481"/>
+<node TEXT=" {&quot;x&quot; : null}" ID="ID_11272421" CREATED="1568876014289" MODIFIED="1568876015106"/>
+</node>
+<node ID="ID_551932439" CREATED="1568875766419" MODIFIED="1568875766419"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24067;&#23572;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT=" &#x5e03;&#x5c14;&#x7c7b;&#x578b;&#x6709;&#x4e24;&#x4e2a;&#x503c; true &#x548c; false" ID="ID_945678883" CREATED="1568876023321" MODIFIED="1568876024175"/>
+<node TEXT=" {&quot;x&quot; : true}" ID="ID_903958585" CREATED="1568876027995" MODIFIED="1568876028887"/>
+</node>
+<node ID="ID_1391658339" CREATED="1568875766420" MODIFIED="1568875766420"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25968;&#23383;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT=" shell &#x9ed8;&#x8ba4;&#x4f7f;&#x7528; 64 &#x4f4d;&#x6d6e;&#x70b9;&#x578b;&#x6570;&#x503c;" ID="ID_823713247" CREATED="1568876048140" MODIFIED="1568876049119"/>
+<node TEXT=" {&quot;x&quot; : 3.14}" ID="ID_1294764467" CREATED="1568876081926" MODIFIED="1568876082945"/>
+<node TEXT=" &#x6574;&#x578b;&#x503c;" ID="ID_19707747" CREATED="1568876091943" MODIFIED="1568876092904">
+<node TEXT=" NumberInt &#x7c7b;" ID="ID_981950121" CREATED="1568876102311" MODIFIED="1568876103249">
+<node TEXT=" &#x8868;&#x793a; 4 &#x5b57;&#x8282;&#x5e26;&#x7b26;&#x53f7;&#x6574;&#x6570;" ID="ID_603653144" CREATED="1568876107165" MODIFIED="1568876111681"/>
+<node TEXT=" {&quot;x&quot; : NumberInt(&quot;3&quot;)}" ID="ID_605619351" CREATED="1568876125889" MODIFIED="1568876126905"/>
+</node>
+<node TEXT=" NumberLong&#x7c7b;" ID="ID_1890708961" CREATED="1568876113342" MODIFIED="1568876116263">
+<node TEXT=" &#x8868;&#x793a; 8 &#x5b57;&#x7b26;&#x5e26;&#x7b26;&#x53f7;&#x6574;&#x6570;" ID="ID_1382191519" CREATED="1568876120118" MODIFIED="1568876121048"/>
+<node TEXT=" {&quot;x&quot; : NumberLong(&quot;3&quot;)}" ID="ID_575990087" CREATED="1568876130168" MODIFIED="1568876131040"/>
+</node>
+</node>
+</node>
+<node ID="ID_508794278" CREATED="1568875766421" MODIFIED="1568875766421"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23383;&#31526;&#20018;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT=" UTF-8 &#x5b57;&#x7b26;&#x4e32;&#x90fd;&#x53ef;&#x8868;&#x793a;&#x4e3a;&#x5b57;&#x7b26;&#x4e32;&#x7c7b;&#x578b;&#x7684;&#x6570;&#x636e;" ID="ID_1343644732" CREATED="1568876138340" MODIFIED="1568876139152"/>
+<node TEXT=" {&quot;x&quot; : &quot;foobar&quot;}" ID="ID_619111320" CREATED="1568876147117" MODIFIED="1568876147928"/>
+</node>
+<node TEXT="&#x65e5;&#x671f;" ID="ID_233575711" CREATED="1568876220475" MODIFIED="1568876232103">
+<node TEXT="&#x65e5;&#x671f;&#x88ab;&#x5b58;&#x50a8;&#x4e3a;&#x81ea;&#x65b0;&#x7eaa;&#x5143;&#x4ee5;&#x6765;&#x7ecf;&#x8fc7;&#x7684;&#x6beb;&#x79d2;&#x6570;&#xff0c;&#x4e0d;&#x5b58;&#x50a8;&#x65f6;&#x533a;" ID="ID_1334881480" CREATED="1568876245009" MODIFIED="1568876250361"/>
+<node TEXT=" {&quot;x&quot; : new Date()}" ID="ID_137557062" CREATED="1568876255019" MODIFIED="1568876257181"/>
+</node>
+<node TEXT=" &#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_926645585" CREATED="1568876259363" MODIFIED="1568876264018">
+<node TEXT=" &#x67e5;&#x8be2;&#x65f6;&#xff0c;&#x4f7f;&#x7528;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x4f5c;&#x4e3a;&#x9650;&#x5b9a;&#x6761;&#x4ef6;" ID="ID_894300743" CREATED="1568876271892" MODIFIED="1568876272705"/>
+<node TEXT=" &#x8bed;&#x6cd5;&#x4e5f;&#x4e0e; JavaScript &#x7684;&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;&#x8bed;&#x6cd5;&#xa;&#x76f8;&#x540c;" ID="ID_529147715" CREATED="1568876279326" MODIFIED="1568876280122"/>
+<node TEXT=" {&quot;x&quot; : /foobar/i}" ID="ID_899259980" CREATED="1568876283560" MODIFIED="1568876284439"/>
+</node>
+<node ID="ID_335663527" CREATED="1568875766422" MODIFIED="1568875766422"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25968;&#32452;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT=" &#x6570;&#x636e;&#x5217;&#x8868;&#x6216;&#x6570;&#x636e;&#x96c6;&#x53ef;&#x4ee5;&#x8868;&#x793a;&#x4e3a;&#x6570;&#x7ec4;" ID="ID_1162407575" CREATED="1568876296452" MODIFIED="1568876298112"/>
+<node TEXT=" {&quot;x&quot; : [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]}" ID="ID_218686638" CREATED="1568876301210" MODIFIED="1568876302044"/>
+</node>
+<node TEXT=" &#x5185;&#x5d4c;&#x6587;&#x6863;" ID="ID_1570834523" CREATED="1568876306425" MODIFIED="1568876307488">
+<node TEXT=" &#x6587;&#x6863;&#x53ef;&#x5d4c;&#x5957;&#x5176;&#x4ed6;&#x6587;&#x6863;" ID="ID_974746686" CREATED="1568876311387" MODIFIED="1568876322671"/>
+<node TEXT=" &#x88ab;&#x5d4c;&#x5957;&#x7684;&#x6587;&#x6863;&#x4f5c;&#x4e3a;&#x7236;&#x6587;&#x6863;&#x7684;&#x503c;" ID="ID_313153353" CREATED="1568876323030" MODIFIED="1568876324663"/>
+<node TEXT=" {&quot;x&quot; : {&quot;foo&quot; : &quot;bar&quot;}}" ID="ID_1516549252" CREATED="1568876332905" MODIFIED="1568876333751"/>
+</node>
+<node TEXT="&#x5bf9;&#x8c61;id" ID="ID_1094962216" CREATED="1568875766423" MODIFIED="1568876344987">
+<node TEXT=" &#x5bf9;&#x8c61; id &#x662f;&#x4e00;&#x4e2a; 12 &#x5b57;&#x8282;&#x7684; ID&#xff0c;&#x662f;&#x6587;&#x6863;&#x7684;&#x552f;&#x4e00;&#x6807;&#x8bc6;" ID="ID_340582418" CREATED="1568876351364" MODIFIED="1568876354335"/>
+<node TEXT=" {&quot;x&quot; : ObjectId()}" ID="ID_1756584463" CREATED="1568876358751" MODIFIED="1568876360134"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x9ad8;&#x7ea7;&#x7d22;&#x5f15;" POSITION="right" ID="ID_1425942001" CREATED="1568705320234" MODIFIED="1568878116429">
+<edge COLOR="#007c7c"/>
+</node>
+<node TEXT="&#x7d22;&#x5f15;&#x9650;&#x5236;" POSITION="right" ID="ID_1818578494" CREATED="1568878116689" MODIFIED="1568878124087">
+<edge COLOR="#00ffff"/>
+</node>
+<node TEXT="ObjectId" POSITION="right" ID="ID_516580615" CREATED="1568878126550" MODIFIED="1568878133811">
+<edge COLOR="#7c0000"/>
+<node TEXT="ObjectId &#x662f;&#x4e00;&#x4e2a;12&#x5b57;&#x8282; BSON &#x7c7b;&#x578b;&#x6570;&#x636e;" ID="ID_727689132" CREATED="1568878138235" MODIFIED="1568878164673">
+<node TEXT="&#x524d;4&#x4e2a;&#x5b57;&#x8282;&#x8868;&#x793a;&#x65f6;&#x95f4;&#x6233;" ID="ID_1970902770" CREATED="1568878170005" MODIFIED="1568878179784"/>
+<node TEXT="&#x63a5;&#x4e0b;&#x6765;&#x7684;3&#x4e2a;&#x5b57;&#x8282;&#x662f;&#x673a;&#x5668;&#x6807;&#x8bc6;&#x7801;" ID="ID_1389123445" CREATED="1568878176703" MODIFIED="1568878190103"/>
+<node TEXT="&#x7d27;&#x63a5;&#x7684;&#x4e24;&#x4e2a;&#x5b57;&#x8282;&#x7531;&#x8fdb;&#x7a0b;id&#x7ec4;&#x6210;&#xff08;PID&#xff09;" ID="ID_1072261313" CREATED="1568878185791" MODIFIED="1568878193359"/>
+<node TEXT=" &#x6700;&#x540e;&#x4e09;&#x4e2a;&#x5b57;&#x8282;&#x662f;&#x968f;&#x673a;&#x6570;" ID="ID_1262235078" CREATED="1568878198003" MODIFIED="1568878199048"/>
+</node>
+<node TEXT="&#x521b;&#x5efa;&#x6587;&#x6863;&#x7684;&#x65f6;&#x95f4;&#x6233;" ID="ID_459759293" CREATED="1568878253180" MODIFIED="1568878269840">
+<node TEXT=" &#x901a;&#x8fc7; getTimestamp &#x51fd;&#x6570;&#x6765;&#x83b7;&#x53d6;&#x6587;&#x6863;&#x7684;&#x521b;&#x5efa;&#x65f6;&#x95f4;" ID="ID_1266224026" CREATED="1568878304993" MODIFIED="1568878305834"/>
+<node TEXT="&gt;ObjectId(&quot;5349b4ddd2781d08c09890f4&quot;).getTimestamp()&#xa;// ISODate(&quot;2014-04-12T21:49:17Z&quot;)" ID="ID_279055029" CREATED="1568878306407" MODIFIED="1568878817312"/>
+</node>
+<node TEXT=" ObjectId &#x8f6c;&#x6362;&#x4e3a;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1542541355" CREATED="1568878889228" MODIFIED="1568878890202">
+<node TEXT=" &gt;new ObjectId().str&#xa;// 5349b4ddd2781d08c09890f3" ID="ID_1883559223" CREATED="1568878894645" MODIFIED="1568878901817"/>
+</node>
 </node>
 </node>
 </map>
