@@ -3,7 +3,7 @@
 <node TEXT="Django_Self" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1548828499643" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -1292,7 +1292,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">u = User.objects.get(<span style="color: #aa4926"><font color="#aa4926">username</font></span>=<span style="color: #a5c261"><font color="#a5c261">'john'</font></span>)<br/>u.set_password(<span style="color: #a5c261"><font color="#a5c261">'new password'</font></span>)<br/>u.save()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1408,7 +1407,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">get_user</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>user_id):<br/>    <span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span>User.objects.get(<span style="color: #aa4926"><font color="#aa4926">pk</font></span>=user_id)<br/>    <span style="color: #cc7832"><font color="#cc7832">except </font></span>User.DoesNotExist:<br/>        <span style="color: #cc7832"><font color="#cc7832">return None</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1425,7 +1423,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>CustomBackend(backends.ModelBackend):<br/>    <span style="color: #808080"><font color="#808080"># &#35206;&#20889; authenticate &#26041;&#27861;<br/></font></span><font color="#808080"><span style="color: #808080">    # &#20351;&#25903;&#25345; &#29992;&#25143;&#21517;&#19982;&#37038;&#31665;&#30331;&#38470;<br/></span><span style="color: #808080">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">authenticate</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>request<span style="color: #cc7832"><font color="#cc7832">, </font></span>username=<span style="color: #cc7832"><font color="#cc7832">None, </font></span>password=<span style="color: #cc7832"><font color="#cc7832">None, </font></span>**kwargs):<br/></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1440,7 +1437,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>CustomBackend(backends.ModelBackend):<br/>    <span style="color: #808080"><font color="#808080"># &#35206;&#20889; authenticate &#26041;&#27861;</font></span><font color="#808080"><span style="color: #808080"><br/></span><span style="color: #808080">    </span></font><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">authenticate</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>request<span style="color: #cc7832"><font color="#cc7832">, </font></span>token=<span style="color: #cc7832"><font color="#cc7832">None</font></span>):<br/></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1456,7 +1452,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">AUTHENTICATION_BACKENDS = [<br/>    <span style="color: #808080"><font color="#808080"># &#26412;&#22320;&#30331;&#38470;&#39564;&#35777;<br/></font></span><font color="#808080"><span style="color: #808080">    # 'django.contrib.auth.backends.ModelBackend',<br/></span><span style="color: #808080">    # &#31532;&#19977;&#26041;&#30331;&#38470;&#39564;&#35777;<br/></span><span style="color: #808080">    </span></font><span style="color: #a5c261"><font color="#a5c261">'operation_manager.backends.CustomBackend'</font></span><span style="color: #cc7832"><font color="#cc7832">,<br/></font></span>]</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1514,7 +1509,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">Signal.connect(receiver<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">sender</font></span>=<span style="color: #8888c6"><font color="#8888c6">None</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">weak</font></span>=<span style="color: #8888c6"><font color="#8888c6">True</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">dispatch_uid</font></span>=<span style="color: #8888c6"><font color="#8888c6">None</font></span>)[source]</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x53c2;&#x6570;" ID="ID_726301536" CREATED="1562553373984" MODIFIED="1562553379917">
@@ -1532,7 +1526,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_997427564" CREATED="1562553388018" MODIFIED="1562553388018"><richcontent TYPE="NODE">
@@ -1547,7 +1540,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1563,7 +1555,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">my_callback</font></span>(<span style="color: #808080"><font color="#808080">sender</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #808080"><font color="#808080">**kwargs</font></span>):<br/>    <span style="color: #629755; font-style: italic"><font color="#629755"><i>&quot;&quot;&quot;<br/></i></font></span><font color="#629755"><i><span style="color: #629755; font-style: italic">    </span><span style="color: #629755; font-weight: bold; font-style: italic"><b>:param</b></span><span style="color: #629755; font-style: italic"> sender: &#20449;&#21495;&#21457;&#36865;&#32773;<br/></span><span style="color: #629755; font-style: italic">    &quot;&quot;&quot;<br/></span><span style="color: #629755; font-style: italic">    </span></i></font><span style="color: #cc7832"><font color="#cc7832">print</font></span>(<span style="color: #a5c261"><font color="#a5c261">&quot;Request finished!&quot;</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1579,7 +1570,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.core.signals <span style="color: #cc7832"><font color="#cc7832">import </font></span>request_finished<br/>request_finished.connect(my_callback)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1594,7 +1584,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.core.signals <span style="color: #cc7832"><font color="#cc7832">import </font></span>request_finished<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.dispatch <span style="color: #cc7832"><font color="#cc7832">import </font></span>receiver<br/><br/><span style="color: #bbb529"><font color="#bbb529">@receiver</font></span>(request_finished)<br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">my_callback</font></span>(<span style="color: #808080"><font color="#808080">sender</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #808080"><font color="#808080">**kwargs</font></span>):<br/>    <span style="color: #cc7832"><font color="#cc7832">print</font></span>(<span style="color: #a5c261"><font color="#a5c261">&quot;Request finished!&quot;</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1611,7 +1600,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db.models.signals <span style="color: #cc7832"><font color="#cc7832">import </font></span>pre_save<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.dispatch <span style="color: #cc7832"><font color="#cc7832">import </font></span>receiver<br/><span style="color: #cc7832"><font color="#cc7832">from </font></span>myapp.models <span style="color: #cc7832"><font color="#cc7832">import </font></span>MyModel<br/><br/><br/><span style="color: #bbb529"><font color="#bbb529">@receiver</font></span>(pre_save<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">sender</font></span>=MyModel)<br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">my_handler</font></span>(<span style="color: #808080"><font color="#808080">sender</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #808080"><font color="#808080">**kwargs</font></span>):<br/>    ...</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1628,7 +1616,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.core.signals <span style="color: #cc7832"><font color="#cc7832">import </font></span>request_finished<br/><br/>request_finished.connect(my_callback<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">dispatch_uid</font></span>=<span style="color: #a5c261"><font color="#a5c261">&quot;my_unique_identifier&quot;</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1646,7 +1633,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Signal(<span style="color: #aa4926"><font color="#aa4926">providing_args</font></span>=<span style="color: #8888c6"><font color="#8888c6">list</font></span>)[source]</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x6240;&#x6709;&#x7684;&#x4fe1;&#x53f7;&#x90fd;&#x662f;django.dispatch.Signal&#x7684;&#x5b9e;&#x4f8b;" ID="ID_733553155" CREATED="1562553921720" MODIFIED="1562553923734"/>
@@ -1663,7 +1649,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>django.dispatch<br/><br/>pizza_done = django.dispatch.Signal(<span style="color: #aa4926"><font color="#aa4926">providing_args</font></span>=[<span style="color: #a5c261"><font color="#a5c261">&quot;toppings&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;size&quot;</font></span>])</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1683,7 +1668,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>PizzaStore(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">send_pizza</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>toppings<span style="color: #cc7832"><font color="#cc7832">, </font></span>size):<br/>        pizza_done.send(<span style="color: #aa4926"><font color="#aa4926">sender</font></span>=<span style="color: #94558d"><font color="#94558d">self</font></span>.__class__<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">toppings</font></span>=toppings<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">size</font></span>=size)<br/>        ...</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x5143;&#x7ec4;&#x5bf9;&#x7684;&#x5217;&#x8868;[&#xff08;receiver, response&#xff09;&#xff0c; ... ]&#xff0c;&#x8868;&#x793a;&#x63a5;&#x6536;&#x5668;&#x548c;&#x54cd;&#x5e94;&#x503c;&#x4e8c;&#x5143;&#x5143;&#x7ec4;&#x7684;&#x5217;&#x8868;" ID="ID_729744657" CREATED="1562554232520" MODIFIED="1562554234095"/>
@@ -1702,7 +1686,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>    response = receiver(<span style="color: #aa4926"><font color="#aa4926">signal</font></span>=<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">sender</font></span>=sender<span style="color: #cc7832"><font color="#cc7832">, </font></span>**named)<br/><span style="color: #cc7832"><font color="#cc7832">except </font></span><span style="color: #8888c6"><font color="#8888c6">Exception </font></span><span style="color: #cc7832"><font color="#cc7832">as </font></span>err:</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1718,7 +1701,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">Signal.disconnect(<span style="color: #aa4926"><font color="#aa4926">receiver</font></span>=<span style="color: #8888c6"><font color="#8888c6">None</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">sender</font></span>=<span style="color: #8888c6"><font color="#8888c6">None</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">dispatch_uid</font></span>=<span style="color: #8888c6"><font color="#8888c6">None</font></span>)[source]</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Signal.disconnect()&#x7528;&#x6765;&#x65ad;&#x5f00;&#x4fe1;&#x53f7;&#x7684;&#x63a5;&#x6536;&#x5668;" ID="ID_308535100" CREATED="1562554339455" MODIFIED="1562554388437"/>
@@ -1736,7 +1718,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #808080"><font color="#808080"># &#23450;&#20041;&#19968;&#20010;&#20449;&#21495;<br/></font></span>work_done = django.dispatch.Signal(<span style="color: #aa4926"><font color="#aa4926">providing_args</font></span>=[<span style="color: #a5c261"><font color="#a5c261">'path'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">'time'</font></span>])<br/><br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">create_signal</font></span>(request):<br/>    url_path = request.path<br/>    <span style="color: #cc7832"><font color="#cc7832">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">u&quot;&#25105;&#24050;&#32463;&#20570;&#23436;&#20102;&#24037;&#20316;&#12290;&#29616;&#22312;&#25105;&#21457;&#36865;&#19968;&#20010;&#20449;&#21495;&#20986;&#21435;&#65292;&#32473;&#37027;&#20123;&#25351;&#23450;&#30340;&#25509;&#25910;&#22120;&#12290;&quot;</font></span>)<br/><br/>    <span style="color: #808080"><font color="#808080"># &#21457;&#36865;&#20449;&#21495;&#65292;&#23558;&#35831;&#27714;&#30340;IP&#22320;&#22336;&#21644;&#26102;&#38388;&#19968;&#24182;&#20256;&#36882;&#36807;&#21435;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>work_done.send(create_signal<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">path</font></span>=url_path<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">time</font></span>=time.strftime(<span style="color: #a5c261"><font color="#a5c261">&quot;%Y-%m-%d %H:%M:%S&quot;</font></span>))<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>HttpResponse(<span style="color: #a5c261"><font color="#a5c261">&quot;200,ok&quot;</font></span>)<br/><br/><br/><span style="color: #bbb529"><font color="#bbb529">@receiver</font></span>(work_done<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">sender</font></span>=create_signal)<br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">my_callback</font></span>(sender<span style="color: #cc7832"><font color="#cc7832">, </font></span>**kwargs):<br/>    <span style="color: #cc7832"><font color="#cc7832">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">u&quot;&#25105;&#22312;%s&#26102;&#38388;&#25910;&#21040;&#26469;&#33258;%s&#30340;&#20449;&#21495;&#65292;&#35831;&#27714;url&#20026;%s&quot; </font></span>% (kwargs[<span style="color: #a5c261"><font color="#a5c261">'time'</font></span>]<span style="color: #cc7832"><font color="#cc7832">, </font></span>sender<span style="color: #cc7832"><font color="#cc7832">, </font></span>kwargs[<span style="color: #a5c261"><font color="#a5c261">&quot;path&quot;</font></span>]))</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1754,7 +1735,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">pre_init = ModelSignal(<span style="color: #aa4926"><font color="#aa4926">providing_args</font></span>=[<span style="color: #a5c261"><font color="#a5c261">&quot;instance&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;args&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;kwargs&quot;</font></span>]<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">use_caching</font></span>=<span style="color: #8888c6"><font color="#8888c6">True</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x5f53;&#x5b9e;&#x4f8b;&#x5316;Django&#x6a21;&#x578b;&#x65f6;&#xff0c;&#x6b64;&#x4fe1;&#x53f7;&#x90fd;&#x4f1a;&#x5728;&#x6a21;&#x578b;__init__()&#x65b9;&#x6cd5;&#x7684;&#x5f00;&#x5934;&#x53d1;&#x9001;" ID="ID_1466342902" CREATED="1562567336754" MODIFIED="1562567342409"/>
@@ -1771,7 +1751,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_809670324" CREATED="1562567435834" MODIFIED="1562567435834"><richcontent TYPE="NODE">
@@ -1786,7 +1765,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1193340064" CREATED="1562567435835" MODIFIED="1562567435835"><richcontent TYPE="NODE">
@@ -1801,7 +1779,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1816,7 +1793,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">p = Poll(<span style="color: #aa4926"><font color="#aa4926">question</font></span>=<span style="color: #a5c261"><font color="#a5c261">&quot;What's up?&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">pub_date</font></span>=datetime.now())</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" sender" ID="ID_1520758775" CREATED="1562567479432" MODIFIED="1562567483302">
@@ -1842,7 +1818,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">post_init = ModelSignal(<span style="color: #aa4926"><font color="#aa4926">providing_args</font></span>=[<span style="color: #a5c261"><font color="#a5c261">&quot;instance&quot;</font></span>]<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">use_caching</font></span>=<span style="color: #8888c6"><font color="#8888c6">True</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1857,7 +1832,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">pre_save = ModelSignal(<span style="color: #aa4926"><font color="#aa4926">providing_args</font></span>=[<span style="color: #a5c261"><font color="#a5c261">&quot;instance&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;raw&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;using&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;update_fields&quot;</font></span>]<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">use_caching</font></span>=<span style="color: #8888c6"><font color="#8888c6">True</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" &#x8fd9;&#x662f;&#x5728;&#x6a21;&#x578b;save() &#x65b9;&#x6cd5;&#x7684;&#x4e4b;&#x524d;&#x53d1;&#x9001;&#x7684;" ID="ID_718931036" CREATED="1562567693560" MODIFIED="1562567699450"/>
@@ -1875,7 +1849,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1898624362" CREATED="1562567752168" MODIFIED="1562567752168"><richcontent TYPE="NODE">
@@ -1890,7 +1863,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1291674017" CREATED="1562567752169" MODIFIED="1562567752169"><richcontent TYPE="NODE">
@@ -1905,7 +1877,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1271596023" CREATED="1562567752172" MODIFIED="1562567752172"><richcontent TYPE="NODE">
@@ -1920,7 +1891,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1936,7 +1906,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">post_save = ModelSignal(<span style="color: #aa4926"><font color="#aa4926">providing_args</font></span>=[<span style="color: #a5c261"><font color="#a5c261">&quot;instance&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;raw&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;created&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;using&quot;</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #a5c261"><font color="#a5c261">&quot;update_fields&quot;</font></span>]<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">use_caching</font></span>=<span style="color: #8888c6"><font color="#8888c6">True</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x50cf;pre_save&#xff0c;&#x4f46;&#x5728;save()&#x65b9;&#x6cd5;&#x7ed3;&#x675f;&#x65f6;&#x53d1;&#x9001;" ID="ID_1204191031" CREATED="1562567850113" MODIFIED="1562567853602"/>
@@ -2029,6 +1998,105 @@
 </node>
 <node TEXT="django &#x4e8b;&#x52a1;" POSITION="right" ID="ID_839477497" CREATED="1563160953245" MODIFIED="1563160958108">
 <edge COLOR="#007c00"/>
+<node TEXT=" Django &#x9ed8;&#x8ba4;&#x7684;&#x4e8b;&#x52a1;&#x884c;&#x4e3a;" ID="ID_1375444741" CREATED="1568881659076" MODIFIED="1568881660043">
+<node TEXT=" Django &#x9ed8;&#x8ba4;&#x7684;&#x4e8b;&#x52a1;&#x884c;&#x4e3a;&#x662f;&#x81ea;&#x52a8;&#x63d0;&#x4ea4;" ID="ID_494608696" CREATED="1568881666047" MODIFIED="1568881666905"/>
+<node TEXT="&#x9664;&#x975e;&#x4e8b;&#x52a1;&#x6b63;&#x5728;&#x6267;&#x884c;&#xff0c;&#x6bcf;&#x4e2a;&#x67e5;&#x8be2;&#x5c06;&#x4f1a;&#x9a6c;&#x4e0a;&#x81ea;&#x52a8;&#x63d0;&#x4ea4;&#x5230;&#x6570;&#x636e;&#x5e93;" ID="ID_557917730" CREATED="1568881673737" MODIFIED="1568881701393"/>
+<node TEXT="Django &#x81ea;&#x52a8;&#x4f7f;&#x7528;&#x4e8b;&#x52a1;&#x6216;&#x8fd8;&#x539f;&#x70b9;&#xff0c;&#x4ee5;&#x786e;&#x4fdd;&#x9700;&#x591a;&#x6b21;&#x67e5;&#x8be2;&#x7684; ORM &#x64cd;&#x4f5c;&#x7684;&#x4e00;&#x81f4;&#x6027;&#xff0c;&#x7279;&#x522b;&#x662f; delete() &#x548c; update() &#x64cd;&#x4f5c;" ID="ID_926954469" CREATED="1568881697300" MODIFIED="1568881700501"/>
+</node>
+<node TEXT=" &#x4e3a;&#x4ec0;&#x4e48; Django &#x4f7f;&#x7528;&#x81ea;&#x52a8;&#x63d0;&#x4ea4;" ID="ID_1052453873" CREATED="1568881711353" MODIFIED="1568881712297">
+<node TEXT="  SQL &#x89c4;&#x8303;" ID="ID_1384905076" CREATED="1568881734014" MODIFIED="1568881734952">
+<node TEXT="&#x6bcf;&#x4e00;&#x4e2a; SQL &#x67e5;&#x8be2;&#x4f1a;&#x542f;&#x52a8;&#x4e8b;&#x52a1;&#xff0c;&#x9664;&#x975e;&#x4e00;&#x4e2a;&#x4e8b;&#x52a1;&#x5df2;&#x7ecf;&#x5904;&#x4e8e;&#x6d3b;&#x52a8;&#x72b6;&#x6001;" ID="ID_1213830258" CREATED="1568881741515" MODIFIED="1568881743871"/>
+<node TEXT=" &#x7136;&#x540e;&#x5fc5;&#x987b;&#x663e;&#x5f0f;&#x5730;&#x63d0;&#x4ea4;&#x6216;&#x56de;&#x6eda;&#x6b64;&#x4e8b;&#x52a1;" ID="ID_1608989420" CREATED="1568881744747" MODIFIED="1568881749913"/>
+</node>
+<node TEXT="&#x4e3a;&#x4e86;&#x51cf;&#x8f7b;&#x8fd9;&#x4e2a;&#x95ee;&#x9898;&#xff0c;&#x5927;&#x90e8;&#x5206;&#x6570;&#x636e;&#x5e93;&#x63d0;&#x4f9b;&#x4e86;&#x81ea;&#x52a8;&#x63d0;&#x4ea4;&#x6a21;&#x5f0f;" ID="ID_1562232612" CREATED="1568881771252" MODIFIED="1568881956723"/>
+<node TEXT="&#x5f53;&#x6253;&#x5f00;&#x4e86;&#x81ea;&#x52a8;&#x63d0;&#x4ea4;&#xff0c;&#x5e76;&#x4e14;&#x6ca1;&#x6709;&#x4e8b;&#x52a1;&#x6d3b;&#x52a8;&#x65f6;&#xff0c;&#x6bcf;&#x4e00;&#x4e2a; SQL &#x67e5;&#x8be2;&#x5c06;&#x88ab;&#x5305;&#x542b;&#x5728;&#x81ea;&#x5df1;&#x7684;&#x4e8b;&#x52a1;&#x4e2d;" ID="ID_1684729800" CREATED="1568881937264" MODIFIED="1568881939825"/>
+<node TEXT=" &#x6bcf;&#x4e00;&#x4e2a;&#x8fd9;&#x79cd;&#x67e5;&#x8be2;&#x4e0d;&#x4ec5;&#x4f1a;&#x542f;&#x52a8;&#x4e00;&#x4e2a;&#x4e8b;&#x52a1;&#xff0c;&#x800c;&#x4e14;&#x4e8b;&#x52a1;&#x4e5f;&#x4f1a;&#x88ab;&#x81ea;&#x52a8;&#x63d0;&#x4ea4;&#x6216;&#x56de;&#x6eda;&#xff0c;&#x8fd9;&#x53d6;&#x51b3;&#x4e8e;&#x67e5;&#x8be2;&#x662f;&#x5426;&#x6210;&#x529f;" ID="ID_840140558" CREATED="1568881972250" MODIFIED="1568881973309"/>
+</node>
+<node TEXT=" &#x5728;&#x89c6;&#x56fe;&#x4ee3;&#x7801;&#x4e2d;&#x4f7f;&#x7528;&#x8fd8;&#x539f;&#x70b9;&#x6267;&#x884c;&#x5b50;&#x4e8b;&#x52a1;" ID="ID_1618450362" CREATED="1568880783937" MODIFIED="1568880789146">
+<node TEXT="&#x5728;&#x89c6;&#x56fe;&#x7ed3;&#x675f;&#x65f6;&#xff0c;&#x8981;&#x4e48;&#x6240;&#x6709;&#x7684;&#x66f4;&#x6539;&#x90fd;&#x88ab;&#x63d0;&#x4ea4;&#xff0c;&#x8981;&#x4e48;&#x6240;&#x6709;&#x7684;&#x66f4;&#x6539;&#x90fd;&#x4e0d;&#x88ab;&#x63d0;&#x4ea4;" ID="ID_1778983429" CREATED="1568880813511" MODIFIED="1568880816937"/>
+</node>
+<node TEXT=" &#x663e;&#x5f0f;&#x63a7;&#x5236;&#x4e8b;&#x52a1;" ID="ID_1239423904" CREATED="1568882029427" MODIFIED="1568882030345">
+<node TEXT="&#x539f;&#x5b50;&#x6027;" ID="ID_293026065" CREATED="1568882042304" MODIFIED="1568941345589">
+<node TEXT=" atomic(using=None, savepoint=True)" ID="ID_365315756" CREATED="1568882051156" MODIFIED="1568882052043"/>
+<node TEXT=" &#x539f;&#x5b50;&#x6027;&#x662f;&#x6570;&#x636e;&#x5e93;&#x4e8b;&#x52a1;&#x7684;&#x5b9a;&#x4e49;&#x5c5e;&#x6027;" ID="ID_1642345478" CREATED="1568882061274" MODIFIED="1568882062281"/>
+<node TEXT="  atomic &#x5141;&#x8bb8;&#x521b;&#x5efa;&#x4ee3;&#x7801;&#x5757;&#x6765;&#x4fdd;&#x8bc1;&#x6570;&#x636e;&#x5e93;&#x7684;&#x539f;&#x5b50;&#x6027;" ID="ID_548393546" CREATED="1568882067432" MODIFIED="1568882069088"/>
+<node TEXT=" &#x5982;&#x679c;&#x4ee3;&#x7801;&#x5757;&#x6210;&#x529f;&#x521b;&#x5efa;&#xff0c;&#x8fd9;&#x4e2a;&#x53d8;&#x52a8;&#x4f1a;&#x63d0;&#x4ea4;&#x5230;&#x6570;&#x636e;&#x5e93;" ID="ID_625482798" CREATED="1568882074986" MODIFIED="1568882075834"/>
+<node TEXT=" &#x5982;&#x679c;&#x6709;&#x5f02;&#x5e38;&#xff0c;&#x53d8;&#x52a8;&#x4f1a;&#x56de;&#x6eda;" ID="ID_1507947018" CREATED="1568882080729" MODIFIED="1568882081729"/>
+</node>
+<node TEXT="&#x88c5;&#x9970;&#x5668;" ID="ID_1737032624" CREATED="1568882198461" MODIFIED="1568882206708">
+<node ID="ID_507202114" CREATED="1568941394190" MODIFIED="1568941394190"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db <span style="color: #cc7832"><font color="#cc7832">import </font></span>transaction<br/><br/><span style="color: #bbb529"><font color="#bbb529">@transaction.atomic<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">viewfunc</font></span>(<span style="color: #808080"><font color="#808080">request</font></span>):<br/>    <span style="color: #808080"><font color="#808080"># This code executes inside a transaction.<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>do_stuff()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x4e0a;&#x4e0b;&#x6587;&#x7ba1;&#x7406;" ID="ID_1228659809" CREATED="1568941402523" MODIFIED="1568941424332">
+<node ID="ID_1407773608" CREATED="1568941479732" MODIFIED="1568941479732"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db <span style="color: #cc7832"><font color="#cc7832">import </font></span>transaction<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">viewfunc</font></span>(<span style="color: #808080"><font color="#808080">request</font></span>):<br/>    <span style="color: #808080"><font color="#808080"># &#36825;&#27573;&#20195;&#30721;&#22312;&#33258;&#21160;&#25552;&#20132;&#27169;&#24335;&#19979;&#25191;&#34892;(Django&#30340;&#40664;&#35748;&#27169;&#24335;)&#12290;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>do_stuff()<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">with </font></span>transaction.atomic():<br/>        <span style="color: #808080"><font color="#808080"># &#27492;&#20195;&#30721;&#22312;&#20107;&#21153;&#20013;&#25191;&#34892;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>do_more_stuff()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="  try/except" ID="ID_318760744" CREATED="1568941655173" MODIFIED="1568941656248">
+<node TEXT="&#x5904;&#x7406;&#x7834;&#x574f;&#x5b8c;&#x6574;&#x6027;&#x7ea6;&#x675f;&#x5bfc;&#x81f4;&#x6570;&#x636e;&#x5e93;&#x9519;&#x8bef;" ID="ID_1217815822" CREATED="1568942316061" MODIFIED="1568942319091"/>
+<node ID="ID_148115298" CREATED="1568941677736" MODIFIED="1568941677736"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db <span style="color: #cc7832"><font color="#cc7832">import </font></span>IntegrityError<span style="color: #cc7832"><font color="#cc7832">, </font></span>transaction<br/><br/><span style="color: #bbb529"><font color="#bbb529">@transaction.atomic<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">viewfunc</font></span>(<span style="color: #808080"><font color="#808080">request</font></span>):<br/>    create_parent()<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>        <span style="color: #cc7832"><font color="#cc7832">with </font></span>transaction.atomic():<br/>            generate_relationships()<br/>    <span style="color: #cc7832"><font color="#cc7832">except </font></span>IntegrityError:<br/>        handle_exception()<br/><br/>    add_children()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x4efb;&#x4f55;&#x8bd5;&#x56fe;&#x5728; generate_relationships() &#x4e2d;&#x6267;&#x884c;&#x7684;&#x64cd;&#x4f5c;&#x5728; handle_exception() &#x88ab;&#x8c03;&#x7528;&#x7684;&#x65f6;&#x5019;&#x4e5f;&#x4f1a;&#x5b89;&#x5168;&#x7684;&#x56de;&#x6eda;" ID="ID_1152400889" CREATED="1568942409422" MODIFIED="1568942419878"/>
+</node>
+</node>
+<node TEXT="&#x56de;&#x6eda;&#x4e8b;&#x52a1;&#x65f6;&#xff0c;&#x9700;&#x624b;&#x5de5;&#x6062;&#x590d;&#x6a21;&#x578b;&#x72b6;&#x6001;" ID="ID_1153482413" CREATED="1568946986344" MODIFIED="1568947045584">
+<node ID="ID_660005395" CREATED="1568947088177" MODIFIED="1568947088177"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db <span style="color: #cc7832"><font color="#cc7832">import </font></span>DatabaseError<span style="color: #cc7832"><font color="#cc7832">, </font></span>transaction<br/><br/>obj = MyModel(<span style="color: #aa4926"><font color="#aa4926">active</font></span>=<span style="color: #8888c6"><font color="#8888c6">False</font></span>)<br/>obj.active = <span style="color: #8888c6"><font color="#8888c6">True<br/></font></span><span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>    <span style="color: #cc7832"><font color="#cc7832">with </font></span>transaction.atomic():<br/>        obj.save()<br/><span style="color: #cc7832"><font color="#cc7832">except </font></span>DatabaseError:<br/>    obj.active = <span style="color: #8888c6"><font color="#8888c6">False<br/></font></span><font color="#8888c6"><span style="color: #8888c6"><br/></span></font><span style="color: #cc7832"><font color="#cc7832">if </font></span>obj.active:<br/>    ...</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x63d0;&#x4ea4;&#x540e;" ID="ID_537240544" CREATED="1568947683999" MODIFIED="1568947691042">
+<node TEXT=" &#x4e8b;&#x52a1;&#x6210;&#x529f;&#x63d0;&#x4ea4;&#x540e;&#x6267;&#x884c;" ID="ID_1884226924" CREATED="1568947692105" MODIFIED="1568947696727">
+<node TEXT=" on_commit(func, using=None)" ID="ID_1999517080" CREATED="1568947711352" MODIFIED="1568947712329"/>
+<node TEXT="&#x65e0;&#x4efb;&#x4f55;&#x6d3b;&#x52a8;&#x4e8b;&#x52a1;&#x65f6;&#x8c03;&#x7528; on_commit() &#xff0c;&#x5219;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x4f1a;&#x7acb;&#x5373;&#x6267;&#x884c;" ID="ID_1659478670" CREATED="1568947792731" MODIFIED="1568947799073"/>
+<node TEXT=" &#x5982;&#x679c;&#x5047;&#x8bbe;&#x7684;&#x6570;&#x636e;&#x5e93;&#x5199;&#x5165;&#x88ab;&#x56de;&#x6eda;&#xff08;&#x5c24;&#x5176;&#x662f;&#x5728; atomic() &#x5757;&#x91cc;&#x5f15;&#x53d1;&#x4e86;&#x4e00;&#x4e2a;&#x672a;&#x5904;&#x7406;&#x5f02;&#x5e38;&#xff09;&#xff0c;&#x51fd;&#x6570;&#x5c06;&#x88ab;&#x4e22;&#x5f03;&#x4e14;&#x6c38;&#x8fdc;&#x4e0d;&#x4f1a;&#x88ab;&#x8c03;&#x7528;" ID="ID_521159317" CREATED="1568947811312" MODIFIED="1568947814705"/>
+</node>
+<node TEXT=" &#x5305;&#x542b; Celery  &#x4efb;&#x52a1;" ID="ID_348321855" CREATED="1568947737264" MODIFIED="1568947738296">
+<node TEXT=" &#x90ae;&#x4ef6;&#x63d0;&#x9192;&#x6216;&#x7f13;&#x5b58;&#x5931;&#x6548;" ID="ID_1567963564" CREATED="1568947743176" MODIFIED="1568947744074"/>
+<node TEXT=" transaction.on_commit(lambda: some_celery_task.delay(&apos;arg1&apos;))" ID="ID_662408566" CREATED="1568947756014" MODIFIED="1568947757499"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
