@@ -2012,10 +2012,10 @@
 <node TEXT="&#x5f53;&#x6253;&#x5f00;&#x4e86;&#x81ea;&#x52a8;&#x63d0;&#x4ea4;&#xff0c;&#x5e76;&#x4e14;&#x6ca1;&#x6709;&#x4e8b;&#x52a1;&#x6d3b;&#x52a8;&#x65f6;&#xff0c;&#x6bcf;&#x4e00;&#x4e2a; SQL &#x67e5;&#x8be2;&#x5c06;&#x88ab;&#x5305;&#x542b;&#x5728;&#x81ea;&#x5df1;&#x7684;&#x4e8b;&#x52a1;&#x4e2d;" ID="ID_1684729800" CREATED="1568881937264" MODIFIED="1568881939825"/>
 <node TEXT=" &#x6bcf;&#x4e00;&#x4e2a;&#x8fd9;&#x79cd;&#x67e5;&#x8be2;&#x4e0d;&#x4ec5;&#x4f1a;&#x542f;&#x52a8;&#x4e00;&#x4e2a;&#x4e8b;&#x52a1;&#xff0c;&#x800c;&#x4e14;&#x4e8b;&#x52a1;&#x4e5f;&#x4f1a;&#x88ab;&#x81ea;&#x52a8;&#x63d0;&#x4ea4;&#x6216;&#x56de;&#x6eda;&#xff0c;&#x8fd9;&#x53d6;&#x51b3;&#x4e8e;&#x67e5;&#x8be2;&#x662f;&#x5426;&#x6210;&#x529f;" ID="ID_840140558" CREATED="1568881972250" MODIFIED="1568881973309"/>
 </node>
+<node TEXT=" &#x663e;&#x5f0f;&#x63a7;&#x5236;&#x4e8b;&#x52a1;" ID="ID_1239423904" CREATED="1568882029427" MODIFIED="1568882030345">
 <node TEXT=" &#x5728;&#x89c6;&#x56fe;&#x4ee3;&#x7801;&#x4e2d;&#x4f7f;&#x7528;&#x8fd8;&#x539f;&#x70b9;&#x6267;&#x884c;&#x5b50;&#x4e8b;&#x52a1;" ID="ID_1618450362" CREATED="1568880783937" MODIFIED="1568880789146">
 <node TEXT="&#x5728;&#x89c6;&#x56fe;&#x7ed3;&#x675f;&#x65f6;&#xff0c;&#x8981;&#x4e48;&#x6240;&#x6709;&#x7684;&#x66f4;&#x6539;&#x90fd;&#x88ab;&#x63d0;&#x4ea4;&#xff0c;&#x8981;&#x4e48;&#x6240;&#x6709;&#x7684;&#x66f4;&#x6539;&#x90fd;&#x4e0d;&#x88ab;&#x63d0;&#x4ea4;" ID="ID_1778983429" CREATED="1568880813511" MODIFIED="1568880816937"/>
 </node>
-<node TEXT=" &#x663e;&#x5f0f;&#x63a7;&#x5236;&#x4e8b;&#x52a1;" ID="ID_1239423904" CREATED="1568882029427" MODIFIED="1568882030345">
 <node TEXT="&#x539f;&#x5b50;&#x6027;" ID="ID_293026065" CREATED="1568882042304" MODIFIED="1568941345589">
 <node TEXT=" atomic(using=None, savepoint=True)" ID="ID_365315756" CREATED="1568882051156" MODIFIED="1568882052043"/>
 <node TEXT=" &#x539f;&#x5b50;&#x6027;&#x662f;&#x6570;&#x636e;&#x5e93;&#x4e8b;&#x52a1;&#x7684;&#x5b9a;&#x4e49;&#x5c5e;&#x6027;" ID="ID_1642345478" CREATED="1568882061274" MODIFIED="1568882062281"/>
@@ -2034,7 +2034,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db <span style="color: #cc7832"><font color="#cc7832">import </font></span>transaction<br/><br/><span style="color: #bbb529"><font color="#bbb529">@transaction.atomic<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">viewfunc</font></span>(<span style="color: #808080"><font color="#808080">request</font></span>):<br/>    <span style="color: #808080"><font color="#808080"># This code executes inside a transaction.<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>do_stuff()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2049,7 +2048,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db <span style="color: #cc7832"><font color="#cc7832">import </font></span>transaction<br/><br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">viewfunc</font></span>(<span style="color: #808080"><font color="#808080">request</font></span>):<br/>    <span style="color: #808080"><font color="#808080"># &#36825;&#27573;&#20195;&#30721;&#22312;&#33258;&#21160;&#25552;&#20132;&#27169;&#24335;&#19979;&#25191;&#34892;(Django&#30340;&#40664;&#35748;&#27169;&#24335;)&#12290;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>do_stuff()<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">with </font></span>transaction.atomic():<br/>        <span style="color: #808080"><font color="#808080"># &#27492;&#20195;&#30721;&#22312;&#20107;&#21153;&#20013;&#25191;&#34892;<br/></font></span><font color="#808080"><span style="color: #808080">        </span></font>do_more_stuff()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="  try/except" ID="ID_318760744" CREATED="1568941655173" MODIFIED="1568941656248">
@@ -2064,7 +2062,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db <span style="color: #cc7832"><font color="#cc7832">import </font></span>IntegrityError<span style="color: #cc7832"><font color="#cc7832">, </font></span>transaction<br/><br/><span style="color: #bbb529"><font color="#bbb529">@transaction.atomic<br/></font></span><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">viewfunc</font></span>(<span style="color: #808080"><font color="#808080">request</font></span>):<br/>    create_parent()<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>        <span style="color: #cc7832"><font color="#cc7832">with </font></span>transaction.atomic():<br/>            generate_relationships()<br/>    <span style="color: #cc7832"><font color="#cc7832">except </font></span>IntegrityError:<br/>        handle_exception()<br/><br/>    add_children()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4efb;&#x4f55;&#x8bd5;&#x56fe;&#x5728; generate_relationships() &#x4e2d;&#x6267;&#x884c;&#x7684;&#x64cd;&#x4f5c;&#x5728; handle_exception() &#x88ab;&#x8c03;&#x7528;&#x7684;&#x65f6;&#x5019;&#x4e5f;&#x4f1a;&#x5b89;&#x5168;&#x7684;&#x56de;&#x6eda;" ID="ID_1152400889" CREATED="1568942409422" MODIFIED="1568942419878"/>
@@ -2081,11 +2078,10 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>django.db <span style="color: #cc7832"><font color="#cc7832">import </font></span>DatabaseError<span style="color: #cc7832"><font color="#cc7832">, </font></span>transaction<br/><br/>obj = MyModel(<span style="color: #aa4926"><font color="#aa4926">active</font></span>=<span style="color: #8888c6"><font color="#8888c6">False</font></span>)<br/>obj.active = <span style="color: #8888c6"><font color="#8888c6">True<br/></font></span><span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>    <span style="color: #cc7832"><font color="#cc7832">with </font></span>transaction.atomic():<br/>        obj.save()<br/><span style="color: #cc7832"><font color="#cc7832">except </font></span>DatabaseError:<br/>    obj.active = <span style="color: #8888c6"><font color="#8888c6">False<br/></font></span><font color="#8888c6"><span style="color: #8888c6"><br/></span></font><span style="color: #cc7832"><font color="#cc7832">if </font></span>obj.active:<br/>    ...</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT=" &#x63d0;&#x4ea4;&#x540e;" ID="ID_537240544" CREATED="1568947683999" MODIFIED="1568947691042">
+<node TEXT=" &#x4e8b;&#x52a1;&#x63d0;&#x4ea4;&#x52fe;&#x5b50;" ID="ID_537240544" CREATED="1568947683999" MODIFIED="1569165557890">
 <node TEXT=" &#x4e8b;&#x52a1;&#x6210;&#x529f;&#x63d0;&#x4ea4;&#x540e;&#x6267;&#x884c;" ID="ID_1884226924" CREATED="1568947692105" MODIFIED="1568947696727">
 <node TEXT=" on_commit(func, using=None)" ID="ID_1999517080" CREATED="1568947711352" MODIFIED="1568947712329"/>
 <node TEXT="&#x65e0;&#x4efb;&#x4f55;&#x6d3b;&#x52a8;&#x4e8b;&#x52a1;&#x65f6;&#x8c03;&#x7528; on_commit() &#xff0c;&#x5219;&#x56de;&#x8c03;&#x51fd;&#x6570;&#x4f1a;&#x7acb;&#x5373;&#x6267;&#x884c;" ID="ID_1659478670" CREATED="1568947792731" MODIFIED="1568947799073"/>
