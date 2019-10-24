@@ -3,7 +3,7 @@
 <node TEXT="&#x5ed6;&#x96ea;&#x5cf0; python3" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537888489239" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="93" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="94" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="&#x89e3;&#x91ca;&#x5668;" FOLDED="true" POSITION="right" ID="ID_987134475" CREATED="1537888500595" MODIFIED="1537889643579" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#007c00"/>
@@ -1064,7 +1064,7 @@
 <node TEXT="IO&#x7f16;&#x7a0b;" POSITION="right" ID="ID_1565075659" CREATED="1555509998658" MODIFIED="1555510004206">
 <edge COLOR="#00ff00"/>
 </node>
-<node TEXT="&#x8fdb;&#x7a0b;&#x548c;&#x7ebf;&#x7a0b;" POSITION="right" ID="ID_357554149" CREATED="1555510031658" MODIFIED="1555510037661">
+<node TEXT="&#x8fdb;&#x7a0b;&#x548c;&#x7ebf;&#x7a0b;" FOLDED="true" POSITION="right" ID="ID_357554149" CREATED="1555510031658" MODIFIED="1555510037661">
 <edge COLOR="#ff00ff"/>
 <node TEXT=" &#x5e76;&#x884c;" ID="ID_1063923465" CREATED="1557394011182" MODIFIED="1557394012762">
 <node TEXT=" &#x771f;&#x6b63;&#x7684;&#x5e76;&#x884c;&#x6267;&#x884c;&#x591a;&#x4efb;&#x52a1;&#x53ea;&#x80fd;&#x5728;&#x591a;&#x6838;CPU&#x4e0a;&#x5b9e;&#x73b0;" ID="ID_812426087" CREATED="1557394021713" MODIFIED="1557394022806"/>
@@ -1565,7 +1565,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5f02;&#x6b65;IO" POSITION="right" ID="ID_389734159" CREATED="1558084277223" MODIFIED="1558084292105">
+<node TEXT="&#x5f02;&#x6b65;IO" FOLDED="true" POSITION="right" ID="ID_389734159" CREATED="1558084277223" MODIFIED="1558084292105">
 <edge COLOR="#00ffff"/>
 <node TEXT="&#x534f;&#x7a0b;" ID="ID_471738878" CREATED="1557901873064" MODIFIED="1557901875886">
 <node TEXT="&#x534f;&#x7a0b;&#x7684;&#x7279;&#x70b9;&#x5728;&#x4e8e;&#x662f;&#x4e00;&#x4e2a;&#x7ebf;&#x7a0b;&#x6267;&#x884c;" ID="ID_1726441824" CREATED="1557901998816" MODIFIED="1557902033398">
@@ -1788,6 +1788,367 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>asyncio<br/><span style="color: #cc7832"><font color="#cc7832">import </font></span>datetime<br/><br/><span style="color: #cc7832"><font color="#cc7832">async def </font></span><span style="color: #ffc66d"><font color="#ffc66d">display_date</font></span>(num<span style="color: #cc7832"><font color="#cc7832">, </font></span>loop):      <span style="color: #808080"><font color="#808080"># &#27880;&#24847;&#36825;&#19968;&#34892;&#30340;&#20889;&#27861;<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>end_time = loop.time() + <span style="color: #6897bb"><font color="#6897bb">10.0<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font><span style="color: #cc7832"><font color="#cc7832">while True</font></span>:<br/>        <span style="color: #8888c6"><font color="#8888c6">print</font></span>(<span style="color: #6a8759"><font color="#6a8759">f&quot;Loop: </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>num<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759"> Time: </font></span><span style="color: #cc7832"><font color="#cc7832">{</font></span>datetime.datetime.now()<span style="color: #cc7832"><font color="#cc7832">}</font></span><span style="color: #6a8759"><font color="#6a8759">&quot;</font></span>)<br/>        <span style="color: #cc7832"><font color="#cc7832">if </font></span>(loop.time() + <span style="color: #6897bb"><font color="#6897bb">1.0</font></span>) &gt;= end_time:<br/>            <span style="color: #cc7832"><font color="#cc7832">break<br/></font></span><font color="#cc7832"><span style="color: #cc7832">        await </span></font>asyncio.sleep(<span style="color: #6897bb"><font color="#6897bb">2</font></span>)  <span style="color: #808080"><font color="#808080"># &#38459;&#22622;&#30452;&#21040;&#21327;&#31243;sleep(2)&#36820;&#22238;&#32467;&#26524;<br/></font></span><font color="#808080"><span style="color: #808080"><br/></span></font>loop = asyncio.get_event_loop()  <span style="color: #808080"><font color="#808080"># &#33719;&#21462;&#19968;&#20010;event_loop<br/></font></span>tasks = [display_date(<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>loop)<span style="color: #cc7832"><font color="#cc7832">, </font></span>display_date(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>loop)]<br/>loop.run_until_complete(asyncio.gather(*tasks))  <span style="color: #808080"><font color="#808080"># &quot;&#38459;&#22622;&quot;&#30452;&#21040;&#25152;&#26377;&#30340;tasks&#23436;&#25104;<br/></font></span>loop.close()</pre>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x5e38;&#x7528;&#x5185;&#x5efa;&#x6a21;&#x5757;" POSITION="right" ID="ID_1447648742" CREATED="1571802923365" MODIFIED="1571802930406">
+<edge COLOR="#7c0000"/>
+<node TEXT="datetime" ID="ID_790078705" CREATED="1571802930647" MODIFIED="1571802934314">
+<node TEXT="datetime &#x8f6c; timestamp" ID="ID_648011230" CREATED="1571802934781" MODIFIED="1571802977239">
+<node ID="ID_1693078271" CREATED="1571804286945" MODIFIED="1571804286945"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>datetime <span style="color: #cc7832"><font color="#cc7832">import </font></span>datetime<br/>dt = datetime(<span style="color: #6897bb"><font color="#6897bb">2015</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">19</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">12</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">20</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(dt.timestamp())<br/><span style="color: #808080"><font color="#808080"># 1429417200.0</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" Python&#x7684;timestamp&#x662f;&#x4e00;&#x4e2a;&#x6d6e;&#x70b9;&#x6570;&#x3002;&#x5982;&#x679c;&#x6709;&#x5c0f;&#x6570;&#x4f4d;&#xff0c;&#x5c0f;&#x6570;&#x4f4d;&#x8868;&#x793a;&#x6beb;&#x79d2;&#x6570;" ID="ID_1846320504" CREATED="1571804308835" MODIFIED="1571804310749"/>
+</node>
+<node TEXT=" timestamp &#x8f6c; datetime" ID="ID_1386328126" CREATED="1571802978707" MODIFIED="1571804323533">
+<node TEXT=" timestamp&#x548c;&#x672c;&#x5730;&#x65f6;&#x95f4;&#x505a;&#x8f6c;&#x6362;" ID="ID_261767343" CREATED="1571804882679" MODIFIED="1571804884029"/>
+<node TEXT="timestamp&#x662f;&#x4e00;&#x4e2a;&#x6d6e;&#x70b9;&#x6570;&#xff0c;&#x5b83;&#x6ca1;&#x6709;&#x65f6;&#x533a;&#x7684;&#x6982;&#x5ff5;&#xff0c;&#x800c;datetime&#x662f;&#x6709;&#x65f6;&#x533a;&#x7684;" ID="ID_1956598056" CREATED="1571804889656" MODIFIED="1571804893845"/>
+<node ID="ID_386229627" CREATED="1571804862943" MODIFIED="1571804862943"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>datetime <span style="color: #cc7832"><font color="#cc7832">import </font></span>datetime<br/>t = <span style="color: #6897bb"><font color="#6897bb">1429417200.0<br/></font></span><span style="color: #8888c6"><font color="#8888c6">print</font></span>(datetime.fromtimestamp(t))<br/><span style="color: #808080"><font color="#808080"># 2015-04-19 12:20:00</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" str &#x8f6c; datetime" ID="ID_1442450154" CREATED="1571804933973" MODIFIED="1571804939220">
+<node TEXT=" &#x8f6c;&#x6362;&#x65b9;&#x6cd5;&#x662f;&#x901a;&#x8fc7;datetime.strptime()&#x5b9e;&#x73b0;" ID="ID_716265881" CREATED="1571805034229" MODIFIED="1571805036085"/>
+<node TEXT=" &#x6ce8;&#x610f;&#x8f6c;&#x6362;&#x540e;&#x7684;datetime&#x662f;&#x6ca1;&#x6709;&#x65f6;&#x533a;&#x4fe1;&#x606f;&#x7684;" ID="ID_1261057588" CREATED="1571805016778" MODIFIED="1571805018108"/>
+<node ID="ID_190770900" CREATED="1571805003743" MODIFIED="1571805003743"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>datetime <span style="color: #cc7832"><font color="#cc7832">import </font></span>datetime<br/>s = <span style="color: #6a8759"><font color="#6a8759">'2015-6-1 18:19:59'<br/></font></span>f = <span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d %H:%M:%S'<br/></font></span>cday = datetime.strptime(s<span style="color: #cc7832"><font color="#cc7832">, </font></span>f)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(cday)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="datetime &#x8f6c; str" ID="ID_165523307" CREATED="1571812857479" MODIFIED="1571812864435">
+<node ID="ID_1318711026" CREATED="1571812980050" MODIFIED="1571812980050"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>datetime <span style="color: #cc7832"><font color="#cc7832">import </font></span>datetime<br/>now = datetime.now()<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(now.strftime(<span style="color: #6a8759"><font color="#6a8759">'%a, %b %d %H:%M'</font></span>))<br/><span style="color: #808080"><font color="#808080"># Wed, Oct 23 14:42</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="collections" ID="ID_1099232784" CREATED="1571813163684" MODIFIED="1571813169115">
+<node TEXT="namedtuple" ID="ID_1180451080" CREATED="1571813169781" MODIFIED="1571813176950">
+<node TEXT="namedtuple&#x662f;&#x4e00;&#x4e2a;&#x51fd;&#x6570;&#xff0c;&#x5b83;&#x7528;&#x6765;&#x521b;&#x5efa;&#x4e00;&#x4e2a;&#x81ea;&#x5b9a;&#x4e49;&#x7684;tuple&#x5bf9;&#x8c61;&#xff0c;&#x5e76;&#x4e14;&#x89c4;&#x5b9a;&#x4e86;tuple&#x5143;&#x7d20;&#x7684;&#x4e2a;&#x6570;&#xff0c;&#x5e76;&#x53ef;&#x4ee5;&#x7528;&#x5c5e;&#x6027;&#x800c;&#x4e0d;&#x662f;&#x7d22;&#x5f15;&#x6765;&#x5f15;&#x7528;tuple&#x7684;&#x67d0;&#x4e2a;&#x5143;&#x7d20;" ID="ID_191631414" CREATED="1571813364788" MODIFIED="1571813413688"/>
+<node TEXT="&#x4e8c;&#x7ef4;&#x5750;&#x6807;" ID="ID_975159419" CREATED="1571813554676" MODIFIED="1571813575667">
+<node ID="ID_1662289467" CREATED="1571813467254" MODIFIED="1571813467254"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>collections <span style="color: #cc7832"><font color="#cc7832">import </font></span>namedtuple<br/>Point = namedtuple(<span style="color: #6a8759"><font color="#6a8759">'Point'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>[<span style="color: #6a8759"><font color="#6a8759">'x'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'y'</font></span>])<br/>p = Point(<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(p.x)  <span style="color: #808080"><font color="#808080"># 1<br/></font></span><span style="color: #8888c6"><font color="#8888c6">print</font></span>(p.y)  <span style="color: #808080"><font color="#808080"># 2</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x4e09;&#x7ef4;&#x5750;&#x6807;" ID="ID_698614356" CREATED="1571813563316" MODIFIED="1571813581824">
+<node TEXT=" &#x7528;&#x5750;&#x6807;&#x548c;&#x534a;&#x5f84;&#x8868;&#x793a;&#x4e00;&#x4e2a;&#x5706;" ID="ID_1777373712" CREATED="1571813625774" MODIFIED="1571813626856"/>
+<node ID="ID_338590913" CREATED="1571813618740" MODIFIED="1571813618740"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>collections <span style="color: #cc7832"><font color="#cc7832">import </font></span>namedtuple<br/>Circle = namedtuple(<span style="color: #6a8759"><font color="#6a8759">'Circle'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>[<span style="color: #6a8759"><font color="#6a8759">'x'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'y'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'r'</font></span>])</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT=" deque" ID="ID_1232773649" CREATED="1571813644221" MODIFIED="1571813645223">
+<node TEXT=" &#x4f7f;&#x7528;list&#x5b58;&#x50a8;&#x6570;&#x636e;&#x65f6;&#xff0c;&#x6309;&#x7d22;&#x5f15;&#x8bbf;&#x95ee;&#x5143;&#x7d20;&#x5f88;&#x5feb;&#xff0c;&#x4f46;&#x662f;&#x63d2;&#x5165;&#x548c;&#x5220;&#x9664;&#x5143;&#x7d20;&#x5c31;&#x5f88;&#x6162;&#x4e86;" ID="ID_514712382" CREATED="1571813741999" MODIFIED="1571813743000"/>
+<node TEXT=" deque&#x662f;&#x4e3a;&#x4e86;&#x9ad8;&#x6548;&#x5b9e;&#x73b0;&#x63d2;&#x5165;&#x548c;&#x5220;&#x9664;&#x64cd;&#x4f5c;&#x7684;&#x53cc;&#x5411;&#x5217;&#x8868;&#xff0c;&#x9002;&#x5408;&#x7528;&#x4e8e;&#x961f;&#x5217;&#x548c;&#x6808;" ID="ID_147243630" CREATED="1571813756582" MODIFIED="1571813757865"/>
+<node TEXT=" deque&#x9664;&#x4e86;&#x5b9e;&#x73b0;list&#x7684;append()&#x548c;pop()&#x5916;&#xff0c;&#x8fd8;&#x652f;&#x6301;appendleft()&#x548c;popleft()" ID="ID_1053621814" CREATED="1571813844313" MODIFIED="1571813845408"/>
+<node ID="ID_1909030481" CREATED="1571813853820" MODIFIED="1571813853820"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>collections <span style="color: #cc7832"><font color="#cc7832">import </font></span>deque<br/>q = deque([<span style="color: #6a8759"><font color="#6a8759">'a'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'b'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'c'</font></span>])<br/>q.append(<span style="color: #6a8759"><font color="#6a8759">'x'</font></span>)<br/>q.appendleft(<span style="color: #6a8759"><font color="#6a8759">'y'</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(q)<br/><span style="color: #808080"><font color="#808080"># deque(['y', 'a', 'b', 'c', 'x'])</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="defaultdict" ID="ID_155193302" CREATED="1571813859031" MODIFIED="1571813866145">
+<node TEXT="&#x4f7f;&#x7528;dict&#x65f6;&#xff0c;&#x5982;&#x679c;&#x5f15;&#x7528;&#x7684;Key&#x4e0d;&#x5b58;&#x5728;&#xff0c;&#x5c31;&#x4f1a;&#x629b;&#x51fa;KeyError" ID="ID_1702814173" CREATED="1571813946862" MODIFIED="1571813949642"/>
+<node TEXT=" &#x5982;&#x679c;&#x5e0c;&#x671b;key&#x4e0d;&#x5b58;&#x5728;&#x65f6;&#xff0c;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x9ed8;&#x8ba4;&#x503c;&#xff0c;&#x5c31;&#x53ef;&#x4ee5;&#x7528;defaultdict" ID="ID_792870643" CREATED="1571813954530" MODIFIED="1571813956296"/>
+<node ID="ID_260669647" CREATED="1571814125003" MODIFIED="1571814125003"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>collections <span style="color: #cc7832"><font color="#cc7832">import </font></span>defaultdict<br/>dd = defaultdict(<span style="color: #cc7832"><font color="#cc7832">lambda</font></span>: <span style="color: #6a8759"><font color="#6a8759">'default'</font></span>)<br/>dd[<span style="color: #6a8759"><font color="#6a8759">'k1'</font></span>] = <span style="color: #6a8759"><font color="#6a8759">'k1'<br/></font></span><span style="color: #8888c6"><font color="#8888c6">print</font></span>(dd[<span style="color: #6a8759"><font color="#6a8759">'k2'</font></span>])  <span style="color: #808080"><font color="#808080"># default</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" OrderedDict" ID="ID_942320836" CREATED="1571814299852" MODIFIED="1571814301128">
+<node TEXT=" &#x4f7f;&#x7528;dict&#x65f6;&#xff0c;Key&#x662f;&#x65e0;&#x5e8f;&#x7684;&#xff0c;&#x5728;&#x5bf9;dict&#x505a;&#x8fed;&#x4ee3;&#x65f6;&#xff0c;&#x6211;&#x4eec;&#x65e0;&#x6cd5;&#x786e;&#x5b9a;Key&#x7684;&#x987a;&#x5e8f;" ID="ID_1454134374" CREATED="1571814441120" MODIFIED="1571814463672"/>
+<node TEXT=" &#x5982;&#x679c;&#x8981;&#x4fdd;&#x6301;Key&#x7684;&#x987a;&#x5e8f;&#xff0c;&#x53ef;&#x4ee5;&#x7528;OrderedDict" ID="ID_1567733093" CREATED="1571814447364" MODIFIED="1571814448254"/>
+<node ID="ID_867152780" CREATED="1571816212578" MODIFIED="1571816212578"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>collections <span style="color: #cc7832"><font color="#cc7832">import </font></span>OrderedDict<br/>d = <span style="color: #8888c6"><font color="#8888c6">dict</font></span>([(<span style="color: #6a8759"><font color="#6a8759">'a'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span>)<span style="color: #cc7832"><font color="#cc7832">, </font></span>(<span style="color: #6a8759"><font color="#6a8759">'b'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span>)<span style="color: #cc7832"><font color="#cc7832">, </font></span>(<span style="color: #6a8759"><font color="#6a8759">'c'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>)])<br/>od = OrderedDict([(<span style="color: #6a8759"><font color="#6a8759">'a'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span>)<span style="color: #cc7832"><font color="#cc7832">, </font></span>(<span style="color: #6a8759"><font color="#6a8759">'b'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span>)<span style="color: #cc7832"><font color="#cc7832">, </font></span>(<span style="color: #6a8759"><font color="#6a8759">'c'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>)])<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(d)  <span style="color: #808080"><font color="#808080"># {'a': 1, 'b': 2, 'c': 3}<br/></font></span><span style="color: #8888c6"><font color="#8888c6">print</font></span>(od)  <span style="color: #808080"><font color="#808080"># OrderedDict([('a', 1), ('b', 2), ('c', 3)])</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="python 3.6 &#x4ee5;&#x540e; dict &#x5b9e;&#x73b0;&#x4e86;&#x6709;&#x5e8f;" ID="ID_1438876726" CREATED="1571816214213" MODIFIED="1571816258963"/>
+</node>
+<node TEXT=" ChainMap" ID="ID_241887171" CREATED="1571816310293" MODIFIED="1571816311693">
+<node TEXT=" ChainMap&#x53ef;&#x4ee5;&#x628a;&#x4e00;&#x7ec4;dict&#x4e32;&#x8d77;&#x6765;&#x5e76;&#x7ec4;&#x6210;&#x4e00;&#x4e2a;&#x903b;&#x8f91;&#x4e0a;&#x7684;dict" ID="ID_390119296" CREATED="1571816328188" MODIFIED="1571816329108"/>
+<node TEXT=" ChainMap&#x672c;&#x8eab;&#x4e5f;&#x662f;&#x4e00;&#x4e2a;dict&#xff0c;&#x4f46;&#x662f;&#x67e5;&#x627e;&#x7684;&#x65f6;&#x5019;&#xff0c;&#x4f1a;&#x6309;&#x7167;&#x987a;&#x5e8f;&#x5728;&#x5185;&#x90e8;&#x7684;dict&#x4f9d;&#x6b21;&#x67e5;&#x627e;" ID="ID_1587636320" CREATED="1571816337593" MODIFIED="1571816338572"/>
+</node>
+<node TEXT=" Counter" ID="ID_1132418913" CREATED="1571817456346" MODIFIED="1571817465107">
+<node TEXT=" Counter&#x662f;&#x4e00;&#x4e2a;&#x7b80;&#x5355;&#x7684;&#x8ba1;&#x6570;&#x5668;" ID="ID_1532916171" CREATED="1571817639231" MODIFIED="1571817640281"/>
+<node TEXT=" Counter&#x5b9e;&#x9645;&#x4e0a;&#x4e5f;&#x662f;dict&#x7684;&#x4e00;&#x4e2a;&#x5b50;&#x7c7b;" ID="ID_929859476" CREATED="1571817659139" MODIFIED="1571817660081"/>
+<node TEXT=" &#x7edf;&#x8ba1;&#x5b57;&#x7b26;&#x51fa;&#x73b0;&#x7684;&#x4e2a;&#x6570;" ID="ID_19565986" CREATED="1571817640925" MODIFIED="1571817647714">
+<node ID="ID_1041923766" CREATED="1571817765022" MODIFIED="1571817765022"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>collections <span style="color: #cc7832"><font color="#cc7832">import </font></span>Counter<br/>c = Counter()<br/><span style="color: #cc7832"><font color="#cc7832">for </font></span>ch <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #6a8759"><font color="#6a8759">'programming'</font></span>:<br/>     c[ch] = c[ch] + <span style="color: #6897bb"><font color="#6897bb">1<br/></font></span><span style="color: #8888c6"><font color="#8888c6">print</font></span>(c)<br/><span style="color: #808080"><font color="#808080"># Counter({'r': 2, 'g': 2, 'm': 2, 'p': 1, 'o': 1, 'a': 1, 'i': 1, 'n': 1})</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT=" base64" ID="ID_547143257" CREATED="1571904033647" MODIFIED="1571904042871">
+<node TEXT=" Base64&#x662f;&#x4e00;&#x79cd;&#x7528;64&#x4e2a;&#x5b57;&#x7b26;&#x6765;&#x8868;&#x793a;&#x4efb;&#x610f;&#x4e8c;&#x8fdb;&#x5236;&#x6570;&#x636e;&#x7684;&#x65b9;&#x6cd5;" ID="ID_418084821" CREATED="1571904052836" MODIFIED="1571904055467"/>
+<node TEXT=" Base64&#x7f16;&#x7801;&#x4f1a;&#x628a;3&#x5b57;&#x8282;&#x7684;&#x4e8c;&#x8fdb;&#x5236;&#x6570;&#x636e;&#x7f16;&#x7801;&#x4e3a;4&#x5b57;&#x8282;&#x7684;&#x6587;&#x672c;&#x6570;&#x636e;" ID="ID_1986966410" CREATED="1571924446690" MODIFIED="1571924449148"/>
+<node TEXT="&#x7f16;&#x7801;&#x4e0e;&#x89e3;&#x7801;" ID="ID_1693655716" CREATED="1571904298612" MODIFIED="1571904999309">
+<node ID="ID_326773920" CREATED="1571905007574" MODIFIED="1571905007574"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>base64<br/>b = base64.b64encode(<span style="color: #a5c261"><font color="#a5c261">b'binary</font></span><span style="color: #cc7832"><font color="#cc7832">\x00</font></span><span style="color: #a5c261"><font color="#a5c261">string'</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(b)  <span style="color: #808080"><font color="#808080"># b'YmluYXJ5AHN0cmluZw=='<br/></font></span>s = base64.b64decode(b)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(s)  <span style="color: #808080"><font color="#808080"># b'binary\x00string'<br/></font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="hashlib" ID="ID_847573005" CREATED="1571929200550" MODIFIED="1571929210611">
+<node TEXT=" &#x6458;&#x8981;&#x7b97;&#x6cd5;&#x53c8;&#x79f0;&#x54c8;&#x5e0c;&#x7b97;&#x6cd5;&#x3001;&#x6563;&#x5217;&#x7b97;&#x6cd5;" ID="ID_1828913956" CREATED="1571929211518" MODIFIED="1571929226661"/>
+<node TEXT=" &#x5b83;&#x901a;&#x8fc7;&#x4e00;&#x4e2a;&#x51fd;&#x6570;&#xff0c;&#x628a;&#x4efb;&#x610f;&#x957f;&#x5ea6;&#x7684;&#x6570;&#x636e;&#x8f6c;&#x6362;&#x4e3a;&#x4e00;&#x4e2a;&#x957f;&#x5ea6;&#x56fa;&#x5b9a;&#x7684;&#x6570;&#x636e;&#x4e32;&#xff08;&#x901a;&#x5e38;&#x7528;16&#x8fdb;&#x5236;&#x7684;&#x5b57;&#x7b26;&#x4e32;&#x8868;&#x793a;&#xff09;" ID="ID_63298263" CREATED="1571929233530" MODIFIED="1571929234588"/>
+<node TEXT=" &#x8981;&#x6ce8;&#x610f;&#x6458;&#x8981;&#x7b97;&#x6cd5;&#x4e0d;&#x662f;&#x52a0;&#x5bc6;&#x7b97;&#x6cd5;&#xff0c;&#x4e0d;&#x80fd;&#x7528;&#x4e8e;&#x52a0;&#x5bc6;&#xff08;&#x56e0;&#x4e3a;&#x65e0;&#x6cd5;&#x901a;&#x8fc7;&#x6458;&#x8981;&#x53cd;&#x63a8;&#x660e;&#x6587;&#xff09;&#xff0c;&#x53ea;&#x80fd;&#x7528;&#x4e8e;&#x9632;&#x7be1;&#x6539;" ID="ID_616357164" CREATED="1571929481010" MODIFIED="1571929482715"/>
+<node TEXT=" MD5" ID="ID_1377325311" CREATED="1571929523438" MODIFIED="1571929524387">
+<node ID="ID_1093098226" CREATED="1571929649857" MODIFIED="1571929649857"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>hashlib<br/>md5 = hashlib.md5()<br/>md5.update(<span style="color: #6a8759"><font color="#6a8759">'asdf 111'</font></span>.encode(<span style="color: #6a8759"><font color="#6a8759">'utf-8'</font></span>))<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(md5.hexdigest())<br/><span style="color: #808080"><font color="#808080"># c479f163c0cd9d910ad217538bdd8e84<br/></font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT=" &#x5982;&#x679c;&#x6570;&#x636e;&#x91cf;&#x5f88;&#x5927;&#xff0c;&#x53ef;&#x4ee5;&#x5206;&#x5757;&#x591a;&#x6b21;&#x8c03;&#x7528;update()&#xff0c;&#x6700;&#x540e;&#x8ba1;&#x7b97;&#x7684;&#x7ed3;&#x679c;&#x662f;&#x4e00;&#x6837;&#x7684;" ID="ID_7075535" CREATED="1571929652094" MODIFIED="1571929673322"/>
+<node ID="ID_452688324" CREATED="1571929703330" MODIFIED="1571929703330"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>hashlib<br/>md5 = hashlib.md5()<br/>md5.update(<span style="color: #6a8759"><font color="#6a8759">'asdf'</font></span>.encode(<span style="color: #6a8759"><font color="#6a8759">'utf-8'</font></span>))<br/>md5.update(<span style="color: #6a8759"><font color="#6a8759">' 111'</font></span>.encode(<span style="color: #6a8759"><font color="#6a8759">'utf-8'</font></span>))<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(md5.hexdigest())<br/><span style="color: #808080"><font color="#808080"># c479f163c0cd9d910ad217538bdd8e84</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" SHA1" ID="ID_1710137458" CREATED="1571929586131" MODIFIED="1571929722751">
+<node ID="ID_42384865" CREATED="1571929753506" MODIFIED="1571929753506"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>hashlib<br/>sha1 = hashlib.sha1()<br/>sha1.update(<span style="color: #6a8759"><font color="#6a8759">'asdf'</font></span>.encode(<span style="color: #6a8759"><font color="#6a8759">'utf-8'</font></span>))<br/>sha1.update(<span style="color: #6a8759"><font color="#6a8759">' 111'</font></span>.encode(<span style="color: #6a8759"><font color="#6a8759">'utf-8'</font></span>))<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(sha1.hexdigest())<br/><span style="color: #808080"><font color="#808080"># 20b7eb0372566c17a40ec10d16d5b264cf5a0d21</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="hmac" ID="ID_744373580" CREATED="1571929843218" MODIFIED="1571931566847">
+<node TEXT=" &#x8ba1;&#x7b97;&#x54c8;&#x5e0c;&#x7684;&#x8fc7;&#x7a0b;&#x4e2d;&#xff0c;&#x628a;&#x52a0;&#x76d0;key&#x6df7;&#x5165;&#x8ba1;&#x7b97;&#x8fc7;&#x7a0b;&#x4e2d;" ID="ID_502272088" CREATED="1571931664267" MODIFIED="1571931674396"/>
+<node ID="ID_1595634736" CREATED="1571931758576" MODIFIED="1571931758576"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>hmac<br/>message = <span style="color: #a5c261"><font color="#a5c261">b'Hello, world'<br/></font></span>key = <span style="color: #a5c261"><font color="#a5c261">b'secret'<br/></font></span>h = hmac.new(key<span style="color: #cc7832"><font color="#cc7832">, </font></span>message<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">digestmod</font></span>=<span style="color: #6a8759"><font color="#6a8759">'MD5'</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(h.hexdigest())<br/><span style="color: #808080"><font color="#808080"># 1b3591b1e88e03e7e0e43a0564ac69b1</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" itertools" ID="ID_465441523" CREATED="1571932389706" MODIFIED="1571932396624">
+<node TEXT=" &#x65e0;&#x9650;&#x81ea;&#x7136;&#x6570;&#x5e8f;&#x5217;" ID="ID_695873439" CREATED="1571933128047" MODIFIED="1571933133546">
+<node TEXT=" itertools.count(start=0, step=1)" ID="ID_1867478822" CREATED="1571933144648" MODIFIED="1571933342746"/>
+<node ID="ID_1724571317" CREATED="1571933371563" MODIFIED="1571933371563"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>itertools<br/>natuals = itertools.count(<span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">2</font></span>)<br/><span style="color: #cc7832"><font color="#cc7832">for </font></span>n <span style="color: #cc7832"><font color="#cc7832">in </font></span>natuals:<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(n)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" &#x65e0;&#x9650;&#x5faa;&#x73af;&#x91cd;&#x590d;" ID="ID_1972333023" CREATED="1571933423361" MODIFIED="1571933533855">
+<node TEXT="itertools.cycle(iterable))" ID="ID_171109476" CREATED="1571933455337" MODIFIED="1571933469116"/>
+<node ID="ID_1920775492" CREATED="1571933516670" MODIFIED="1571933516670"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>itertools<br/>cs = itertools.cycle([<span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span>])<br/><span style="color: #cc7832"><font color="#cc7832">for </font></span>n <span style="color: #cc7832"><font color="#cc7832">in </font></span>cs:<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(n)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x65e0;&#x9650;&#x91cd;&#x590d;&#x4e00;&#x5143;&#x7d20;" ID="ID_704305729" CREATED="1571933650655" MODIFIED="1571933661444">
+<node TEXT=" itertools.repeat(object [,times])" ID="ID_796888549" CREATED="1571933668069" MODIFIED="1571933695150"/>
+<node ID="ID_298359110" CREATED="1571933733121" MODIFIED="1571933733121"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>itertools<br/>cs = itertools.repeat(<span style="color: #6a8759"><font color="#6a8759">'a'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span>)<br/><span style="color: #cc7832"><font color="#cc7832">for </font></span>n <span style="color: #cc7832"><font color="#cc7832">in </font></span>cs:<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(n)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" chain()" ID="ID_798280433" CREATED="1571934878533" MODIFIED="1571934880979">
+<node TEXT=" chain()&#x53ef;&#x4ee5;&#x628a;&#x4e00;&#x7ec4;&#x8fed;&#x4ee3;&#x5bf9;&#x8c61;&#x4e32;&#x8054;&#x8d77;&#x6765;&#xff0c;&#x5f62;&#x6210;&#x4e00;&#x4e2a;&#x66f4;&#x5927;&#x7684;&#x8fed;&#x4ee3;&#x5668;" ID="ID_952335932" CREATED="1571934886789" MODIFIED="1571934888178"/>
+<node ID="ID_1847576603" CREATED="1571934924555" MODIFIED="1571934924555"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>itertools<br/><span style="color: #cc7832"><font color="#cc7832">for </font></span>c <span style="color: #cc7832"><font color="#cc7832">in </font></span>itertools.chain(<span style="color: #6a8759"><font color="#6a8759">'ABC'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'XYZ'</font></span>):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(c)<br/><span style="color: #808080"><font color="#808080"># &#36845;&#20195;&#25928;&#26524;&#65306;'A' 'B' 'C' 'X' 'Y' 'Z'</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" groupby()" ID="ID_734896962" CREATED="1571934975696" MODIFIED="1571934977020">
+<node TEXT=" groupby()&#x628a;&#x8fed;&#x4ee3;&#x5668;&#x4e2d;&#x76f8;&#x90bb;&#x7684;&#x91cd;&#x590d;&#x5143;&#x7d20;&#x6311;&#x51fa;&#x6765;&#x653e;&#x5728;&#x4e00;&#x8d77;" ID="ID_405362613" CREATED="1571934981897" MODIFIED="1571934982909"/>
+<node ID="ID_1601840898" CREATED="1571935015953" MODIFIED="1571935015953"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>itertools<br/><span style="color: #cc7832"><font color="#cc7832">for </font></span>key<span style="color: #cc7832"><font color="#cc7832">, </font></span>group <span style="color: #cc7832"><font color="#cc7832">in </font></span>itertools.groupby(<span style="color: #6a8759"><font color="#6a8759">'AAABBBCCAAA'</font></span>):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(key<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #8888c6"><font color="#8888c6">list</font></span>(group))<br/><span style="color: #808080"><font color="#808080"># A ['A', 'A', 'A']<br/></font></span><font color="#808080"><span style="color: #808080"># B ['B', 'B', 'B']<br/></span><span style="color: #808080"># C ['C', 'C']<br/></span><span style="color: #808080"># A ['A', 'A', 'A']</span></font></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_233548765" CREATED="1571935152148" MODIFIED="1571935152148"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>itertools<br/><span style="color: #cc7832"><font color="#cc7832">for </font></span>key<span style="color: #cc7832"><font color="#cc7832">, </font></span>group <span style="color: #cc7832"><font color="#cc7832">in </font></span>itertools.groupby(<span style="color: #6a8759"><font color="#6a8759">'AaaBBbcCAAa'</font></span><span style="color: #cc7832"><font color="#cc7832">, lambda </font></span>c: c.upper()):<br/>    <span style="color: #8888c6"><font color="#8888c6">print</font></span>(key<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #8888c6"><font color="#8888c6">list</font></span>(group))<br/><span style="color: #808080"><font color="#808080"># A ['A', 'a', 'a']<br/></font></span><font color="#808080"><span style="color: #808080"># B ['B', 'B', 'b']<br/></span><span style="color: #808080"># C ['c', 'C']<br/></span><span style="color: #808080"># A ['A', 'A', 'a']</span></font></pre>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
