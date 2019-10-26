@@ -929,7 +929,40 @@
 </node>
 </node>
 <node TEXT="&#x4f7f;&#x7528;&#x679a;&#x4e3e;&#x7c7b;" ID="ID_1902596778" CREATED="1555406382774" MODIFIED="1555406391672">
-<node TEXT=" Enum&#x7c7b;" ID="ID_777885634" CREATED="1555407093436" MODIFIED="1555407095000"/>
+<node TEXT=" Enum&#x7c7b;" ID="ID_777885634" CREATED="1555407093436" MODIFIED="1555407095000">
+<node TEXT="&#x6708;&#x4efd;&#x679a;&#x4e3e;" ID="ID_726875727" CREATED="1572102397581" MODIFIED="1572102414460">
+<node ID="ID_1309089666" CREATED="1572102741442" MODIFIED="1572102741442"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>enum <span style="color: #cc7832"><font color="#cc7832">import </font></span>Enum<br/>Month = Enum(<span style="color: #6a8759"><font color="#6a8759">'Month'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>(<span style="color: #6a8759"><font color="#6a8759">'Jan'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Feb'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Mar'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Apr'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'May'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Jun'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Jul'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Aug'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Sep'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Oct'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Nov'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Dec'</font></span>))<br/><span style="color: #808080"><font color="#808080"># value&#23646;&#24615;&#40664;&#35748;&#20174;1&#24320;&#22987;&#35745;&#25968;<br/></font></span><span style="color: #8888c6"><font color="#8888c6">print</font></span>(Month.Feb.value)  <span style="color: #808080"><font color="#808080"># 2<br/></font></span><span style="color: #8888c6"><font color="#8888c6">print</font></span>(Month(<span style="color: #6897bb"><font color="#6897bb">1</font></span>))  <span style="color: #808080"><font color="#808080"># Month.Jan</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x661f;&#x671f;&#x679a;&#x4e3e;" ID="ID_1690664436" CREATED="1572103765885" MODIFIED="1572103779810">
+<node TEXT=" &#x4ece;Enum&#x6d3e;&#x751f;&#x51fa;&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;&#xff0c;&#x7cbe;&#x786e;&#x5730;&#x63a7;&#x5236;&#x679a;&#x4e3e;&#x7c7b;&#x578b;" ID="ID_497594997" CREATED="1572103781669" MODIFIED="1572103789114"/>
+<node TEXT=" @unique&#x88c5;&#x9970;&#x5668;&#x53ef;&#x4ee5;&#x5e2e;&#x52a9;&#x6211;&#x4eec;&#x68c0;&#x67e5;&#x4fdd;&#x8bc1;&#x6ca1;&#x6709;value&#x6ca1;&#x6709;&#x91cd;&#x590d;&#x503c;&#x3002;" ID="ID_1493741737" CREATED="1572103843519" MODIFIED="1572103868007"/>
+<node ID="ID_942762171" CREATED="1572103832024" MODIFIED="1572103832024"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>enum <span style="color: #cc7832"><font color="#cc7832">import </font></span>Enum<span style="color: #cc7832"><font color="#cc7832">, </font></span>unique<br/><span style="color: #bbb529"><font color="#bbb529">@unique<br/></font></span><span style="color: #cc7832"><font color="#cc7832">class </font></span>Weekday(Enum):<br/>    Sun = <span style="color: #6897bb"><font color="#6897bb">0  </font></span><span style="color: #808080"><font color="#808080"># Sun&#30340;value&#34987;&#35774;&#23450;&#20026;0<br/></font></span><font color="#808080"><span style="color: #808080">    </span></font>Mon = <span style="color: #6897bb"><font color="#6897bb">1<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font>Tue = <span style="color: #6897bb"><font color="#6897bb">2<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font>Wed = <span style="color: #6897bb"><font color="#6897bb">3<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font>Thu = <span style="color: #6897bb"><font color="#6897bb">4<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font>Fri = <span style="color: #6897bb"><font color="#6897bb">5<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font>Sat = <span style="color: #6897bb"><font color="#6897bb">6<br/></font></span>day1 = Weekday.Mon<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(day1.value)  <span style="color: #808080"><font color="#808080"># 1</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="&#x4f7f;&#x7528;&#x5143;&#x7c7b;" ID="ID_1434969336" CREATED="1555406393351" MODIFIED="1555406396505"/>
 </node>
