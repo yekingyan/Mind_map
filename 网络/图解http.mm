@@ -182,7 +182,20 @@
 <hook URI="&#x56fe;&#x89e3;http_files/png_845879555396939783.png" SIZE="0.40923268" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="" ID="ID_1983055108" CREATED="1572185742019" MODIFIED="1572185742019"/>
+<node TEXT=" &#x4e0e;HTTP&#x5173;&#x7cfb;&#x5bc6;&#x5207;&#x7684;&#x534f;&#x8bae;" ID="ID_1983055108" CREATED="1572185742019" MODIFIED="1572185823902">
+<node TEXT=" IP &#x534f;&#x8bae;" ID="ID_1485205670" CREATED="1572186212779" MODIFIED="1572186214745">
+<node TEXT="&#x6982;&#x8ff0;" ID="ID_850261088" CREATED="1572187062903" MODIFIED="1572187072394">
+<node TEXT=" IP&#xff08;Internet Protocol&#xff09;&#x7f51;&#x9645;&#x534f;&#x8bae;&#x4f4d;&#x4e8e;&#x7f51;&#x7edc;&#x5c42;" ID="ID_115751218" CREATED="1572186224757" MODIFIED="1572186227388"/>
+<node TEXT=" &#x51e0;&#x4e4e;&#x6240;&#x6709;&#x4f7f;&#x7528;&#x7f51;&#x7edc;&#x7684;&#x7cfb;&#x7edf;&#x90fd;&#x4f1a;&#x7528;&#x5230; IP &#x534f;&#x8bae;" ID="ID_1753299538" CREATED="1572186906930" MODIFIED="1572186913615"/>
+<node TEXT="TCP/IP &#x534f;&#x8bae;&#x65cf;&#x4e2d;&#x7684; IP &#x6307;&#x7684;&#x5c31;&#x662f;&#x7f51;&#x9645;&#x534f;&#x8bae;" ID="ID_1494040870" CREATED="1572186909846" MODIFIED="1572186926860"/>
+<node TEXT=" &#x53ef;&#x80fd;&#x6709;&#x4eba;&#x4f1a;&#x628a;&#x201c;IP&#x201d;&#x548c;&#x201c;IP &#x5730;&#x5740;&#x201d;&#x641e;&#x6df7;&#xff0c;&#x201c;IP&#x201d;&#x5176;&#x5b9e;&#x662f;&#x4e00;&#x79cd;&#x534f;&#x8bae;&#x7684;&#x540d;&#x79f0;" ID="ID_263143103" CREATED="1572186273348" MODIFIED="1572186279887"/>
+</node>
+<node TEXT="&#x4f5c;&#x7528;" ID="ID_199961698" CREATED="1572187077544" MODIFIED="1572187078865">
+<node TEXT=" IP &#x534f;&#x8bae;&#x7684;&#x4f5c;&#x7528;&#x662f;&#x628a;&#x5404;&#x79cd;&#x6570;&#x636e;&#x5305;&#x4f20;&#x9001;&#x7ed9;&#x5bf9;&#x65b9;" ID="ID_1687407917" CREATED="1572187331860" MODIFIED="1572187333338"/>
+<node TEXT=" &#x8981;&#x4fdd;&#x8bc1;&#x786e;&#x5b9e;&#x4f20;&#x9001;&#x5230;&#x5bf9;&#x65b9;&#x90a3;&#x91cc;&#xff0c;&#x6700;&#x91cd;&#x8981;&#x7684;&#x6761;&#x4ef6;&#x662f; IP &#x5730;&#x5740;&#x548c; MAC &#x5730;&#x5740;" ID="ID_1809622946" CREATED="1572187403798" MODIFIED="1572187420683"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

@@ -945,8 +945,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x661f;&#x671f;&#x679a;&#x4e3e;" ID="ID_1690664436" CREATED="1572103765885" MODIFIED="1572103779810">
-<node TEXT=" &#x4ece;Enum&#x6d3e;&#x751f;&#x51fa;&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;&#xff0c;&#x7cbe;&#x786e;&#x5730;&#x63a7;&#x5236;&#x679a;&#x4e3e;&#x7c7b;&#x578b;" ID="ID_497594997" CREATED="1572103781669" MODIFIED="1572103789114"/>
+<node TEXT="&#x661f;&#x671f;&#x679a;&#x4e3e;" ID="ID_1690664436" CREATED="1572103765885" MODIFIED="1572192213286" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT=" &#x4ece;Enum&#x6d3e;&#x751f;&#x51fa;&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;&#xff0c;&#x7cbe;&#x786e;&#x5730;&#x63a7;&#x5236;&#x679a;&#x4e3e;&#x7c7b;&#x578b;" ID="ID_497594997" CREATED="1572103781669" MODIFIED="1572192213284"/>
 <node TEXT=" @unique&#x88c5;&#x9970;&#x5668;&#x53ef;&#x4ee5;&#x5e2e;&#x52a9;&#x6211;&#x4eec;&#x68c0;&#x67e5;&#x4fdd;&#x8bc1;&#x6ca1;&#x6709;value&#x6ca1;&#x6709;&#x91cd;&#x590d;&#x503c;&#x3002;" ID="ID_1493741737" CREATED="1572103843519" MODIFIED="1572103868007"/>
 <node ID="ID_942762171" CREATED="1572103832024" MODIFIED="1572103832024"><richcontent TYPE="NODE">
 
