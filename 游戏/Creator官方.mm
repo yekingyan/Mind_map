@@ -146,8 +146,10 @@
 <node TEXT=" extends: cc.Component" ID="ID_9033559" CREATED="1586878445425" MODIFIED="1586878446497"/>
 <node TEXT=" 声明这个 Class 的父类是 cc.Component" ID="ID_626164098" CREATED="1586878453392" MODIFIED="1586878458353"/>
 <node TEXT=" cc.Component 是 Cocos Creator 的内置类型" ID="ID_898342935" CREATED="1586878459019" MODIFIED="1586878461084"/>
+<node TEXT="一个组件必须要继承自 cc.Component或其子类" ID="ID_485729865" CREATED="1587446364193" MODIFIED="1587446395942"/>
 </node>
 <node TEXT="properties 定义属性" ID="ID_1728522856" CREATED="1586877588006" MODIFIED="1586878310943">
+<node TEXT="属性可以绑定到编辑器上" ID="ID_1375556612" CREATED="1587446417119" MODIFIED="1587446443858"/>
 <node ID="ID_683891601" CREATED="1586877699190" MODIFIED="1586878239239"><richcontent TYPE="NODE">
 
 <html>
@@ -180,7 +182,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="引用类型" ID="ID_986488855" CREATED="1586877672151" MODIFIED="1586877677428">
@@ -189,6 +190,37 @@
 </node>
 <node TEXT="非引用类型" ID="ID_600923752" CREATED="1586877678085" MODIFIED="1586877686920">
 <node TEXT="字符串或数字等" ID="ID_510516056" CREATED="1586877687289" MODIFIED="1586877698999"/>
+</node>
+<node TEXT="拓展属性" ID="ID_1019756032" CREATED="1587447493499" MODIFIED="1587447512323">
+<node ID="ID_960172049" CREATED="1587447580020" MODIFIED="1587447589874"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#9cdcfe">isDebug:</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">default:</font>&nbsp;<font color="#569cd6">false</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">displayName:</font>&nbsp;<font color="#ce9178">'调试'</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">tooltip:</font>&nbsp;<font color="#ce9178">'是否开启调试,&nbsp;上线请关闭'</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
@@ -211,6 +243,7 @@
 <node TEXT="实现多分辨离线地图自适应的排版的基础" ID="ID_416207620" CREATED="1586884814284" MODIFIED="1586884857116"/>
 <node TEXT="子节点相对父节点对齐" ID="ID_646779583" CREATED="1586885074922" MODIFIED="1586885092726"/>
 <node TEXT="设置与父节点的对齐方式与距离" ID="ID_361710039" CREATED="1586884868838" MODIFIED="1586884902937"/>
+<node TEXT="可选择像素或百分比两种单位" ID="ID_1396860551" CREATED="1586971938561" MODIFIED="1586971950569"/>
 </node>
 <node TEXT="Layout 布局" ID="ID_629006779" CREATED="1586885098588" MODIFIED="1586885104931">
 <node TEXT="子节点排列种类" ID="ID_524395320" CREATED="1586885128738" MODIFIED="1586885203802">
@@ -218,22 +251,25 @@
 <node TEXT="垂直" ID="ID_1089412091" CREATED="1586885135000" MODIFIED="1586885148749"/>
 </node>
 <node TEXT=" Resize" ID="ID_571236620" CREATED="1586885150796" MODIFIED="1586885260119">
-<node TEXT="CHILDREN自适应改变子节点大小" ID="ID_701199287" CREATED="1586885260610" MODIFIED="1586885308302"/>
-<node TEXT="CONTAINER自适应改变Layout大小" ID="ID_884481575" CREATED="1586885281494" MODIFIED="1586885318505"/>
+<node TEXT="CHILDREN 自适应改变子节点大小" ID="ID_701199287" CREATED="1586885260610" MODIFIED="1586972014560"/>
+<node TEXT="CONTAINER 自适应改变Layout大小" ID="ID_884481575" CREATED="1586885281494" MODIFIED="1586972016391"/>
 </node>
 <node TEXT="Padding 子节点与父节点边距" ID="ID_1256377831" CREATED="1586885332189" MODIFIED="1586885406259"/>
 <node TEXT="Spacing X  子节点之间的边距" ID="ID_297659294" CREATED="1586885380286" MODIFIED="1586885402023"/>
 </node>
 </node>
-<node TEXT="ScrollView" ID="ID_195590923" CREATED="1586885679220" MODIFIED="1586885687622"/>
+<node TEXT="ScrollView  滚动视图" ID="ID_195590923" CREATED="1586885679220" MODIFIED="1586972032177">
+<node TEXT="由多个组件组合完成" ID="ID_1364796050" CREATED="1586972324605" MODIFIED="1586972337836">
+<node TEXT="Sprite  作为滚动视图的背景图" ID="ID_1570600654" CREATED="1586972347814" MODIFIED="1586972392579"/>
+<node TEXT="ScrollView  实现滚动功能的组件" ID="ID_1265585544" CREATED="1586972376198" MODIFIED="1586972390095"/>
+</node>
+<node TEXT="选项" ID="ID_547355149" CREATED="1586973221034" MODIFIED="1586973223680">
+<node TEXT="Horizontal 水平滚动" ID="ID_491656977" CREATED="1586973223874" MODIFIED="1586973233089"/>
+<node TEXT="Vertical  上下滚动" ID="ID_228650265" CREATED="1586973233273" MODIFIED="1586973250029"/>
+</node>
+</node>
 <node TEXT="ScrollView + Layout" ID="ID_506158588" CREATED="1586885687841" MODIFIED="1586885699341"/>
 <node TEXT="Prefab" ID="ID_936748553" CREATED="1586885699587" MODIFIED="1586885703524"/>
-</node>
-<node TEXT="api" POSITION="right" ID="ID_644754138" CREATED="1586877543854" MODIFIED="1586877545687">
-<edge COLOR="#7c7c00"/>
-<node TEXT="onload()" ID="ID_938538279" CREATED="1586877546059" MODIFIED="1586878493176"/>
-<node TEXT="onStart()" ID="ID_1388512664" CREATED="1586878475841" MODIFIED="1586878496616"/>
-<node TEXT="update(dt)" ID="ID_1089072238" CREATED="1586877550687" MODIFIED="1586878500808"/>
 </node>
 </node>
 </map>
