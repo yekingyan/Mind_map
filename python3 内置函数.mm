@@ -1,6 +1,6 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="python3 &#x5185;&#x7f6e;&#x51fd;&#x6570;" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1536494620117" STYLE="bubble">
+<node TEXT="python3 内置函数" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1536494620117" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
     <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
@@ -99,7 +99,7 @@
 <stylenode LOCALIZED_TEXT="styles.pending" COLOR="#b3b95c" VGAP_QUANTITY="6.8999999999999995 pt">
 <font NAME="Noto Sans S Chinese Light" SIZE="12"/>
 </stylenode>
-<stylenode TEXT="&#x4ee3;&#x7801;" COLOR="#c0fdce" BACKGROUND_COLOR="#000000" VGAP_QUANTITY="6.8999999999999995 pt">
+<stylenode TEXT="代码" COLOR="#c0fdce" BACKGROUND_COLOR="#000000" VGAP_QUANTITY="6.8999999999999995 pt">
 <font NAME="Noto Sans S Chinese Light" SIZE="12"/>
 </stylenode>
 </stylenode>
@@ -133,12 +133,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="95" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="96" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="filter" FOLDED="true" POSITION="right" ID="ID_183133208" CREATED="1536490006310" MODIFIED="1536494641713">
 <edge COLOR="#007c00"/>
-<node TEXT="filter() &#x51fd;&#x6570;&#x7528;&#x4e8e;&#x8fc7;&#x6ee4;&#x5e8f;&#x5217;&#xff0c;&#x8fc7;&#x6ee4;&#x6389;&#x4e0d;&#x7b26;&#x5408;&#x6761;&#x4ef6;&#x7684;&#x5143;&#x7d20;&#x3002;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x8fed;&#x4ee3;&#x5668;&#x5bf9;&#x8c61;" ID="ID_1002660694" CREATED="1536491210870" MODIFIED="1536491231280"/>
-<node TEXT="&#x8bed;&#x6cd5;" ID="ID_1485193290" CREATED="1536491161215" MODIFIED="1536491176656">
+<node TEXT="filter() 函数用于过滤序列，过滤掉不符合条件的元素。返回一个迭代器对象" ID="ID_1002660694" CREATED="1536491210870" MODIFIED="1536491231280"/>
+<node TEXT="语法" ID="ID_1485193290" CREATED="1536491161215" MODIFIED="1536491176656">
 <node ID="ID_1301874592" CREATED="1536491096838" MODIFIED="1536491096838"><richcontent TYPE="NODE">
 
 <html>
@@ -151,8 +151,8 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="function -- &#x5224;&#x65ad;&#x51fd;&#x6570;" ID="ID_1980757529" CREATED="1536491179678" MODIFIED="1536491188712"/>
-<node TEXT="iterable -- &#x53ef;&#x8fed;&#x4ee3;&#x5bf9;&#x8c61;" ID="ID_1922939582" CREATED="1536491189462" MODIFIED="1536491195047"/>
+<node TEXT="function -- 判断函数" ID="ID_1980757529" CREATED="1536491179678" MODIFIED="1536491188712"/>
+<node TEXT="iterable -- 可迭代对象" ID="ID_1922939582" CREATED="1536491189462" MODIFIED="1536491195047"/>
 </node>
 <node ID="ID_1613306004" CREATED="1536491300041" MODIFIED="1536491300041"><richcontent TYPE="NODE">
 
@@ -169,8 +169,8 @@
 </node>
 <node TEXT="reversed()" FOLDED="true" POSITION="right" ID="ID_71765125" CREATED="1536494477788" MODIFIED="1536494641719">
 <edge COLOR="#7c007c"/>
-<node TEXT=" reversed &#x51fd;&#x6570;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x53cd;&#x8f6c;&#x7684;&#x8fed;&#x4ee3;&#x5668;" ID="ID_706402597" CREATED="1536494678138" MODIFIED="1536494680107"/>
-<node TEXT="&#x8bed;&#x6cd5;" ID="ID_955348579" CREATED="1536494485996" MODIFIED="1536494494810">
+<node TEXT=" reversed 函数返回一个反转的迭代器" ID="ID_706402597" CREATED="1536494678138" MODIFIED="1536494680107"/>
+<node TEXT="语法" ID="ID_955348579" CREATED="1536494485996" MODIFIED="1536494494810">
 <node ID="ID_558326640" CREATED="1536494488310" MODIFIED="1536494785787"><richcontent TYPE="NODE">
 
 <html>
@@ -183,7 +183,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="seq -- &#x8981;&#x8f6c;&#x6362;&#x7684;&#x5e8f;&#x5217;&#xff0c;&#x53ef;&#x4ee5;&#x662f; tuple, string, list &#x6216; range" ID="ID_1947967954" CREATED="1536494497691" MODIFIED="1536494668947"/>
+<node TEXT="seq -- 要转换的序列，可以是 tuple, string, list 或 range" ID="ID_1947967954" CREATED="1536494497691" MODIFIED="1536494668947"/>
 </node>
 <node ID="ID_406448403" CREATED="1536494711799" MODIFIED="1536494711799"><richcontent TYPE="NODE">
 
@@ -236,10 +236,10 @@
 </node>
 <node TEXT="super()" FOLDED="true" POSITION="right" ID="ID_701674413" CREATED="1536589827950" MODIFIED="1536589832254">
 <edge COLOR="#007c7c"/>
-<node TEXT=" &#x5728;&#x5b50;&#x7c7b;&#x4e2d;&#x8c03;&#x7528;&#x7236;&#x7c7b;&#x7684;&#x67d0;&#x4e2a;&#x5df2;&#x7ecf;&#x88ab;&#x8986;&#x76d6;&#x7684;&#x65b9;&#x6cd5;" ID="ID_1380667668" CREATED="1536589868126" MODIFIED="1536589869303">
-<node TEXT="&#x5982;&#x679c;&#x7528;&#x7c7b;&#x76f4;&#x63a5;&#x8c03;&#x7528;&#x53ef;&#x80fd;&#x4f1a;&#x51fa;&#x73b0;&#x591a;&#x6b21;&#x8c03;&#x7528;&#x7684;&#x60c5;&#x51b5;" ID="ID_1406632509" CREATED="1536591242823" MODIFIED="1536591263687"/>
+<node TEXT=" 在子类中调用父类的某个已经被覆盖的方法" ID="ID_1380667668" CREATED="1536589868126" MODIFIED="1536589869303">
+<node TEXT="如果用类直接调用可能会出现多次调用的情况" ID="ID_1406632509" CREATED="1536591242823" MODIFIED="1536591263687"/>
 </node>
-<node TEXT="&#x4e3a;&#x4e86;&#x8c03;&#x7528;&#x7236;&#x7c7b;(&#x8d85;&#x7c7b;)&#x7684;&#x4e00;&#x4e2a;&#x65b9;&#x6cd5;" ID="ID_1518266821" CREATED="1536590644873" MODIFIED="1536590654306">
+<node TEXT="为了调用父类(超类)的一个方法" ID="ID_1518266821" CREATED="1536590644873" MODIFIED="1536590654306">
 <node ID="ID_566733431" CREATED="1536590664863" MODIFIED="1536590690570"><richcontent TYPE="NODE">
 
 <html>
@@ -253,7 +253,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5728; __init__() &#x65b9;&#x6cd5;&#x4e2d;&#x786e;&#x4fdd;&#x7236;&#x7c7b;&#x88ab;&#x6b63;&#x786e;&#x7684;&#x521d;&#x59cb;&#x5316;&#x4e86;" ID="ID_245325624" CREATED="1536590590650" MODIFIED="1536590628210">
+<node TEXT="在 __init__() 方法中确保父类被正确的初始化了" ID="ID_245325624" CREATED="1536590590650" MODIFIED="1536590628210">
 <node ID="ID_1780478228" CREATED="1536590681271" MODIFIED="1536590687515"><richcontent TYPE="NODE">
 
 <html>
@@ -267,7 +267,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x5728;&#x9b54;&#x672f;&#x65b9;&#x6cd5;&#x4e2d;&#x8c03;&#x7528;&#x672a;&#x6539;&#x5199;&#x4e4b;&#x7684;&#x65b9;&#x6cd5;" ID="ID_1052705343" CREATED="1536591052502" MODIFIED="1536591093071">
+<node TEXT="在魔术方法中调用未改写之的方法" ID="ID_1052705343" CREATED="1536591052502" MODIFIED="1536591093071">
 <node ID="ID_687773718" CREATED="1536591062976" MODIFIED="1536591062976"><richcontent TYPE="NODE">
 
 <html>
@@ -284,21 +284,21 @@
 </node>
 <node TEXT="zip()" FOLDED="true" POSITION="right" ID="ID_893539781" CREATED="1538227585019" MODIFIED="1538227589402">
 <edge COLOR="#7c7c00"/>
-<node TEXT="&#x8bed;&#x6cd5;" ID="ID_1687099039" CREATED="1538227934680" MODIFIED="1538227936489">
+<node TEXT="语法" ID="ID_1687099039" CREATED="1538227934680" MODIFIED="1538227936489">
 <node TEXT=" zip([iterable, ...])" ID="ID_794048742" CREATED="1538227908024" MODIFIED="1538227909722">
-<node TEXT="&#x4f20;&#x5165;&#x7684;&#x53c2;&#x6570;&#x662f;&#x53ef;&#x8fed;&#x4ee3;&#x5bf9;&#x8c61;" ID="ID_688650049" CREATED="1538227591666" MODIFIED="1538227887217"/>
+<node TEXT="传入的参数是可迭代对象" ID="ID_688650049" CREATED="1538227591666" MODIFIED="1538227887217"/>
 </node>
-<node TEXT="&#x5165;&#x53c2;" ID="ID_411394263" CREATED="1538228048776" MODIFIED="1538228054192">
-<node TEXT="&#x5c06;&#x53ef;&#x8fed;&#x4ee3;&#x7684;&#x5bf9;&#x8c61;&#x4f5c;&#x4e3a;&#x53c2;&#x6570;" ID="ID_1990516355" CREATED="1538228063600" MODIFIED="1538228066921"/>
-<node TEXT="&#x53ef;&#x63a5;&#x53d7;&#x4e00;&#x4e2a;&#x6216;&#x591a;&#x4e2a;&#x53c2;&#x6570;" ID="ID_657520032" CREATED="1538228068287" MODIFIED="1538228079336"/>
+<node TEXT="入参" ID="ID_411394263" CREATED="1538228048776" MODIFIED="1538228054192">
+<node TEXT="将可迭代的对象作为参数" ID="ID_1990516355" CREATED="1538228063600" MODIFIED="1538228066921"/>
+<node TEXT="可接受一个或多个参数" ID="ID_657520032" CREATED="1538228068287" MODIFIED="1538228079336"/>
 </node>
-<node TEXT="&#x8fd4;&#x56de;" ID="ID_1424008300" CREATED="1538228086095" MODIFIED="1538228091337">
-<node TEXT="&#x904d;&#x5386;&#x5165;&#x53c2;&#x5bf9;&#x8c61;&#x5bf9;&#x5e94;&#x7684;&#x5143;&#x7d20;&#xff0c;&#x6253;&#x5305;&#x6210;&#x4e00;&#x4e2a;&#x4e2a;&#x5143;&#x7ec4;" ID="ID_317140338" CREATED="1538228093196" MODIFIED="1538228137535"/>
-<node TEXT=" &#x8fd4;&#x56de;&#x7531;&#x8fd9;&#x4e9b;&#x5143;&#x7ec4;&#x7ec4;&#x6210;&#x7684;&#x8fed;&#x4ee3;&#x5668;" ID="ID_1079205866" CREATED="1538228143534" MODIFIED="1538228145152"/>
+<node TEXT="返回" ID="ID_1424008300" CREATED="1538228086095" MODIFIED="1538228091337">
+<node TEXT="遍历入参对象对应的元素，打包成一个个元组" ID="ID_317140338" CREATED="1538228093196" MODIFIED="1538228137535"/>
+<node TEXT=" 返回由这些元组组成的迭代器" ID="ID_1079205866" CREATED="1538228143534" MODIFIED="1538228145152"/>
 </node>
 </node>
-<node TEXT="&#x538b;&#x7f29;" ID="ID_928577342" CREATED="1538227890592" MODIFIED="1538228910491">
-<node TEXT="&#x4e00;&#x4e2a;&#x53c2;&#x6570;" ID="ID_872949699" CREATED="1538227603018" MODIFIED="1538227617499">
+<node TEXT="压缩" ID="ID_928577342" CREATED="1538227890592" MODIFIED="1538228910491">
+<node TEXT="一个参数" ID="ID_872949699" CREATED="1538227603018" MODIFIED="1538227617499">
 <node ID="ID_1390356979" CREATED="1538227597414" MODIFIED="1538227597414"><richcontent TYPE="NODE">
 
 <html>
@@ -312,7 +312,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4e8c;&#x4e2a;&#x53c2;&#x6570;" ID="ID_1779156366" CREATED="1538227617762" MODIFIED="1538227621634">
+<node TEXT="二个参数" ID="ID_1779156366" CREATED="1538227617762" MODIFIED="1538227621634">
 <node ID="ID_1379589130" CREATED="1538228881243" MODIFIED="1538228881243"><richcontent TYPE="NODE">
 
 <html>
@@ -326,7 +326,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4e09;&#x4e2a;&#x53c2;&#x6570;" ID="ID_1333543568" CREATED="1538227851281" MODIFIED="1538227858199">
+<node TEXT="三个参数" ID="ID_1333543568" CREATED="1538227851281" MODIFIED="1538227858199">
 <node ID="ID_1179874962" CREATED="1538227863373" MODIFIED="1538227863373"><richcontent TYPE="NODE">
 
 <html>
@@ -341,12 +341,12 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x89e3;&#x538b;" ID="ID_72734298" CREATED="1538228380477" MODIFIED="1538228383606">
-<node TEXT="zip&#x4e00;&#x65e5;&#x6e38;" FOLDED="true" ID="ID_894188461" CREATED="1538228446765" MODIFIED="1538228452774">
-<node TEXT=" &#x77ed;&#x4e86;" ID="ID_1774287305" CREATED="1538228461453" MODIFIED="1538228469599"/>
-<node TEXT="&#x7531;&#x5217;&#x8868;&#x53d8;&#x6210;&#x5143;&#x7ec4;&#x4e86;" ID="ID_628959464" CREATED="1538228421189" MODIFIED="1538228460262"/>
+<node TEXT="解压" ID="ID_72734298" CREATED="1538228380477" MODIFIED="1538228383606">
+<node TEXT="zip一日游" FOLDED="true" ID="ID_894188461" CREATED="1538228446765" MODIFIED="1538228452774">
+<node TEXT=" 短了" ID="ID_1774287305" CREATED="1538228461453" MODIFIED="1538228469599"/>
+<node TEXT="由列表变成元组了" ID="ID_628959464" CREATED="1538228421189" MODIFIED="1538228460262"/>
 </node>
-<node TEXT="&#x4e00;&#x4e2a;&#x53d8;&#x91cf;" ID="ID_1055489029" CREATED="1538228517964" MODIFIED="1538228529452">
+<node TEXT="一个变量" ID="ID_1055489029" CREATED="1538228517964" MODIFIED="1538228529452">
 <node ID="ID_1784663829" CREATED="1538228552545" MODIFIED="1538228552545"><richcontent TYPE="NODE">
 
 <html>
@@ -359,9 +359,9 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="zip&#x53ef;&#x8fed;&#x4ee3;&#x5bf9;&#x8c61;&#xff1a;&#x5185;&#x542b;&#x4e09;&#x4e2a;&#x65e0;&#x7d20;&#x3002;&#x5143;&#x7d20;&#x4e3a;&#x5143;&#x7ec4;&#x5f62;&#x5f0f;" ID="ID_98989041" CREATED="1538228556668" MODIFIED="1538228615790"/>
+<node TEXT="zip可迭代对象：内含三个无素。元素为元组形式" ID="ID_98989041" CREATED="1538228556668" MODIFIED="1538228615790"/>
 </node>
-<node TEXT="&#x7ed9;&#x4e09;&#x4e2a;&#x53d8;&#x91cf;" ID="ID_498069616" CREATED="1538228505269" MODIFIED="1538228537373">
+<node TEXT="给三个变量" ID="ID_498069616" CREATED="1538228505269" MODIFIED="1538228537373">
 <node ID="ID_1616279703" CREATED="1538228385005" MODIFIED="1538228385005"><richcontent TYPE="NODE">
 
 <html>
@@ -377,7 +377,7 @@
 <node TEXT=" (1, 2, 3) (&apos;one&apos;, &apos;two&apos;, &apos;three&apos;) (&apos;1&apos;, &apos;2&apos;, &apos;3&apos;)" ID="ID_1210752626" CREATED="1538228406681" MODIFIED="1538228409542"/>
 </node>
 </node>
-<node TEXT="&#x4e24;&#x5217;&#x8868;&#x5408;&#x5e76;&#x6210;&#x5b57;&#x5178;" ID="ID_718435836" CREATED="1538228624156" MODIFIED="1538228744668">
+<node TEXT="两列表合并成字典" ID="ID_718435836" CREATED="1538228624156" MODIFIED="1538228744668">
 <node ID="ID_953556718" CREATED="1538228710973" MODIFIED="1538228710973"><richcontent TYPE="NODE">
 
 <html>
@@ -394,34 +394,34 @@
 </node>
 <node TEXT=".setdefault()" FOLDED="true" POSITION="right" ID="ID_1987238996" CREATED="1555399518466" MODIFIED="1555399537743">
 <edge COLOR="#00ff00"/>
-<node TEXT="&#x6982;&#x5ff5;" ID="ID_200410546" CREATED="1555399590977" MODIFIED="1555399595773">
-<node TEXT=" &#x5982;&#x679c;&#x952e;&#x4e0d;&#x5b58;&#x5728;&#x4e8e;&#x5b57;&#x5178;&#x4e2d;&#xff0c;&#x5c06;&#x4f1a;&#x6dfb;&#x52a0;&#x952e;&#x5e76;&#x5c06;&#x503c;&#x8bbe;&#x4e3a;&#x9ed8;&#x8ba4;&#x503c;" ID="ID_529232532" CREATED="1555399556617" MODIFIED="1555399561004"/>
-<node TEXT=" setdefault() &#x51fd;&#x6570;&#x548c; get()&#x65b9;&#x6cd5; &#x7c7b;&#x4f3c;" ID="ID_347096477" CREATED="1555399562369" MODIFIED="1555399573628"/>
+<node TEXT="概念" ID="ID_200410546" CREATED="1555399590977" MODIFIED="1555399595773">
+<node TEXT=" 如果键不存在于字典中，将会添加键并将值设为默认值" ID="ID_529232532" CREATED="1555399556617" MODIFIED="1555399561004"/>
+<node TEXT=" setdefault() 函数和 get()方法 类似" ID="ID_347096477" CREATED="1555399562369" MODIFIED="1555399573628"/>
 </node>
-<node TEXT="&#x8bed;&#x6cd5;" ID="ID_1699950950" CREATED="1555399600817" MODIFIED="1555399602838">
+<node TEXT="语法" ID="ID_1699950950" CREATED="1555399600817" MODIFIED="1555399602838">
 <node TEXT=" dict.setdefault(key, default=None)" ID="ID_1020321925" CREATED="1555399606225" MODIFIED="1555399607830"/>
 <node TEXT="key" ID="ID_1530500467" CREATED="1555399614188" MODIFIED="1555399624939">
-<node TEXT="&#x67e5;&#x627e;&#x7684;&#x952e;&#x503c;" ID="ID_586545151" CREATED="1555399625959" MODIFIED="1555399629924"/>
+<node TEXT="查找的键值" ID="ID_586545151" CREATED="1555399625959" MODIFIED="1555399629924"/>
 </node>
 <node TEXT="default" ID="ID_954608635" CREATED="1555399631125" MODIFIED="1555399636146">
-<node TEXT=" &#x952e;&#x4e0d;&#x5b58;&#x5728;&#x65f6;&#xff0c;&#x8bbe;&#x7f6e;&#x7684;&#x9ed8;&#x8ba4;&#x952e;&#x503c;" ID="ID_938027178" CREATED="1555399641148" MODIFIED="1555399642371"/>
+<node TEXT=" 键不存在时，设置的默认键值" ID="ID_938027178" CREATED="1555399641148" MODIFIED="1555399642371"/>
 </node>
 </node>
-<node TEXT="&#x8fd4;&#x56de;" ID="ID_1922498926" CREATED="1555399610197" MODIFIED="1555399612763">
-<node TEXT=" &#x5b57;&#x5178;&#x4e2d;&#x5305;&#x542b;&#x7ed9;&#x5b9a;&#x7684;key" ID="ID_379162284" CREATED="1555399666080" MODIFIED="1555399733860">
-<node TEXT="&#x5b57;&#x5178;key&#x539f;&#x6709;&#x5bf9;&#x5e94;&#x7684;value" ID="ID_563880670" CREATED="1555399672335" MODIFIED="1555399698588"/>
+<node TEXT="返回" ID="ID_1922498926" CREATED="1555399610197" MODIFIED="1555399612763">
+<node TEXT=" 字典中包含给定的key" ID="ID_379162284" CREATED="1555399666080" MODIFIED="1555399733860">
+<node TEXT="字典key原有对应的value" ID="ID_563880670" CREATED="1555399672335" MODIFIED="1555399698588"/>
 </node>
-<node TEXT="&#x5b57;&#x5178;&#x4e2d;&#x4e0d;&#x5305;&#x542b;&#x7ed9;&#x5b9a;&#x7684;key" ID="ID_981371099" CREATED="1555399701361" MODIFIED="1555399737404">
-<node TEXT="&#x8bbe;&#x7f6e;&#x65b0;&#x7684;&#x503c;&#x5e76;&#x8fd4;&#x56de;" ID="ID_637464841" CREATED="1555399738607" MODIFIED="1555399753224"/>
+<node TEXT="字典中不包含给定的key" ID="ID_981371099" CREATED="1555399701361" MODIFIED="1555399737404">
+<node TEXT="设置新的值并返回" ID="ID_637464841" CREATED="1555399738607" MODIFIED="1555399753224"/>
 </node>
 </node>
 </node>
 <node TEXT="hasattr()" FOLDED="true" POSITION="right" ID="ID_175758419" CREATED="1555400109858" MODIFIED="1555400116471">
 <edge COLOR="#ff00ff"/>
-<node TEXT="&#x6982;&#x5ff5;" ID="ID_1458194434" CREATED="1555400117125" MODIFIED="1555400122723">
-<node TEXT="hasattr() &#x51fd;&#x6570;&#x7528;&#x4e8e;&#x5224;&#x65ad;&#x5bf9;&#x8c61;&#x662f;&#x5426;&#x5305;&#x542b;&#x5bf9;&#x5e94;&#x7684;&#x5c5e;&#x6027;" ID="ID_1807188793" CREATED="1555400122966" MODIFIED="1555400130860"/>
+<node TEXT="概念" ID="ID_1458194434" CREATED="1555400117125" MODIFIED="1555400122723">
+<node TEXT="hasattr() 函数用于判断对象是否包含对应的属性" ID="ID_1807188793" CREATED="1555400122966" MODIFIED="1555400130860"/>
 </node>
-<node TEXT="&#x8bed;&#x6cd5;" ID="ID_15921169" CREATED="1555400133179" MODIFIED="1555400137310">
+<node TEXT="语法" ID="ID_15921169" CREATED="1555400133179" MODIFIED="1555400137310">
 <node ID="ID_722911200" CREATED="1555400141996" MODIFIED="1555400145013"><richcontent TYPE="NODE">
 
 <html>
@@ -437,19 +437,19 @@
 </richcontent>
 </node>
 <node TEXT="object" ID="ID_1828635592" CREATED="1555400149693" MODIFIED="1555400152433">
-<node TEXT=" &#x5bf9;&#x8c61;" ID="ID_775046783" CREATED="1555400158999" MODIFIED="1555400160410"/>
+<node TEXT=" 对象" ID="ID_775046783" CREATED="1555400158999" MODIFIED="1555400160410"/>
 </node>
 <node TEXT="name" ID="ID_629424969" CREATED="1555400153639" MODIFIED="1555400154637">
-<node TEXT="&#x5c5e;&#x6027;&#x540d;&#x7684;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1258301713" CREATED="1555400161271" MODIFIED="1555400172370"/>
+<node TEXT="属性名的字符串" ID="ID_1258301713" CREATED="1555400161271" MODIFIED="1555400172370"/>
 </node>
 </node>
-<node TEXT="&#x8fd4;&#x56de;&#x503c;" ID="ID_1192610943" CREATED="1555400146873" MODIFIED="1555400178812">
+<node TEXT="返回值" ID="ID_1192610943" CREATED="1555400146873" MODIFIED="1555400178812">
 <node TEXT="boolean" ID="ID_1696295231" CREATED="1555400179184" MODIFIED="1555400182977"/>
 </node>
-<node TEXT="&#x6ce8;&#x610f;" ID="ID_470607671" CREATED="1555400184748" MODIFIED="1555400189996">
-<node TEXT="&#x5728;python2&#x4e2d;&#x4e0d;&#x5efa;&#x8bae;&#x4f7f;&#x7528; hasattr()" ID="ID_60683235" CREATED="1555400190237" MODIFIED="1555400284821"/>
-<node TEXT="python2 &#x4e2d;hasattr()&#x4f1a;&#x9690;&#x85cf;&#x6389;&#x7279;&#x6027;&#xff08;property&#xff09;" ID="ID_1840162065" CREATED="1555400339053" MODIFIED="1555400355427"/>
-<node TEXT="&#x53ef;&#x7528;try except  &#x6216; getattr() &#x4ee3;&#x66ff;" ID="ID_323681460" CREATED="1555400260297" MODIFIED="1555400326104"/>
+<node TEXT="注意" ID="ID_470607671" CREATED="1555400184748" MODIFIED="1555400189996">
+<node TEXT="在python2中不建议使用 hasattr()" ID="ID_60683235" CREATED="1555400190237" MODIFIED="1555400284821"/>
+<node TEXT="python2 中hasattr()会隐藏掉特性（property）" ID="ID_1840162065" CREATED="1555400339053" MODIFIED="1555400355427"/>
+<node TEXT="可用try except  或 getattr() 代替" ID="ID_323681460" CREATED="1555400260297" MODIFIED="1555400326104"/>
 <node ID="ID_836621782" CREATED="1555400536129" MODIFIED="1555400536129"><richcontent TYPE="NODE">
 
 <html>
@@ -466,40 +466,40 @@
 </node>
 <node TEXT="getattr()" FOLDED="true" POSITION="right" ID="ID_1465082578" CREATED="1555400582976" MODIFIED="1555400590958">
 <edge COLOR="#00ffff"/>
-<node TEXT="&#x6982;&#x5ff5;" ID="ID_271067911" CREATED="1555400626039" MODIFIED="1555400631303">
-<node TEXT=" getattr() &#x51fd;&#x6570;&#x7528;&#x4e8e;&#x8fd4;&#x56de;&#x4e00;&#x4e2a;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;&#x503c;" ID="ID_1139693505" CREATED="1555400631618" MODIFIED="1555400632834"/>
+<node TEXT="概念" ID="ID_271067911" CREATED="1555400626039" MODIFIED="1555400631303">
+<node TEXT=" getattr() 函数用于返回一个对象属性值" ID="ID_1139693505" CREATED="1555400631618" MODIFIED="1555400632834"/>
 </node>
-<node TEXT="&#x8bed;&#x6cd5;" ID="ID_910638291" CREATED="1555400634768" MODIFIED="1555400636387">
+<node TEXT="语法" ID="ID_910638291" CREATED="1555400634768" MODIFIED="1555400636387">
 <node TEXT="getattr(object, name[, default])" ID="ID_1939993630" CREATED="1555400636775" MODIFIED="1555400651971"/>
 <node TEXT="object" ID="ID_901193514" CREATED="1555400653616" MODIFIED="1555400656013">
-<node TEXT="&#x5bf9;&#x8c61;" ID="ID_1161595978" CREATED="1555400656507" MODIFIED="1555400659411"/>
+<node TEXT="对象" ID="ID_1161595978" CREATED="1555400656507" MODIFIED="1555400659411"/>
 </node>
 <node TEXT="name" ID="ID_258292140" CREATED="1555400661277" MODIFIED="1555400662989">
-<node TEXT="&#x5bf9;&#x8c61;&#x5c5e;&#x6027;&#x7684;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1422508151" CREATED="1555400663459" MODIFIED="1555400672540"/>
+<node TEXT="对象属性的字符串" ID="ID_1422508151" CREATED="1555400663459" MODIFIED="1555400672540"/>
 </node>
 <node TEXT="default" ID="ID_106444535" CREATED="1555400673785" MODIFIED="1555400678565">
-<node TEXT="&#x6ca1;&#x6709;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;&#x65f6;&#x9ed8;&#x8ba4;&#x8fd4;&#x56de;&#x503c;" ID="ID_374222616" CREATED="1555400678732" MODIFIED="1555400709562"/>
+<node TEXT="没有对象属性时默认返回值" ID="ID_374222616" CREATED="1555400678732" MODIFIED="1555400709562"/>
 </node>
 </node>
-<node TEXT="&#x8fd4;&#x56de;&#x503c;" ID="ID_1337589156" CREATED="1555400715807" MODIFIED="1555400722712">
-<node TEXT="&#x5982;&#x679c;&#x5b58;&#x5728;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;name" ID="ID_1736244612" CREATED="1555400723375" MODIFIED="1555400773964">
-<node TEXT="&#x8fd4;&#x56de;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;&#x503c;" ID="ID_1609089202" CREATED="1555400744626" MODIFIED="1555400760451"/>
+<node TEXT="返回值" ID="ID_1337589156" CREATED="1555400715807" MODIFIED="1555400722712">
+<node TEXT="如果存在对象属性name" ID="ID_1736244612" CREATED="1555400723375" MODIFIED="1555400773964">
+<node TEXT="返回对象属性值" ID="ID_1609089202" CREATED="1555400744626" MODIFIED="1555400760451"/>
 </node>
-<node TEXT="&#x5982;&#x679c;&#x4e0d;&#x5b58;&#x5728;&#x5bf9;&#x8c61;&#x5c5e;&#x6027;name" ID="ID_807037339" CREATED="1555400761895" MODIFIED="1555400777632">
-<node TEXT="&#x8fd4;&#x56de;default" ID="ID_747009895" CREATED="1555400778448" MODIFIED="1555400782724"/>
+<node TEXT="如果不存在对象属性name" ID="ID_807037339" CREATED="1555400761895" MODIFIED="1555400777632">
+<node TEXT="返回default" ID="ID_747009895" CREATED="1555400778448" MODIFIED="1555400782724"/>
 </node>
 </node>
-<node TEXT="&#x6ce8;&#x610f;" ID="ID_1222611526" CREATED="1555400799207" MODIFIED="1555400803332">
-<node TEXT="&#x5982;&#x679c;&#x4e0d;&#x63d0;&#x4f9b;default&#x53c2;&#x6570;&#xff0c;&#x5728;&#x6ca1;&#x6709;&#x5bf9;&#x5e94;&#x5c5e;&#x6027;&#x65f6;&#xff0c;&#x5c06;&#x89e6;&#x53d1; AttributeError" ID="ID_349912709" CREATED="1555400803591" MODIFIED="1555400815283"/>
+<node TEXT="注意" ID="ID_1222611526" CREATED="1555400799207" MODIFIED="1555400803332">
+<node TEXT="如果不提供default参数，在没有对应属性时，将触发 AttributeError" ID="ID_349912709" CREATED="1555400803591" MODIFIED="1555400815283"/>
 </node>
 </node>
 <node TEXT="vars()" FOLDED="true" POSITION="right" ID="ID_932104976" CREATED="1539600196318" MODIFIED="1539600200192">
 <edge COLOR="#0000ff"/>
-<node TEXT=" &#x8fd4;&#x56de;&#x5bf9;&#x8c61;object&#x7684;&#x5c5e;&#x6027;&#x548c;&#x5c5e;&#x6027;&#x503c;&#x7684;&#x5b57;&#x5178;&#x5bf9;&#x8c61;" ID="ID_543705618" CREATED="1539600236686" MODIFIED="1539600238744"/>
-<node TEXT="&#x8bed;&#x6cd5;" ID="ID_428028937" CREATED="1539600200918" MODIFIED="1539600220463">
+<node TEXT=" 返回对象object的属性和属性值的字典对象" ID="ID_543705618" CREATED="1539600236686" MODIFIED="1539600238744"/>
+<node TEXT="语法" ID="ID_428028937" CREATED="1539600200918" MODIFIED="1539600220463">
 <node TEXT=" vars([object])" ID="ID_559867164" CREATED="1539600220726" MODIFIED="1539600222152"/>
 </node>
-<node TEXT="&#x6709;&#x53c2;&#x6570;" ID="ID_1543641421" CREATED="1539600272526" MODIFIED="1539600474282">
+<node TEXT="有参数" ID="ID_1543641421" CREATED="1539600272526" MODIFIED="1539600474282">
 <node ID="ID_1057355206" CREATED="1539600291853" MODIFIED="1539600291853"><richcontent TYPE="NODE">
 
 <html>
@@ -525,8 +525,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x65e0;&#x53c2;&#x6570;" ID="ID_1501982997" CREATED="1539600363741" MODIFIED="1539600476198">
-<node TEXT=" &#x6253;&#x5370;&#x5f53;&#x524d;&#x8c03;&#x7528;&#x4f4d;&#x7f6e;&#x7684;&#x5c5e;&#x6027;&#x548c;&#x5c5e;&#x6027;&#x503c; &#x7c7b;&#x4f3c; locals()" ID="ID_1846894551" CREATED="1539600603828" MODIFIED="1539600605349"/>
+<node TEXT="无参数" ID="ID_1501982997" CREATED="1539600363741" MODIFIED="1539600476198">
+<node TEXT=" 打印当前调用位置的属性和属性值 类似 locals()" ID="ID_1846894551" CREATED="1539600603828" MODIFIED="1539600605349"/>
 <node ID="ID_825743980" CREATED="1539600523884" MODIFIED="1539600547310"><richcontent TYPE="NODE">
 
 <html>
@@ -541,38 +541,38 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x53bb;&#x6389;&#x9b54;&#x6cd5;&#x5c5e;&#x6027;&#xff08;&#x5e72;&#x51c0;&#x7684;&#x5b57;&#x5178;&#xff09;" ID="ID_244282062" CREATED="1555401385648" MODIFIED="1555401411046">
+<node TEXT="去掉魔法属性（干净的字典）" ID="ID_244282062" CREATED="1555401385648" MODIFIED="1555401411046">
 <node TEXT=" {k: v for k, v in vars(A).items() if &apos;__&apos; not in k}" ID="ID_51858045" CREATED="1555401418360" MODIFIED="1555401439564"/>
 </node>
 </node>
 <node TEXT="logging" POSITION="right" ID="ID_952352316" CREATED="1566220701495" MODIFIED="1566222337784" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#7c0000"/>
-<node TEXT=" &#x57fa;&#x7840;" ID="ID_6142601" CREATED="1566222601484" MODIFIED="1566222605304">
-<node TEXT="&#x65e5;&#x5fd7;&#x7ea7;&#x522b;" ID="ID_227790505" CREATED="1566220808640" MODIFIED="1566220841727" VGAP_QUANTITY="6.8999999999999995 pt">
-<node TEXT="&#x5206;&#x7ea7;" ID="ID_95716759" CREATED="1566221488277" MODIFIED="1566221492849">
+<node TEXT=" 基础" ID="ID_6142601" CREATED="1566222601484" MODIFIED="1566222605304">
+<node TEXT="日志级别" ID="ID_227790505" CREATED="1566220808640" MODIFIED="1566220841727" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="分级" ID="ID_95716759" CREATED="1566221488277" MODIFIED="1566221492849">
 <node TEXT="DEBUG 10" ID="ID_1517155070" CREATED="1566221360805" MODIFIED="1566222553093">
-<node TEXT=" &#x7ec6;&#x8282;&#x4fe1;&#x606f;&#xff0c;&#x4ec5;&#x5f53;&#x8bca;&#x65ad;&#x95ee;&#x9898;&#x65f6;&#x9002;&#x7528;&#x3002;" ID="ID_1492558788" CREATED="1566221401570" MODIFIED="1566221402826"/>
+<node TEXT=" 细节信息，仅当诊断问题时适用。" ID="ID_1492558788" CREATED="1566221401570" MODIFIED="1566221402826"/>
 </node>
 <node TEXT="INFO 20" ID="ID_1161473218" CREATED="1566221363297" MODIFIED="1566222557175">
-<node TEXT="&#x786e;&#x8ba4;&#x7a0b;&#x5e8f;&#x6309;&#x9884;&#x671f;&#x8fd0;&#x884c;" ID="ID_82677262" CREATED="1566221406973" MODIFIED="1566221415279"/>
+<node TEXT="确认程序按预期运行" ID="ID_82677262" CREATED="1566221406973" MODIFIED="1566221415279"/>
 </node>
 <node TEXT="WARNING 30" ID="ID_1173518431" CREATED="1566221382065" MODIFIED="1566222564078">
-<node TEXT="&#x8868;&#x660e;&#x6709;&#x5df2;&#x7ecf;&#x6216;&#x5373;&#x5c06;&#x53d1;&#x751f;&#x7684;&#x610f;&#x5916;&#xff0c;&#x7a0b;&#x5e8f;&#x4ecd;&#x6309;&#x9884;&#x671f;&#x8fdb;&#x884c;" ID="ID_1219378444" CREATED="1566221419337" MODIFIED="1566221442056"/>
-<node TEXT="&#x4f8b;&#x5982;&#xff1a;&#x78c1;&#x76d8;&#x7a7a;&#x95f4;&#x4e0d;&#x8db3;" ID="ID_698391618" CREATED="1566221443074" MODIFIED="1566221449696"/>
+<node TEXT="表明有已经或即将发生的意外，程序仍按预期进行" ID="ID_1219378444" CREATED="1566221419337" MODIFIED="1566221442056"/>
+<node TEXT="例如：磁盘空间不足" ID="ID_698391618" CREATED="1566221443074" MODIFIED="1566221449696"/>
 </node>
 <node TEXT=" ERROR 40" ID="ID_1588297536" CREATED="1566221387690" MODIFIED="1566222568381">
-<node TEXT=" &#x7531;&#x4e8e;&#x4e25;&#x91cd;&#x7684;&#x95ee;&#x9898;&#xff0c;&#x7a0b;&#x5e8f;&#x7684;&#x67d0;&#x4e9b;&#x529f;&#x80fd;&#x5df2;&#x7ecf;&#x4e0d;&#x80fd;&#x6b63;&#x5e38;&#x6267;&#x884c;" ID="ID_1882200377" CREATED="1566221456346" MODIFIED="1566221457967"/>
+<node TEXT=" 由于严重的问题，程序的某些功能已经不能正常执行" ID="ID_1882200377" CREATED="1566221456346" MODIFIED="1566221457967"/>
 </node>
 <node TEXT=" CRITICAL 50" ID="ID_1764191798" CREATED="1566221394539" MODIFIED="1566222571079">
-<node TEXT=" &#x4e25;&#x91cd;&#x7684;&#x9519;&#x8bef;&#xff0c;&#x8868;&#x660e;&#x7a0b;&#x5e8f;&#x5df2;&#x4e0d;&#x80fd;&#x7ee7;&#x7eed;&#x6267;&#x884c;" ID="ID_606249881" CREATED="1566221462040" MODIFIED="1566221463240"/>
+<node TEXT=" 严重的错误，表明程序已不能继续执行" ID="ID_606249881" CREATED="1566221462040" MODIFIED="1566221463240"/>
 </node>
 </node>
-<node TEXT="&#x9ed8;&#x8ba4;" ID="ID_157912613" CREATED="1566221506688" MODIFIED="1566221511956">
-<node TEXT="&#x9ed8;&#x8ba4;&#x7684;&#x7ea7;&#x522b;&#x662f;``WARNING``" ID="ID_1294150997" CREATED="1566221527313" MODIFIED="1566221530976"/>
-<node TEXT=" WARNING&#xff0c;&#x610f;&#x5473;&#x7740;&#x53ea;&#x4f1a;&#x8ffd;&#x8e2a;&#x8be5;&#x7ea7;&#x522b;&#x53ca;&#x4ee5;&#x4e0a;&#x7684;&#x4e8b;&#x4ef6;&#xff0c;&#x9664;&#x975e;&#x66f4;&#x6539;&#x65e5;&#x5fd7;&#x914d;&#x7f6e;" ID="ID_775394746" CREATED="1566221545119" MODIFIED="1566221549672"/>
+<node TEXT="默认" ID="ID_157912613" CREATED="1566221506688" MODIFIED="1566221511956">
+<node TEXT="默认的级别是``WARNING``" ID="ID_1294150997" CREATED="1566221527313" MODIFIED="1566221530976"/>
+<node TEXT=" WARNING，意味着只会追踪该级别及以上的事件，除非更改日志配置" ID="ID_775394746" CREATED="1566221545119" MODIFIED="1566221549672"/>
 </node>
 </node>
-<node TEXT=" &#x8bb0;&#x5f55;&#x65e5;&#x5fd7;&#x5230;&#x6587;&#x4ef6;" ID="ID_370500945" CREATED="1566221594477" MODIFIED="1566221596201">
+<node TEXT=" 记录日志到文件" ID="ID_370500945" CREATED="1566221594477" MODIFIED="1566221596201">
 <node TEXT="logging.basicConfig()" ID="ID_660455729" CREATED="1566226315897" MODIFIED="1566226322086"/>
 <node ID="ID_1985499363" CREATED="1566221644309" MODIFIED="1566221644309"><richcontent TYPE="NODE">
 
@@ -584,12 +584,11 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>logging<br/>logging.basicConfig(<span style="color: #aa4926"><font color="#aa4926">filename</font></span>=<span style="color: #6a8759"><font color="#6a8759">'example.log'</font></span><span style="color: #cc7832"><font color="#cc7832">,</font></span><span style="color: #aa4926"><font color="#aa4926">level</font></span>=logging.DEBUG)<br/>logging.debug(<span style="color: #6a8759"><font color="#6a8759">'This message should go to the log file'</font></span>)<br/>logging.info(<span style="color: #6a8759"><font color="#6a8759">'So should this'</font></span>)<br/>logging.warning(<span style="color: #6a8759"><font color="#6a8759">'And this, too'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x8bb0;&#x5f55;&#x53d8;&#x91cf;&#x6570;&#x636e;" ID="ID_939399672" CREATED="1566222028511" MODIFIED="1566222036885">
-<node TEXT=" &#x683c;&#x5f0f;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1653292061" CREATED="1566222061925" MODIFIED="1566222065206">
+<node TEXT="记录变量数据" ID="ID_939399672" CREATED="1566222028511" MODIFIED="1566222036885">
+<node TEXT=" 格式字符串" ID="ID_1653292061" CREATED="1566222061925" MODIFIED="1566222065206">
 <node ID="ID_1513826235" CREATED="1566222088970" MODIFIED="1566222088970"><richcontent TYPE="NODE">
 
 <html>
@@ -600,32 +599,30 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>logging<br/>logging.warning(<span style="color: #6a8759"><font color="#6a8759">'%s before you %s'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'Look'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'leap!'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="&#x8f93;&#x51fa; WARNING:root:Look before you leap!" ID="ID_1332371047" CREATED="1566222090492" MODIFIED="1566222105746"/>
+<node TEXT="输出 WARNING:root:Look before you leap!" ID="ID_1332371047" CREATED="1566222090492" MODIFIED="1566222105746"/>
 </node>
 </node>
-<node TEXT=" &#x66f4;&#x6539;&#x663e;&#x793a;&#x6d88;&#x606f;&#x7684;&#x683c;&#x5f0f;" ID="ID_1875086710" CREATED="1566222204891" MODIFIED="1566222213519">
+<node TEXT=" 更改显示消息的格式" ID="ID_1875086710" CREATED="1566222204891" MODIFIED="1566222213519">
 <font BOLD="false"/>
-<node ID="ID_105185137" CREATED="1566222241408" MODIFIED="1566222241408"><richcontent TYPE="NODE">
+<node ID="ID_105185137" CREATED="1566222241408" MODIFIED="1588237424399"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt">logging.xxx(message)<br/><br/><span style="color: #cc7832"><font color="#cc7832">import </font></span>logging<br/>logging.basicConfig(<span style="color: #aa4926"><font color="#aa4926">format</font></span>=<span style="color: #6a8759"><font color="#6a8759">'%(levelname)s:%(message)s'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">level</font></span>=logging.DEBUG)<br/>logging.debug(<span style="color: #6a8759"><font color="#6a8759">'This message should appear on the console'</font></span>)<br/>logging.info(<span style="color: #6a8759"><font color="#6a8759">'So should this'</font></span>)<br/>logging.warning(<span style="color: #6a8759"><font color="#6a8759">'And this, too'</font></span>)</pre>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: 宋体; font-size: 10.5pt">logging.xxx(message)<br/><br/><span style="color: #cc7832"><font color="#cc7832">import </font></span>logging<br/>logging.basicConfig(<span style="color: #aa4926"><font color="#aa4926">format</font></span>=<span style="color: #6a8759"><font color="#6a8759">'%(levelname)s:%(message)s'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">level</font></span>=logging.DEBUG)<br/>logging.debug(<span style="color: #6a8759"><font color="#6a8759">'This message should appear on the console'</font></span>)<br/>logging.info(<span style="color: #6a8759"><font color="#6a8759">'So should this'</font></span>)<br/>logging.warning(<span style="color: #6a8759"><font color="#6a8759">'And this, too'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="DEBUG:This message should appear on the console&#xa;INFO:So should this&#xa;WARNING:And this, too" ID="ID_1159121478" CREATED="1566222252294" MODIFIED="1566222257121"/>
-<node TEXT="&#x9ed8;&#x8ba4;" ID="ID_54097934" CREATED="1566222278362" MODIFIED="1566222282923">
+<node TEXT="默认" ID="ID_54097934" CREATED="1566222278362" MODIFIED="1566222282923">
 <node TEXT="INFO:root:So should this" ID="ID_528437164" CREATED="1566222283697" MODIFIED="1566222299123"/>
 </node>
-<node TEXT="&#x53c2;&#x6570;" ID="ID_1772648438" CREATED="1566224817181" MODIFIED="1566224821409">
+<node TEXT="参数" ID="ID_1772648438" CREATED="1566224817181" MODIFIED="1566224821409">
 <node ID="ID_673549228" CREATED="1566224832752" MODIFIED="1566224832752"><richcontent TYPE="NODE">
 
 <html>
@@ -638,7 +635,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_673465492" CREATED="1566224832752" MODIFIED="1566224832752"><richcontent TYPE="NODE">
@@ -653,7 +649,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_469552918" CREATED="1566224832754" MODIFIED="1566224832754"><richcontent TYPE="NODE">
@@ -668,7 +663,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_191217225" CREATED="1566224832756" MODIFIED="1566224832756"><richcontent TYPE="NODE">
@@ -683,7 +677,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_487945890" CREATED="1566224832759" MODIFIED="1566224832759"><richcontent TYPE="NODE">
@@ -698,7 +691,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_28359326" CREATED="1566224832760" MODIFIED="1566224832760"><richcontent TYPE="NODE">
@@ -713,7 +705,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1659068774" CREATED="1566224832762" MODIFIED="1566224832762"><richcontent TYPE="NODE">
@@ -728,7 +719,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1838838405" CREATED="1566224832763" MODIFIED="1566224832763"><richcontent TYPE="NODE">
@@ -743,7 +733,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1014324660" CREATED="1566224832764" MODIFIED="1566224832764"><richcontent TYPE="NODE">
@@ -758,7 +747,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1731404412" CREATED="1566224832766" MODIFIED="1566224832766"><richcontent TYPE="NODE">
@@ -773,7 +761,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_174815853" CREATED="1566224832767" MODIFIED="1566224832767"><richcontent TYPE="NODE">
@@ -788,7 +775,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1292637583" CREATED="1566224832770" MODIFIED="1566224832770"><richcontent TYPE="NODE">
@@ -803,7 +789,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1282980863" CREATED="1566224832772" MODIFIED="1566224832772"><richcontent TYPE="NODE">
@@ -818,12 +803,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x5728;&#x6d88;&#x606f;&#x4e2d;&#x663e;&#x793a;&#x65e5;&#x671f;/&#x65f6;&#x95f4;" ID="ID_1972732848" CREATED="1566222333274" MODIFIED="1566222339111">
+<node TEXT="在消息中显示日期/时间" ID="ID_1972732848" CREATED="1566222333274" MODIFIED="1566222339111">
 <node TEXT="asctime" ID="ID_680666800" CREATED="1566222378263" MODIFIED="1566222388639">
 <node ID="ID_1369061643" CREATED="1566222360751" MODIFIED="1566222360751"><richcontent TYPE="NODE">
 
@@ -835,12 +819,11 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>logging<br/>logging.basicConfig(<span style="color: #aa4926"><font color="#aa4926">format</font></span>=<span style="color: #6a8759"><font color="#6a8759">'%(asctime)s %(message)s'</font></span>)<br/>logging.warning(<span style="color: #6a8759"><font color="#6a8759">'is when this event was logged.'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT=" 2010-12-12 11:41:42,612 is when this event was logged." ID="ID_317753770" CREATED="1566222367285" MODIFIED="1566222368744"/>
 </node>
-<node TEXT="&#x65f6;&#x95f4;&#x683c;&#x5f0f;" ID="ID_1056449805" CREATED="1566222392218" MODIFIED="1566222420415">
+<node TEXT="时间格式" ID="ID_1056449805" CREATED="1566222392218" MODIFIED="1566222420415">
 <node ID="ID_1844380755" CREATED="1566222442864" MODIFIED="1566222442864"><richcontent TYPE="NODE">
 
 <html>
@@ -851,71 +834,191 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">import </font></span>logging<br/>logging.basicConfig(<span style="color: #aa4926"><font color="#aa4926">format</font></span>=<span style="color: #6a8759"><font color="#6a8759">'%(asctime)s %(message)s'</font></span><span style="color: #cc7832"><font color="#cc7832">, <br/></font></span><font color="#cc7832"><span style="color: #cc7832">                    </span></font><span style="color: #aa4926"><font color="#aa4926">datefmt</font></span>=<span style="color: #6a8759"><font color="#6a8759">'%m/%d/%Y %I:%M:%S %p'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="&#x8fdb;&#x9636;" ID="ID_89866016" CREATED="1566222617551" MODIFIED="1566222623761">
-<node TEXT=" &#x65e5;&#x5fd7;&#x5e93;&#x91c7;&#x7528;&#x6a21;&#x5757;&#x5316;&#x65b9;&#x6cd5;" ID="ID_1191453921" CREATED="1566222707511" MODIFIED="1566222708646">
-<node TEXT="&#x8bb0;&#x5f55;&#x5668; logger" ID="ID_1969671674" CREATED="1566222715984" MODIFIED="1566224544234">
-<node TEXT=" &#x8fdb;&#x884c;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#x65f6;&#x521b;&#x5efa;&#x7684;&#x5bf9;&#x8c61;" ID="ID_474779091" CREATED="1566224562263" MODIFIED="1566224564216"/>
-<node TEXT="&#x8c03;&#x7528;&#x5b83;&#x7684;&#x65b9;&#x6cd5;&#x4f20;&#x5165;&#x65e5;&#x5fd7;&#x6a21;&#x677f;&#x548c;&#x4fe1;&#x606f;&#xff0c;&#x6765;&#x751f;&#x6210;&#x4e00;&#x6761;&#x6761;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;" ID="ID_1990616193" CREATED="1566224564836" MODIFIED="1566224572926"/>
-<node TEXT=" &#x8bb0;&#x5f55;&#x5668;&#x66b4;&#x9732;&#x4e86;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#x4ee3;&#x7801;&#x76f4;&#x63a5;&#x4f7f;&#x7528;&#x7684;&#x63a5;&#x53e3;" ID="ID_1910147215" CREATED="1566222740566" MODIFIED="1566222741408"/>
+<node TEXT="进阶" ID="ID_89866016" CREATED="1566222617551" MODIFIED="1566222623761">
+<node TEXT=" 日志库采用模块化方法" ID="ID_1191453921" CREATED="1566222707511" MODIFIED="1566222708646">
+<node TEXT="记录器 logger" ID="ID_1969671674" CREATED="1566222715984" MODIFIED="1566224544234">
+<node TEXT=" 进行日志记录时创建的对象" ID="ID_474779091" CREATED="1566224562263" MODIFIED="1566224564216"/>
+<node TEXT="调用它的方法传入日志模板和信息，来生成一条条日志记录" ID="ID_1990616193" CREATED="1566224564836" MODIFIED="1566224572926"/>
+<node TEXT=" 记录器暴露了应用程序代码直接使用的接口" ID="ID_1910147215" CREATED="1566222740566" MODIFIED="1566222741408"/>
 </node>
-<node TEXT="&#x5904;&#x7406;&#x7a0b;&#x5e8f; Handler" ID="ID_1111256249" CREATED="1566222717587" MODIFIED="1566224486895">
-<node TEXT=" &#x7528;&#x6765;&#x5904;&#x7406;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#x7684;&#x7c7b;" ID="ID_321468767" CREATED="1566224592274" MODIFIED="1566224594629"/>
-<node TEXT="&#x5904;&#x7406;&#x7a0b;&#x5e8f;&#x5c06;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#xff08;&#x7531;&#x8bb0;&#x5f55;&#x5668;&#x521b;&#x5efa;&#xff09;&#x53d1;&#x9001;&#x5230;&#x9002;&#x5f53;&#x7684;&#x76ee;&#x6807;" ID="ID_1639891391" CREATED="1566222746388" MODIFIED="1566224597280"/>
+<node TEXT="处理程序 Handler" ID="ID_1111256249" CREATED="1566222717587" MODIFIED="1566224486895">
+<node TEXT=" 用来处理日志记录的类" ID="ID_321468767" CREATED="1566224592274" MODIFIED="1566224594629"/>
+<node TEXT="处理程序将日志记录（由记录器创建）发送到适当的目标" ID="ID_1639891391" CREATED="1566222746388" MODIFIED="1566224597280"/>
 </node>
-<node TEXT=" &#x8fc7;&#x6ee4;&#x5668; Filter" ID="ID_294477635" CREATED="1566222725378" MODIFIED="1566224646050">
-<node TEXT=" &#x8fc7;&#x6ee4;&#x5668;&#x63d0;&#x4f9b;&#x4e86;&#x66f4;&#x7cbe;&#x7ec6;&#x7684;&#x9644;&#x52a0;&#x529f;&#x80fd;&#xff0c;&#x7528;&#x4e8e;&#x786e;&#x5b9a;&#x8981;&#x8f93;&#x51fa;&#x7684;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;" ID="ID_1661336809" CREATED="1566222753536" MODIFIED="1566222755111"/>
+<node TEXT=" 过滤器 Filter" ID="ID_294477635" CREATED="1566222725378" MODIFIED="1566224646050">
+<node TEXT=" 过滤器提供了更精细的附加功能，用于确定要输出的日志记录" ID="ID_1661336809" CREATED="1566222753536" MODIFIED="1566222755111"/>
 </node>
-<node TEXT=" &#x683c;&#x5f0f;&#x5316;&#x7a0b;&#x5e8f; Formatter" ID="ID_1079471054" CREATED="1566222729961" MODIFIED="1566224616467">
-<node TEXT=" &#x683c;&#x5f0f;&#x5316;&#x7a0b;&#x5e8f;&#x6307;&#x5b9a;&#x6700;&#x7ec8;&#x8f93;&#x51fa;&#x4e2d;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#x7684;&#x6837;&#x5f0f;" ID="ID_1845812445" CREATED="1566222760432" MODIFIED="1566222761350"/>
-<node TEXT=" &#x8fd4;&#x56de;&#x7684;&#x5c31;&#x662f;&#x65e5;&#x5fd7;&#x5b57;&#x7b26;&#x4e32;&#xff0c;&#x7136;&#x540e;&#x4f20;&#x56de;&#x7ed9; Handler &#x6765;&#x5904;&#x7406;" ID="ID_82244139" CREATED="1566224633533" MODIFIED="1566224636652"/>
+<node TEXT=" 格式化程序 Formatter" ID="ID_1079471054" CREATED="1566222729961" MODIFIED="1566224616467">
+<node TEXT=" 格式化程序指定最终输出中日志记录的样式" ID="ID_1845812445" CREATED="1566222760432" MODIFIED="1566222761350"/>
+<node TEXT=" 返回的就是日志字符串，然后传回给 Handler 来处理" ID="ID_82244139" CREATED="1566224633533" MODIFIED="1566224636652"/>
 </node>
 </node>
 <node TEXT=" LogRecord" ID="ID_776729942" CREATED="1566222835965" MODIFIED="1566222837504">
-<node TEXT="&#x65e5;&#x5fd7;&#x4e8b;&#x4ef6;&#x4fe1;&#x606f;&#x5728; LogRecord &#x5b9e;&#x4f8b;&#x4e2d;&#x7684;&#x8bb0;&#x5f55;&#x5668;&#x3001;&#x5904;&#x7406;&#x7a0b;&#x5e8f;&#x3001;&#x8fc7;&#x6ee4;&#x5668;&#x548c;&#x683c;&#x5f0f;&#x5316;&#x7a0b;&#x5e8f;&#x4e4b;&#x95f4;&#x4f20;&#x9012;" ID="ID_1530831030" CREATED="1566222842330" MODIFIED="1566222847863"/>
+<node TEXT="日志事件信息在 LogRecord 实例中的记录器、处理程序、过滤器和格式化程序之间传递" ID="ID_1530831030" CREATED="1566222842330" MODIFIED="1566222847863"/>
 </node>
-<node TEXT="&#x8bb0;&#x5f55;&#x5668;" ID="ID_1327177112" CREATED="1566222936179" MODIFIED="1566222956199">
-<node TEXT="&#x901a;&#x8fc7;&#x8c03;&#x7528; Logger &#x7c7b;&#xff08;&#x4ee5;&#x4e0b;&#x79f0;&#x4e3a; loggers &#xff0c; &#x8bb0;&#x5f55;&#x5668;&#xff09;&#x7684;&#x5b9e;&#x4f8b;&#x6765;&#x6267;&#x884c;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;" ID="ID_107486189" CREATED="1566222962211" MODIFIED="1566222967970"/>
-<node TEXT=" &#x547d;&#x540d;&#x8bb0;&#x5f55;&#x5668;" ID="ID_1735416122" CREATED="1566222985687" MODIFIED="1566223005095" VGAP_QUANTITY="6.8999999999999995 pt">
-<node TEXT="&#x5728;&#x6bcf;&#x4e2a;&#x4f7f;&#x7528;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#x7684;&#x6a21;&#x5757;&#x4e2d;&#x4f7f;&#x7528;&#x6a21;&#x5757;&#x7ea7;&#x8bb0;&#x5f55;&#x5668;" ID="ID_1343990555" CREATED="1566222999939" MODIFIED="1566223006375"/>
+<node TEXT="记录器" ID="ID_1327177112" CREATED="1566222936179" MODIFIED="1566222956199">
+<node TEXT="通过调用 Logger 类（以下称为 loggers ， 记录器）的实例来执行日志记录" ID="ID_107486189" CREATED="1566222962211" MODIFIED="1566222967970"/>
+<node TEXT=" 命名记录器" ID="ID_1735416122" CREATED="1566222985687" MODIFIED="1566223005095" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="在每个使用日志记录的模块中使用模块级记录器" ID="ID_1343990555" CREATED="1566222999939" MODIFIED="1566223006375"/>
 <node TEXT=" logger = logging.getLogger(__name__)" ID="ID_587857799" CREATED="1566223015372" MODIFIED="1566223016487"/>
-<node TEXT="&#x8bb0;&#x5f55;&#x5668;&#x540d;&#x79f0;&#x8ddf;&#x8e2a;&#x5305;&#x6216;&#x6a21;&#x5757;&#x7684;&#x5c42;&#x6b21;&#x7ed3;&#x6784;&#xff0c;&#x5e76;&#x4e14;&#x76f4;&#x89c2;&#x5730;&#x4ece;&#x8bb0;&#x5f55;&#x5668;&#x540d;&#x79f0;&#x663e;&#x793a;&#x8bb0;&#x5f55;&#x4e8b;&#x4ef6;&#x7684;&#x4f4d;&#x7f6e;" ID="ID_689739679" CREATED="1566223031465" MODIFIED="1566223034213"/>
+<node TEXT="记录器名称跟踪包或模块的层次结构，并且直观地从记录器名称显示记录事件的位置" ID="ID_689739679" CREATED="1566223031465" MODIFIED="1566223034213"/>
 </node>
-<node TEXT=" &#x4e09;&#x91cd;&#x4efb;&#x52a1;" ID="ID_245763756" CREATED="1566223337801" MODIFIED="1566223338894">
-<node TEXT=" &#x5b83;&#x4eec;&#x5411;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#x4ee3;&#x7801;&#x516c;&#x5f00;&#x4e86;&#x51e0;&#x79cd;&#x65b9;&#x6cd5;&#xff0c;&#x4ee5;&#x4fbf;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;&#x53ef;&#x4ee5;&#x5728;&#x8fd0;&#x884c;&#x65f6;&#x8bb0;&#x5f55;&#x6d88;&#x606f;" ID="ID_647527882" CREATED="1566223349881" MODIFIED="1566223351424"/>
-<node TEXT=" &#x8bb0;&#x5f55;&#x5668;&#x5bf9;&#x8c61;&#x6839;&#x636e;&#x4e25;&#x91cd;&#x6027;&#xff08;&#x9ed8;&#x8ba4;&#x8fc7;&#x6ee4;&#x5de5;&#x5177;&#xff09;&#x6216;&#x8fc7;&#x6ee4;&#x5668;&#x5bf9;&#x8c61;&#x786e;&#x5b9a;&#x8981;&#x5904;&#x7406;&#x7684;&#x65e5;&#x5fd7;&#x6d88;&#x606f;" ID="ID_1222867607" CREATED="1566223358828" MODIFIED="1566223360519"/>
-<node TEXT=" &#x8bb0;&#x5f55;&#x5668;&#x5bf9;&#x8c61;&#x5c06;&#x76f8;&#x5173;&#x7684;&#x65e5;&#x5fd7;&#x6d88;&#x606f;&#x4f20;&#x9012;&#x7ed9;&#x6240;&#x6709;&#x611f;&#x5174;&#x8da3;&#x7684;&#x65e5;&#x5fd7;&#x5904;&#x7406;&#x7a0b;&#x5e8f;" ID="ID_1020305191" CREATED="1566223367005" MODIFIED="1566223368111"/>
+<node TEXT=" 三重任务" ID="ID_245763756" CREATED="1566223337801" MODIFIED="1566223338894">
+<node TEXT=" 它们向应用程序代码公开了几种方法，以便应用程序可以在运行时记录消息" ID="ID_647527882" CREATED="1566223349881" MODIFIED="1566223351424"/>
+<node TEXT=" 记录器对象根据严重性（默认过滤工具）或过滤器对象确定要处理的日志消息" ID="ID_1222867607" CREATED="1566223358828" MODIFIED="1566223360519"/>
+<node TEXT=" 记录器对象将相关的日志消息传递给所有感兴趣的日志处理程序" ID="ID_1020305191" CREATED="1566223367005" MODIFIED="1566223368111"/>
 </node>
-<node TEXT=" &#x5e38;&#x89c1;&#x7684;&#x914d;&#x7f6e;&#x65b9;&#x6cd5;" ID="ID_1567708011" CREATED="1566223428133" MODIFIED="1566223429351">
-<node TEXT="&#x914d;&#x7f6e;&#x7ea7;&#x522b;" ID="ID_1405787462" CREATED="1566223429675" MODIFIED="1566223442076">
-<node TEXT=" Logger.setLevel() &#x6307;&#x5b9a;&#x8bb0;&#x5f55;&#x5668;&#x5c06;&#x5904;&#x7406;&#x7684;&#x6700;&#x4f4e;&#x4e25;&#x91cd;&#x6027;&#x65e5;&#x5fd7;&#x6d88;&#x606f;" ID="ID_840970040" CREATED="1566223450684" MODIFIED="1566223451656"/>
+<node TEXT=" 常见的配置方法" ID="ID_1567708011" CREATED="1566223428133" MODIFIED="1566223429351">
+<node TEXT="配置级别" ID="ID_1405787462" CREATED="1566223429675" MODIFIED="1566223442076">
+<node TEXT=" Logger.setLevel() 指定记录器将处理的最低严重性日志消息" ID="ID_840970040" CREATED="1566223450684" MODIFIED="1566223451656"/>
 </node>
-<node TEXT=" &#x4ece;&#x8bb0;&#x5f55;&#x5668;&#x5bf9;&#x8c61;&#x4e2d;&#x6dfb;&#x52a0;&#x548c;&#x5220;&#x9664;&#x5904;&#x7406;&#x7a0b;&#x5e8f;&#x5bf9;&#x8c61;" ID="ID_1460705569" CREATED="1566223476212" MODIFIED="1566223477249">
+<node TEXT=" 从记录器对象中添加和删除处理程序对象" ID="ID_1460705569" CREATED="1566223476212" MODIFIED="1566223477249">
 <node TEXT="Logger.addHandler()" ID="ID_211732417" CREATED="1566223482611" MODIFIED="1566223485595"/>
 <node TEXT="Logger.removeHandler()" ID="ID_562764049" CREATED="1566223485779" MODIFIED="1566223491167"/>
 </node>
-<node TEXT=" &#x6dfb;&#x52a0;&#x6216;&#x79fb;&#x9664;&#x8bb0;&#x5f55;&#x5668;&#x5bf9;&#x8c61;&#x4e2d;&#x7684;&#x8fc7;&#x6ee4;&#x5668;" ID="ID_1117658280" CREATED="1566223502904" MODIFIED="1566223503993">
+<node TEXT=" 添加或移除记录器对象中的过滤器" ID="ID_1117658280" CREATED="1566223502904" MODIFIED="1566223503993">
 <node TEXT="Logger.addFilter()" ID="ID_522282384" CREATED="1566223507806" MODIFIED="1566223510582"/>
 <node TEXT="Logger.removeFilter()" ID="ID_499600576" CREATED="1566223510738" MODIFIED="1566223515463"/>
 </node>
-<node TEXT=" &#x4f60;&#x4e0d;&#x9700;&#x8981;&#x59cb;&#x7ec8;&#x5728;&#x4f60;&#x521b;&#x5efa;&#x7684;&#x6bcf;&#x4e2a;&#x8bb0;&#x5f55;&#x5668;&#x4e0a;&#x8c03;&#x7528;&#x8fd9;&#x4e9b;&#x65b9;&#x6cd5;" ID="ID_1708501914" CREATED="1566223529412" MODIFIED="1566223530654"/>
+<node TEXT=" 你不需要始终在你创建的每个记录器上调用这些方法" ID="ID_1708501914" CREATED="1566223529412" MODIFIED="1566223530654"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="os &#x6a21;&#x5757;" FOLDED="true" POSITION="left" ID="ID_1450216899" CREATED="1539077987880" MODIFIED="1539078006161">
+<node TEXT="时间" POSITION="right" ID="ID_865158903" CREATED="1588424294559" MODIFIED="1588424302164">
+<edge COLOR="#007c00"/>
+<node TEXT=" datetime 与 struct_time 实例化特定时间" ID="ID_895497894" CREATED="1588436077991" MODIFIED="1588436080462">
+<node ID="ID_1240630255" CREATED="1588436088435" MODIFIED="1588436088435"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># datetime </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">与</font></span><span style="color: #808080"><font color="#808080"> struct_time </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">实例化特定时间<br/></font></span>d1 = datetime.datetime(<span style="color: #aa4926"><font color="#aa4926">year</font></span>=<span style="color: #6897bb"><font color="#6897bb">2020</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">month</font></span>=<span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">day</font></span>=<span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/>d2 = time.struct_time((<span style="color: #6897bb"><font color="#6897bb">2020</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">122</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>-<span style="color: #6897bb"><font color="#6897bb">1</font></span>))<br/><span style="color: #808080"><font color="#808080"># d2 = time.strptime('2020-05-01', '%Y-%m-%d')</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" datetime 与 struct_time 互转" ID="ID_674833616" CREATED="1588436097507" MODIFIED="1588436098642">
+<node ID="ID_1650207077" CREATED="1588436120423" MODIFIED="1588436120423"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt">d1 = datetime.datetime(<span style="color: #aa4926"><font color="#aa4926">year</font></span>=<span style="color: #6897bb"><font color="#6897bb">2020</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">month</font></span>=<span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">day</font></span>=<span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/>d2 = time.strptime(<span style="color: #6a8759"><font color="#6a8759">'2020-05-01'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d'</font></span>)<br/><span style="color: #cc7832"><font color="#cc7832">assert </font></span>d1.timetuple() == d2<br/><span style="color: #cc7832"><font color="#cc7832">assert </font></span>d1 == datetime.datetime.fromtimestamp(time.mktime(d2))<br/><span style="color: #cc7832"><font color="#cc7832">assert </font></span>d1 == datetime.datetime(*d2[:<span style="color: #6897bb"><font color="#6897bb">3</font></span>])  <span style="color: #808080"><font color="#808080"># (2020, 5, 1)</font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" datetime、struct_time 转时间戳" ID="ID_101249073" CREATED="1588436125299" MODIFIED="1588436126476">
+<node ID="ID_1933556404" CREATED="1588436138560" MODIFIED="1588436138560"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># datetime</font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">、</font></span><span style="color: #808080"><font color="#808080">struct_time </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">转时间戳<br/></font></span>d1 = datetime.datetime(<span style="color: #aa4926"><font color="#aa4926">year</font></span>=<span style="color: #6897bb"><font color="#6897bb">2020</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">month</font></span>=<span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">day</font></span>=<span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/>d2 = time.strptime(<span style="color: #6a8759"><font color="#6a8759">'2020-05-01'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d'</font></span>)<br/><span style="color: #cc7832"><font color="#cc7832">assert </font></span>d1.timestamp() == time.mktime(d2)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="时间戳转 datetime、struct_time" ID="ID_1603754478" CREATED="1588436288526" MODIFIED="1588436370501">
+<node ID="ID_109994324" CREATED="1588436668872" MODIFIED="1588436668872"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">时间戳转</font></span><span style="color: #808080"><font color="#808080"> datetime</font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">、</font></span><span style="color: #808080"><font color="#808080">struct_time<br/></font></span>ts = <span style="color: #6897bb"><font color="#6897bb">1588432132.2432551<br/></font></span>d1 = datetime.datetime.fromtimestamp(ts)<br/>d2 = d1.timetuple()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="datetime 运算" ID="ID_342710201" CREATED="1588436149044" MODIFIED="1588436154152">
+<node ID="ID_1478961960" CREATED="1588436201176" MODIFIED="1588436766887"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># timedelta</font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体"><br/></font></span>d1 = datetime.datetime.now()<br/>d2 = d1 + datetime.timedelta(<span style="color: #aa4926"><font color="#aa4926">days</font></span>=<span style="color: #6897bb"><font color="#6897bb">10</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_954476523" CREATED="1588436950401" MODIFIED="1588436950401"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># relativedelta<br/></font></span><span style="color: #cc7832"><font color="#cc7832">from </font></span>dateutil.relativedelta <span style="color: #cc7832"><font color="#cc7832">import </font></span>relativedelta<br/>d = datetime.datetime.now()<br/>d1 = d - relativedelta(<span style="color: #aa4926"><font color="#aa4926">months</font></span>=<span style="color: #6897bb"><font color="#6897bb">3</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" 字符串转时间" ID="ID_749049450" CREATED="1588436209035" MODIFIED="1588436210148">
+<node ID="ID_614946612" CREATED="1588436233513" MODIFIED="1588436233513"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># strptime </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">字符串转时间<br/></font></span>d1 = datetime.datetime.strptime(<span style="color: #6a8759"><font color="#6a8759">'2020-05-01 22:21:58'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d %H:%M:%S'</font></span>)<br/>d2 = time.strptime(<span style="color: #6a8759"><font color="#6a8759">'2020-05-01 22:21:58'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d %H:%M:%S'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="时间转字符串" ID="ID_1980641878" CREATED="1588436251511" MODIFIED="1588436257977">
+<node ID="ID_1731529636" CREATED="1588436259620" MODIFIED="1588436259620"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">时间转字符串<br/></font></span>t1 = datetime.datetime.now()<br/>d1 = t1.strftime(<span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d %H:%M:%S'</font></span>)<br/>t2 = time.time()<br/>d2 = time.strftime(<span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d %H:%M:%S'</font></span>)</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="os 模块" FOLDED="true" POSITION="left" ID="ID_1450216899" CREATED="1539077987880" MODIFIED="1539078006161">
 <edge COLOR="#ff0000"/>
 <node TEXT="os.path" ID="ID_82018506" CREATED="1539078006896" MODIFIED="1539078011793">
-<node TEXT="&#x7528;&#x5904;" ID="ID_376689695" CREATED="1539078075112" MODIFIED="1539078080936">
-<node TEXT="&#x5728;&#x8def;&#x5f84;&#x540d;&#x4e0a;&#x5b9e;&#x73b0;&#x4e86;&#x4e00;&#x4e9b;&#x6709;&#x7528;&#x7684;&#x529f;&#x80fd;" ID="ID_648509005" CREATED="1539078091191" MODIFIED="1539078094577"/>
+<node TEXT="用处" ID="ID_376689695" CREATED="1539078075112" MODIFIED="1539078080936">
+<node TEXT="在路径名上实现了一些有用的功能" ID="ID_648509005" CREATED="1539078091191" MODIFIED="1539078094577"/>
 </node>
-<node TEXT="&#x83b7;&#x53d6;&#x5f53;&#x524d;&#x6587;&#x4ef6;&#x7684;&#x7edd;&#x5bf9;&#x8def;&#x5f84;" ID="ID_1886285025" CREATED="1539078139751" MODIFIED="1539078311000">
-<node TEXT="os.path.abspath(&#x201c;filename&#x201d;)" ID="ID_930355724" CREATED="1539078117303" MODIFIED="1539078325064"/>
+<node TEXT="获取当前文件的绝对路径" ID="ID_1886285025" CREATED="1539078139751" MODIFIED="1539078311000">
+<node TEXT="os.path.abspath(“filename”)" ID="ID_930355724" CREATED="1539078117303" MODIFIED="1539078325064"/>
 <node ID="ID_476220785" CREATED="1539078975256" MODIFIED="1539078982156"><richcontent TYPE="NODE">
 
 <html>
@@ -929,8 +1032,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT=" &#x62fc;&#x63a5;&#x6587;&#x4ef6;&#x76ee;&#x5f55;" ID="ID_633483872" CREATED="1539078363583" MODIFIED="1539078365239">
-<node TEXT="&#x7528;&#x4e8e;&#x517c;&#x5bb9;liunx&#x4e0e;window&#x7684;&#x8def;&#x5f84;&#x5206;&#x5272;" ID="ID_76587720" CREATED="1539078375038" MODIFIED="1539078427183"/>
+<node TEXT=" 拼接文件目录" ID="ID_633483872" CREATED="1539078363583" MODIFIED="1539078365239">
+<node TEXT="用于兼容liunx与window的路径分割" ID="ID_76587720" CREATED="1539078375038" MODIFIED="1539078427183"/>
 <node TEXT=" os.path.join(path,**filename)" ID="ID_1479625155" CREATED="1539078370134" MODIFIED="1539078498577"/>
 <node ID="ID_1642028481" CREATED="1539079009925" MODIFIED="1539079009925"><richcontent TYPE="NODE">
 
@@ -945,7 +1048,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x83b7;&#x53d6;&#x5f53;&#x524d;&#x76ee;&#x5f55;" ID="ID_1319743797" CREATED="1539079214841" MODIFIED="1539079244747">
+<node TEXT="获取当前目录" ID="ID_1319743797" CREATED="1539079214841" MODIFIED="1539079244747">
 <node TEXT="os.path.dirname(__file__)" ID="ID_848352759" CREATED="1539079300144" MODIFIED="1539079327977"/>
 <node ID="ID_773027360" CREATED="1539079221244" MODIFIED="1539079310767"><richcontent TYPE="NODE">
 
@@ -972,7 +1075,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x68c0;&#x67e5;&#x662f;&#x5426;&#x662f;&#x6587;&#x4ef6;" ID="ID_832014426" CREATED="1539079571143" MODIFIED="1539079581544">
+<node TEXT="检查是否是文件" ID="ID_832014426" CREATED="1539079571143" MODIFIED="1539079581544">
 <node TEXT=" os.path.isfile(path)" ID="ID_1442186705" CREATED="1539079602238" MODIFIED="1539079603565"/>
 <node ID="ID_1345331939" CREATED="1539079685694" MODIFIED="1539081305022"><richcontent TYPE="NODE">
 
@@ -987,7 +1090,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x68c0;&#x67e5;&#x662f;&#x5426;&#x662f;&#x76ee;&#x5f55;" ID="ID_1328234270" CREATED="1539079581983" MODIFIED="1539079592943">
+<node TEXT="检查是否是目录" ID="ID_1328234270" CREATED="1539079581983" MODIFIED="1539079592943">
 <node TEXT=" os.path.isdir(path)" ID="ID_1166613182" CREATED="1539079690782" MODIFIED="1539079703767"/>
 <node ID="ID_1440825231" CREATED="1539079687472" MODIFIED="1539079687472"><richcontent TYPE="NODE">
 
@@ -1002,7 +1105,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT=" &#x67e5;&#x770b;&#x6307;&#x5b9a;&#x7684;&#x8def;&#x5f84;&#x662f;&#x5426;&#x5b58;&#x5728;" ID="ID_864663362" CREATED="1539079765343" MODIFIED="1539079767359">
+<node TEXT=" 查看指定的路径是否存在" ID="ID_864663362" CREATED="1539079765343" MODIFIED="1539079767359">
 <node TEXT=" os.path.exists(path)" ID="ID_1566215525" CREATED="1539079771580" MODIFIED="1539079773543"/>
 <node ID="ID_788293368" CREATED="1539079818873" MODIFIED="1539079818873"><richcontent TYPE="NODE">
 
@@ -1017,7 +1120,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x83b7;&#x53d6;&#x6587;&#x4ef6;&#x521b;&#x5efa;&#x65f6;&#x95f4;" ID="ID_117227961" CREATED="1539080131075" MODIFIED="1539080142956">
+<node TEXT="获取文件创建时间" ID="ID_117227961" CREATED="1539080131075" MODIFIED="1539080142956">
 <node TEXT="os.path.getctime(path)" ID="ID_1743978085" CREATED="1539080177931" MODIFIED="1539080189757"/>
 <node ID="ID_1142892660" CREATED="1539080172318" MODIFIED="1539080172318"><richcontent TYPE="NODE">
 
@@ -1032,7 +1135,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT=" &#x62c6;&#x5206;&#x8def;&#x5f84;&#x540d;" ID="ID_1143586125" CREATED="1539080378755" MODIFIED="1539080380811">
+<node TEXT=" 拆分路径名" ID="ID_1143586125" CREATED="1539080378755" MODIFIED="1539080380811">
 <node TEXT=" os.path.split()" ID="ID_1800787521" CREATED="1539080384938" MODIFIED="1539080386595"/>
 <node ID="ID_1002356664" CREATED="1539080490192" MODIFIED="1539080490192"><richcontent TYPE="NODE">
 
@@ -1048,8 +1151,8 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x67e5;&#x770b;&#x6307;&#x5b9a;&#x76ee;&#x5f55;&#x4e0b;&#x7684;&#x6240;&#x6709;&#x6587;&#x4ef6;" ID="ID_175416925" CREATED="1539079349688" MODIFIED="1539079359377">
-<node TEXT=" os.listdir(&#x201c;dirname&#x201d;)" ID="ID_1643010124" CREATED="1539079364792" MODIFIED="1539079366601"/>
+<node TEXT="查看指定目录下的所有文件" ID="ID_175416925" CREATED="1539079349688" MODIFIED="1539079359377">
+<node TEXT=" os.listdir(“dirname”)" ID="ID_1643010124" CREATED="1539079364792" MODIFIED="1539079366601"/>
 <node ID="ID_223408590" CREATED="1539079515409" MODIFIED="1539079515409"><richcontent TYPE="NODE">
 
 <html>
@@ -1063,26 +1166,26 @@
 </richcontent>
 </node>
 </node>
-<node TEXT=" &#x5220;&#x9664;&#x6587;&#x4ef6;" ID="ID_446639701" CREATED="1539079527375" MODIFIED="1539079529121">
-<node TEXT=" os.remove(&#x2018;filename&#x2019;)" ID="ID_1737841623" CREATED="1539079533279" MODIFIED="1539079534856"/>
+<node TEXT=" 删除文件" ID="ID_446639701" CREATED="1539079527375" MODIFIED="1539079529121">
+<node TEXT=" os.remove(‘filename’)" ID="ID_1737841623" CREATED="1539079533279" MODIFIED="1539079534856"/>
 </node>
-<node TEXT=" &#x5220;&#x9664;&#x7a7a;&#x7684;&#x76ee;&#x5f55;" ID="ID_1812437453" CREATED="1539079542015" MODIFIED="1539079560841">
-<node TEXT=" os.rmdir(&#x2018;dirname&#x2019;)" ID="ID_349998105" CREATED="1539079548383" MODIFIED="1539079550232"/>
+<node TEXT=" 删除空的目录" ID="ID_1812437453" CREATED="1539079542015" MODIFIED="1539079560841">
+<node TEXT=" os.rmdir(‘dirname’)" ID="ID_349998105" CREATED="1539079548383" MODIFIED="1539079550232"/>
 </node>
-<node TEXT=" &#x521b;&#x5efa;&#x7a7a;&#x76ee;&#x5f55;" ID="ID_169756490" CREATED="1539080329122" MODIFIED="1539080334419">
+<node TEXT=" 创建空目录" ID="ID_169756490" CREATED="1539080329122" MODIFIED="1539080334419">
 <node TEXT="os.mkdir(path)" ID="ID_378931407" CREATED="1539080338714" MODIFIED="1539080341548"/>
 </node>
-<node TEXT=" &#x521b;&#x5efa;&#x591a;&#x7ea7;&#x76ee;&#x5f55;" ID="ID_609112830" CREATED="1539080348266" MODIFIED="1539080350019">
+<node TEXT=" 创建多级目录" ID="ID_609112830" CREATED="1539080348266" MODIFIED="1539080350019">
 <node TEXT=" os.makedirs(path)" ID="ID_167979229" CREATED="1539080359066" MODIFIED="1539080365379"/>
 </node>
-<node TEXT="&#x91cd;&#x547d;&#x540d;&#x6587;&#x4ef6;" ID="ID_1049193777" CREATED="1539080664377" MODIFIED="1539080680962">
+<node TEXT="重命名文件" ID="ID_1049193777" CREATED="1539080664377" MODIFIED="1539080680962">
 <node TEXT=" os.rename(src, dst)" ID="ID_1827349274" CREATED="1539080685120" MODIFIED="1539080686257"/>
-<node TEXT="&#x5c06;&#x6587;&#x4ef6;&#x6216;&#x76ee;&#x5f55;src&#x91cd;&#x547d;&#x540d;&#x4e3a;dst" ID="ID_1545161586" CREATED="1539080694600" MODIFIED="1539080911537"/>
-<node TEXT=" &#x5982;&#x679c;dst&#x662f;&#x76ee;&#x5f55;&#xff0c; OSError&#x5219;&#x4f1a;&#x5f15;&#x53d1;" ID="ID_1800193756" CREATED="1539080926951" MODIFIED="1539080928928"/>
-<node TEXT=" &#x5982;&#x679c;dst&#x5b58;&#x5728;&#x4e14;&#x662f;&#x4e00;&#x4e2a;&#x6587;&#x4ef6;&#xff0c;&#x5982;&#x679c;&#x7528;&#x6237;&#x6709;&#x6743;&#x9650;&#xff0c;&#x5b83;&#x5c06;&#x88ab;&#x9759;&#x9ed8;&#x66ff;&#x6362;" ID="ID_1805425704" CREATED="1539080938239" MODIFIED="1539080940208"/>
+<node TEXT="将文件或目录src重命名为dst" ID="ID_1545161586" CREATED="1539080694600" MODIFIED="1539080911537"/>
+<node TEXT=" 如果dst是目录， OSError则会引发" ID="ID_1800193756" CREATED="1539080926951" MODIFIED="1539080928928"/>
+<node TEXT=" 如果dst存在且是一个文件，如果用户有权限，它将被静默替换" ID="ID_1805425704" CREATED="1539080938239" MODIFIED="1539080940208"/>
 </node>
-<node TEXT=" &#x83b7;&#x53d6;&#x6587;&#x4ef6;&#x6216;&#x8005;&#x76ee;&#x5f55;&#x4fe1;&#x606f;" ID="ID_26645585" CREATED="1539079845485" MODIFIED="1539079847110">
-<node TEXT=" os.stat(&#x201c;filename&#x201d;)" ID="ID_69514772" CREATED="1539079851997" MODIFIED="1539079853374"/>
+<node TEXT=" 获取文件或者目录信息" ID="ID_26645585" CREATED="1539079845485" MODIFIED="1539079847110">
+<node TEXT=" os.stat(“filename”)" ID="ID_69514772" CREATED="1539079851997" MODIFIED="1539079853374"/>
 <node ID="ID_1395802134" CREATED="1539080126165" MODIFIED="1539080126165"><richcontent TYPE="NODE">
 
 <html>

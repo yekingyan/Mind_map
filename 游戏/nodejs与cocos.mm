@@ -1073,7 +1073,114 @@
 </node>
 </node>
 <node TEXT="事件响应" ID="ID_1425293657" CREATED="1587663392899" MODIFIED="1587663397683">
-<node TEXT="触摸事件" ID="ID_803326871" CREATED="1587663405103" MODIFIED="1587663414558"/>
+<node TEXT="触摸事件" ID="ID_803326871" CREATED="1587663405103" MODIFIED="1587663414558">
+<node TEXT=" 事件类型" ID="ID_1443817171" CREATED="1587694334932" MODIFIED="1587694336799">
+<node TEXT="START 点击" ID="ID_1396610629" CREATED="1587694367829" MODIFIED="1587694643132">
+<node TEXT=" cc.Node.EventType.TOUCH_START" ID="ID_617091105" CREATED="1587695577813" MODIFIED="1587695579825"/>
+</node>
+<node TEXT="MOVED 移动" ID="ID_361246714" CREATED="1587694367830" MODIFIED="1587694617691">
+<node TEXT="  cc.Node.EventType.TOUCH_Move" ID="ID_306498220" CREATED="1587695584805" MODIFIED="1587695586525"/>
+</node>
+<node TEXT="ENDED(物体内，松开点击)" ID="ID_383799352" CREATED="1587694367831" MODIFIED="1587694699857">
+<node TEXT=" cc.Node.EventType.TOUCH_END" ID="ID_1890205376" CREATED="1587695593655" MODIFIED="1587695594817"/>
+</node>
+<node TEXT="CANCEL(物体外，松开点击)" ID="ID_1473783858" CREATED="1587694367834" MODIFIED="1587694702936">
+<node TEXT=" cc.Node.EventType.TOUCH_CANCEL" ID="ID_1095884053" CREATED="1587695599785" MODIFIED="1587695601193"/>
+</node>
+</node>
+<node TEXT="监听与取消触摸事件" ID="ID_336086622" CREATED="1587694780003" MODIFIED="1587811039197">
+<node ID="ID_1434543142" CREATED="1587810856867" MODIFIED="1587811017109"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div>
+              <font color="#569cd6">let</font>&nbsp;<font color="#dcdcaa">move</font>&nbsp;=&nbsp;()&nbsp;<font color="#569cd6">=&gt;</font>&nbsp;{&nbsp;<font color="#9cdcfe">console</font>.<font color="#dcdcaa">log</font>(<font color="#ce9178">'TOUCH_MOVE&nbsp;'</font>)&nbsp;}
+            </div>
+            <div>
+              <font color="#6a9955">//&nbsp;绑定事件的target为当前节点，即为this</font>
+            </div>
+            <div>
+              <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">on</font>(<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Node</font>.<font color="#4ec9b0">EventType</font>.<font color="#9cdcfe">TOUCH_MOVE</font>,&nbsp;<font color="#dcdcaa">move</font>,&nbsp;<font color="#569cd6">this</font>)
+            </div>
+            <div>
+              <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">off</font>(<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Node</font>.<font color="#4ec9b0">EventType</font>.<font color="#9cdcfe">TOUCH_MOVE</font>,&nbsp;<font color="#dcdcaa">move</font>,&nbsp;<font color="#569cd6">this</font>)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="取消监听目标节点中的所有事件" ID="ID_1275618257" CREATED="1587811033203" MODIFIED="1587811061562">
+<node TEXT=" this.node.targetOff(this)" ID="ID_1819010982" CREATED="1587811239018" MODIFIED="1587955005178"/>
+</node>
+<node TEXT="回调函数的参数" ID="ID_1051004402" CREATED="1587955207885" MODIFIED="1587955220872">
+<node ID="ID_561974962" CREATED="1587966728492" MODIFIED="1587966763158"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div>
+          <font color="#6a9955">/**</font>
+        </div>
+        <div>
+          <font color="#6a9955">&nbsp;*&nbsp;t:&nbsp;cc.Touch</font>
+        </div>
+        <div>
+          <font color="#6a9955">&nbsp;*/</font>
+        </div>
+        <div>
+          <font color="#569cd6">let</font>&nbsp;<font color="#dcdcaa">move</font>&nbsp;=&nbsp;(<font color="#9cdcfe">t</font>)&nbsp;<font color="#569cd6">=&gt;</font>&nbsp;{&nbsp;
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#6a9955">//&nbsp;位置</font>
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">pos</font>&nbsp;=&nbsp;<font color="#9cdcfe">t</font>.<font color="#dcdcaa">getLocation</font>()&nbsp;<font color="#6a9955">//&nbsp;cc.Vec2</font>
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">console</font>.<font color="#dcdcaa">log</font>(<font color="#ce9178">'TOUCH_MOVE'</font>,&nbsp;<font color="#9cdcfe">pos</font>.<font color="#9cdcfe">x</font>,&nbsp;<font color="#9cdcfe">pos</font>.<font color="#9cdcfe">y</font>)
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#6a9955">//&nbsp;触摸变化距离</font>
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">delta</font>&nbsp;=&nbsp;<font color="#9cdcfe">t</font>.<font color="#dcdcaa">getDelta</font>()&nbsp;<font color="#6a9955">//&nbsp;cc.Vec2</font>
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#9cdcfe">x</font>&nbsp;+=&nbsp;<font color="#9cdcfe">delta</font>.<font color="#9cdcfe">x</font>
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#9cdcfe">y</font>&nbsp;+=&nbsp;<font color="#9cdcfe">delta</font>.<font color="#9cdcfe">y</font>
+        </div>
+        <div>
+          }
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="停止事件传递" ID="ID_1940658171" CREATED="1587966559649" MODIFIED="1587966574796"/>
+</node>
 <node TEXT="键盘事件" ID="ID_787087518" CREATED="1587663410128" MODIFIED="1587663427780"/>
 <node TEXT="自定义事件" ID="ID_759921956" CREATED="1587663428034" MODIFIED="1587663432108"/>
 </node>
