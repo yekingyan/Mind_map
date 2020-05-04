@@ -144,22 +144,22 @@
 <node TEXT="模块导入" FOLDED="true" ID="ID_597336010" CREATED="1587181421850" MODIFIED="1587434243135">
 <node TEXT=" require/exports" ID="ID_942864112" CREATED="1587181851434" MODIFIED="1587181852534">
 <node TEXT="utils模块 导出" ID="ID_1204984671" CREATED="1587182192028" MODIFIED="1587182259215">
-<node ID="ID_1786853455" CREATED="1587182295927" MODIFIED="1587182309161"><richcontent TYPE="NODE">
+<node ID="ID_1786853455" CREATED="1587182295927" MODIFIED="1588580641434"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; line-height: 19px; white-space: pre">
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
       <div>
         <font color="#4ec9b0">module</font>.<font color="#4ec9b0">exports</font>&nbsp;=&nbsp;{
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;<font color="#dcdcaa">funcA</font>,&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">funcA</font>,&nbsp;
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;<font color="#dcdcaa">funcB</font>,
+        &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">funcB</font>,
       </div>
       <div>
         }
@@ -167,11 +167,12 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
 <node TEXT="导入 utils模块" ID="ID_1298472036" CREATED="1587182452043" MODIFIED="1587182463379">
-<node ID="ID_1321953768" CREATED="1587182520410" MODIFIED="1587182524478"><richcontent TYPE="NODE">
+<node ID="ID_1321953768" CREATED="1587182520410" MODIFIED="1588581050902"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -193,6 +194,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="rquire() 每次执行返回模块的module.exports，只有第一次执行才会运行模块脚本" ID="ID_400817772" CREATED="1587208526613" MODIFIED="1587208652699"/>
@@ -201,7 +203,7 @@
 <node TEXT=" import/export" ID="ID_1274556668" CREATED="1587181868801" MODIFIED="1587181869997">
 <node TEXT="utils模块 导出" ID="ID_1575892688" CREATED="1587182703554" MODIFIED="1587182715930">
 <node TEXT="export 关键字" ID="ID_1482202001" CREATED="1587183192796" MODIFIED="1587183217166">
-<node ID="ID_1562952637" CREATED="1587185105740" MODIFIED="1587185155349"><richcontent TYPE="NODE">
+<node ID="ID_1562952637" CREATED="1587185105740" MODIFIED="1588581193926"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -229,12 +231,13 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
 <node TEXT="default" ID="ID_830936316" CREATED="1587185190335" MODIFIED="1587185219922">
 <node TEXT=" 定义一个默认导出文件,只有一个" ID="ID_443147577" CREATED="1587185221809" MODIFIED="1587185231310"/>
-<node ID="ID_1593687760" CREATED="1587185376089" MODIFIED="1587185380225"><richcontent TYPE="NODE">
+<node ID="ID_1593687760" CREATED="1587185376089" MODIFIED="1588581228258"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -264,12 +267,13 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
 </node>
 <node TEXT="导入 utils模块" ID="ID_1650888394" CREATED="1587182716116" MODIFIED="1587182724994">
-<node ID="ID_649609850" CREATED="1587185031265" MODIFIED="1587185062479"><richcontent TYPE="NODE">
+<node ID="ID_649609850" CREATED="1587185031265" MODIFIED="1588581269711"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -285,13 +289,14 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="导入 default" ID="ID_1293547539" CREATED="1587185412824" MODIFIED="1587185423356"/>
 </node>
 <node TEXT=" 应用模块到HTML" ID="ID_1140380317" CREATED="1587185435962" MODIFIED="1587185456928">
 <node TEXT=" 把 type=&quot;module&quot; 放到 &lt;script&gt; 标签中, 来声明这个脚本是一个模块" ID="ID_341857931" CREATED="1587185465420" MODIFIED="1587185469475"/>
-<node ID="ID_193698204" CREATED="1587185654673" MODIFIED="1587185672258"><richcontent TYPE="NODE">
+<node ID="ID_193698204" CREATED="1587185654673" MODIFIED="1588581341199"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -315,6 +320,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -341,11 +347,11 @@
 </node>
 </node>
 <node TEXT="this" FOLDED="true" ID="ID_829014709" CREATED="1587181427438" MODIFIED="1587434239502">
-<node TEXT="函数中的this" ID="ID_393299555" CREATED="1587208823067" MODIFIED="1587208831069">
+<node TEXT="函数中的this" FOLDED="true" ID="ID_393299555" CREATED="1587208823067" MODIFIED="1587208831069">
 <node TEXT="指代调用的对象" ID="ID_768933048" CREATED="1587209158775" MODIFIED="1587276490113"/>
 <node TEXT="显式传递this" ID="ID_193638430" CREATED="1587275640802" MODIFIED="1587277748089">
 <node TEXT="注意箭头函数的this完全由上下文决定,不受call、apply控制" ID="ID_1817265967" CREATED="1587275571075" MODIFIED="1587277113983"/>
-<node ID="ID_238724410" CREATED="1587276079011" MODIFIED="1587276089765"><richcontent TYPE="NODE">
+<node ID="ID_238724410" CREATED="1587276079011" MODIFIED="1588583398777"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -406,6 +412,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -413,7 +420,7 @@
 <node TEXT="指代实例本身，类似python中的self" ID="ID_290478807" CREATED="1587276196493" MODIFIED="1587276220937"/>
 </node>
 <node TEXT="强制传递this" ID="ID_375176994" CREATED="1587276496362" MODIFIED="1587276506192">
-<node ID="ID_424001046" CREATED="1587276872861" MODIFIED="1587277084949"><richcontent TYPE="NODE">
+<node ID="ID_424001046" CREATED="1587276872861" MODIFIED="1588583489804"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -463,6 +470,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -471,7 +479,7 @@
 </node>
 </node>
 <node TEXT="this 与 prototype 实现面向对象" ID="ID_425074461" CREATED="1587278083021" MODIFIED="1587278305423">
-<node ID="ID_984152483" CREATED="1587278719057" MODIFIED="1587311239611"><richcontent TYPE="NODE">
+<node ID="ID_984152483" CREATED="1587278719057" MODIFIED="1588583679738"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -561,6 +569,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="prototype 原型链" ID="ID_855685028" CREATED="1587278078185" MODIFIED="1587278093769">
@@ -622,7 +631,7 @@
 <node TEXT="四、调用这个类(即被new的函数运行一次)" ID="ID_1554788793" CREATED="1587279285444" MODIFIED="1587279369185"/>
 </node>
 <node TEXT="继承" ID="ID_1117571830" CREATED="1587311045989" MODIFIED="1587311051466">
-<node ID="ID_392078479" CREATED="1587311250742" MODIFIED="1587311512754"><richcontent TYPE="NODE">
+<node ID="ID_392078479" CREATED="1587311250742" MODIFIED="1588584179459"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -685,6 +694,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="子类调用父类同名方法" ID="ID_1300584677" CREATED="1587311632030" MODIFIED="1587311644799">
@@ -756,7 +766,7 @@
 </node>
 </node>
 <node TEXT="通用class" ID="ID_1922569743" CREATED="1587315551412" MODIFIED="1587315555777">
-<node ID="ID_206221580" CREATED="1587318695902" MODIFIED="1587318705702"><richcontent TYPE="NODE">
+<node ID="ID_206221580" CREATED="1587318695902" MODIFIED="1588584226422"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -850,9 +860,10 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node ID="ID_321221408" CREATED="1587319470015" MODIFIED="1587319482418"><richcontent TYPE="NODE">
+<node ID="ID_321221408" CREATED="1587319470015" MODIFIED="1588584307327"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -939,13 +950,14 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="项目目录" POSITION="right" ID="ID_1237061232" CREATED="1587434712343" MODIFIED="1587434721359">
+<node TEXT="项目目录" FOLDED="true" POSITION="right" ID="ID_1237061232" CREATED="1587434712343" MODIFIED="1587434721359">
 <edge COLOR="#00ff00"/>
 <node TEXT="assets 目录" ID="ID_1793270087" CREATED="1587434247307" MODIFIED="1587434716119">
 <node TEXT="res" ID="ID_1102178330" CREATED="1587434427125" MODIFIED="1587434432502">
@@ -966,7 +978,7 @@
 </node>
 <node TEXT="cc.Node" POSITION="right" ID="ID_491320292" CREATED="1587521195552" MODIFIED="1587521201002">
 <edge COLOR="#00ffff"/>
-<node TEXT="场景树" ID="ID_1485568457" CREATED="1587521205093" MODIFIED="1587521218253">
+<node TEXT="场景树" FOLDED="true" ID="ID_1485568457" CREATED="1587521205093" MODIFIED="1587521218253">
 <node TEXT="概念" ID="ID_339071864" CREATED="1587521697727" MODIFIED="1587521703810">
 <node TEXT="游戏由一个个场景组成，通过代码控制场景跳转" ID="ID_897576048" CREATED="1587521588414" MODIFIED="1587521622894"/>
 <node TEXT="场景是一个树形结构" ID="ID_1842045441" CREATED="1587521623072" MODIFIED="1587521635236"/>
@@ -1022,7 +1034,7 @@
 <node TEXT="函数方法" ID="ID_151114435" CREATED="1587610338548" MODIFIED="1587610346806">
 <node TEXT="添加一个子节点" ID="ID_945409415" CREATED="1587610381888" MODIFIED="1587660956765">
 <node TEXT="addChild" ID="ID_572865376" CREATED="1587661140250" MODIFIED="1587661149263"/>
-<node ID="ID_963376731" CREATED="1587661115669" MODIFIED="1587661126753"><richcontent TYPE="NODE">
+<node ID="ID_963376731" CREATED="1587661115669" MODIFIED="1588591040082"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1118,7 +1130,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1175,14 +1186,147 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="停止事件传递" ID="ID_1940658171" CREATED="1587966559649" MODIFIED="1587966574796"/>
 </node>
-<node TEXT="键盘事件" ID="ID_787087518" CREATED="1587663410128" MODIFIED="1587663427780"/>
-<node TEXT="自定义事件" ID="ID_759921956" CREATED="1587663428034" MODIFIED="1587663432108"/>
+<node TEXT="键盘事件" ID="ID_787087518" CREATED="1587663410128" MODIFIED="1587663427780">
+<node TEXT=" cc.SystemEvent 是一个类， cc.systemEvent 是一个全局实例" ID="ID_561347631" CREATED="1588577809905" MODIFIED="1588577841443"/>
+<node TEXT=" 监听按键" ID="ID_1128792311" CREATED="1588514589287" MODIFIED="1588576140086">
+<node ID="ID_1386893480" CREATED="1588576013245" MODIFIED="1588576133600"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#dcdcaa">onKeyDown</font>&nbsp;(<font color="#9cdcfe">event</font>)&nbsp;{},
+        </div>
+        <br/>
+        
+
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#dcdcaa">onKeyUp</font>&nbsp;(<font color="#9cdcfe">event</font>)&nbsp;{
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#c586c0">switch</font>&nbsp;(<font color="#9cdcfe">event</font>.<font color="#9cdcfe">keyCode</font>)&nbsp;{
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#c586c0">case</font>&nbsp;<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">macro</font>.<font color="#4ec9b0">KEY</font>.<font color="#b5cea8">space</font>:
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">console</font>.<font color="#dcdcaa">log</font>(<font color="#ce9178">&quot;on&nbsp;click&nbsp;space&quot;</font>)
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#c586c0">break</font>
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;},
+        </div>
+        <br/>
+        
+
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;<font color="#dcdcaa">onLoad</font>&nbsp;()&nbsp;{
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#6a9955">//&nbsp;监听按键按下与弹起</font>
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#4ec9b0">cc</font>.<font color="#9cdcfe">systemEvent</font>.<font color="#dcdcaa">on</font>(
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">SystemEvent</font>.<font color="#4ec9b0">EventType</font>.<font color="#9cdcfe">KEY_DOWN</font>,&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">onKeyDown</font>,&nbsp;<font color="#569cd6">this</font>)
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#4ec9b0">cc</font>.<font color="#9cdcfe">systemEvent</font>.<font color="#dcdcaa">on</font>(
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">SystemEvent</font>.<font color="#4ec9b0">EventType</font>.<font color="#9cdcfe">KEY_UP</font>,&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">onKeyUp</font>,&nbsp;<font color="#569cd6">this</font>)
+        </div>
+        <div>
+          &nbsp;&nbsp;&nbsp;&nbsp;},
+        </div>
+        <br/>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="自定义事件" ID="ID_759921956" CREATED="1587663428034" MODIFIED="1587663432108">
+<node TEXT="触发事件的sender，接收事件的receiver" ID="ID_1295652486" CREATED="1588578507449" MODIFIED="1588578595221"/>
+<node ID="ID_884149244" CREATED="1588579630704" MODIFIED="1588579775402"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div style="line-height: 19px">
+              <div style="line-height: 19px">
+                <div>
+                  <font color="#6a9955">//&nbsp;receiver</font>
+                </div>
+                <div>
+                  <font color="#569cd6">const</font>&nbsp;<font color="#9cdcfe">myEvent</font>&nbsp;=&nbsp;<font color="#ce9178">'my_event'</font>
+                </div>
+                <div>
+                  <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">on</font>(<font color="#9cdcfe">myEvent</font>,&nbsp;(<font color="#9cdcfe">detail</font>)&nbsp;<font color="#569cd6">=&gt;</font>&nbsp;{
+                </div>
+                <div>
+                  &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">console</font>.<font color="#dcdcaa">log</font>(<font color="#9cdcfe">detail</font>)
+                </div>
+                <div>
+                  },&nbsp;<font color="#569cd6">this</font>)
+                </div>
+                <br/>
+                
+
+                <div>
+                  <font color="#6a9955">//&nbsp;sender,&nbsp;emit只能发自己</font>
+                </div>
+                <div>
+                  <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">emit</font>(<font color="#9cdcfe">myEvent</font>,&nbsp;{<font color="#ce9178">&quot;detail1&quot;</font><font color="#9cdcfe">:</font>&nbsp;<font color="#b5cea8">12</font>})
+                </div>
+                <br/>
+                
+
+                <div>
+                  <font color="#6a9955">//&nbsp;sender,&nbsp;dispatch，可选冒泡传递(向父节点及以上派发事件)</font>
+                </div>
+                <div>
+                  <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">event</font>&nbsp;=&nbsp;<font color="#569cd6">new</font>&nbsp;<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Event</font>.<font color="#4ec9b0">EventCustom</font>(<font color="#9cdcfe">myEvent</font>,&nbsp;<font color="#569cd6">true</font>)
+                </div>
+                <div>
+                  <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">dispatchEvent</font>(<font color="#9cdcfe">event</font>)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
