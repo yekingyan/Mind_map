@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="python3 内置函数" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1536494620117" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
-<hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<hook NAME="MapStyle">
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="96" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="97" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="filter" FOLDED="true" POSITION="right" ID="ID_183133208" CREATED="1536490006310" MODIFIED="1536494641713">
 <edge COLOR="#007c00"/>
@@ -890,7 +890,7 @@
 </node>
 </node>
 </node>
-<node TEXT="时间" POSITION="right" ID="ID_865158903" CREATED="1588424294559" MODIFIED="1588424302164">
+<node TEXT="时间" FOLDED="true" POSITION="right" ID="ID_865158903" CREATED="1588424294559" MODIFIED="1588424302164">
 <edge COLOR="#007c00"/>
 <node TEXT=" datetime 与 struct_time 实例化特定时间" ID="ID_895497894" CREATED="1588436077991" MODIFIED="1588436080462">
 <node ID="ID_1240630255" CREATED="1588436088435" MODIFIED="1588436088435"><richcontent TYPE="NODE">
@@ -903,7 +903,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># datetime </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">与</font></span><span style="color: #808080"><font color="#808080"> struct_time </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">实例化特定时间<br/></font></span>d1 = datetime.datetime(<span style="color: #aa4926"><font color="#aa4926">year</font></span>=<span style="color: #6897bb"><font color="#6897bb">2020</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">month</font></span>=<span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">day</font></span>=<span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/>d2 = time.struct_time((<span style="color: #6897bb"><font color="#6897bb">2020</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">122</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>-<span style="color: #6897bb"><font color="#6897bb">1</font></span>))<br/><span style="color: #808080"><font color="#808080"># d2 = time.strptime('2020-05-01', '%Y-%m-%d')</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -918,7 +917,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt">d1 = datetime.datetime(<span style="color: #aa4926"><font color="#aa4926">year</font></span>=<span style="color: #6897bb"><font color="#6897bb">2020</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">month</font></span>=<span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">day</font></span>=<span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/>d2 = time.strptime(<span style="color: #6a8759"><font color="#6a8759">'2020-05-01'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d'</font></span>)<br/><span style="color: #cc7832"><font color="#cc7832">assert </font></span>d1.timetuple() == d2<br/><span style="color: #cc7832"><font color="#cc7832">assert </font></span>d1 == datetime.datetime.fromtimestamp(time.mktime(d2))<br/><span style="color: #cc7832"><font color="#cc7832">assert </font></span>d1 == datetime.datetime(*d2[:<span style="color: #6897bb"><font color="#6897bb">3</font></span>])  <span style="color: #808080"><font color="#808080"># (2020, 5, 1)</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -933,7 +931,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># datetime</font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">、</font></span><span style="color: #808080"><font color="#808080">struct_time </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">转时间戳<br/></font></span>d1 = datetime.datetime(<span style="color: #aa4926"><font color="#aa4926">year</font></span>=<span style="color: #6897bb"><font color="#6897bb">2020</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">month</font></span>=<span style="color: #6897bb"><font color="#6897bb">5</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">day</font></span>=<span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/>d2 = time.strptime(<span style="color: #6a8759"><font color="#6a8759">'2020-05-01'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d'</font></span>)<br/><span style="color: #cc7832"><font color="#cc7832">assert </font></span>d1.timestamp() == time.mktime(d2)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -948,7 +945,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">时间戳转</font></span><span style="color: #808080"><font color="#808080"> datetime</font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">、</font></span><span style="color: #808080"><font color="#808080">struct_time<br/></font></span>ts = <span style="color: #6897bb"><font color="#6897bb">1588432132.2432551<br/></font></span>d1 = datetime.datetime.fromtimestamp(ts)<br/>d2 = d1.timetuple()</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -963,7 +959,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># timedelta</font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体"><br/></font></span>d1 = datetime.datetime.now()<br/>d2 = d1 + datetime.timedelta(<span style="color: #aa4926"><font color="#aa4926">days</font></span>=<span style="color: #6897bb"><font color="#6897bb">10</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_954476523" CREATED="1588436950401" MODIFIED="1588436950401"><richcontent TYPE="NODE">
@@ -976,7 +971,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># relativedelta<br/></font></span><span style="color: #cc7832"><font color="#cc7832">from </font></span>dateutil.relativedelta <span style="color: #cc7832"><font color="#cc7832">import </font></span>relativedelta<br/>d = datetime.datetime.now()<br/>d1 = d - relativedelta(<span style="color: #aa4926"><font color="#aa4926">months</font></span>=<span style="color: #6897bb"><font color="#6897bb">3</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -991,7 +985,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># strptime </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">字符串转时间<br/></font></span>d1 = datetime.datetime.strptime(<span style="color: #6a8759"><font color="#6a8759">'2020-05-01 22:21:58'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d %H:%M:%S'</font></span>)<br/>d2 = time.strptime(<span style="color: #6a8759"><font color="#6a8759">'2020-05-01 22:21:58'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d %H:%M:%S'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1006,9 +999,28 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono; font-size: 9.8pt"><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: 宋体"><font color="#808080" face="宋体">时间转字符串<br/></font></span>t1 = datetime.datetime.now()<br/>d1 = t1.strftime(<span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d %H:%M:%S'</font></span>)<br/>t2 = time.time()<br/>d2 = time.strftime(<span style="color: #6a8759"><font color="#6a8759">'%Y-%m-%d %H:%M:%S'</font></span>)</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
+</node>
+</node>
+<node TEXT="partial" POSITION="right" ID="ID_543790545" CREATED="1588929759522" MODIFIED="1588930557478">
+<edge COLOR="#7c007c"/>
+<node TEXT="概念" ID="ID_427642494" CREATED="1588931598610" MODIFIED="1588931604941">
+<node TEXT=" 固定函数参数，返回一个新的函数" ID="ID_1629305253" CREATED="1588931605498" MODIFIED="1588931606525"/>
+<node TEXT=" func = functools.partial(func, *args, **keywords)" ID="ID_1517918129" CREATED="1588930995710" MODIFIED="1588931303566"/>
+</node>
+<node ID="ID_1480519400" CREATED="1588930967883" MODIFIED="1588930967883"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Consolas; font-size: 9.8pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>functools <span style="color: #cc7832"><font color="#cc7832">import </font></span>partial<br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">spam</font></span>(a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b<span style="color: #cc7832"><font color="#cc7832">, </font></span>c<span style="color: #cc7832"><font color="#cc7832">, </font></span>d):<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b<span style="color: #cc7832"><font color="#cc7832">, </font></span>c<span style="color: #cc7832"><font color="#cc7832">, </font></span>d<br/><br/><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: Arial"><font color="#808080" face="Arial">固定位置参数<br/></font></span>f1 = partial(spam<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(f1(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span>))<br/><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: Arial"><font color="#808080" face="Arial">固定关键字参数<br/></font></span>f2 = partial(spam<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">d</font></span>=<span style="color: #6897bb"><font color="#6897bb">44</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(f2(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>))</pre>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 <node TEXT="os 模块" FOLDED="true" POSITION="left" ID="ID_1450216899" CREATED="1539077987880" MODIFIED="1539078006161">
