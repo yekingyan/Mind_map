@@ -1084,7 +1084,7 @@
 </node>
 </node>
 </node>
-<node TEXT="事件响应" ID="ID_1425293657" CREATED="1587663392899" MODIFIED="1587663397683">
+<node TEXT="事件响应" FOLDED="true" ID="ID_1425293657" CREATED="1587663392899" MODIFIED="1587663397683">
 <node TEXT="触摸事件" ID="ID_803326871" CREATED="1587663405103" MODIFIED="1587663414558">
 <node TEXT=" 事件类型" ID="ID_1443817171" CREATED="1587694334932" MODIFIED="1587694336799">
 <node TEXT="START 点击" ID="ID_1396610629" CREATED="1587694367829" MODIFIED="1587694643132">
@@ -1325,6 +1325,400 @@
 </html>
 
 </richcontent>
+</node>
+</node>
+</node>
+<node TEXT="坐标空间" ID="ID_1567203832" CREATED="1588614008934" MODIFIED="1588614013844">
+<node TEXT="cc.Vec2" FOLDED="true" ID="ID_322435615" CREATED="1588614030049" MODIFIED="1588614038092">
+<node TEXT="创建二维向量" ID="ID_1904797718" CREATED="1588678945580" MODIFIED="1588678952963">
+<node ID="ID_1810392513" CREATED="1588679288161" MODIFIED="1588679292217"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">wPos1</font>&nbsp;=&nbsp;<font color="#569cd6">new</font>&nbsp;<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Vec2</font>(<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">100</font>)
+      </div>
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">wPos2</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">v2</font>(<font color="#b5cea8">200</font>,&nbsp;<font color="#b5cea8">200</font>)
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="向量运算" ID="ID_1064848323" CREATED="1588679758794" MODIFIED="1588679762459">
+<node ID="ID_1801601778" CREATED="1588679872997" MODIFIED="1588679877413"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">src</font>&nbsp;=&nbsp;<font color="#569cd6">new</font>&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">v2</font>(<font color="#b5cea8">0</font>,&nbsp;<font color="#b5cea8">0</font>)
+      </div>
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">dst</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">v2</font>(<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">100</font>)
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#6a9955">//&nbsp;向量相减</font>
+      </div>
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">dir</font>&nbsp;=&nbsp;<font color="#9cdcfe">src</font>.<font color="#dcdcaa">sub</font>(<font color="#9cdcfe">dst</font>)
+      </div>
+      <div>
+        <font color="#6a9955">//&nbsp;向量相加</font>
+      </div>
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">dir</font>&nbsp;=&nbsp;<font color="#9cdcfe">src</font>.<font color="#dcdcaa">add</font>(<font color="#9cdcfe">dst</font>)
+      </div>
+      <div>
+        <font color="#6a9955">//&nbsp;向量长度</font>
+      </div>
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">length</font>&nbsp;=&nbsp;<font color="#9cdcfe">dir</font>.<font color="#dcdcaa">mag</font>()
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="向量相加减" ID="ID_946861285" CREATED="1588777587693" MODIFIED="1588777671681">
+<node TEXT="" ID="ID_704992903" CREATED="1588777638743" MODIFIED="1588777645359">
+<hook URI="nodejs与cocos_files/png_879028077536657232.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="cc.Size 大小对象" FOLDED="true" ID="ID_1210753677" CREATED="1588691115280" MODIFIED="1588870672659" VGAP_QUANTITY="6.8999999999999995 pt">
+<node ID="ID_647206979" CREATED="1588697330262" MODIFIED="1588870672657"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">size</font>&nbsp;=&nbsp;<font color="#569cd6">new</font>&nbsp;<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Size</font>(<font color="#b5cea8">50</font>,&nbsp;<font color="#b5cea8">100</font>)
+      </div>
+      <div>
+        <font color="#9cdcfe">size</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">size</font>(<font color="#b5cea8">30</font>,&nbsp;<font color="#b5cea8">30</font>)
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="cc.Rect" FOLDED="true" ID="ID_1347707178" CREATED="1588691119408" MODIFIED="1588697571211">
+<node TEXT="创建矩形对象" ID="ID_1722039546" CREATED="1588697558957" MODIFIED="1588697576645">
+<node ID="ID_272781779" CREATED="1588697546611" MODIFIED="1588697550853"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">rect</font>&nbsp;=&nbsp;<font color="#569cd6">new</font>&nbsp;<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Rect</font>(<font color="#b5cea8">0</font>,&nbsp;<font color="#b5cea8">0</font>,&nbsp;<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">100</font>)
+      </div>
+      <div>
+        <font color="#9cdcfe">rect</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">rect</font>(<font color="#b5cea8">0</font>,&nbsp;<font color="#b5cea8">0</font>,&nbsp;<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">200</font>)
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="点是否在矩形中" ID="ID_1261838362" CREATED="1588697577907" MODIFIED="1588777502423">
+<node ID="ID_506442428" CREATED="1588697899229" MODIFIED="1588697902881"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div>
+          <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">rect</font>&nbsp;=&nbsp;<font color="#569cd6">new</font>&nbsp;<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Rect</font>(<font color="#b5cea8">0</font>,&nbsp;<font color="#b5cea8">0</font>,&nbsp;<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">100</font>)
+        </div>
+        <div>
+          <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">ret</font>&nbsp;=&nbsp;<font color="#9cdcfe">rect</font>.<font color="#dcdcaa">contains</font>(<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">v2</font>(<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">100</font>))
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="矩形是否相交" ID="ID_1934061080" CREATED="1588697588031" MODIFIED="1588697596351">
+<node ID="ID_1172664960" CREATED="1588698054821" MODIFIED="1588698058459"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">rect1</font>&nbsp;=&nbsp;<font color="#569cd6">new</font>&nbsp;<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Rect</font>(<font color="#b5cea8">0</font>,&nbsp;<font color="#b5cea8">0</font>,&nbsp;<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">100</font>)
+      </div>
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">rect2</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">rect</font>(<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">5</font>,&nbsp;<font color="#b5cea8">5</font>)
+      </div>
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">ret</font>&nbsp;=&nbsp;<font color="#9cdcfe">rect1</font>.<font color="#dcdcaa">intersects</font>(<font color="#9cdcfe">rect2</font>)
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="坐标系" ID="ID_1036688424" CREATED="1588698090726" MODIFIED="1588698093366">
+<node TEXT=" 世界(屏幕)坐标系" ID="ID_195671052" CREATED="1588777109314" MODIFIED="1588777110925">
+<node TEXT="笛卡尔直角坐标系" ID="ID_1848902568" CREATED="1588777192226" MODIFIED="1588777367674"/>
+<node TEXT="左下角为原点，右x上y" ID="ID_23829265" CREATED="1588777368107" MODIFIED="1588777382045"/>
+</node>
+<node TEXT=" 相对(节点)坐标系" ID="ID_1674221723" CREATED="1588777117341" MODIFIED="1588777118383">
+<node TEXT=" (1) 以左下角为原点" ID="ID_1761016566" CREATED="1588777130404" MODIFIED="1588777134195"/>
+<node TEXT=" (2) 以锚点为原点(AR后缀的API)" ID="ID_115679407" CREATED="1588777143795" MODIFIED="1588869846597"/>
+</node>
+<node TEXT=" 节点坐标和屏幕坐标的相互转换" ID="ID_1436515813" CREATED="1588777165678" MODIFIED="1588777166862">
+<node TEXT="节点坐标 转 屏幕坐标" ID="ID_765753379" CREATED="1588870291811" MODIFIED="1588870310266">
+<node TEXT="以左下角为原点" ID="ID_1031607072" CREATED="1588870143857" MODIFIED="1588870565584">
+<node TEXT="convertToWorldSpace" ID="ID_1595789439" CREATED="1588870069394" MODIFIED="1588870142633"/>
+<node ID="ID_913888838" CREATED="1588870063663" MODIFIED="1588870067491"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">nodePos</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">v2</font>(<font color="#b5cea8">0</font>,&nbsp;<font color="#b5cea8">0</font>)
+      </div>
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">worldPos</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">convertToWorldSpace</font>(<font color="#9cdcfe">nodePos</font>)
+      </div>
+      <div>
+        <font color="#9cdcfe">console</font>.<font color="#dcdcaa">log</font>(<font color="#9cdcfe">worldPos</font>)&nbsp;&nbsp;<font color="#6a9955">//&nbsp;cc.v2(370,&nbsp;280)</font>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="以锚点为原点" ID="ID_979747999" CREATED="1588870152609" MODIFIED="1588870166029">
+<node TEXT=" convertToWorldSpace" ID="ID_1038158512" CREATED="1588870182885" MODIFIED="1588870185975"/>
+<node ID="ID_1058187990" CREATED="1588870244909" MODIFIED="1588870248786"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div>
+          <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">nodePos</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">v2</font>(<font color="#b5cea8">0</font>,&nbsp;<font color="#b5cea8">0</font>)
+        </div>
+        <div>
+          <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">worldPos</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">convertToWorldSpaceAR</font>(<font color="#9cdcfe">nodePos</font>)
+        </div>
+        <div>
+          <font color="#9cdcfe">console</font>.<font color="#dcdcaa">log</font>(<font color="#9cdcfe">worldPos</font>)&nbsp;&nbsp;<font color="#6a9955">//&nbsp;cc.v2(430,&nbsp;330)</font>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="屏幕坐标 转 节点坐标" ID="ID_1799242140" CREATED="1588870316399" MODIFIED="1588870327763">
+<node TEXT="以左下角为原点" ID="ID_902256871" CREATED="1588870485911" MODIFIED="1588870567881">
+<node TEXT=" convertToNodeSpace" ID="ID_807078218" CREATED="1588870863560" MODIFIED="1588870867053"/>
+<node ID="ID_744166481" CREATED="1588870636282" MODIFIED="1588870644833"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div>
+              <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">worldPos</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">v2</font>(<font color="#b5cea8">430</font>,&nbsp;<font color="#b5cea8">330</font>)
+            </div>
+            <div>
+              <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">nodePos</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">convertToNodeSpace</font>(<font color="#9cdcfe">worldPos</font>)
+            </div>
+            <div>
+              <font color="#9cdcfe">console</font>.<font color="#dcdcaa">log</font>(<font color="#9cdcfe">nodePos</font>)&nbsp;&nbsp;<font color="#6a9955">//&nbsp;cc.v2(60,&nbsp;50)</font>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" 以锚点为原点" ID="ID_935548058" CREATED="1588870559006" MODIFIED="1588870560487">
+<node TEXT=" convertToNodeSpaceAR" ID="ID_316049215" CREATED="1588870868237" MODIFIED="1588870871639"/>
+<node ID="ID_1289966636" CREATED="1588870477900" MODIFIED="1588870639704"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div>
+              <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">worldPos</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">v2</font>(<font color="#b5cea8">430</font>,&nbsp;<font color="#b5cea8">330</font>)
+            </div>
+            <div>
+              <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">nodePos</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">convertToNodeSpace</font>(<font color="#9cdcfe">worldPos</font>)
+            </div>
+            <div>
+              <font color="#9cdcfe">console</font>.<font color="#dcdcaa">log</font>(<font color="#9cdcfe">nodePos</font>)&nbsp;&nbsp;<font color="#6a9955">//&nbsp;cc.v2(60,&nbsp;50)</font>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="通常情况下用带AR的接口，creator编辑器默认以锚点为原点" ID="ID_81988898" CREATED="1588870707303" MODIFIED="1588870799498"/>
+</node>
+<node TEXT="包围盒" ID="ID_1947114019" CREATED="1588957328210" MODIFIED="1588957334559">
+<node TEXT="父亲节点" ID="ID_1373673631" CREATED="1588957335779" MODIFIED="1588957343482">
+<node TEXT=" 获取在父亲节点坐标系下(AR为原点)的节点包围盒" ID="ID_383954082" CREATED="1588870818304" MODIFIED="1588870927049"/>
+<node ID="ID_1544951368" CREATED="1588957366480" MODIFIED="1588957366480"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">let</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">box</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;=&nbsp;</font></span><span style="color: #569cd6"><font color="#569cd6">this</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">node</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">getBoundingBox</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">()</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="世界坐标系" ID="ID_977926640" CREATED="1588957343646" MODIFIED="1588957350465">
+<node TEXT=" 获取在世界坐标系下的节点包围盒" ID="ID_971619194" CREATED="1588870940617" MODIFIED="1588870941940"/>
+<node ID="ID_693462919" CREATED="1588957376942" MODIFIED="1588957376942"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: #d4d4d4; background-color: #1e1e1e; font-family: Consolas, Courier New, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">let</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">wBox</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&nbsp;=&nbsp;</font></span><span style="color: #569cd6"><font color="#569cd6">this</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">node</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">getBoundingBoxToWorld</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">()</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT=" 触摸事件对象世界坐标与节点坐标的转换" ID="ID_185383511" CREATED="1588870948203" MODIFIED="1588870949276">
+<node ID="ID_1849518063" CREATED="1588957851363" MODIFIED="1588957861966"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div style="line-height: 19px">
+              <div>
+                <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">on</font>(<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Node</font>.<font color="#4ec9b0">EventType</font>.<font color="#9cdcfe">TOUCH_START</font>,&nbsp;(<font color="#9cdcfe">t</font>)&nbsp;<font color="#569cd6">=&gt;</font>&nbsp;{
+              </div>
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;<font color="#6a9955">//&nbsp;先获取世界坐标，再转节点坐标</font>
+              </div>
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;<font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">w_pos</font>&nbsp;=&nbsp;<font color="#9cdcfe">t</font>.<font color="#dcdcaa">getLocation</font>()
+              </div>
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;<font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">pos1</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">convertToNodeSpaceAR</font>(<font color="#9cdcfe">w_pos</font>)
+              </div>
+              <br/>
+              
+
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;<font color="#6a9955">//&nbsp;触换目标直接转节点坐标</font>
+              </div>
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;<font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">pos2</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">convertTouchToNodeSpaceAR</font>(<font color="#9cdcfe">t</font>)
+              </div>
+              <div>
+                },&nbsp;<font color="#569cd6">this</font>)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
