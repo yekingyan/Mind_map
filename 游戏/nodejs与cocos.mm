@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="104" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="105" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="js" POSITION="right" ID="ID_478299870" CREATED="1587434231273" MODIFIED="1587434233756">
 <edge COLOR="#ff0000"/>
@@ -978,7 +978,7 @@
 </node>
 <node TEXT="cc.Node" POSITION="right" ID="ID_491320292" CREATED="1587521195552" MODIFIED="1587521201002">
 <edge COLOR="#00ffff"/>
-<node TEXT="场景树" FOLDED="true" ID="ID_1485568457" CREATED="1587521205093" MODIFIED="1587521218253">
+<node TEXT="场景树" ID="ID_1485568457" CREATED="1587521205093" MODIFIED="1587521218253">
 <node TEXT="概念" ID="ID_339071864" CREATED="1587521697727" MODIFIED="1587521703810">
 <node TEXT="游戏由一个个场景组成，通过代码控制场景跳转" ID="ID_897576048" CREATED="1587521588414" MODIFIED="1587521622894"/>
 <node TEXT="场景是一个树形结构" ID="ID_1842045441" CREATED="1587521623072" MODIFIED="1587521635236"/>
@@ -1328,7 +1328,7 @@
 </node>
 </node>
 </node>
-<node TEXT="坐标空间" ID="ID_1567203832" CREATED="1588614008934" MODIFIED="1588614013844">
+<node TEXT="坐标空间" FOLDED="true" ID="ID_1567203832" CREATED="1588614008934" MODIFIED="1588614013844">
 <node TEXT="cc.Vec2" FOLDED="true" ID="ID_322435615" CREATED="1588614030049" MODIFIED="1588614038092">
 <node TEXT="创建二维向量" ID="ID_1904797718" CREATED="1588678945580" MODIFIED="1588678952963">
 <node ID="ID_1810392513" CREATED="1588679288161" MODIFIED="1588679292217"><richcontent TYPE="NODE">
@@ -1718,6 +1718,547 @@
 </html>
 
 </richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Action" FOLDED="true" ID="ID_1815377162" CREATED="1589106689036" MODIFIED="1589106698497">
+<node TEXT=" 持续动作 ActionIntervial" ID="ID_1596111888" CREATED="1589106842712" MODIFIED="1589106892707">
+<node TEXT="移动" ID="ID_1557278172" CREATED="1589106932783" MODIFIED="1589106936836">
+<node TEXT="cc.moveTo" FOLDED="true" ID="ID_147507529" CREATED="1589106944093" MODIFIED="1589107586125">
+<node TEXT="移动到目标" ID="ID_1919285043" CREATED="1589106957489" MODIFIED="1589106964595"/>
+<node ID="ID_135152660" CREATED="1589107388192" MODIFIED="1589107400777"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div style="line-height: 19px">
+              <div style="line-height: 19px">
+                <div>
+                  <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">moveTo</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">moveTo</font>(<font color="#b5cea8">3</font>,&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">v2</font>(<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">100</font>))
+                </div>
+                <div>
+                  <font color="#6a9955">//&nbsp;let&nbsp;moveTo&nbsp;=&nbsp;cc.moveTo(3,&nbsp;100,&nbsp;100)</font>
+                </div>
+                <div>
+                  <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">runAction</font>(<font color="#9cdcfe">moveTo</font>)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="cc.moveBy" FOLDED="true" ID="ID_561682824" CREATED="1589106949171" MODIFIED="1589107583179">
+<node TEXT="移动相对于上一次" ID="ID_652663587" CREATED="1589106965581" MODIFIED="1589106976867"/>
+</node>
+<node TEXT="getPosition 确认" ID="ID_368804145" CREATED="1589107634588" MODIFIED="1589107873502"/>
+</node>
+<node TEXT="旋转" ID="ID_1695850631" CREATED="1589107482745" MODIFIED="1589107486659">
+<node TEXT="cc.rotateTo" FOLDED="true" ID="ID_774083193" CREATED="1589107486860" MODIFIED="1589107578615">
+<node ID="ID_362233201" CREATED="1589108055782" MODIFIED="1589108060164"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div style="line-height: 19px">
+              <div style="line-height: 19px">
+                <div style="line-height: 19px">
+                  <div>
+                    <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">rotate</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">rotateTo</font>(<font color="#b5cea8">3</font>,&nbsp;<font color="#b5cea8">180</font>)
+                  </div>
+                  <div>
+                    <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">runAction</font>(<font color="#9cdcfe">rotate</font>)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="cc.rotateBy" ID="ID_1747956030" CREATED="1589107587242" MODIFIED="1589107591858"/>
+<node TEXT="getRotation 或 cc.Node.angle 确认" ID="ID_1919429308" CREATED="1589107643992" MODIFIED="1589107924853"/>
+</node>
+<node TEXT="缩放" ID="ID_1425031202" CREATED="1589108327407" MODIFIED="1589109342118">
+<node TEXT="scaleTo" ID="ID_1777565661" CREATED="1589109347110" MODIFIED="1589109350051"/>
+<node TEXT="scaleBy" ID="ID_1168779590" CREATED="1589109342338" MODIFIED="1589109346895"/>
+<node TEXT="getScale 确认" ID="ID_1474089879" CREATED="1589109665858" MODIFIED="1589109682310"/>
+</node>
+<node TEXT="淡入淡出(透明度)" ID="ID_876767419" CREATED="1589109617258" MODIFIED="1589109834057">
+<node TEXT="cc.fadeIn" ID="ID_1905028950" CREATED="1589109631835" MODIFIED="1589109640594"/>
+<node TEXT="cc.fadeOut" ID="ID_1473326889" CREATED="1589109640800" MODIFIED="1589109644044"/>
+<node TEXT="cc.fadeTo" ID="ID_1308165967" CREATED="1589109799619" MODIFIED="1589109803916"/>
+<node TEXT="getOpacity 确认" ID="ID_1436158498" CREATED="1589109688771" MODIFIED="1589109789061"/>
+</node>
+</node>
+<node TEXT="瞬间动作 ActionInstant" ID="ID_1853120786" CREATED="1589106818674" MODIFIED="1589106884099">
+<node ID="ID_1989490582" CREATED="1589110691585" MODIFIED="1589110697990"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div style="line-height: 19px">
+              <div style="line-height: 19px">
+                <div style="line-height: 19px">
+                  <div style="line-height: 19px">
+                    <div style="line-height: 19px">
+                      <div>
+                        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">cb</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">callFunc</font>(()&nbsp;<font color="#569cd6">=&gt;</font>&nbsp;{
+                      </div>
+                      <div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">console</font>.<font color="#dcdcaa">log</font>(<font color="#ce9178">&quot;cb&quot;</font>)
+                      </div>
+                      <div>
+                        })
+                      </div>
+                      <div>
+                        <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">runAction</font>(<font color="#9cdcfe">cb</font>)
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="动作序列" ID="ID_759980486" CREATED="1589110703219" MODIFIED="1589110712351">
+<node ID="ID_62733492" CREATED="1589110856400" MODIFIED="1589110860456"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div style="line-height: 19px">
+              <div style="line-height: 19px">
+                <div style="line-height: 19px">
+                  <div style="line-height: 19px">
+                    <div style="line-height: 19px">
+                      <div style="line-height: 19px">
+                        <div>
+                          <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">act1</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">moveTo</font>(<font color="#b5cea8">2</font>,&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">v2</font>(<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">100</font>))
+                        </div>
+                        <div>
+                          <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">act2</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">fadeOut</font>(<font color="#b5cea8">1</font>)
+                        </div>
+                        <div>
+                          <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">seq</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">sequence</font>([<font color="#9cdcfe">act1</font>,&nbsp;<font color="#9cdcfe">act2</font>])
+                        </div>
+                        <div>
+                          <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">runAction</font>(<font color="#9cdcfe">seq</font>)
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="spawn" ID="ID_367834047" CREATED="1589111030006" MODIFIED="1589111056122">
+<node ID="ID_521947293" CREATED="1589111039675" MODIFIED="1589111050727"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div style="line-height: 19px">
+              <div style="line-height: 19px">
+                <div style="line-height: 19px">
+                  <div style="line-height: 19px">
+                    <div style="line-height: 19px">
+                      <div style="line-height: 19px">
+                        <div style="line-height: 19px">
+                          <div>
+                            <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">act1</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">moveTo</font>(<font color="#b5cea8">2</font>,&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">v2</font>(<font color="#b5cea8">100</font>,&nbsp;<font color="#b5cea8">100</font>))
+                          </div>
+                          <div>
+                            <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">act2</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">rotateTo</font>(<font color="#b5cea8">3</font>,&nbsp;-<font color="#b5cea8">270</font>)
+                          </div>
+                          <div>
+                            <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">seq</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">spawn</font>([<font color="#9cdcfe">act1</font>,&nbsp;<font color="#9cdcfe">act2</font>])
+                          </div>
+                          <div>
+                            <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">runAction</font>(<font color="#9cdcfe">seq</font>)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="动作循环" ID="ID_1985031569" CREATED="1589111074551" MODIFIED="1589111091954">
+<node TEXT="无限循环" ID="ID_35433235" CREATED="1589111206630" MODIFIED="1589111216382">
+<node ID="ID_1880210599" CREATED="1589111220596" MODIFIED="1589111228930"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div style="line-height: 19px">
+              <div style="line-height: 19px">
+                <div style="line-height: 19px">
+                  <div style="line-height: 19px">
+                    <div style="line-height: 19px">
+                      <div style="line-height: 19px">
+                        <div style="line-height: 19px">
+                          <div style="line-height: 19px">
+                            <div>
+                              <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">act1</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">rotateTo</font>(<font color="#b5cea8">3</font>,&nbsp;<font color="#b5cea8">270</font>)
+                            </div>
+                            <div>
+                              <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">act2</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">rotateTo</font>(<font color="#b5cea8">3</font>,&nbsp;-<font color="#b5cea8">270</font>)
+                            </div>
+                            <div>
+                              <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">seq</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">sequence</font>([<font color="#9cdcfe">act1</font>,&nbsp;<font color="#9cdcfe">act2</font>])
+                            </div>
+                            <div>
+                              <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">repeat</font>&nbsp;=&nbsp;<font color="#4ec9b0">cc</font>.<font color="#dcdcaa">repeatForever</font>(<font color="#9cdcfe">seq</font>)
+                            </div>
+                            <div>
+                              <font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">runAction</font>(<font color="#9cdcfe">repeat</font>)
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="重复几次" ID="ID_655492510" CREATED="1589111311675" MODIFIED="1589111316416">
+<node TEXT=" repeat(action, times)" ID="ID_96463758" CREATED="1589111316848" MODIFIED="1589111325973"/>
+</node>
+</node>
+<node TEXT="动作缓冲" ID="ID_1936638312" CREATED="1589129800957" MODIFIED="1589129805469">
+<node TEXT="cc.ease×××" ID="ID_1461179888" CREATED="1589130019021" MODIFIED="1589130077820"/>
+</node>
+</node>
+</node>
+<node TEXT="cc.Component" POSITION="right" ID="ID_742996113" CREATED="1590250147116" MODIFIED="1590250154516">
+<edge COLOR="#7c0000"/>
+<node TEXT="组件固定的入口函数" ID="ID_6259206" CREATED="1590250155956" MODIFIED="1590307429252">
+<node TEXT="onLoad" ID="ID_1787000794" CREATED="1590307461499" MODIFIED="1590307468158">
+<node TEXT="组件在加载的时候运行" ID="ID_306473865" CREATED="1590307468342" MODIFIED="1590307479429"/>
+<node TEXT="场景中的节点，以及节点关联的资源数据都准备好了" ID="ID_1759224927" CREATED="1590307574505" MODIFIED="1590307639738"/>
+</node>
+<node TEXT="start" ID="ID_423309498" CREATED="1590307487179" MODIFIED="1590307879421">
+<node TEXT="组件在第一次update之前调用" ID="ID_1454751661" CREATED="1590307494130" MODIFIED="1590307505744"/>
+</node>
+<node TEXT="update(dt)" ID="ID_674302588" CREATED="1590307514718" MODIFIED="1590307883562">
+<node TEXT="每一次游戏刷新的时候调用" ID="ID_1942800967" CREATED="1590307517224" MODIFIED="1590307532203"/>
+<node TEXT=" 会在所有画面更新前执行" ID="ID_1873003318" CREATED="1590307911805" MODIFIED="1590307912939"/>
+<node TEXT="dt 是距离上一次刷新的时间" ID="ID_1421141957" CREATED="1590307692460" MODIFIED="1590307705508"/>
+</node>
+<node TEXT=" lateUpdate(dt)" ID="ID_1834607151" CREATED="1590307862043" MODIFIED="1590307868419">
+<node TEXT=" 每一次游戏刷新完后调用" ID="ID_1511427874" CREATED="1590307869225" MODIFIED="1590307897447"/>
+<node TEXT=" 会在所有画面更新后执行" ID="ID_207696855" CREATED="1590307903721" MODIFIED="1590307909046"/>
+</node>
+<node TEXT=" onEnable" ID="ID_1350402378" CREATED="1590307534953" MODIFIED="1590307791408">
+<node TEXT=" 启用这个组件的时候调用" ID="ID_665467353" CREATED="1590307796198" MODIFIED="1590307800420"/>
+</node>
+<node TEXT=" onDisable" ID="ID_640280472" CREATED="1590307801799" MODIFIED="1590307809444">
+<node TEXT=" 禁用这个组件的时候调用" ID="ID_697056156" CREATED="1590307810218" MODIFIED="1590307811520"/>
+</node>
+<node TEXT=" onDestroy" ID="ID_1566045337" CREATED="1590307819775" MODIFIED="1590307825616">
+<node TEXT=" 组件实例销毁的时候调用" ID="ID_1016933453" CREATED="1590307826311" MODIFIED="1590307827438"/>
+</node>
+</node>
+<node TEXT="cc.Componet的属性" ID="ID_1140400042" CREATED="1590308010756" MODIFIED="1590308035822">
+<node TEXT="this 代表当前所运行的组件实例" ID="ID_384690467" CREATED="1590308036028" MODIFIED="1590308342014"/>
+<node TEXT="this.node" ID="ID_1467618575" CREATED="1590308361632" MODIFIED="1590308365686">
+<node TEXT="指向这个组件所挂载的节点对象(cc.Node)" ID="ID_326843769" CREATED="1590308366016" MODIFIED="1590308398057"/>
+</node>
+<node TEXT="this.name" ID="ID_1337768377" CREATED="1590308406329" MODIFIED="1590308409414">
+<node TEXT="组件实例所挂载的节点+组件的名称" ID="ID_231325736" CREATED="1590308409711" MODIFIED="1590308605365"/>
+<node TEXT="&quot;nodeName&lt;scriptName&gt;&quot;" ID="ID_304331857" CREATED="1590308512800" MODIFIED="1590308529414"/>
+<node TEXT="this.node.name -&gt; nodeName" ID="ID_1018050484" CREATED="1590308550579" MODIFIED="1590308571431"/>
+</node>
+<node TEXT="this.properties" ID="ID_466345536" CREATED="1590308610339" MODIFIED="1590308618792">
+<node TEXT="属性列表，定义的值可以在编辑器中修改" ID="ID_1304577666" CREATED="1590308619285" MODIFIED="1590308656989"/>
+<node TEXT="基本数据结构" ID="ID_1128248609" CREATED="1590308667935" MODIFIED="1590308677415">
+<node TEXT="Number" ID="ID_1353075020" CREATED="1590308677677" MODIFIED="1590312007331"/>
+<node TEXT="Boolean" ID="ID_1200531614" CREATED="1590308680981" MODIFIED="1590311990029"/>
+<node TEXT="String" ID="ID_292304744" CREATED="1590308684415" MODIFIED="1590312015261"/>
+<node TEXT="color cc.color(0, 0)" ID="ID_1294180998" CREATED="1590308689036" MODIFIED="1590308813917"/>
+<node TEXT="pos  cc.p(0, 0)" ID="ID_852895762" CREATED="1590308692824" MODIFIED="1590308797973"/>
+<node TEXT="size cc.size(100, 100)" ID="ID_1784810763" CREATED="1590308694595" MODIFIED="1590308824531"/>
+</node>
+<node TEXT="属性的定义方式" ID="ID_356462839" CREATED="1590311937152" MODIFIED="1590311949161">
+<node TEXT="直接定义" ID="ID_1058019611" CREATED="1590309661940" MODIFIED="1590312123064">
+<node TEXT=" s: &quot;&quot;" ID="ID_1610296919" CREATED="1590312114824" MODIFIED="1590312116150"/>
+<node TEXT=" isDebug: false" ID="ID_1501439134" CREATED="1590312124722" MODIFIED="1590312125983"/>
+</node>
+<node TEXT="详细定义" ID="ID_1331771305" CREATED="1590312086400" MODIFIED="1590312094799">
+<node ID="ID_1169679454" CREATED="1590311959537" MODIFIED="1590312076500"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#9cdcfe">isDebug:</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;<font color="#4ec9b0">type</font><font color="#9cdcfe">:</font>&nbsp;<font color="#4ec9b0">Boolean</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">default:</font>&nbsp;<font color="#569cd6">false</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">displayName:</font>&nbsp;<font color="#ce9178">'调试'</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">tooltip:</font>&nbsp;<font color="#ce9178">'是否开启调试,&nbsp;上线请关闭'</font>,
+      </div>
+      <div>
+        },
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="系统的组件" ID="ID_106339905" CREATED="1590308860102" MODIFIED="1590308884362">
+<node TEXT="cc.Sprite、cc.Button、cc.Lable 等" ID="ID_251272338" CREATED="1590308884671" MODIFIED="1590308912206"/>
+<node TEXT="cc.Sprite" ID="ID_725076009" CREATED="1590312178311" MODIFIED="1590312183307">
+<node TEXT="两种默认值" ID="ID_1490331082" CREATED="1590312533252" MODIFIED="1590312543539">
+<node TEXT="为null时只能在编辑器选一个节点" ID="ID_138268213" CREATED="1590312215123" MODIFIED="1590312245261"/>
+<node TEXT="为[]时可在编辑器设置多个节点" ID="ID_886070639" CREATED="1590312245467" MODIFIED="1590312281951"/>
+</node>
+<node ID="ID_1186888775" CREATED="1590312183478" MODIFIED="1590312211434"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div>
+            <font color="#9cdcfe">spriteItem:</font>&nbsp;{
+          </div>
+          <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;<font color="#4ec9b0">type</font><font color="#9cdcfe">:</font>&nbsp;<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Sprite</font>,
+          </div>
+          <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">default:</font>&nbsp;<font color="#569cd6">null</font>,&nbsp;&nbsp;<font color="#6a9955">//&nbsp;null&nbsp;或者是&nbsp;[]</font>
+          </div>
+          <div>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="自定义的组件" ID="ID_1837012371" CREATED="1590312298669" MODIFIED="1590312307484">
+<node TEXT="添加组件，再获得自定义的组件的构造类" ID="ID_1803006971" CREATED="1590312302791" MODIFIED="1590312775436"/>
+<node ID="ID_1530977244" CREATED="1590312648109" MODIFIED="1590312651447"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div>
+              <font color="#9cdcfe">customComp:</font>&nbsp;{
+            </div>
+            <div>
+              &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">type:</font>&nbsp;<font color="#dcdcaa">require</font>(<font color="#ce9178">&quot;my_comp&quot;</font>),
+            </div>
+            <div>
+              &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">default:</font>&nbsp;<font color="#569cd6">null</font>
+            </div>
+            <div>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="组件添加查找删除" ID="ID_685453844" CREATED="1590312716233" MODIFIED="1590312730727">
+<node TEXT="添加组件" ID="ID_1763726856" CREATED="1590312757644" MODIFIED="1590312763028">
+<node TEXT=" 返回组件的实例" ID="ID_1090759831" CREATED="1590312763277" MODIFIED="1590313021758"/>
+<node TEXT=" 一个节点可挂多个组件" ID="ID_1707862555" CREATED="1590313026466" MODIFIED="1590313027396"/>
+<node ID="ID_572199606" CREATED="1590313071285" MODIFIED="1590313600425"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div style="line-height: 19px">
+        <div style="line-height: 19px">
+          <div style="line-height: 19px">
+            <div style="line-height: 19px">
+              <div>
+                <font color="#6a9955">//&nbsp;可以添加系统组件,cc.Sprite，或自定义的组件</font>
+              </div>
+              <div>
+                <font color="#9cdcfe">instance</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#dcdcaa">addComponent</font>(<font color="#ce9178">&quot;my_item&quot;</font>)
+              </div>
+              <div>
+                <font color="#6a9955">//&nbsp;node也可以添加组件,等同</font>
+              </div>
+              <div>
+                <font color="#9cdcfe">instance2</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">addComponent</font>(<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Label</font>)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="查找组件" ID="ID_1898905232" CREATED="1590313076073" MODIFIED="1590313080135">
+<node TEXT=" getComponent" ID="ID_859722396" CREATED="1590313293847" MODIFIED="1590313303396">
+<node TEXT="ins = this.getComponet(&quot;my_item&quot;)" ID="ID_56892501" CREATED="1590313304242" MODIFIED="1590313368433"/>
+<node TEXT=" 如果有多个，第一个匹配" ID="ID_1514849166" CREATED="1590313338040" MODIFIED="1590313341679"/>
+</node>
+<node TEXT=" getComponents" ID="ID_543529122" CREATED="1590313357720" MODIFIED="1590313358965">
+<node TEXT=" inses = this.getComponet(cc.Lable)" ID="ID_1229434693" CREATED="1590313370498" MODIFIED="1590313380598"/>
+<node TEXT=" 查找这个节点上所有这个类型的组件实例, 列表" ID="ID_1194071825" CREATED="1590313386802" MODIFIED="1590313400704"/>
+</node>
+<node TEXT=" 在自己与孩子节点里面查找" ID="ID_291776555" CREATED="1590313489684" MODIFIED="1590313490691">
+<node TEXT="  getComponentInChildren" ID="ID_793771077" CREATED="1590313478558" MODIFIED="1590313484992"/>
+<node TEXT=" getComponentsInChildren" ID="ID_1888819276" CREATED="1590313503865" MODIFIED="1590313504960"/>
+</node>
+</node>
+<node TEXT="删除组件" ID="ID_1071065405" CREATED="1590313080333" MODIFIED="1590313087761">
+<node TEXT="this.destroy()" ID="ID_1169407469" CREATED="1590313532904" MODIFIED="1590313541083"/>
+<node TEXT="删除会调用 onDisable, onDestroy" ID="ID_1042340783" CREATED="1590313541353" MODIFIED="1590313568677"/>
+</node>
+</node>
+<node TEXT="定时器" ID="ID_395579524" CREATED="1590313613713" MODIFIED="1590313617486">
+<node TEXT=" 如果节点或组件没有激活是不会调用的" ID="ID_1281074133" CREATED="1590313644713" MODIFIED="1590313645826"/>
+<node TEXT="一次" ID="ID_1550174225" CREATED="1590313648777" MODIFIED="1590313651180">
+<node TEXT="this.sheduleOnce(func, nSec):" ID="ID_277722899" CREATED="1590313705989" MODIFIED="1590314215928"/>
+</node>
+<node TEXT="周期性" ID="ID_308521063" CREATED="1590313651367" MODIFIED="1590313694734">
+<node TEXT="this.schedule(函数, nSec, 次数+1,  多长时间后开始)" ID="ID_120657955" CREATED="1590313978480" MODIFIED="1590314266003"/>
+<node TEXT="次数" ID="ID_179570746" CREATED="1590314016233" MODIFIED="1590314029019">
+<node TEXT=" 执行的次数为(次数 + 1)" ID="ID_665555913" CREATED="1590314002552" MODIFIED="1590314005024"/>
+<node TEXT=" cc.macro.REPEAT_FOREVER" ID="ID_1498627143" CREATED="1590314032094" MODIFIED="1590314033402"/>
+</node>
+</node>
+<node TEXT="取消" ID="ID_31616597" CREATED="1590314362164" MODIFIED="1590314368288">
+<node TEXT=" 取消所有的定时器操作" ID="ID_533335337" CREATED="1590314393512" MODIFIED="1590314394583">
+<node TEXT="this.unscheduleAllCallbacks()" ID="ID_204898242" CREATED="1590314399001" MODIFIED="1590314408551"/>
+</node>
+<node TEXT=" 取消单个定时器" ID="ID_116277747" CREATED="1590314453855" MODIFIED="1590314470051">
+<node TEXT="并没有所谓的定时器id" ID="ID_872500813" CREATED="1590314519916" MODIFIED="1590314633229"/>
+<node TEXT=" 定时器执行了func，若取消则传入相同的func" ID="ID_1178456204" CREATED="1590314572434" MODIFIED="1590314587042"/>
+<node TEXT="this.unschedule(func)" ID="ID_408902958" CREATED="1590314593295" MODIFIED="1590314599202"/>
 </node>
 </node>
 </node>
