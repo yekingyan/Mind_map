@@ -3,7 +3,7 @@
 <node TEXT="nodejs与cocos" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1587133214992" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -167,7 +167,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -194,7 +193,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="rquire() 每次执行返回模块的module.exports，只有第一次执行才会运行模块脚本" ID="ID_400817772" CREATED="1587208526613" MODIFIED="1587208652699"/>
@@ -231,7 +229,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -267,7 +264,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -289,7 +285,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="导入 default" ID="ID_1293547539" CREATED="1587185412824" MODIFIED="1587185423356"/>
@@ -320,7 +315,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -412,7 +406,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -470,7 +463,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -569,7 +561,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="prototype 原型链" ID="ID_855685028" CREATED="1587278078185" MODIFIED="1587278093769">
@@ -694,7 +685,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="子类调用父类同名方法" ID="ID_1300584677" CREATED="1587311632030" MODIFIED="1587311644799">
@@ -860,7 +850,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_321221408" CREATED="1587319470015" MODIFIED="1588584307327"><richcontent TYPE="NODE">
@@ -950,7 +939,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1053,7 +1041,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1259,7 +1246,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1323,7 +1309,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1348,7 +1333,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1391,7 +1375,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1419,7 +1402,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1442,7 +1424,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1466,7 +1447,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1491,7 +1471,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1529,7 +1508,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1557,7 +1535,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1591,7 +1568,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1623,7 +1599,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1647,7 +1622,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1667,7 +1641,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1716,7 +1689,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1757,7 +1729,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1797,7 +1768,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1856,7 +1826,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1902,7 +1871,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1950,7 +1918,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2004,7 +1971,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2017,9 +1983,9 @@
 </node>
 </node>
 </node>
-<node TEXT="cc.Component" POSITION="right" ID="ID_742996113" CREATED="1590250147116" MODIFIED="1590250154516">
+<node TEXT="cc.Componet" POSITION="right" ID="ID_742996113" CREATED="1590250147116" MODIFIED="1590338956588">
 <edge COLOR="#7c0000"/>
-<node TEXT="组件固定的入口函数" ID="ID_6259206" CREATED="1590250155956" MODIFIED="1590307429252">
+<node TEXT="组件固定的入口函数" FOLDED="true" ID="ID_6259206" CREATED="1590250155956" MODIFIED="1590307429252">
 <node TEXT="onLoad" ID="ID_1787000794" CREATED="1590307461499" MODIFIED="1590307468158">
 <node TEXT="组件在加载的时候运行" ID="ID_306473865" CREATED="1590307468342" MODIFIED="1590307479429"/>
 <node TEXT="场景中的节点，以及节点关联的资源数据都准备好了" ID="ID_1759224927" CREATED="1590307574505" MODIFIED="1590307639738"/>
@@ -2046,7 +2012,7 @@
 <node TEXT=" 组件实例销毁的时候调用" ID="ID_1016933453" CREATED="1590307826311" MODIFIED="1590307827438"/>
 </node>
 </node>
-<node TEXT="cc.Componet的属性" ID="ID_1140400042" CREATED="1590308010756" MODIFIED="1590308035822">
+<node TEXT="cc.Componet的属性" FOLDED="true" ID="ID_1140400042" CREATED="1590308010756" MODIFIED="1590308035822">
 <node TEXT="this 代表当前所运行的组件实例" ID="ID_384690467" CREATED="1590308036028" MODIFIED="1590308342014"/>
 <node TEXT="this.node" ID="ID_1467618575" CREATED="1590308361632" MODIFIED="1590308365686">
 <node TEXT="指向这个组件所挂载的节点对象(cc.Node)" ID="ID_326843769" CREATED="1590308366016" MODIFIED="1590308398057"/>
@@ -2101,7 +2067,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2140,7 +2105,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2176,7 +2140,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2216,7 +2179,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2263,6 +2225,99 @@
 </node>
 </node>
 </node>
+<node TEXT="获取组件实例" ID="ID_1693580937" CREATED="1592125171134" MODIFIED="1592125178348">
+<node TEXT="编辑器绑定" ID="ID_1823935646" CREATED="1592125178587" MODIFIED="1592125185487">
+<node TEXT="节点的脚本properties用新属性定义这个组件" ID="ID_792784215" CREATED="1592125193625" MODIFIED="1592125572186"/>
+<node TEXT="在编辑器中把这个节点拖到新定义的属性上" ID="ID_1927698196" CREATED="1592125542771" MODIFIED="1592125576211"/>
+<node TEXT="this.新属性 获取这个组件实例" ID="ID_227186394" CREATED="1592125577659" MODIFIED="1592125598837"/>
+</node>
+<node TEXT="代码获取" ID="ID_1330884035" CREATED="1592125185641" MODIFIED="1592125190521">
+<node TEXT="如果组件实例不是在第一层，要先获取它的父组件" ID="ID_225286589" CREATED="1592125622881" MODIFIED="1592125654668"/>
+<node ID="ID_653642878" CREATED="1592125786997" MODIFIED="1592125791061"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">node</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">getChildByName</font>(<font color="#ce9178">&quot;time_bar&quot;</font>)
+      </div>
+      <div>
+        <font color="#569cd6">this</font>.<font color="#9cdcfe">sp</font>&nbsp;=&nbsp;<font color="#9cdcfe">node</font>.<font color="#dcdcaa">getComponent</font>(<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Sprite</font>)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="cc.Sprite" ID="ID_841398893" CREATED="1590339043724" MODIFIED="1590339060786">
+<node TEXT="creator显示一张图片" ID="ID_1666088957" CREATED="1592121131693" MODIFIED="1592121148614">
+<node TEXT="创建一个节点" ID="ID_1685901928" CREATED="1592121231451" MODIFIED="1592121237369"/>
+<node TEXT="节点上添加一个精灵组件" ID="ID_373900240" CREATED="1592121237564" MODIFIED="1592121273796"/>
+<node TEXT="精灵组件指定显示的图片(SpriteFrame)" ID="ID_558610567" CREATED="1592121183673" MODIFIED="1592121214455"/>
+<node TEXT="配置图片的SIZE_MODE选项" ID="ID_67396171" CREATED="1592121282086" MODIFIED="1592121563161">
+<node TEXT="CUSTOM - 大小与CCNode的大小一致" ID="ID_824867129" CREATED="1592121296914" MODIFIED="1592121594005"/>
+<node TEXT="RAW - 原始的图片大小" ID="ID_1463331376" CREATED="1592121315912" MODIFIED="1592121596985"/>
+<node TEXT="TRIMMED - 大小用 原始图片大小，显示用 裁剪掉透明像素后的图片" ID="ID_462916323" CREATED="1592121327343" MODIFIED="1592121784111"/>
+</node>
+<node TEXT="trim 勾选项" ID="ID_664474203" CREATED="1592121397092" MODIFIED="1592121663525">
+<node TEXT="勾选，裁剪掉图片的完全透明行和列区域" ID="ID_239575918" CREATED="1592121411152" MODIFIED="1592122183781"/>
+<node TEXT="做帧动画时，一般用原始大小不去透明度，避免动画抖动，大小由美术控制" ID="ID_979921969" CREATED="1592122141283" MODIFIED="1592122248013"/>
+</node>
+</node>
+<node TEXT="图片模式" ID="ID_174500355" CREATED="1592122272741" MODIFIED="1592122276907">
+<node TEXT="SIMPLE" ID="ID_950521430" CREATED="1592122277686" MODIFIED="1592122286219">
+<node TEXT="普通模式，图片缩放到指定大小" ID="ID_1515679533" CREATED="1592122374710" MODIFIED="1592122389245"/>
+</node>
+<node TEXT="TILED" ID="ID_985714841" CREATED="1592122311204" MODIFIED="1592122317354">
+<node TEXT="平铺模式，铺地板砖一样铺满大小" ID="ID_1387522501" CREATED="1592123785707" MODIFIED="1592123848198"/>
+</node>
+<node TEXT="SLICE" ID="ID_1445586894" CREATED="1592122324860" MODIFIED="1592122332283">
+<node TEXT="九宫格模式，指定拉伸区域" ID="ID_489655224" CREATED="1592123849779" MODIFIED="1592123869814"/>
+</node>
+<node TEXT="FILLED" ID="ID_1264900653" CREATED="1592122332728" MODIFIED="1592122336896">
+<node TEXT="设置填充的方式(圆、矩形)，按比例显示部分图片" ID="ID_358967613" CREATED="1592124478834" MODIFIED="1592124582784"/>
+<node TEXT="设置Radius参数" ID="ID_1695780153" CREATED="1592124653022" MODIFIED="1592124722520">
+<node TEXT="设置中心0-1，类似锚点" ID="ID_1958971248" CREATED="1592124657868" MODIFIED="1592124763522"/>
+<node TEXT="设置显示开始位置0-1，右边中心点开始，逆时针" ID="ID_346644980" CREATED="1592124664531" MODIFIED="1592124801086"/>
+<node TEXT="设置显示总量(0,1]，正数则为逆时针" ID="ID_15915459" CREATED="1592124673446" MODIFIED="1592124859528"/>
+</node>
+<node TEXT="可以做个性化时间进度显示" ID="ID_1041178766" CREATED="1592124873017" MODIFIED="1592125024520"/>
+</node>
+<node TEXT="MESH" ID="ID_1427568933" CREATED="1592122353194" MODIFIED="1592122356194"/>
+</node>
+<node TEXT="代码中换图片" ID="ID_886857142" CREATED="1593618712178" MODIFIED="1593618718302">
+<node TEXT=" 把要换的图绑定到编辑器上" ID="ID_1483379420" CREATED="1593618718572" MODIFIED="1593618769294">
+<node TEXT="添加properties，sprite_frame" ID="ID_124510922" CREATED="1593618779156" MODIFIED="1593618818766"/>
+<node ID="ID_709087877" CREATED="1593618821114" MODIFIED="1593618947800"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">this</font>.<font color="#9cdcfe">sp</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#dcdcaa">getChildByName</font>(<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Sprite</font>)
+      </div>
+      <div>
+        <font color="#569cd6">this</font>.<font color="#9cdcfe">sp</font>.<font color="#9cdcfe">spriteFrame</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">sprite_fram</font>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="资源动态加载" ID="ID_312221103" CREATED="1593618769493" MODIFIED="1593618776900"/>
+</node>
+</node>
+<node TEXT="cc.Button" ID="ID_807449377" CREATED="1593620923032" MODIFIED="1593620928750"/>
 </node>
 </node>
 </map>
