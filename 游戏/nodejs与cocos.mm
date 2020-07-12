@@ -2233,7 +2233,7 @@
 </node>
 <node TEXT="代码获取" ID="ID_1330884035" CREATED="1592125185641" MODIFIED="1592125190521">
 <node TEXT="如果组件实例不是在第一层，要先获取它的父组件" ID="ID_225286589" CREATED="1592125622881" MODIFIED="1592125654668"/>
-<node ID="ID_653642878" CREATED="1592125786997" MODIFIED="1592125791061"><richcontent TYPE="NODE">
+<node ID="ID_653642878" CREATED="1592125786997" MODIFIED="1593707981133"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2250,6 +2250,7 @@
     </div>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
@@ -2269,7 +2270,7 @@
 <node TEXT="做帧动画时，一般用原始大小不去透明度，避免动画抖动，大小由美术控制" ID="ID_979921969" CREATED="1592122141283" MODIFIED="1592122248013"/>
 </node>
 </node>
-<node TEXT="图片模式" ID="ID_174500355" CREATED="1592122272741" MODIFIED="1592122276907">
+<node TEXT="图片模式" ID="ID_174500355" CREATED="1592122272741" MODIFIED="1593708008171" MAX_WIDTH="45.961000313685396 pt" MIN_WIDTH="45.961000313685396 pt">
 <node TEXT="SIMPLE" ID="ID_950521430" CREATED="1592122277686" MODIFIED="1592122286219">
 <node TEXT="普通模式，图片缩放到指定大小" ID="ID_1515679533" CREATED="1592122374710" MODIFIED="1592122389245"/>
 </node>
@@ -2317,7 +2318,111 @@
 <node TEXT="资源动态加载" ID="ID_312221103" CREATED="1593618769493" MODIFIED="1593618776900"/>
 </node>
 </node>
-<node TEXT="cc.Button" ID="ID_807449377" CREATED="1593620923032" MODIFIED="1593620928750"/>
+<node TEXT="cc.Button" ID="ID_807449377" CREATED="1593620923032" MODIFIED="1593620928750">
+<node TEXT="按钮过渡效果" ID="ID_1629982816" CREATED="1594566428761" MODIFIED="1594566575172">
+<node TEXT="普通状态、hover、按下状态、禁用状态" ID="ID_63546000" CREATED="1594566580452" MODIFIED="1594566602643"/>
+<node TEXT="可用过渡类型，color、sprite、scale" ID="ID_1538007988" CREATED="1594566801389" MODIFIED="1594566853909"/>
+</node>
+<node TEXT="响应事件" ID="ID_1798756679" CREATED="1594566893292" MODIFIED="1594566900599">
+<node TEXT="节点 -&gt; 组件 -&gt; 指定响应的组件函数" ID="ID_1902785899" CREATED="1594567008280" MODIFIED="1594567029399"/>
+<node TEXT="Click Events 一个按钮可以定义多个响应" ID="ID_1113003947" CREATED="1594566912712" MODIFIED="1594566977216"/>
+<node TEXT="CustomEventData 响应函数自定义入参（字符串）" ID="ID_903433500" CREATED="1594567403401" MODIFIED="1594567454054"/>
+</node>
+<node TEXT="代码中获取button组件" ID="ID_949484768" CREATED="1594568150835" MODIFIED="1594568232098">
+<node ID="ID_966299315" CREATED="1594568176234" MODIFIED="1594568179994"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#6a9955">//&nbsp;获取button组件，找节点再找组件</font>
+      </div>
+      <div>
+        <font color="#569cd6">this</font>.<font color="#9cdcfe">myBtn</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">getChildByName</font>(<font color="#ce9178">&quot;New&nbsp;Button&quot;</font>).<font color="#dcdcaa">getComponent</font>(<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Button</font>)
+      </div>
+      <div>
+        <font color="#9cdcfe">console</font>.<font color="#dcdcaa">log</font>(<font color="#569cd6">this</font>.<font color="#9cdcfe">myBtn</font>)
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="代码添加button组件" ID="ID_1682781994" CREATED="1594567832262" MODIFIED="1594568235116">
+<node ID="ID_782589646" CREATED="1594568610041" MODIFIED="1594568993061"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#6a9955">//&nbsp;添加button组件，找节点再添加组件</font>
+      </div>
+      <div>
+        <font color="#569cd6">this</font>.<font color="#9cdcfe">newBtn</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">getChildByName</font>(<font color="#ce9178">&quot;NewBtn&quot;</font>).<font color="#dcdcaa">addComponent</font>(<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Button</font>)
+      </div>
+      <div>
+        <font color="#6a9955">//&nbsp;添加一个响应函数</font>
+      </div>
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">clickEvent</font>&nbsp;=&nbsp;<font color="#569cd6">new</font>&nbsp;<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">Component</font>.<font color="#4ec9b0">EventHandler</font>()
+      </div>
+      <div>
+        <font color="#9cdcfe">clickEvent</font>.<font color="#9cdcfe">target</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">clickEvent</font>.<font color="#9cdcfe">component</font>&nbsp;=&nbsp;<font color="#ce9178">&quot;canvas&quot;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">clickEvent</font>.<font color="#9cdcfe">handler</font>&nbsp;=&nbsp;<font color="#ce9178">&quot;OnBtnClick&quot;</font>
+      </div>
+      <div>
+        <font color="#9cdcfe">clickEvent</font>.<font color="#9cdcfe">customEventData</font>&nbsp;=&nbsp;<font color="#ce9178">&quot;strData&quot;</font>
+      </div>
+      <div>
+        <font color="#569cd6">this</font>.<font color="#9cdcfe">newBtn</font>.<font color="#9cdcfe">clickEvents</font>.<font color="#dcdcaa">push</font>(<font color="#9cdcfe">clickEvent</font>)
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="代码触发Button点击" ID="ID_485765191" CREATED="1594569930011" MODIFIED="1594569941251">
+<node ID="ID_1490541630" CREATED="1594570130123" MODIFIED="1594570133729"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">this</font>.<font color="#9cdcfe">newBtn</font>.<font color="#9cdcfe">clickEvents</font>.<font color="#dcdcaa">forEach</font>(<font color="#9cdcfe">eventHandler</font>&nbsp;<font color="#569cd6">=&gt;</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;<font color="#9cdcfe">eventHandler</font>.<font color="#dcdcaa">emit</font>([<font color="#ce9178">&quot;&quot;</font>,&nbsp;<font color="#ce9178">&quot;strData22&quot;</font>])
+      </div>
+      <div>
+        });
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="注意 Button无法响应节点为大小为(0, 0)这个点击事件" ID="ID_47593000" CREATED="1594569043719" MODIFIED="1594569209892"/>
+</node>
 </node>
 </node>
 </map>
