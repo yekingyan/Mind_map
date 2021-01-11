@@ -3,7 +3,7 @@
 <node TEXT="nodejs与cocos" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1587133214992" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -945,7 +945,7 @@
 </node>
 </node>
 </node>
-<node TEXT="项目目录" FOLDED="true" POSITION="right" ID="ID_1237061232" CREATED="1587434712343" MODIFIED="1587434721359">
+<node TEXT="项目目录" POSITION="right" ID="ID_1237061232" CREATED="1587434712343" MODIFIED="1587434721359">
 <edge COLOR="#00ff00"/>
 <node TEXT="assets 目录" ID="ID_1793270087" CREATED="1587434247307" MODIFIED="1587434716119">
 <node TEXT="res" ID="ID_1102178330" CREATED="1587434427125" MODIFIED="1587434432502">
@@ -1071,7 +1071,7 @@
 </node>
 </node>
 </node>
-<node TEXT="事件响应" FOLDED="true" ID="ID_1425293657" CREATED="1587663392899" MODIFIED="1587663397683">
+<node TEXT="事件响应" ID="ID_1425293657" CREATED="1587663392899" MODIFIED="1587663397683">
 <node TEXT="触摸事件" ID="ID_803326871" CREATED="1587663405103" MODIFIED="1587663414558">
 <node TEXT=" 事件类型" ID="ID_1443817171" CREATED="1587694334932" MODIFIED="1587694336799">
 <node TEXT="START 点击" ID="ID_1396610629" CREATED="1587694367829" MODIFIED="1587694643132">
@@ -1313,7 +1313,7 @@
 </node>
 </node>
 </node>
-<node TEXT="坐标空间" FOLDED="true" ID="ID_1567203832" CREATED="1588614008934" MODIFIED="1588614013844">
+<node TEXT="坐标空间" ID="ID_1567203832" CREATED="1588614008934" MODIFIED="1588614013844">
 <node TEXT="cc.Vec2" FOLDED="true" ID="ID_322435615" CREATED="1588614030049" MODIFIED="1588614038092">
 <node TEXT="创建二维向量" ID="ID_1904797718" CREATED="1588678945580" MODIFIED="1588678952963">
 <node ID="ID_1810392513" CREATED="1588679288161" MODIFIED="1588679292217"><richcontent TYPE="NODE">
@@ -1481,6 +1481,7 @@
 <node TEXT="左下角为原点，右x上y" ID="ID_23829265" CREATED="1588777368107" MODIFIED="1588777382045"/>
 </node>
 <node TEXT=" 相对(节点)坐标系" ID="ID_1674221723" CREATED="1588777117341" MODIFIED="1588777118383">
+<node TEXT="相对父节点的坐标系" ID="ID_764075729" CREATED="1610274242394" MODIFIED="1610274258134"/>
 <node TEXT=" (1) 以左下角为原点" ID="ID_1761016566" CREATED="1588777130404" MODIFIED="1588777134195"/>
 <node TEXT=" (2) 以锚点为原点(AR后缀的API)" ID="ID_115679407" CREATED="1588777143795" MODIFIED="1588869846597"/>
 </node>
@@ -2225,7 +2226,7 @@
 </node>
 </node>
 </node>
-<node TEXT="获取组件实例" ID="ID_1693580937" CREATED="1592125171134" MODIFIED="1592125178348">
+<node TEXT="获取组件实例" FOLDED="true" ID="ID_1693580937" CREATED="1592125171134" MODIFIED="1592125178348">
 <node TEXT="编辑器绑定" ID="ID_1823935646" CREATED="1592125178587" MODIFIED="1592125185487">
 <node TEXT="节点的脚本properties用新属性定义这个组件" ID="ID_792784215" CREATED="1592125193625" MODIFIED="1592125572186"/>
 <node TEXT="在编辑器中把这个节点拖到新定义的属性上" ID="ID_1927698196" CREATED="1592125542771" MODIFIED="1592125576211"/>
@@ -2250,12 +2251,11 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="cc.Sprite" ID="ID_841398893" CREATED="1590339043724" MODIFIED="1590339060786">
+<node TEXT="cc.Sprite" FOLDED="true" ID="ID_841398893" CREATED="1590339043724" MODIFIED="1590339060786">
 <node TEXT="creator显示一张图片" ID="ID_1666088957" CREATED="1592121131693" MODIFIED="1592121148614">
 <node TEXT="创建一个节点" ID="ID_1685901928" CREATED="1592121231451" MODIFIED="1592121237369"/>
 <node TEXT="节点上添加一个精灵组件" ID="ID_373900240" CREATED="1592121237564" MODIFIED="1592121273796"/>
@@ -2294,7 +2294,7 @@
 <node TEXT="代码中换图片" ID="ID_886857142" CREATED="1593618712178" MODIFIED="1593618718302">
 <node TEXT=" 把要换的图绑定到编辑器上" ID="ID_1483379420" CREATED="1593618718572" MODIFIED="1593618769294">
 <node TEXT="添加properties，sprite_frame" ID="ID_124510922" CREATED="1593618779156" MODIFIED="1593618818766"/>
-<node ID="ID_709087877" CREATED="1593618821114" MODIFIED="1593618947800"><richcontent TYPE="NODE">
+<node ID="ID_709087877" CREATED="1593618821114" MODIFIED="1595775238244"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2311,7 +2311,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2329,7 +2328,7 @@
 <node TEXT="CustomEventData 响应函数自定义入参（字符串）" ID="ID_903433500" CREATED="1594567403401" MODIFIED="1594567454054"/>
 </node>
 <node TEXT="代码中获取button组件" ID="ID_949484768" CREATED="1594568150835" MODIFIED="1594568232098">
-<node ID="ID_966299315" CREATED="1594568176234" MODIFIED="1594568179994"><richcontent TYPE="NODE">
+<node ID="ID_966299315" CREATED="1594568176234" MODIFIED="1595775715850"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2349,7 +2348,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2392,7 +2390,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2417,11 +2414,879 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="注意 Button无法响应节点为大小为(0, 0)这个点击事件" ID="ID_47593000" CREATED="1594569043719" MODIFIED="1594569209892"/>
+</node>
+<node TEXT="cc.Label" FOLDED="true" ID="ID_1470337700" CREATED="1595775821084" MODIFIED="1595775831161">
+<node TEXT="面板属性" ID="ID_1670732242" CREATED="1595776373219" MODIFIED="1595776381499">
+<node ID="ID_551799032" CREATED="1595776551811" MODIFIED="1595776551811"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      String: 文本显示的内容
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1612262176" CREATED="1595776551812" MODIFIED="1595776551812"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Horiznotal: 水平对齐的方式: 左 右 居中
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_481230966" CREATED="1595776551815" MODIFIED="1595776551815"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vertial: 上, 下, 居中, 字与行的排版
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_872426713" CREATED="1595776551818" MODIFIED="1595776551818"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Font Size: 字体大小
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1014970355" CREATED="1595776551820" MODIFIED="1595776551820"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      LineHeight: 每行的高度
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT=" OverFlow:文字排版" ID="ID_1752923382" CREATED="1595780559413" MODIFIED="1595780560809">
+<node TEXT="None: 没有任何特性" ID="ID_929622693" CREATED="1595780567385" MODIFIED="1595780583743"/>
+<node TEXT=" Clamp: 截断" ID="ID_724126931" CREATED="1595780588961" MODIFIED="1595780596064"/>
+<node TEXT=" Shank:自动缩放到节点大小" ID="ID_974120172" CREATED="1595780596802" MODIFIED="1595780597958"/>
+<node TEXT=" Resize Height: 根据宽度自动折行" ID="ID_1654684775" CREATED="1595780603426" MODIFIED="1595780605921"/>
+</node>
+<node TEXT="使用字体" ID="ID_1315866611" CREATED="1595780709685" MODIFIED="1595780714956">
+<node TEXT=" Use System Font" ID="ID_390220091" CREATED="1595780726320" MODIFIED="1595780904857">
+<node TEXT=" 是否使用系统字体" ID="ID_1656218072" CREATED="1595780905587" MODIFIED="1595780906790"/>
+<node TEXT=" Font Family: 字体家族,使用系统的哪种字库" ID="ID_264851862" CREATED="1595780917862" MODIFIED="1595780918971"/>
+</node>
+<node TEXT=" Font" ID="ID_1445010305" CREATED="1595780925924" MODIFIED="1595781294053">
+<node ID="ID_828834978" CREATED="1595781287504" MODIFIED="1595781287504"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &nbsp;ttf字库文件
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="ttf 矢量字体，灵活但占资源" ID="ID_1279406895" CREATED="1595780999604" MODIFIED="1595781090747"/>
+</node>
+<node ID="ID_426592443" CREATED="1595781295339" MODIFIED="1595781295339"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      位图字体字库文件
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT=" 速度快，文件小" ID="ID_285898894" CREATED="1595781305331" MODIFIED="1595781332386"/>
+<node ID="ID_1013137077" CREATED="1595781333646" MODIFIED="1595781333646"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      支持的字符个数是有限，省空间
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="代码使用cc.Label" ID="ID_590620894" CREATED="1595781777662" MODIFIED="1595781792919">
+<node TEXT="获取cc.Label组件" ID="ID_293321524" CREATED="1595781944578" MODIFIED="1595782087407">
+<node TEXT="编辑器绑定" ID="ID_351147621" CREATED="1595782060753" MODIFIED="1595782068355">
+<node TEXT=" properties 定义属性 myLabel" ID="ID_904603127" CREATED="1595781968661" MODIFIED="1595781997403"/>
+<node TEXT="编辑器绑定Label节点与myLabel" ID="ID_788304213" CREATED="1595781998009" MODIFIED="1595782033113"/>
+<node TEXT=" this.myLabel" ID="ID_1087770017" CREATED="1595782037337" MODIFIED="1595782043672"/>
+</node>
+<node TEXT="代码中获取" ID="ID_923215116" CREATED="1595782079634" MODIFIED="1595782084954">
+<node TEXT="let myLabel = this.node.getChilByName(&quot;New Label&quot;)" ID="ID_329586089" CREATED="1595782107044" MODIFIED="1595782152849"/>
+</node>
+</node>
+<node TEXT="修改Label的文本" ID="ID_1266497065" CREATED="1595782163205" MODIFIED="1595782172563">
+<node TEXT="this.myLabel.string = &quot;sss&quot;" ID="ID_1176441727" CREATED="1595782172753" MODIFIED="1595782185881"/>
+</node>
+</node>
+<node TEXT="富文本 RichText组件" ID="ID_985586336" CREATED="1595782250560" MODIFIED="1595782730891">
+<node TEXT=" 指定文字的颜色" ID="ID_1692247962" CREATED="1595782271340" MODIFIED="1595782792644">
+<node TEXT=" &lt; color=#0fffff&gt;Text&lt; /color&gt;" ID="ID_1916251379" CREATED="1595782800067" MODIFIED="1596034865059"/>
+</node>
+<node TEXT=" 文本插入图片" ID="ID_1596734072" CREATED="1595782812216" MODIFIED="1595782813503">
+<node TEXT=" img标签，图片要在指定的图集里面" ID="ID_1173007286" CREATED="1595782820426" MODIFIED="1595782828763"/>
+<node TEXT=" &lt; img src=&apos;cow1_1&apos;/&gt;" ID="ID_1276711011" CREATED="1595782834286" MODIFIED="1596034798905"/>
+</node>
+<node TEXT="给文本加下划线：&lt; u&gt;text&lt; /u&gt;" ID="ID_1320563590" CREATED="1595782865450" MODIFIED="1596034853726"/>
+<node TEXT="用斜体来渲染：&lt; i&gt;text&lt; /i&gt;" ID="ID_1032666310" CREATED="1595782865450" MODIFIED="1596034855229"/>
+<node TEXT="用粗体来渲染：&lt; b&gt;text&lt; /b&gt;" ID="ID_979904178" CREATED="1595782865450" MODIFIED="1596034857992"/>
+<node TEXT="指定文本size：&lt; size=30&gt;enlarge me&lt; /size&gt;" ID="ID_1963268685" CREATED="1595783056266" MODIFIED="1596034861337"/>
+<node TEXT=" 设置文本的描边颜色和描边宽度" ID="ID_1731868209" CREATED="1595783096692" MODIFIED="1595783098673">
+<node TEXT=" &lt; outline color=red width=4&gt;abc&lt; /outline&gt;" ID="ID_170016339" CREATED="1595783114745" MODIFIED="1596034866868"/>
+</node>
+</node>
+</node>
+<node TEXT="cc.AudioSource" ID="ID_571056564" CREATED="1599383700447" MODIFIED="1599383734818">
+<node TEXT="编辑器属性" ID="ID_1429580258" CREATED="1599384850466" MODIFIED="1599384857715">
+<node TEXT="clip 音频对象: AudioClip, mp3, wav, ogg" ID="ID_1191559431" CREATED="1599384858176" MODIFIED="1599384884486"/>
+<node TEXT=" volume: 音量大小, [0, 1]百分比" ID="ID_643119586" CREATED="1599384886278" MODIFIED="1599384897223"/>
+<node TEXT=" mute: 是否静音" ID="ID_982852473" CREATED="1599384903927" MODIFIED="1599384905293"/>
+<node TEXT=" Loop: 是否循环播放" ID="ID_599095336" CREATED="1599384906080" MODIFIED="1599384913059"/>
+<node TEXT=" Play on Load: 是否在组件加载的时候播放" ID="ID_1500686837" CREATED="1599384913237" MODIFIED="1599384919257"/>
+<node TEXT=" Preload: 是否预先加载" ID="ID_655397835" CREATED="1599384924005" MODIFIED="1599384925079"/>
+</node>
+<node TEXT="加载方式" ID="ID_1852355104" CREATED="1599384975864" MODIFIED="1599384984211">
+<node TEXT="编辑器绑定" ID="ID_1238928301" CREATED="1599384984330" MODIFIED="1599384995901">
+<node TEXT="音频文件拖到clip属性上" ID="ID_1594250829" CREATED="1599384996042" MODIFIED="1599385014497"/>
+</node>
+<node TEXT="代码加载" ID="ID_1944922505" CREATED="1599385016714" MODIFIED="1599385019782">
+<node ID="ID_1005909633" CREATED="1592125786997" MODIFIED="1599385233377"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">let</font>&nbsp;<font color="#9cdcfe">node</font>&nbsp;=&nbsp;<font color="#569cd6">this</font>.<font color="#9cdcfe">node</font>.<font color="#dcdcaa">getChildByName</font>(<font color="#ce9178">&quot;audio&quot;</font>)
+      </div>
+      <div>
+        <font color="#569cd6">this</font>.<font color="#9cdcfe">audio2</font>&nbsp;=&nbsp;<font color="#9cdcfe">node</font>.<font color="#dcdcaa">getComponent</font>(<font color="#4ec9b0">cc</font>.<font color="#4ec9b0">AudioSource</font>)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="主要方法" ID="ID_293383129" CREATED="1599385062382" MODIFIED="1599385534540">
+<node ID="ID_31654837" CREATED="1599385267649" MODIFIED="1599385267649"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      play(); 播放音频;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_707589074" CREATED="1599385267649" MODIFIED="1599385267649"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      stop(); 停止声音播放;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_121877662" CREATED="1599385267651" MODIFIED="1599385267651"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pause(); 暂停声音播放;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_352213027" CREATED="1599385267654" MODIFIED="1599385267654"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      resume(); 恢复声音播放;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_352200019" CREATED="1599385267656" MODIFIED="1599385267656"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      rewind(); 重头开始播放;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="主要属性" ID="ID_1300930608" CREATED="1599385641355" MODIFIED="1599385647008">
+<node TEXT=" 改编辑器属性，最好放到start函数里面" ID="ID_731360832" CREATED="1599385775415" MODIFIED="1599385797723"/>
+<node ID="ID_1755565558" CREATED="1599385659817" MODIFIED="1599385659817"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      loop: 是否循环播放
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1060538026" CREATED="1599385659817" MODIFIED="1599385659817"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      isPlaying: 是否正在播放;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1719320057" CREATED="1599385659820" MODIFIED="1599385659820"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      mute: 是否静音;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="cc.Animation" ID="ID_932128472" CREATED="1596127590514" MODIFIED="1596127597388">
+<node TEXT="使用" ID="ID_460725570" CREATED="1599581616324" MODIFIED="1599581619923">
+<node ID="ID_432875564" CREATED="1599581639331" MODIFIED="1599581639331"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1: 创建一个节点;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1788772024" CREATED="1599581639332" MODIFIED="1599581639332"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2: 为这个节点添加一个动画组件 cc.Animation;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1121429862" CREATED="1599581639336" MODIFIED="1599581639336"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3: 为这个动画组件新建一个动画文件 --&gt; AnimationClip对象;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="编辑器属性" ID="ID_590379461" CREATED="1599581643906" MODIFIED="1599581653330">
+<node ID="ID_1670471446" CREATED="1599581683392" MODIFIED="1599581683392"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &nbsp;(1): default Anim Clip: 默认的播放的动画剪辑;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1213953018" CREATED="1599581683393" MODIFIED="1599581683393"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &nbsp;(2): Clips: 动画剪辑的数组集合
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1064279072" CREATED="1599581683400" MODIFIED="1599581683400"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &nbsp;(3): Play onLoad: 是否在加载的时候开始播放;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="原理" ID="ID_958389290" CREATED="1599582343751" MODIFIED="1599582347265">
+<node TEXT="时间轴" ID="ID_464440898" CREATED="1599582347398" MODIFIED="1599582350129"/>
+<node TEXT="关键帧" ID="ID_1821145367" CREATED="1599582433257" MODIFIED="1599582463489"/>
+<node TEXT=" 关键帧上的节点属性" ID="ID_410704569" CREATED="1599582463799" MODIFIED="1599582516274">
+<node TEXT=" 位置, 缩放, 旋转等节点属性" ID="ID_1295319562" CREATED="1599582696790" MODIFIED="1599582710644"/>
+</node>
+<node TEXT=" 在不同的时刻，调整节点以及孩子节点的不同的属性的值，然后创建出补间动画" ID="ID_968470485" CREATED="1599582350718" MODIFIED="1599582368289"/>
+</node>
+<node TEXT="动画参数" ID="ID_697621380" CREATED="1599582712986" MODIFIED="1599582717137">
+<node TEXT=" Simaple" ID="ID_1876404192" CREATED="1599582755239" MODIFIED="1599582761210">
+<node TEXT=" 1秒多少帧" ID="ID_306136233" CREATED="1599582761865" MODIFIED="1599582762945"/>
+</node>
+<node TEXT=" Speed" ID="ID_181106088" CREATED="1599582767469" MODIFIED="1599582768631">
+<node TEXT=" 速度,播放速度,越小越慢" ID="ID_1174194272" CREATED="1599582775351" MODIFIED="1599583021161"/>
+</node>
+<node TEXT=" wrapMode" ID="ID_1444830031" CREATED="1599582734902" MODIFIED="1599582736353">
+<node ID="ID_467489072" CREATED="1599582797676" MODIFIED="1599582797676"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &nbsp;Normal
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1614584334" CREATED="1599582797676" MODIFIED="1599582797676"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &nbsp;Loop
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1538864112" CREATED="1599582797678" MODIFIED="1599582797678"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &nbsp;PingPong
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_303574127" CREATED="1599582797680" MODIFIED="1599582797680"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &nbsp;Reverse
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_719180126" CREATED="1599582797681" MODIFIED="1599582797681"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &nbsp;Loop Reverse
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1244137638" CREATED="1599582797683" MODIFIED="1599582797683"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &nbsp;PingPongReverse
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Animation组件" ID="ID_396015371" CREATED="1599583428052" MODIFIED="1599583439897">
+<node TEXT="主要方法" ID="ID_390774726" CREATED="1599583585012" MODIFIED="1599583590196">
+<node ID="ID_238843284" CREATED="1599583475564" MODIFIED="1599583475564"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      play([name], [start_time]), 播放指定的动画，如果没有制定就播放默认的动画;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1758867745" CREATED="1599583475564" MODIFIED="1599583475564"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      playAdditive: 与play一样，但是不会停止当前播放的动画;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_787747997" CREATED="1599583475566" MODIFIED="1599583475566"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      stop([name]): 停止指定的动画，如果没有指定名字就停止当前播放的动画;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1928119733" CREATED="1599583475569" MODIFIED="1599583475569"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pause/resume: 暂停唤醒动画;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_431190890" CREATED="1599583475571" MODIFIED="1599583475571"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      getClips: 返回组件里面带的AnimationClip数组
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="播放事件监听" ID="ID_1512892283" CREATED="1599583596664" MODIFIED="1599583657574">
+<node TEXT=" this.anim.on(&quot;finished&quot;, callback)" ID="ID_1560084040" CREATED="1599583657681" MODIFIED="1599583744722"/>
+<node ID="ID_549085933" CREATED="1599583735246" MODIFIED="1599583735246"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      play : 开始播放时
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1592322853" CREATED="1599583735247" MODIFIED="1599583735247"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      stop : 停止播放时
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_755263454" CREATED="1599583735249" MODIFIED="1599583735249"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      pause : 暂停播放时
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_553822233" CREATED="1599583735250" MODIFIED="1599583735250"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      resume : 恢复播放时
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1833777497" CREATED="1599583735252" MODIFIED="1599583735252"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      lastframe : 假如动画循环次数大于 1，当动画播放到最后一帧时
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1771799744" CREATED="1599583735253" MODIFIED="1599583735253"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      finished : 动画播放完成时
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="sp" ID="ID_199608278" CREATED="1599583879899" MODIFIED="1599583881586">
+<node TEXT="骨骼动画" ID="ID_1168211598" CREATED="1604581108044" MODIFIED="1604581115638">
+<node TEXT="把动画打散在一张图，调过调骨骼运动来形成动画" ID="ID_74363534" CREATED="1604581179151" MODIFIED="1604581446185"/>
+<node TEXT="比帧动画每一帧都需要一张图，更节省" ID="ID_1468900434" CREATED="1604581201776" MODIFIED="1604581253446"/>
+</node>
+<node TEXT="spine工具导出文件" ID="ID_385508638" CREATED="1604581290104" MODIFIED="1604581358638">
+<node TEXT=".png文件:动画的”骨骼”的图片集" ID="ID_1470134530" CREATED="1604581304269" MODIFIED="1604581320490"/>
+<node TEXT=" .atlas文件: 每个骨骼在图片集里面位置，大小" ID="ID_570901665" CREATED="1604581331162" MODIFIED="1604581340239"/>
+<node TEXT=" .json文件: 骨骼动画的anim控制文件,以及骨骼位置等信息;" ID="ID_840985316" CREATED="1604581350217" MODIFIED="1604581353166"/>
+</node>
+<node TEXT="骨骼动画导入" ID="ID_1354196434" CREATED="1604581370725" MODIFIED="1604581380589">
+<node TEXT=" 直接把三个文件拷贝到项目的资源目录下即可" ID="ID_1770972870" CREATED="1604581392585" MODIFIED="1604581393926"/>
+</node>
+<node TEXT="添加骨骼动画" ID="ID_897228994" CREATED="1604581396017" MODIFIED="1604581898340">
+<node TEXT=" 直接拖动到场景" ID="ID_1334435570" CREATED="1604581407440" MODIFIED="1604581408514"/>
+<node TEXT=" 创建一个节点来添加sp.Skeleton组件" ID="ID_1806770243" CREATED="1604581413880" MODIFIED="1604581415057"/>
+</node>
+<node TEXT="停止播放骨骼动画" ID="ID_1424982108" CREATED="1604583082775" MODIFIED="1604583095633">
+<node TEXT=" 清楚所有Track动画" ID="ID_524734205" CREATED="1604583105825" MODIFIED="1604583107998">
+<node TEXT=" this.ske_com.clearTracks()" ID="ID_1190687735" CREATED="1604583124931" MODIFIED="1604583141958"/>
+</node>
+<node TEXT=" 清理对应Track的动画" ID="ID_1827229568" CREATED="1604583112690" MODIFIED="1604583114480">
+<node TEXT="  this.ske_com.clearTrack(tarckIndex)" ID="ID_465652119" CREATED="1604583157738" MODIFIED="1604583169533"/>
+<node TEXT="清理对应管道的动画" ID="ID_1014484423" CREATED="1604583169873" MODIFIED="1604583182475"/>
+</node>
+</node>
+<node TEXT="播放骨骼动画" ID="ID_354389010" CREATED="1604581899685" MODIFIED="1604581908033">
+<node TEXT=" 清楚管道所有动画后，再从新播放" ID="ID_59910049" CREATED="1604583296254" MODIFIED="1604583298457">
+<node TEXT=" setAnimation(trackIndex, “anim_name”,  is_loop)" ID="ID_113247456" CREATED="1604583281633" MODIFIED="1604583286963"/>
+<node TEXT="  this.ske_com.setAnimation(0, &quot;in&quot;, false)" ID="ID_344145439" CREATED="1604583157738" MODIFIED="1604583222462"/>
+</node>
+<node TEXT=" 往管道里面添加一个动画，要排队" ID="ID_1721186778" CREATED="1604583314424" MODIFIED="1604583320448">
+<node TEXT=" addAnimation(trackIndex, “anim_name”,  is_loop)" ID="ID_1052617640" CREATED="1604583329034" MODIFIED="1604583334110"/>
+<node TEXT="  this.ske_com.addAnimation(0, &quot;idle_1&quot;, true)" ID="ID_1025791642" CREATED="1604583157738" MODIFIED="1604583246050"/>
+</node>
+</node>
+</node>
+<node TEXT="预制体" ID="ID_1563265999" CREATED="1606635788460" MODIFIED="1606635799387">
+<node TEXT="快速生成节点的模板" ID="ID_79201454" CREATED="1606640520402" MODIFIED="1606640533582"/>
+<node TEXT="制作预制体" ID="ID_435875163" CREATED="1606639928627" MODIFIED="1606639940065">
+<node TEXT=" 将节点拖入到assets文件夹下" ID="ID_417156261" CREATED="1606639940412" MODIFIED="1606639967133"/>
+</node>
+<node TEXT=" 加载预制体" ID="ID_1228473626" CREATED="1606639985730" MODIFIED="1606640057105">
+<node TEXT="定义属性item_prefab" ID="ID_1011662122" CREATED="1606640084551" MODIFIED="1606640100932"/>
+<node TEXT="预制体编辑器绑定属性" ID="ID_1050175900" CREATED="1606640101228" MODIFIED="1606640133703"/>
+</node>
+<node TEXT="实例化预制体" ID="ID_595887705" CREATED="1606640057281" MODIFIED="1606640064276">
+<node TEXT=" let item = cc.instantiate(this.item_prefab)" ID="ID_1776979315" CREATED="1606640135162" MODIFIED="1606640156433"/>
+<node TEXT="this.node.addChild(item)" ID="ID_1275855657" CREATED="1606640385043" MODIFIED="1606640425756"/>
+</node>
+</node>
+<node TEXT="Mask" ID="ID_172280682" CREATED="1606635799540" MODIFIED="1606635813749">
+<node TEXT="提供viewport功能的一个组件，只能看到规定大小的视区" ID="ID_1122406428" CREATED="1606640536434" MODIFIED="1606640577503"/>
+<node TEXT="控制节点可视大小" ID="ID_222605732" CREATED="1609596025543" MODIFIED="1609596037616"/>
+<node TEXT="Type类型" ID="ID_101659993" CREATED="1606640777785" MODIFIED="1606640782049">
+<node TEXT="矩形" ID="ID_1465058499" CREATED="1606640782236" MODIFIED="1606640786257"/>
+<node TEXT="圆形" ID="ID_1706885925" CREATED="1606640786435" MODIFIED="1606640791158"/>
+<node TEXT="图片" ID="ID_1339885547" CREATED="1606640791352" MODIFIED="1606640794707"/>
+</node>
+<node TEXT="inverted 反向遮挡" ID="ID_1456424756" CREATED="1609596054904" MODIFIED="1609596082698"/>
+</node>
+<node TEXT="cc.Layout" ID="ID_1371642837" CREATED="1606635813942" MODIFIED="1606635819956">
+<node TEXT=" 布局组件，根据内容动态排版" ID="ID_1342888163" CREATED="1606656867592" MODIFIED="1606656886772"/>
+<node TEXT="布局类型" ID="ID_541989643" CREATED="1606657103520" MODIFIED="1606657110845">
+<node ID="ID_1503709318" CREATED="1606657126844" MODIFIED="1606657126844"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      水平
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1993432853" CREATED="1606657126844" MODIFIED="1606657126844"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      垂直
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1639270424" CREATED="1606657126846" MODIFIED="1606657126846"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GRID布局
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" ResizeMode" ID="ID_814481139" CREATED="1606656895847" MODIFIED="1606656897276">
+<node ID="ID_938707430" CREATED="1606656921102" MODIFIED="1606656921102"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Node: 不会对子节点和容器进行大小缩放
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_128431682" CREATED="1606656921103" MODIFIED="1606656921103"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Child: 对子节点的大小进行缩放;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_18275204" CREATED="1606656921108" MODIFIED="1606656921108"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      CONTAINER: 对容器的大小进行缩放; 常用的
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="cc.ScrollView" ID="ID_877214248" CREATED="1606635820128" MODIFIED="1606635826526"/>
+<node TEXT="cc.Widget" ID="ID_1903332828" CREATED="1610174564191" MODIFIED="1610174571651">
+<node TEXT="适配策略" ID="ID_1437267606" CREATED="1610174949931" MODIFIED="1610174960601">
+<node ID="ID_746578250" CREATED="1610174980651" MODIFIED="1610174980651"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      固定高度
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_540238622" CREATED="1610174980652" MODIFIED="1610174980652"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      固定宽度
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1570945160" CREATED="1610174980654" MODIFIED="1610174980654"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      固定宽高度
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="节点添加该部件，可以限据其它节点（父节点、父父节点）设置停靠点" ID="ID_1819296946" CREATED="1610178767992" MODIFIED="1610179535703"/>
 </node>
 </node>
 </node>
