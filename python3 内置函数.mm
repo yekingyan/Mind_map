@@ -1,9 +1,9 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="python3 内置函数" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1536494620117" STYLE="bubble">
+<node TEXT="python3 内置函数" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1609242767919" STYLE="bubble" VGAP_QUANTITY="6.8999999999999995 pt">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="97" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="101" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="filter" FOLDED="true" POSITION="right" ID="ID_183133208" CREATED="1536490006310" MODIFIED="1536494641713">
 <edge COLOR="#007c00"/>
@@ -545,7 +545,7 @@
 <node TEXT=" {k: v for k, v in vars(A).items() if &apos;__&apos; not in k}" ID="ID_51858045" CREATED="1555401418360" MODIFIED="1555401439564"/>
 </node>
 </node>
-<node TEXT="logging" POSITION="right" ID="ID_952352316" CREATED="1566220701495" MODIFIED="1566222337784" VGAP_QUANTITY="6.8999999999999995 pt">
+<node TEXT="logging" FOLDED="true" POSITION="right" ID="ID_952352316" CREATED="1566220701495" MODIFIED="1566222337784" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#7c0000"/>
 <node TEXT=" 基础" ID="ID_6142601" CREATED="1566222601484" MODIFIED="1566222605304">
 <node TEXT="日志级别" ID="ID_227790505" CREATED="1566220808640" MODIFIED="1566220841727" VGAP_QUANTITY="6.8999999999999995 pt">
@@ -1003,13 +1003,13 @@
 </node>
 </node>
 </node>
-<node TEXT="partial" POSITION="right" ID="ID_543790545" CREATED="1588929759522" MODIFIED="1588930557478">
+<node TEXT="partial" FOLDED="true" POSITION="right" ID="ID_543790545" CREATED="1588929759522" MODIFIED="1592364403481" VGAP_QUANTITY="6.8999999999999995 pt">
 <edge COLOR="#7c007c"/>
 <node TEXT="概念" ID="ID_427642494" CREATED="1588931598610" MODIFIED="1588931604941">
 <node TEXT=" 固定函数参数，返回一个新的函数" ID="ID_1629305253" CREATED="1588931605498" MODIFIED="1588931606525"/>
 <node TEXT=" func = functools.partial(func, *args, **keywords)" ID="ID_1517918129" CREATED="1588930995710" MODIFIED="1588931303566"/>
 </node>
-<node ID="ID_1480519400" CREATED="1588930967883" MODIFIED="1588930967883"><richcontent TYPE="NODE">
+<node ID="ID_1480519400" CREATED="1588930967883" MODIFIED="1592364403479"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1019,9 +1019,47 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: Consolas; font-size: 9.8pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>functools <span style="color: #cc7832"><font color="#cc7832">import </font></span>partial<br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">spam</font></span>(a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b<span style="color: #cc7832"><font color="#cc7832">, </font></span>c<span style="color: #cc7832"><font color="#cc7832">, </font></span>d):<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>a<span style="color: #cc7832"><font color="#cc7832">, </font></span>b<span style="color: #cc7832"><font color="#cc7832">, </font></span>c<span style="color: #cc7832"><font color="#cc7832">, </font></span>d<br/><br/><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: Arial"><font color="#808080" face="Arial">固定位置参数<br/></font></span>f1 = partial(spam<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(f1(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">4</font></span>))<br/><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: Arial"><font color="#808080" face="Arial">固定关键字参数<br/></font></span>f2 = partial(spam<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">d</font></span>=<span style="color: #6897bb"><font color="#6897bb">44</font></span>)<br/><span style="color: #8888c6"><font color="#8888c6">print</font></span>(f2(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">3</font></span>))</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
+</node>
+<node TEXT="itemgetter" FOLDED="true" POSITION="right" ID="ID_835145889" CREATED="1592364395926" MODIFIED="1592364419558">
+<edge COLOR="#007c7c"/>
+<node TEXT="等价于" ID="ID_1896504502" CREATED="1592364694044" MODIFIED="1592364697351">
+<node ID="ID_659632124" CREATED="1592364723869" MODIFIED="1592364723869"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono,monospace; font-size: 9.8pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">itemgetter</font></span>(*items):<br/>    <span style="color: #cc7832"><font color="#cc7832">if </font></span><span style="color: #8888c6"><font color="#8888c6">len</font></span>(items) == <span style="color: #6897bb"><font color="#6897bb">1</font></span>:<br/>        item = items[<span style="color: #6897bb"><font color="#6897bb">0</font></span>]<br/>        <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">g</font></span>(obj):<br/>            <span style="color: #cc7832"><font color="#cc7832">return </font></span>obj[item]<br/>    <span style="color: #cc7832"><font color="#cc7832">else</font></span>:<br/>        <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">g</font></span>(obj):<br/>            <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #8888c6"><font color="#8888c6">tuple</font></span>(obj[item] <span style="color: #cc7832"><font color="#cc7832">for </font></span>item <span style="color: #cc7832"><font color="#cc7832">in </font></span>items)<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>g</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="返回可调用对象" ID="ID_555301441" CREATED="1592364491701" MODIFIED="1592364499224">
+<node TEXT=" 传入的参数" ID="ID_202911111" CREATED="1592367357647" MODIFIED="1592367367168">
+<node TEXT=" 所操作对象__getitem__() 所接受的任何类型" ID="ID_438729790" CREATED="1592367378353" MODIFIED="1592367397312"/>
+<node TEXT=" 字典接受任意可哈希的值" ID="ID_302633347" CREATED="1592367403750" MODIFIED="1592367405241"/>
+<node TEXT="  列表、元组和字符串接受 index 或 slice 对象" ID="ID_1918671055" CREATED="1592367410719" MODIFIED="1592367412153"/>
+</node>
+<node ID="ID_1682383362" CREATED="1592366809444" MODIFIED="1592366809444"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono,monospace; font-size: 9.8pt">r = [<span style="color: #6a8759"><font color="#6a8759">"a"</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">"b"</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6a8759"><font color="#6a8759">"c"</font></span>]<br/>f1 = itemgetter(<span style="color: #6897bb"><font color="#6897bb">2</font></span>)<br/>f2 = itemgetter(<span style="color: #6897bb"><font color="#6897bb">2</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #6897bb"><font color="#6897bb">0</font></span>)<br/><span style="color: #cc7832"><font color="#cc7832">assert </font></span>f1(r) == r[<span style="color: #6897bb"><font color="#6897bb">2</font></span>]<br/><span style="color: #cc7832"><font color="#cc7832">assert </font></span>f2(r) == (r[<span style="color: #6897bb"><font color="#6897bb">2</font></span>]<span style="color: #cc7832"><font color="#cc7832">, </font></span>r[<span style="color: #6897bb"><font color="#6897bb">0</font></span>])<br/></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="位运算" POSITION="right" ID="ID_462014786" CREATED="1601200163120" MODIFIED="1601200168076">
+<edge COLOR="#7c7c00"/>
 </node>
 <node TEXT="os 模块" FOLDED="true" POSITION="left" ID="ID_1450216899" CREATED="1539077987880" MODIFIED="1539078006161">
 <edge COLOR="#ff0000"/>
