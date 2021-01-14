@@ -1,9 +1,9 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="&#x5355;&#x4f8b;&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537442967019" STYLE="bubble">
+<node TEXT="单例设计模式" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1537442967019" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -99,7 +99,7 @@
 <stylenode LOCALIZED_TEXT="styles.pending" COLOR="#b3b95c" VGAP_QUANTITY="6.8999999999999995 pt">
 <font NAME="Noto Sans S Chinese Light" SIZE="12"/>
 </stylenode>
-<stylenode TEXT="&#x4ee3;&#x7801;" COLOR="#c0fdce" BACKGROUND_COLOR="#000000" VGAP_QUANTITY="6.8999999999999995 pt">
+<stylenode TEXT="代码" COLOR="#c0fdce" BACKGROUND_COLOR="#000000" VGAP_QUANTITY="6.8999999999999995 pt">
 <font NAME="Noto Sans S Chinese Light" SIZE="12"/>
 </stylenode>
 </stylenode>
@@ -133,31 +133,31 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="88" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="89" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="&#x5355;&#x4f8b;&#x6a21;&#x5f0f;&#xff08;Singleton Pattern&#xff09;&#x4e3b;&#x8981;&#x76ee;&#x7684;&#x662f;&#x786e;&#x4fdd;&#x67d0;&#x4e00;&#x4e2a;&#x7c7b;&#x53ea;&#x6709;&#x4e00;&#x4e2a;&#x5b9e;&#x4f8b;&#x5b58;&#x5728;" POSITION="right" ID="ID_183697761" CREATED="1537443004756" MODIFIED="1537443023045">
+<node TEXT="单例模式（Singleton Pattern）主要目的是确保某一个类只有一个实例存在" POSITION="right" ID="ID_183697761" CREATED="1537443004756" MODIFIED="1537443023045">
 <edge COLOR="#007c00"/>
 </node>
-<node TEXT=" &#x8be5;&#x7c7b;&#x53ea;&#x6709;&#x4e00;&#x4e2a;&#x5b9e;&#x4f8b;&#x800c;&#x4e14;&#x8be5;&#x5b9e;&#x4f8b;&#x6613;&#x4e8e;&#x5916;&#x754c;&#x8bbf;&#x95ee;&#xff0c;&#x4ece;&#x800c;&#x65b9;&#x4fbf;&#x5bf9;&#x5b9e;&#x4f8b;&#x4e2a;&#x6570;&#x7684;&#x63a7;&#x5236;&#x5e76;&#x8282;&#x7ea6;&#x7cfb;&#x7edf;&#x8d44;&#x6e90;" POSITION="right" ID="ID_1003102367" CREATED="1537446290422" MODIFIED="1537446297479">
+<node TEXT=" 该类只有一个实例而且该实例易于外界访问，从而方便对实例个数的控制并节约系统资源" POSITION="right" ID="ID_1003102367" CREATED="1537446290422" MODIFIED="1537446297479">
 <edge COLOR="#7c7c00"/>
 </node>
-<node TEXT="&#x4f8b;&#x5982;" POSITION="right" ID="ID_1717025044" CREATED="1537443038531" MODIFIED="1537443053357">
+<node TEXT="例如" POSITION="right" ID="ID_1717025044" CREATED="1537443038531" MODIFIED="1537443053357">
 <edge COLOR="#7c007c"/>
-<node TEXT="&#x524d;&#x56e0;" ID="ID_603786042" CREATED="1537443116955" MODIFIED="1537443123852">
-<node TEXT=" &#x5ba2;&#x6237;&#x7aef;&#x901a;&#x8fc7;&#x4e00;&#x4e2a; AppConfig &#x7684;&#x7c7b;&#x6765;&#x8bfb;&#x53d6;&#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x7684;&#x4fe1;&#x606f;" ID="ID_1272485514" CREATED="1537443077661" MODIFIED="1537443079245"/>
-<node TEXT=" &#x7a0b;&#x5e8f;&#x8fd0;&#x884c;&#x671f;&#x95f4;&#xff0c;&#x6709;&#x5f88;&#x591a;&#x5730;&#x65b9;&#x90fd;&#x9700;&#x8981;&#x4f7f;&#x7528;&#x914d;&#x7f6e;&#x6587;&#x4ef6;&#x7684;&#x5185;&#x5bb9;" ID="ID_145524258" CREATED="1537443088603" MODIFIED="1537443089805"/>
+<node TEXT="前因" ID="ID_603786042" CREATED="1537443116955" MODIFIED="1537443123852">
+<node TEXT=" 客户端通过一个 AppConfig 的类来读取配置文件的信息" ID="ID_1272485514" CREATED="1537443077661" MODIFIED="1537443079245"/>
+<node TEXT=" 程序运行期间，有很多地方都需要使用配置文件的内容" ID="ID_145524258" CREATED="1537443088603" MODIFIED="1537443089805"/>
 </node>
-<node TEXT="&#x540e;&#x679c;" ID="ID_959543372" CREATED="1537443090947" MODIFIED="1537443098228">
-<node TEXT=" &#x5f88;&#x591a;&#x5730;&#x65b9;&#x90fd;&#x9700;&#x8981;&#x521b;&#x5efa; AppConfig &#x5bf9;&#x8c61;&#x7684;&#x5b9e;&#x4f8b;" ID="ID_1651498501" CREATED="1537443111379" MODIFIED="1537443112565"/>
-<node TEXT=" &#x591a;&#x4e2a; AppConfig &#x7684;&#x5b9e;&#x4f8b;&#x5bf9;&#x8c61;&#x4f1a;&#x4e25;&#x91cd;&#x6d6a;&#x8d39;&#x5185;&#x5b58;&#x8d44;&#x6e90;" ID="ID_795936673" CREATED="1537443151003" MODIFIED="1537443158701"/>
+<node TEXT="后果" ID="ID_959543372" CREATED="1537443090947" MODIFIED="1537443098228">
+<node TEXT=" 很多地方都需要创建 AppConfig 对象的实例" ID="ID_1651498501" CREATED="1537443111379" MODIFIED="1537443112565"/>
+<node TEXT=" 多个 AppConfig 的实例对象会严重浪费内存资源" ID="ID_795936673" CREATED="1537443151003" MODIFIED="1537443158701"/>
 </node>
 </node>
-<node TEXT="&#x5b9e;&#x73b0;" POSITION="right" ID="ID_855520526" CREATED="1537443182979" MODIFIED="1537443186353">
+<node TEXT="实现" POSITION="right" ID="ID_855520526" CREATED="1537443182979" MODIFIED="1537443186353">
 <edge COLOR="#007c7c"/>
-<node TEXT="&#x4f7f;&#x7528;&#x6a21;&#x5757;" ID="ID_362896550" CREATED="1537443211432" MODIFIED="1537446457527">
-<node TEXT=" Python &#x7684;&#x6a21;&#x5757;&#x5c31;&#x662f;&#x5929;&#x7136;&#x7684;&#x5355;&#x4f8b;&#x6a21;&#x5f0f;" ID="ID_1061603018" CREATED="1537443338130" MODIFIED="1537443339683"/>
-<node TEXT=" &#x56e0;&#x4e3a;&#x6a21;&#x5757;&#x5728;&#x7b2c;&#x4e00;&#x6b21;&#x5bfc;&#x5165;&#x65f6;&#xff0c;&#x4f1a;&#x751f;&#x6210; .pyc &#x6587;&#x4ef6;&#xff0c;&#xa;&#x5f53;&#x7b2c;&#x4e8c;&#x6b21;&#x5bfc;&#x5165;&#x65f6;&#xff0c;&#x5c31;&#x4f1a;&#x76f4;&#x63a5;&#x52a0;&#x8f7d; .pyc &#x6587;&#x4ef6;" ID="ID_1693441904" CREATED="1537443349554" MODIFIED="1537443356932"/>
-<node TEXT=" &#x53ea;&#x9700;&#x628a;&#x76f8;&#x5173;&#x7684;&#x51fd;&#x6570;&#x548c;&#x6570;&#x636e;&#x5b9a;&#x4e49;&#x5728;&#x4e00;&#x4e2a;&#x6a21;&#x5757;&#x4e2d;&#xff0c;&#x5c31;&#x53ef;&#x4ee5;&#x83b7;&#x5f97;&#x4e00;&#x4e2a;&#x5355;&#x4f8b;&#x5bf9;&#x8c61;" ID="ID_1349358725" CREATED="1537443376641" MODIFIED="1537443379747"/>
+<node TEXT="使用模块" ID="ID_362896550" CREATED="1537443211432" MODIFIED="1537446457527">
+<node TEXT=" Python 的模块就是天然的单例模式" ID="ID_1061603018" CREATED="1537443338130" MODIFIED="1537443339683"/>
+<node TEXT=" 因为模块在第一次导入时，会生成 .pyc 文件，&#xa;当第二次导入时，就会直接加载 .pyc 文件" ID="ID_1693441904" CREATED="1537443349554" MODIFIED="1537443356932"/>
+<node TEXT=" 只需把相关的函数和数据定义在一个模块中，就可以获得一个单例对象" ID="ID_1349358725" CREATED="1537443376641" MODIFIED="1537443379747"/>
 <node ID="ID_1440683018" CREATED="1537443422600" MODIFIED="1537443429995"><richcontent TYPE="NODE">
 
 <html>
@@ -183,10 +183,10 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4f7f;&#x7528; __new__" ID="ID_1565168200" CREATED="1537443211432" MODIFIED="1537446515854">
-<node TEXT=" &#x4f7f;&#x7528; __new__ &#x6765;&#x63a7;&#x5236;&#x5b9e;&#x4f8b;&#x7684;&#x521b;&#x5efa;&#x8fc7;&#x7a0b;" ID="ID_1309147008" CREATED="1537443536480" MODIFIED="1537443554457">
-<node TEXT="&#x5c06;&#x7c7b;&#x7684;&#x5b9e;&#x4f8b;&#x548c;&#x4e00;&#x4e2a;&#x7c7b;&#x53d8;&#x91cf; _instance &#x5173;&#x8054;&#x8d77;&#x6765;" ID="ID_1499514783" CREATED="1537443756182" MODIFIED="1568619741209"/>
-<node TEXT="&#x5982;&#x679c; cls._instance &#x4e3a; None &#x5219;&#x521b;&#x5efa;&#x5b9e;&#x4f8b;&#xff0c;&#xa;&#x5426;&#x5219;&#x76f4;&#x63a5;&#x8fd4;&#x56de; cls._instance" ID="ID_461091381" CREATED="1537443764166" MODIFIED="1568619737923"/>
+<node TEXT="使用 __new__" ID="ID_1565168200" CREATED="1537443211432" MODIFIED="1537446515854">
+<node TEXT=" 使用 __new__ 来控制实例的创建过程" ID="ID_1309147008" CREATED="1537443536480" MODIFIED="1537443554457">
+<node TEXT="将类的实例和一个类变量 _instance 关联起来" ID="ID_1499514783" CREATED="1537443756182" MODIFIED="1568619741209"/>
+<node TEXT="如果 cls._instance 为 None 则创建实例，&#xa;否则直接返回 cls._instance" ID="ID_461091381" CREATED="1537443764166" MODIFIED="1568619737923"/>
 </node>
 <node ID="ID_115839252" CREATED="1537443573017" MODIFIED="1537445142354"><richcontent TYPE="NODE">
 
@@ -236,7 +236,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>functools <span style="color: #cc7832"><font color="#cc7832">import </font></span>wraps<br/><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">singleton</font></span>(cls):<br/>    instances = {}<br/>    <span style="color: #bbb529"><font color="#bbb529">@wraps</font></span>(cls)<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">getinstance</font></span>(*args<span style="color: #cc7832"><font color="#cc7832">, </font></span>**kw):<br/>        <span style="color: #cc7832"><font color="#cc7832">if </font></span>cls <span style="color: #cc7832"><font color="#cc7832">not in </font></span>instances:<br/>            instances[cls] = cls(*args<span style="color: #cc7832"><font color="#cc7832">, </font></span>**kw)<br/>        <span style="color: #cc7832"><font color="#cc7832">return </font></span>instances[cls]<br/>    <span style="color: #cc7832"><font color="#cc7832">return </font></span>getinstance<br/></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1705315048" CREATED="1568621538529" MODIFIED="1568621538529"><richcontent TYPE="NODE">
@@ -249,12 +248,11 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: &#x5b8b;&#x4f53;; font-size: 10.5pt"><span style="color: #bbb529"><font color="#bbb529">@singleton<br/></font></span><span style="color: #cc7832"><font color="#cc7832">class </font></span>MyClass(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    a = <span style="color: #6897bb"><font color="#6897bb">1</font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x4f7f;&#x7528;&#x5143;&#x7c7b;&#xff08;metaclass&#xff09;" ID="ID_308329558" CREATED="1537443211438" MODIFIED="1568622441658">
-<node TEXT=" &#x5143;&#x7c7b;&#xff08;metaclass&#xff09;&#x53ef;&#x4ee5;&#x63a7;&#x5236;&#x7c7b;&#x7684;&#x521b;&#x5efa;&#x8fc7;&#x7a0b;" ID="ID_1390399071" CREATED="1537445694581" MODIFIED="1537445695652">
+<node TEXT="使用元类（metaclass）" ID="ID_308329558" CREATED="1537443211438" MODIFIED="1568622441658">
+<node TEXT=" 元类（metaclass）可以控制类的创建过程" ID="ID_1390399071" CREATED="1537445694581" MODIFIED="1537445695652">
 <node ID="ID_1492335858" CREATED="1537445706186" MODIFIED="1537445706186"><richcontent TYPE="NODE">
 
 <html>
@@ -322,6 +320,26 @@
 </html>
 </richcontent>
 </node>
+</node>
+</node>
+<node TEXT="并发下的双检锁单例" POSITION="right" ID="ID_507389654" CREATED="1603765030042" MODIFIED="1603765051894">
+<edge COLOR="#ff0000"/>
+<node ID="ID_578887968" CREATED="1603765086114" MODIFIED="1603765086114"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono,monospace; font-size: 9.8pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Singleton(<span style="color: #8888c6"><font color="#8888c6">object</font></span>):<br/>    objs = {}<br/>    objs_locker = threading.Lock()<br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__new__</font></span>(<span style="color: #94558d"><font color="#94558d">cls</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>*args<span style="color: #cc7832"><font color="#cc7832">, </font></span>**kwargs):<br/>        <span style="color: #cc7832"><font color="#cc7832">if </font></span><span style="color: #94558d"><font color="#94558d">cls </font></span><span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #94558d"><font color="#94558d">cls</font></span>.objs:<br/>            <span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">cls</font></span>.objs[<span style="color: #94558d"><font color="#94558d">cls</font></span>]<br/>        <span style="color: #94558d"><font color="#94558d">cls</font></span>.objs_locker.acquire()<br/>        <span style="color: #cc7832"><font color="#cc7832">try</font></span>:<br/>            <span style="color: #cc7832"><font color="#cc7832">if </font></span><span style="color: #94558d"><font color="#94558d">cls </font></span><span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #94558d"><font color="#94558d">cls</font></span>.objs:    <span style="color: #808080"><font color="#808080">## double check locking<br/></font></span><font color="#808080"><span style="color: #808080">                </span></font><span style="color: #cc7832"><font color="#cc7832">return </font></span><span style="color: #94558d"><font color="#94558d">cls</font></span>.objs[<span style="color: #94558d"><font color="#94558d">cls</font></span>]<br/>            <span style="color: #94558d"><font color="#94558d">cls</font></span>.objs[<span style="color: #94558d"><font color="#94558d">cls</font></span>] = <span style="color: #8888c6"><font color="#8888c6">object</font></span>.<span style="color: #b200b2"><font color="#b200b2">__new__</font></span>(<span style="color: #94558d"><font color="#94558d">cls</font></span>)<br/>        <span style="color: #cc7832"><font color="#cc7832">finally</font></span>:<br/>            <span style="color: #94558d"><font color="#94558d">cls</font></span>.objs_locker.release()</pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="可能出现的问题" ID="ID_500429545" CREATED="1603765117898" MODIFIED="1603765123326">
+<node TEXT=" 如果 Singleton 的子类重载了 __new__() 方法，会覆盖或者干扰 Singleton 类中 __new__() 的执行" ID="ID_859968150" CREATED="1603765147130" MODIFIED="1603765149695"/>
+<node TEXT=" 如果子类有 __init__() 方法，那么每次实例化该 Singleton 的时候，__init__() 都会被调用到，这显然是不应该的，__init__() 只应该在创建实例的时候被调用一次" ID="ID_671571318" CREATED="1603765195226" MODIFIED="1603765200891"/>
 </node>
 </node>
 </node>
