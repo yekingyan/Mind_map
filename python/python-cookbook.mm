@@ -3,7 +3,7 @@
 <node TEXT="python-cookbook" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1589287902976" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="0.909">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -133,7 +133,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="104" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="105" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="数据结构和算法" FOLDED="true" POSITION="right" ID="ID_1777517453" CREATED="1589287909020" MODIFIED="1589287920566">
 <edge COLOR="#7c007c"/>
@@ -1110,7 +1110,7 @@
 </node>
 <node TEXT=" 实现访问者模式" ID="ID_1503742833" CREATED="1590668315008" MODIFIED="1590668330776"/>
 </node>
-<node TEXT="元编程" FOLDED="true" POSITION="right" ID="ID_802104211" CREATED="1590669371588" MODIFIED="1590669381990">
+<node TEXT="元编程" POSITION="right" ID="ID_802104211" CREATED="1590669371588" MODIFIED="1590669381990">
 <edge COLOR="#00ffff"/>
 <node TEXT="装饰器保留原始函数的元信息" FOLDED="true" ID="ID_148598394" CREATED="1590669592219" MODIFIED="1590670044986">
 <node TEXT="所谓元信息" ID="ID_165176172" CREATED="1590670114033" MODIFIED="1590670121889">
@@ -1796,7 +1796,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono,monospace; font-size: 9.8pt"><span style="color: #cc7832"><font color="#cc7832">from </font></span>functools <span style="color: #cc7832"><font color="#cc7832">import </font></span>partial<br/>String = partial(typed_property<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">expected_type</font></span>=<span style="color: #8888c6"><font color="#8888c6">str</font></span>)<br/>Integer = partial(typed_property<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">expected_type</font></span>=<span style="color: #8888c6"><font color="#8888c6">int</font></span>)<br/>StrOrInt = partial(typed_property<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">expected_type</font></span>=(<span style="color: #8888c6"><font color="#8888c6">int</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #8888c6"><font color="#8888c6">str</font></span>))<br/></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1811,7 +1810,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono,monospace; font-size: 9.8pt"><span style="color: #cc7832"><font color="#cc7832">class </font></span>Person:<br/>    <span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: 宋体,monospace"><font color="#808080" face="宋体,monospace">取代</font></span><span style="color: #808080"><font color="#808080">property</font></span><span style="color: #808080; font-family: 宋体,monospace"><font color="#808080" face="宋体,monospace">的</font></span><span style="color: #808080"><font color="#808080">getter</font></span><span style="color: #808080; font-family: 宋体,monospace"><font color="#808080" face="宋体,monospace">、</font></span><span style="color: #808080"><font color="#808080">setter</font></span><span style="color: #808080; font-family: 宋体,monospace"><font color="#808080" face="宋体,monospace">操作<br/></font></span><font color="#808080" face="宋体,monospace"><span style="color: #808080; font-family: 宋体,monospace">    </span></font>name = String(<span style="color: #6a8759"><font color="#6a8759">'name'</font></span>)<br/>    age = Integer(<span style="color: #6a8759"><font color="#6a8759">'age'</font></span>)<br/>    remark = StrOrInt(<span style="color: #6a8759"><font color="#6a8759">'remark'</font></span>)<br/><br/>    <span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #b200b2"><font color="#b200b2">__init__</font></span>(<span style="color: #94558d"><font color="#94558d">self</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span>name<span style="color: #cc7832"><font color="#cc7832">, </font></span>age<span style="color: #cc7832"><font color="#cc7832">, </font></span>remark):<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>.name = name<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>.age = age<br/>        <span style="color: #94558d"><font color="#94558d">self</font></span>.remark = remark</pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1830,6 +1828,104 @@
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+</node>
+<node TEXT="多线程、多进程" POSITION="right" ID="ID_575811445" CREATED="1623391736777" MODIFIED="1623391747819">
+<edge COLOR="#7c0000"/>
+<node TEXT="条件锁" ID="ID_1861406854" CREATED="1623391748035" MODIFIED="1623391753415">
+<node TEXT=" Condition被称为条件变量" ID="ID_1795505900" CREATED="1623391770123" MODIFIED="1623391771317">
+<node TEXT=" Condition解决的问题不是「互斥」，而是「等待」" ID="ID_1433495388" CREATED="1623399964914" MODIFIED="1623400255992"/>
+<node TEXT="锁是条件对象的一部分" ID="ID_652705211" CREATED="1623400096032" MODIFIED="1623400144554">
+<node TEXT="锁可作为参数生成条件变量，默认生成一个RLock锁" ID="ID_1366756743" CREATED="1623400145289" MODIFIED="1623400201657"/>
+<node TEXT=" 提供与Lock类似的acquire和release方法" ID="ID_1169449751" CREATED="1623391777363" MODIFIED="1623391778085"/>
+<node TEXT=" 还提供了wait和notify方法、notify_all方法" ID="ID_1287579347" CREATED="1623391784726" MODIFIED="1623401053706"/>
+<node TEXT=" 可利用了锁对象的上下文管理函数 while Condition" ID="ID_1238890099" CREATED="1623400291009" MODIFIED="1623400308185"/>
+</node>
+<node TEXT="同步处理" ID="ID_1799233712" CREATED="1623400214755" MODIFIED="1623400243770">
+<node TEXT="线程版 threading.Condition" ID="ID_1286555365" CREATED="1623399267594" MODIFIED="1623399303235"/>
+<node TEXT="进程版 multiprocessing.Condition" ID="ID_1816426853" CREATED="1623399303619" MODIFIED="1623399843696"/>
+</node>
+</node>
+<node TEXT="适用场景" ID="ID_1070213071" CREATED="1623392502274" MODIFIED="1623402625453">
+<node TEXT="将锁用于同步某些共享状态的权限" ID="ID_450920951" CREATED="1623402756593" MODIFIED="1623403197054"/>
+<node TEXT=" 那些对状态的某些特定改变感兴趣的线程，它们重复调用 wait() 方法，直到看到所期望的改变发生" ID="ID_570928980" CREATED="1623403224324" MODIFIED="1623403225667"/>
+<node TEXT="生产者、消费者 模型" ID="ID_450825710" CREATED="1623402627418" MODIFIED="1623402644628"/>
+<node TEXT="线程1，处理一流程，缺资源处理不下去了，挂起等待" ID="ID_1062968079" CREATED="1623398627661" MODIFIED="1623398813582"/>
+<node TEXT="线程2，提供资源，唤起线程1" ID="ID_801396872" CREATED="1623398799085" MODIFIED="1623398839782"/>
+</node>
+<node TEXT="方法" ID="ID_833653646" CREATED="1623402649569" MODIFIED="1623402654370">
+<node TEXT="调用前要获取锁，否则会报错" ID="ID_249695257" CREATED="1623402894943" MODIFIED="1623402909593"/>
+<node TEXT="wait(timeout=None)" ID="ID_1598462013" CREATED="1623402657626" MODIFIED="1623402693139">
+<node TEXT=" wait() 方法释放锁(当底层锁是一个RLock时不会自动释放)，然后阻塞" ID="ID_1921416695" CREATED="1623402702792" MODIFIED="1623403022440"/>
+<node TEXT=" 唤醒由其它线程调用 notify() 方法或 notify_all() 方法" ID="ID_456562888" CREATED="1623402709601" MODIFIED="1623402735513"/>
+<node TEXT=" 一旦被唤醒， wait() 方法重新获取锁并返回" ID="ID_717563117" CREATED="1623402736425" MODIFIED="1623402745132"/>
+</node>
+<node TEXT="notify(n=1)" ID="ID_1532902474" CREATED="1623402768441" MODIFIED="1623402808241">
+<node TEXT="唤醒wait中的线程，默认为1个" ID="ID_1789338472" CREATED="1623402819783" MODIFIED="1623402851505"/>
+<node TEXT="如果该条件变量没有wait的线程，就没有作用" ID="ID_1787825647" CREATED="1623402868624" MODIFIED="1623402890834"/>
+</node>
+<node TEXT=" notify_all()" ID="ID_1882153078" CREATED="1623402947615" MODIFIED="1623402948693">
+<node TEXT="唤醒所有wait中的线程" ID="ID_1182512865" CREATED="1623403084350" MODIFIED="1623403095191"/>
+</node>
+<node TEXT="wait_for(predicatefunc, timeout=None)" ID="ID_1673661118" CREATED="1623403098006" MODIFIED="1623403121847"/>
+</node>
+<node TEXT="消费者例子" ID="ID_229853044" CREATED="1623398853165" MODIFIED="1623398866440">
+<node TEXT="消费者" ID="ID_590269630" CREATED="1623398868653" MODIFIED="1623398887826">
+<node ID="ID_1797788829" CREATED="1623398894706" MODIFIED="1623398894706"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono,monospace; font-size: 9.8pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">consumer</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>cv<span style="color: #cc7832"><font color="#cc7832">, </font></span>cv2<span style="color: #cc7832"><font color="#cc7832">, </font></span>resource<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)</i></font></span>:<br/>    logging.debug<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: 宋体,monospace"><font color="#6a8759" face="宋体,monospace">消费者线程启动</font></span><span style="color: #6a8759"><font color="#6a8759"> ...'</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font><span style="color: #cc7832"><font color="#cc7832">while True</font></span>:<br/>        <span style="color: #cc7832"><font color="#cc7832">with </font></span>cv:  <span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: 宋体,monospace"><font color="#808080" face="宋体,monospace">这里上下文管理</font></span><span style="color: #808080"><font color="#808080"> acquire release<br/></font></span><font color="#808080"><span style="color: #808080">            </span></font><span style="color: #cc7832"><font color="#cc7832">if </font></span>resource:<br/>                res = resource.pop<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6897bb"><font color="#6897bb">0</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">                </span></i></font>logging.debug<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6a8759"><font color="#6a8759">f'</font></span><span style="color: #6a8759; font-family: 宋体,monospace"><font color="#6a8759" face="宋体,monospace">消费者消费了资源</font></span><span style="color: #6a8759"><font color="#6a8759">: </font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>{</i></font></span>res<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>}</i></font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">            </span></i></font><span style="color: #cc7832"><font color="#cc7832">else</font></span>:<br/>                <span style="color: #cc7832"><font color="#cc7832">with </font></span>cv2:<br/>                    logging.debug<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6a8759"><font color="#6a8759">f'</font></span><span style="color: #6a8759; font-family: 宋体,monospace"><font color="#6a8759" face="宋体,monospace">消费者消费了个寂寞</font></span><span style="color: #6a8759"><font color="#6a8759">, </font></span><span style="color: #6a8759; font-family: 宋体,monospace"><font color="#6a8759" face="宋体,monospace">通知生产者</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">                    </span></i></font>cv2.notify<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic"><br/></span><span style="color: #9876aa; font-style: italic">                </span></i></font>logging.debug<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: 宋体,monospace"><font color="#6a8759" face="宋体,monospace">消费者等待</font></span><span style="color: #6a8759"><font color="#6a8759"> ...'</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">                </span></i></font>cv.wait<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">            </span></i></font>time.sleep<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" 生产者" ID="ID_881751686" CREATED="1623398896757" MODIFIED="1623398913645">
+<node ID="ID_620509622" CREATED="1623399812288" MODIFIED="1623399812288"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono,monospace; font-size: 9.8pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">producer</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>cv<span style="color: #cc7832"><font color="#cc7832">, </font></span>cv2<span style="color: #cc7832"><font color="#cc7832">, </font></span>resource<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)</i></font></span>:<br/>    logging.debug<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: 宋体,monospace"><font color="#6a8759" face="宋体,monospace">生产者线程开始</font></span><span style="color: #6a8759"><font color="#6a8759"> ...'</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>i = <span style="color: #6897bb"><font color="#6897bb">1<br/></font></span><font color="#6897bb"><span style="color: #6897bb">    </span></font><span style="color: #cc7832"><font color="#cc7832">while True</font></span>:<br/>        <span style="color: #cc7832"><font color="#cc7832">with </font></span>cv:<br/>            <span style="color: #cc7832"><font color="#cc7832">if not </font></span>resource:<br/>                logging.debug<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: 宋体,monospace"><font color="#6a8759" face="宋体,monospace">生产者生产资源</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">                </span></i></font>resource.append<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>i<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">                </span></i></font>i += <span style="color: #6897bb"><font color="#6897bb">1<br/></font></span><font color="#6897bb"><span style="color: #6897bb">                </span></font>logging.debug<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: 宋体,monospace"><font color="#6a8759" face="宋体,monospace">生产者通知所有等待中的消费者</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">                </span></i></font>cv.notify_all<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">            </span></i></font><span style="color: #cc7832"><font color="#cc7832">else</font></span>:<br/>                logging.debug<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: 宋体,monospace"><font color="#6a8759" face="宋体,monospace">生产者这一轮不生产资源</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic"><br/></span><span style="color: #9876aa; font-style: italic">        </span></i></font><span style="color: #cc7832"><font color="#cc7832">with </font></span>cv2:<br/>            logging.debug<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #6a8759; font-family: 宋体,monospace"><font color="#6a8759" face="宋体,monospace">生产者等待下一轮生产</font></span><span style="color: #6a8759"><font color="#6a8759">'</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">            </span></i></font>cv2.wait<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()<br/></i></font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="1个生产者、2个消费者" ID="ID_1981106539" CREATED="1623398934339" MODIFIED="1623398961996">
+<node TEXT=" logging.basicConfig(format=&apos;(%(threadName)-9s) %(message)s&apos;)" ID="ID_1317966043" CREATED="1623399015756" MODIFIED="1623399046592"/>
+<node ID="ID_759447716" CREATED="1623398968077" MODIFIED="1623398968077"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono,monospace; font-size: 9.8pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">main</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()</i></font></span>:<br/>    cv = threading.Condition<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>cv2 = threading.Condition<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>resource = <span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>[]<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>cs1 = threading.Thread<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'consumer1'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">target</font></span>=consumer<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>cv<span style="color: #cc7832"><font color="#cc7832">, </font></span>cv2<span style="color: #cc7832"><font color="#cc7832">, </font></span>resource<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>))<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>cs2 = threading.Thread<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'consumer2'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">target</font></span>=consumer<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>cv<span style="color: #cc7832"><font color="#cc7832">, </font></span>cv2<span style="color: #cc7832"><font color="#cc7832">, </font></span>resource<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>))<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>pd = threading.Thread<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #aa4926"><font color="#aa4926">name</font></span>=<span style="color: #6a8759"><font color="#6a8759">'producer'</font></span><span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">target</font></span>=producer<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="color: #aa4926"><font color="#aa4926">args</font></span>=<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>cv<span style="color: #cc7832"><font color="#cc7832">, </font></span>cv2<span style="color: #cc7832"><font color="#cc7832">, </font></span>resource<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>))<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic"><br/></span><span style="color: #9876aa; font-style: italic">    </span></i></font><span style="color: #cc7832"><font color="#cc7832">for </font></span>i <span style="color: #cc7832"><font color="#cc7832">in </font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>[</i></font></span>cs1<span style="color: #cc7832"><font color="#cc7832">, </font></span>cs2<span style="color: #cc7832"><font color="#cc7832">, </font></span>pd<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>]</i></font></span>:<br/>        i.start<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">        </span></i></font>time.sleep<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span><span style="color: #6897bb"><font color="#6897bb">1</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span></pre>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="2个消费者线程，1个生产者线程" ID="ID_1874130788" CREATED="1623398990955" MODIFIED="1623399078357"/>
+<node TEXT="cv" ID="ID_1878162799" CREATED="1623399179651" MODIFIED="1623399184452">
+<node TEXT=" 消费者先启动，因为没有资源，wait挂起" ID="ID_688859049" CREATED="1623399078563" MODIFIED="1623399165541"/>
+<node TEXT="生产者后启动，生产资源，唤醒wait中的消费者" ID="ID_189878442" CREATED="1623399125707" MODIFIED="1623399160700"/>
+</node>
+<node TEXT="cv2" ID="ID_1451449139" CREATED="1623399189578" MODIFIED="1623399191502">
+<node TEXT="生产者生产完资源了，wait挂起" ID="ID_1405776586" CREATED="1623399191962" MODIFIED="1623399205836"/>
+<node TEXT="消费者消费不了资源，唤醒wait中的生产者" ID="ID_1038309439" CREATED="1623399206082" MODIFIED="1623399242084"/>
+</node>
+</node>
 </node>
 </node>
 </node>

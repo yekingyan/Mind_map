@@ -1,6 +1,6 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="游戏杂记" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1583396325941" STYLE="bubble">
+<node TEXT="游戏同步" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1611648384532" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle" zoom="1.077">
     <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
@@ -133,15 +133,28 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="103" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="106" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="同步模式" POSITION="right" ID="ID_77456125" CREATED="1583396334140" MODIFIED="1583396339661">
-<edge COLOR="#00ff00"/>
-<node TEXT="概念" ID="ID_1338789825" CREATED="1583397196411" MODIFIED="1583397201116">
+<node TEXT="概念" POSITION="right" ID="ID_1338789825" CREATED="1583397196411" MODIFIED="1611648395648">
+<edge COLOR="#7c007c"/>
+<node TEXT=" 网络同步 = 实时的多端数据同步+实时的多端表现同步" ID="ID_1504473271" CREATED="1611649169391" MODIFIED="1611649170878"/>
 <node TEXT="多个客户端表现效果和服务端的数据是一致的" ID="ID_1013910424" CREATED="1583397201492" MODIFIED="1583397251828"/>
 <node TEXT=" 同步是一个网络游戏概念，单机游戏不需要同步" ID="ID_516005995" CREATED="1583397259354" MODIFIED="1583397269716"/>
 </node>
-<node TEXT="帧同步" FOLDED="true" ID="ID_1728033984" CREATED="1583395998424" MODIFIED="1583396341896">
+<node TEXT="帧同步" POSITION="right" ID="ID_1728033984" CREATED="1583395998424" MODIFIED="1611648395650">
+<edge COLOR="#007c7c"/>
+<node TEXT=" 具分逻辑帧和渲染帧，逻辑帧就是lockstep里面的“Step”，也可以叫做“turn”，“bucket”或者“步" ID="ID_995262203" CREATED="1611653270226" MODIFIED="1611653307323"/>
+<node TEXT=" 帧同步不是单指某个具体算法，而是范指“保证每帧（逻辑帧）输入一致”的一系列算法" ID="ID_417877992" CREATED="1611654771687" MODIFIED="1611654772865"/>
+<node TEXT=" 一系列算法" ID="ID_1605901707" CREATED="1611654793629" MODIFIED="1611654794600">
+<node TEXT=" 帧锁定，乐观帧锁定，lockstep，bucket 同步等等" ID="ID_998552767" CREATED="1611654806469" MODIFIED="1611654808315"/>
+</node>
+<node TEXT=" 具体优化手段" ID="ID_814500236" CREATED="1611654827309" MODIFIED="1611654828271">
+<node TEXT=" 要不要回滚？" ID="ID_1951340976" CREATED="1611654837901" MODIFIED="1611654840662"/>
+<node TEXT=" 服务端要不要跑一套完整逻辑？" ID="ID_1128414664" CREATED="1611654840900" MODIFIED="1611654841830"/>
+<node TEXT=" 操作要不要是键盘鼠标？还是高阶命令？" ID="ID_997934290" CREATED="1611654849205" MODIFIED="1611654850270"/>
+<node TEXT=" 客户端要不要像视频播放器一样保证平滑缓存 1-2 帧？" ID="ID_1053197935" CREATED="1611654856260" MODIFIED="1611654857169"/>
+<node TEXT=" 或者要不要保证平滑加一层显示对象的坐标插值？" ID="ID_981740123" CREATED="1611654861924" MODIFIED="1611654862864"/>
+</node>
 <node TEXT="同步流程" ID="ID_1895748945" CREATED="1583486646583" MODIFIED="1583486652505">
 <node TEXT="1. 同步随机种子：游戏中设计随机数的使用，通过同步随机数种子可以保持随机数的一致性" ID="ID_1409187435" CREATED="1583487167407" MODIFIED="1583487188784"/>
 <node TEXT=" 2. 客户端上传操作指令给服务器，操作指令包含游戏操作和当前帧索引" ID="ID_1877761744" CREATED="1583487251652" MODIFIED="1583487256653"/>
@@ -235,7 +248,8 @@
 </node>
 </node>
 </node>
-<node TEXT=" 帧锁定同步" FOLDED="true" ID="ID_1517574728" CREATED="1611566610175" MODIFIED="1611566636970">
+<node TEXT=" 帧锁定同步" FOLDED="true" POSITION="right" ID="ID_1517574728" CREATED="1611566610175" MODIFIED="1611648395652">
+<edge COLOR="#7c7c00"/>
 <node TEXT=" 算法概念" ID="ID_561119304" CREATED="1611566686903" MODIFIED="1611566688096">
 <node TEXT=" 该算法普遍要求网速RTT要在100ms以内，一般人数不超过8人" ID="ID_712320074" CREATED="1611566699173" MODIFIED="1611566700584"/>
 <node TEXT=" 保证所有客户端每帧的输入都一样， 可以像单机游戏一样编写网络游戏" ID="ID_1584894150" CREATED="1611631551282" MODIFIED="1611631564326"/>
@@ -265,7 +279,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1329230653" CREATED="1611626604872" MODIFIED="1611626604872"><richcontent TYPE="NODE">
@@ -280,7 +293,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1584703749" CREATED="1611626604874" MODIFIED="1611626604874"><richcontent TYPE="NODE">
@@ -295,7 +307,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_893451692" CREATED="1611626604877" MODIFIED="1611626604877"><richcontent TYPE="NODE">
@@ -310,7 +321,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1514445177" CREATED="1611626604878" MODIFIED="1611626604878"><richcontent TYPE="NODE">
@@ -325,7 +335,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1443082007" CREATED="1611626604880" MODIFIED="1611626604880"><richcontent TYPE="NODE">
@@ -340,7 +349,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1541981000" CREATED="1611626604882" MODIFIED="1611626604882"><richcontent TYPE="NODE">
@@ -355,7 +363,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_351130165" CREATED="1611626604884" MODIFIED="1611626604884"><richcontent TYPE="NODE">
@@ -370,7 +377,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_709783015" CREATED="1611629653388" MODIFIED="1611629653388"><richcontent TYPE="NODE">
@@ -383,7 +389,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono,monospace; font-size: 9.8pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">ClientUpdate</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()</i></font></span>:<br/>    F = GetCurFrame<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font><span style="color: #cc7832"><font color="#cc7832">if </font></span>F <span style="color: #cc7832"><font color="#cc7832">is not </font></span><span style="font-family: 宋体,monospace"><font face="宋体,monospace">关键帧</font></span>K1:<br/>        execute<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>F<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">        </span></i></font><span style="color: #cc7832"><font color="#cc7832">return<br/></font></span><font color="#cc7832"><span style="color: #cc7832">    </span></font>K1 = F<br/>    <span style="font-family: 宋体,monospace"><font face="宋体,monospace">采集</font></span>K1<span style="font-family: 宋体,monospace"><font face="宋体,monospace">编号<br/></font></span><font face="宋体,monospace"><span style="font-family: 宋体,monospace">    采集当前</span></font>K1<span style="font-family: 宋体,monospace"><font face="宋体,monospace">的输入作为</font></span>CTRL<span style="font-family: 宋体,monospace"><font face="宋体,monospace">数据<br/></font></span><font face="宋体,monospace"><span style="font-family: 宋体,monospace">    发送到服务器<br/></span><span style="font-family: 宋体,monospace"><br/></span><span style="font-family: 宋体,monospace">    从</span></font>UPDATE K1<span style="font-family: 宋体,monospace"><font face="宋体,monospace">中获取下一个关键帧</font></span>K2<br/>    <span style="font-family: 宋体,monospace"><font face="宋体,monospace">从</font></span>UPDATE K1<span style="font-family: 宋体,monospace"><font face="宋体,monospace">中获取</font></span>K1<span style="font-family: 宋体,monospace"><font face="宋体,monospace">到</font></span>K2<span style="font-family: 宋体,monospace"><font face="宋体,monospace">之间的输入数据</font></span>I<br/>    <span style="font-family: 宋体,monospace"><font face="宋体,monospace">从</font></span>K1<span style="font-family: 宋体,monospace"><font face="宋体,monospace">到</font></span>K2<span style="color: #cc7832"><font color="#cc7832">, </font></span><span style="font-family: 宋体,monospace"><font face="宋体,monospace">虚拟输入都用</font></span>I<br/><br/>    setCurFrame<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>K2<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>execute<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>K1<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)  </i></font></span><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: 宋体,monospace"><font color="#808080" face="宋体,monospace">执行该帧逻辑<br/></font></span><font color="#808080" face="宋体,monospace"><span style="color: #808080; font-family: 宋体,monospace">    </span></font>ClientUpdate<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()  </i></font></span><span style="color: #808080"><font color="#808080"># </font></span><span style="color: #808080; font-family: 宋体,monospace"><font color="#808080" face="宋体,monospace">跳转下一当前帧<br/></font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -400,7 +405,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1293307066" CREATED="1611626969644" MODIFIED="1611626969644"><richcontent TYPE="NODE">
@@ -415,7 +419,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1777882631" CREATED="1611626969646" MODIFIED="1611626969646"><richcontent TYPE="NODE">
@@ -430,7 +433,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_128827356" CREATED="1611626969648" MODIFIED="1611626969648"><richcontent TYPE="NODE">
@@ -445,7 +447,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_213830793" CREATED="1611626969649" MODIFIED="1611626969649"><richcontent TYPE="NODE">
@@ -460,7 +461,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1564268996" CREATED="1611629666337" MODIFIED="1611629666337"><richcontent TYPE="NODE">
@@ -473,7 +473,6 @@
     <pre style="background-color: #2b2b2b; color: #a9b7c6; font-family: JetBrains Mono,monospace; font-size: 9.8pt"><span style="color: #cc7832"><font color="#cc7832">def </font></span><span style="color: #ffc66d"><font color="#ffc66d">ServerUpdate</font></span><span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()</i></font></span>:<br/>    <span style="color: #72737a"><font color="#72737a">K1 </font></span>= GetCurFrame<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>ctrlK = GetAllK1CTRL<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>K2<span style="color: #cc7832"><font color="#cc7832">, </font></span>k2Data = CalK2<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>ctrlK<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>k3Num = CalK3<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>k2Data<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>sendClient<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>k2Data<span style="color: #cc7832"><font color="#cc7832">, </font></span>k3Num<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>setCurFrame<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>(</i></font></span>K2<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>)<br/></i></font></span><font color="#9876aa"><i><span style="color: #9876aa; font-style: italic">    </span></i></font>ServerUpdate<span style="color: #9876aa; font-style: italic"><font color="#9876aa"><i>()</i></font></span></pre>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -517,7 +516,50 @@
 </node>
 </node>
 </node>
-<node TEXT="插值同步" FOLDED="true" ID="ID_854134449" CREATED="1611642307114" MODIFIED="1611642314920">
+<node TEXT=" 确定性锁步同步 Deterministic Lockstep" POSITION="right" ID="ID_58422334" CREATED="1611651893842" MODIFIED="1611652019407">
+<edge COLOR="#00ffff"/>
+<node TEXT=" 确定性锁步同步" ID="ID_145063445" CREATED="1611651916098" MODIFIED="1611651917146"/>
+<node TEXT=" 每个客户端本地运行着一个独立的系统，该系统每0.02秒钟对玩家的动作 (鼠标操作和键盘操作，包括前后移动、使用道具、开火等) 采样一次得到一个 tick command" ID="ID_464444524" CREATED="1611651942465" MODIFIED="1611651943651"/>
+<node TEXT=" tick command 发送给其他所有玩家，每个玩家都缓存来自其他所有玩家的 tick commands" ID="ID_1795695985" CREATED="1611651964098" MODIFIED="1611651985979"/>
+<node TEXT=" 当某个玩家收到所有其他玩家的 tick commands 后，他的本地游戏状态会推进到下一帧" ID="ID_1935782280" CREATED="1611651967569" MODIFIED="1611651999333"/>
+</node>
+<node TEXT=" 锁步同步协议 Lockstep Protocol" POSITION="right" ID="ID_1512550452" CREATED="1611651760858" MODIFIED="1611652031579">
+<edge COLOR="#ff00ff"/>
+<node TEXT="概念" ID="ID_573971310" CREATED="1611652237950" MODIFIED="1611652241376">
+<node TEXT=" Lockstep protocol并不是Deterministic Lockstep" ID="ID_457564597" CREATED="1611651880586" MODIFIED="1611651887673"/>
+<node TEXT="锁步同步协议对抗lookahead cheat类型的外挂" ID="ID_833999387" CREATED="1611651774602" MODIFIED="1611651793940"/>
+</node>
+<node TEXT="lookahead cheats" ID="ID_1835063090" CREATED="1611651816770" MODIFIED="1611651817610">
+<node TEXT="" ID="ID_439037654" CREATED="1611652437709" MODIFIED="1611652441138">
+<hook URI="游戏同步_files/png_8837598887562866569.png" SIZE="0.55046785" NAME="ExternalObject"/>
+</node>
+<node TEXT="假装网络信号不好丢弃第K步的操作，第K+1步再发送" ID="ID_206943659" CREATED="1611651825898" MODIFIED="1611651829423"/>
+<node TEXT="每次都将自己的操作信息推迟发送，等到看到了别人的决策后再决定执行什么" ID="ID_191272673" CREATED="1611651849114" MODIFIED="1611651856996"/>
+</node>
+<node TEXT="每一步都分两次发送信息" ID="ID_1846689492" CREATED="1611652298332" MODIFIED="1611652304005">
+<node TEXT="" ID="ID_1467287169" CREATED="1611652620255" MODIFIED="1611652623961">
+<hook URI="游戏同步_files/png_7509590402783503160.png" SIZE="0.7482818" NAME="ExternalObject"/>
+</node>
+<node TEXT=" 针对要发送的明文信息进行哈希，先发Hash" ID="ID_328608457" CREATED="1611652488435" MODIFIED="1611652510004"/>
+<node TEXT="收到其它客户端的Hash再发自己明文" ID="ID_1733407263" CREATED="1611652512826" MODIFIED="1611652543739"/>
+<node TEXT=" 对比明文与Hash的一致性" ID="ID_1550721890" CREATED="1611652544478" MODIFIED="1611652560836"/>
+</node>
+<node TEXT="缺点" ID="ID_159708532" CREATED="1611652713497" MODIFIED="1611652716345">
+<node TEXT=" 带来了带宽以及性能的浪费" ID="ID_377001952" CREATED="1611652716584" MODIFIED="1611652735480"/>
+<node TEXT=" 网络条件好的客户端会时刻受到网络差的客户端的影响" ID="ID_28855722" CREATED="1611652740455" MODIFIED="1611652741369"/>
+</node>
+</node>
+<node TEXT=" 异步的Lockstep" POSITION="right" ID="ID_1829499463" CREATED="1611652753935" MODIFIED="1611652754973">
+<edge COLOR="#7c0000"/>
+<node TEXT=" asynchronous Synchronization lockstep" ID="ID_242133006" CREATED="1611652759432" MODIFIED="1611652760462"/>
+<node TEXT=" 两个玩家如果相距很远互不影响，就采用本地时钟向前推进（非Lockstep方式同步）" ID="ID_235924005" CREATED="1611652802287" MODIFIED="1611652803463"/>
+<node TEXT=" 如果互相靠近并可能影响到对方就变回到严格的LockStep同步，这里并不保证他们的帧序列是完全一致的" ID="ID_3351947" CREATED="1611652817670" MODIFIED="1611652818995"/>
+</node>
+<node TEXT=" Pipelined Lockstep protocol" POSITION="right" ID="ID_1692586380" CREATED="1611653057348" MODIFIED="1611653060278">
+<edge COLOR="#00007c"/>
+</node>
+<node TEXT="插值同步" FOLDED="true" POSITION="right" ID="ID_854134449" CREATED="1611642307114" MODIFIED="1611648395653">
+<edge COLOR="#ff0000"/>
 <node TEXT="状态同步" ID="ID_1960947735" CREATED="1611644298199" MODIFIED="1611644304171">
 <node TEXT=" 影子跟随算法由普通DR（dead reckoning）算法发展而来" ID="ID_1686315833" CREATED="1611642879121" MODIFIED="1611642880352"/>
 <node TEXT=" 核心思想：时钟同步，客户端先行，平滑追赶" ID="ID_1471345701" CREATED="1611645228752" MODIFIED="1611645236842"/>
@@ -564,7 +606,13 @@
 </node>
 </node>
 </node>
-<node TEXT="状态同步" FOLDED="true" ID="ID_1123234716" CREATED="1583396012792" MODIFIED="1583396340976">
+<node TEXT="状态同步" POSITION="right" ID="ID_1123234716" CREATED="1583396012792" MODIFIED="1611648395654">
+<edge COLOR="#0000ff"/>
+<node TEXT="核心强调" ID="ID_984007864" CREATED="1611654885508" MODIFIED="1611654898846">
+<node TEXT=" 客户端外在表现不同，但内部状态能统一协调" ID="ID_895458369" CREATED="1611654906045" MODIFIED="1611654907246"/>
+<node TEXT=" 让所有的用户屏幕上面表现出完全不同的表象是完全没有问题的。" ID="ID_6612125" CREATED="1611654927908" MODIFIED="1611654929276"/>
+<node TEXT=" 把这些完全不同表象完全融合在一个统一的逻辑中也是完全没有问题的" ID="ID_332640068" CREATED="1611654934741" MODIFIED="1611654935771"/>
+</node>
 <node TEXT=" 同步流程" ID="ID_590938201" CREATED="1583485521737" MODIFIED="1583485541051">
 <node TEXT=" 1. 客户端上传操作到服务器" ID="ID_883730171" CREATED="1583485553977" MODIFIED="1583485561650"/>
 <node TEXT="2. 服务器收到后计算游戏行为的结果（如技能逻辑、战斗计算等）" ID="ID_1391484587" CREATED="1583485562777" MODIFIED="1583485578380"/>
@@ -593,8 +641,81 @@
 <node TEXT="打击感或精确性差" ID="ID_85293215" CREATED="1583406271690" MODIFIED="1583406283303"/>
 <node TEXT="网络流量随游戏复杂度增加" ID="ID_413529837" CREATED="1583406283562" MODIFIED="1583406298212"/>
 </node>
+<node TEXT="客户端预测与回滚" ID="ID_711386853" CREATED="1612336735668" MODIFIED="1612336750641">
+<node TEXT=" 预测" ID="ID_1590706730" CREATED="1612336785086" MODIFIED="1612336818520">
+<node TEXT="客户端立即对用户输入进行本地响应，不需要什么特别的算法" ID="ID_154576329" CREATED="1612336810821" MODIFIED="1612336908607"/>
+<node TEXT=" 预测后的客户端与服务器的同步处理有很多值得优化的地方" ID="ID_1763330546" CREATED="1612336855061" MODIFIED="1612336899733"/>
+<node TEXT=" 如果玩家本地的预测结果与服务器几乎一致，那么我们认为预测是成功且有效的，玩家不会受到任何影响，可以继续操作" ID="ID_783588906" CREATED="1612336988699" MODIFIED="1612336990548"/>
+<node TEXT=" 采用了客户端预测逻辑来保证本地玩家能够有流畅的手感" ID="ID_1230878001" CREATED="1612343684427" MODIFIED="1612343690133"/>
+<node TEXT=" 为了让客户端提高预测准确率（保证客户端与服务器上的代码逻辑一致），可以让客户端与服务器执行同一套代码" ID="ID_1948574706" CREATED="1612343717123" MODIFIED="1612343734676"/>
 </node>
-<node TEXT=" 状态同步和帧同步的区别" FOLDED="true" ID="ID_1748358468" CREATED="1583397411249" MODIFIED="1583397412970">
+<node TEXT=" 预测失败" ID="ID_959126077" CREATED="1612336995381" MODIFIED="1612337004161">
+<node TEXT=" 预测后的客户端结果与服务器不一致" ID="ID_535000807" CREATED="1612337013371" MODIFIED="1612337032436"/>
+</node>
+<node TEXT=" TimeWarp算法" ID="ID_996656122" CREATED="1612340687505" MODIFIED="1612340688440">
+<node TEXT="概念" ID="ID_1099515194" CREATED="1612341976577" MODIFIED="1612341980372">
+<node TEXT=" 当一个对象收到了一个过去某个时刻应该执行的事件时，他应该回滚到那个时刻的状态，并且回滚前面所有的行为与状态（包括取消之前行为所产生的事件）" ID="ID_1951023272" CREATED="1612341874777" MODIFIED="1612341876723"/>
+<node TEXT="有Timewarp而不直接拉回之前的正确位置，因为客户端有后续基于这些的指令，会让服务器后续的校验与纠正变得复杂且奇怪" ID="ID_1523023708" CREATED="1612342003873" MODIFIED="1612342147330"/>
+</node>
+<node TEXT="大致实现" ID="ID_1039066881" CREATED="1612341984497" MODIFIED="1612341996386">
+<node TEXT=" 把玩家本地预执行的指令都记录好时间戳并存放到一个MOVE BUFFER列表里（类似一个滑动窗口）" ID="ID_99108255" CREATED="1612341894634" MODIFIED="1612341895661"/>
+<node TEXT=" 如果服务器的计算结果与你本地预测相同，可以回复你一个ACKMOVE" ID="ID_1053836403" CREATED="1612341905265" MODIFIED="1612341907212"/>
+<node TEXT=" 当你收到ACKMOVE的时候，你可以把MOVE BUFFER里面的数据从表里面移除" ID="ID_1082306712" CREATED="1612341947921" MODIFIED="1612341949074"/>
+<node TEXT=" 如果服务器发现你的某个移动位置有问题时，会把该指令的时间戳以及正确的位置打包发给你" ID="ID_1899045646" CREATED="1612341936897" MODIFIED="1612341938031"/>
+<node TEXT=" 当你收到错误纠正信息时就需要本地回滚到服务器指定的位置同时把错误时刻后面MOVE BUFFER里面的指令重新执行一遍" ID="ID_331439480" CREATED="1612341964473" MODIFIED="1612341965398"/>
+</node>
+<node TEXT="" ID="ID_919099119" CREATED="1612342160971" MODIFIED="1612342164463">
+<hook URI="游戏同步_files/png_2691425529782541561.png" SIZE="0.6834829" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT=" 事件锁定与时钟同步" ID="ID_1885479443" CREATED="1612342605712" MODIFIED="1612342606942">
+<node TEXT="概念" ID="ID_1742360864" CREATED="1612342626111" MODIFIED="1612342628618">
+<node TEXT=" 事件锁定是基于事件队列严格按序执行的，客户端只管发消息然后等待服务器的响应即可，其他时候本地正常模拟，不需要等待" ID="ID_952277680" CREATED="1612342629095" MODIFIED="1612342630259"/>
+<node TEXT=" 事件锁定的本质就是通过RPC产生事件从而进行同步（也就是排除属性同步的状态同步）" ID="ID_1436622946" CREATED="1612342643274" MODIFIED="1612342644770"/>
+</node>
+<node TEXT=" 需要尽可能的保持客户端与服务器的时钟同步" ID="ID_481486284" CREATED="1612342933879" MODIFIED="1612342935070">
+<node TEXT=" 事件中经常会含有时间相关的信息（比如在X秒进行开火）" ID="ID_1104018353" CREATED="1612342944310" MODIFIED="1612342949735"/>
+<node TEXT=" 服务器需要对客户端的不合法操作进行纠正" ID="ID_338351613" CREATED="1612342955846" MODIFIED="1612342956977"/>
+<node TEXT=" 实现时钟同步最常见且广泛的方式就是网络时间协议（Network Time Protocol，简称NTP）" ID="ID_585594395" CREATED="1612342983838" MODIFIED="1612342985348"/>
+</node>
+</node>
+<node TEXT="插值技术" ID="ID_1224210343" CREATED="1612343264640" MODIFIED="1612343272177">
+<node TEXT=" 内插值（ interpolation ）" ID="ID_832324060" CREATED="1612343296007" MODIFIED="1612343301330">
+<node TEXT=" 通过已知的、离散的数据点，在范围内推求新数据点的方法（重建连续的数据信息）" ID="ID_970416371" CREATED="1612343329672" MODIFIED="1612343332051"/>
+<node TEXT=" 常见于各种信号处理和图像处理" ID="ID_1653875570" CREATED="1612343345096" MODIFIED="1612343346728"/>
+<node TEXT=" 根据已知的离散点在一定时间内按照一定算法去模拟在点间的移动路径" ID="ID_366213561" CREATED="1612343356222" MODIFIED="1612343357604"/>
+</node>
+<node TEXT=" 外插值（extrapolation）" ID="ID_1305060027" CREATED="1612343307055" MODIFIED="1612343313288">
+<node TEXT="概念" ID="ID_1866887861" CREATED="1612343457085" MODIFIED="1612343459087">
+<node TEXT=" 从已知数据的离散集合中构建超出原始范围的新数据的方法" ID="ID_700538196" CREATED="1612343427422" MODIFIED="1612343428425"/>
+<node TEXT=" 根据过去和现在的发展趋势来推断未来，属于统计学上的概念" ID="ID_1357078491" CREATED="1612343440127" MODIFIED="1612343441490"/>
+<node TEXT=" 与外插值还有一个相似的概念称为导航推测" ID="ID_354433853" CREATED="1612343451950" MODIFIED="1612343484547"/>
+</node>
+<node TEXT=" 导航推测" ID="ID_407343867" CREATED="1612343471301" MODIFIED="1612343472632">
+<node TEXT=" DeadReckoning（简称DR）" ID="ID_1153106877" CREATED="1612343485999" MODIFIED="1612343489286"/>
+<node TEXT=" DR是一种利用现在物体位置及速度推定未来位置方向的航海技术，属于应用技术方向的概念" ID="ID_1636295790" CREATED="1612343500343" MODIFIED="1612343501282"/>
+<node TEXT=" DR的概念更贴近游戏领域，即给定一个点以及当前的方向等信息，推测其之后的移动路径，外推的算法也有很多种" ID="ID_1092678203" CREATED="1612343509117" MODIFIED="1612343510484"/>
+</node>
+</node>
+</node>
+<node TEXT=" 延迟补偿" ID="ID_1597493773" CREATED="1612343615515" MODIFIED="1612343616596">
+<node TEXT="概念" ID="ID_1205375456" CREATED="1612664274229" MODIFIED="1612664277205">
+<node TEXT=" 所谓延迟补偿，就是弥补客户端到服务器同步延迟的一项技术" ID="ID_1095403319" CREATED="1612664277950" MODIFIED="1612664365376"/>
+<node TEXT=" 考虑到本地玩家的时间总是领先服务器，玩家开枪的时间到服务器执行时就一定会被延迟" ID="ID_1528369407" CREATED="1612343814107" MODIFIED="1612343815545"/>
+<node TEXT=" 该技术的核心是服务器在指定时刻对玩家角色进行位置的回滚与计算处理" ID="ID_877717065" CREATED="1612664386453" MODIFIED="1612664387967"/>
+</node>
+<node TEXT="流程" ID="ID_496384802" CREATED="1612664452163" MODIFIED="1612664457759">
+<node TEXT=" 当客户端玩家开枪时，这个操作同步会在Xms后到达服务器，服务器这时候计算命中就已经出现了延迟" ID="ID_1551348768" CREATED="1612664458116" MODIFIED="1612664467104"/>
+<node TEXT=" 为了得到更准确的结果，服务器会在定时记录所有玩家的位置" ID="ID_752528894" CREATED="1612664481346" MODIFIED="1612664482533"/>
+<node TEXT=" 当收到一个客户端开枪事件后，服务器会立刻把所有玩家回退到Xms前的位置并计算是否命中" ID="ID_815541224" CREATED="1612664509332" MODIFIED="1612664518093"/>
+<node TEXT=" 计算后服务器立刻还原其位置" ID="ID_799133017" CREATED="1612664528644" MODIFIED="1612664534133"/>
+</node>
+<node TEXT=" ACT中采用延迟补偿会影响玩家体验。如果该情况发生在FPS里面，就不会有很大的问题，因为A根本不知道B什么时候瞄准的A" ID="ID_478371930" CREATED="1612664734065" MODIFIED="1612664996451"/>
+</node>
+</node>
+<node TEXT=" 状态同步和帧同步的区别" FOLDED="true" POSITION="right" ID="ID_1748358468" CREATED="1583397411249" MODIFIED="1611648395655">
+<edge COLOR="#00ff00"/>
 <node TEXT="战斗核心逻辑" ID="ID_706220484" CREATED="1583397431320" MODIFIED="1583397470969">
 <node TEXT=" 战斗逻辑" ID="ID_1487740085" CREATED="1583397485719" MODIFIED="1583397491602">
 <node TEXT=" 技能逻辑、普攻、属性、伤害" ID="ID_1572025235" CREATED="1583397492416" MODIFIED="1583397503441"/>
@@ -653,288 +774,6 @@
 <node TEXT="  客户端在战场开始的第10秒短线了，第15秒连回来了，就需要服务端把第10秒到第15秒之间5秒内的所有消息一次性发给客户端，然后客户端加速整个游戏的核心逻辑运行速度（例如加速成10倍），直到追上现有进度" ID="ID_1020616326" CREATED="1583399798692" MODIFIED="1583399799599"/>
 </node>
 </node>
-</node>
-</node>
-<node TEXT="AI" FOLDED="true" POSITION="right" ID="ID_1811856173" CREATED="1583396343356" MODIFIED="1583396347805">
-<edge COLOR="#ff00ff"/>
-<node TEXT="有限状态机" ID="ID_651709920" CREATED="1585192151317" MODIFIED="1585192156042">
-<node TEXT="状态机3个特征" ID="ID_1070735295" CREATED="1585205385707" MODIFIED="1585205402352">
-<node TEXT=" 状态总数（state）是有限的" ID="ID_113996752" CREATED="1585205402533" MODIFIED="1585205409124"/>
-<node TEXT=" 任一时刻，只处在一种状态之中" ID="ID_1742196812" CREATED="1585205413428" MODIFIED="1585205414607"/>
-<node TEXT="某种条件下，会从一种状态转变（transition）到另一种状态" ID="ID_79104126" CREATED="1585205419436" MODIFIED="1585205425103"/>
-</node>
-<node TEXT="状态机4要素" ID="ID_1316756849" CREATED="1585194782380" MODIFIED="1585194792064">
-<node TEXT=" “现态”和“条件”是因，“动作”和“次态”是果" ID="ID_115477862" CREATED="1585194826828" MODIFIED="1585194828325"/>
-<node TEXT=" 4要素" ID="ID_443095576" CREATED="1585194833187" MODIFIED="1585194834300">
-<node TEXT="现态" ID="ID_1408948539" CREATED="1585194815791" MODIFIED="1585227757682">
-<node TEXT=" 是指当前所处的状态" ID="ID_1245535602" CREATED="1585194852773" MODIFIED="1585194853964"/>
-</node>
-<node TEXT="条件" ID="ID_189267565" CREATED="1585194815791" MODIFIED="1585227769632">
-<node TEXT=" 条件又称为“事件”" ID="ID_593211694" CREATED="1585194860611" MODIFIED="1585194888980"/>
-<node TEXT=" 当一个条件被满足，将会触发一个动作" ID="ID_752139949" CREATED="1585194869827" MODIFIED="1585194881380"/>
-<node TEXT=" 或者执行一次状态的迁移" ID="ID_1463422026" CREATED="1585194876651" MODIFIED="1585194878325"/>
-</node>
-<node TEXT="动作" ID="ID_1314986924" CREATED="1585194815792" MODIFIED="1585227815765">
-<node TEXT=" 条件满足后执行的动作" ID="ID_1943448331" CREATED="1585194907955" MODIFIED="1585194909853"/>
-<node TEXT=" 动作执行完毕后，可以迁移到新的状态，也可以仍旧保持原状态" ID="ID_195723422" CREATED="1585194917835" MODIFIED="1585194919221"/>
-<node TEXT=" 动作不是必需的，当条件满足后，也可以不执行任何动作，直接迁移到新状态" ID="ID_1873730404" CREATED="1585194929562" MODIFIED="1585194930603"/>
-</node>
-<node TEXT="次态" ID="ID_1633280208" CREATED="1585194815793" MODIFIED="1585227828750">
-<node TEXT=" 次态”是相对于“现态”而言的" ID="ID_962827326" CREATED="1585194990034" MODIFIED="1585194991043"/>
-<node TEXT=" 条件满足后要迁往的新状态" ID="ID_928624917" CREATED="1585194976034" MODIFIED="1585194977478"/>
-<node TEXT=" “次态”一旦被激活，就转变成新的“现态”了" ID="ID_1458783291" CREATED="1585194997761" MODIFIED="1585194999699"/>
-</node>
-</node>
-</node>
-<node TEXT=" 注意" ID="ID_152557526" CREATED="1585195051737" MODIFIED="1585195053252">
-<node TEXT=" 区分“动作”和“状态”" ID="ID_1789222143" CREATED="1585195078201" MODIFIED="1585195079291">
-<node TEXT=" 避免把某个“程序动作”当作是一种“状态”来处理" ID="ID_1121220591" CREATED="1585195084850" MODIFIED="1585195085858"/>
-<node TEXT=" “动作”是不稳定的，即使没有条件的触发，“动作”一旦执行完毕就结束了" ID="ID_1973072308" CREATED="1585195121937" MODIFIED="1585195123867"/>
-<node TEXT=" “状态”是相对稳定的，如果没有外部条件的触发，一个状态会一直持续下去" ID="ID_146416990" CREATED="1585195129913" MODIFIED="1585195130961"/>
-</node>
-<node TEXT="避免遗漏现态转到次态的可能性" ID="ID_275747045" CREATED="1585195928346" MODIFIED="1585195991159">
-<node TEXT=" 状态划分时漏掉一些状态，导致跳转逻辑不完整" ID="ID_250019503" CREATED="1585195979098" MODIFIED="1585195980604"/>
-<node TEXT=" 维护上述一张状态表，看状态之间的跳转路径" ID="ID_1460165756" CREATED="1585196006627" MODIFIED="1585196041899"/>
-</node>
-</node>
-<node TEXT="缺点" ID="ID_1274506909" CREATED="1585203306056" MODIFIED="1585203308692">
-<node TEXT=" 所有状态都提前预知了才能够规划代码" ID="ID_557993234" CREATED="1585203318384" MODIFIED="1585203320057"/>
-<node TEXT=" 一旦遇到新增一个状态，全部状态机代码都得重审一遍，以免遗漏状态切换" ID="ID_540276251" CREATED="1585203346496" MODIFIED="1585203347993"/>
-<node TEXT=" 除了状态之外，还有大量的数据一般都是共享的" ID="ID_141190756" CREATED="1585203381160" MODIFIED="1585203382481"/>
-<node TEXT=" 状态机的架构不太适合多线程模型" ID="ID_136269164" CREATED="1585203397711" MODIFIED="1585203398513"/>
-</node>
-<node TEXT="例子" ID="ID_1094194597" CREATED="1585276910167" MODIFIED="1585276919649">
-<node TEXT="英雄看到哥布林Fight，看到半兽人Escape，都看不到就Idle" ID="ID_608767579" CREATED="1585276929761" MODIFIED="1585277075458">
-<hook URI="游戏杂记_files/png_8124562210985400553.png" SIZE="0.5607888" NAME="ExternalObject"/>
-</node>
-<node TEXT=" 多加一个状态，则需要增加几条转换线，越多状态，需要增加的转换线越多" ID="ID_1989381437" CREATED="1585276957032" MODIFIED="1585276958095"/>
-</node>
-</node>
-<node TEXT="行为树" ID="ID_640740945" CREATED="1583396351931" MODIFIED="1583396354733">
-<node TEXT="概念" ID="ID_879513389" CREATED="1585276798313" MODIFIED="1585276800494">
-<node TEXT=" 行为树是一个包含逻辑节点和行为节点的树结构" ID="ID_85695095" CREATED="1585276810641" MODIFIED="1585276812306"/>
-<node ID="ID_1889856485" CREATED="1585276826216" MODIFIED="1585276827675"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#160;&#27599;&#27425;&#38656;&#35201;&#25214;&#20986;&#19968;&#20010;&#34892;&#20026;&#30340;&#26102;&#20505;&#65292;&#20250;&#20174;&#26641;&#30340;&#26681;&#33410;&#28857;&#20986;&#21457;&#65292;&#36941;&#21382;&#21508;&#20010;&#33410;&#28857;&#65292;&#25214;&#20986;&#31532;&#19968;&#20010;&#21644;&#24403;&#21069;&#25968;&#25454;&#30456;&#31526;&#21512;&#30340;&#34892;&#20026;<content ename="content"/>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="3种节点" ID="ID_269041460" CREATED="1585277385628" MODIFIED="1585277391296">
-<node TEXT=" 根节点 Root" ID="ID_1326572913" CREATED="1585277399788" MODIFIED="1585277402629">
-<node TEXT=" 根节点，每次需要寻找行为的时候都必须从这里开始" ID="ID_344003858" CREATED="1585277171878" MODIFIED="1585277176998"/>
-</node>
-<node TEXT=" 逻辑节点（可拓展）" ID="ID_1796527001" CREATED="1585277410668" MODIFIED="1585277418254">
-<node TEXT=" Priority Selector" ID="ID_59031189" CREATED="1585900194622" MODIFIED="1585900195905"/>
-<node TEXT=" Sequence" ID="ID_1306817305" CREATED="1585277426475" MODIFIED="1585277427414"/>
-<node TEXT=" Parallel" ID="ID_383846141" CREATED="1585277436173" MODIFIED="1585277448426"/>
-</node>
-<node TEXT=" 行为节点" ID="ID_422939433" CREATED="1585646203915" MODIFIED="1585646205460">
-<node TEXT="行为树的可以重用Do Run这些基础的行为节点" ID="ID_1460490219" CREATED="1585646282707" MODIFIED="1585646324756"/>
-<node TEXT="" ID="ID_606087503" CREATED="1585646289538" MODIFIED="1585646289538"/>
-</node>
-</node>
-<node TEXT="节点" ID="ID_109569804" CREATED="1585899379695" MODIFIED="1585899381910">
-<node TEXT="节点的三种状态" ID="ID_1135758306" CREATED="1585899600601" MODIFIED="1585899882730">
-<node TEXT=" 节点都会返回状态给父节点，作为运行结果" ID="ID_994089311" CREATED="1585899396851" MODIFIED="1585899586461"/>
-<node ID="ID_1915234274" CREATED="1585899448758" MODIFIED="1585899448758"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#25104;&#21151; - Success
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_677547861" CREATED="1585899448758" MODIFIED="1585899448758"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#22833;&#36133; - Failure
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_467552720" CREATED="1585899448760" MODIFIED="1585899448760"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#36816;&#34892;&#20013; - Running
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT=" 结果还未确定" ID="ID_1054521706" CREATED="1585899823592" MODIFIED="1585899827363"/>
-<node TEXT=" 会在下一个 Tick 的时候再去检查这个节点的运行结果" ID="ID_1966660101" CREATED="1585899827690" MODIFIED="1585899829217"/>
-<node TEXT=" 让一个节点持续运行一段时间来维持某些行为" ID="ID_1874876937" CREATED="1585899849824" MODIFIED="1585899851177"/>
-</node>
-</node>
-<node TEXT="节点的类型" ID="ID_672460917" CREATED="1585899891511" MODIFIED="1585899899315">
-<node ID="ID_1751369030" CREATED="1585899920290" MODIFIED="1585899920290"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#32452;&#21512;&#33410;&#28857; - Composite
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT=" 可以拥有一个或更多的子节点" ID="ID_977766333" CREATED="1585899972423" MODIFIED="1585899973473"/>
-<node TEXT=" 子节点会按照一定的次序或是随机地执行" ID="ID_318108584" CREATED="1585899984231" MODIFIED="1585899985089"/>
-<node TEXT="子节点会根据执行的结果向父节点返回状态" ID="ID_1100385749" CREATED="1585899997823" MODIFIED="1585900009315"/>
-<node TEXT="包括几种节点" ID="ID_670890101" CREATED="1585900081855" MODIFIED="1585900090489">
-<node TEXT="选择节点 Priority Selector" ID="ID_1105666859" CREATED="1585900106568" MODIFIED="1585900154976">
-<node TEXT=" 逻辑节点，让从左到右遍历自己的子节点， 或门（OR gate）" ID="ID_1709400735" CREATED="1585277203079" MODIFIED="1585901528362"/>
-<node TEXT=" 执行优先程度高的子节点，有一子节点Success，向父节点返回Success" ID="ID_923661750" CREATED="1585277512405" MODIFIED="1585901583801"/>
-<node TEXT="所有子节点Failure时，才向父节点返回Failure" ID="ID_674257690" CREATED="1585901584167" MODIFIED="1585901619699"/>
-</node>
-<node TEXT="次序节点 Sequence" ID="ID_871763438" CREATED="1585900106568" MODIFIED="1585900178571">
-<node TEXT="进行一系列前后依存的动作" ID="ID_1103817296" CREATED="1585900343178" MODIFIED="1585900407082">
-<hook URI="游戏杂记_files/png_8063189805836958979.png" SIZE="0.7387194" NAME="ExternalObject"/>
-</node>
-<node TEXT="进行一系列的检查" ID="ID_350976713" CREATED="1585900423978" MODIFIED="1585900438072">
-<hook URI="游戏杂记_files/png_1920917703817988240.png" SIZE="0.76370674" NAME="ExternalObject"/>
-</node>
-<node TEXT=" 从左到右按顺序执行子节点，与门（AND gate）" ID="ID_283236918" CREATED="1585277483219" MODIFIED="1585901478601"/>
-<node TEXT="子节点都Success，才向父节点返回Success" ID="ID_1029410126" CREATED="1585900240566" MODIFIED="1585900329256"/>
-<node TEXT="有一子节点Failure，则立即向父节点返回Failure" ID="ID_44288038" CREATED="1585900282006" MODIFIED="1585900324443"/>
-</node>
-<node TEXT="并行节点  Parallel" ID="ID_1728122927" CREATED="1585900106570" MODIFIED="1585900183447">
-<node TEXT=" 让所有子节点同时运行" ID="ID_1907989431" CREATED="1585277449708" MODIFIED="1585277451237"/>
-<node TEXT=" 默认所有子节点都完成的时候结束" ID="ID_764824414" CREATED="1585277458405" MODIFIED="1585277466053"/>
-<node TEXT="子节点如何决定父节点的状态？" ID="ID_1460085345" CREATED="1585901820230" MODIFIED="1585901836584"/>
-</node>
-</node>
-</node>
-<node ID="ID_480257577" CREATED="1585899920290" MODIFIED="1585899920290"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#20462;&#39280;&#33410;&#28857; - Decorator
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT=" 修饰节点也可以拥有子节点，但是不同于组合节点，它只能拥有一个子节点" ID="ID_1537971339" CREATED="1585901866031" MODIFIED="1585901867356"/>
-<node TEXT="修饰节点的功能" ID="ID_1887862352" CREATED="1585902083229" MODIFIED="1585902093736">
-<node TEXT=" 修改子节点返回的结果" ID="ID_1207912199" CREATED="1585902102700" MODIFIED="1585902103590"/>
-<node TEXT=" 终止子节点" ID="ID_733583687" CREATED="1585902106806" MODIFIED="1585902107582"/>
-<node TEXT=" 重复执行子节点" ID="ID_640063696" CREATED="1585902111846" MODIFIED="1585902115190"/>
-</node>
-<node TEXT="类型" ID="ID_522355523" CREATED="1585902117060" MODIFIED="1585902120439">
-<node TEXT=" 逆变节点 Inverter" ID="ID_1533478873" CREATED="1585900574948" MODIFIED="1585902140166">
-<node TEXT=" 将子节点的结果倒转" ID="ID_1763675080" CREATED="1585902147725" MODIFIED="1585902150607"/>
-<node TEXT="比如 Success 变 Failure" ID="ID_17991695" CREATED="1585902155132" MODIFIED="1585902170503"/>
-</node>
-<node TEXT=" 成功节点" ID="ID_530015528" CREATED="1585902125709" MODIFIED="1585902128438">
-<node TEXT=" 不管它的子节点的结果，总是返回 Success" ID="ID_273694071" CREATED="1585902194822" MODIFIED="1585902207863"/>
-<node TEXT="这个往往用在当你知道一个子节点一定会返回 Failure 的结果，而它的父节点是次序节点，会因为子节点的 Failure 而终止，那么你可以强行让这个子节点返回 Success，来避免这一情况的发生" ID="ID_1778332631" CREATED="1585902258987" MODIFIED="1585902261006"/>
-</node>
-<node TEXT="失败节点" ID="ID_1149257236" CREATED="1585902282197" MODIFIED="1585902289007">
-<node TEXT="不需要这种节点" ID="ID_1454245594" CREATED="1585902292380" MODIFIED="1585902299726"/>
-<node TEXT=" 一个逆变节点加上成功节点就可以达到这一效果" ID="ID_1184805558" CREATED="1585902299924" MODIFIED="1585902307445"/>
-</node>
-<node TEXT=" 重复节点" ID="ID_1269645011" CREATED="1585902128981" MODIFIED="1585902129919">
-<node TEXT=" 重复节点会在它的子节点返回结果后反复继续执行它" ID="ID_1720501753" CREATED="1585902321475" MODIFIED="1585902322893"/>
-<node TEXT=" 重复节点常常被用在一棵树的最顶部来确保树的持续运行" ID="ID_725889749" CREATED="1585902332164" MODIFIED="1585902333077"/>
-<node TEXT=" 重复节点也可以被设定重复执行的次数" ID="ID_1495934477" CREATED="1585902340779" MODIFIED="1585902341789"/>
-</node>
-<node TEXT=" Repeat Until Fail（重复直到失败）" ID="ID_1423789215" CREATED="1585907812862" MODIFIED="1585907814022"/>
-</node>
-</node>
-<node ID="ID_1900985347" CREATED="1585899920298" MODIFIED="1585899920298"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#21494;&#23376;&#32467;&#28857; - Leaf
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT=" 叶子节点是最低层的节点，它们不会拥有子节点" ID="ID_981315225" CREATED="1585902554715" MODIFIED="1585902817795"/>
-<node TEXT="叶子节点是做具体行为的节点" ID="ID_363892083" CREATED="1585902796138" MODIFIED="1585902814701"/>
-<node TEXT=" 可以将现有树的数据上下文传递给被调用树，可以创造重复使用的行为树" ID="ID_1912488310" CREATED="1585904307179" MODIFIED="1585904387165"/>
-<node TEXT=" 叶子节点可以带参数。例如Walk节点就可以接收一个角色将走向的坐标" ID="ID_1316940278" CREATED="1585907185823" MODIFIED="1585907187152"/>
-</node>
-<node TEXT="叶子节点对比组合节点、修饰节点" ID="ID_47246461" CREATED="1585902849121" MODIFIED="1585902877956">
-<node TEXT=" 组合节点和修饰节点就好比那些改变代码 Flow( 工作流程 ) 的 If 判断和 While 循环等等" ID="ID_348473250" CREATED="1585902885537" MODIFIED="1585902886763"/>
-<node TEXT=" 叶节点就是那些真正起作用的被调用的方法，去让角色做具体的事情" ID="ID_1566231956" CREATED="1585902893129" MODIFIED="1585902894274"/>
-</node>
-</node>
-</node>
-<node TEXT="组成" ID="ID_1895932179" CREATED="1585645168626" MODIFIED="1585645172276">
-<node TEXT=" 行为树由叶子节点和中间节点组成" ID="ID_1658647525" CREATED="1585645700950" MODIFIED="1585645706360"/>
-<node TEXT=" 叶子节点是最基本的行为(如跑动，攻击)" ID="ID_454158201" CREATED="1585645706774" MODIFIED="1585645707976"/>
-<node TEXT=" 中间节点代表逻辑单元(巡逻，逃跑)" ID="ID_380084197" CREATED="1585645713902" MODIFIED="1585645734471"/>
-</node>
-<node TEXT="例子" ID="ID_134074147" CREATED="1585277086391" MODIFIED="1585277089807">
-<node TEXT="英雄看到哥布林Fight，看到半兽人Escape，都看不到就Idle" ID="ID_1085275851" CREATED="1585646068786" MODIFIED="1585646091557">
-<hook URI="游戏杂记_files/png_2411527520938200132.png" SIZE="0.5432734" NAME="ExternalObject"/>
-</node>
-<node TEXT="Priority Selector中的 Idle可以看作是default behavior" ID="ID_1909605191" CREATED="1585277244413" MODIFIED="1585277591015"/>
-<node TEXT=" 行为树由于引入了逻辑节点，它的转换条件更加少（线更少，更清晰），让拓展AI变得更加容易" ID="ID_27407456" CREATED="1585277313021" MODIFIED="1585277314958"/>
-</node>
-<node TEXT="驱动行为树" ID="ID_1573802655" CREATED="1585644913492" MODIFIED="1585644920438">
-<node TEXT=" 行为树的运算也是通过帧循环的update来驱动" ID="ID_732436240" CREATED="1585644924900" MODIFIED="1585644925807"/>
-<node TEXT="不一定是每帧都update，但是要周期性update" ID="ID_383627761" CREATED="1585644930468" MODIFIED="1585644931741"/>
-<node TEXT=" 每一次run从根节点(root)开始" ID="ID_1480828511" CREATED="1585645111914" MODIFIED="1585645126556"/>
-<node TEXT=" 每一运行都会选择一个可行的子节点运行，这种选择可以是随机方式，也可以是预设好优先条件" ID="ID_1099942764" CREATED="1585645127268" MODIFIED="1585645128468"/>
-</node>
-</node>
-<node TEXT="行为树对比有限状态机" ID="ID_1944833839" CREATED="1585276578468" MODIFIED="1585276591135">
-<node TEXT="节点" ID="ID_157350370" CREATED="1585644124442" MODIFIED="1585644126964">
-<node TEXT=" 对于FSM，每个节点表示一个状态" ID="ID_229554709" CREATED="1585276592298" MODIFIED="1585276603589"/>
-<node TEXT=" 对于BT，每个节点表示一个行为" ID="ID_1882338462" CREATED="1585276608755" MODIFIED="1585276609866"/>
-</node>
-<node TEXT="明确状态" ID="ID_872501028" CREATED="1585644114850" MODIFIED="1585644119684">
-<node TEXT="对于有限状态机而言，必须明确状态的转换方式" ID="ID_1151821714" CREATED="1585644085856" MODIFIED="1585644088014"/>
-<node TEXT=" 对于行为树，必须明确状态前提：前提条件" ID="ID_702982444" CREATED="1585644088386" MODIFIED="1585644095291"/>
-</node>
-<node TEXT="优点" ID="ID_1198548270" CREATED="1585650060142" MODIFIED="1585650062545">
-<node TEXT=" 行为逻辑和状态数据分离，任何节点写好以后可以反复利用" ID="ID_1969197780" CREATED="1585650071669" MODIFIED="1585650072805"/>
-<node TEXT=" 重用性高，可用通过重组不同的节点来实现不同的行为树" ID="ID_229504354" CREATED="1585650077805" MODIFIED="1585650078878"/>
-<node TEXT=" 呈线性的方式扩展，易于扩展" ID="ID_113215917" CREATED="1585650084125" MODIFIED="1585650087710"/>
-</node>
-<node TEXT="缺点" ID="ID_544955922" CREATED="1585650062716" MODIFIED="1585650064490">
-<node TEXT=" 每一帧都从 Root 开始，有可能会访问到所以的节点，相对 State Machine 消耗更多的 CPU" ID="ID_1348373679" CREATED="1585650096829" MODIFIED="1585650103352"/>
-<node TEXT=" 任何一个简单的操作都必须要使用节点" ID="ID_1771321872" CREATED="1585650107741" MODIFIED="1585650109278"/>
-</node>
-</node>
-<node TEXT="决策树" ID="ID_413762196" CREATED="1585744210278" MODIFIED="1585744222530"/>
 </node>
 </node>
 </map>
