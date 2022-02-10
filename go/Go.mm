@@ -3,7 +3,7 @@
 <node TEXT="GO" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1628918789717" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -2981,20 +2981,19 @@
 <node TEXT="io.Reader" ID="ID_1438600104" CREATED="1629693718781" MODIFIED="1629720045830"/>
 <node TEXT="io.Writer" ID="ID_1808895118" CREATED="1629720045994" MODIFIED="1629720052165"/>
 </node>
-<node TEXT="方法中的值接收者与指针接收者的区别" ID="ID_234750368" CREATED="1643271784785" MODIFIED="1643271923962">
-<node TEXT="方法" ID="ID_695549769" CREATED="1643271945727" MODIFIED="1643271948067">
-<node TEXT=" 方法能给用户自定义的类型添加新的行为" ID="ID_1859454599" CREATED="1643271955175" MODIFIED="1643271957852"/>
-<node TEXT=" 方法与函数的区别在于方法有一个接收者" ID="ID_1189330448" CREATED="1643271958304" MODIFIED="1643271974957"/>
+<node TEXT="方法中的值接收者与指针接收者的区别" FOLDED="true" ID="ID_234750368" CREATED="1643271784785" MODIFIED="1643271923962">
+<node TEXT="方法与函数的区别" ID="ID_695549769" CREATED="1643271945727" MODIFIED="1644405375786" VGAP_QUANTITY="6.9 pt">
+<node TEXT=" 方法与函数的区别在于方法有一个接收者" ID="ID_1189330448" CREATED="1643271958304" MODIFIED="1644405375784"/>
 <node TEXT=" 给一个函数添加一个接收者，那么它就变成了方法" ID="ID_20254440" CREATED="1643271979520" MODIFIED="1643271980706"/>
+<node TEXT=" 方法能给用户自定义的类型添加新的行为" ID="ID_1859454599" CREATED="1643271955175" MODIFIED="1643271957852"/>
 <node TEXT=" 接收者可以是值接收者，也可以是指针接收者" ID="ID_1672655184" CREATED="1643271986352" MODIFIED="1643271987337"/>
 </node>
-<node TEXT="区别" ID="ID_1609194511" CREATED="1643273314650" MODIFIED="1643273316845">
+<node TEXT="方法中的值接收者与指针接收者的区别" ID="ID_1609194511" CREATED="1643273314650" MODIFIED="1644377161997">
 <node TEXT=" 实现了接收者是值类型的方法，相当于隐式实现了接收者是指针类型的方法" ID="ID_1262910250" CREATED="1643272424558" MODIFIED="1643273358031"/>
 <node TEXT=" 而实现了接收者是指针类型的方法，则只是实现了接收者是值类型的方法" ID="ID_632976167" CREATED="1643272431997" MODIFIED="1643273327273"/>
 </node>
-<node TEXT=" 不必严格符合接收者的类型" ID="ID_655339551" CREATED="1643272268992" MODIFIED="1643272270380">
-<node TEXT="不管方法的接收者是什么类型，该类型的值和指针都可以调用" ID="ID_1041822236" CREATED="1643271999423" MODIFIED="1643272275205"/>
-<node TEXT=" 编译器针对方法做了语法糖转换，要区别函数" ID="ID_1074754059" CREATED="1643272324693" MODIFIED="1643275102561"/>
+<node TEXT=" 方法中的值调用者与指针调用者的区别" ID="ID_1459369487" CREATED="1644377375627" MODIFIED="1644377387463">
+<node TEXT=" 编译器针对方法做了语法糖转换，调用者不管是值类型或指针类型，会转换成方法对应的接收者类型" ID="ID_1074754059" CREATED="1643272324693" MODIFIED="1644377304944"/>
 <node TEXT="指针类型调用者" ID="ID_1248756961" CREATED="1643274015788" MODIFIED="1643274111930">
 <node TEXT="值接收者" ID="ID_860921191" CREATED="1643274117795" MODIFIED="1643274123190">
 <node TEXT=" 指针被解引用为值" ID="ID_1360064863" CREATED="1643274184236" MODIFIED="1643274185358"/>
@@ -3009,13 +3008,15 @@
 <node TEXT=" 方法会使用调用者的一个副本，类似于“传值”" ID="ID_1930433096" CREATED="1643274244083" MODIFIED="1643274244903"/>
 </node>
 <node TEXT=" 指针接收者" ID="ID_605483590" CREATED="1643274263571" MODIFIED="1643274264424">
+<node TEXT=" 语法上 T 能直接调 *T 的方法仅仅是 Go 的语法糖" ID="ID_677894432" CREATED="1644408258222" MODIFIED="1644408259600"/>
 <node TEXT=" 使用值的引用来调用方法" ID="ID_939699435" CREATED="1643274267906" MODIFIED="1643274268626"/>
 <node TEXT=" qcrao.growUp() 实际上是 (&amp;qcrao).growUp()" ID="ID_120621683" CREATED="1643274273811" MODIFIED="1643274274772"/>
 <node TEXT="如果只实现了指针接收者，值类型调用修改的方法，会隐式转成指针，修改值类型调用者的数据" ID="ID_420022014" CREATED="1643275168267" MODIFIED="1643281073496"/>
 </node>
 </node>
+<node TEXT=" 不必严格符合接收者的类型" ID="ID_655339551" CREATED="1643272268992" MODIFIED="1643272270380">
 <node TEXT="但如果指明变量的接口类型，那么接口的值接收者方法需要显式实现" ID="ID_778823283" CREATED="1643274302442" MODIFIED="1643274684804"/>
-<node ID="ID_119945746" CREATED="1643273969053" MODIFIED="1643273974659"><richcontent TYPE="NODE">
+<node ID="ID_119945746" CREATED="1643273969053" MODIFIED="1644408850199"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -3023,9 +3024,6 @@
   </head>
   <body>
     <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
-      <br/>
-      
-
       <div>
         <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">Person</font>&nbsp;<font color="#569cd6">struct</font>&nbsp;{
       </div>
@@ -3090,7 +3088,7 @@
         &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 值类型 调用接收者也是值类型的方法</font>
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(qcrao.<font color="#dcdcaa">howOld</font>())
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(qcrao.<font color="#dcdcaa">howOld</font>()) <font color="#6a9955">// 18</font>
       </div>
       <div>
         &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 值类型 调用接收者是指针类型的方法</font>
@@ -3099,7 +3097,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;qcrao.<font color="#dcdcaa">growUp</font>()
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(qcrao.<font color="#dcdcaa">howOld</font>())
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(qcrao.<font color="#dcdcaa">howOld</font>()) <font color="#6a9955">// 19</font>
       </div>
       <br/>
       
@@ -3114,7 +3112,7 @@
         &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 指针类型 调用接收者是值类型的方法</font>
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(stefno.<font color="#dcdcaa">howOld</font>())
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(stefno.<font color="#dcdcaa">howOld</font>()) <font color="#6a9955">// 100</font>
       </div>
       <div>
         &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 指针类型 调用接收者也是指针类型的方法</font>
@@ -3123,7 +3121,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;stefno.<font color="#dcdcaa">growUp</font>()
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(stefno.<font color="#dcdcaa">howOld</font>())
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(stefno.<font color="#dcdcaa">howOld</font>()) <font color="#6a9955">// 101</font>
       </div>
       <br/>
       
@@ -3135,31 +3133,297 @@
         &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 指针类型的接收者，正常</font>
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">stefno2</font>&nbsp;Animal = &amp;Person{age: <font color="#b5cea8">100</font>}
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// var stefno2 Animal = &amp;Person{age: 100}</font>
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 值类型接收者报错，growUp()方法没有实现</font>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 值类型接收者没有实现growUp()方法, 报错</font>
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 因此没有实现Animal接口</font>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 因此没有实现Animal接口，语法糖不对接口生效</font>
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">stefno3</font>&nbsp;Animal = Person{age: <font color="#b5cea8">100</font>}
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// var stefno3 Animal = Person{age: 100}</font>
       </div>
-      <br/>
-      
-
       <div>
         }
       </div>
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="" ID="ID_357113701" CREATED="1643274885047" MODIFIED="1643274885047"/>
+</node>
+</node>
+<node TEXT=" 检测类型是否实现了接口" FOLDED="true" ID="ID_357113701" CREATED="1643274885047" MODIFIED="1644405147776">
+<node ID="ID_1260572779" CREATED="1644405314182" MODIFIED="1644405322326"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">Person</font>&nbsp;<font color="#569cd6">struct</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;age <font color="#4ec9b0">int</font>
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">Animal</font>&nbsp;<font color="#569cd6">interface</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#dcdcaa">howOld</font>() <font color="#4ec9b0">int</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#dcdcaa">growUp</font>()
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;(p Person) <font color="#dcdcaa">howOld</font>() <font color="#4ec9b0">int</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;p.age
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;(p *Person) <font color="#dcdcaa">growUp</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;p.age += <font color="#b5cea8">1</font>
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 指针类型的接收者，正常</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">_</font>&nbsp;Animal = (*Person)(<font color="#569cd6">nil</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">stefno2</font>&nbsp;Animal = &amp;Person{age: <font color="#b5cea8">100</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 值类型接收者没有实现growUp()方法, 报错</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 因此没有实现Animal接口</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">_</font>&nbsp;Animal = Person{age: <font color="#b5cea8">100</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">stefno3</font>&nbsp;Animal = Person{age: <font color="#b5cea8">100</font>}
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" 类型转换和断言的区别" FOLDED="true" ID="ID_631806199" CREATED="1644406504273" MODIFIED="1644406505147">
+<node TEXT="概念" ID="ID_313883682" CREATED="1644406801830" MODIFIED="1644406803608"/>
+<node TEXT="类型转换" ID="ID_1882894227" CREATED="1644406621937" MODIFIED="1644406628659">
+<node ID="ID_1220968625" CREATED="1644406789718" MODIFIED="1644406794839"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">i1</font>&nbsp;<font color="#4ec9b0">int</font>&nbsp;= <font color="#b5cea8">9</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">f1</font>&nbsp;:= <font color="#dcdcaa">float64</font>(i1)
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">f2</font>&nbsp;<font color="#4ec9b0">float64</font>&nbsp;= <font color="#b5cea8">10.8</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">i2</font>&nbsp;:= <font color="#dcdcaa">int</font>(f2)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" 断言" ID="ID_1275415893" CREATED="1644406816782" MODIFIED="1644406818368">
+<node TEXT=" 类型转换、类型断言本质都是把一个类型转换成另外一个类型" ID="ID_1770547282" CREATED="1644406524354" MODIFIED="1644406525443"/>
+<node TEXT=" 类型断言是对接口变量进行的操作" ID="ID_1766963968" CREATED="1644406534585" MODIFIED="1644406535654"/>
+<node TEXT=" Go 中所有类型都实现了interface{}，因为空接口没有定义任何函数" ID="ID_1840457959" CREATED="1644406834606" MODIFIED="1644406867848"/>
+<node TEXT="安全断言" ID="ID_448447782" CREATED="1644407378772" MODIFIED="1644407383493">
+<node ID="ID_518263895" CREATED="1644407363810" MODIFIED="1644407367372"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// Person struct的实例, 指针类型</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 此时i的类型为interface{}</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">i</font>&nbsp;<font color="#569cd6">interface</font>{} = <font color="#dcdcaa">new</font>(Person)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// Animal interface的实例</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 将i类型断言转换为Animal类型</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">s</font>, <font color="#9cdcfe">ok</font>&nbsp;:= i.(Animal)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(s, ok)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" 利用 switch 语句判断接口的类型" ID="ID_1036589988" CREATED="1644407414548" MODIFIED="1644407415428">
+<node TEXT=" 当命中一个 case 时，就会执行 case 中的语句" ID="ID_1765714699" CREATED="1644407426402" MODIFIED="1644407434150"/>
+<node TEXT=" 可能符合多个case，因此 case 的顺序是很重要的" ID="ID_1664831998" CREATED="1644407434459" MODIFIED="1644407460822"/>
+<node ID="ID_1462299730" CREATED="1644407596722" MODIFIED="1644408950872"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">judge</font>(v <font color="#569cd6">interface</font>{}) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Printf</font>(<font color="#ce9178">&quot;</font><font color="#9cdcfe">%p</font><font color="#ce9178">&nbsp;</font><font color="#9cdcfe">%v</font><font color="#d7ba7d">\n</font><font color="#ce9178">&quot;</font>, &amp;v, v)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">switch</font>&nbsp;<font color="#9cdcfe">v</font>&nbsp;:= v.(type) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp;<font color="#569cd6">nil</font>:
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Printf</font>(<font color="#ce9178">&quot;nil type[</font><font color="#9cdcfe">%T</font><font color="#ce9178">] </font><font color="#9cdcfe">%v</font><font color="#d7ba7d">\n</font><font color="#ce9178">&quot;</font>, v, v)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp;Student:
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Printf</font>(<font color="#ce9178">&quot;Student type[</font><font color="#9cdcfe">%T</font><font color="#ce9178">] </font><font color="#9cdcfe">%v</font><font color="#d7ba7d">\n</font><font color="#ce9178">&quot;</font>, v, v)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp;*Student:
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Printf</font>(<font color="#ce9178">&quot;*Student type[</font><font color="#9cdcfe">%T</font><font color="#ce9178">] </font><font color="#9cdcfe">%v</font><font color="#d7ba7d">\n</font><font color="#ce9178">&quot;</font>, v, v)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">default</font>:
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Printf</font>(<font color="#ce9178">&quot;unknow</font><font color="#d7ba7d">\n</font><font color="#ce9178">&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">Student</font>&nbsp;<font color="#569cd6">struct</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;Name <font color="#4ec9b0">string</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;Age &nbsp;<font color="#4ec9b0">int</font>
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// i 是一个*Student类型, 指针类型</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// var i interface{} = new(Student)</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// i 也是一个*Student类型, 值为nil</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">i</font>&nbsp;<font color="#569cd6">interface</font>{} = (*Student)(<font color="#569cd6">nil</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// i 是 nil类型</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// var i interface{}</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#dcdcaa">judge</font>(i)
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -6580,8 +6844,8 @@
 </node>
 <node TEXT="context" POSITION="right" ID="ID_676525533" CREATED="1637237055298" MODIFIED="1637237059743">
 <edge COLOR="#7c007c"/>
-<node TEXT=" context 是什么" ID="ID_1040431056" CREATED="1637302523430" MODIFIED="1637302524332">
-<node TEXT=" goroutine 的上下文" ID="ID_55993726" CREATED="1637302385758" MODIFIED="1637302468771">
+<node TEXT=" context 是什么" FOLDED="true" ID="ID_1040431056" CREATED="1637302523430" MODIFIED="1637302524332">
+<node TEXT=" context是goroutine 的上下文" ID="ID_55993726" CREATED="1637302385758" MODIFIED="1644490932412">
 <node TEXT=" 包含 goroutine 的运行状态、环境、现场等信息" ID="ID_1289717667" CREATED="1637302469142" MODIFIED="1637302470533"/>
 <node TEXT="在 goroutine 之间传递上下文信息" ID="ID_1075710502" CREATED="1637302400286" MODIFIED="1637302479173">
 <node ID="ID_1852749796" CREATED="1637302416945" MODIFIED="1637302416945"><richcontent TYPE="NODE">
@@ -6626,37 +6890,138 @@
 </html>
 </richcontent>
 </node>
-<node ID="ID_1198257384" CREATED="1637302416948" MODIFIED="1637302416948"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      k-v 等
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
+<node TEXT="key-value 等" ID="ID_1198257384" CREATED="1637302416948" MODIFIED="1644409615556"/>
 </node>
 </node>
 <node TEXT=" context 几乎成为了并发控制和超时控制的标准做法" ID="ID_1169299807" CREATED="1637302432157" MODIFIED="1637302433204"/>
-<node TEXT=" context.Context 类型的值可以协调多个 groutine 中的代码执行“取消”操作，并且可以存储键值对" ID="ID_1665641809" CREATED="1637302542030" MODIFIED="1637302561850"/>
-<node TEXT=" 与它协作的 API 都可以由外部控制执行“取消”操作，例如：取消一个 HTTP 请求的执行。" ID="ID_512804396" CREATED="1637302569694" MODIFIED="1637302570627"/>
 </node>
-<node TEXT=" context 有什么作用" ID="ID_1900646013" CREATED="1637302577319" MODIFIED="1637302578263">
+<node TEXT=" context 有什么作用" FOLDED="true" ID="ID_1900646013" CREATED="1637302577319" MODIFIED="1637302578263">
 <node TEXT=" context 用来解决 goroutine 之间退出通知、元数据传递的功能" ID="ID_1536385127" CREATED="1637302804246" MODIFIED="1637302805635"/>
+<node TEXT="gorotine之间的数据共享" ID="ID_1183027088" CREATED="1644409944227" MODIFIED="1644409963691">
+<node TEXT=" 传递共享的值，如登陆的 token" ID="ID_760266356" CREATED="1644409768347" MODIFIED="1644410015322"/>
 <node TEXT="Go Server中的一个http请求" ID="ID_476779493" CREATED="1637302610494" MODIFIED="1637302629561">
 <node TEXT="" ID="ID_1137714159" CREATED="1637302648787" MODIFIED="1637302651746">
 <hook URI="Go_files/png_5847232795045565472.png" SIZE="0.29069766" NAME="ExternalObject"/>
 </node>
 <node TEXT=" 在 Go 的 server 里，通常每来一个请求都会启动若干个 goroutine 同时工作" ID="ID_390462910" CREATED="1637302602413" MODIFIED="1637302603421"/>
 <node TEXT=" 有些去数据库拿数据，有些调用下游接口获取相关数据" ID="ID_399016219" CREATED="1637302637094" MODIFIED="1637302637903"/>
+<node TEXT=" goroutine 之间需要共享这个请求的基本数据" ID="ID_909141183" CREATED="1644409755226" MODIFIED="1644409762787"/>
 </node>
 </node>
+<node TEXT=" 退出通知" ID="ID_804967720" CREATED="1644411023666" MODIFIED="1644411024566">
+<node TEXT="手动退出" ID="ID_666880384" CREATED="1644474644419" MODIFIED="1644474647598">
+<node TEXT=" 请求方直接放弃了这次请求" ID="ID_1406945400" CREATED="1644409844305" MODIFIED="1644409845273"/>
+</node>
+<node TEXT=" 超时退出" ID="ID_1675348876" CREATED="1644410025121" MODIFIED="1644474642432">
+<node TEXT=" 处理请求的最大超时时间" ID="ID_1674090686" CREATED="1644409782489" MODIFIED="1644410031986"/>
+<node TEXT="问题" ID="ID_1875288052" CREATED="1644410273143" MODIFIED="1644410284408">
+<node TEXT=" 如果服务器压力大，处理的时间就会长，处理速度跟不上请求速度，会导致协程数不断增加。协程是要消耗系统资源的，会导致雪崩效应，整个服务不可用" ID="ID_797760572" CREATED="1644410111273" MODIFIED="1644410243532"/>
+</node>
+<node TEXT="方案" ID="ID_1647602251" CREATED="1644410295295" MODIFIED="1644410299025">
+<node TEXT=" 如果超过这个值还没有接收到返回数据，就直接向客户端返回一个默认值或者错误" ID="ID_1254572629" CREATED="1644410268534" MODIFIED="1644410269862"/>
+</node>
+</node>
+<node TEXT="减少资源消耗，避免泄漏" ID="ID_712574948" CREATED="1644474650609" MODIFIED="1644474677061"/>
+</node>
+</node>
+<node TEXT="context的使用建议" FOLDED="true" ID="ID_1320762106" CREATED="1644461630798" MODIFIED="1644461643712">
+<node TEXT=" 将 Context 类型作为函数的第一参数" ID="ID_724403903" CREATED="1644461654943" MODIFIED="1644461656099">
+<node TEXT=" 不要将 Context 塞到结构体里" ID="ID_569920355" CREATED="1644461663903" MODIFIED="1644461664976"/>
+<node TEXT="参数名一般都命名为 ctx" ID="ID_1814120057" CREATED="1644461671406" MODIFIED="1644461683517"/>
+</node>
+<node TEXT=" 不要向函数传入一个 nil 的 context" ID="ID_1864220966" CREATED="1644461697851" MODIFIED="1644461698822">
+<node TEXT=" 实在不知道传什么，用context:todo" ID="ID_565732470" CREATED="1644461709114" MODIFIED="1644461718677"/>
+</node>
+<node TEXT=" context 存储的应该是一些共同的数据" ID="ID_758488333" CREATED="1644461734239" MODIFIED="1644461741791">
+<node TEXT=" 不要把本应该作为函数参数的类型塞到 context 中" ID="ID_1485366247" CREATED="1644461748358" MODIFIED="1644461749282"/>
+<node TEXT=" context放登陆的 session、cookie 等" ID="ID_1481661740" CREATED="1644461760813" MODIFIED="1644461771009"/>
+</node>
+<node TEXT=" context 是并发安全的" ID="ID_1493446471" CREATED="1644461780010" MODIFIED="1644461781152">
+<node TEXT=" 同一个 context 可能会被传递到多个 goroutine" ID="ID_1377338513" CREATED="1644461785260" MODIFIED="1644461792255"/>
+</node>
+</node>
+<node TEXT="接口、结构、方法" FOLDED="true" ID="ID_363481488" CREATED="1644474857710" MODIFIED="1644474900104">
+<node TEXT="Context接口" ID="ID_182946359" CREATED="1644480528555" MODIFIED="1644480537055">
+<node TEXT=" Context接口 Done()" ID="ID_648476421" CREATED="1644474862133" MODIFIED="1644474937953">
+<node TEXT=" Done() &lt;-chan struct{}" ID="ID_1262386471" CREATED="1644474950805" MODIFIED="1644474951819"/>
+<node TEXT=" Done() 返回一个 只读channel，接收 context 被取消的信号" ID="ID_1590178271" CREATED="1644475105936" MODIFIED="1644475126475"/>
+<node TEXT="当这个channel被关闭时，可以读出零值，否则阻塞" ID="ID_742200024" CREATED="1644475166678" MODIFIED="1644475202288"/>
+</node>
+<node TEXT="  Context接口 Err()" ID="ID_709658862" CREATED="1644475225877" MODIFIED="1644475231864">
+<node TEXT=" Err() error" ID="ID_1528201679" CREATED="1644475307116" MODIFIED="1644475308887"/>
+<node TEXT="在 channel Done 关闭后，返回 context 取消原因" ID="ID_873484656" CREATED="1644475254749" MODIFIED="1644475434174"/>
+<node TEXT="如果 channel Done未完成，返回 nil" ID="ID_1519709675" CREATED="1644475470658" MODIFIED="1644475489267"/>
+<node TEXT=" 例如是被取消 Canceled，还是超时 DeadlineExceeded" ID="ID_1135421613" CREATED="1644475261308" MODIFIED="1644475513237"/>
+</node>
+<node TEXT="   Context接口 Deadline()" ID="ID_1789077386" CREATED="1644475277470" MODIFIED="1644475283213">
+<node TEXT=" Deadline() (deadline time.Time, ok bool)" ID="ID_257707157" CREATED="1644475550065" MODIFIED="1644475551193"/>
+<node TEXT=" 返回 context 的截止时间，是否被取消" ID="ID_1174782607" CREATED="1644477353949" MODIFIED="1644477364352"/>
+</node>
+<node TEXT="    Context接口 Value(key)" ID="ID_1765199271" CREATED="1644480468859" MODIFIED="1644480476794">
+<node TEXT=" Value(key interface{}) interface{}" ID="ID_618443393" CREATED="1644480462592" MODIFIED="1644480464278"/>
+<node TEXT="获取之前设置的 key 对应的 value" ID="ID_1768364758" CREATED="1644480486803" MODIFIED="1644480499724"/>
+</node>
+</node>
+<node TEXT=" canceler接口" ID="ID_765940505" CREATED="1644480546747" MODIFIED="1644480553173">
+<node ID="ID_1170665664" CREATED="1644481231121" MODIFIED="1644481234963"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">canceler</font>&nbsp;<font color="#569cd6">interface</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#dcdcaa">cancel</font>(removeFromParent <font color="#4ec9b0">bool</font>, err <font color="#4ec9b0">error</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#dcdcaa">Done</font>() &lt;-<font color="#569cd6">chan</font>&nbsp;<font color="#569cd6">struct</font>{}
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="context实现canceler接口，成功可取消的Ctx" ID="ID_1868270419" CREATED="1644491133713" MODIFIED="1644491158680"/>
+<node TEXT=" *cancelCtx 和 *timerCtx 指针实现了canceler接口" ID="ID_24846401" CREATED="1644480858132" MODIFIED="1644481274865"/>
+<node TEXT="cancel参数" ID="ID_590995821" CREATED="1644491189552" MODIFIED="1644491201115">
+<node TEXT=" err是一个固定的取消错误类型, errors.New(&quot;context canceled&quot;)" ID="ID_437553488" CREATED="1644481658278" MODIFIED="1644481672831"/>
+<node TEXT="removeFromParent" ID="ID_1217787688" CREATED="1644481678303" MODIFIED="1644481936092">
+<node TEXT=" true时，当前节点的 context 从父节点 context 中删除" ID="ID_1566569877" CREATED="1644481936757" MODIFIED="1644481942559"/>
+<node TEXT=" 什么时候会传 true 呢" ID="ID_1799887806" CREATED="1644481931038" MODIFIED="1644481932834">
+<node TEXT=" 调用 WithCancel() 方法的时候" ID="ID_1093942738" CREATED="1644481962717" MODIFIED="1644481963642"/>
+<node TEXT=" 新创建一个可取消的 context 节点时，返回的 cancelFunc 函数会传入 true" ID="ID_1180774854" CREATED="1644481976301" MODIFIED="1644481977442"/>
+<node TEXT=" 将这个 context 从它的父节点里“除名”，因为父节点可能有很多子节点，避免影响其它cancelCtx" ID="ID_1972303069" CREATED="1644482020735" MODIFIED="1644482052335"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="emptyCtx 结构体" ID="ID_1691797257" CREATED="1644481055089" MODIFIED="1644481064707">
+<node TEXT="实现Context接口，但没有任何内容，要么是直接返回，要么是返回 nil" ID="ID_1122158773" CREATED="1644481065073" MODIFIED="1644481099499"/>
+<node TEXT=" 空的 context，永远不会被 cancel，没有存储值，也没有 deadline" ID="ID_155841069" CREATED="1644481112689" MODIFIED="1644481114654"/>
+<node TEXT=" Background()、TODO()所返回的context" ID="ID_108084246" CREATED="1644481147282" MODIFIED="1644481167837"/>
+</node>
+<node TEXT=" cancelCtx 结构体" ID="ID_599547235" CREATED="1644481184455" MODIFIED="1644481190123">
+<node TEXT=" 可以取消的 Context，实现了 canceler 接口的Context" ID="ID_1850291502" CREATED="1644481335511" MODIFIED="1644481344029"/>
+<node TEXT=" WithCancel() 方法" ID="ID_73447204" CREATED="1644482207781" MODIFIED="1644482210328"/>
+</node>
+<node TEXT=" timerCtx 结构体" ID="ID_1499183239" CREATED="1644482127092" MODIFIED="1644482154859">
+<node TEXT=" timerCtx 基于 cancelCtx，只是多了一个 time.Timer 和一个 deadline" ID="ID_1316284294" CREATED="1644482137701" MODIFIED="1644482140894"/>
+<node TEXT=" Timer 会在 deadline 到来时，自动取消 context" ID="ID_173767743" CREATED="1644482146941" MODIFIED="1644482147934"/>
+<node TEXT=" WithTimeout 函数" ID="ID_778774838" CREATED="1644482244475" MODIFIED="1644482245456"/>
+</node>
+</node>
+<node TEXT="传递共享数据" FOLDED="true" ID="ID_468634572" CREATED="1644461942699" MODIFIED="1644461950437">
 <node TEXT="context的读与写" ID="ID_549396694" CREATED="1637307037744" MODIFIED="1637307048082">
+<node TEXT="context并发安全，在函数调用的时候传递 context" ID="ID_1411670667" CREATED="1644461983199" MODIFIED="1644461999936"/>
 <node ID="ID_427924284" CREATED="1637307112888" MODIFIED="1637307120006"><richcontent TYPE="NODE">
 
 <html>
@@ -6720,13 +7085,429 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="context在请求中共享requestId" ID="ID_866586553" CREATED="1637307168920" MODIFIED="1637307185370"/>
-<node TEXT="context 的使用建议" ID="ID_1084644117" CREATED="1637302875751" MODIFIED="1637302897586">
-<node TEXT=" 不要将 Context 塞到结构体里。直接将 Context 类型作为函数的第一参数，而且一般都命名为 ctx" ID="ID_644015208" CREATED="1637303388877" MODIFIED="1637303389802"/>
-<node TEXT=" 不要向函数传入一个 nil 的 context，如果你实在不知道传什么，标准库给你准备好了一个 context.TODO" ID="ID_1596203555" CREATED="1637303399237" MODIFIED="1637303408524"/>
-<node TEXT=" 不要把本应该作为函数参数的类型塞到 context 中，context 存储的应该是一些共同的数据。例如：登陆的 session、cookie 等" ID="ID_1747639652" CREATED="1637303428669" MODIFIED="1637303429737"/>
-<node TEXT=" 同一个 context 可能会被传递到多个 goroutine，别担心，context 是并发安全的" ID="ID_1658676259" CREATED="1637303435852" MODIFIED="1637303437935"/>
+<node TEXT="context在请求中共享requestId" ID="ID_866586553" CREATED="1637307168920" MODIFIED="1637307185370">
+<node ID="ID_808531122" CREATED="1644463002895" MODIFIED="1644463007789"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">TraceIDKey</font>&nbsp;<font color="#4ec9b0">string</font>
+      </div>
+      <div>
+        <font color="#569cd6">const</font>&nbsp;requestIDKey <font color="#9cdcfe">TraceIDKey</font>&nbsp;= <font color="#ce9178">&quot;req-id&quot;</font>
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">WithRequestID</font>(next http.Handler) http.Handler {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;http.<font color="#dcdcaa">HandlerFunc</font>(
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#569cd6">func</font>(rw http.ResponseWriter, req *http.Request) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 从 header 中提取 request-id</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">reqID</font>&nbsp;&nbsp;:= req.Header.<font color="#dcdcaa">Get</font>(<font color="#ce9178">&quot;X-Request-ID&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 创建 valueCtx。使用自定义的类型，不容易冲突</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ctx</font>&nbsp;&nbsp;:= context.<font color="#dcdcaa">WithValue</font>(
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;req.<font color="#dcdcaa">Context</font>(), requestIDKey, reqID)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 创建新的请求</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">req</font>&nbsp;&nbsp;= req.<font color="#dcdcaa">WithContext</font>(ctx)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 调用 HTTP 处理函数</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;next.<font color="#dcdcaa">ServeHTTP</font>(rw, req)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#6a9955">// 获取 request-id</font>
+      </div>
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">GetRequestID</font>(ctx context.Context) <font color="#4ec9b0">string</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">value</font>, <font color="#9cdcfe">ok</font>&nbsp;:= ctx.<font color="#dcdcaa">Value</font>(requestIDKey).(<font color="#4ec9b0">string</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;!ok {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;<font color="#ce9178">&quot;&quot;</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;value
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">Handle</font>(rw http.ResponseWriter, req *http.Request) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 拿到 reqId，后面可以记录日志等等</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">reqID</font>&nbsp;:= <font color="#dcdcaa">GetRequestID</font>(req.<font color="#dcdcaa">Context</font>())
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;handle request:&quot;</font>, req.URL, reqID)
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">handler</font>&nbsp;:= <font color="#dcdcaa">WithRequestID</font>(http.<font color="#dcdcaa">HandlerFunc</font>(Handle))
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;http.<font color="#dcdcaa">ListenAndServe</font>(<font color="#ce9178">&quot;:8080&quot;</font>, handler)
+      </div>
+      <div>
+        }
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
 </node>
+</node>
+</node>
+<node TEXT=" 取消 goroutine" FOLDED="true" ID="ID_724036060" CREATED="1644463444962" MODIFIED="1644463453597">
+<node TEXT="功能" ID="ID_623165537" CREATED="1644468455913" MODIFIED="1644468459926">
+<node TEXT="app打开界面，请求位置信息" ID="ID_866233837" CREATED="1644468408384" MODIFIED="1644468425886"/>
+<node TEXT="服务器每秒向客户端发送实时位置信息" ID="ID_1065685809" CREATED="1644468375698" MODIFIED="1644468432877"/>
+<node TEXT="app关闭界面，服务器停止这个goroutine" ID="ID_1387856303" CREATED="1644468436889" MODIFIED="1644468494671"/>
+</node>
+<node TEXT=" context.WithTimeOut" ID="ID_693181279" CREATED="1644470251922" MODIFIED="1644470263741">
+<node TEXT=" WithTimeOut 函数返回的 context 和 cancelFun 是分开的" ID="ID_604251500" CREATED="1644470275567" MODIFIED="1644470277032"/>
+<node TEXT=" 取消函数只能由外层函数调用，防止子节点 context 调用取消函数，从而严格控制信息的流向：由父节点 context 流向子节点 context" ID="ID_1860233874" CREATED="1644470296778" MODIFIED="1644470319951"/>
+<node ID="ID_1757788669" CREATED="1644470350880" MODIFIED="1644470355849"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">Perform</font>(ctx context.Context) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;{
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#dcdcaa">calculatePos</font>() <font color="#6a9955">// 计算位置</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#dcdcaa">sendResult</font>() &nbsp; <font color="#6a9955">// 发送结果</font>
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">select</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp;&lt;-ctx.<font color="#dcdcaa">Done</font>():
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 被取消，直接返回</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp;&lt;-time.<font color="#dcdcaa">After</font>(time.Second):
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// block 1 秒钟</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ctx</font>, <font color="#9cdcfe">cancel</font>&nbsp;:= context.<font color="#dcdcaa">WithTimeout</font>(
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;context.<font color="#dcdcaa">Background</font>(),
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time.Second*<font color="#b5cea8">5</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">go</font>&nbsp;<font color="#dcdcaa">Perform</font>(ctx)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// ……</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// app 端返回页面，调用cancel 函数</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#dcdcaa">cancel</font>()
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="防止goroutine泄漏" FOLDED="true" ID="ID_1463776089" CREATED="1644470367753" MODIFIED="1644470384972">
+<node TEXT="消费者完成消费时，生产者应该停止生产，否则生产者goroutine无法回收，发生泄漏" ID="ID_1325965601" CREATED="1644470475296" MODIFIED="1644470564771"/>
+<node TEXT="泄漏" ID="ID_898358671" CREATED="1644470578778" MODIFIED="1644470590036">
+<node ID="ID_1270723773" CREATED="1644470922855" MODIFIED="1644470927301"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">gen</font>() &lt;-<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ch</font>&nbsp;:= <font color="#dcdcaa">make</font>(<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">go</font>&nbsp;<font color="#569cd6">func</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">i</font>&nbsp;<font color="#4ec9b0">int</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ch &lt;- i
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i++
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time.<font color="#dcdcaa">Sleep</font>(time.Second)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}()
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;ch
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">i</font>&nbsp;:= <font color="#c586c0">range</font>&nbsp;<font color="#dcdcaa">gen</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;i == <font color="#b5cea8">5</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 主循环退出，但gen()协程还在运行</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// gen()协程泄露，无法回收</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">break</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// loop ...</font>
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="ctx通知停止" ID="ID_812842672" CREATED="1644471258735" MODIFIED="1644471272098">
+<node TEXT=" 增加一个 context，在 break 前调用 cancel 函数，取消 goroutine" ID="ID_1609272540" CREATED="1644471277358" MODIFIED="1644471279825"/>
+<node TEXT=" gen 函数在接收到取消信号后，直接退出，系统回收资源" ID="ID_1794226640" CREATED="1644471286773" MODIFIED="1644471287715"/>
+<node ID="ID_900837795" CREATED="1644471228261" MODIFIED="1644471234897"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">gen</font>(ctx context.Context) &lt;-<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>&nbsp;&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ch</font>&nbsp;:= <font color="#dcdcaa">make</font>(<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">go</font>&nbsp;<font color="#569cd6">func</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">i</font>&nbsp;<font color="#4ec9b0">int</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">select</font>&nbsp;&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp;&nbsp;&lt;-ctx.<font color="#dcdcaa">Done</font>():
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp;&nbsp;&lt;-time.<font color="#dcdcaa">Tick</font>(time.Second):
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ch &lt;- i
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i++
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}()
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;ch
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ctx</font>, <font color="#9cdcfe">cancel</font>&nbsp;:= context.<font color="#dcdcaa">WithCancel</font>(context.<font color="#dcdcaa">Background</font>())
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">defer</font>&nbsp;<font color="#dcdcaa">cancel</font>() &nbsp;<font color="#6a9955">// 避免没有一处调用，重复调用不影响</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">i</font>&nbsp;:= <font color="#c586c0">range</font>&nbsp;<font color="#dcdcaa">gen</font>(ctx) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;i == <font color="#b5cea8">5</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#dcdcaa">cancel</font>()
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">break</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// loop ...</font>
+      </div>
+      <div>
+        }
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT=" context.Value 的查找过程" ID="ID_494631407" CREATED="1644482340949" MODIFIED="1644482342024"/>
 </node>
 <node TEXT="GRPC" POSITION="right" ID="ID_1825885707" CREATED="1639294657717" MODIFIED="1639294677138">
 <edge COLOR="#007c7c"/>
