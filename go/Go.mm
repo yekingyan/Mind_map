@@ -3,7 +3,7 @@
 <node TEXT="GO" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1628918789717" STYLE="bubble">
 <font NAME="Noto Sans S Chinese Light" SIZE="14"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -135,9 +135,9 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="124" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="132" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="基础" FOLDED="true" POSITION="right" ID="ID_1832377290" CREATED="1629020031414" MODIFIED="1629020038287">
+<node TEXT="基础" POSITION="right" ID="ID_1832377290" CREATED="1629020031414" MODIFIED="1629020038287">
 <edge COLOR="#00ff00"/>
 <node TEXT="变量" FOLDED="true" ID="ID_1909686014" CREATED="1628920886522" MODIFIED="1629020056823">
 <node TEXT="变量定义" ID="ID_1842249332" CREATED="1628923186736" MODIFIED="1628923205705">
@@ -586,7 +586,7 @@
 <node TEXT="代替其它语言中的 while (True) {}" ID="ID_1321838924" CREATED="1629019238432" MODIFIED="1629019292232"/>
 </node>
 </node>
-<node TEXT="函数" ID="ID_1476459273" CREATED="1629020067054" MODIFIED="1629020068934">
+<node TEXT="函数" FOLDED="true" ID="ID_1476459273" CREATED="1629020067054" MODIFIED="1629020068934">
 <node ID="ID_332905089" CREATED="1629021238985" MODIFIED="1629021241909"><richcontent TYPE="NODE">
 
 <html>
@@ -740,7 +740,7 @@
 <node TEXT="单元测试" ID="ID_158267463" CREATED="1629022931860" MODIFIED="1629022949110"/>
 <node TEXT="压力测试" ID="ID_1167542673" CREATED="1629022938292" MODIFIED="1629022944245"/>
 </node>
-<node TEXT="指针" ID="ID_1412613336" CREATED="1629021197186" MODIFIED="1630562437955" VGAP_QUANTITY="6.9 pt">
+<node TEXT="指针" FOLDED="true" ID="ID_1412613336" CREATED="1629021197186" MODIFIED="1630562437955" VGAP_QUANTITY="6.9 pt">
 <node TEXT="对比C/C++，Go语言中的指针不能进行偏移和运算，是安全指针" ID="ID_140595120" CREATED="1629023039148" MODIFIED="1629023085502"/>
 <node TEXT="指针类型" ID="ID_620259989" CREATED="1630562461700" MODIFIED="1630562468739">
 <node TEXT="  Go语言中的值类型（int、float、bool、string、array、struct）都有对应的指针类型，如：*int、*int64、*string等" ID="ID_1100950967" CREATED="1629023159675" MODIFIED="1629023160741"/>
@@ -979,8 +979,257 @@
 </node>
 </node>
 </node>
+<node TEXT="不同类型的零值" FOLDED="true" ID="ID_910072624" CREATED="1645430714222" MODIFIED="1645430721412">
+<node TEXT=" 对于值类型，返回类型初始值" ID="ID_1592982727" CREATED="1645430788479" MODIFIED="1645430819323">
+<node TEXT=" 布尔类型为 false, 数值类型为 0，字符串为 &quot;&quot;" ID="ID_1342243718" CREATED="1645430839015" MODIFIED="1645430840643"/>
+<node TEXT=" 数组和结构会递归初始化，取决于元素或字段" ID="ID_238696846" CREATED="1645430860463" MODIFIED="1645430872369"/>
 </node>
-<node TEXT=" 数据结构" FOLDED="true" POSITION="right" ID="ID_1194875663" CREATED="1629020064285" MODIFIED="1629200963789">
+<node TEXT="对于引用类型： 均为 nil" ID="ID_1283220902" CREATED="1645430819510" MODIFIED="1645430829281">
+<node TEXT=" 包括指针 pointer，函数 function，接口 interface，切片 slice，管道 channel，映射 map" ID="ID_55952149" CREATED="1645430880390" MODIFIED="1645430881368"/>
+</node>
+<node ID="ID_849786277" CREATED="1645432481512" MODIFIED="1645432485402"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">a</font>&nbsp;<font color="#4ec9b0">int</font>&nbsp;<font color="#6a9955">// 0</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">ap</font>&nbsp;*<font color="#4ec9b0">int</font>&nbsp;<font color="#6a9955">// nil</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(a, ap)
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">c</font>&nbsp;<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>&nbsp;<font color="#6a9955">// nil</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">cp</font>&nbsp;*<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>&nbsp;<font color="#6a9955">// nil</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(c == <font color="#569cd6">nil</font>) <font color="#6a9955">// true</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="函数返回值还是指针？" FOLDED="true" ID="ID_1858850936" CREATED="1645514613257" MODIFIED="1645514628737">
+<node TEXT="结论" ID="ID_1085881918" CREATED="1645515075629" MODIFIED="1645515079026">
+<node TEXT=" 通常情况下我们最好还是return value" ID="ID_390255492" CREATED="1645515083620" MODIFIED="1645515085674"/>
+<node TEXT=" 生命时间短的struct return pointer是不推荐的" ID="ID_302006896" CREATED="1645515090852" MODIFIED="1645515092003"/>
+<node TEXT=" 大size的struct推荐使用pointer返回(大于3000个Int类型数据)" ID="ID_1122808265" CREATED="1645515097205" MODIFIED="1645516261585"/>
+<node TEXT="返回的是一个资源(特别是包含状态的资源或需要修改数据)需要返回指针" ID="ID_294582941" CREATED="1645515842967" MODIFIED="1645516106352"/>
+<node TEXT=" 当结构类型包含 sync.Mutex 或者同步这种字段时，必须使用指针以避免成员拷贝" ID="ID_1533297158" CREATED="1645516068918" MODIFIED="1645516070291"/>
+<node TEXT=" 内置的 new 和 make，map，slice 等引用传递本身就分配在堆上就必然走 gc，返回更多是语义上的区别(想不想被修改)" ID="ID_1776702920" CREATED="1645516500500" MODIFIED="1645516618043"/>
+<node TEXT="返回指针。重构时更方便，调用方不用修改。判断nil更方便" ID="ID_448297179" CREATED="1645516729028" MODIFIED="1645516814886"/>
+<node TEXT=" 如果你不知道该不该使用指针，使用指针！" ID="ID_649718172" CREATED="1645516113989" MODIFIED="1645516114708"/>
+</node>
+<node TEXT="比较" ID="ID_1761703120" CREATED="1645515105620" MODIFIED="1645515129599">
+<node TEXT="return指针" ID="ID_1253632960" CREATED="1645515313019" MODIFIED="1645515318397">
+<node TEXT=" 如果设计成指针返回会存在逃逸，并将变量分配在堆上" ID="ID_367892626" CREATED="1645515906398" MODIFIED="1645515921842"/>
+<node TEXT=" 在堆上分配内存，设置值，将指针写入堆栈以返回struct给调用者" ID="ID_597118544" CREATED="1645515335618" MODIFIED="1645515394101"/>
+<node TEXT=" Go运行时中有大量时间花费在处理线程和锁以及垃圾收集上" ID="ID_262022446" CREATED="1645515481369" MODIFIED="1645515482241"/>
+<node TEXT=" 返回指针的底层函数很快,但分配指针所带来的包袱是一个巨大的开销" ID="ID_904884783" CREATED="1645515489561" MODIFIED="1645515490477"/>
+</node>
+<node TEXT="return 值" ID="ID_1583329013" CREATED="1645515318644" MODIFIED="1645515323622">
+<node TEXT=" 在栈上分配内存的。栈是廉价的(不走gc)，堆是昂贵的" ID="ID_354621105" CREATED="1645515665513" MODIFIED="1645516292416"/>
+<node TEXT=" 存在着一次结构体的内存拷贝操作" ID="ID_1026796752" CREATED="1645515573969" MODIFIED="1645516313832"/>
+<node TEXT=" 没有堆内存分配,但必须将整个结构复制到堆栈以将其返回给调用者" ID="ID_753674644" CREATED="1645515415307" MODIFIED="1645515416384"/>
+</node>
+</node>
+</node>
+<node TEXT=" 单引号、双引号和反引号" FOLDED="true" ID="ID_1570687403" CREATED="1645672076201" MODIFIED="1645672086726">
+<node TEXT=" 单引号" ID="ID_279433037" CREATED="1645672088689" MODIFIED="1645672096490">
+<node TEXT=" 表示byte类型或rune类型，对应 uint8和int32类型" ID="ID_58853393" CREATED="1645672120026" MODIFIED="1645672121310"/>
+<node TEXT=" 默认是 rune 类型，用来表示Unicode的code point" ID="ID_734154630" CREATED="1645672126763" MODIFIED="1645672155339"/>
+<node TEXT=" byte用来强调数据是raw data，而不是数字" ID="ID_1746307383" CREATED="1645672135698" MODIFIED="1645672136730"/>
+</node>
+<node TEXT=" 双引号" ID="ID_263519125" CREATED="1645672096851" MODIFIED="1645672102663">
+<node TEXT=" 字符串类型，实际上是字符数组" ID="ID_1658682779" CREATED="1645672174561" MODIFIED="1645672177796"/>
+<node TEXT=" 支持转义，但不能用来引用多行" ID="ID_1547148649" CREATED="1645672344544" MODIFIED="1645672345698"/>
+<node TEXT=" 可以用索引号访问某字节" ID="ID_1128048144" CREATED="1645672190658" MODIFIED="1645672192233"/>
+<node TEXT=" 可以用len()函数来获取字符串所占的字节长度" ID="ID_314368581" CREATED="1645672199090" MODIFIED="1645672199761"/>
+</node>
+<node TEXT=" 反引号" ID="ID_490754720" CREATED="1645672102883" MODIFIED="1645672104545">
+<node TEXT=" 表示字符串字面量， 支持多行，不支持转义" ID="ID_1075848991" CREATED="1645672212241" MODIFIED="1645672370578"/>
+<node TEXT=" 转义字符只展示，不起作用，如换行符" ID="ID_1764973610" CREATED="1645672230489" MODIFIED="1645672251637"/>
+</node>
+</node>
+<node TEXT="结构体匿名成员" FOLDED="true" ID="ID_1307709018" CREATED="1645795131603" MODIFIED="1645795155775">
+<node TEXT=" 只声明一个成员对应的数据类型而不指名成员的名字；这类成员就叫匿名成员" ID="ID_611116146" CREATED="1645796399189" MODIFIED="1645796401080"/>
+<node TEXT="有简短形式的语法糖读取，但定义需要清晰的结构" ID="ID_1281060249" CREATED="1645796101769" MODIFIED="1645796504555"/>
+<node TEXT=" 匿名成员的名字就是自己的类型名字" ID="ID_917470285" CREATED="1645796443067" MODIFIED="1645796450285"/>
+<node TEXT=" 匿名成员的包外可见性由其类型名隐式决定(大小写)" ID="ID_350970007" CREATED="1645796451235" MODIFIED="1645796466412"/>
+<node TEXT=" 匿名成员并不要求是结构体类型，定义匿名类型主要是为了获取它的方法集，来组合出有复杂行为的对象" ID="ID_65606859" CREATED="1645796236264" MODIFIED="1645796384080"/>
+<node ID="ID_1249193552" CREATED="1645795614137" MODIFIED="1645795617085"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">Point</font>&nbsp;<font color="#569cd6">struct</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;X, Y <font color="#4ec9b0">int</font>
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">Circle</font>&nbsp;<font color="#569cd6">struct</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;Point
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;Radius <font color="#4ec9b0">int</font>
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">Wheel</font>&nbsp;<font color="#569cd6">struct</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;Circle
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;Spokes <font color="#4ec9b0">int</font>
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">w</font>&nbsp;:= Wheel{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Circle: Circle{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Point: Point{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X: <font color="#b5cea8">1</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y: <font color="#b5cea8">2</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Radius: <font color="#b5cea8">10</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spokes: <font color="#b5cea8">20</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 两种方式访问嵌套结构体的匿名成员字段</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(w.X, w.Y, w.Radius)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(w.Point.X, w.Point.Y, w.Circle.Radius)
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="结构体标签" FOLDED="true" ID="ID_1672605223" CREATED="1645794721424" MODIFIED="1645794731437">
+<node TEXT="json" ID="ID_1389324858" CREATED="1645794735093" MODIFIED="1645794737378">
+<node TEXT=" 该字段不进行序列化" ID="ID_1113180027" CREATED="1645794750366" MODIFIED="1645794751309">
+<node TEXT="  ID   int     `json:&quot;-&quot;`" ID="ID_1551645585" CREATED="1645794765909" MODIFIED="1645794766958"/>
+</node>
+<node TEXT=" 如果为类型零值或空值，序列化时忽略该字段" ID="ID_1061368106" CREATED="1645794774965" MODIFIED="1645794775998">
+<node TEXT="  Name string  `json:name,omitempty`" ID="ID_701325883" CREATED="1645794782437" MODIFIED="1645796719623"/>
+</node>
+</node>
+<node TEXT="bson" ID="ID_790513474" CREATED="1645794788044" MODIFIED="1645794792816">
+<node TEXT="匿名成员的字段保存在最外层" ID="ID_235972639" CREATED="1645795706663" MODIFIED="1645795747338">
+<node TEXT="bson inline，消除嵌套结构体的层级关系，将其转为一个层级" ID="ID_1279936140" CREATED="1645795861349" MODIFIED="1645796582792"/>
+<node ID="ID_1605267473" CREATED="1645795847188" MODIFIED="1645795850545"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">Point</font>&nbsp;<font color="#569cd6">struct</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;X <font color="#4ec9b0">int</font>&nbsp;<font color="#ce9178">`bson:&quot;x&quot;`</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;Y <font color="#4ec9b0">int</font>&nbsp;<font color="#ce9178">`bson:&quot;y&quot;`</font>
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">Circle</font>&nbsp;<font color="#569cd6">struct</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;Point <font color="#ce9178">`bson:&quot;,inline&quot;`</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;Radius <font color="#4ec9b0">int</font>&nbsp;<font color="#ce9178">`bson:&quot;radius&quot;`</font>
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT=" 数据结构" POSITION="right" ID="ID_1194875663" CREATED="1629020064285" MODIFIED="1629200963789">
 <edge COLOR="#ff00ff"/>
 <node TEXT="数组Array" FOLDED="true" ID="ID_852323551" CREATED="1629200964035" MODIFIED="1629204639838">
 <node TEXT="概念" ID="ID_728081884" CREATED="1629201184009" MODIFIED="1629201186212">
@@ -1415,8 +1664,177 @@
 </node>
 </node>
 </node>
+<node TEXT=" 参数传递切片和切片指针有什么区别" ID="ID_1698779149" CREATED="1644906728979" MODIFIED="1644906729975">
+<node TEXT="切片是一个结构体，go参数传递是值传递" ID="ID_1710150538" CREATED="1644907106057" MODIFIED="1644909764583"/>
+<node TEXT="切片与切片指针，内部指向的都是同一个数组" ID="ID_390455356" CREATED="1644909764773" MODIFIED="1644909782392"/>
+<node TEXT="切片的值拷贝对象" ID="ID_791056961" CREATED="1644909783573" MODIFIED="1644910372389">
+<node TEXT=" 修改了内部数组，也会影响原切片" ID="ID_829906079" CREATED="1644910373026" MODIFIED="1644910374724"/>
+<node TEXT="如果这个修改变更了内部数组的内存地址，如copy、重分配、append触发扩容，那不会影响原切片" ID="ID_1847190018" CREATED="1644910375280" MODIFIED="1644910436581"/>
 </node>
-<node TEXT="函数内部修改参数对应的原数组" ID="ID_549238092" CREATED="1629204178221" MODIFIED="1629204270632">
+<node TEXT=" 指针传递" ID="ID_1030661001" CREATED="1644910498551" MODIFIED="1644910499524">
+<node TEXT="用于修改切片长度len、容量cap、底层数组" ID="ID_57560305" CREATED="1644910502504" MODIFIED="1644910647179"/>
+<node TEXT="如果想修改切片，最好传切片指针" ID="ID_1864036517" CREATED="1644910563455" MODIFIED="1644910585219"/>
+</node>
+</node>
+<node TEXT="  range遍历切片的注意点" ID="ID_3875895" CREATED="1644914868732" MODIFIED="1644914874270">
+<node TEXT=" 使用range遍历切片时会先拷贝一份，然后在遍历拷贝数据" ID="ID_1777839217" CREATED="1644914882193" MODIFIED="1644914883317"/>
+<node TEXT=" 修改原切片内的数据，需要通过切片索引来操作" ID="ID_1071025273" CREATED="1644914883953" MODIFIED="1644914909204"/>
+<node ID="ID_1302871412" CREATED="1644915052025" MODIFIED="1644915055875"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">u</font>&nbsp;:= []user{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<font color="#ce9178">&quot;a&quot;</font>, <font color="#b5cea8">23</font>},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<font color="#ce9178">&quot;b&quot;</font>, <font color="#b5cea8">19</font>},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">_</font>, <font color="#9cdcfe">v</font>&nbsp;:= <font color="#c586c0">range</font>&nbsp;u {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 这是v是一个值拷贝，</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 不会影响原始数据</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">v.age</font>&nbsp;= <font color="#b5cea8">10</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(u)
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">i</font>, <font color="#9cdcfe">_</font>&nbsp;:= <font color="#c586c0">range</font>&nbsp;u {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 通过切片索引修改元素</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u[i].<font color="#9cdcfe">age</font>&nbsp;= <font color="#b5cea8">20</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(u)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="for range的赋值变量问题" ID="ID_1791958977" CREATED="1644917121335" MODIFIED="1644917135875">
+<node TEXT="for k, v := range 的k、v变量只声明过一次，因些循环过程中的内存地址是一样的，不能直接用&amp;v取地址" ID="ID_1487159943" CREATED="1644917136855" MODIFIED="1644917266120"/>
+<node ID="ID_1746715364" CREATED="1644917292022" MODIFIED="1644917295079"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">u</font>&nbsp;:= []user{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<font color="#ce9178">&quot;a&quot;</font>, <font color="#b5cea8">23</font>},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<font color="#ce9178">&quot;b&quot;</font>, <font color="#b5cea8">19</font>},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">n1</font>&nbsp;:= <font color="#dcdcaa">make</font>([]*user, <font color="#b5cea8">0</font>, <font color="#dcdcaa">len</font>(u))
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">n2</font>&nbsp;:= <font color="#dcdcaa">make</font>([]*user, <font color="#b5cea8">0</font>, <font color="#dcdcaa">len</font>(u))
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">n3</font>&nbsp;:= <font color="#dcdcaa">make</font>([]*user, <font color="#b5cea8">0</font>, <font color="#dcdcaa">len</font>(u))
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">i</font>, <font color="#9cdcfe">v</font>&nbsp;:= <font color="#c586c0">range</font>&nbsp;u {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// v只声明了一次，v的地址是不变的</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 因此n中的元素都是指向最后一个元素的地址</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">n1</font>&nbsp;= <font color="#dcdcaa">append</font>(n1, &amp;v)
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 中间变量o，每次都会重新声明</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">o</font>&nbsp;:= v
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">n2</font>&nbsp;= <font color="#dcdcaa">append</font>(n2, &amp;o)
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 直接取内存地址</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">n3</font>&nbsp;= <font color="#dcdcaa">append</font>(n3, &amp;u[i])
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(n1, n2, n3)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">i</font>, <font color="#9cdcfe">v</font>&nbsp;:= <font color="#c586c0">range</font>&nbsp;&nbsp;[][]*user{n1, n2, n3} {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">_</font>, <font color="#9cdcfe">vv</font>&nbsp;&nbsp;:= <font color="#c586c0">range</font>&nbsp;v {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(i, *vv)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="函数内部修改参数对应的原数组" FOLDED="true" ID="ID_549238092" CREATED="1629204178221" MODIFIED="1629204270632">
 <node TEXT="数组指针" ID="ID_1169441019" CREATED="1629209073291" MODIFIED="1629209078836">
 <node ID="ID_1188653479" CREATED="1629204429364" MODIFIED="1629209055032"><richcontent TYPE="NODE">
 
@@ -1932,7 +2350,7 @@
 <node TEXT=" 当用 float64 作为 key 的时候，先要将其转成 unit64 类型，再插入 key 中" ID="ID_1312467831" CREATED="1643267988548" MODIFIED="1643267989539"/>
 </node>
 </node>
-<node TEXT="字符串" ID="ID_233347491" CREATED="1629460082989" MODIFIED="1629460088906">
+<node TEXT="字符串" FOLDED="true" ID="ID_233347491" CREATED="1629460082989" MODIFIED="1629460088906">
 <node TEXT="概念" ID="ID_34243393" CREATED="1629461238057" MODIFIED="1629461240188">
 <node TEXT=" 字符串底层是一个byte数组，可以和[]byte类型相互转换" ID="ID_472671892" CREATED="1629461168475" MODIFIED="1629461173759"/>
 <node TEXT=" 字符串是由byte字节组成，所以字符串的长度是byte字节的长度" ID="ID_490685776" CREATED="1629461193657" MODIFIED="1629461196910"/>
@@ -1991,9 +2409,216 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="字符串拼接" ID="ID_739159402" CREATED="1644650280828" MODIFIED="1644650287406">
+<node TEXT=" &quot;+&quot;直接拼接" ID="ID_127975394" CREATED="1644652674373" MODIFIED="1644652688529">
+<node TEXT=" 耗时最多，内存消耗最大的操作" ID="ID_276063036" CREATED="1644653698863" MODIFIED="1644653700065"/>
+<node ID="ID_1806415663" CREATED="1644652993978" MODIFIED="1644652997505"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">s</font>&nbsp;:= <font color="#ce9178">&quot;0&quot;</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">i</font>&nbsp;:= <font color="#b5cea8">1</font>; i &lt; <font color="#b5cea8">10</font>; i++ {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">si</font>&nbsp;:= fmt.<font color="#dcdcaa">Sprintf</font>(<font color="#ce9178">&quot;</font><font color="#9cdcfe">%d</font><font color="#ce9178">&quot;</font>, i)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s += si
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(s)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node TEXT="面向对象" POSITION="right" ID="ID_1346992798" CREATED="1629461552809" MODIFIED="1629613067787">
+<node TEXT="fmt.Sprint" ID="ID_389400445" CREATED="1644653183393" MODIFIED="1644653192390">
+<node TEXT=" fmt.Sprintf 通常是用来格式化字符串的，一般不会用来拼接字符串" ID="ID_562550952" CREATED="1644839669659" MODIFIED="1644839670917"/>
+<node ID="ID_187069598" CREATED="1644653394576" MODIFIED="1644653398080"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ls</font>&nbsp;:= []<font color="#4ec9b0">string</font>{<font color="#ce9178">&quot;a&quot;</font>, <font color="#ce9178">&quot;b&quot;</font>, <font color="#ce9178">&quot;c&quot;</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">s</font>&nbsp;<font color="#4ec9b0">string</font>&nbsp;= fmt.<font color="#dcdcaa">Sprint</font>(ls)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(s)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" strings.Join" ID="ID_1031110879" CREATED="1644653593585" MODIFIED="1644653595499">
+<node TEXT=" 耗时小，而内存的分配次数也少" ID="ID_1300202275" CREATED="1644653728015" MODIFIED="1644653737592"/>
+<node TEXT=" 底层就是使用的strings.Builder来处理数据" ID="ID_1305635112" CREATED="1644653827870" MODIFIED="1644653829080"/>
+<node ID="ID_1773099474" CREATED="1644653633070" MODIFIED="1644653637192"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ls</font>&nbsp;:= []<font color="#4ec9b0">string</font>{<font color="#ce9178">&quot;a&quot;</font>, <font color="#ce9178">&quot;b&quot;</font>, <font color="#ce9178">&quot;c&quot;</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">s</font>&nbsp;<font color="#4ec9b0">string</font>&nbsp;= strings.<font color="#dcdcaa">Join</font>(ls, <font color="#ce9178">&quot;&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(s)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" bytes.Buffer" ID="ID_1378401142" CREATED="1644653930605" MODIFIED="1644653931658">
+<node TEXT=" 在Go 1.10以前，使用buffer是一个较为高效的选择" ID="ID_448649289" CREATED="1644653943685" MODIFIED="1644653948900"/>
+<node TEXT=" 使用var b bytes.Buffer 存放最终拼接好的字符串，一定程度上避免上面 string 每进行一次拼接操作就重新申请新的内存空间存放中间字符串的问题" ID="ID_1592027760" CREATED="1644653972782" MODIFIED="1644653976148"/>
+<node TEXT=" 存在一个[]byte -&gt; string类型转换和内存拷贝的问题" ID="ID_820281375" CREATED="1644653982421" MODIFIED="1644653983217"/>
+<node ID="ID_1140193029" CREATED="1644654202862" MODIFIED="1644654206435"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ls</font>&nbsp;:= []<font color="#4ec9b0">string</font>{<font color="#ce9178">&quot;a&quot;</font>, <font color="#ce9178">&quot;b&quot;</font>, <font color="#ce9178">&quot;c&quot;</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">bf</font>&nbsp;bytes.Buffer
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">_</font>, <font color="#9cdcfe">v</font>&nbsp;:= <font color="#c586c0">range</font>&nbsp;ls {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bf.<font color="#dcdcaa">WriteString</font>(v)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">s</font>&nbsp;<font color="#4ec9b0">string</font>&nbsp;= bf.<font color="#dcdcaa">String</font>()
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(s)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" strings.Builder" ID="ID_159770487" CREATED="1644653999893" MODIFIED="1644654000857">
+<node TEXT=" 解决bytes.Buffer.String()存在的[]byte -&gt; string类型转换和内存拷贝问题" ID="ID_1427803891" CREATED="1644654020021" MODIFIED="1644654020960"/>
+<node ID="ID_121543541" CREATED="1644654261828" MODIFIED="1644812527578"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ls</font>&nbsp;:= []<font color="#4ec9b0">string</font>{<font color="#ce9178">&quot;a&quot;</font>, <font color="#ce9178">&quot;b&quot;</font>, <font color="#ce9178">&quot;c&quot;</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">bf</font>&nbsp;strings.Builder
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">_</font>, <font color="#9cdcfe">v</font>&nbsp;:= <font color="#c586c0">range</font>&nbsp;ls {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bf.<font color="#dcdcaa">WriteString</font>(v)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">s</font>&nbsp;<font color="#4ec9b0">string</font>&nbsp;= bf.<font color="#dcdcaa">String</font>()
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(s)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="预分配内存[]byte" ID="ID_864870169" CREATED="1644839337270" MODIFIED="1644839359811">
+<node TEXT=" 预分配内存，make第三个参数cap" ID="ID_1687269349" CREATED="1644839550954" MODIFIED="1644839758859"/>
+<node TEXT="拼接的过程中，不需要进行字符串的拷贝，也不需要分配新的内存" ID="ID_1774246430" CREATED="1644839594057" MODIFIED="1644839604559"/>
+<node ID="ID_1702077208" CREATED="1644839511452" MODIFIED="1644839515929"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ll</font>&nbsp;:= []<font color="#4ec9b0">string</font>{<font color="#ce9178">&quot;a&quot;</font>, <font color="#ce9178">&quot;b&quot;</font>, <font color="#ce9178">&quot;c&quot;</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">buf</font>&nbsp;:= <font color="#dcdcaa">make</font>([]<font color="#4ec9b0">byte</font>, <font color="#b5cea8">0</font>, <font color="#dcdcaa">len</font>(ll))
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">_</font>, <font color="#9cdcfe">v</font>&nbsp;:= <font color="#c586c0">range</font>&nbsp;ll {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">buf</font>&nbsp;= <font color="#dcdcaa">append</font>(buf, v...)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">s</font>&nbsp;<font color="#4ec9b0">string</font>&nbsp;= <font color="#dcdcaa">string</font>(buf)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(s)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" 效率排序" ID="ID_691796751" CREATED="1644653881646" MODIFIED="1644653885289">
+<node TEXT=" preByteConcat，性能最好，且内存消耗最小。因易用性不如strings.Builder" ID="ID_1149101831" CREATED="1644835822055" MODIFIED="1644839636280"/>
+<node TEXT=" strings.Builder ≈ strings.Join &gt; strings.Buffer &gt; &quot;+&quot; &gt; fmt" ID="ID_1343351254" CREATED="1644653889837" MODIFIED="1644653891725"/>
+<node TEXT=" 拼接的字符串比较小或数量不多，用&quot;+&quot;、 join 反而更好" ID="ID_862756210" CREATED="1644817021054" MODIFIED="1644817074387"/>
+<node TEXT="string.Builder、strings.Buffer、[]byte 的内存是以倍数申请的，比&quot;+&quot;、&quot;fmt&quot;有更少申请内存次数与内存拷贝" ID="ID_81209666" CREATED="1644839798498" MODIFIED="1644839920478"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="面向对象" FOLDED="true" POSITION="right" ID="ID_1346992798" CREATED="1629461552809" MODIFIED="1629613067787">
 <edge COLOR="#007c00"/>
 <node TEXT="struct" ID="ID_766506046" CREATED="1629461718746" MODIFIED="1629461726899">
 <node TEXT="go没有class，只有struct结构体" ID="ID_139897149" CREATED="1629461729561" MODIFIED="1629465931686"/>
@@ -2053,6 +2678,299 @@
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+<node TEXT=" 两个不同的struct的实例能不能比较" FOLDED="true" ID="ID_308316394" CREATED="1645431951344" MODIFIED="1645431955372">
+<node TEXT=" 可比较的类型" ID="ID_1311706090" CREATED="1645433318365" MODIFIED="1645433334393">
+<node TEXT="基础类型" ID="ID_1179336904" CREATED="1645433651032" MODIFIED="1645433767317">
+<node TEXT=" Integer，Floating-point，String，Boolean，Complex(复数型)" ID="ID_1267504319" CREATED="1645433351233" MODIFIED="1645433352073"/>
+<node TEXT="比较的是值是否相等，类型不同不能比较" ID="ID_387080804" CREATED="1645433657775" MODIFIED="1645441686533"/>
+</node>
+<node TEXT=" 复合类型" ID="ID_494724416" CREATED="1645433783350" MODIFIED="1645433784252">
+<node TEXT="只有每个元素(成员)可比较，而且类型和值都相等时，两个复合元素才相等。有可以比较元素则报错" ID="ID_1405676209" CREATED="1645440584169" MODIFIED="1645443167458"/>
+<node TEXT=" 数组和结构体，这种类型的比较是逐字段比较的" ID="ID_637334166" CREATED="1645433792736" MODIFIED="1645433793943"/>
+<node TEXT="struct如果包含不可比较类型，用==、!= 直接比较会报错" ID="ID_1013113675" CREATED="1645433377369" MODIFIED="1645433460315"/>
+<node TEXT="Array的长度是类型的一部分，长度相同再比较里面的元素" ID="ID_324623442" CREATED="1645440437297" MODIFIED="1645440465636"/>
+</node>
+<node TEXT="引用类型" ID="ID_837238226" CREATED="1645434073241" MODIFIED="1645434085051">
+<node TEXT=" Pointer，Channel" ID="ID_1118708308" CREATED="1645433800629" MODIFIED="1645444313372"/>
+<node TEXT=" 判断的是这两个引用类型存储的是不是同一个变量" ID="ID_1479188830" CREATED="1645434101553" MODIFIED="1645434102572"/>
+<node TEXT=" 指针类型就按指针地址比较" ID="ID_1450044560" CREATED="1645433730422" MODIFIED="1645433731394"/>
+<node ID="ID_619710680" CREATED="1645441321588" MODIFIED="1645441327460"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">c</font>&nbsp;<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>&nbsp;<font color="#6a9955">// nil</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">cp</font>&nbsp;*<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>&nbsp;<font color="#6a9955">// nil</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(c == <font color="#569cd6">nil</font>, cp == <font color="#569cd6">nil</font>) <font color="#6a9955">// true</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// c == cp // 类型不同不能比较</font>
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">c1</font>&nbsp;:= <font color="#dcdcaa">make</font>(<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">c2</font>&nbsp;:= <font color="#dcdcaa">make</font>(<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 引用类型 比较的是地址</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(c1 == c2) <font color="#6a9955">// false</font>
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="接口类型  Interface" ID="ID_792288441" CREATED="1645444301835" MODIFIED="1645444324141">
+<node TEXT="比较类型与值" ID="ID_1374635097" CREATED="1645446086937" MODIFIED="1645446097243">
+<node TEXT=" 接口要确定一个变量需要两个基础属性：Type and Value" ID="ID_1273996858" CREATED="1645444531443" MODIFIED="1645444532589"/>
+<node TEXT=" 接口只有动态类型和动态值都相同时，两个变量才相同" ID="ID_1557768018" CREATED="1645441662226" MODIFIED="1645441701024"/>
+<node ID="ID_581296379" CREATED="1645446000618" MODIFIED="1645446003844"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">p</font>&nbsp;*<font color="#4ec9b0">int</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#6a9955">// (T=*int, V=nil)</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">i</font>&nbsp;<font color="#569cd6">interface</font>{} <font color="#6a9955">// (T=nil, V=nil)</font>
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(p == <font color="#569cd6">nil</font>) <font color="#6a9955">// true</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(i == <font color="#569cd6">nil</font>) <font color="#6a9955">// true</font>
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">i</font>&nbsp;= p
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(i == <font color="#569cd6">nil</font>) <font color="#6a9955">// (T=*int, V=nil) == (T=nil, V=nil) -&gt; false</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="不要从函数返回的空错误变量" ID="ID_1295857467" CREATED="1645445809917" MODIFIED="1645445822460">
+<node TEXT=" 如果接口中已存储任何具体值，那么接口将不会是 nil" ID="ID_59364953" CREATED="1645445980475" MODIFIED="1645445981749"/>
+<node ID="ID_1057977467" CREATED="1645445696604" MODIFIED="1645445776697"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">Foo</font>() <font color="#4ec9b0">error</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">err</font>&nbsp;*MyError = <font color="#569cd6">nil</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;err
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">err1</font>&nbsp;<font color="#4ec9b0">error</font>&nbsp;= <font color="#dcdcaa">Foo</font>()
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(err1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#6a9955">// &lt;nil&gt;</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(err1 == <font color="#569cd6">nil</font>) <font color="#6a9955">// false</font>
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">err2</font>&nbsp;<font color="#4ec9b0">error</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(err2 == <font color="#569cd6">nil</font>) <font color="#6a9955">// true</font>
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">err3</font>&nbsp;*MyError = &amp;MyError{}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(err3 == <font color="#569cd6">nil</font>) <font color="#6a9955">// false</font>
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="不可比较的类型" ID="ID_18150612" CREATED="1645433328002" MODIFIED="1645433332132">
+<node TEXT=" Slice，Map，Function" ID="ID_64837357" CREATED="1645433365530" MODIFIED="1645433366494"/>
+<node TEXT="Slice、Map、Function只能与nil比较，不然报错" ID="ID_1204578016" CREATED="1645440742703" MODIFIED="1645441178392"/>
+</node>
+<node TEXT="借助reflect.DeepEqual 函数 来对两个变量进行比较" ID="ID_1995025168" CREATED="1645432822220" MODIFIED="1645433246568">
+<node TEXT=" reflect.DeepEqual函数可以用来比较两个任意类型的变量" ID="ID_1767772351" CREATED="1645441798817" MODIFIED="1645441799957"/>
+<node TEXT="实现对slice和map的特殊比较" ID="ID_390317708" CREATED="1645441770858" MODIFIED="1645441805122">
+<node ID="ID_805310713" CREATED="1645441499347" MODIFIED="1645441597291"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">s1</font>&nbsp;:= []<font color="#4ec9b0">int</font>{<font color="#b5cea8">1</font>, <font color="#b5cea8">2</font>, <font color="#b5cea8">3</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">s2</font>&nbsp;:= []<font color="#4ec9b0">int</font>{<font color="#b5cea8">1</font>, <font color="#b5cea8">2</font>, <font color="#b5cea8">3</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// s1 == s2 // raise, 切片只能与nil比较</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">eq</font>&nbsp;<font color="#4ec9b0">bool</font>&nbsp;= reflect.<font color="#dcdcaa">DeepEqual</font>(s1, s2)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(eq) <font color="#6a9955">// true</font>
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">m1</font>&nbsp;:= <font color="#569cd6">map</font>[<font color="#4ec9b0">int</font>]<font color="#4ec9b0">int</font>{<font color="#b5cea8">1</font>: <font color="#b5cea8">1</font>, <font color="#b5cea8">2</font>: <font color="#b5cea8">2</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">m2</font>&nbsp;:= <font color="#569cd6">map</font>[<font color="#4ec9b0">int</font>]<font color="#4ec9b0">int</font>{<font color="#b5cea8">1</font>: <font color="#b5cea8">1</font>, <font color="#b5cea8">2</font>: <font color="#b5cea8">2</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">eq</font>&nbsp;= reflect.<font color="#dcdcaa">DeepEqual</font>(m1, m2)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(eq) <font color="#6a9955">// true</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="结构体比较" ID="ID_589828193" CREATED="1645442418821" MODIFIED="1645442425361">
+<node ID="ID_841590646" CREATED="1645442426189" MODIFIED="1645442429411"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">User</font>&nbsp;<font color="#569cd6">struct</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID <font color="#4ec9b0">string</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">u1</font>&nbsp;:= User{ID: <font color="#ce9178">&quot;1&quot;</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">u2</font>&nbsp;:= User{ID: <font color="#ce9178">&quot;1&quot;</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;u1 == u2:&quot;</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reflect.<font color="#dcdcaa">DeepEqual</font>(u1, u2), <font color="#6a9955">// true</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u1 == u2) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#6a9955">// true</font>
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">User2</font>&nbsp;<font color="#569cd6">struct</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID &nbsp;&nbsp;&nbsp;<font color="#4ec9b0">string</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Child []<font color="#4ec9b0">int</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">u3</font>&nbsp;:= User2{ID: <font color="#ce9178">&quot;1&quot;</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">u4</font>&nbsp;:= User2{ID: <font color="#ce9178">&quot;1&quot;</font>}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;u3 == u4:&quot;</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reflect.<font color="#dcdcaa">DeepEqual</font>(u3, u4)) <font color="#6a9955">// true</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// u3 == u4 // 内有不可比较的类型，报错</font>
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="切片中的结构体" ID="ID_1370417880" CREATED="1629462966503" MODIFIED="1629462990529">
@@ -2563,7 +3481,7 @@
 </node>
 </node>
 </node>
-<node TEXT="接口" ID="ID_699527961" CREATED="1629613102906" MODIFIED="1629613105276">
+<node TEXT="接口" FOLDED="true" ID="ID_699527961" CREATED="1629613102906" MODIFIED="1629613105276">
 <node TEXT="通用概念" ID="ID_380786193" CREATED="1629614588819" MODIFIED="1635920444106">
 <node TEXT="弱类型语言一般没有接口的概念" ID="ID_322212481" CREATED="1629614627033" MODIFIED="1629614656369"/>
 <node TEXT=" 接口（interface）定义了一个对象的行为规范，只定义规范不实现，由具体的对象来实现规范的细节" ID="ID_242555503" CREATED="1629616451043" MODIFIED="1629616452086"/>
@@ -3945,7 +4863,7 @@
 </node>
 </node>
 </node>
-<node TEXT=" 测试" FOLDED="true" POSITION="right" ID="ID_751138129" CREATED="1629613059142" MODIFIED="1629801279332">
+<node TEXT=" 测试" POSITION="right" ID="ID_751138129" CREATED="1629613059142" MODIFIED="1629801279332">
 <edge COLOR="#00ffff"/>
 <node TEXT="创建测试" ID="ID_737901362" CREATED="1636098218991" MODIFIED="1636098235865">
 <node TEXT="测试文件的命名方式: xxx_test.go" ID="ID_761016106" CREATED="1629803796125" MODIFIED="1629803818714"/>
@@ -4044,7 +4962,7 @@
 <node TEXT="go test -coverfrofile=c.out" ID="ID_320929371" CREATED="1629866335791" MODIFIED="1629866347089"/>
 <node TEXT=" go tool cover -html=c.out" ID="ID_695631351" CREATED="1629866347436" MODIFIED="1629866396919"/>
 </node>
-<node TEXT="性能测试" ID="ID_609682667" CREATED="1629866266863" MODIFIED="1629866275101">
+<node TEXT="性能测试" FOLDED="true" ID="ID_609682667" CREATED="1629866266863" MODIFIED="1629866275101">
 <node TEXT="go test -bench ." ID="ID_1397192917" CREATED="1629866632568" MODIFIED="1629866643557"/>
 <node ID="ID_192278312" CREATED="1629866593634" MODIFIED="1629866597568"><richcontent TYPE="NODE">
 
@@ -4080,6 +4998,32 @@
 <node TEXT="go test -bench . -cpuprofile cpu.out" ID="ID_1081043370" CREATED="1629866862711" MODIFIED="1629867375430"/>
 <node TEXT="go tool pprof cpu.out" ID="ID_297093041" CREATED="1629866926895" MODIFIED="1629866936138">
 <node TEXT="web" ID="ID_609481630" CREATED="1629867582026" MODIFIED="1629867583615"/>
+</node>
+</node>
+<node TEXT="对较变量值之间的差异化" ID="ID_1454244935" CREATED="1645865344991" MODIFIED="1645865397579">
+<node TEXT=" go get -u github.com/google/go-cmp/cmp" ID="ID_1342775225" CREATED="1645865672486" MODIFIED="1645865673823"/>
+<node ID="ID_1280884226" CREATED="1645865821829" MODIFIED="1645865845174"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;<font color="#9cdcfe">diff</font>&nbsp;:= cmp.<font color="#dcdcaa">Diff</font>(u1, u2); diff != <font color="#ce9178">&quot;&quot;</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t.<font color="#dcdcaa">Errorf</font>(<font color="#ce9178">&quot;user mismatch (-want +got):</font><font color="#d7ba7d">\n</font><font color="#9cdcfe">%s</font><font color="#ce9178">&quot;</font>, diff)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
@@ -5826,7 +6770,7 @@
 </node>
 </node>
 </node>
-<node TEXT="并发控制" FOLDED="true" POSITION="right" ID="ID_871143590" CREATED="1630331028868" MODIFIED="1630332218555">
+<node TEXT="并发控制" POSITION="right" ID="ID_871143590" CREATED="1630331028868" MODIFIED="1630332218555">
 <edge COLOR="#0000ff"/>
 <node TEXT="-race" ID="ID_257672178" CREATED="1630579384165" MODIFIED="1630579387986">
 <node TEXT="查看" ID="ID_1659269973" CREATED="1630579388221" MODIFIED="1630579396502"/>
@@ -5929,7 +6873,7 @@
 </node>
 <node TEXT="Cond" ID="ID_1404780306" CREATED="1630579241511" MODIFIED="1630579243482"/>
 </node>
-<node TEXT="服务/任务" ID="ID_152890051" CREATED="1630389752253" MODIFIED="1630389759892">
+<node TEXT="服务/任务" FOLDED="true" ID="ID_152890051" CREATED="1630389752253" MODIFIED="1630389759892">
 <node TEXT="生成器" ID="ID_374646193" CREATED="1630332218865" MODIFIED="1630332221701">
 <node ID="ID_1938822161" CREATED="1630389103338" MODIFIED="1630389108427"><richcontent TYPE="NODE">
 
@@ -6004,7 +6948,7 @@
 </node>
 <node TEXT="一个生成器更抽象来讲， 是一个服务或任务" ID="ID_1016668801" CREATED="1630580944728" MODIFIED="1630580964689"/>
 </node>
-<node TEXT="同时等待多个服务" ID="ID_794178316" CREATED="1630389760123" MODIFIED="1630389771855">
+<node TEXT="同时等待多个服务" FOLDED="true" ID="ID_794178316" CREATED="1630389760123" MODIFIED="1630389771855">
 <node TEXT="开多个goroutine" ID="ID_1068583780" CREATED="1630584499081" MODIFIED="1630584663883">
 <node TEXT="新增一个channel，用于接收所有服务发过来的信息" ID="ID_611036578" CREATED="1630582889692" MODIFIED="1630582918402"/>
 <node TEXT="接收每个服务发来信息的channel都放在goroutine里" ID="ID_1561024591" CREATED="1630586239709" MODIFIED="1630586272640"/>
@@ -6103,7 +7047,7 @@
 <node TEXT="用select只需一个goroutine就并发处理服务信息" ID="ID_988677023" CREATED="1630587707052" MODIFIED="1630587753735"/>
 </node>
 </node>
-<node TEXT="非阻塞等待" ID="ID_1401102066" CREATED="1630411255566" MODIFIED="1630411265677">
+<node TEXT="非阻塞等待" FOLDED="true" ID="ID_1401102066" CREATED="1630411255566" MODIFIED="1630411265677">
 <node TEXT="select加了default，就是一个非阻塞式的等待" ID="ID_1568456966" CREATED="1630592365934" MODIFIED="1630592397858"/>
 <node ID="ID_1973177778" CREATED="1630592332501" MODIFIED="1630593739565"><richcontent TYPE="NODE">
 
@@ -6185,7 +7129,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="超时不等待" ID="ID_465256885" CREATED="1630411265868" MODIFIED="1630593856863">
+<node TEXT="超时不等待" FOLDED="true" ID="ID_465256885" CREATED="1630411265868" MODIFIED="1630593856863">
 <node ID="ID_522474488" CREATED="1630595192426" MODIFIED="1630596591638"><richcontent TYPE="NODE">
 
 <html>
@@ -6261,7 +7205,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="任务中断/退出" ID="ID_1198014588" CREATED="1630411269852" MODIFIED="1630411287105">
+<node TEXT="任务中断/退出" FOLDED="true" ID="ID_1198014588" CREATED="1630411269852" MODIFIED="1630411287105">
 <node ID="ID_1801983426" CREATED="1630596773405" MODIFIED="1630596783650"><richcontent TYPE="NODE">
 
 <html>
@@ -6319,6 +7263,228 @@
 </node>
 </node>
 <node TEXT="优雅退出" ID="ID_501282819" CREATED="1630411282693" MODIFIED="1630411296816"/>
+<node TEXT="同时select两个channel，如果其中一个channel中途关闭会是什么情况" FOLDED="true" ID="ID_1651557637" CREATED="1645856884175" MODIFIED="1645856940763">
+<node TEXT="select 会随机执行不阻塞的case" ID="ID_288105550" CREATED="1645856941392" MODIFIED="1645857139137"/>
+<node TEXT="channel关闭了以后，是不阻塞的，如果是无缓冲channel那读出来的值都是零值，执行这个case是没有意义的" ID="ID_1680514573" CREATED="1645857139319" MODIFIED="1645857313497"/>
+<node TEXT="跳过关闭channel的case" ID="ID_112044013" CREATED="1645857394837" MODIFIED="1645857442289">
+<node TEXT="如果channel读出来的ok为false，则设置为nil" ID="ID_1765786581" CREATED="1645857615396" MODIFIED="1645857639321"/>
+<node TEXT="读nil channel 总是阻塞，因此可以跳过这个case" ID="ID_698439220" CREATED="1645857639500" MODIFIED="1645857663310"/>
+<node ID="ID_1290241610" CREATED="1645857595289" MODIFIED="1645858115136"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ch1</font>&nbsp;:= <font color="#dcdcaa">make</font>(<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ch2</font>&nbsp;:= <font color="#dcdcaa">make</font>(<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>, <font color="#b5cea8">1</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">go</font>&nbsp;<font color="#569cd6">func</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">select</font>&nbsp;&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp; <font color="#9cdcfe">v</font>, <font color="#9cdcfe">ok</font>&nbsp;:= &lt;-ch1:
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;&nbsp;!ok {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;ch1 closed&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ch1</font>&nbsp;&nbsp;= <font color="#569cd6">nil</font>&nbsp;<font color="#6a9955">// nil channel 总是阻塞的</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <font color="#c586c0">else</font>&nbsp;&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;ch1:&quot;</font>, v)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp; <font color="#9cdcfe">v</font>, <font color="#9cdcfe">ok</font>&nbsp;:= &lt;-ch2:
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;&nbsp;!ok {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;ch2 closed&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ch2</font>&nbsp;&nbsp;= <font color="#569cd6">nil</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <font color="#c586c0">else</font>&nbsp;&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;ch2:&quot;</font>, v)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}()
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">i</font>&nbsp;:= <font color="#b5cea8">0</font>; i &lt; <font color="#b5cea8">10</font>; i++ {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ch2 &lt;- i
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;i &lt;= <font color="#b5cea8">5</font>&nbsp;&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ch1 &lt;- i
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <font color="#c586c0">else</font>&nbsp;<font color="#c586c0">if</font>&nbsp;&nbsp;i == <font color="#b5cea8">6</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#dcdcaa">close</font>(ch1)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;-time.<font color="#dcdcaa">After</font>(time.Second * <font color="#b5cea8">3</font>)
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="不要关闭这个channel" ID="ID_251542030" CREATED="1645857668629" MODIFIED="1645857691583">
+<node TEXT="是什么样的业务逻辑需要关闭这个channel呢？" ID="ID_701202734" CREATED="1645857692604" MODIFIED="1645857715374"/>
+<node TEXT="如果不需要向这个channel发数据，不发就好，没必意关闭" ID="ID_1078818010" CREATED="1645857715747" MODIFIED="1645857746502"/>
+<node TEXT="如果是想停止这个goroutine，多加一个done channel就可以了" ID="ID_1484515829" CREATED="1645857746771" MODIFIED="1645857782733"/>
+<node ID="ID_1483144205" CREATED="1645858007018" MODIFIED="1645858021652"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ch1</font>&nbsp;:= <font color="#dcdcaa">make</font>(<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ch2</font>&nbsp;:= <font color="#dcdcaa">make</font>(<font color="#569cd6">chan</font>&nbsp;<font color="#4ec9b0">int</font>, <font color="#b5cea8">1</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">done</font>&nbsp;:= <font color="#dcdcaa">make</font>(<font color="#569cd6">chan</font>&nbsp;<font color="#569cd6">struct</font>{})
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">go</font>&nbsp;<font color="#569cd6">func</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">select</font>&nbsp;&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp; <font color="#9cdcfe">v</font>&nbsp;:= &lt;-ch1:
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;ch1:&quot;</font>, v)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp; <font color="#9cdcfe">v</font>&nbsp;:= &lt;-ch2:
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;ch2:&quot;</font>, v)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">case</font>&nbsp;&nbsp;&lt;-done:
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}()
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">go</font>&nbsp;<font color="#569cd6">func</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">i</font>&nbsp;:= <font color="#b5cea8">0</font>; i &lt; <font color="#b5cea8">10</font>; i++ {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ch2 &lt;- i
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;&nbsp;i &lt;= <font color="#b5cea8">5</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ch1 &lt;- i
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;done &lt;- <font color="#569cd6">struct</font>{}{}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}()
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;-time.<font color="#dcdcaa">After</font>(time.Second)
+      </div>
+      <div>
+        }
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="HTTP" POSITION="right" ID="ID_300092656" CREATED="1637059335243" MODIFIED="1637059484374">
 <edge COLOR="#ff00ff"/>
@@ -6987,7 +8153,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="context实现canceler接口，成功可取消的Ctx" ID="ID_1868270419" CREATED="1644491133713" MODIFIED="1644491158680"/>
@@ -7311,7 +8476,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -7400,7 +8564,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -7502,7 +8665,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -7631,7 +8793,7 @@
 </node>
 <node TEXT="安全性提升" ID="ID_332395526" CREATED="1639295320339" MODIFIED="1639295329380"/>
 </node>
-<node TEXT="Protobuf" ID="ID_286863093" CREATED="1639295639631" MODIFIED="1639296200665">
+<node TEXT="Protobuf" FOLDED="true" ID="ID_286863093" CREATED="1639295639631" MODIFIED="1639296200665">
 <node TEXT="概念" ID="ID_1614193935" CREATED="1639311056269" MODIFIED="1639311061809">
 <node TEXT=" protobuf是一款用C++开发的跨语言、二进制编码的数据序列化协议，以超高的压缩率著称" ID="ID_1148300171" CREATED="1639311075053" MODIFIED="1639311077368"/>
 <node TEXT=" 需要双方维护一个协议约束文件，以.proto结尾" ID="ID_1476718328" CREATED="1639311364779" MODIFIED="1639311365808"/>
@@ -8409,7 +9571,7 @@
 </node>
 </node>
 </node>
-<node TEXT="gRPC over HTTP" ID="ID_387381913" CREATED="1639544487216" MODIFIED="1639544515959">
+<node TEXT="gRPC over HTTP" FOLDED="true" ID="ID_387381913" CREATED="1639544487216" MODIFIED="1639544515959">
 <node TEXT="反向代理" ID="ID_217896751" CREATED="1639544826619" MODIFIED="1639545224837">
 <node TEXT="GRPC暴露给用HTTP的前端" ID="ID_966343374" CREATED="1639544559741" MODIFIED="1639544629905"/>
 <node TEXT=" 分发请求给内网服务" ID="ID_766284802" CREATED="1639545225169" MODIFIED="1639545227455"/>
@@ -8424,7 +9586,7 @@
 <node TEXT="用json数据与前端通信" ID="ID_1447209575" CREATED="1639544965850" MODIFIED="1639545022495"/>
 <node TEXT="向外暴露rest api接口，向内用rpc调用" ID="ID_919013439" CREATED="1639545093298" MODIFIED="1639545131461"/>
 <node TEXT="分发请求时，把json转成二进制" ID="ID_1578297125" CREATED="1639545006178" MODIFIED="1639545043821"/>
-<node ID="ID_215668271" CREATED="1639573413465" MODIFIED="1639574214809"><richcontent TYPE="NODE">
+<node ID="ID_215668271" CREATED="1639573413465" MODIFIED="1645710832636"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -8520,6 +9682,337 @@
 </node>
 </node>
 </node>
+<node TEXT=" Interceptor 拦截器" FOLDED="true" ID="ID_87433085" CREATED="1645764170953" MODIFIED="1645771002028" VGAP_QUANTITY="6.9 pt">
+<node TEXT="概念" ID="ID_1633132233" CREATED="1645764988752" MODIFIED="1645764997684">
+<node TEXT=" 功能类似middleware，在调用rpc方法之前" ID="ID_567724893" CREATED="1645764998552" MODIFIED="1645765036195"/>
+<node TEXT=" 适合在这里处理验证、日志等流程" ID="ID_1816697016" CREATED="1645765009528" MODIFIED="1645765010987"/>
+<node TEXT=" go-grpc-middleware 中也提供了多种常用 interceptor ，可以直接使用" ID="ID_1155888618" CREATED="1645768995821" MODIFIED="1645768996800"/>
+</node>
+<node TEXT="注册" ID="ID_1883021002" CREATED="1645770910571" MODIFIED="1645771002027">
+<node TEXT="客户端拦截器 在 Dial的时候指定相应的 DialOption" ID="ID_562325488" CREATED="1645769052292" MODIFIED="1645769077822"/>
+<node TEXT="服务器拦截器 在 NewServer 的时候指定相应的 ServerOption" ID="ID_537397479" CREATED="1645769097115" MODIFIED="1645769107876"/>
+</node>
+<node TEXT="分类" ID="ID_1551497963" CREATED="1645765136846" MODIFIED="1645765139328">
+<node TEXT="一元拦截器 UnaryInterceptor" ID="ID_757865900" CREATED="1645765139535" MODIFIED="1645765154121">
+<node TEXT="UnaryServerInterceptor 服务器" ID="ID_1190566990" CREATED="1645765358812" MODIFIED="1645765396768">
+<node TEXT=" 提供了一个钩子来拦截服务器上单一RPC的执行" ID="ID_1279238838" CREATED="1645765230463" MODIFIED="1645765233180"/>
+<node TEXT="注册" ID="ID_912226112" CREATED="1645764543334" MODIFIED="1645764546539">
+<node TEXT=" grpc.UnaryInterceptor，接收一个UnaryServerInterceptor类型的函数" ID="ID_24011669" CREATED="1645764485053" MODIFIED="1645765288506"/>
+<node ID="ID_1092914268" CREATED="1645764547125" MODIFIED="1645764551108"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">in</font>, <font color="#9cdcfe">err</font>&nbsp;:= shareauth.<font color="#dcdcaa">GetInterceptor</font>(PublicKeyPath)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;err != <font color="#569cd6">nil</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logger.<font color="#dcdcaa">Fatal</font>(<font color="#ce9178">&quot;failed to get auth interceptor&quot;</font>, zap.<font color="#dcdcaa">Error</font>(err))
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">s</font>&nbsp;:= grpc.<font color="#dcdcaa">NewServer</font>(
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;grpc.<font color="#dcdcaa">UnaryInterceptor</font>(in),
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;)
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="实现拦载器" ID="ID_1690254381" CREATED="1645764553381" MODIFIED="1645764704224">
+<node TEXT="实现UnaryServerInterceptor类型" ID="ID_262021357" CREATED="1645764772314" MODIFIED="1645764777261"/>
+<node TEXT="参数" ID="ID_1910104866" CREATED="1645769131971" MODIFIED="1645769133975">
+<node ID="ID_617548142" CREATED="1645770047030" MODIFIED="1645770047030"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ctx context.Context：请求上下文
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_899927400" CREATED="1645770047030" MODIFIED="1645770047030"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      req interface{}：RPC 方法的请求参数
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_842904168" CREATED="1645770047031" MODIFIED="1645770047031"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      info *UnaryServerInfo：RPC 方法的所有信息
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="handler UnaryHandler" ID="ID_1066885133" CREATED="1645770047033" MODIFIED="1645770220704">
+<node TEXT=" 自定义的RPC 方法，在拦截器最后执行" ID="ID_1335430692" CREATED="1645770223007" MODIFIED="1645770541999"/>
+<node ID="ID_327159496" CREATED="1645770215463" MODIFIED="1645770215463"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      hander(ctx, req) 执行的自定义的Rpc方法
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="空白" ID="ID_1724742790" CREATED="1645764704764" MODIFIED="1645764710295">
+<node ID="ID_725451113" CREATED="1645764711459" MODIFIED="1645764726068"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;(i *interceptor) <font color="#dcdcaa">MyServerInterceptor</font>(ctx context.Context,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;req <font color="#569cd6">interface</font>{}, info *grpc.UnaryServerInfo,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;handler grpc.UnaryHandler) (resp <font color="#569cd6">interface</font>{}, err <font color="#4ec9b0">error</font>) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// ...处理</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;<font color="#dcdcaa">handler</font>(ctx, req)
+      </div>
+      <div>
+        }
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_581582422" CREATED="1645764729324" MODIFIED="1645764759576"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;(i *interceptor) <font color="#dcdcaa">VerifyRequst</font>(ctx context.Context,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;req <font color="#569cd6">interface</font>{}, info *grpc.UnaryServerInfo,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;handler grpc.UnaryHandler) (resp <font color="#569cd6">interface</font>{}, err <font color="#4ec9b0">error</font>) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 从ctx中的metadata(request.HEADER)中获取token</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">tkn</font>, <font color="#9cdcfe">err</font>&nbsp;:= <font color="#dcdcaa">getTokenFromCtx</font>(ctx)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;err != <font color="#569cd6">nil</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;<font color="#569cd6">nil</font>, err
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// jwt验证</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">userID</font>, <font color="#9cdcfe">err</font>&nbsp;:= i.verifier.<font color="#dcdcaa">Verify</font>(tkn)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;err != <font color="#569cd6">nil</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;<font color="#569cd6">nil</font>, status.<font color="#dcdcaa">Error</font>(codes.Unauthenticated, <font color="#ce9178">&quot;&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 注入userID</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ctx</font>&nbsp;= <font color="#dcdcaa">ContextWithUserID</font>(ctx, userID)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;<font color="#dcdcaa">handler</font>(ctx, req)
+      </div>
+      <div>
+        }
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT=" UnaryClientInterceptor 客户端" ID="ID_207531121" CREATED="1645765406980" MODIFIED="1645765412550">
+<node TEXT="    // 加上拦截器&#xa;   opts = append(opts, grpc.WithUnaryInterceptor(Clientinterceptor))&#xa;&#xa;   conn, err := grpc.Dial(Address, opts...)" ID="ID_1156127087" CREATED="1645765479148" MODIFIED="1645765481158"/>
+</node>
+</node>
+<node TEXT="流式拦截器 StreamInterceptor" ID="ID_566275198" CREATED="1645765154790" MODIFIED="1645765170618">
+<node TEXT=" StreamServerInterceptor" ID="ID_959056276" CREATED="1645765599803" MODIFIED="1645765601710"/>
+<node TEXT=" StreamClientInterceptor" ID="ID_200226570" CREATED="1645765605497" MODIFIED="1645765606486"/>
+</node>
+</node>
+<node TEXT="链式拦截器" ID="ID_187058286" CREATED="1645770410446" MODIFIED="1645770417095">
+<node TEXT=" 利用 Golang 的闭包 / 递归特性，在包装一下hander(ctx, req)实现" ID="ID_306284085" CREATED="1645770638812" MODIFIED="1645770672187"/>
+<node TEXT="注意" ID="ID_99366043" CREATED="1645765521019" MODIFIED="1645765523156">
+<node TEXT="服务器只能配置一个 UnaryInterceptor和StreamClientInterceptor，否则会报错" ID="ID_358784663" CREATED="1645765174446" MODIFIED="1645765518606"/>
+<node TEXT=" 客户端只有最后一个配置才起作用" ID="ID_377883749" CREATED="1645765519186" MODIFIED="1645765557338"/>
+<node TEXT=" 想配置多个，可以使用拦截器链，如go-grpc-middleware，或者自己实现" ID="ID_552888725" CREATED="1645765581867" MODIFIED="1645765583326"/>
+</node>
+<node TEXT=" 新版本的 gRPC内置的链式 Interceptor 实现" ID="ID_131185551" CREATED="1645770435869" MODIFIED="1645770466791">
+<node TEXT=" WithChainUnaryInterceptor" ID="ID_1403321427" CREATED="1645770445118" MODIFIED="1645770449216"/>
+<node TEXT="  WithChainStreamInterceptor" ID="ID_606579617" CREATED="1645770449414" MODIFIED="1645770450478"/>
+</node>
+</node>
+</node>
+<node TEXT="从grpc context 获取authenticated beaere token" ID="ID_719520006" CREATED="1645765709097" MODIFIED="1645765806458">
+<node ID="ID_1975724698" CREATED="1645765742601" MODIFIED="1645765980762"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">getTokenFromCtx</font>(ctx context.Context) (<font color="#4ec9b0">string</font>, <font color="#4ec9b0">error</font>) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">unauthenticated</font>&nbsp;:= status.<font color="#dcdcaa">Error</font>(codes.Unauthenticated, <font color="#ce9178">&quot;&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 从ctx中的metadata(request.HEADER)中获取token</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">md</font>, <font color="#9cdcfe">ok</font>&nbsp;:= metadata.<font color="#dcdcaa">FromIncomingContext</font>(ctx)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;!ok {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;<font color="#ce9178">&quot;&quot;</font>, unauthenticated
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">tkn</font>&nbsp;<font color="#4ec9b0">string</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 可以有多个authorization Header</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">for</font>&nbsp;<font color="#9cdcfe">_</font>, <font color="#9cdcfe">v</font>&nbsp;:= <font color="#c586c0">range</font>&nbsp;md[<font color="#ce9178">&quot;authorization&quot;</font>] {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;strings.<font color="#dcdcaa">HasPrefix</font>(v, <font color="#ce9178">&quot;Bearer &quot;</font>) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">tkn</font>&nbsp;&nbsp;= v[<font color="#dcdcaa">len</font>(<font color="#ce9178">&quot;Bearer &quot;</font>):]
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">break</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;tkn == <font color="#ce9178">&quot;&quot;</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;<font color="#ce9178">&quot;&quot;</font>, unauthenticated
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;tkn, <font color="#569cd6">nil</font>
+      </div>
+      <div>
+        }
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="grpc-gateway" ID="ID_1799151257" CREATED="1645710849886" MODIFIED="1645765728148"/>
+<node TEXT=" 服务发现" ID="ID_618125047" CREATED="1645606588926" MODIFIED="1645606591305">
+<node TEXT=" 客户端路由" ID="ID_1808763681" CREATED="1645606606238" MODIFIED="1645606607175">
+<node TEXT=" 调用方负责获取被调用方的地址信息，并使用相应的负载均衡算法发起请求" ID="ID_1034416964" CREATED="1645606631278" MODIFIED="1645606632336"/>
+<node TEXT="&lt;注册服务&gt;维护正在启动中的服务信息。服务启动时，向&lt;注册服务&gt;进行注册。退出时，请求注销" ID="ID_1956588190" CREATED="1645606645365" MODIFIED="1645606896375"/>
+<node TEXT="客户端访问&lt;注册服务&gt;，获取服务列表(ip、端口)" ID="ID_1034569207" CREATED="1645606703783" MODIFIED="1645606798159"/>
+<node TEXT=" 调用方通过负载均衡算法选取其中一个服务发起请求" ID="ID_534267840" CREATED="1645606766412" MODIFIED="1645606808621"/>
+</node>
+<node TEXT=" 代理层路由" ID="ID_1316755888" CREATED="1645606607621" MODIFIED="1645606907258">
+<node TEXT=" 不是由调用方去获取被调方的地址，而是通过代理的方式，由代理去获取被调方的地址、发起调用请求" ID="ID_1964092533" CREATED="1645606917082" MODIFIED="1645606918290"/>
+<node TEXT="客户端简单调用Proxy，Proxy请求&lt;注册服务&gt;，Proxy请求具体服务" ID="ID_260545769" CREATED="1645606918897" MODIFIED="1645607003120"/>
+<node TEXT="代理层去进行 server 寻址、负载均衡等" ID="ID_1018431801" CREATED="1645607009250" MODIFIED="1645607023337"/>
+</node>
+<node TEXT="grpc是客户端路由模式" ID="ID_618866644" CREATED="1645607036530" MODIFIED="1645607046602"/>
+<node TEXT=" grpc 的服务发现，主要通过 resolver 接口去定义，支持业务自己实现服务发现的 resolver" ID="ID_1109498180" CREATED="1645607366494" MODIFIED="1645607368407"/>
+</node>
+<node TEXT="负载均衡" ID="ID_1847847480" CREATED="1645607480421" MODIFIED="1645607493575">
+<node TEXT=" grpc 的负载均衡是基于一次请求而不是一次连接的" ID="ID_341062559" CREATED="1645607501965" MODIFIED="1645607503011"/>
+<node TEXT=" 来自同一个客户端的连接的多个请求，这些请求还是会被均衡到所有服务器" ID="ID_1233306722" CREATED="1645607511939" MODIFIED="1645607541016"/>
+</node>
 </node>
 <node TEXT="微服务" POSITION="right" ID="ID_470252743" CREATED="1639632241502" MODIFIED="1639632246106">
 <edge COLOR="#7c7c00"/>
@@ -8555,14 +10048,34 @@
 </node>
 <node TEXT="" ID="ID_67276990" CREATED="1639632997126" MODIFIED="1639632997126"/>
 </node>
+<node TEXT="目录" ID="ID_1086093109" CREATED="1644581945188" MODIFIED="1644581952809">
+<node TEXT="server 服务器根目录" ID="ID_1419311705" CREATED="1644581953044" MODIFIED="1644581968326">
+<node TEXT="auth服务" ID="ID_801333955" CREATED="1644581971765" MODIFIED="1644591030716">
+<node TEXT="auth 逻辑" ID="ID_272269309" CREATED="1644581976131" MODIFIED="1644581983175"/>
+<node TEXT="dao 持久层" ID="ID_1935967778" CREATED="1644581983346" MODIFIED="1644582033978"/>
+<node TEXT="api" ID="ID_753367941" CREATED="1644581991043" MODIFIED="1644646947350">
+<node TEXT="grpc 的配置与生成代码" ID="ID_246243412" CREATED="1644646947931" MODIFIED="1644647453315"/>
+<node TEXT="gen 目录放生成的代码" ID="ID_1506862177" CREATED="1644647411297" MODIFIED="1644647441987"/>
+<node TEXT="auth.proto" ID="ID_570518385" CREATED="1644647352384" MODIFIED="1644647360069"/>
+<node TEXT="auth.yaml" ID="ID_1328374306" CREATED="1644647360408" MODIFIED="1644647366387"/>
+</node>
+<node TEXT="wechat 第三方服务接入" ID="ID_1340155309" CREATED="1644647527503" MODIFIED="1644647540331"/>
+</node>
+<node TEXT="gateway服务" ID="ID_83932053" CREATED="1644646886823" MODIFIED="1644647034424">
+<node TEXT="grpc转换json，暴露接口" ID="ID_1847230398" CREATED="1644646979492" MODIFIED="1644647028878"/>
+</node>
+<node TEXT="shared 各服务共享代码目录" ID="ID_848442606" CREATED="1644647548511" MODIFIED="1644647573873"/>
+<node TEXT="cmd" ID="ID_138213650" CREATED="1644654625242" MODIFIED="1644654627467"/>
+</node>
+</node>
 </node>
 <node TEXT="mongodb" POSITION="right" ID="ID_1891010478" CREATED="1641877639034" MODIFIED="1641877648859">
 <edge COLOR="#00ff00"/>
-<node TEXT="引入" ID="ID_972111145" CREATED="1641877650437" MODIFIED="1641877663095">
+<node TEXT="引入" FOLDED="true" ID="ID_972111145" CREATED="1641877650437" MODIFIED="1641877663095">
 <node TEXT=" go get go.mongodb.org/mongo-driver/mongo" ID="ID_1850446437" CREATED="1641877808069" MODIFIED="1641877811529"/>
 </node>
-<node TEXT="查找单条" ID="ID_1627132529" CREATED="1641879734929" MODIFIED="1641880009098">
-<node ID="ID_924648414" CREATED="1641879912489" MODIFIED="1641879926231"><richcontent TYPE="NODE">
+<node TEXT="连接并获取集合" FOLDED="true" ID="ID_1291183567" CREATED="1644493575049" MODIFIED="1644493602676">
+<node ID="ID_1704275806" CREATED="1644493605082" MODIFIED="1644495659841"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -8571,17 +10084,93 @@
   <body>
     <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
       <div>
-        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
-      </div>
-      <div>
         &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ctx</font>&nbsp;:= context.<font color="#dcdcaa">Background</font>()
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">mc</font>, <font color="#9cdcfe">_</font>&nbsp;:= mongo.<font color="#dcdcaa">Connect</font>(ctx, options.<font color="#dcdcaa">Client</font>().<font color="#dcdcaa">ApplyURI</font>(<font color="#ce9178">&quot;mongodb://localhost:27017&quot;</font>))
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">mc</font>, <font color="#9cdcfe">_</font>&nbsp;:= mongo.<font color="#dcdcaa">Connect</font>(ctx,
       </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;options.<font color="#dcdcaa">Client</font>().<font color="#dcdcaa">ApplyURI</font>(<font color="#ce9178">&quot;mongodb://localhost:27017&quot;</font>))
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">db</font>&nbsp;:= mc.<font color="#dcdcaa">Database</font>(<font color="#ce9178">&quot;coolcar&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">col</font>&nbsp;:= db.<font color="#dcdcaa">Collection</font>(<font color="#ce9178">&quot;account&quot;</font>)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="插入一条" FOLDED="true" ID="ID_1267173478" CREATED="1644494561449" MODIFIED="1644494566372">
+<node TEXT="col.InsertOne" ID="ID_1272506192" CREATED="1644494577553" MODIFIED="1644494583249"/>
+<node ID="ID_1312355961" CREATED="1644494568192" MODIFIED="1644494572602"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
       <div>
         &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">col</font>&nbsp;:= mc.<font color="#dcdcaa">Database</font>(<font color="#ce9178">&quot;coolcar&quot;</font>).<font color="#dcdcaa">Collection</font>(<font color="#ce9178">&quot;account&quot;</font>)
       </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">res</font>, <font color="#9cdcfe">err</font>&nbsp;:= col.<font color="#dcdcaa">InsertOne</font>(ctx, bson.M{<font color="#ce9178">&quot;openid&quot;</font>: <font color="#ce9178">&quot;aaa&quot;</font>})
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Printf</font>(<font color="#ce9178">&quot;</font><font color="#9cdcfe">%+v</font><font color="#ce9178">&nbsp;</font><font color="#9cdcfe">%+v</font><font color="#d7ba7d">\n</font><font color="#ce9178">&quot;</font>, res.InsertedID, err)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="插入多条" FOLDED="true" ID="ID_52169791" CREATED="1644493558464" MODIFIED="1644493563492">
+<node TEXT="col.InsertMany" ID="ID_54978442" CREATED="1644495056621" MODIFIED="1644495062821"/>
+<node ID="ID_1428636789" CREATED="1644495048259" MODIFIED="1644495054545"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">res</font>, <font color="#9cdcfe">err</font>&nbsp;:= col.<font color="#dcdcaa">InsertMany</font>(ctx, []<font color="#569cd6">interface</font>{}{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bson.M{<font color="#ce9178">&quot;openid&quot;</font>: <font color="#ce9178">&quot;111&quot;</font>},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bson.M{<font color="#ce9178">&quot;openid&quot;</font>: <font color="#ce9178">&quot;222&quot;</font>},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;})
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Printf</font>(<font color="#ce9178">&quot;</font><font color="#9cdcfe">%+v</font><font color="#ce9178">&nbsp;</font><font color="#9cdcfe">%+v</font><font color="#d7ba7d">\n</font><font color="#ce9178">&quot;</font>, res.InsertedIDs, err)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="查找单条" FOLDED="true" ID="ID_1627132529" CREATED="1641879734929" MODIFIED="1641880009098">
+<node TEXT="col.FindOne" ID="ID_34718086" CREATED="1644493507867" MODIFIED="1644493514228"/>
+<node TEXT="Decode是有可能出错了，返回err" ID="ID_1029653109" CREATED="1644495351852" MODIFIED="1644495363724"/>
+<node ID="ID_924648414" CREATED="1641879912489" MODIFIED="1645670021780"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
       <div>
         &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">sr</font>&nbsp;:= col.<font color="#dcdcaa">FindOne</font>(ctx, bson.M{})
       </div>
@@ -8589,10 +10178,13 @@
         &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">row</font>&nbsp;<font color="#569cd6">struct</font>&nbsp;{
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID &nbsp;&nbsp;&nbsp; <font color="#4ec9b0">string</font>&nbsp; <font color="#ce9178">`bson:&quot;_id&quot;`</font>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 字段需要大写开头才能Decode</font>
       </div>
       <div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OpenID <font color="#4ec9b0">string</font>&nbsp;<font color="#ce9178">`bson:&quot;openid&quot;`</font>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID &nbsp;&nbsp;&nbsp;&nbsp;primitive.ObjectID <font color="#ce9178">`bson:&quot;_id&quot;`</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OpenID <font color="#4ec9b0">string</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#ce9178">`bson:&quot;openid&quot;`</font>
       </div>
       <div>
         &nbsp;&nbsp;&nbsp;&nbsp;}
@@ -8603,17 +10195,15 @@
       <div>
         &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Printf</font>(<font color="#ce9178">&quot;</font><font color="#9cdcfe">%+v</font><font color="#d7ba7d">\n</font><font color="#ce9178">&quot;</font>, row)
       </div>
-      <div>
-        }
-      </div>
     </div>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node TEXT="查找多条" ID="ID_1631310076" CREATED="1641880001592" MODIFIED="1641880006506">
-<node ID="ID_25941600" CREATED="1641880188431" MODIFIED="1641880205451"><richcontent TYPE="NODE">
+<node TEXT="查找多条" FOLDED="true" ID="ID_1631310076" CREATED="1641880001592" MODIFIED="1645860111321" VGAP_QUANTITY="6.9 pt">
+<node TEXT="col.Find" ID="ID_388048823" CREATED="1644493516515" MODIFIED="1644493519413"/>
+<node ID="ID_25941600" CREATED="1641880188431" MODIFIED="1645860111320"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -8670,6 +10260,820 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="删除" FOLDED="true" ID="ID_356199509" CREATED="1644495478194" MODIFIED="1644495485651">
+<node TEXT="DeleteOne" ID="ID_1972677338" CREATED="1645154370788" MODIFIED="1645154377856"/>
+<node TEXT="DeleteMany" ID="ID_1415240073" CREATED="1645154377995" MODIFIED="1645154382823"/>
+<node ID="ID_1800228430" CREATED="1645154241259" MODIFIED="1645180638913"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">del</font>&nbsp;:= <font color="#569cd6">func</font>(uid <font color="#4ec9b0">string</font>, col *mongo.Collection) <font color="#4ec9b0">int64</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">objID</font>, <font color="#9cdcfe">_</font>&nbsp;:= primitive.<font color="#dcdcaa">ObjectIDFromHex</font>(uid)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#9cdcfe">res</font>, <font color="#9cdcfe">err</font>&nbsp;:= col.<font color="#dcdcaa">DeleteOne</font>(ctx, &amp;bson.M{<font color="#ce9178">&quot;_id&quot;</font>: objID})
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;err != <font color="#569cd6">nil</font>&nbsp;&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;t.<font color="#dcdcaa">Fatal</font>(<font color="#ce9178">&quot;failed to delete:&quot;</font>, err)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;res.DeletedCount
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="修改" FOLDED="true" ID="ID_1143550568" CREATED="1644495485825" MODIFIED="1644495490940">
+<node ID="ID_1281040295" CREATED="1645602020327" MODIFIED="1645602024110"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// r, err := col.InsertOne(ctx, bson.M{</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// &nbsp;&quot;username&quot;: &quot;update&quot;,</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// &nbsp;&quot;d1&quot;: bson.M{</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;d11&quot;: &quot;d11&quot;,</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// &nbsp;},</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// &nbsp;&quot;d2&quot;: bson.M{</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;d21&quot;: &quot;d21&quot;,</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// &nbsp;},</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// })</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// fmt.Println(&quot;insert result:&quot;, r, err)</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">r</font>, <font color="#9cdcfe">err</font>&nbsp;:= col.<font color="#dcdcaa">UpdateOne</font>(ctx,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bson.M{<font color="#ce9178">&quot;username&quot;</font>: <font color="#ce9178">&quot;update&quot;</font>},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bson.M{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#ce9178">&quot;$set&quot;</font>: bson.M{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#ce9178">&quot;d1.d11&quot;</font>: <font color="#ce9178">&quot;d11 2 d111&quot;</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}})
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;update result:&quot;</font>, r, err)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="UpdateOne" ID="ID_1788432301" CREATED="1645602032942" MODIFIED="1645602037914"/>
+<node TEXT="UpdateMany" ID="ID_852279060" CREATED="1645602038076" MODIFIED="1645602041160"/>
+<node TEXT="用$set，不存在修改字段则新增" ID="ID_362209228" CREATED="1645602123277" MODIFIED="1645602158600"/>
+<node TEXT="用$unset可以删除字段(区别字段值置空)" ID="ID_429584586" CREATED="1645602159140" MODIFIED="1645602187167"/>
+</node>
+<node TEXT="强类型化ID" FOLDED="true" ID="ID_1155591367" CREATED="1645860756185" MODIFIED="1645860763964">
+<node TEXT="原由" ID="ID_931819198" CREATED="1645862531539" MODIFIED="1645862534654">
+<node TEXT="如有两个mongo集合 user、session" ID="ID_1865499790" CREATED="1645860837886" MODIFIED="1645862596756"/>
+<node TEXT=" user._id 用 userID 类型传值，session_id 用 seesionID类型传值" ID="ID_321805508" CREATED="1645862587841" MODIFIED="1645862589053"/>
+</node>
+<node TEXT="好处" ID="ID_412961805" CREATED="1645862520787" MODIFIED="1645862522511">
+<node TEXT="id 如果都是string类型，可读性与易用性不如用一个特定的自定义类型" ID="ID_748629111" CREATED="1645860767408" MODIFIED="1645862842186"/>
+<node TEXT="强类型化id之后，传参不会传错，可读性强" ID="ID_908024098" CREATED="1645860912470" MODIFIED="1645860962984"/>
+</node>
+<node TEXT="方案" ID="ID_1918070002" CREATED="1645862490427" MODIFIED="1645862517029">
+<node TEXT="定义自定义类型" ID="ID_41080917" CREATED="1645863050230" MODIFIED="1645863058481">
+<node ID="ID_1913081965" CREATED="1645862566787" MODIFIED="1645862578214"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#6a9955">// UserID is the user id</font>
+      </div>
+      <div>
+        <font color="#569cd6">type</font>&nbsp;<font color="#4ec9b0">UserID</font>&nbsp;<font color="#4ec9b0">string</font>
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#569cd6">func</font>&nbsp;(u UserID) <font color="#dcdcaa">String</font>() <font color="#4ec9b0">string</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;<font color="#dcdcaa">string</font>(u)
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="将传参的 userID string 改成 userID id.UserID，处理ide的类型报错即可（静态强类型语言对重构友好）" ID="ID_23952911" CREATED="1645862611410" MODIFIED="1645862697276"/>
+</node>
+<node TEXT="各个区分类型的相互传换问题" ID="ID_1294787197" CREATED="1645860978501" MODIFIED="1645861000184">
+<node TEXT="写数据库时需要是OjbID，函数调用时需要是特定类型" ID="ID_1775279029" CREATED="1645861032886" MODIFIED="1645861064815"/>
+<node TEXT="这个本质上都是同一个字符串，需要方便的转换" ID="ID_1217052089" CREATED="1645861003366" MODIFIED="1645861088310"/>
+<node ID="ID_1573156582" CREATED="1645862714985" MODIFIED="1645862812424"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#6a9955">// ToObjID convert Stringer to ObjID.</font>
+      </div>
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">ToObjID</font>(sid fmt.Stringer) (primitive.ObjectID, <font color="#4ec9b0">error</font>) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 只要sid实现了String方法，即可调用</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;primitive.<font color="#dcdcaa">ObjectIDFromHex</font>(sid.<font color="#dcdcaa">String</font>())
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+      
+
+      <div>
+        <font color="#6a9955">// ToUserID convert ObjectID to UserID.</font>
+      </div>
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">ToUserID</font>(oid primitive.ObjectID) id.UserID {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;id.<font color="#dcdcaa">UserID</font>(oid.<font color="#dcdcaa">Hex</font>())
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="docker" FOLDED="true" POSITION="right" ID="ID_1160555709" CREATED="1644655998548" MODIFIED="1644656000751">
+<edge COLOR="#00ffff"/>
+<node TEXT="获取docker并连接" ID="ID_1130915751" CREATED="1644657892002" MODIFIED="1644657902165">
+<node TEXT=" go get github.com/docker/docker/client" ID="ID_1408479165" CREATED="1644657915794" MODIFIED="1644657916774"/>
+<node ID="ID_1169350568" CREATED="1644657933067" MODIFIED="1644657935991"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 连接到docker</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">c</font>, <font color="#9cdcfe">err</font>&nbsp;:= client.<font color="#dcdcaa">NewClientWithOpts</font>(client.FromEnv, client.<font color="#dcdcaa">WithAPIVersionNegotiation</font>())
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;err != <font color="#569cd6">nil</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#dcdcaa">panic</font>(err)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="  创建容器" ID="ID_69151870" CREATED="1644657943954" MODIFIED="1644657944791">
+<node ID="ID_966109223" CREATED="1644657970984" MODIFIED="1644658231411"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 创建容器</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">res</font>, <font color="#9cdcfe">err</font>&nbsp;:= c.<font color="#dcdcaa">ContainerCreate</font>(
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ctx,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;container.Config{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Image: <font color="#ce9178">&quot;mongo&quot;</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ExposedPorts: nat.PortSet{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#ce9178">&quot;27017/tcp&quot;</font>: {},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;container.HostConfig{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PortBindings: nat.PortMap{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#ce9178">&quot;27017/tcp&quot;</font>: []nat.PortBinding{{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HostIP: &nbsp; <font color="#ce9178">&quot;127.0.0.1&quot;</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HostPort: <font color="#ce9178">&quot;0&quot;</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#569cd6">nil</font>, <font color="#569cd6">nil</font>, <font color="#ce9178">&quot;&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;err != <font color="#569cd6">nil</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#dcdcaa">panic</font>(err)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">containerID</font>&nbsp;:= res.ID
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="启动容器与删除容器" ID="ID_943514823" CREATED="1644657994833" MODIFIED="1644658007146">
+<node ID="ID_725633801" CREATED="1644658032713" MODIFIED="1644658215659"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 启动容器</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;c.<font color="#dcdcaa">ContainerStart</font>(ctx, containerID, types.ContainerStartOptions{})
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 删除容器</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">defer</font>&nbsp;c.<font color="#dcdcaa">ContainerRemove</font>(ctx, containerID,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;types.ContainerRemoveOptions{Force: <font color="#569cd6">true</font>})
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="获取容器在主机的ip与端口" ID="ID_1459837034" CREATED="1644658037834" MODIFIED="1644658049314">
+<node ID="ID_30064635" CREATED="1644658056752" MODIFIED="1644658247261"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 获取容器状态</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">cInfo</font>, <font color="#9cdcfe">_</font>&nbsp;:= c.<font color="#dcdcaa">ContainerInspect</font>(ctx, containerID)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">ports</font>&nbsp;:= cInfo.NetworkSettings.Ports[<font color="#ce9178">&quot;27017/tcp&quot;</font>][<font color="#b5cea8">0</font>]
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(ports.HostIP, ports.HostPort)
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="鉴权" POSITION="right" ID="ID_1893977913" CREATED="1645535390327" MODIFIED="1645535402855">
+<edge COLOR="#7c7c00"/>
+<node TEXT="SSL/TLS" ID="ID_597119780" CREATED="1645602864584" MODIFIED="1645602871564">
+<node TEXT="概念" ID="ID_1975321898" CREATED="1645603032216" MODIFIED="1645603035963">
+<node TEXT=" 互联网的通信安全，建立在SSL/TLS协议之上" ID="ID_506664836" CREATED="1645603207271" MODIFIED="1645603208064"/>
+</node>
+<node TEXT="作用" ID="ID_1367652263" CREATED="1645603062368" MODIFIED="1645603063849">
+<node TEXT=" 所有信息都是加密传播，避免窃听风险" ID="ID_1983862919" CREATED="1645603119450" MODIFIED="1645603132855"/>
+<node TEXT="  具有校验机制，一旦被篡改，通信双方会立刻发现" ID="ID_924570831" CREATED="1645603133649" MODIFIED="1645603140353"/>
+<node TEXT=" 配备身份证书，防止身份被冒充" ID="ID_1281463978" CREATED="1645603141120" MODIFIED="1645603149962"/>
+</node>
+<node TEXT="基本思路" ID="ID_1379833305" CREATED="1645603064089" MODIFIED="1645603089898">
+<node TEXT=" SSL/TLS协议的基本思路是采用公钥加密法" ID="ID_1428739788" CREATED="1645602872706" MODIFIED="1645602880042"/>
+<node TEXT=" 客户端先向服务器端索要公钥，然后用公钥加密信息" ID="ID_482958889" CREATED="1645602880994" MODIFIED="1645602893579"/>
+<node TEXT=" 服务器收到密文后，用自己的私钥解密" ID="ID_408782129" CREATED="1645602893881" MODIFIED="1645602894835"/>
+</node>
+<node TEXT=" 如何保证公钥不被篡改" ID="ID_1691789923" CREATED="1645603235320" MODIFIED="1645603236745">
+<node TEXT=" 将公钥放在数字证书中。只要证书是可信的，公钥就是可信的" ID="ID_1738733532" CREATED="1645603240415" MODIFIED="1645603241654"/>
+</node>
+<node TEXT=" 公钥加密计算量太大，如何减少耗用的时间" ID="ID_1788210531" CREATED="1645603244809" MODIFIED="1645603251784">
+<node TEXT="对称加密运算快，引入&quot;对话密钥&quot;（session key）" ID="ID_675942225" CREATED="1645603599727" MODIFIED="1645603861712"/>
+<node TEXT="客户端与服务器每次会话生成对话密钥" ID="ID_1117440328" CREATED="1645603640174" MODIFIED="1645603905738"/>
+<node TEXT="客户端用公钥加密对话密钥，对话密钥加密通信内容" ID="ID_966819605" CREATED="1645603701997" MODIFIED="1645603742728"/>
+<node TEXT="服务器用私钥解密对话密钥，再用对话密钥解密通信内容" ID="ID_1813327545" CREATED="1645603743284" MODIFIED="1645603795088"/>
+</node>
+</node>
+<node TEXT="Cookie" ID="ID_296860022" CREATED="1645620208514" MODIFIED="1645620217075">
+<node TEXT="概念" ID="ID_576159663" CREATED="1645620223496" MODIFIED="1645620230194">
+<node TEXT=" Cookie存在客户端中，保存用户偏好设置，易泄露" ID="ID_294607623" CREATED="1645620230375" MODIFIED="1645620925661"/>
+<node TEXT="客户端自动保存请求响应头Set-Cookie: &lt;cookie名&gt;=&lt;cookie值&gt;" ID="ID_180317810" CREATED="1645620237064" MODIFIED="1645620311563"/>
+<node TEXT="客户端在每次的请求中会加上Cookie" ID="ID_1919493399" CREATED="1645620285479" MODIFIED="1645620322215"/>
+<node TEXT="可以存个SessionID，而不存状态数据" ID="ID_597079712" CREATED="1645620338320" MODIFIED="1645620356393"/>
+</node>
+</node>
+<node TEXT="Session" ID="ID_1970719376" CREATED="1644840756487" MODIFIED="1644840760844">
+<node TEXT="概念" ID="ID_652665718" CREATED="1644840769776" MODIFIED="1644840777827">
+<node TEXT=" Session存在服务器中，是给客户端存一个随机的字符串session_id，不直接存储数据。" ID="ID_382762682" CREATED="1645620381609" MODIFIED="1645620383471"/>
+<node TEXT="&quot;Session&quot;本身不带信息，只是Session表的索引ID" ID="ID_600611675" CREATED="1644840556034" MODIFIED="1644840707582"/>
+<node TEXT=" Session表(sessionID, accountID, loginTime, expire...)" ID="ID_58636101" CREATED="1644840620241" MODIFIED="1644840670878"/>
+<node TEXT="相关状态数据(如用户信息、过期时间)保存于服务器" ID="ID_304930047" CREATED="1645608290022" MODIFIED="1645608317583"/>
+</node>
+<node TEXT="过程" ID="ID_1162937250" CREATED="1645608339180" MODIFIED="1645608341143">
+<node TEXT="服务器为登陆成功的用户生成SessionID，返回给客户端(Set-Cookie: )" ID="ID_1345946679" CREATED="1645607834849" MODIFIED="1645608387606"/>
+<node TEXT=" 客户端一般将 SessionId 以 Cookie 的形式记录下来，后续请求传递 Cookie 来验证身份" ID="ID_315553919" CREATED="1645607884569" MODIFIED="1645607949764"/>
+<node TEXT="服务器维护Session表，每个无状态的HTTP请求，通过协带的SessionID来确认用户，实现用户状态保持" ID="ID_1181720340" CREATED="1644840859657" MODIFIED="1645608146955"/>
+<node TEXT=" 为了避免 Session Id被第三者截取和盗用，客户端和应用之前应使用 TLS 加密通信，session 也会设置有过期时间" ID="ID_1298095133" CREATED="1645607990431" MODIFIED="1645608017518"/>
+</node>
+<node TEXT="问题" ID="ID_733005162" CREATED="1645608324318" MODIFIED="1645608327399">
+<node TEXT="状态在服务器，认证服务容易成为单点" ID="ID_1820999699" CREATED="1645608424602" MODIFIED="1645608459253"/>
+<node TEXT="查Session表，容易成为性能瓶颈" ID="ID_1356806981" CREATED="1644840785656" MODIFIED="1644840833396"/>
+</node>
+</node>
+<node TEXT="JWT" ID="ID_837020635" CREATED="1644840507059" MODIFIED="1645535412085">
+<node TEXT="概念" ID="ID_944125746" CREATED="1644840510721" MODIFIED="1644840519516">
+<node TEXT=" 服务器认证以后，生成一个 JSON 对象，发回给用户" ID="ID_1281089948" CREATED="1644841054255" MODIFIED="1644841063568"/>
+<node TEXT=" JWT 默认是不加密的，JSON使用 Base64URL 算法转成字符串" ID="ID_795077503" CREATED="1644841439620" MODIFIED="1644841456235"/>
+<node TEXT="由客户端存储状态，服务器不再保存状态(如Session)" ID="ID_613485386" CREATED="1644841064511" MODIFIED="1644841306007"/>
+<node TEXT="查验JWT签名，就完全可以相信JWT所携带的数据" ID="ID_745535686" CREATED="1644927695209" MODIFIED="1644927754667"/>
+<node TEXT="私钥对Header和Payoad签名，公钥验证签名" ID="ID_43891740" CREATED="1645602943305" MODIFIED="1645603014493"/>
+</node>
+<node TEXT="优缺点" ID="ID_201835087" CREATED="1644841571787" MODIFIED="1644841580132">
+<node TEXT="状态数据在token" ID="ID_521833252" CREATED="1645621903286" MODIFIED="1645621918794">
+<node TEXT="服务器变成无状态了，从而比较容易实现扩展" ID="ID_503676080" CREATED="1644841306710" MODIFIED="1644841327623"/>
+<node TEXT=" 有效使用 JWT，可以降低服务器查询数据库的次数" ID="ID_1002573006" CREATED="1645621937510" MODIFIED="1645621938480"/>
+<node TEXT=" 一旦 JWT 签发了，在到期之前就会始终有效。 无法在使用过程中废止某个 token，或者更改 token 的权限。除非额外实现逻辑" ID="ID_874621988" CREATED="1644841580594" MODIFIED="1644841654277"/>
+<node TEXT="服务器无状态数据，意味着用户token泄露也无法及时中止。(一般设置比较短的有效期)" ID="ID_1424913469" CREATED="1644927623147" MODIFIED="1644927817330"/>
+<node TEXT=" 为了减少盗用，JWT 不应该使用 HTTP 协议明码传输，要使用 HTTPS 协议传输" ID="ID_1682901497" CREATED="1645621952551" MODIFIED="1645621953445"/>
+</node>
+</node>
+<node TEXT="结构" ID="ID_1343802423" CREATED="1644841340390" MODIFIED="1644841345343">
+<node TEXT="&quot;Header.Payload.Signature&quot;" ID="ID_1184133474" CREATED="1644841350140" MODIFIED="1644841360393"/>
+<node TEXT="算法" ID="ID_1281668493" CREATED="1644843819411" MODIFIED="1644843826206">
+<node TEXT=" 算法是验证jwt的信息合法性，信息本身还是明文" ID="ID_228513402" CREATED="1644843830972" MODIFIED="1644843872517"/>
+<node TEXT=" HA256算法，对称签名。用密码加密，服务间共享这个密码，来验证JWT" ID="ID_1206622275" CREATED="1644843670254" MODIFIED="1644927852514"/>
+<node TEXT="RS256算法，非对称签名。用私钥签名，其它服务用公钥验证签名即可" ID="ID_22633123" CREATED="1644843735150" MODIFIED="1644927861634"/>
+</node>
+</node>
+<node TEXT="使用" ID="ID_633744378" CREATED="1644841698969" MODIFIED="1645622225319" VGAP_QUANTITY="6.9 pt">
+<node TEXT="存放" ID="ID_1935257770" CREATED="1644841740290" MODIFIED="1644841742405">
+<node TEXT="JWT可以储存在 Cookie 里面，也可以储存在 localStorage" ID="ID_493604921" CREATED="1644841712232" MODIFIED="1644841755220"/>
+</node>
+<node TEXT="请求" ID="ID_1309207669" CREATED="1644841723881" MODIFIED="1645622225319">
+<node TEXT=" 放在 Cookie 里面自动发送，但是这样不能跨域" ID="ID_639723041" CREATED="1644841762291" MODIFIED="1644841763191"/>
+<node TEXT=" 更好的做法是放在 HTTP 请求的头信息Authorization字段里面，&quot;Bearer &quot; + token" ID="ID_1411100489" CREATED="1644841777881" MODIFIED="1645706016275"/>
+</node>
+</node>
+<node TEXT="go-jwt" ID="ID_1770815245" CREATED="1645619659597" MODIFIED="1645619666661">
+<node TEXT="私钥签名" ID="ID_599636631" CREATED="1645619667292" MODIFIED="1645619690238">
+<node ID="ID_915108126" CREATED="1645619794683" MODIFIED="1645619825949"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">jtk</font>&nbsp;:= jwt.<font color="#dcdcaa">NewWithClaims</font>(
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jwt.SigningMethodRS512,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jwt.StandardClaims{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ExpiresAt: expire,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IssuedAt: &nbsp;now,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Issuer: &nbsp;&nbsp;&nbsp;<font color="#ce9178">&quot;gService&quot;</font>,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subject: &nbsp;&nbsp;userID,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#6a9955">// 签名，生成token</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">tk</font>, <font color="#9cdcfe">err</font>&nbsp;:= jtk.<font color="#dcdcaa">SignedString</font>(j.privateKey)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="公钥验证" ID="ID_256313690" CREATED="1645619670973" MODIFIED="1645619694590">
+<node ID="ID_100828788" CREATED="1645619915617" MODIFIED="1645619919203"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">jtk</font>, <font color="#9cdcfe">err</font>&nbsp;:= jwt.<font color="#dcdcaa">ParseWithClaims</font>(
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;token,
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;jwt.StandardClaims{},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#569cd6">func</font>(t *jwt.Token) (<font color="#569cd6">interface</font>{}, <font color="#4ec9b0">error</font>) {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">return</font>&nbsp;&nbsp;j.publicKey, <font color="#569cd6">nil</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#9cdcfe">clm</font>, <font color="#9cdcfe">ok</font>&nbsp;:= jtk.Claims.(*jwt.StandardClaims)
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="grpc通信安全" ID="ID_740353304" CREATED="1645608509460" MODIFIED="1645622295288">
+<node TEXT=" grpc-go 认证鉴权是通过 tls + oauth2 实现的" ID="ID_903564122" CREATED="1645608517763" MODIFIED="1645608518742"/>
+<node TEXT="tls 保证通信的安全性, oahth2控制权限" ID="ID_633352250" CREATED="1645609867609" MODIFIED="1645609915007"/>
+<node TEXT="在内网就没有必要用tls了，直接grpc.WithInsecure()" ID="ID_402317804" CREATED="1645608619642" MODIFIED="1645608652885"/>
+<node TEXT="外网Web，TSL需要证书放公钥" ID="ID_1358596791" CREATED="1645608654289" MODIFIED="1645608709683"/>
+<node TEXT="外网是grpc客户端" ID="ID_370976980" CREATED="1645608764729" MODIFIED="1645608796308">
+<node TEXT=" 生成证书" ID="ID_1365013662" CREATED="1645608911399" MODIFIED="1645608912402">
+<node TEXT=" 生成私钥" ID="ID_920199302" CREATED="1645608917119" MODIFIED="1645608918079">
+<node TEXT=" openssl ecparam -genkey -name secp384r1 -out server.key" ID="ID_1982669327" CREATED="1645608921311" MODIFIED="1645608922230"/>
+</node>
+<node TEXT=" 使用私钥生成证书" ID="ID_1396334671" CREATED="1645608927090" MODIFIED="1645608928332">
+<node TEXT=" openssl req -new -x509 -sha256 -key server.key -out server.pem -days 3650" ID="ID_951802896" CREATED="1645608933494" MODIFIED="1645608934628"/>
+</node>
+<node TEXT=" 填写信息（注意 Common Name 要填写服务名）" ID="ID_1165162164" CREATED="1645608948825" MODIFIED="1645608950322"/>
+</node>
+<node TEXT="服务器" ID="ID_1376522498" CREATED="1645608798072" MODIFIED="1645608801466">
+<node TEXT="c, err := credentials.NewServerTLSFromFile(&quot;../keys/server.pem&quot;, &quot;../keys/server.key&quot;)&#xa;lis, err := net.Listen(&quot;tcp&quot;, port)&#xa;s := grpc.NewServer(grpc.Creds(c))" ID="ID_766739002" CREATED="1645608801697" MODIFIED="1645608877579"/>
+</node>
+<node TEXT="客户端" ID="ID_337913772" CREATED="1645608880497" MODIFIED="1645608894740">
+<node TEXT=" cred, err := credentials.NewClientTLSFromFile(&quot;../keys/server.pem&quot;, &quot;helloauth&quot;)&#xa;conn, err := grpc.Dial(address, grpc.WithTransportCredentials(cred))&#xa;c := pb.NewGreeterClient(conn)" ID="ID_334339411" CREATED="1645609761642" MODIFIED="1645609768752"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="goroutine调度" POSITION="right" ID="ID_187888495" CREATED="1645002647781" MODIFIED="1645002663489">
+<edge COLOR="#00007c"/>
+<node TEXT=" GMP 模型" ID="ID_293204292" CREATED="1645002688032" MODIFIED="1645002688830">
+<node TEXT=" G" ID="ID_70818005" CREATED="1645066267626" MODIFIED="1645066269440">
+<node TEXT=" G表示 Goroutine，它是一个待执行的任务" ID="ID_478098779" CREATED="1645066277451" MODIFIED="1645066282621"/>
+<node TEXT="G最终在M上得以执行" ID="ID_1450612337" CREATED="1645002738231" MODIFIED="1645066445057"/>
+<node TEXT="G在调度器M上执行与切换，类似线程在进程上，只是G比线程内存占用更小" ID="ID_1072867652" CREATED="1645066438752" MODIFIED="1645066531781"/>
+</node>
+<node TEXT=" M" ID="ID_610739051" CREATED="1645066301166" MODIFIED="1645066302089">
+<node TEXT=" M表示Machine ，是操作系统的线程" ID="ID_1820622302" CREATED="1645066316191" MODIFIED="1645068656913"/>
+<node TEXT="M由操作系统的调度器调度和管理，M的活跃个数默认为cpu个数" ID="ID_1285443512" CREATED="1645066324519" MODIFIED="1645067311557"/>
+<node TEXT=" 创建初始的 m，称为 m0, m0会启动一个调度循环：不断地找 g，执行，再找 g……" ID="ID_1837795195" CREATED="1645002890101" MODIFIED="1645066351948"/>
+</node>
+<node TEXT="P" ID="ID_469907245" CREATED="1645066356151" MODIFIED="1645066357090">
+<node TEXT=" P表示处理器，作为G与M的中间层" ID="ID_1125261931" CREATED="1645066365289" MODIFIED="1645066385082"/>
+<node TEXT="P可以被看做运行在线程上的本地调度器" ID="ID_1247212705" CREATED="1645066395624" MODIFIED="1645066399842"/>
+<node TEXT=" P能提供线程需要的上下文环境，也会负责调度线程上的等待队列" ID="ID_1997581960" CREATED="1645067398897" MODIFIED="1645067401564"/>
+<node TEXT=" 通过处理器 P 的调度，每一个内核线程都能够执行多个 Goroutine，它能在 Goroutine 进行一些 I/O 操作时及时让出计算资源，提高线程的利用率" ID="ID_1646591475" CREATED="1645067416226" MODIFIED="1645067417255"/>
+</node>
+</node>
+</node>
+<node TEXT="反射" POSITION="right" ID="ID_550440958" CREATED="1645004119920" MODIFIED="1645004133863">
+<edge COLOR="#007c00"/>
+<node TEXT="用处" ID="ID_1317392889" CREATED="1645004211707" MODIFIED="1645004214829">
+<node TEXT=" reflect反射是程序在运行期间检查其自身结构的一种方式" ID="ID_237442627" CREATED="1645004513768" MODIFIED="1645004526998"/>
+<node TEXT=" 反射作为一种元编程方式可以减少重复代码" ID="ID_1274955386" CREATED="1645004549377" MODIFIED="1645004550590"/>
+<node TEXT="反射能力，能够让程序操作不同类型的对象" ID="ID_516766083" CREATED="1645004220963" MODIFIED="1645004557315"/>
+<node TEXT=" 过量的使用反射会使逻辑变得难以理解并且运行缓慢" ID="ID_1338036209" CREATED="1645004570521" MODIFIED="1645004591119"/>
+</node>
+<node TEXT=" reflect.TypeOf" ID="ID_990278982" CREATED="1645004249962" MODIFIED="1645004251027">
+<node TEXT="获取任意变量的类型" ID="ID_748285261" CREATED="1645004258903" MODIFIED="1645004295944"/>
+</node>
+<node TEXT=" reflect.ValueOf" ID="ID_461017213" CREATED="1645004254227" MODIFIED="1645004255160">
+<node ID="ID_228689169" CREATED="1645004265973" MODIFIED="1645004265973"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      能获取数据的运行时表示
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" 反射的三大法则" ID="ID_1978513105" CREATED="1645004615384" MODIFIED="1645004616186">
+<node TEXT=" 第一法则" ID="ID_1336343756" CREATED="1645004810766" MODIFIED="1645004811535">
+<node TEXT=" 从 interface{} 变量可以反射出反射对象" ID="ID_1223655607" CREATED="1645004624167" MODIFIED="1645004625044"/>
+<node TEXT=" 由于 reflect.TypeOf、reflect.ValueOf 两个方法的入参都是 interface{} 类型，任何入参都会被类型转换成interface{}类型" ID="ID_966692639" CREATED="1645004902829" MODIFIED="1645004940611"/>
+</node>
+<node TEXT=" 从反射对象可以获取 interface{} 变量" ID="ID_668404530" CREATED="1645004630056" MODIFIED="1645004630794"/>
+<node TEXT=" 要修改反射对象，其值必须可设置" ID="ID_1104165264" CREATED="1645004637879" MODIFIED="1645004639207"/>
+</node>
+</node>
+<node TEXT="panic和recover" POSITION="right" ID="ID_1533438798" CREATED="1645005299483" MODIFIED="1645005314573">
+<edge COLOR="#7c007c"/>
+<node TEXT=" panic" ID="ID_205782307" CREATED="1645005356683" MODIFIED="1645005357475">
+<node TEXT=" panic 能够改变程序的控制流" ID="ID_432255535" CREATED="1645005362219" MODIFIED="1645005363044"/>
+<node TEXT=" 调用 panic 后会立刻停止执行当前函数的剩余代码" ID="ID_350896262" CREATED="1645005369027" MODIFIED="1645005370472"/>
+<node TEXT="panic 只会触发当前 Goroutine 的 defer" ID="ID_1885619963" CREATED="1645005386082" MODIFIED="1645009641741"/>
+<node TEXT=" panic 允许在 defer 中嵌套多次调用" ID="ID_1745691006" CREATED="1645009664787" MODIFIED="1645009665999"/>
+</node>
+<node TEXT=" recover" ID="ID_354618434" CREATED="1645005402972" MODIFIED="1645005408380">
+<node TEXT=" 可以中止 panic 造成的程序崩溃" ID="ID_1087859367" CREATED="1645005414369" MODIFIED="1645005415193"/>
+<node TEXT="recover 只有在 defer 中调用才会生效" ID="ID_1458017594" CREATED="1645005426763" MODIFIED="1645009652035"/>
+</node>
+<node TEXT="defer 跨协程失效" ID="ID_589194474" CREATED="1645009714338" MODIFIED="1645009718701">
+<node TEXT=" panic 只会触发当前 Goroutine 的延迟函数调用" ID="ID_1073509748" CREATED="1645009726905" MODIFIED="1645009727836"/>
+<node TEXT=" 一个 Goroutine 在 panic 时也不会执行其他 Goroutine 的defer函数" ID="ID_1085494288" CREATED="1645010002254" MODIFIED="1645010021386"/>
+<node ID="ID_1856844194" CREATED="1645009858113" MODIFIED="1645009861409"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">defer</font>&nbsp;<font color="#dcdcaa">println</font>(<font color="#ce9178">&quot;main defer&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">go</font>&nbsp;<font color="#569cd6">func</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">defer</font>&nbsp;<font color="#dcdcaa">println</font>(<font color="#ce9178">&quot;g1 defer&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#dcdcaa">panic</font>(<font color="#ce9178">&quot;g1&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 只有这个goroutine的defer才会执行</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}()
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;time.<font color="#dcdcaa">Sleep</font>(<font color="#b5cea8">1</font>&nbsp;* time.Second)
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT=" 该示例中main defer不会被执行" ID="ID_1828316649" CREATED="1645009866769" MODIFIED="1645009919220"/>
+</node>
+<node TEXT=" 崩溃恢复" ID="ID_852656663" CREATED="1645010620233" MODIFIED="1645010621108">
+<node ID="ID_869706011" CREATED="1645010626225" MODIFIED="1645010629501"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <font color="#569cd6">func</font>&nbsp;<font color="#dcdcaa">main</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">defer</font>&nbsp;fmt.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;in main&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#c586c0">defer</font>&nbsp;<font color="#569cd6">func</font>() {
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#c586c0">if</font>&nbsp;<font color="#9cdcfe">err</font>&nbsp;:= <font color="#dcdcaa">recover</font>(); err != <font color="#569cd6">nil</font>&nbsp;{
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 拦截panic，从而不中断程序</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// panic后面的代码不会执行</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#6a9955">// 可以在这里进行一些恢复的操作</font>
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(<font color="#ce9178">&quot;recover&quot;</font>, err)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;}()
+      </div>
+      <br/>
+      
+
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#dcdcaa">panic</font>(<font color="#ce9178">&quot;unknown err&quot;</font>)
+      </div>
+      <div>
+        }
+      </div>
+      <br/>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="文本处理" POSITION="right" ID="ID_1412807987" CREATED="1645015494492" MODIFIED="1645015501545">
+<edge COLOR="#007c7c"/>
+<node TEXT="文本查找" ID="ID_1467551298" CREATED="1645015501692" MODIFIED="1645015511432">
+<node TEXT="string.Contains" ID="ID_1257839383" CREATED="1645087193409" MODIFIED="1645087206491">
+<node ID="ID_1640493864" CREATED="1645087344141" MODIFIED="1645087348282"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">in1</font>&nbsp;<font color="#4ec9b0">bool</font>&nbsp;= strings.<font color="#dcdcaa">Contains</font>(<font color="#ce9178">&quot;abcd&quot;</font>, <font color="#ce9178">&quot;bc&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">in2</font>&nbsp;<font color="#4ec9b0">bool</font>&nbsp;= strings.<font color="#dcdcaa">Contains</font>(<font color="#ce9178">&quot;abcd&quot;</font>, <font color="#ce9178">&quot;bb&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(in1, in2) &nbsp;<font color="#6a9955">// true false</font>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=" func Index(s, sep string) int" ID="ID_709721302" CREATED="1645087431764" MODIFIED="1645087433324">
+<node TEXT="返回查找文本的索引或-1" ID="ID_1206181977" CREATED="1645087433667" MODIFIED="1645087504653"/>
+<node TEXT="Contains的内部实现" ID="ID_709079565" CREATED="1645087505284" MODIFIED="1645087516509"/>
+</node>
+<node TEXT="regexp" ID="ID_753867845" CREATED="1645088017985" MODIFIED="1645088030705">
+<node ID="ID_1891999452" CREATED="1645088032705" MODIFIED="1645088037282"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, Courier New, monospace; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">in11</font>&nbsp;<font color="#4ec9b0">bool</font>&nbsp;= regexp.<font color="#dcdcaa">MustCompile</font>(<font color="#ce9178">`bc\w`</font>).<font color="#dcdcaa">MatchString</font>(<font color="#ce9178">&quot;abcd&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp; <font color="#569cd6">var</font>&nbsp;<font color="#9cdcfe">in22</font>&nbsp;<font color="#4ec9b0">bool</font>&nbsp;= regexp.<font color="#dcdcaa">MustCompile</font>(<font color="#ce9178">`bb\w`</font>).<font color="#dcdcaa">MatchString</font>(<font color="#ce9178">&quot;abcd&quot;</font>)
+      </div>
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;fmt.<font color="#dcdcaa">Println</font>(in11, in22) &nbsp;<font color="#6a9955">// true false</font>
+      </div>
+      <div>
+        }
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="文本更替" ID="ID_398504169" CREATED="1645015511602" MODIFIED="1645089260408"/>
+<node TEXT="文本截取" ID="ID_895002863" CREATED="1645015522187" MODIFIED="1645015528327"/>
 </node>
 </node>
 </map>
